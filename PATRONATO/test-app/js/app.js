@@ -33,6 +33,7 @@
         state.errors = mergedData.errors || [];
         state.history = mergedData.history || [];
         updateStatsBar();
+        renderPendingQuizBanner();
       });
     }
   }
@@ -1046,6 +1047,7 @@
   function saveActiveQuizState() {
     if (!state.currentQuiz || state.currentQuiz.isFinished) return;
     const qz = state.currentQuiz;
+    const now = Date.now();
     const dataToSave = {
       title: qz.title,
       badge: qz.badge,
@@ -1056,20 +1058,25 @@
       interactiveChecked: qz.interactiveChecked || {},
       isFinished: false,
       elapsedSeconds: qz.elapsedSeconds || 0,
-      savedAt: Date.now()
+      savedAt: now
     };
     try {
       localStorage.setItem('patronato_active_quiz', JSON.stringify(dataToSave));
+      localStorage.setItem('patronato_active_quiz_updated_at', now.toString());
     } catch (e) {
       console.warn('No se pudo guardar el test activo en localStorage:', e);
     }
+    if (window.SyncService) window.SyncService.triggerAutoSave();
   }
 
   function clearActiveQuizState() {
+    const now = Date.now();
     try {
       localStorage.removeItem('patronato_active_quiz');
+      localStorage.setItem('patronato_active_quiz_updated_at', now.toString());
     } catch (e) {}
     renderPendingQuizBanner();
+    if (window.SyncService) window.SyncService.triggerAutoSave();
   }
 
   window.pauseAndSaveQuiz = function () {

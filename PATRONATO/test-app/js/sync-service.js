@@ -15,12 +15,21 @@ const SyncService = (function () {
    * Recopila todo el estado actual del usuario
    */
   function collectLocalData() {
+    let activeQuiz = null;
+    try {
+      activeQuiz = JSON.parse(localStorage.getItem('patronato_active_quiz') || 'null');
+    } catch (e) {}
+
+    const activeQuizUpdatedAt = parseInt(localStorage.getItem('patronato_active_quiz_updated_at') || '0', 10);
+
     return {
       version: 2,
       theme: localStorage.getItem('patronato_theme') || 'light',
       favorites: JSON.parse(localStorage.getItem('patronato_favorites') || '[]'),
       errors: JSON.parse(localStorage.getItem('patronato_errors') || '[]'),
       history: JSON.parse(localStorage.getItem('patronato_history') || '[]'),
+      activeQuiz: activeQuiz,
+      activeQuizUpdatedAt: activeQuizUpdatedAt,
       updatedAt: new Date().toISOString()
     };
   }
@@ -42,6 +51,14 @@ const SyncService = (function () {
     }
     if (remoteData.theme) {
       localStorage.setItem('patronato_theme', remoteData.theme);
+    }
+    if (remoteData.activeQuizUpdatedAt !== undefined) {
+      localStorage.setItem('patronato_active_quiz_updated_at', remoteData.activeQuizUpdatedAt.toString());
+      if (remoteData.activeQuiz) {
+        localStorage.setItem('patronato_active_quiz', JSON.stringify(remoteData.activeQuiz));
+      } else {
+        localStorage.removeItem('patronato_active_quiz');
+      }
     }
     return true;
   }
@@ -67,12 +84,26 @@ const SyncService = (function () {
       return new Date(b.date || 0) - new Date(a.date || 0);
     });
 
+    // Fusión del test en curso según la fecha de modificación más reciente
+    const localQuizTime = local.activeQuizUpdatedAt || (local.activeQuiz && local.activeQuiz.savedAt) || 0;
+    const remoteQuizTime = remote.activeQuizUpdatedAt || (remote.activeQuiz && remote.activeQuiz.savedAt) || 0;
+
+    let mergedActiveQuiz = local.activeQuiz;
+    let mergedActiveQuizUpdatedAt = localQuizTime;
+
+    if (remoteQuizTime > localQuizTime) {
+      mergedActiveQuiz = remote.activeQuiz || null;
+      mergedActiveQuizUpdatedAt = remoteQuizTime;
+    }
+
     return {
       version: 2,
       theme: local.theme || remote.theme || 'light',
       favorites: Array.from(favSet),
       errors: Array.from(errSet),
       history: mergedHistory,
+      activeQuiz: mergedActiveQuiz,
+      activeQuizUpdatedAt: mergedActiveQuizUpdatedAt,
       updatedAt: new Date().toISOString()
     };
   }
@@ -111,7 +142,8 @@ const SyncService = (function () {
 
         // Si el usuario tenía datos locales que la nube no tenía, sincronizar la fusión a la nube
         if (JSON.stringify(merged.history) !== JSON.stringify(remoteData.history) ||
-            merged.favorites.length !== remoteData.favorites.length) {
+            merged.favorites.length !== remoteData.favorites.length ||
+            merged.activeQuizUpdatedAt !== remoteData.activeQuizUpdatedAt) {
           triggerAutoSave();
         }
 
@@ -121,7 +153,7 @@ const SyncService = (function () {
         updateBadge('saved');
       } else {
         // La nube está vacía todavía: subir el progreso local inicial
-        if (localData.history.length > 0 || localData.favorites.length > 0 || localData.errors.length > 0) {
+        if (localData.history.length > 0 || localData.favorites.length > 0 || localData.errors.length > 0 || localData.activeQuiz) {
           triggerAutoSave();
         } else {
           updateBadge('saved');
