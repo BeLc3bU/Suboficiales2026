@@ -43,7 +43,68 @@
         console.log('Nota: Service Worker offline no registrado:', err);
       });
     }
+    setupPwaInstallPrompt();
   }
+
+  // --- PWA INSTALL PROMPT ---
+  let deferredPrompt = null;
+  function setupPwaInstallPrompt() {
+    const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+    if (isStandalone) return; // Ya está instalada
+
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      showPwaBanner();
+    });
+
+    // En iOS Safari, mostrar cómo instalar si es móvil y no está instalada
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    if (isIOS && !isStandalone) {
+      setTimeout(() => {
+        const dismissed = localStorage.getItem('patronato_pwa_dismissed');
+        if (!dismissed) {
+          const desc = document.getElementById('pwa-banner-desc');
+          if (desc) desc.textContent = 'En Safari: pulsa el botón Compartir (cuadrado con flecha) y "Añadir a pantalla de inicio".';
+          const btn = document.getElementById('btn-pwa-install');
+          if (btn) btn.textContent = 'ℹ️ Cómo instalar';
+          showPwaBanner();
+        }
+      }, 3000);
+    }
+  }
+
+  function showPwaBanner() {
+    const banner = document.getElementById('pwa-install-banner');
+    if (!banner) return;
+    const dismissed = localStorage.getItem('patronato_pwa_dismissed');
+    if (dismissed && Date.now() - parseInt(dismissed, 10) < 1000 * 60 * 60 * 24 * 7) {
+      return; // No volver a molestar en 7 días si se cerró
+    }
+    banner.style.display = 'flex';
+
+    const btnInstall = document.getElementById('btn-pwa-install');
+    if (btnInstall) {
+      btnInstall.onclick = async () => {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          const { outcome } = await deferredPrompt.userChoice;
+          if (outcome === 'accepted') {
+            dismissPwaBanner();
+          }
+          deferredPrompt = null;
+        } else {
+          alert('Para instalar en iPhone/iPad:\n1. Pulsa el botón "Compartir" (cuadrado con flecha hacia arriba).\n2. Selecciona "Añadir a la pantalla de inicio".');
+        }
+      };
+    }
+  }
+
+  window.dismissPwaBanner = function () {
+    const banner = document.getElementById('pwa-install-banner');
+    if (banner) banner.style.display = 'none';
+    localStorage.setItem('patronato_pwa_dismissed', Date.now().toString());
+  };
 
   function applyTheme(theme) {
     state.theme = theme;

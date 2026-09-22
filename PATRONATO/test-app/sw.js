@@ -7,7 +7,9 @@ const ASSETS = [
   './js/app.js',
   './js/sync-service.js',
   './js/questions-data.js',
-  './manifest.json'
+  './manifest.json',
+  './icons/icon-192.png',
+  './icons/icon-512.png'
 ];
 
 self.addEventListener('install', (e) => {

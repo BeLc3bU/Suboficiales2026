@@ -11,8 +11,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Suboficiales">
   <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231e3a8a'/><text x='50' y='68' font-size='60' text-anchor='middle'>🎖️</text></svg>">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎖️</text></svg>">
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="shortcut icon" href="icons/icon-192.png">
   
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
@@ -270,6 +272,21 @@
     </section>
 
   </main>
+
+  <!-- PWA Install Prompt Banner (Para Android / iOS) -->
+  <div class="pwa-install-banner" id="pwa-install-banner" style="display: none;">
+    <div class="pwa-banner-content">
+      <img src="icons/icon-192.png" alt="Icono Suboficiales" class="pwa-banner-icon">
+      <div class="pwa-banner-text">
+        <strong>Instalar Aplicación</strong>
+        <p id="pwa-banner-desc">Instala la app en tu móvil para usarla a pantalla completa y sin conexión.</p>
+      </div>
+    </div>
+    <div class="pwa-banner-actions">
+      <button class="btn btn-primary btn-sm" id="btn-pwa-install">📲 Instalar</button>
+      <button class="btn btn-outline btn-sm" id="btn-pwa-dismiss" onclick="dismissPwaBanner()">✕</button>
+    </div>
+  </div>
 
 
   <!-- Modal: Cómo actualizar con nuevos ejercicios -->
