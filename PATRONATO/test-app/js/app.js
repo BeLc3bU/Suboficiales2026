@@ -231,18 +231,19 @@
     showView('view-dashboard');
     updateStatsBar();
     renderTopics();
+    renderPendingQuizBanner();
   }
 
   window.showDashboard = function () {
     if (state.currentQuiz && !state.currentQuiz.isFinished) {
-      if (!confirm('¿Seguro que deseas salir del test actual? El progreso se perderá.')) {
-        return;
-      }
       clearInterval(state.timerInterval);
+      saveActiveQuizState();
+      state.currentQuiz = null;
     }
     showView('view-dashboard');
     updateStatsBar();
     renderTopics();
+    renderPendingQuizBanner();
   };
 
   function showView(viewId) {
@@ -333,7 +334,26 @@
   }
 
   // --- QUIZ STARTING ---
+  function checkPendingBeforeStarting() {
+    const raw = localStorage.getItem('patronato_active_quiz');
+    if (raw) {
+      try {
+        const saved = JSON.parse(raw);
+        if (saved && saved.questions && saved.questions.length > 0 && !saved.isFinished) {
+          const userAns = saved.userAnswers || {};
+          const answered = Object.keys(userAns).filter(k => userAns[k] !== undefined && userAns[k] !== '').length;
+          return confirm(
+            `Tienes un test guardado sin terminar:\n"${saved.title}" (${answered}/${saved.questions.length} respondidas).\n\n` +
+            `Si comienzas un nuevo test, el test pendiente anterior se descartará.\n\n¿Deseas empezar este nuevo test de todas formas?`
+          );
+        }
+      } catch (e) {}
+    }
+    return true;
+  }
+
   window.startTopicQuiz = function (topicId, mode) {
+    if (!checkPendingBeforeStarting()) return;
     const data = window.TEST_DATA || { topics: [] };
     const topic = data.topics.find(t => t.id === topicId);
     if (!topic || !topic.questions || topic.questions.length === 0) {
@@ -350,6 +370,7 @@
   };
 
   window.startGlobalExam = function (count) {
+    if (!checkPendingBeforeStarting()) return;
     const all = getAllQuestions();
     if (all.length === 0) {
       alert('No hay preguntas disponibles.');
@@ -368,6 +389,7 @@
   };
 
   window.startErrorsQuiz = function () {
+    if (!checkPendingBeforeStarting()) return;
     if (state.errors.length === 0) {
       alert('¡Excelente! No tienes fallos pendientes en tu banco de errores.');
       return;
@@ -388,6 +410,7 @@
   };
 
   window.startFavsQuiz = function () {
+    if (!checkPendingBeforeStarting()) return;
     if (state.favorites.length === 0) {
       alert('Aún no has marcado preguntas con estrella como favoritas.');
       return;
@@ -423,6 +446,8 @@
       elapsedSeconds: 0
     };
 
+    saveActiveQuizState();
+
     // Update UI headers
     document.getElementById('quiz-title').textContent = title;
     document.getElementById('quiz-badge').textContent = badge;
@@ -439,6 +464,9 @@
       state.timerInterval = setInterval(() => {
         state.currentQuiz.elapsedSeconds++;
         updateTimerDisplay(state.currentQuiz.elapsedSeconds);
+        if (state.currentQuiz.elapsedSeconds % 5 === 0) {
+          saveActiveQuizState();
+        }
       }, 1000);
     } else {
       timerEl.style.display = 'none';
@@ -459,10 +487,18 @@
   }
 
   window.confirmExitQuiz = function () {
-    if (confirm('¿Deseas salir del test? El progreso actual no se guardará.')) {
-      clearInterval(state.timerInterval);
-      state.currentQuiz = null;
+    if (!state.currentQuiz) {
       showDashboard();
+      return;
+    }
+    const shouldSave = confirm(
+      '¿Deseas salir del test?\n\n' +
+      '• Pulsa ACEPTAR para guardar tu progreso y continuar más tarde.\n' +
+      '• Pulsa CANCELAR para seguir en el test.\n\n' +
+      '(Si deseas descartarlo definitivamente, podrás hacerlo desde el Menú Principal).'
+    );
+    if (shouldSave) {
+      pauseAndSaveQuiz();
     }
   };
 
@@ -598,6 +634,7 @@
       renderCurrentQuestion();
       renderSidebarGrid();
     }
+    saveActiveQuizState();
   }
 
   function renderInteractiveInput(q) {
@@ -632,6 +669,7 @@
     updateErrorsState(q.id, isCorrect);
     showPracticeFeedback(q, isCorrect);
     renderSidebarGrid();
+    saveActiveQuizState();
   };
 
   window.revealInteractiveAnswer = function () {
@@ -639,6 +677,7 @@
     const q = qz.questions[qz.currentIndex];
     qz.interactiveChecked[q.id] = true;
     showPracticeFeedback(q, false, true);
+    saveActiveQuizState();
   };
 
   function checkTextAnswer(userVal, correctVal) {
@@ -694,6 +733,7 @@
     if (newIdx >= 0 && newIdx < qz.questions.length) {
       qz.currentIndex = newIdx;
       renderCurrentQuestion();
+      saveActiveQuizState();
     }
   };
 
@@ -747,6 +787,7 @@
         qz.currentIndex = i;
         renderCurrentQuestion();
         closeQuestionsDrawer();
+        saveActiveQuizState();
       };
 
       grid.appendChild(btn);
@@ -788,6 +829,7 @@
 
     clearInterval(state.timerInterval);
     qz.isFinished = true;
+    clearActiveQuizState();
 
     // Evaluate
     let correct = 0;
@@ -997,6 +1039,197 @@
     if (sidebar) sidebar.classList.remove('drawer-open');
     if (backdrop) backdrop.classList.remove('drawer-open');
   };
+
+  // --- TEST PERSISTENCE & RESUME ---
+  function saveActiveQuizState() {
+    if (!state.currentQuiz || state.currentQuiz.isFinished) return;
+    const qz = state.currentQuiz;
+    const dataToSave = {
+      title: qz.title,
+      badge: qz.badge,
+      mode: qz.mode,
+      questions: qz.questions,
+      currentIndex: qz.currentIndex,
+      userAnswers: qz.userAnswers || {},
+      interactiveChecked: qz.interactiveChecked || {},
+      isFinished: false,
+      elapsedSeconds: qz.elapsedSeconds || 0,
+      savedAt: Date.now()
+    };
+    try {
+      localStorage.setItem('patronato_active_quiz', JSON.stringify(dataToSave));
+    } catch (e) {
+      console.warn('No se pudo guardar el test activo en localStorage:', e);
+    }
+  }
+
+  function clearActiveQuizState() {
+    try {
+      localStorage.removeItem('patronato_active_quiz');
+    } catch (e) {}
+    renderPendingQuizBanner();
+  }
+
+  window.pauseAndSaveQuiz = function () {
+    if (!state.currentQuiz || state.currentQuiz.isFinished) {
+      showDashboard();
+      return;
+    }
+    clearInterval(state.timerInterval);
+    saveActiveQuizState();
+    state.currentQuiz = null;
+    showDashboard();
+    showToast('⏸️ Test guardado. Podrás continuarlo cuando quieras desde el menú.');
+  };
+
+  function renderPendingQuizBanner() {
+    const container = document.getElementById('resume-test-container');
+    if (!container) return;
+
+    const raw = localStorage.getItem('patronato_active_quiz');
+    if (!raw) {
+      container.innerHTML = '';
+      return;
+    }
+
+    try {
+      const saved = JSON.parse(raw);
+      if (!saved || !saved.questions || saved.questions.length === 0 || saved.isFinished) {
+        container.innerHTML = '';
+        return;
+      }
+
+      const total = saved.questions.length;
+      const userAnswers = saved.userAnswers || {};
+      const answeredKeys = Object.keys(userAnswers).filter(k => userAnswers[k] !== undefined && userAnswers[k] !== '');
+      const answeredCount = answeredKeys.length;
+      const currentQNum = Math.min((saved.currentIndex || 0) + 1, total);
+      const progressPct = total > 0 ? Math.round((answeredCount / total) * 100) : 0;
+      
+      const isExam = saved.mode === 'exam';
+      const m = Math.floor((saved.elapsedSeconds || 0) / 60);
+      const s = (saved.elapsedSeconds || 0) % 60;
+      const formattedTime = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+
+      container.innerHTML = `
+        <div class="resume-banner">
+          <div class="resume-banner-top">
+            <div class="resume-badges-row">
+              <span class="resume-tag">⏸️ Test a medias</span>
+              <span class="card-badge ${isExam ? 'badge-blue' : 'badge-amber'}">${isExam ? '⏱️ Modo Examen' : '📖 Modo Práctica'}</span>
+              <span class="card-badge">${escapeHtml(saved.badge || 'Test')}</span>
+            </div>
+            <div style="font-size: 0.82rem; font-weight: 600; color: var(--text-muted);">
+              Progreso: <strong>${progressPct}%</strong>
+            </div>
+          </div>
+          
+          <h3 class="resume-title">${escapeHtml(saved.title)}</h3>
+          
+          <div class="resume-meta">
+            <span class="resume-meta-item">📌 En la pregunta <strong>${currentQNum} de ${total}</strong></span>
+            <span class="resume-meta-item">✏️ <strong>${answeredCount} de ${total}</strong> respondidas</span>
+            ${isExam ? `<span class="resume-meta-item">⏱️ Tiempo: <strong>${formattedTime}</strong></span>` : ''}
+          </div>
+
+          <div class="resume-progress-bar-wrap" title="${progressPct}% respondido">
+            <div class="resume-progress-fill" style="width: ${progressPct}%;"></div>
+          </div>
+
+          <div class="resume-actions">
+            <button class="btn btn-primary" onclick="resumeActiveQuiz()">
+              ▶ Continuar test (Pregunta ${currentQNum})
+            </button>
+            <button class="btn btn-outline btn-sm" onclick="discardActiveQuiz()">
+              🗑️ Descartar test
+            </button>
+          </div>
+        </div>
+      `;
+    } catch (e) {
+      console.warn('Error leyendo test pendiente:', e);
+      container.innerHTML = '';
+    }
+  }
+
+  window.resumeActiveQuiz = function () {
+    const raw = localStorage.getItem('patronato_active_quiz');
+    if (!raw) return;
+
+    try {
+      const saved = JSON.parse(raw);
+      if (!saved || !saved.questions || saved.questions.length === 0) return;
+
+      clearInterval(state.timerInterval);
+
+      state.currentQuiz = {
+        title: saved.title,
+        badge: saved.badge || 'Tema',
+        mode: saved.mode || 'practice',
+        questions: saved.questions,
+        currentIndex: Math.min(saved.currentIndex || 0, saved.questions.length - 1),
+        userAnswers: saved.userAnswers || {},
+        interactiveChecked: saved.interactiveChecked || {},
+        isFinished: false,
+        startTime: Date.now() - ((saved.elapsedSeconds || 0) * 1000),
+        elapsedSeconds: saved.elapsedSeconds || 0
+      };
+
+      // Header labels
+      document.getElementById('quiz-title').textContent = state.currentQuiz.title;
+      document.getElementById('quiz-badge').textContent = state.currentQuiz.badge;
+      const modeDesc = state.currentQuiz.mode === 'practice'
+        ? 'Modo Práctica • Corrección inmediata y explicación'
+        : 'Modo Examen • Sin corrección hasta finalizar (Corte: 70% Apto)';
+      document.getElementById('quiz-mode-desc').textContent = modeDesc;
+
+      // Timer
+      const timerEl = document.getElementById('quiz-timer');
+      if (state.currentQuiz.mode === 'exam') {
+        timerEl.style.display = 'inline-flex';
+        updateTimerDisplay(state.currentQuiz.elapsedSeconds);
+        state.timerInterval = setInterval(() => {
+          state.currentQuiz.elapsedSeconds++;
+          updateTimerDisplay(state.currentQuiz.elapsedSeconds);
+          if (state.currentQuiz.elapsedSeconds % 5 === 0) {
+            saveActiveQuizState();
+          }
+        }, 1000);
+      } else {
+        timerEl.style.display = 'none';
+      }
+
+      showView('view-quiz');
+      renderCurrentQuestion();
+      renderSidebarGrid();
+      showToast(`▶ Test reanudado en la pregunta ${state.currentQuiz.currentIndex + 1}`);
+    } catch (e) {
+      console.error('Error al reanudar test:', e);
+      alert('No se pudo reanudar el test.');
+    }
+  };
+
+  window.discardActiveQuiz = function () {
+    if (confirm('¿Seguro que deseas descartar este test pendiente? Se borrará todo el progreso de este intento.')) {
+      clearActiveQuizState();
+      showToast('🗑️ Test pendiente descartado.');
+    }
+  };
+
+  // Auto-guardado ante minimizado, cambio de pestaña o cierre
+  window.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'hidden') {
+      saveActiveQuizState();
+    }
+  });
+
+  window.addEventListener('pagehide', () => {
+    saveActiveQuizState();
+  });
+
+  window.addEventListener('beforeunload', () => {
+    saveActiveQuizState();
+  });
 
   // --- UTILS ---
   function escapeHtml(str) {

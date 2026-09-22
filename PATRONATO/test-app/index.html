@@ -52,6 +52,9 @@
 
     <!-- VIEW 1: DASHBOARD -->
     <section id="view-dashboard" class="view-section active">
+      <!-- Resume Pending Test Banner -->
+      <div id="resume-test-container"></div>
+
       <!-- Hero Banner -->
       <div class="hero-banner">
         <div class="hero-text">
@@ -135,7 +138,10 @@
           <button class="btn btn-outline btn-sm btn-mobile-grid-toggle" id="btn-toggle-drawer" onclick="toggleQuestionsDrawer()" title="Abrir Navegador de Preguntas">
             📋 <span id="mobile-grid-count">0/0</span>
           </button>
-          <button class="btn btn-outline btn-sm" id="btn-exit-quiz" onclick="confirmExitQuiz()">
+          <button class="btn btn-secondary btn-sm" id="btn-pause-quiz" onclick="pauseAndSaveQuiz()" title="Guardar progreso y continuar más tarde">
+            ⏸️ <span class="pause-btn-label">Pausar</span>
+          </button>
+          <button class="btn btn-outline btn-sm" id="btn-exit-quiz" onclick="confirmExitQuiz()" title="Salir del test">
             ✕ Salir
           </button>
         </div>
@@ -197,6 +203,9 @@
               ← Anterior
             </button>
             <div class="quiz-controls-right">
+              <button class="btn btn-secondary" id="btn-pause-quiz-bottom" onclick="pauseAndSaveQuiz()" title="Guardar progreso y continuar más tarde">
+                ⏸️ Continuar más tarde
+              </button>
               <button class="btn btn-accent" id="btn-finish-quiz" onclick="finishQuiz()">
                 ✓ Finalizar
               </button>
