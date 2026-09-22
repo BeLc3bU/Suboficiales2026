@@ -206,27 +206,52 @@ body {
   filter: brightness(0.9);
 }
 
-/* Cloud Status Dot */
-.cloud-status-dot {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
+/* AutoSave Badge */
+.autosave-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.32rem 0.65rem;
+  border-radius: 999px;
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.autosave-dot {
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
-  background-color: #94a3b8; /* default offline/unconfigured */
-  transition: background-color 0.2s ease;
+  background-color: var(--text-muted);
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
-.cloud-status-dot.synced {
+
+.autosave-badge.saved .autosave-dot {
   background-color: #10b981;
-  box-shadow: 0 0 6px rgba(16, 185, 129, 0.6);
+  box-shadow: 0 0 5px rgba(16, 185, 129, 0.5);
 }
-.cloud-status-dot.syncing {
+
+.autosave-badge.saving .autosave-dot {
   background-color: #f59e0b;
   animation: pulse-dot 1s infinite;
 }
 
+.autosave-badge.loading .autosave-dot {
+  background-color: #3b82f6;
+  animation: pulse-dot 1s infinite;
+}
+
+.autosave-badge.offline .autosave-dot {
+  background-color: #94a3b8;
+}
+
 @keyframes pulse-dot {
   0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.4; transform: scale(0.85); }
+  50% { opacity: 0.4; transform: scale(0.8); }
 }
 
 /* Container */

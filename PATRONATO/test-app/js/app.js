@@ -23,8 +23,19 @@
     initDashboard();
     setupGlobalEvents();
     registerServiceWorker();
-    checkInitialCloudSync();
+    initAutoSave();
   });
+
+  function initAutoSave() {
+    if (window.SyncService) {
+      window.SyncService.autoLoad((mergedData) => {
+        state.favorites = mergedData.favorites || [];
+        state.errors = mergedData.errors || [];
+        state.history = mergedData.history || [];
+        updateStatsBar();
+      });
+    }
+  }
 
   function registerServiceWorker() {
     if ('serviceWorker' in navigator && (window.location.protocol.startsWith('http') || window.location.protocol.startsWith('https'))) {
@@ -53,11 +64,6 @@
       themeBtn.addEventListener('click', () => {
         applyTheme(state.theme === 'dark' ? 'light' : 'dark');
       });
-    }
-
-    const syncBtn = document.getElementById('btn-cloud-sync');
-    if (syncBtn) {
-      syncBtn.addEventListener('click', openSyncModal);
     }
 
     const updateInfoBtn = document.getElementById('btn-update-info');
@@ -616,7 +622,7 @@
       }
     }
     localStorage.setItem('patronato_errors', JSON.stringify(state.errors));
-    triggerBackgroundCloudSync();
+    if (window.SyncService) window.SyncService.triggerAutoSave();
   }
 
   // --- NAVIGATION ---
@@ -640,7 +646,7 @@
       state.favorites.push(q.id);
     }
     localStorage.setItem('patronato_favorites', JSON.stringify(state.favorites));
-    triggerBackgroundCloudSync();
+    if (window.SyncService) window.SyncService.triggerAutoSave();
     renderCurrentQuestion();
   };
 
@@ -770,7 +776,7 @@
       timeSeconds: qz.elapsedSeconds
     });
     localStorage.setItem('patronato_history', JSON.stringify(state.history));
-    triggerBackgroundCloudSync();
+    if (window.SyncService) window.SyncService.triggerAutoSave();
 
     renderResultsScreen({
       total,
@@ -929,174 +935,6 @@
     const backdrop = document.getElementById('sidebar-backdrop');
     if (sidebar) sidebar.classList.remove('drawer-open');
     if (backdrop) backdrop.classList.remove('drawer-open');
-  };
-
-  // --- CLOUD SYNC & PERSISTENCE ---
-  let syncDebounceTimer = null;
-  function triggerBackgroundCloudSync() {
-    if (!window.SyncService || !window.SyncService.isConfigured()) return;
-
-    clearTimeout(syncDebounceTimer);
-    syncDebounceTimer = setTimeout(async () => {
-      setCloudIndicatorStatus('syncing');
-      try {
-        await window.SyncService.pushToSupabase(window.SyncService.collectLocalData());
-        setCloudIndicatorStatus('synced');
-      } catch (err) {
-        console.warn('Sincronización en segundo plano:', err);
-        setCloudIndicatorStatus('offline');
-      }
-    }, 1500);
-  }
-
-  function setCloudIndicatorStatus(status) {
-    const dot = document.getElementById('cloud-status-dot');
-    if (!dot) return;
-    dot.className = 'cloud-status-dot';
-    if (status === 'synced') {
-      dot.classList.add('synced');
-      dot.title = 'Sincronizado con la nube';
-    } else if (status === 'syncing') {
-      dot.classList.add('syncing');
-      dot.title = 'Sincronizando...';
-    } else {
-      dot.title = 'Modo local (Sin nube configurada)';
-    }
-  }
-
-  async function checkInitialCloudSync() {
-    if (!window.SyncService) return;
-    if (window.SyncService.isConfigured()) {
-      setCloudIndicatorStatus('syncing');
-      try {
-        const res = await window.SyncService.pullFromSupabase();
-        if (res.success && res.data) {
-          state.favorites = JSON.parse(localStorage.getItem('patronato_favorites') || '[]');
-          state.errors = JSON.parse(localStorage.getItem('patronato_errors') || '[]');
-          state.history = JSON.parse(localStorage.getItem('patronato_history') || '[]');
-          updateStatsBar();
-        }
-        setCloudIndicatorStatus('synced');
-      } catch (e) {
-        console.warn('Verificación inicial de nube:', e);
-        setCloudIndicatorStatus('offline');
-      }
-    } else {
-      setCloudIndicatorStatus('offline');
-    }
-  }
-
-  window.openSyncModal = function () {
-    if (!window.SyncService) return;
-    const modal = document.getElementById('modal-sync');
-    if (!modal) return;
-    const cfg = window.SyncService.getConfig();
-    const codeInput = document.getElementById('sync-code-input');
-    const urlInput = document.getElementById('sync-supabase-url');
-    const keyInput = document.getElementById('sync-supabase-key');
-    if (codeInput) codeInput.value = cfg.syncCode || '';
-    if (urlInput) urlInput.value = cfg.supabaseUrl || '';
-    if (keyInput) keyInput.value = cfg.supabaseKey || '';
-    updateSyncModalStatus();
-    modal.classList.add('show');
-  };
-
-  window.closeSyncModal = function () {
-    const modal = document.getElementById('modal-sync');
-    if (modal) modal.classList.remove('show');
-  };
-
-  window.saveUserSyncCode = async function () {
-    const input = document.getElementById('sync-code-input');
-    const val = input ? input.value.trim() : '';
-    if (!val) {
-      alert('Por favor, introduce un código de usuario (ejemplo: Pedro2026).');
-      return;
-    }
-    window.SyncService.saveConfig({ syncCode: val });
-    showToast(`✅ Código "${val}" guardado.`);
-    updateSyncModalStatus();
-    if (window.SyncService.isConfigured()) {
-      await performCloudSyncAction();
-    }
-  };
-
-  window.saveSupabaseSettings = async function () {
-    const url = (document.getElementById('sync-supabase-url')?.value || '').trim();
-    const key = (document.getElementById('sync-supabase-key')?.value || '').trim();
-    window.SyncService.saveConfig({ supabaseUrl: url, supabaseKey: key });
-    showToast('✅ Credenciales de Supabase guardadas.');
-    updateSyncModalStatus();
-    if (window.SyncService.isConfigured()) {
-      await performCloudSyncAction();
-    }
-  };
-
-  window.performCloudSyncAction = async function () {
-    const btn = document.getElementById('btn-run-cloud-sync');
-    const ind = document.getElementById('sync-status-indicator');
-    if (!window.SyncService.isConfigured()) {
-      alert('Para sincronizar con Supabase, introduce tu Código, la URL de tu proyecto y la Anon Key.');
-      return;
-    }
-    if (btn) btn.disabled = true;
-    if (ind) ind.textContent = 'Sincronizando...';
-    setCloudIndicatorStatus('syncing');
-
-    try {
-      await window.SyncService.pullFromSupabase();
-      state.favorites = JSON.parse(localStorage.getItem('patronato_favorites') || '[]');
-      state.errors = JSON.parse(localStorage.getItem('patronato_errors') || '[]');
-      state.history = JSON.parse(localStorage.getItem('patronato_history') || '[]');
-      updateStatsBar();
-      setCloudIndicatorStatus('synced');
-      if (ind) ind.textContent = '✓ Conectado y sincronizado';
-      showToast('☁️ ¡Progreso sincronizado con éxito!');
-    } catch (err) {
-      setCloudIndicatorStatus('offline');
-      if (ind) ind.textContent = '✕ Error de conexión';
-      alert(`Error al sincronizar: ${err.message}`);
-    } finally {
-      if (btn) btn.disabled = false;
-    }
-  };
-
-  function updateSyncModalStatus() {
-    const ind = document.getElementById('sync-status-indicator');
-    if (!ind) return;
-    if (window.SyncService && window.SyncService.isConfigured()) {
-      ind.textContent = '🟢 Conexión activa';
-      ind.style.color = 'var(--accent)';
-    } else {
-      ind.textContent = '⚪ Modo local (sin nube)';
-      ind.style.color = 'var(--text-muted)';
-    }
-  }
-
-  window.exportTransferCode = function () {
-    const pkg = window.SyncService.exportSyncPackage();
-    navigator.clipboard.writeText(pkg).then(() => {
-      showToast('📋 ¡Código de progreso copiado!');
-      alert('Código copiado al portapapeles. Pégalo en tu móvil o compártelo para transferir tu progreso de inmediato.');
-    }).catch(() => {
-      prompt('Copia este código de progreso:', pkg);
-    });
-  };
-
-  window.importTransferCode = function () {
-    const code = prompt('Pega aquí el código de progreso para este dispositivo:');
-    if (!code) return;
-    const res = window.SyncService.importSyncPackage(code);
-    if (res.success) {
-      state.favorites = JSON.parse(localStorage.getItem('patronato_favorites') || '[]');
-      state.errors = JSON.parse(localStorage.getItem('patronato_errors') || '[]');
-      state.history = JSON.parse(localStorage.getItem('patronato_history') || '[]');
-      updateStatsBar();
-      showToast('✅ ¡Progreso restaurado en este dispositivo!');
-      closeSyncModal();
-    } else {
-      alert(`Error al importar: ${res.error || 'Código no válido'}`);
-    }
   };
 
   // --- UTILS ---

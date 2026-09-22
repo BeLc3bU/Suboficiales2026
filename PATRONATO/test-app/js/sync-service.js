@@ -1,57 +1,22 @@
 /**
- * PATRONATO 2026 - Servicio de Sincronización Multidispositivo (SyncService)
- * Gestiona la sincronización del progreso (favoritas, fallos, historial)
- * entre diferentes dispositivos (PC, Móvil, Tablet) usando Supabase
- * o Copia/Restauración de sincronización rápida con código.
+ * PATRONATO 2026 - Gestor de Guardado Automático en la Nube (AutoSaveManager)
+ * 100% transparente: Guarda y carga automáticamente el progreso entre dispositivos
+ * sin códigos, sin registros y sin botones manuales.
  */
 
 const SyncService = (function () {
   'use strict';
 
-  const STORAGE_KEY_CONFIG = 'patronato_sync_config';
-  const STORAGE_KEY_LAST_SYNC = 'patronato_last_sync_time';
-
-  // Configuración por defecto
-  let config = {
-    syncCode: '', // Código personal (ej. Pedro2026)
-    supabaseUrl: '', // URL del proyecto Supabase
-    supabaseKey: '', // Clave anónima pública de Supabase
-    autoSync: true
-  };
-
-  // Cargar configuración guardada
-  try {
-    const saved = localStorage.getItem(STORAGE_KEY_CONFIG);
-    if (saved) {
-      config = { ...config, ...JSON.parse(saved) };
-    }
-  } catch (e) {
-    console.warn('Error al cargar config de sincronización:', e);
-  }
-
-  function saveConfig(newConfig) {
-    config = { ...config, ...newConfig };
-    localStorage.setItem(STORAGE_KEY_CONFIG, JSON.stringify(config));
-  }
-
-  function getConfig() {
-    return { ...config };
-  }
-
-  function isConfigured() {
-    return !!(config.syncCode && config.supabaseUrl && config.supabaseKey);
-  }
-
-  function hasSyncCode() {
-    return !!(config.syncCode && config.syncCode.trim().length >= 3);
-  }
+  let isSaving = false;
+  let saveTimeout = null;
+  let hasPendingChanges = false;
 
   /**
    * Recopila todo el estado actual del usuario
    */
   function collectLocalData() {
     return {
-      version: 1,
+      version: 2,
       theme: localStorage.getItem('patronato_theme') || 'light',
       favorites: JSON.parse(localStorage.getItem('patronato_favorites') || '[]'),
       errors: JSON.parse(localStorage.getItem('patronato_errors') || '[]'),
@@ -78,96 +43,18 @@ const SyncService = (function () {
     if (remoteData.theme) {
       localStorage.setItem('patronato_theme', remoteData.theme);
     }
-    localStorage.setItem(STORAGE_KEY_LAST_SYNC, new Date().toISOString());
     return true;
   }
 
   /**
-   * Sube los datos locales a Supabase
-   */
-  async function pushToSupabase(localData) {
-    if (!isConfigured()) return { success: false, reason: 'not_configured' };
-
-    const cleanCode = config.syncCode.trim().toLowerCase();
-    const endpoint = `${config.supabaseUrl.replace(/\/$/, '')}/rest/v1/user_sync`;
-
-    const payload = {
-      sync_code: cleanCode,
-      data: localData,
-      updated_at: new Date().toISOString()
-    };
-
-    const res = await fetch(endpoint, {
-      method: 'POST',
-      headers: {
-        'apikey': config.supabaseKey,
-        'Authorization': `Bearer ${config.supabaseKey}`,
-        'Content-Type': 'application/json',
-        'Prefer': 'resolution=merge-duplicates'
-      },
-      body: JSON.stringify(payload)
-    });
-
-    if (!res.ok) {
-      const errText = await res.text();
-      throw new Error(`Error en Supabase (${res.status}): ${errText}`);
-    }
-
-    localStorage.setItem(STORAGE_KEY_LAST_SYNC, new Date().toISOString());
-    return { success: true };
-  }
-
-  /**
-   * Descarga los datos de Supabase y combina con los locales
-   */
-  async function pullFromSupabase() {
-    if (!isConfigured()) return { success: false, reason: 'not_configured' };
-
-    const cleanCode = config.syncCode.trim().toLowerCase();
-    const endpoint = `${config.supabaseUrl.replace(/\/$/, '')}/rest/v1/user_sync?sync_code=eq.${encodeURIComponent(cleanCode)}&select=*`;
-
-    const res = await fetch(endpoint, {
-      method: 'GET',
-      headers: {
-        'apikey': config.supabaseKey,
-        'Authorization': `Bearer ${config.supabaseKey}`,
-        'Accept': 'application/json'
-      }
-    });
-
-    if (!res.ok) {
-      const errText = await res.text();
-      throw new Error(`Error al leer de Supabase (${res.status}): ${errText}`);
-    }
-
-    const rows = await res.json();
-    if (!rows || rows.length === 0) {
-      // No hay datos previos para este código en la nube; subir los locales
-      await pushToSupabase(collectLocalData());
-      return { success: true, created: true };
-    }
-
-    const remoteRow = rows[0];
-    const remoteData = remoteRow.data;
-
-    // Fusionar inteligentemente historial, fallos y favoritos
-    const localData = collectLocalData();
-    const mergedData = mergeStates(localData, remoteData);
-
-    applyRemoteData(mergedData);
-    await pushToSupabase(mergedData);
-
-    return { success: true, data: mergedData };
-  }
-
-  /**
-   * Fusión bidireccional inteligente: une listas sin duplicados
+   * Fusión inteligente bidireccional: une fallos, favoritas e historial sin duplicar
    */
   function mergeStates(local, remote) {
+    if (!remote) return local;
+
     const favSet = new Set([...(local.favorites || []), ...(remote.favorites || [])]);
     const errSet = new Set([...(local.errors || []), ...(remote.errors || [])]);
 
-    // Historial: unir por fecha o título/total para evitar duplicar el mismo intento
     const historyMap = new Map();
     [...(remote.history || []), ...(local.history || [])].forEach((h) => {
       const key = `${h.date || ''}_${h.title || ''}_${h.score || ''}`;
@@ -176,13 +63,12 @@ const SyncService = (function () {
       }
     });
 
-    // Ordenar historial por fecha más reciente
     const mergedHistory = Array.from(historyMap.values()).sort((a, b) => {
       return new Date(b.date || 0) - new Date(a.date || 0);
     });
 
     return {
-      version: 1,
+      version: 2,
       theme: local.theme || remote.theme || 'light',
       favorites: Array.from(favSet),
       errors: Array.from(errSet),
@@ -192,44 +78,157 @@ const SyncService = (function () {
   }
 
   /**
-   * Generar código de transferencia rápida (Base64 comprimido o JSON)
+   * Carga inicial automática en segundo plano al arrancar la web
    */
-  function exportSyncPackage() {
-    const data = collectLocalData();
-    const json = JSON.stringify(data);
-    return btoa(unescape(encodeURIComponent(json)));
-  }
+  async function autoLoad(onDataUpdated) {
+    updateBadge('loading');
 
-  /**
-   * Importar código de transferencia rápida
-   */
-  function importSyncPackage(packageStr) {
     try {
-      const json = decodeURIComponent(escape(atob(packageStr.trim())));
-      const parsed = JSON.parse(json);
-      if (!parsed || (!parsed.favorites && !parsed.history)) {
-        throw new Error('Formato de datos no válido');
+      const endpoints = ['/api/progress', 'http://127.0.0.1:8080/api/progress'];
+      let remoteData = null;
+
+      for (const ep of endpoints) {
+        try {
+          const res = await fetch(ep, { method: 'GET', cache: 'no-cache' });
+          if (res.ok) {
+            const json = await res.json();
+            if (json && json.data) {
+              remoteData = json.data;
+              break;
+            }
+          }
+        } catch (e) {
+          // Continuar al siguiente endpoint
+        }
       }
-      applyRemoteData(parsed);
-      return { success: true, data: parsed };
+
+      const localData = collectLocalData();
+
+      if (remoteData) {
+        // Fusionar datos
+        const merged = mergeStates(localData, remoteData);
+        applyRemoteData(merged);
+
+        // Si el usuario tenía datos locales que la nube no tenía, sincronizar la fusión a la nube
+        if (JSON.stringify(merged.history) !== JSON.stringify(remoteData.history) ||
+            merged.favorites.length !== remoteData.favorites.length) {
+          triggerAutoSave();
+        }
+
+        if (typeof onDataUpdated === 'function') {
+          onDataUpdated(merged);
+        }
+        updateBadge('saved');
+      } else {
+        // La nube está vacía todavía: subir el progreso local inicial
+        if (localData.history.length > 0 || localData.favorites.length > 0 || localData.errors.length > 0) {
+          triggerAutoSave();
+        } else {
+          updateBadge('saved');
+        }
+      }
     } catch (err) {
-      return { success: false, error: err.message };
+      console.warn('Almacenamiento en la nube no disponible temporalmente:', err);
+      updateBadge('offline');
     }
   }
 
+  /**
+   * Dispara guardado automático con retardo para no saturar peticiones
+   */
+  function triggerAutoSave() {
+    hasPendingChanges = true;
+    updateBadge('saving');
+
+    clearTimeout(saveTimeout);
+    saveTimeout = setTimeout(async () => {
+      await executeSave();
+    }, 600);
+  }
+
+  /**
+   * Envía los datos locales a la nube
+   */
+  async function executeSave() {
+    if (isSaving) return;
+    isSaving = true;
+
+    const payload = collectLocalData();
+    const endpoints = ['/api/progress', 'http://127.0.0.1:8080/api/progress'];
+    let success = false;
+
+    for (const ep of endpoints) {
+      try {
+        const res = await fetch(ep, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (res.ok) {
+          success = true;
+          break;
+        }
+      } catch (e) {
+        // Probar siguiente
+      }
+    }
+
+    isSaving = false;
+
+    if (success) {
+      hasPendingChanges = false;
+      updateBadge('saved');
+    } else {
+      updateBadge('offline');
+    }
+  }
+
+  /**
+   * Actualiza el indicador visual discreto en la cabecera
+   */
+  function updateBadge(status) {
+    const badge = document.getElementById('autosave-badge');
+    if (!badge) return;
+
+    const dot = badge.querySelector('.autosave-dot');
+    const text = badge.querySelector('.autosave-text');
+
+    badge.className = 'autosave-badge';
+
+    if (status === 'saving') {
+      badge.classList.add('saving');
+      if (text) text.textContent = 'Guardando...';
+      badge.title = 'Guardando progreso automáticamente en la nube';
+    } else if (status === 'saved') {
+      badge.classList.add('saved');
+      if (text) text.textContent = 'Guardado';
+      badge.title = 'Progreso sincronizado automáticamente en la nube';
+    } else if (status === 'loading') {
+      badge.classList.add('loading');
+      if (text) text.textContent = 'Cargando...';
+      badge.title = 'Verificando progreso en la nube';
+    } else {
+      badge.classList.add('offline');
+      if (text) text.textContent = 'Guardado local';
+      badge.title = 'Sin conexión a la nube. Los datos se guardan en este dispositivo y se subirán al conectar';
+    }
+  }
+
+  // Detectar recuperación de conexión a internet para subir datos pendientes
+  window.addEventListener('online', () => {
+    if (hasPendingChanges) {
+      triggerAutoSave();
+    } else {
+      autoLoad();
+    }
+  });
+
   return {
-    getConfig,
-    saveConfig,
-    isConfigured,
-    hasSyncCode,
+    autoLoad,
+    triggerAutoSave,
     collectLocalData,
-    applyRemoteData,
-    pushToSupabase,
-    pullFromSupabase,
-    exportSyncPackage,
-    importSyncPackage
+    applyRemoteData
   };
 })();
 
-// Exportar globalmente
 window.SyncService = SyncService;

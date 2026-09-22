@@ -40,12 +40,16 @@ class AppRequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path.startswith('/api/actualizar'):
             self.ejecutar_actualizacion()
+        elif self.path.startswith('/api/progress'):
+            self.guardar_progreso()
         else:
             self.send_error(404, "Ruta no encontrada")
 
     def do_GET(self):
         if self.path.startswith('/api/actualizar'):
             self.ejecutar_actualizacion()
+        elif self.path.startswith('/api/progress'):
+            self.obtener_progreso()
         elif self.path == '/api/ping':
             self.send_response(200)
             self.send_header('Content-Type', 'application/json')
@@ -54,6 +58,42 @@ class AppRequestHandler(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(b'{"status":"ok"}')
         else:
             super().do_GET()
+
+    def obtener_progreso(self):
+        prog_file = os.path.join(BASE_DIR, "user_progress.json")
+        data = None
+        if os.path.exists(prog_file):
+            try:
+                with open(prog_file, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+            except Exception:
+                data = None
+        self.send_response(200)
+        self.send_header('Content-Type', 'application/json; charset=utf-8')
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.end_headers()
+        resp = {"success": True, "data": data}
+        self.wfile.write(json.dumps(resp, ensure_ascii=False).encode('utf-8'))
+
+    def guardar_progreso(self):
+        content_len = int(self.headers.get('Content-Length', 0))
+        body = self.rfile.read(content_len)
+        try:
+            parsed = json.loads(body.decode('utf-8'))
+            prog_file = os.path.join(BASE_DIR, "user_progress.json")
+            with open(prog_file, "w", encoding="utf-8") as f:
+                json.dump(parsed, f, ensure_ascii=False, indent=2)
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(b'{"success":true}')
+        except Exception as e:
+            self.send_response(500)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            self.wfile.write(json.dumps({"success": False, "error": str(e)}).encode('utf-8'))
 
     def ejecutar_actualizacion(self):
         try:

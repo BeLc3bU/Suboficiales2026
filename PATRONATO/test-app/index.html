@@ -30,11 +30,10 @@
         </div>
       </div>
       <div class="header-controls">
-        <button class="btn btn-outline btn-sm btn-cloud-sync" id="btn-cloud-sync" title="Sincronización en la Nube">
-          <span class="cloud-status-dot" id="cloud-status-dot"></span>
-          <span class="btn-icon">☁️</span>
-          <span class="btn-text">Sincronizar</span>
-        </button>
+        <div class="autosave-badge" id="autosave-badge" title="Progreso guardado automáticamente">
+          <span class="autosave-dot"></span>
+          <span class="autosave-text">Guardado</span>
+        </div>
         <button class="btn btn-outline btn-sm" id="btn-update-info" title="Cómo agregar nuevos temas">
           <span class="btn-icon">📥</span>
           <span class="btn-text">Actualizar</span>
@@ -272,74 +271,6 @@
 
   </main>
 
-  <!-- Modal: Sincronización en la Nube y Multidispositivo -->
-  <div class="modal-overlay" id="modal-sync">
-    <div class="modal-card">
-      <div class="modal-header">
-        <h3>☁️ Sincronización Multidispositivo</h3>
-        <button class="modal-close-btn" onclick="closeSyncModal()">✕</button>
-      </div>
-      <p style="margin-bottom: 1.2rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;">
-        Accede a tus preguntas favoritas, banco de fallos e historial de simulacros desde cualquier dispositivo (PC de escritorio, móvil o tablet).
-      </p>
-
-      <div class="sync-card-block">
-        <h4 style="font-size: 0.95rem; color: var(--primary); margin-bottom: 0.4rem;">
-          🔑 1. Código Personal de Usuario
-        </h4>
-        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.75rem;">
-          Escribe tu código personal (por ejemplo: tu nombre o apodo). Úsalo en tu móvil y en tu PC para compartir automáticamente tu progreso:
-        </p>
-        <div style="display: flex; gap: 0.5rem; margin-bottom: 0.75rem;">
-          <input type="text" id="sync-code-input" class="interactive-input" style="padding: 0.55rem 0.85rem; font-size: 0.92rem;" placeholder="Ejemplo: Pedro2026">
-          <button class="btn btn-primary btn-sm" onclick="saveUserSyncCode()">Guardar</button>
-        </div>
-        
-        <details style="margin: 0.8rem 0; font-size: 0.82rem; color: var(--text-muted);">
-          <summary style="cursor: pointer; color: var(--primary); font-weight: 600; padding: 0.2rem 0;">
-            ⚙️ Conexión Supabase (Opcional para Nube Gratuita Propia)
-          </summary>
-          <div style="margin-top: 0.6rem; display: flex; flex-direction: column; gap: 0.5rem; background: var(--bg-alt); padding: 0.75rem; border-radius: var(--radius-sm);">
-            <label style="font-weight: 600;">Supabase Project URL:</label>
-            <input type="text" id="sync-supabase-url" class="interactive-input" style="padding: 0.45rem;" placeholder="https://xyzcompany.supabase.co">
-            <label style="font-weight: 600;">Supabase Public Anon Key:</label>
-            <input type="password" id="sync-supabase-key" class="interactive-input" style="padding: 0.45rem;" placeholder="eyJhbGciOiJIUzI1NiIsInR5c...">
-            <button class="btn btn-secondary btn-sm" style="align-self: flex-start;" onclick="saveSupabaseSettings()">Guardar Credenciales</button>
-          </div>
-        </details>
-
-        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.75rem;">
-          <button class="btn btn-accent btn-sm" id="btn-run-cloud-sync" onclick="performCloudSyncAction()">
-            🔄 Sincronizar Ahora
-          </button>
-          <span id="sync-status-indicator" style="font-size: 0.82rem; color: var(--text-muted); font-weight: 600;"></span>
-        </div>
-      </div>
-
-      <hr style="border: 0; border-top: 1px solid var(--border); margin: 1.25rem 0;">
-
-      <div class="sync-card-block">
-        <h4 style="font-size: 0.95rem; color: var(--primary); margin-bottom: 0.4rem;">
-          📲 2. Transferencia Inmediata con Código
-        </h4>
-        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.75rem;">
-          Si quieres pasar tu progreso al móvil al instante sin configurar ninguna base de datos:
-        </p>
-        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-          <button class="btn btn-outline btn-sm" onclick="exportTransferCode()">
-            📋 Copiar Código de Progreso
-          </button>
-          <button class="btn btn-outline btn-sm" onclick="importTransferCode()">
-            📥 Pegar Código en este Dispositivo
-          </button>
-        </div>
-      </div>
-
-      <div style="display: flex; justify-content: flex-end; margin-top: 1.5rem;">
-        <button class="btn btn-secondary" onclick="closeSyncModal()">Cerrar</button>
-      </div>
-    </div>
-  </div>
 
   <!-- Modal: Cómo actualizar con nuevos ejercicios -->
   <div class="modal-overlay" id="modal-update">
