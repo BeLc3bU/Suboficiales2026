@@ -13,9 +13,16 @@ export default async function handler(req, res) {
 
   const STORAGE_KEY = 'suboficiales_master_progress';
 
-  // 1. Soporte para Vercel KV / Upstash Redis (Integración 1-clic de Vercel)
-  const kvUrl = process.env.KV_REST_API_URL || process.env.UPSTASH_REDIS_REST_URL;
-  const kvToken = process.env.KV_REST_API_TOKEN || process.env.UPSTASH_REDIS_REST_TOKEN;
+  // 1. Soporte para Vercel KV / Upstash Redis (Integración Marketplace / 1-clic de Vercel)
+  const kvUrl = process.env.KV_REST_API_URL || 
+                process.env.UPSTASH_REDIS_REST_URL ||
+                process.env.REDIS_URL_REST ||
+                Object.keys(process.env).find(k => k.endsWith('_REST_API_URL')) && process.env[Object.keys(process.env).find(k => k.endsWith('_REST_API_URL'))];
+
+  const kvToken = process.env.KV_REST_API_TOKEN || 
+                  process.env.UPSTASH_REDIS_REST_TOKEN ||
+                  process.env.REDIS_TOKEN_REST ||
+                  Object.keys(process.env).find(k => k.endsWith('_REST_API_TOKEN')) && process.env[Object.keys(process.env).find(k => k.endsWith('_REST_API_TOKEN'))];
 
   // 2. Soporte para Supabase (si se configuran variables en Vercel)
   const supabaseUrl = process.env.SUPABASE_URL;
