@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+  <title>PATRONATO 2026 | Tests de Inglés - Suboficiales</title>
+  
+  <!-- PWA & Mobile Web App Meta Tags -->
+  <meta name="theme-color" content="#1e3a8a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Suboficiales">
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231e3a8a'/><text x='50' y='68' font-size='60' text-anchor='middle'>🎖️</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎖️</text></svg>">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="app-header">
+    <div class="header-content">
+      <div class="brand" id="brand-logo" title="Volver al Menú Principal">
+        <span class="brand-badge">PATRONATO</span>
+        <div class="brand-titles">
+          <h1>Tests de Inglés</h1>
+          <p>Suboficiales 2026</p>
+        </div>
+      </div>
+      <div class="header-controls">
+        <button class="btn btn-outline btn-sm btn-cloud-sync" id="btn-cloud-sync" title="Sincronización en la Nube">
+          <span class="cloud-status-dot" id="cloud-status-dot"></span>
+          <span class="btn-icon">☁️</span>
+          <span class="btn-text">Sincronizar</span>
+        </button>
+        <button class="btn btn-outline btn-sm" id="btn-update-info" title="Cómo agregar nuevos temas">
+          <span class="btn-icon">📥</span>
+          <span class="btn-text">Actualizar</span>
+        </button>
+        <button class="btn btn-secondary btn-sm" id="btn-theme-toggle" title="Cambiar Tema Claro / Oscuro">
+          <span id="theme-btn-label">🌙 Modo</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="main-container">
+
+    <!-- VIEW 1: DASHBOARD -->
+    <section id="view-dashboard" class="view-section active">
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <div class="hero-text">
+          <h2>Plataforma de Entrenamiento de Inglés</h2>
+          <p>Batería completa extraída de los ejercicios oficiales del Patronato. Recuerda que se exige un <strong>70% de aciertos</strong> para obtener el <strong>APTO</strong> en el examen.</p>
+        </div>
+        <div class="stats-bar">
+          <div class="stat-box">
+            <div class="stat-val" id="total-questions-stat">0</div>
+            <div class="stat-lbl">Preguntas</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val" id="user-accuracy-stat">0%</div>
+            <div class="stat-lbl">Acierto Global</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-val" id="tests-completed-stat">0</div>
+            <div class="stat-lbl">Tests Hechos</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Special Modes (Simulacro / Fallos / Favoritas) -->
+      <div class="section-title">🎯 Modos Especiales de Examen</div>
+      <div class="special-grid">
+        <div class="special-card exam-card">
+          <span class="card-badge badge-blue">Simulacro Militar</span>
+          <h3 class="card-title">Simulacro General</h3>
+          <p class="card-desc">Examen aleatorio mezclando preguntas de todos los temas. Cronometrado y sin penalización de fallos (Corte: 70% Apto).</p>
+          <div class="exam-actions-row">
+            <button class="btn btn-outline btn-sm" onclick="startGlobalExam(25)">25 Preguntas</button>
+            <button class="btn btn-outline btn-sm" onclick="startGlobalExam(50)">50 Preguntas</button>
+            <button class="btn btn-primary btn-sm" onclick="startGlobalExam(100)">100 Preguntas</button>
+          </div>
+        </div>
+
+        <div class="special-card errors-card">
+          <span class="card-badge badge-red">Refuerzo</span>
+          <h3 class="card-title">Banco de Errores</h3>
+          <p class="card-desc">Repasa las preguntas que has fallado en tus intentos previos para asegurar su dominio antes del examen.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" id="btn-practice-errors" onclick="startErrorsQuiz()">
+              Repasar Fallos (<span id="count-errors">0</span>)
+            </button>
+          </div>
+        </div>
+
+        <div class="special-card favs-card">
+          <span class="card-badge badge-amber">Favoritas</span>
+          <h3 class="card-title">Preguntas Guardadas</h3>
+          <p class="card-desc">Practica únicamente aquellas preguntas que hayas marcado con estrella durante tus sesiones de estudio.</p>
+          <div class="card-actions">
+            <button class="btn btn-secondary" id="btn-practice-favs" onclick="startFavsQuiz()">
+              Ver Guardadas (<span id="count-favs">0</span>)
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Topics Grid -->
+      <div class="section-title">📚 Temas Disponibles</div>
+      <div class="topics-grid" id="topics-container">
+        <!-- Rendered dynamically from questions-data.js -->
+      </div>
+    </section>
+
+    <!-- VIEW 2: QUIZ RUNNER -->
+    <section id="view-quiz" class="view-section">
+      <div class="quiz-header">
+        <div class="quiz-info">
+          <div class="quiz-badge-wrap">
+            <span class="card-badge" id="quiz-badge">Tema</span>
+          </div>
+          <h2 id="quiz-title">Título del Test</h2>
+          <p id="quiz-mode-desc">Modo Práctica • Corrección inmediata</p>
+        </div>
+        <div class="quiz-meta">
+          <div class="timer-badge" id="quiz-timer" style="display: none;">
+            ⏱️ <span id="timer-val">00:00</span>
+          </div>
+          <button class="btn btn-outline btn-sm btn-mobile-grid-toggle" id="btn-toggle-drawer" onclick="toggleQuestionsDrawer()" title="Abrir Navegador de Preguntas">
+            📋 <span id="mobile-grid-count">0/0</span>
+          </button>
+          <button class="btn btn-outline btn-sm" id="btn-exit-quiz" onclick="confirmExitQuiz()">
+            ✕ Salir
+          </button>
+        </div>
+      </div>
+
+      <div class="quiz-progress-bar-wrap">
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+      </div>
+
+      <div class="quiz-layout">
+        <!-- Left Column: Question & Options -->
+        <div class="quiz-main-column">
+          <!-- Optional Reading Passage -->
+          <div class="reading-box" id="reading-box" style="display: none;">
+            <h4 id="reading-title">📖 Texto de lectura</h4>
+            <div id="reading-content"></div>
+          </div>
+
+          <!-- Question Box -->
+          <div class="question-card">
+            <div class="question-header-row">
+              <span class="q-badge" id="q-counter-badge">Pregunta 1 de 20</span>
+              <div class="q-actions-row">
+                <span id="q-section-name" class="q-section-text"></span>
+                <button class="q-fav-btn" id="q-fav-btn" onclick="toggleCurrentFav()" title="Marcar como favorita" aria-label="Marcar como favorita">
+                  ★
+                </button>
+              </div>
+            </div>
+
+            <div class="q-prompt" id="q-prompt-text">
+              Cargando enunciado...
+            </div>
+
+            <!-- Choices Container -->
+            <div class="options-list" id="q-options-container">
+              <!-- Rendered options -->
+            </div>
+
+            <!-- Interactive Text Input -->
+            <div class="input-interactive-wrap" id="q-input-wrap" style="display: none;">
+              <input type="text" class="interactive-input" id="q-text-input" placeholder="Escribe tu respuesta aquí..." autocomplete="off" autocapitalize="none">
+              <div class="interactive-btns-row">
+                <button class="btn btn-primary btn-sm" id="btn-check-input" onclick="checkInteractiveAnswer()">Comprobar</button>
+                <button class="btn btn-secondary btn-sm" id="btn-reveal-input" onclick="revealInteractiveAnswer()">Ver Solución</button>
+              </div>
+            </div>
+
+            <!-- Feedback / Grammatical explanation in practice mode -->
+            <div class="feedback-box" id="q-feedback-box">
+              <div class="feedback-header" id="feedback-header"></div>
+              <div class="feedback-text" id="feedback-explanation"></div>
+            </div>
+          </div>
+
+          <!-- Bottom Navigation Controls -->
+          <div class="quiz-controls" id="quiz-controls">
+            <button class="btn btn-secondary" id="btn-prev-q" onclick="navigateQuestion(-1)">
+              ← Anterior
+            </button>
+            <div class="quiz-controls-right">
+              <button class="btn btn-accent" id="btn-finish-quiz" onclick="finishQuiz()">
+                ✓ Finalizar
+              </button>
+              <button class="btn btn-primary" id="btn-next-q" onclick="navigateQuestion(1)">
+                Siguiente →
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Questions Navigator Sidebar / Drawer in mobile -->
+        <div class="quiz-sidebar" id="quiz-sidebar">
+          <div class="sidebar-title">
+            <span>Navegador</span>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <span id="sidebar-answered-count">0 / 0</span>
+              <button class="btn-close-drawer" id="btn-close-drawer" onclick="toggleQuestionsDrawer()" title="Cerrar">✕</button>
+            </div>
+          </div>
+          <div class="q-grid" id="questions-grid">
+            <!-- Grid buttons -->
+          </div>
+        </div>
+        <!-- Backdrop for mobile drawer -->
+        <div class="sidebar-backdrop" id="sidebar-backdrop" onclick="toggleQuestionsDrawer()"></div>
+      </div>
+    </section>
+
+    <!-- VIEW 3: RESULTS -->
+    <section id="view-results" class="view-section">
+      <div class="results-card">
+        <div id="result-badge-container"></div>
+        <div class="score-display" id="result-score-val">0 / 10</div>
+        <p class="score-subtitle" id="result-score-subtitle">Has acertado 0 de 0 preguntas (0%)</p>
+
+        <div class="results-stats-row">
+          <div class="r-stat">
+            <h4 style="color: var(--accent);" id="r-stat-correct">0</h4>
+            <span>Aciertos</span>
+          </div>
+          <div class="r-stat">
+            <h4 style="color: var(--danger);" id="r-stat-wrong">0</h4>
+            <span>Fallos</span>
+          </div>
+          <div class="r-stat">
+            <h4 style="color: var(--warning);" id="r-stat-blank">0</h4>
+            <span>En blanco</span>
+          </div>
+          <div class="r-stat">
+            <h4 id="r-stat-time">00:00</h4>
+            <span>Tiempo</span>
+          </div>
+        </div>
+
+        <div class="results-actions">
+          <button class="btn btn-primary" id="btn-retry-all" onclick="retryCurrentQuiz(false)">
+            🔄 Repetir Todo el Test
+          </button>
+          <button class="btn btn-danger" id="btn-retry-failed" onclick="retryCurrentQuiz(true)">
+            ⚠️ Repetir Solo las Falladas
+          </button>
+          <button class="btn btn-secondary" onclick="showDashboard()">
+            🏠 Menú Principal
+          </button>
+        </div>
+      </div>
+
+      <!-- Detailed Review of all questions in the test -->
+      <div class="review-container">
+        <h3 class="section-title">📝 Revisión Detallada de Preguntas</h3>
+        <div id="review-questions-list"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal: Sincronización en la Nube y Multidispositivo -->
+  <div class="modal-overlay" id="modal-sync">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>☁️ Sincronización Multidispositivo</h3>
+        <button class="modal-close-btn" onclick="closeSyncModal()">✕</button>
+      </div>
+      <p style="margin-bottom: 1.2rem; color: var(--text-muted); font-size: 0.9rem; line-height: 1.5;">
+        Accede a tus preguntas favoritas, banco de fallos e historial de simulacros desde cualquier dispositivo (PC de escritorio, móvil o tablet).
+      </p>
+
+      <div class="sync-card-block">
+        <h4 style="font-size: 0.95rem; color: var(--primary); margin-bottom: 0.4rem;">
+          🔑 1. Código Personal de Usuario
+        </h4>
+        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+          Escribe tu código personal (por ejemplo: tu nombre o apodo). Úsalo en tu móvil y en tu PC para compartir automáticamente tu progreso:
+        </p>
+        <div style="display: flex; gap: 0.5rem; margin-bottom: 0.75rem;">
+          <input type="text" id="sync-code-input" class="interactive-input" style="padding: 0.55rem 0.85rem; font-size: 0.92rem;" placeholder="Ejemplo: Pedro2026">
+          <button class="btn btn-primary btn-sm" onclick="saveUserSyncCode()">Guardar</button>
+        </div>
+        
+        <details style="margin: 0.8rem 0; font-size: 0.82rem; color: var(--text-muted);">
+          <summary style="cursor: pointer; color: var(--primary); font-weight: 600; padding: 0.2rem 0;">
+            ⚙️ Conexión Supabase (Opcional para Nube Gratuita Propia)
+          </summary>
+          <div style="margin-top: 0.6rem; display: flex; flex-direction: column; gap: 0.5rem; background: var(--bg-alt); padding: 0.75rem; border-radius: var(--radius-sm);">
+            <label style="font-weight: 600;">Supabase Project URL:</label>
+            <input type="text" id="sync-supabase-url" class="interactive-input" style="padding: 0.45rem;" placeholder="https://xyzcompany.supabase.co">
+            <label style="font-weight: 600;">Supabase Public Anon Key:</label>
+            <input type="password" id="sync-supabase-key" class="interactive-input" style="padding: 0.45rem;" placeholder="eyJhbGciOiJIUzI1NiIsInR5c...">
+            <button class="btn btn-secondary btn-sm" style="align-self: flex-start;" onclick="saveSupabaseSettings()">Guardar Credenciales</button>
+          </div>
+        </details>
+
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; margin-top: 0.75rem;">
+          <button class="btn btn-accent btn-sm" id="btn-run-cloud-sync" onclick="performCloudSyncAction()">
+            🔄 Sincronizar Ahora
+          </button>
+          <span id="sync-status-indicator" style="font-size: 0.82rem; color: var(--text-muted); font-weight: 600;"></span>
+        </div>
+      </div>
+
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 1.25rem 0;">
+
+      <div class="sync-card-block">
+        <h4 style="font-size: 0.95rem; color: var(--primary); margin-bottom: 0.4rem;">
+          📲 2. Transferencia Inmediata con Código
+        </h4>
+        <p style="font-size: 0.82rem; color: var(--text-muted); margin-bottom: 0.75rem;">
+          Si quieres pasar tu progreso al móvil al instante sin configurar ninguna base de datos:
+        </p>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn btn-outline btn-sm" onclick="exportTransferCode()">
+            📋 Copiar Código de Progreso
+          </button>
+          <button class="btn btn-outline btn-sm" onclick="importTransferCode()">
+            📥 Pegar Código en este Dispositivo
+          </button>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: flex-end; margin-top: 1.5rem;">
+        <button class="btn btn-secondary" onclick="closeSyncModal()">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Cómo actualizar con nuevos ejercicios -->
+  <div class="modal-overlay" id="modal-update">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>📥 ¿Cómo añadir ejercicios de nuevos temas?</h3>
+        <button class="modal-close-btn" onclick="closeUpdateModal()">✕</button>
+      </div>
+      <p style="margin-bottom: 0.8rem;">La aplicación cuenta con un actualizador automático para incorporar nuevos PDFs que añadas en la carpeta de PATRONATO:</p>
+      <ol style="margin-left: 1.25rem; margin-bottom: 1.25rem;">
+        <li>Copia los nuevos archivos PDF de ejercicios dentro de la carpeta principal <code>PATRONATO</code>.</li>
+        <li>Haz doble clic sobre el archivo <strong><code>actualizar_ejercicios.bat</code></strong> situado en <code>test-app</code>.</li>
+        <li>El extractor actualizará el archivo <code>questions-data.js</code> al instante.</li>
+        <li>Para que se actualice también en tu móvil y en Vercel, haz un commit y sube los cambios a GitHub. ¡Vercel se actualizará automáticamente en 5 segundos!</li>
+      </ol>
+      <div style="display: flex; justify-content: flex-end;">
+        <button class="btn btn-primary" onclick="closeUpdateModal()">Entendido</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <p>PATRONATO 2026 • Preparación para la Escala de Suboficiales • Sin penalización de fallos • Exige 70% de aciertos para Apto</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/sync-service.js"></script>
+  <script src="js/questions-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

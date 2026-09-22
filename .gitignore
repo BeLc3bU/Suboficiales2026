@@ -1,0 +1,27 @@
+# Archivos pesados de temario y exámenes en PDF (mantener en local en Google Drive)
+*.pdf
+*.PDF
+
+# Python y caché
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Vercel
+.vercel
+
+# Entorno y credenciales
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema y Google Drive
+desktop.ini
+Thumbs.db
+.DS_Store
+.directory
+
+# IDEs
+.vscode/
+.idea/
