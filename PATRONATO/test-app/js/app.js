@@ -112,7 +112,9 @@
     localStorage.setItem('patronato_theme', theme);
     const themeBtn = document.getElementById('btn-theme-toggle');
     if (themeBtn) {
-      themeBtn.innerHTML = theme === 'dark' ? '☀️ Claro' : '🌙 Modo';
+      themeBtn.innerHTML = theme === 'dark'
+        ? '☀️<span class="theme-text-hide"> Claro</span>'
+        : '🌙<span class="theme-text-hide"> Modo</span>';
     }
   }
 

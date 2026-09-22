@@ -41,7 +41,7 @@
           <span class="btn-text">Actualizar</span>
         </button>
         <button class="btn btn-secondary btn-sm" id="btn-theme-toggle" title="Cambiar Tema Claro / Oscuro">
-          <span id="theme-btn-label">🌙 Modo</span>
+          <span id="theme-btn-label">🌙<span class="theme-text-hide"> Modo</span></span>
         </button>
       </div>
     </div>
@@ -142,7 +142,7 @@
             ⏸️ <span class="pause-btn-label">Pausar</span>
           </button>
           <button class="btn btn-outline btn-sm" id="btn-exit-quiz" onclick="confirmExitQuiz()" title="Salir del test">
-            ✕ Salir
+            ✕ <span class="exit-btn-label">Salir</span>
           </button>
         </div>
       </div>
@@ -200,17 +200,17 @@
           <!-- Bottom Navigation Controls -->
           <div class="quiz-controls" id="quiz-controls">
             <button class="btn btn-secondary" id="btn-prev-q" onclick="navigateQuestion(-1)">
-              ← Anterior
+              ← <span class="nav-text-full">Anterior</span><span class="nav-text-short">Ant.</span>
             </button>
             <div class="quiz-controls-right">
-              <button class="btn btn-secondary" id="btn-pause-quiz-bottom" onclick="pauseAndSaveQuiz()" title="Guardar progreso y continuar más tarde">
-                ⏸️ Continuar más tarde
+              <button class="btn btn-secondary btn-sm" id="btn-pause-quiz-bottom" onclick="pauseAndSaveQuiz()" title="Guardar progreso y continuar más tarde">
+                ⏸️ <span class="pause-full">Continuar más tarde</span><span class="pause-mobile">Pausar</span>
               </button>
               <button class="btn btn-accent" id="btn-finish-quiz" onclick="finishQuiz()">
-                ✓ Finalizar
+                ✓ <span class="nav-text-full">Finalizar</span><span class="nav-text-short">Fin</span>
               </button>
               <button class="btn btn-primary" id="btn-next-q" onclick="navigateQuestion(1)">
-                Siguiente →
+                <span class="nav-text-full">Siguiente </span><span class="nav-text-short">Sig. </span>→
               </button>
             </div>
           </div>
