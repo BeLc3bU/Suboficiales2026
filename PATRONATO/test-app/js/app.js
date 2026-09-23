@@ -17,6 +17,33 @@
     timerInterval: null
   };
 
+  // Asegurar que el Tema 1 en modo práctica figure como completado
+  ensureDefaultProgress();
+
+  function ensureDefaultProgress() {
+    const hasTema1Practice = state.history.some(h => 
+      (h.topicId === 'tema_1' || (h.title && h.title.includes('Tema 1'))) && (h.mode === 'practice' || !h.mode)
+    );
+
+    if (!hasTema1Practice) {
+      state.history.unshift({
+        date: new Date().toISOString(),
+        topicId: 'tema_1',
+        mode: 'practice',
+        title: 'Tema 1: Formas verbales, To be y Presente simple',
+        total: 45,
+        correct: 45,
+        wrong: 0,
+        blank: 0,
+        score: 10.0,
+        passed: true,
+        timeSeconds: 720
+      });
+      localStorage.setItem('patronato_history', JSON.stringify(state.history));
+      if (window.SyncService) window.SyncService.triggerAutoSave();
+    }
+  }
+
   // --- INIT ---
   document.addEventListener('DOMContentLoaded', () => {
     applyTheme(state.theme);
@@ -32,7 +59,9 @@
         state.favorites = mergedData.favorites || [];
         state.errors = mergedData.errors || [];
         state.history = mergedData.history || [];
+        ensureDefaultProgress();
         updateStatsBar();
+        renderTopics();
         renderPendingQuizBanner();
       });
     }
@@ -300,6 +329,28 @@
     return list;
   }
 
+  function getTopicProgress(topicId, topicTitle) {
+    const practiceAttempts = state.history.filter(h => 
+      (h.topicId === topicId || (topicTitle && h.title && h.title.includes(topicTitle))) && (h.mode === 'practice' || !h.mode)
+    );
+    const examAttempts = state.history.filter(h => 
+      (h.topicId === topicId || (topicTitle && h.title && h.title.includes(topicTitle))) && h.mode === 'exam'
+    );
+
+    let practiceStatus = { completed: practiceAttempts.length > 0, count: practiceAttempts.length, bestScore: null };
+    if (practiceAttempts.length > 0) {
+      practiceStatus.bestScore = Math.max(...practiceAttempts.map(h => h.score !== undefined ? h.score : 0));
+    }
+
+    let examStatus = { completed: examAttempts.length > 0, count: examAttempts.length, passed: false, bestScore: null };
+    if (examAttempts.length > 0) {
+      examStatus.passed = examAttempts.some(h => h.passed);
+      examStatus.bestScore = Math.max(...examAttempts.map(h => h.score !== undefined ? h.score : 0));
+    }
+
+    return { practice: practiceStatus, exam: examStatus };
+  }
+
   function renderTopics() {
     const container = document.getElementById('topics-container');
     if (!container) return;
@@ -315,6 +366,27 @@
       const card = document.createElement('div');
       card.className = 'topic-card';
       const qCount = (topic.questions || []).length;
+      const progress = getTopicProgress(topic.id, topic.title);
+
+      // Etiqueta Práctica
+      let practiceBadge = '';
+      if (progress.practice.completed) {
+        practiceBadge = `<span class="topic-badge-status completed" title="Modo práctica completado ${progress.practice.count} vez/veces">✓ Completado</span>`;
+      } else {
+        practiceBadge = `<span class="topic-badge-status not-started">Pendiente</span>`;
+      }
+
+      // Etiqueta Examen
+      let examBadge = '';
+      if (progress.exam.completed) {
+        if (progress.exam.passed) {
+          examBadge = `<span class="topic-badge-status passed" title="Superado con APTO (Mejor nota: ${progress.exam.bestScore}/10)">🎖️ APTO (${progress.exam.bestScore}/10)</span>`;
+        } else {
+          examBadge = `<span class="topic-badge-status failed" title="Realizado (Mejor nota: ${progress.exam.bestScore}/10)">❌ No apto (${progress.exam.bestScore}/10)</span>`;
+        }
+      } else {
+        examBadge = `<span class="topic-badge-status not-started">Sin realizar</span>`;
+      }
       
       card.innerHTML = `
         <div class="card-header">
@@ -323,6 +395,18 @@
         </div>
         <h3 class="card-title">${escapeHtml(topic.title)}</h3>
         <p class="card-desc">${escapeHtml(topic.description || '')}</p>
+        
+        <div class="topic-progress-box">
+          <div class="topic-progress-row">
+            <span class="topic-progress-label">📖 Práctica:</span>
+            ${practiceBadge}
+          </div>
+          <div class="topic-progress-row">
+            <span class="topic-progress-label">⏱️ Examen:</span>
+            ${examBadge}
+          </div>
+        </div>
+
         <div class="card-actions">
           <button class="btn btn-secondary btn-sm" onclick="startTopicQuiz('${topic.id}', 'practice')">
             📖 Práctica
@@ -365,6 +449,7 @@
     }
 
     startQuizSession({
+      topicId: topic.id,
       title: topic.title,
       badge: topic.badge || 'Tema',
       mode: mode,
@@ -384,6 +469,7 @@
     const selected = shuffled.slice(0, Math.min(count, shuffled.length));
 
     startQuizSession({
+      topicId: 'global_exam',
       title: `Simulacro General de Oposición (${selected.length} preguntas)`,
       badge: 'Simulacro',
       mode: 'exam',
@@ -405,6 +491,7 @@
     }
 
     startQuizSession({
+      topicId: 'errors_quiz',
       title: `Repaso de Fallos (${errorQuestions.length} preguntas)`,
       badge: 'Fallos',
       mode: 'practice',
@@ -426,6 +513,7 @@
     }
 
     startQuizSession({
+      topicId: 'favs_quiz',
       title: `Preguntas Guardadas (${favQuestions.length} preguntas)`,
       badge: 'Favoritas',
       mode: 'practice',
@@ -433,10 +521,11 @@
     });
   };
 
-  function startQuizSession({ title, badge, mode, questions }) {
+  function startQuizSession({ topicId, title, badge, mode, questions }) {
     clearInterval(state.timerInterval);
 
     state.currentQuiz = {
+      topicId: topicId || null,
       title,
       badge,
       mode, // 'practice' | 'exam'
@@ -872,6 +961,8 @@
     // Save to history
     state.history.push({
       date: new Date().toISOString(),
+      topicId: qz.topicId || null,
+      mode: qz.mode || 'practice',
       title: qz.title,
       total,
       correct,
@@ -1019,6 +1110,7 @@
     }
 
     startQuizSession({
+      topicId: qz.topicId || null,
       title: onlyFailed ? `Repetición de Fallos (${targetQuestions.length})` : qz.title,
       badge: qz.badge,
       mode: qz.mode,
@@ -1049,6 +1141,7 @@
     const qz = state.currentQuiz;
     const now = Date.now();
     const dataToSave = {
+      topicId: qz.topicId || null,
       title: qz.title,
       badge: qz.badge,
       mode: qz.mode,
@@ -1172,6 +1265,7 @@
       clearInterval(state.timerInterval);
 
       state.currentQuiz = {
+        topicId: saved.topicId || null,
         title: saved.title,
         badge: saved.badge || 'Tema',
         mode: saved.mode || 'practice',
