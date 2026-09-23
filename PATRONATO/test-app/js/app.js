@@ -17,10 +17,15 @@
     timerInterval: null
   };
 
-  // Asegurar que el Tema 1 en modo práctica figure como completado
+  // Asegurar que el Tema 1 en modo práctica figure como completado inicialmente
   ensureDefaultProgress();
 
   function ensureDefaultProgress() {
+    // Si el usuario descartó explícitamente o borró su progreso, no forzarlo de nuevo
+    if (localStorage.getItem('patronato_tema1_cleared') === 'true') {
+      return;
+    }
+
     const hasTema1Practice = state.history.some(h => 
       (h.topicId === 'tema_1' || (h.title && h.title.includes('Tema 1'))) && (h.mode === 'practice' || !h.mode)
     );
@@ -337,12 +342,37 @@
       (h.topicId === topicId || (topicTitle && h.title && h.title.includes(topicTitle))) && h.mode === 'exam'
     );
 
-    let practiceStatus = { completed: practiceAttempts.length > 0, count: practiceAttempts.length, bestScore: null };
+    // Comprobar si hay un test activo pausado en localStorage
+    let activeQuiz = null;
+    try {
+      const raw = localStorage.getItem('patronato_active_quiz');
+      if (raw) activeQuiz = JSON.parse(raw);
+    } catch (e) {}
+
+    const isQuizPaused = (mode) => {
+      if (!activeQuiz || activeQuiz.isFinished) return false;
+      const matchTopic = (activeQuiz.topicId === topicId) || (topicTitle && activeQuiz.title && activeQuiz.title.includes(topicTitle));
+      const matchMode = (activeQuiz.mode || 'practice') === mode;
+      return matchTopic && matchMode;
+    };
+
+    let practiceStatus = { 
+      completed: practiceAttempts.length > 0, 
+      isPaused: isQuizPaused('practice'),
+      count: practiceAttempts.length, 
+      bestScore: null 
+    };
     if (practiceAttempts.length > 0) {
       practiceStatus.bestScore = Math.max(...practiceAttempts.map(h => h.score !== undefined ? h.score : 0));
     }
 
-    let examStatus = { completed: examAttempts.length > 0, count: examAttempts.length, passed: false, bestScore: null };
+    let examStatus = { 
+      completed: examAttempts.length > 0, 
+      isPaused: isQuizPaused('exam'),
+      count: examAttempts.length, 
+      passed: false, 
+      bestScore: null 
+    };
     if (examAttempts.length > 0) {
       examStatus.passed = examAttempts.some(h => h.passed);
       examStatus.bestScore = Math.max(...examAttempts.map(h => h.score !== undefined ? h.score : 0));
@@ -370,7 +400,9 @@
 
       // Etiqueta Práctica
       let practiceBadge = '';
-      if (progress.practice.completed) {
+      if (progress.practice.isPaused) {
+        practiceBadge = `<span class="topic-badge-status paused" title="Test pausado a medias">⏸️ Pausado</span>`;
+      } else if (progress.practice.completed) {
         practiceBadge = `<span class="topic-badge-status completed" title="Modo práctica completado ${progress.practice.count} vez/veces">✓ Completado</span>`;
       } else {
         practiceBadge = `<span class="topic-badge-status not-started">Pendiente</span>`;
@@ -378,7 +410,9 @@
 
       // Etiqueta Examen
       let examBadge = '';
-      if (progress.exam.completed) {
+      if (progress.exam.isPaused) {
+        examBadge = `<span class="topic-badge-status paused" title="Examen pausado a medias">⏸️ Pausado</span>`;
+      } else if (progress.exam.completed) {
         if (progress.exam.passed) {
           examBadge = `<span class="topic-badge-status passed" title="Superado con APTO (Mejor nota: ${progress.exam.bestScore}/10)">🎖️ APTO (${progress.exam.bestScore}/10)</span>`;
         } else {
@@ -583,16 +617,42 @@
       showDashboard();
       return;
     }
-    const shouldSave = confirm(
-      '¿Deseas salir del test?\n\n' +
-      '• Pulsa ACEPTAR para guardar tu progreso y continuar más tarde.\n' +
-      '• Pulsa CANCELAR para seguir en el test.\n\n' +
-      '(Si deseas descartarlo definitivamente, podrás hacerlo desde el Menú Principal).'
-    );
-    if (shouldSave) {
-      pauseAndSaveQuiz();
+    const modal = document.getElementById('modal-exit-quiz');
+    if (modal) {
+      modal.classList.add('show');
+    } else {
+      const shouldSave = confirm(
+        '¿Deseas salir del test?\n\n' +
+        '• Pulsa ACEPTAR para guardar tu progreso y dejarlo pausado.\n' +
+        '• Pulsa CANCELAR para seguir en el test.'
+      );
+      if (shouldSave) {
+        pauseAndSaveQuiz();
+      }
     }
   };
+
+  window.closeExitQuizModal = function () {
+    const modal = document.getElementById('modal-exit-quiz');
+    if (modal) modal.classList.remove('show');
+  };
+
+  window.handleExitQuizAction = function (action) {
+    closeExitQuizModal();
+    if (action === 'pause') {
+      pauseAndSaveQuiz();
+    } else if (action === 'discard') {
+      discardCurrentActiveQuiz();
+    }
+  };
+
+  function discardCurrentActiveQuiz() {
+    clearInterval(state.timerInterval);
+    state.currentQuiz = null;
+    clearActiveQuizState();
+    showDashboard();
+    showToast('🗑️ Test cancelado y descartado sin completar.');
+  }
 
   // --- QUESTION RENDERING ---
   function renderCurrentQuestion() {
@@ -1169,6 +1229,7 @@
       localStorage.setItem('patronato_active_quiz_updated_at', now.toString());
     } catch (e) {}
     renderPendingQuizBanner();
+    renderTopics();
     if (window.SyncService) window.SyncService.triggerAutoSave();
   }
 

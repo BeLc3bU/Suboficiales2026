@@ -518,6 +518,12 @@ body {
   color: var(--accent);
 }
 
+.topic-badge-status.paused {
+  background: var(--warning-light);
+  color: var(--warning);
+  font-weight: 700;
+}
+
 .topic-badge-status.not-started {
   background: transparent;
   color: var(--text-muted);
