@@ -14,7 +14,8 @@
     errors: JSON.parse(localStorage.getItem('patronato_errors') || '[]'),
     history: JSON.parse(localStorage.getItem('patronato_history') || '[]'),
     currentQuiz: null,
-    timerInterval: null
+    timerInterval: null,
+    folderFilter: 'all'
   };
 
   // Asegurar que el Tema 1 en modo práctica figure como completado inicialmente
@@ -381,6 +382,98 @@
     return { practice: practiceStatus, exam: examStatus };
   }
 
+  window.setFolderFilter = function (filter) {
+    state.folderFilter = filter;
+    
+    // Actualizar píldoras activas
+    const pAll = document.getElementById('pill-all');
+    const pBloque = document.getElementById('pill-bloque');
+    const pRepaso = document.getElementById('pill-repaso');
+    if (pAll) pAll.classList.toggle('active', filter === 'all');
+    if (pBloque) pBloque.classList.toggle('active', filter === 'bloque');
+    if (pRepaso) pRepaso.classList.toggle('active', filter === 'repaso');
+
+    const gBloque = document.getElementById('folder-group-bloque');
+    const gRepaso = document.getElementById('folder-group-repaso');
+
+    if (gBloque) {
+      gBloque.style.display = (filter === 'all' || filter === 'bloque') ? 'block' : 'none';
+    }
+    if (gRepaso) {
+      gRepaso.style.display = (filter === 'all' || filter === 'repaso') ? 'block' : 'none';
+    }
+  };
+
+  window.toggleFolder = function (folderId) {
+    const group = document.getElementById('folder-group-' + folderId);
+    if (!group) return;
+    const isCollapsed = group.classList.toggle('collapsed');
+    try {
+      localStorage.setItem('patronato_folder_' + folderId, isCollapsed ? 'collapsed' : 'open');
+    } catch (e) {}
+  };
+
+  function createTopicCard(topic) {
+    const card = document.createElement('div');
+    card.className = 'topic-card';
+    const qCount = (topic.questions || []).length;
+    const progress = getTopicProgress(topic.id, topic.title);
+
+    // Etiqueta Práctica
+    let practiceBadge = '';
+    if (progress.practice.isPaused) {
+      practiceBadge = `<span class="topic-badge-status paused" title="Test pausado a medias">⏸️ Pausado</span>`;
+    } else if (progress.practice.completed) {
+      practiceBadge = `<span class="topic-badge-status completed" title="Modo práctica completado ${progress.practice.count} vez/veces">✓ Completado</span>`;
+    } else {
+      practiceBadge = `<span class="topic-badge-status not-started">Pendiente</span>`;
+    }
+
+    // Etiqueta Examen
+    let examBadge = '';
+    if (progress.exam.isPaused) {
+      examBadge = `<span class="topic-badge-status paused" title="Examen pausado a medias">⏸️ Pausado</span>`;
+    } else if (progress.exam.completed) {
+      if (progress.exam.passed) {
+        examBadge = `<span class="topic-badge-status passed" title="Superado con APTO (Mejor nota: ${progress.exam.bestScore}/10)">🎖️ APTO (${progress.exam.bestScore}/10)</span>`;
+      } else {
+        examBadge = `<span class="topic-badge-status failed" title="Realizado (Mejor nota: ${progress.exam.bestScore}/10)">❌ No apto (${progress.exam.bestScore}/10)</span>`;
+      }
+    } else {
+      examBadge = `<span class="topic-badge-status not-started">Sin realizar</span>`;
+    }
+    
+    card.innerHTML = `
+      <div class="card-header">
+        <span class="card-badge">${escapeHtml(topic.badge || 'Tema')}</span>
+        <span class="card-count">${qCount} preguntas</span>
+      </div>
+      <h3 class="card-title">${escapeHtml(topic.title)}</h3>
+      <p class="card-desc">${escapeHtml(topic.description || '')}</p>
+      
+      <div class="topic-progress-box">
+        <div class="topic-progress-row">
+          <span class="topic-progress-label">📖 Práctica:</span>
+          ${practiceBadge}
+        </div>
+        <div class="topic-progress-row">
+          <span class="topic-progress-label">⏱️ Examen:</span>
+          ${examBadge}
+        </div>
+      </div>
+
+      <div class="card-actions">
+        <button class="btn btn-secondary btn-sm" onclick="startTopicQuiz('${topic.id}', 'practice')">
+          📖 Práctica
+        </button>
+        <button class="btn btn-primary btn-sm" onclick="startTopicQuiz('${topic.id}', 'exam')">
+          ⏱️ Examen
+        </button>
+      </div>
+    `;
+    return card;
+  }
+
   function renderTopics() {
     const container = document.getElementById('topics-container');
     if (!container) return;
@@ -392,66 +485,129 @@
       return;
     }
 
+    // Clasificación de temas
+    const bloqueTopics = [];
+    const repasoExamenTopics = [];
+    const repasoReadingTopics = [];
+    const repasoExtraTopics = [];
+
     data.topics.forEach(topic => {
-      const card = document.createElement('div');
-      card.className = 'topic-card';
-      const qCount = (topic.questions || []).length;
-      const progress = getTopicProgress(topic.id, topic.title);
-
-      // Etiqueta Práctica
-      let practiceBadge = '';
-      if (progress.practice.isPaused) {
-        practiceBadge = `<span class="topic-badge-status paused" title="Test pausado a medias">⏸️ Pausado</span>`;
-      } else if (progress.practice.completed) {
-        practiceBadge = `<span class="topic-badge-status completed" title="Modo práctica completado ${progress.practice.count} vez/veces">✓ Completado</span>`;
+      const tid = topic.id.toLowerCase();
+      if (tid.startsWith('tema_')) {
+        bloqueTopics.push(topic);
+      } else if (tid.includes('examen') || tid.includes('simulacro')) {
+        repasoExamenTopics.push(topic);
+      } else if (tid.includes('reading')) {
+        repasoReadingTopics.push(topic);
       } else {
-        practiceBadge = `<span class="topic-badge-status not-started">Pendiente</span>`;
+        repasoExtraTopics.push(topic);
       }
-
-      // Etiqueta Examen
-      let examBadge = '';
-      if (progress.exam.isPaused) {
-        examBadge = `<span class="topic-badge-status paused" title="Examen pausado a medias">⏸️ Pausado</span>`;
-      } else if (progress.exam.completed) {
-        if (progress.exam.passed) {
-          examBadge = `<span class="topic-badge-status passed" title="Superado con APTO (Mejor nota: ${progress.exam.bestScore}/10)">🎖️ APTO (${progress.exam.bestScore}/10)</span>`;
-        } else {
-          examBadge = `<span class="topic-badge-status failed" title="Realizado (Mejor nota: ${progress.exam.bestScore}/10)">❌ No apto (${progress.exam.bestScore}/10)</span>`;
-        }
-      } else {
-        examBadge = `<span class="topic-badge-status not-started">Sin realizar</span>`;
-      }
-      
-      card.innerHTML = `
-        <div class="card-header">
-          <span class="card-badge">${escapeHtml(topic.badge || 'Tema')}</span>
-          <span class="card-count">${qCount} preguntas</span>
-        </div>
-        <h3 class="card-title">${escapeHtml(topic.title)}</h3>
-        <p class="card-desc">${escapeHtml(topic.description || '')}</p>
-        
-        <div class="topic-progress-box">
-          <div class="topic-progress-row">
-            <span class="topic-progress-label">📖 Práctica:</span>
-            ${practiceBadge}
-          </div>
-          <div class="topic-progress-row">
-            <span class="topic-progress-label">⏱️ Examen:</span>
-            ${examBadge}
-          </div>
-        </div>
-
-        <div class="card-actions">
-          <button class="btn btn-secondary btn-sm" onclick="startTopicQuiz('${topic.id}', 'practice')">
-            📖 Práctica
-          </button>
-          <button class="btn btn-primary btn-sm" onclick="startTopicQuiz('${topic.id}', 'exam')">
-            ⏱️ Examen
-          </button>
-        </div>
-      `;
-      container.appendChild(card);
     });
+
+    const totalBloqueQ = bloqueTopics.reduce((acc, t) => acc + (t.questions || []).length, 0);
+    const totalRepasoTopicsCount = repasoExamenTopics.length + repasoReadingTopics.length + repasoExtraTopics.length;
+    const totalRepasoQ = [...repasoExamenTopics, ...repasoReadingTopics, ...repasoExtraTopics]
+      .reduce((acc, t) => acc + (t.questions || []).length, 0);
+
+    // Actualizar píldoras de conteo
+    const pAll = document.getElementById('count-pill-all');
+    const pBloque = document.getElementById('count-pill-bloque');
+    const pRepaso = document.getElementById('count-pill-repaso');
+    if (pAll) pAll.textContent = data.topics.length;
+    if (pBloque) pBloque.textContent = bloqueTopics.length;
+    if (pRepaso) pRepaso.textContent = totalRepasoTopicsCount;
+
+    // Estado de colapso guardado
+    let isBloqueCollapsed = false;
+    let isRepasoCollapsed = false;
+    try {
+      isBloqueCollapsed = localStorage.getItem('patronato_folder_bloque') === 'collapsed';
+      isRepasoCollapsed = localStorage.getItem('patronato_folder_repaso') === 'collapsed';
+    } catch (e) {}
+
+    // --- CARPETA 1: BLOQUES (TEMARIO OFICIAL) ---
+    const fBloque = document.createElement('div');
+    fBloque.className = `folder-group ${isBloqueCollapsed ? 'collapsed' : ''}`;
+    fBloque.id = 'folder-group-bloque';
+    fBloque.innerHTML = `
+      <div class="folder-header" onclick="toggleFolder('bloque')">
+        <div class="folder-header-left">
+          <span class="folder-icon">📁</span>
+          <div>
+            <div class="folder-title">Bloques (Temario Oficial)</div>
+            <div class="folder-subtitle">${bloqueTopics.length} temas del temario • ${totalBloqueQ} preguntas</div>
+          </div>
+        </div>
+        <div class="folder-header-right">
+          <span class="folder-badge">${bloqueTopics.length} Temas</span>
+          <span class="folder-arrow">▼</span>
+        </div>
+      </div>
+      <div class="folder-content" id="folder-content-bloque">
+        <div class="topics-grid" id="grid-bloque"></div>
+      </div>
+    `;
+    const gridBloque = fBloque.querySelector('#grid-bloque');
+    bloqueTopics.forEach(t => gridBloque.appendChild(createTopicCard(t)));
+    container.appendChild(fBloque);
+
+    // --- CARPETA 2: REPASO DE BLOQUES ---
+    const fRepaso = document.createElement('div');
+    fRepaso.className = `folder-group ${isRepasoCollapsed ? 'collapsed' : ''}`;
+    fRepaso.id = 'folder-group-repaso';
+    fRepaso.innerHTML = `
+      <div class="folder-header" onclick="toggleFolder('repaso')">
+        <div class="folder-header-left">
+          <span class="folder-icon">📂</span>
+          <div>
+            <div class="folder-title">Repaso de Bloques</div>
+            <div class="folder-subtitle">Simulacro oficial de examen, lectura y ejercicios extra • ${totalRepasoTopicsCount} tests • ${totalRepasoQ} preguntas</div>
+          </div>
+        </div>
+        <div class="folder-header-right">
+          <span class="folder-badge">${totalRepasoTopicsCount} Tests</span>
+          <span class="folder-arrow">▼</span>
+        </div>
+      </div>
+      <div class="folder-content" id="folder-content-repaso">
+        ${repasoExamenTopics.length > 0 ? `
+          <div class="folder-sub-header">
+            <span>🎯 Simulacro Oficial Formato Examen (60 preguntas)</span>
+          </div>
+          <div class="topics-grid" id="grid-repaso-examen" style="margin-bottom: 1.5rem;"></div>
+        ` : ''}
+
+        ${repasoReadingTopics.length > 0 ? `
+          <div class="folder-sub-header">
+            <span>📖 Comprensión Lectora (Reading)</span>
+          </div>
+          <div class="topics-grid" id="grid-repaso-reading" style="margin-bottom: 1.5rem;"></div>
+        ` : ''}
+
+        ${repasoExtraTopics.length > 0 ? `
+          <div class="folder-sub-header">
+            <span>⚡ Ejercicios Extra de Refuerzo</span>
+          </div>
+          <div class="topics-grid" id="grid-repaso-extra"></div>
+        ` : ''}
+      </div>
+    `;
+
+    const gridExamen = fRepaso.querySelector('#grid-repaso-examen');
+    if (gridExamen) repasoExamenTopics.forEach(t => gridExamen.appendChild(createTopicCard(t)));
+
+    const gridReading = fRepaso.querySelector('#grid-repaso-reading');
+    if (gridReading) repasoReadingTopics.forEach(t => gridReading.appendChild(createTopicCard(t)));
+
+    const gridExtra = fRepaso.querySelector('#grid-repaso-extra');
+    if (gridExtra) repasoExtraTopics.forEach(t => gridExtra.appendChild(createTopicCard(t)));
+
+    container.appendChild(fRepaso);
+
+    // Aplicar filtro activo actual
+    if (state.folderFilter) {
+      setFolderFilter(state.folderFilter);
+    }
   }
 
   // --- QUIZ STARTING ---

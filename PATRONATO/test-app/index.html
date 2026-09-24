@@ -114,10 +114,19 @@
         </div>
       </div>
 
-      <!-- Topics Grid -->
-      <div class="section-title">📚 Temas Disponibles</div>
-      <div class="topics-grid" id="topics-container">
-        <!-- Rendered dynamically from questions-data.js -->
+      <!-- Topics Section Header & Filter Pills -->
+      <div class="topics-section-header">
+        <div class="section-title" style="margin-bottom: 0;">📚 Temas Disponibles</div>
+        <div class="folder-filter-pills" id="folder-filter-pills">
+          <button class="pill-btn active" id="pill-all" onclick="setFolderFilter('all')">Todos (<span id="count-pill-all">13</span>)</button>
+          <button class="pill-btn" id="pill-bloque" onclick="setFolderFilter('bloque')">📁 Bloques (<span id="count-pill-bloque">6</span>)</button>
+          <button class="pill-btn" id="pill-repaso" onclick="setFolderFilter('repaso')">📂 Repaso (<span id="count-pill-repaso">7</span>)</button>
+        </div>
+      </div>
+
+      <!-- Topics Container (Subcarpetas) -->
+      <div id="topics-container">
+        <!-- Rendered dynamically as collapsible subfolders from questions-data.js -->
       </div>
     </section>
 
