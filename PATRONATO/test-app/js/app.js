@@ -525,7 +525,7 @@
       isRepasoCollapsed = localStorage.getItem('patronato_folder_repaso') === 'collapsed';
     } catch (e) {}
 
-    // --- CARPETA 1: BLOQUES (TEMARIO OFICIAL) ---
+    // --- CARPETA 1: BLOQUE 1 ---
     const fBloque = document.createElement('div');
     fBloque.className = `folder-group ${isBloqueCollapsed ? 'collapsed' : ''}`;
     fBloque.id = 'folder-group-bloque';
@@ -534,7 +534,7 @@
         <div class="folder-header-left">
           <span class="folder-icon">📁</span>
           <div>
-            <div class="folder-title">Bloques (Temario Oficial)</div>
+            <div class="folder-title">Bloque 1</div>
             <div class="folder-subtitle">${bloqueTopics.length} temas del temario • ${totalBloqueQ} preguntas</div>
           </div>
         </div>
@@ -551,7 +551,7 @@
     bloqueTopics.forEach(t => gridBloque.appendChild(createTopicCard(t)));
     container.appendChild(fBloque);
 
-    // --- CARPETA 2: REPASO DE BLOQUES ---
+    // --- CARPETA 2: REPASO DE BLOQUE 1 ---
     const fRepaso = document.createElement('div');
     fRepaso.className = `folder-group ${isRepasoCollapsed ? 'collapsed' : ''}`;
     fRepaso.id = 'folder-group-repaso';
@@ -560,7 +560,7 @@
         <div class="folder-header-left">
           <span class="folder-icon">📂</span>
           <div>
-            <div class="folder-title">Repaso de Bloques</div>
+            <div class="folder-title">Repaso de Bloque 1</div>
             <div class="folder-subtitle">Simulacro oficial de examen, lectura y ejercicios extra • ${totalRepasoTopicsCount} tests • ${totalRepasoQ} preguntas</div>
           </div>
         </div>
