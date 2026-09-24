@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-09-15 18:42:48
- * Total preguntas: 344
+ * Fecha: 2026-09-24 17:39:45
+ * Total preguntas: 578
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-09-15 18:42:48",
-    "totalTopics": 6,
-    "totalQuestions": 344
+    "generatedAt": "2026-09-24 17:39:45",
+    "totalTopics": 13,
+    "totalQuestions": 578
   },
   "topics": [
     {
@@ -4222,7 +4222,7 @@ window.TEST_DATA = {
             "D": "easiness"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q2",
@@ -4237,7 +4237,7 @@ window.TEST_DATA = {
             "D": "easiness"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: B."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
         },
         {
           "id": "T5_Q3",
@@ -4252,7 +4252,7 @@ window.TEST_DATA = {
             "D": "goodly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q4",
@@ -4267,7 +4267,7 @@ window.TEST_DATA = {
             "D": "well"
           },
           "answer": "D",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: D."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: D."
         },
         {
           "id": "T5_Q5",
@@ -4282,7 +4282,7 @@ window.TEST_DATA = {
             "D": "careless"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q6",
@@ -4297,7 +4297,7 @@ window.TEST_DATA = {
             "D": "carelessly"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: B."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
         },
         {
           "id": "T5_Q7",
@@ -4312,7 +4312,7 @@ window.TEST_DATA = {
             "D": "hardy"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q8",
@@ -4327,7 +4327,7 @@ window.TEST_DATA = {
             "D": "hardy"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: B."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
         },
         {
           "id": "T5_Q9",
@@ -4342,7 +4342,7 @@ window.TEST_DATA = {
             "D": "highness"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q10",
@@ -4357,7 +4357,7 @@ window.TEST_DATA = {
             "D": "highness"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q11",
@@ -4372,7 +4372,7 @@ window.TEST_DATA = {
             "D": "friendship"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: B."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
         },
         {
           "id": "T5_Q12",
@@ -4387,7 +4387,7 @@ window.TEST_DATA = {
             "D": "likelyly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q13",
@@ -4402,7 +4402,7 @@ window.TEST_DATA = {
             "D": "completely"
           },
           "answer": "D",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: D."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: D."
         },
         {
           "id": "T5_Q14",
@@ -4417,7 +4417,7 @@ window.TEST_DATA = {
             "D": "nicer"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
         },
         {
           "id": "T5_Q15",
@@ -4432,7 +4432,7 @@ window.TEST_DATA = {
             "D": "too"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opcion correcta: B."
+          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
         },
         {
           "id": "T5_Q16",
@@ -4447,7 +4447,7 @@ window.TEST_DATA = {
             "D": "interestingly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q17",
@@ -4462,7 +4462,7 @@ window.TEST_DATA = {
             "D": "interestingly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q18",
@@ -4477,7 +4477,7 @@ window.TEST_DATA = {
             "D": "worriedly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q19",
@@ -4492,7 +4492,7 @@ window.TEST_DATA = {
             "D": "worriedly"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: B."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: B."
         },
         {
           "id": "T5_Q20",
@@ -4507,7 +4507,7 @@ window.TEST_DATA = {
             "D": "boringly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q21",
@@ -4522,7 +4522,7 @@ window.TEST_DATA = {
             "D": "boringly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q22",
@@ -4537,7 +4537,7 @@ window.TEST_DATA = {
             "D": "disappoint"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q23",
@@ -4552,7 +4552,7 @@ window.TEST_DATA = {
             "D": "disappointing"
           },
           "answer": "D",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: D."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: D."
         },
         {
           "id": "T5_Q24",
@@ -4567,7 +4567,7 @@ window.TEST_DATA = {
             "D": "amaze"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: B."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: B."
         },
         {
           "id": "T5_Q25",
@@ -4582,7 +4582,7 @@ window.TEST_DATA = {
             "D": "amaze"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q26",
@@ -4597,7 +4597,7 @@ window.TEST_DATA = {
             "D": "silencing"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opcion correcta: C."
+          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
         },
         {
           "id": "T5_Q27",
@@ -4612,7 +4612,7 @@ window.TEST_DATA = {
             "D": "silencing"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q28",
@@ -4627,7 +4627,7 @@ window.TEST_DATA = {
             "D": "traditionalism"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q29",
@@ -4642,7 +4642,7 @@ window.TEST_DATA = {
             "D": "unhealthy"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q30",
@@ -4657,7 +4657,7 @@ window.TEST_DATA = {
             "D": "popularity"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q31",
@@ -4672,7 +4672,7 @@ window.TEST_DATA = {
             "D": "safety"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: D."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
         },
         {
           "id": "T5_Q32",
@@ -4687,7 +4687,7 @@ window.TEST_DATA = {
             "D": "impossible"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q33",
@@ -4702,7 +4702,7 @@ window.TEST_DATA = {
             "D": "unsuccessful"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q34",
@@ -4717,7 +4717,7 @@ window.TEST_DATA = {
             "D": "decided"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q35",
@@ -4732,7 +4732,7 @@ window.TEST_DATA = {
             "D": "improving"
           },
           "answer": "B",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: B."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: B."
         },
         {
           "id": "T5_Q36",
@@ -4747,7 +4747,7 @@ window.TEST_DATA = {
             "D": "information"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: D."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
         },
         {
           "id": "T5_Q37",
@@ -4762,7 +4762,7 @@ window.TEST_DATA = {
             "D": "environments"
           },
           "answer": "B",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: B."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: B."
         },
         {
           "id": "T5_Q38",
@@ -4777,7 +4777,7 @@ window.TEST_DATA = {
             "D": "scientific"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: D."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
         },
         {
           "id": "T5_Q39",
@@ -4792,7 +4792,7 @@ window.TEST_DATA = {
             "D": "attractively"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: C."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
         },
         {
           "id": "T5_Q40",
@@ -4807,7 +4807,7 @@ window.TEST_DATA = {
             "D": "effective"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opcion correcta: D."
+          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
         },
         {
           "id": "T5_Q41",
@@ -4822,7 +4822,7 @@ window.TEST_DATA = {
             "D": "irregularly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Prefixes and Meaning. Opcion correcta: C."
+          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: C."
         },
         {
           "id": "T5_Q42",
@@ -4837,7 +4837,7 @@ window.TEST_DATA = {
             "D": "illegally"
           },
           "answer": "B",
-          "explanation": "Tema 5: Prefixes and Meaning. Opcion correcta: B."
+          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: B."
         },
         {
           "id": "T5_Q43",
@@ -4852,7 +4852,7 @@ window.TEST_DATA = {
             "D": "impossibly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Prefixes and Meaning. Opcion correcta: C."
+          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: C."
         },
         {
           "id": "T5_Q44",
@@ -4867,7 +4867,7 @@ window.TEST_DATA = {
             "D": "dishonest"
           },
           "answer": "D",
-          "explanation": "Tema 5: Prefixes and Meaning. Opcion correcta: D."
+          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: D."
         },
         {
           "id": "T5_Q45",
@@ -4882,7 +4882,3582 @@ window.TEST_DATA = {
             "D": "self-employing"
           },
           "answer": "B",
-          "explanation": "Tema 5: Prefixes and Meaning. Opcion correcta: B."
+          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: B."
+        }
+      ]
+    },
+    {
+      "id": "bloque_1_examen",
+      "title": "Bloque 1: Simulacro Oficial Formato Examen (60 preguntas)",
+      "badge": "Simulacro B1",
+      "description": "Examen oficial de 60 preguntas: 30 de Reading comprehension con textos reales y 30 de Grammar & Use of English (cloze texts).",
+      "questions": [
+        {
+          "id": "B1_EX_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 1)",
+          "readingText": "The Green Street Book Club meets on the first Thursday of every month at \n18:30. Room 4 is closed for repairs this month, so members are meeting in the \nupstairs café instead. New members are welcome.",
+          "question": "Where is the club meeting this month?",
+          "options": {
+            "A": "In Room 4",
+            "B": "In the upstairs café",
+            "C": "In a bookshop",
+            "D": "In a new building"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 1. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 2)",
+          "readingText": "The pool opens at 7:00 every day. On Tuesdays, only lane swimming is available \nfrom 7:00 to 9:00. Children under twelve can enter after 9:00 when they are \nwith an adult.",
+          "question": "What is true at 8:00 on Tuesday?",
+          "options": {
+            "A": "The pool is closed.",
+            "B": "Children can swim alone.",
+            "C": "All normal activities are available.",
+            "D": "A child under twelve must wait until after 9:00."
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 2. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 3)",
+          "readingText": "Carla normally cycles to the health centre where she works. This week, \nhowever, there are roadworks on her usual route, so she is taking the bus. Her \nbrother still travels by bicycle because he works in another part of town.",
+          "question": "How is Carla travelling to work this week?",
+          "options": {
+            "A": "By bus",
+            "B": "By bicycle",
+            "C": "By car",
+            "D": "On foot"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 3. Solución oficial: A."
+        },
+        {
+          "id": "B1_EX_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 4)",
+          "readingText": "The Saturday outdoor market usually has more than forty stalls. Today the \nweather is very windy, so the outdoor section is closed. The craft sellers are \nusing the indoor hall, but the fruit and vegetable stalls are not opening today.",
+          "question": "What is happening today?",
+          "options": {
+            "A": "All the stalls are closed.",
+            "B": "Fruit sellers are working indoors.",
+            "C": "Craft sellers are inside the hall.",
+            "D": "The market has moved to another town."
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 4. Solución oficial: C."
+        },
+        {
+          "id": "B1_EX_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 5)",
+          "readingText": "Sam, the film starts at 19:30. I have our tickets on my phone, but I am running \nlate. Please go inside and keep a seat for me near the aisle. I am on my way \nnow. — Alice",
+          "question": "What does Alice want Sam to do?",
+          "options": {
+            "A": "Buy another ticket",
+            "B": "Save her a seat",
+            "C": "Wait outside the cinema",
+            "D": "Change the film time"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 5. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 6)",
+          "readingText": "Saturday and Sunday, 08:00–14:00. Previous café experience is not necessary. \nWe need someone friendly who works quickly and enjoys meeting customers. \nApply by email. Please do not telephone.",
+          "question": "Who is suitable for the job?",
+          "options": {
+            "A": "Someone available at weekends with no previous café experience",
+            "B": "Someone who can only work on weekdays",
+            "C": "Someone who prefers not to meet customers",
+            "D": "Someone who only applies by telephone"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 6. Solución oficial: A."
+        },
+        {
+          "id": "B1_EX_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 7)",
+          "readingText": "Students may borrow up to three library books for two weeks. DVDs are \navailable for seven days. When the library is closed, books can be returned using \nthe box beside the main entrance.",
+          "question": "Which statement is correct?",
+          "options": {
+            "A": "Students may keep DVDs for two weeks.",
+            "B": "The return box is inside the library.",
+            "C": "Students may borrow unlimited books.",
+            "D": "Library books may be kept for two weeks."
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 7. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 8)",
+          "readingText": "Small brown female dog with a red collar. She is friendly but very nervous \naround strangers. If you see her, please do not run after her. Call 680 224 119 \nand tell us where she is.",
+          "question": "What should someone do after seeing the dog?",
+          "options": {
+            "A": "Remove her collar.",
+            "B": "Follow her closely.",
+            "C": "Telephone the owner with her location.",
+            "D": "Take her home immediately."
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 8. Solución oficial: C."
+        },
+        {
+          "id": "B1_EX_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 9)",
+          "readingText": "Breakfast at the training centre begins at 7:00. Morning lessons start at 8:30 and \nfinish before lunch at 13:00. Afternoon classes end at 17:00. The gym is \navailable to students after the final class.",
+          "question": "When can students use the gym?",
+          "options": {
+            "A": "Before breakfast",
+            "B": "After 17:00",
+            "C": "During morning lessons",
+            "D": "At lunchtime only"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 9. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 10)",
+          "readingText": "Visitors may take photographs in the permanent galleries, but not in the \ntemporary exhibition on the second floor. Flash photography is not permitted \nanywhere in the museum.",
+          "question": "What may a visitor do?",
+          "options": {
+            "A": "Use a flash in the permanent gallery.",
+            "B": "Photograph the temporary exhibition.",
+            "C": "Use a flash on the ground floor.",
+            "D": "Take a photograph without flash in a permanent gallery."
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 10. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 11)",
+          "readingText": "Nora lives with her parents above their small bakery. She normally helps before \nschool, but this month her father is attending an afternoon course. As a result, \nNora is helping in the shop after classes instead. Her brother Leo usually serves \ncustomers on Saturdays, although he is studying for an important examination \nat the moment.",
+          "question": "What is different for Nora this month?",
+          "options": {
+            "A": "She is helping at the bakery after school.",
+            "B": "She is studying at home every afternoon.",
+            "C": "She is working only on Saturdays.",
+            "D": "She is attending her father's course."
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 11. Solución oficial: A."
+        },
+        {
+          "id": "B1_EX_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 12)",
+          "readingText": "The station bookshop opens at 6:30 on weekdays and at 8:00 at weekends. It \nsells newspapers, magazines, novels and travel guides. Customers can reserve a \nbook by telephone, but they need to collect it from the shop within 48 hours. \nThe shop does not provide home delivery.",
+          "question": "What must a customer do after reserving a book?",
+          "options": {
+            "A": "Pay for home delivery.",
+            "B": "Collect it within two days.",
+            "C": "Visit the shop on a weekday morning.",
+            "D": "Telephone again after 48 hours."
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 12. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 13)",
+          "readingText": "Families in Brookfield Community Garden each look after a small area. The \ngardening tools belong to the club, so members do not need to bring their own. \nChildren are welcome when an adult is with them. The garden is closed every \nWednesday for maintenance, while experienced members give advice to \nbeginners on Saturday mornings.",
+          "question": "Which statement is correct?",
+          "options": {
+            "A": "Every family must buy gardening tools.",
+            "B": "Children can visit without an adult.",
+            "C": "The club provides tools for its members.",
+            "D": "Beginners receive advice on Wednesdays."
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 13. Solución oficial: C."
+        },
+        {
+          "id": "B1_EX_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 14)",
+          "readingText": "Bus 18 normally stops at King Street and Main Square every twenty minutes. \nThis week, roadworks are preventing buses from using those two stops. \nPassengers need to use the temporary stop on River Road instead. The first and \nlast bus times remain the same.",
+          "question": "A passenger who normally gets on at Main Square should",
+          "options": {
+            "A": "wait for the bus at King Street.",
+            "B": "travel at a different time.",
+            "C": "use another bus route.",
+            "D": "go to the temporary River Road stop."
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 14. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 15)",
+          "readingText": "The Northside Football Club has an adult team and a team for players under \nsixteen. Adults train on Tuesday evenings at 19:00, while younger players train \non Thursdays at 18:00. Both teams normally play on Saturday. This month their \nmatches take place at the school pitch because their usual field is too wet.",
+          "question": "When do the younger players train?",
+          "options": {
+            "A": "Tuesday at 18:00",
+            "B": "Thursday at 18:00",
+            "C": "Thursday at 19:00",
+            "D": "Saturday morning"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 15. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 16)",
+          "readingText": "The six-week online course provides a new lesson every Monday. Students \nnormally need about three hours each week to complete the activities. The \ndiscussion board is available every day, but the teacher answers individual \nquestions only on Tuesdays and Fridays.",
+          "question": "When does the teacher answer individual questions?",
+          "options": {
+            "A": "On Tuesdays and Fridays",
+            "B": "Every Monday",
+            "C": "At weekends only",
+            "D": "Every day"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 16. Solución oficial: A."
+        },
+        {
+          "id": "B1_EX_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 17)",
+          "readingText": "Breakfast at the Lakeside Hotel is included in the room price and is served from \n7:00 to 10:00. The gym opens at 6:00. The swimming pool is closed for cleaning \nthis week, but the spa remains open. After 22:00, guests need their room key to \nenter through the side door.",
+          "question": "Which statement is correct?",
+          "options": {
+            "A": "Breakfast costs extra.",
+            "B": "The gym opens after breakfast.",
+            "C": "Guests can still use the spa this week.",
+            "D": "The hotel closes completely at 22:00."
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 17. Solución oficial: C."
+        },
+        {
+          "id": "B1_EX_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 18)",
+          "readingText": "The town science centre is currently testing new ticket machines near its \nentrance. Staff ask visitors to try the machines first, but they remain nearby to \nhelp. Anyone who has difficulty using a machine can still buy a ticket at the \nnormal desk. The centre is studying whether the machines reduce queues.",
+          "question": "What can we understand from the text?",
+          "options": {
+            "A": "The normal ticket desk is permanently closed.",
+            "B": "Visitors have to use the machines without help.",
+            "C": "The machines already reduce every queue.",
+            "D": "Visitors can still use the desk if necessary."
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 18. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 19)",
+          "readingText": "Mia works in a customer service team. She usually answers telephone calls, and \nevery Wednesday she prepares a short report. Today the computer system is \nnot working, so the staff are writing customer information on paper and calling \npeople back later.",
+          "question": "Why are the staff using paper today?",
+          "options": {
+            "A": "Customers prefer written messages.",
+            "B": "The computer system is not working.",
+            "C": "Wednesday is their normal paper-work day.",
+            "D": "Mia is preparing her weekly report."
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 19. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 20)",
+          "readingText": "Every spring, Easton holds a town festival with live music, food stalls and \ntraditional dancing. This year the weather forecast shows strong wind. The food \nmarket is staying in the central square, but the dance performance is taking \nplace inside the sports hall.",
+          "question": "Where is the traditional dancing taking place this year?",
+          "options": {
+            "A": "At the railway station",
+            "B": "In the central market",
+            "C": "In the sports hall",
+            "D": "Outside the town"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 20. Solución oficial: C."
+        },
+        {
+          "id": "B1_EX_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 21)",
+          "readingText": "The local health centre encourages people with desk jobs to move regularly \nduring the day. It recommends short walks, using stairs where possible and \nstanding up from the desk from time to time. Staff explain that people do not \nneed expensive equipment to become more active.",
+          "question": "What does the health centre mainly recommend?",
+          "options": {
+            "A": "Regular movement during the day",
+            "B": "Buying exercise equipment",
+            "C": "Avoiding stairs at work",
+            "D": "Exercising only at weekends"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 21. Solución oficial: A."
+        },
+        {
+          "id": "B1_EX_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 22)",
+          "readingText": "The animal shelter welcomes visitors from 10:00 to 16:00. Anyone interested in \nadopting an animal needs to speak to a member of staff first. Volunteers aged \neighteen or over can walk the dogs after completing an introductory session. \nYounger visitors are welcome when an adult accompanies them.",
+          "question": "What is true for a seventeen-year-old visitor?",
+          "options": {
+            "A": "They can walk dogs alone after arriving.",
+            "B": "They cannot enter the shelter.",
+            "C": "They can adopt an animal without speaking to staff.",
+            "D": "They are not old enough to volunteer for dog walking."
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 22. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 23)",
+          "readingText": "A school class is preparing a display about local transport. The students are \ncollecting old tickets, photographs and short interviews with people who travel \naround the town every day. Their teacher wants the display to show how \ntransport affects people's daily routines rather than explain how buses and \ntrains work.",
+          "question": "What is the main purpose of the project?",
+          "options": {
+            "A": "To explain the technology inside buses",
+            "B": "To show the effect of transport on everyday life",
+            "C": "To advertise new train services",
+            "D": "To compare ticket prices"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 23. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 24)",
+          "readingText": "The Corner Café serves its lunch menu from 12:00 until 15:00. Students receive \na ten per cent discount from Monday to Friday when they show valid student \nidentification. The discount does not apply at weekends. Drinks are not included \nin the price of sandwiches.",
+          "question": "Which statement is correct?",
+          "options": {
+            "A": "Every sandwich includes a free drink.",
+            "B": "The lunch menu is available all day.",
+            "C": "Students do not receive the discount on Saturday.",
+            "D": "Student identification is unnecessary."
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 24. Solución oficial: C."
+        },
+        {
+          "id": "B1_EX_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 25)",
+          "readingText": "The West Coast Path is eight kilometres long. The first section, close to town, is \nwide and fairly flat. After the lighthouse the path becomes narrow and is often \nwindy. Visitors who want an easier, shorter walk usually turn back at the \nlighthouse. Bicycles are not permitted beyond that point.",
+          "question": "Who has to stop at the lighthouse rather than continue along the path?",
+          "options": {
+            "A": "All walkers",
+            "B": "Local residents",
+            "C": "People travelling on foot",
+            "D": "Cyclists"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 25. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 26)",
+          "readingText": "Lena is a student and volunteers at her community library twice a month. She \nnormally puts returned books back on the shelves and helps children find \nsuitable stories. This month the library is running a reading challenge, so Lena is \nspending more time at the welcome desk explaining how the activity works. Her \nfriend Omar volunteers there too, but he prefers helping people with the library \ncomputers. Staff try to give volunteers jobs that match their interests, although \neverybody receives the same basic safety instructions.",
+          "question": "What is different about Lena's work this month?",
+          "options": {
+            "A": "She is doing more work connected with the reading challenge.",
+            "B": "She is teaching Omar to use the computers.",
+            "C": "She has stopped volunteering at the library.",
+            "D": "She is only working with returned books."
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 26. Solución oficial: A."
+        },
+        {
+          "id": "B1_EX_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 27)",
+          "readingText": "The Harbour Museum occupies an old railway building near the sea. Its \npermanent exhibition contains photographs, fishing equipment and information \nabout families who live in the area. Entry to this part of the museum is free. A \nsmaller temporary exhibition has an admission charge. Mornings are normally \nquiet, while several school groups often visit after lunch. The museum café \nopens at 11:00 and closes one hour before the museum itself.",
+          "question": "Which visitor is most likely to have a quiet, free visit?",
+          "options": {
+            "A": "Someone visiting the temporary exhibition after lunch",
+            "B": "Someone visiting the permanent exhibition in the morning",
+            "C": "A school group arriving after lunch",
+            "D": "Someone going only to the café in the afternoon"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 27. Solución oficial: B."
+        },
+        {
+          "id": "B1_EX_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 28)",
+          "readingText": "Lake Park is open from sunrise until sunset. Swimming is permitted only in the \nmarked area when a lifeguard is present. Lifeguards work at weekends from \nJune to August. Dogs can use the walking paths but are not allowed on the \nbeach. Cyclists must remain on the main cycle track. Visitors can eat in the \npicnic area, but open fires are prohibited throughout the park. Signs near each \nentrance explain the rules, and park staff regularly check the busiest areas.",
+          "question": "Which rule applies to a visitor with a dog?",
+          "options": {
+            "A": "The dog can swim in the marked area.",
+            "B": "Dogs are allowed everywhere before sunset.",
+            "C": "Dogs can enter the beach at weekends.",
+            "D": "The dog must stay off the beach."
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 28. Solución oficial: D."
+        },
+        {
+          "id": "B1_EX_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 29)",
+          "readingText": "A small design company has forty employees. Most staff work in the office from \nMonday to Wednesday and work from home on Thursday and Friday. New \nemployees, however, spend their first two weeks in the office every working \nday so that they can learn the company's systems and meet their team. At the \nmoment, part of the office is being redecorated, so one experienced team is \nworking from home all week. Customer service hours remain unchanged.",
+          "question": "Which statement is correct?",
+          "options": {
+            "A": "All employees now work from home every day.",
+            "B": "New employees begin by working only on Thursdays and Fridays.",
+            "C": "New employees normally spend their first two weeks in the office.",
+            "D": "Customer service is currently closed."
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 29. Solución oficial: C."
+        },
+        {
+          "id": "B1_EX_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Reading Comprehension (Texto 30)",
+          "readingText": "Sports Day at Riverside School is not only for students who enjoy competitions. \nSome students take part in races or team games, but others record results, take \nphotographs, prepare water for participants or help teachers organise \nequipment. Families watch from a separate area beside the sports field. The \nschool also has a quiet indoor activity room for students who do not want to \njoin the outdoor events. Teachers believe this variety allows more students to \ntake part in the day in a way that suits them.",
+          "question": "What is the main idea of the text?",
+          "options": {
+            "A": "Students can participate in Sports Day in several different ways.",
+            "B": "Only students who compete in races can take part.",
+            "C": "Families organise most of the school activities.",
+            "D": "Indoor activities are more important than outdoor events."
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - Reading Texto 30. Solución oficial: A."
+        },
+        {
+          "id": "B1_EX_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (31) del texto:",
+          "options": {
+            "A": "opens",
+            "B": "is opening",
+            "C": "open",
+            "D": "opening"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (31): A."
+        },
+        {
+          "id": "B1_EX_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (32) del texto:",
+          "options": {
+            "A": "prepare",
+            "B": "prepares",
+            "C": "are preparing",
+            "D": "preparing"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (32): C."
+        },
+        {
+          "id": "B1_EX_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (33) del texto:",
+          "options": {
+            "A": "books",
+            "B": "book",
+            "C": "are book",
+            "D": "booking"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (33): B."
+        },
+        {
+          "id": "B1_EX_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (34) del texto:",
+          "options": {
+            "A": "is knowing",
+            "B": "know",
+            "C": "knowing",
+            "D": "knows"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (34): D."
+        },
+        {
+          "id": "B1_EX_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (35) del texto:",
+          "options": {
+            "A": "crowd",
+            "B": "crowding",
+            "C": "crowded",
+            "D": "crowdly"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (35): C."
+        },
+        {
+          "id": "B1_EX_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (36) del texto:",
+          "options": {
+            "A": "their",
+            "B": "theirs",
+            "C": "them",
+            "D": "they"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (36): A."
+        },
+        {
+          "id": "B1_EX_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (37) del texto:",
+          "options": {
+            "A": "no",
+            "B": "not",
+            "C": "ever",
+            "D": "never"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (37): D."
+        },
+        {
+          "id": "B1_EX_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (38) del texto:",
+          "options": {
+            "A": "clear",
+            "B": "clearly",
+            "C": "clearness",
+            "D": "clearer"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (38): B."
+        },
+        {
+          "id": "B1_EX_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (39) del texto:",
+          "options": {
+            "A": "offer",
+            "B": "offers",
+            "C": "is offering",
+            "D": "offering"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (39): C."
+        },
+        {
+          "id": "B1_EX_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Use of English - A BUSY SPORTS CENTRE",
+          "readingText": "The Riverside Sports Centre is popular with people of all ages. It (31) _____ at \nseven every weekday, and many local workers exercise there before going to \nwork. \nAt the moment, two instructors (32) _____ a new swimming class for teenagers. \nMost members (33) _____ their sessions online before they arrive, although \nsome prefer to speak to the staff at reception. \nThe manager (34) _____ that regular exercise is important for good health. The \ncentre is usually very (35) _____ in the evenings, especially on Mondays. The \ninstructors keep (36) _____ equipment in a locked room and (37) _____ leave it \nin public areas. \nOne instructor, Helen, explains the exercises very (38) _____, so new members \nfind her classes easy to follow. This week the centre (39) _____ free health \nchecks as part of a local campaign. Visitors usually (40) _____ advice about \nsuitable activities before choosing a class.",
+          "question": "Completa el hueco (40) del texto:",
+          "options": {
+            "A": "receive",
+            "B": "receives",
+            "C": "are receive",
+            "D": "receiving"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - A BUSY SPORTS CENTRE. Solución oficial (40): A."
+        },
+        {
+          "id": "B1_EX_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (41) del texto:",
+          "options": {
+            "A": "them",
+            "B": "theirs",
+            "C": "they",
+            "D": "their"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (41): D."
+        },
+        {
+          "id": "B1_EX_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (42) del texto:",
+          "options": {
+            "A": "runs",
+            "B": "is running",
+            "C": "run",
+            "D": "running"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (42): B."
+        },
+        {
+          "id": "B1_EX_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (43) del texto:",
+          "options": {
+            "A": "himself",
+            "B": "him",
+            "C": "his",
+            "D": "he"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (43): A."
+        },
+        {
+          "id": "B1_EX_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (44) del texto:",
+          "options": {
+            "A": "themselves",
+            "B": "them",
+            "C": "each other",
+            "D": "their"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (44): C."
+        },
+        {
+          "id": "B1_EX_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (45) del texto:",
+          "options": {
+            "A": "mouse",
+            "B": "mouses",
+            "C": "mices",
+            "D": "mice"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (45): D."
+        },
+        {
+          "id": "B1_EX_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (46) del texto:",
+          "options": {
+            "A": "are",
+            "B": "be",
+            "C": "is",
+            "D": "being"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (46): C."
+        },
+        {
+          "id": "B1_EX_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (47) del texto:",
+          "options": {
+            "A": "Those",
+            "B": "That",
+            "C": "This",
+            "D": "It"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (47): A."
+        },
+        {
+          "id": "B1_EX_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (48) del texto:",
+          "options": {
+            "A": "volunteer",
+            "B": "volunteers'",
+            "C": "volunteers",
+            "D": "volunteer's"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (48): B."
+        },
+        {
+          "id": "B1_EX_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (49) del texto:",
+          "options": {
+            "A": "he",
+            "B": "him",
+            "C": "he's",
+            "D": "his"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (49): D."
+        },
+        {
+          "id": "B1_EX_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Use of English - HELPING AT AN ANIMAL CENTRE",
+          "readingText": "Emma and her brother Leo often spend Saturday mornings at a small animal \nrescue centre. They usually go there with (41) _____ parents, who help with \ntransport and food. \nRight now, the centre (42) _____ a special campaign to find homes for some of \nits animals. Leo designed one of the campaign posters (43) _____; nobody \nhelped him. Emma and Leo also help (44) _____ when there are difficult jobs to \ndo. \nThe centre currently has three rescued (45) _____ as well as several dogs and \ncats. The news about its weekend activities (46) _____ always useful for people \nwho want to volunteer. \n(47) _____ large boxes beside the entrance contain food donations. All twelve \nvolunteers share one room for their bags and coats; it is the (48) _____ room. \nOne of the dogs is called Max. He is male, and the staff keep (49) _____ \nmedicine in a separate cupboard. At the end of a busy morning, everybody is \ntired but (50) _____.",
+          "question": "Completa el hueco (50) del texto:",
+          "options": {
+            "A": "happiness",
+            "B": "happily",
+            "C": "happy",
+            "D": "unhappiness"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - HELPING AT AN ANIMAL CENTRE. Solución oficial (50): C."
+        },
+        {
+          "id": "B1_EX_Q51",
+          "number": 51,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (51) del texto:",
+          "options": {
+            "A": "is belonging",
+            "B": "belongs",
+            "C": "belong",
+            "D": "belonging"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (51): B."
+        },
+        {
+          "id": "B1_EX_Q52",
+          "number": 52,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (52) del texto:",
+          "options": {
+            "A": "has got",
+            "B": "have",
+            "C": "is having",
+            "D": "gots"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (52): A."
+        },
+        {
+          "id": "B1_EX_Q53",
+          "number": 53,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (53) del texto:",
+          "options": {
+            "A": "prepare",
+            "B": "prepares",
+            "C": "preparing",
+            "D": "are preparing"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (53): D."
+        },
+        {
+          "id": "B1_EX_Q54",
+          "number": 54,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (54) del texto:",
+          "options": {
+            "A": "interest",
+            "B": "interested",
+            "C": "interesting",
+            "D": "interestingly"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (54): C."
+        },
+        {
+          "id": "B1_EX_Q55",
+          "number": 55,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (55) del texto:",
+          "options": {
+            "A": "careful",
+            "B": "carefully",
+            "C": "care",
+            "D": "careless"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (55): B."
+        },
+        {
+          "id": "B1_EX_Q56",
+          "number": 56,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (56) del texto:",
+          "options": {
+            "A": "is",
+            "B": "do",
+            "C": "does",
+            "D": "this"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (56): A."
+        },
+        {
+          "id": "B1_EX_Q57",
+          "number": 57,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (57) del texto:",
+          "options": {
+            "A": "Them",
+            "B": "Their",
+            "C": "They",
+            "D": "Theirs"
+          },
+          "answer": "C",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (57): C."
+        },
+        {
+          "id": "B1_EX_Q58",
+          "number": 58,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (58) del texto:",
+          "options": {
+            "A": "it",
+            "B": "it's",
+            "C": "theirs",
+            "D": "its"
+          },
+          "answer": "D",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (58): D."
+        },
+        {
+          "id": "B1_EX_Q59",
+          "number": 59,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (59) del texto:",
+          "options": {
+            "A": "success",
+            "B": "successful",
+            "C": "successfully",
+            "D": "succeed"
+          },
+          "answer": "B",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (59): B."
+        },
+        {
+          "id": "B1_EX_Q60",
+          "number": 60,
+          "type": "choice",
+          "section": "Use of English - THE TOWN SCIENCE MUSEUM",
+          "readingText": "The Westfield Science Museum is small, but it is popular with local families. It \n(51) _____ to an educational charity and receives help from many volunteers. \nThe museum (52) _____ two main exhibition halls and a small workshop. Right \nnow, staff (53) _____ a new exhibition about weather. They believe it is \nespecially (54) _____ for children because visitors can carry out several simple \nexperiments. \nBefore using the equipment, visitors read the instructions (55) _____. The main \nhall is normally quiet, but it (56) _____ unusually crowded today because \nseveral school groups are visiting. \nTwo large weather screens are new. (57) _____ show live information from \ndifferent parts of the country. The museum also has its own website, and (58) \n_____ online activities are popular with teachers. \nThe new exhibition is already very (59) _____ with families. Its booking system is \nsimple, so visitors can use it (60) _____.",
+          "question": "Completa el hueco (60) del texto:",
+          "options": {
+            "A": "easily",
+            "B": "easy",
+            "C": "ease",
+            "D": "easier"
+          },
+          "answer": "A",
+          "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (60): A."
+        }
+      ]
+    },
+    {
+      "id": "repaso_b1_reading",
+      "title": "Repaso Bloque 1: Comprensión Lectora (Reading)",
+      "badge": "Reading B1",
+      "description": "Textos breves de lectura con preguntas tipo test sobre información directa e inferencias.",
+      "questions": [
+        {
+          "id": "B1_READ_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Reading 1: Bob in London",
+          "readingText": "Bob lives in a small flat in London. In the mornings, he wakes up and has a shower. Then he makes breakfast. He usually has a typical English breakfast with eggs and bacon. After that, he goes to work. He works in an office in the center of London. He sits in front of the computer all day and writes emails. He doesn't like his job very much, but he likes earning money. At 12 o'clock he goes to lunch and has a sandwich. After lunch, he comes back to work and writes more emails. At 5 o'clock he leaves work.",
+          "question": "Select the true statement:",
+          "options": {
+            "A": "Bob usually has breakfast at the office.",
+            "B": "After lunch Bob comes back home.",
+            "C": "Bob loves his job.",
+            "D": "Bob writes emails as part of his job."
+          },
+          "answer": "D",
+          "explanation": "El texto indica: 'He sits in front of the computer all day and writes emails... writes more emails', por lo que redactar emails forma parte de su trabajo (opción D)."
+        },
+        {
+          "id": "B1_READ_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Reading 2: Blueberries",
+          "readingText": "Do you know how blueberries grow? They grow on bushes. Each blueberry is small and round. At first, the blueberries are green. The green berries are not ready to eat yet. They need a lot of sun and rain to help them become fat and sweet. When the berries turn blue, they are ripe and ready to be picked.",
+          "question": "What color are blueberries when they are ready to be picked?",
+          "options": {
+            "A": "blue",
+            "B": "feel",
+            "C": "green",
+            "D": "brown"
+          },
+          "answer": "A",
+          "explanation": "El texto especifica: 'When the berries turn blue, they are ripe and ready to be picked' (opción A)."
+        },
+        {
+          "id": "B1_READ_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Reading 3: Clarkson",
+          "readingText": "Clarkson is a large town. It has more than fifty thousand people living there. It sits next to a large river, the Clark River. Every day, people take the ferry from North Clarkson to South Clarkson to go to work.",
+          "question": "What is there near Clarkson?",
+          "options": {
+            "A": "Mountains",
+            "B": "A river",
+            "C": "The sea",
+            "D": "A pond"
+          },
+          "answer": "B",
+          "explanation": "El texto dice textualmente: 'It sits next to a large river, the Clark River' (opción B)."
+        },
+        {
+          "id": "B1_READ_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Reading 4: Frisian language",
+          "readingText": "Most people in the Netherlands speak Dutch. In Friesland, about 200,000 people speak Frisian which is the language with the most similarities to English. Some Dutch people speak dialects. The Saxon dialects spoken in the north-eastern part of the Netherlands are similar to Low German.",
+          "question": "Frisian ...",
+          "options": {
+            "A": "is a dialect of English",
+            "B": "is the most similar language to English",
+            "C": "is a difficult language",
+            "D": "is a language spoken in Saxony"
+          },
+          "answer": "B",
+          "explanation": "El texto afirma: '...about 200,000 people speak Frisian which is the language with the most similarities to English' (opción B)."
+        }
+      ]
+    },
+    {
+      "id": "repaso_b1_test1_pronombres",
+      "title": "Repaso Bloque 1: Test 1 - Pronombres",
+      "badge": "Extra: Pron",
+      "description": "Batería de 40 ejercicios de refuerzo: 30 preguntas tipo test de pronombres personales y posesivos + 10 ejercicios cloze contextuales.",
+      "questions": [
+        {
+          "id": "B1_PRON_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "______ name is Charlie.",
+          "options": {
+            "A": "Yours",
+            "B": "My",
+            "C": "I",
+            "D": "Mine"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B. Consejo: En este tipo de ejercicios, donde sabemos que tenemos que poner un pronombre. Nos fijamos qué tipo de palabra está delante o detrás del hueco a rellenar. En este caso tenemos “ name ”, name es un sustantivo. Como vimos anteriormente, delante de un sustantivo tiene que ir un pronombre de la segunda columna. Por lo tanto la respuesta correcta solo puede ser la “B”."
+        },
+        {
+          "id": "B1_PRON_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is Olivia ______ sister?",
+          "options": {
+            "A": "she",
+            "B": "you",
+            "C": "your",
+            "D": "yours"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is your cat black? Yes,  _____ is .",
+          "options": {
+            "A": "it",
+            "B": "its",
+            "C": "I",
+            "D": "his"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "It is his house. It isn’t ______.",
+          "options": {
+            "A": "I",
+            "B": "mine",
+            "C": "my",
+            "D": "me"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Do you know my friend? Yes, but I don’t know ______  name.",
+          "options": {
+            "A": "his",
+            "B": "yours",
+            "C": "hers",
+            "D": "he"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "I visited a friend of  ______.",
+          "options": {
+            "A": "her",
+            "B": "hers",
+            "C": "my",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "It is your pencil. It 's  ______.",
+          "options": {
+            "A": "her",
+            "B": "yours",
+            "C": "my",
+            "D": "his"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Whose cars are these? They are ______.",
+          "options": {
+            "A": "my",
+            "B": "their",
+            "C": "your",
+            "D": "mine"
+          },
+          "answer": "D",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRON_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "James is married. ______  wife is an artist.",
+          "options": {
+            "A": "Our",
+            "B": "Their",
+            "C": "His",
+            "D": "Her"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "It’s a mistake, it isn’t  ______ problem.",
+          "options": {
+            "A": "its",
+            "B": "ours",
+            "C": "my",
+            "D": "theirs"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "The children are doing ______  difficult homework.",
+          "options": {
+            "A": "ours",
+            "B": "theirs",
+            "C": "their",
+            "D": "they"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "He has got something in ______ head.",
+          "options": {
+            "A": "my",
+            "B": "your",
+            "C": "his",
+            "D": "her"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is that girl Isabella? Yes, she is with______son.",
+          "options": {
+            "A": "her",
+            "B": "mine",
+            "C": "hers",
+            "D": "theirs"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "We like football. It’s ______  favourite sport.",
+          "options": {
+            "A": "yours",
+            "B": "our",
+            "C": "we",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "A brother of ______ is in that hotel.",
+          "options": {
+            "A": "my",
+            "B": "me",
+            "C": "I",
+            "D": "mine"
+          },
+          "answer": "D",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la segunda columna ya que el hueco está delante del verbo “is”. Sin embargo, por regla general, detrás de la preposición “of” hay que utilizar la 3ª columna."
+        },
+        {
+          "id": "B1_PRON_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Benjamin doesn’t enjoy ______ meetings.",
+          "options": {
+            "A": "their",
+            "B": "hers",
+            "C": "mine",
+            "D": "theirs"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Look at this poor bird! ______ leg is broken.",
+          "options": {
+            "A": "It",
+            "B": "Its",
+            "C": "It’s",
+            "D": "Our"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "I haven’t got a computer. Can ______ use yours?",
+          "options": {
+            "A": "you",
+            "B": "I",
+            "C": "mine",
+            "D": "yours"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "She is my friend Charlotte. A relative of ______  lives in this city.",
+          "options": {
+            "A": "my",
+            "B": "hers",
+            "C": "she",
+            "D": "his"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "These are my children.______ are William and Lucas.",
+          "options": {
+            "A": "My",
+            "B": "His",
+            "C": "They",
+            "D": "Their"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "She is my friend Michael. A relative of ______  lives in this city.",
+          "options": {
+            "A": "my",
+            "B": "hers",
+            "C": "she",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRON_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Paul and ______ go to school.",
+          "options": {
+            "A": "I",
+            "B": "mine",
+            "C": "my",
+            "D": "our"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Zaragoza is a nice city.  ______cathedral is wonderful.",
+          "options": {
+            "A": "it’s",
+            "B": "its",
+            "C": "it",
+            "D": "his"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Emma has got ______  T-shirt in the laundry.",
+          "options": {
+            "A": "hers",
+            "B": "her",
+            "C": "his",
+            "D": "its"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "I am taller than ______ is.",
+          "options": {
+            "A": "He",
+            "B": "him",
+            "C": "his",
+            "D": "I"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la tercera columna ya que el hueco está detrás del verbo “is” y al final de la frase. Sin embargo, es una pregunta y por tanto una de las excepciones de la regla de la primera columna. Para este tipo de preguntas traducir ayudará mucho, Who is he? Quién es él. Más adelante explicaremos cómo se formulan las preguntas en inglés y lo verás con más claridad."
+        },
+        {
+          "id": "B1_PRON_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Helen has got ______ money in that bank, but all the money isn’t ______",
+          "options": {
+            "A": "her / hers",
+            "B": "her / her",
+            "C": "hers / her",
+            "D": "hers / hers"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "This car is ______.",
+          "options": {
+            "A": "her",
+            "B": "him",
+            "C": "his",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "My brother parks  ______ motorbike in  ______ garage",
+          "options": {
+            "A": "his / hers",
+            "B": "her / his",
+            "C": "his / his",
+            "D": "his / ours"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is this beer ______  or ______ ? 11",
+          "options": {
+            "A": "mine / yours",
+            "B": "my / your",
+            "C": "mine / your",
+            "D": "my / yours"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "______ have a brother. ______ name is Albert.",
+          "options": {
+            "A": "I / His",
+            "B": "He / Her",
+            "C": "He / Hers",
+            "D": "I / Its"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q31",
+          "number": 31,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (31):\n\"Billy always listens to (31) ______ mother.\"",
+          "answer": "his",
+          "explanation": "Respuesta correcta: 'his'."
+        },
+        {
+          "id": "B1_PRON_Q32",
+          "number": 32,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (32):\n\"He always does what (32) ______ says.\"",
+          "answer": "she",
+          "explanation": "Respuesta correcta: 'she'."
+        },
+        {
+          "id": "B1_PRON_Q33",
+          "number": 33,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (33):\n\"If (33) ______ mother says, 'Brush your teeth,'...\"",
+          "answer": "his",
+          "explanation": "Respuesta correcta: 'his'."
+        },
+        {
+          "id": "B1_PRON_Q34",
+          "number": 34,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (34):\n\"...Billy brushes (34) ______ teeth.\"",
+          "answer": "his",
+          "explanation": "Respuesta correcta: 'his'."
+        },
+        {
+          "id": "B1_PRON_Q35",
+          "number": 35,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (35):\n\"Billy is a very good boy. (35) ______ has a friend.\"",
+          "answer": "He",
+          "explanation": "Respuesta correcta: 'He'."
+        },
+        {
+          "id": "B1_PRON_Q36",
+          "number": 36,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (36):\n\"(36) ______ name is Chloe.\"",
+          "answer": "Her",
+          "explanation": "Respuesta correcta: 'Her'."
+        },
+        {
+          "id": "B1_PRON_Q37",
+          "number": 37,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (37):\n\"Billy always helps Chloe to do (37) ______ homework.\"",
+          "answer": "her",
+          "explanation": "Respuesta correcta: 'her'."
+        },
+        {
+          "id": "B1_PRON_Q38",
+          "number": 38,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (38):\n\"Chloe always tells Billy, 'you are (38) ______ best friend'.\"",
+          "answer": "my",
+          "explanation": "Respuesta correcta: 'my'."
+        },
+        {
+          "id": "B1_PRON_Q39",
+          "number": 39,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (39):\n\"Of course Billy is (39) ______ best friend.\"",
+          "answer": "her",
+          "explanation": "Respuesta correcta: 'her'."
+        },
+        {
+          "id": "B1_PRON_Q40",
+          "number": 40,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (40):\n\"(40) ______ grew up together.\"",
+          "answer": "They",
+          "explanation": "Respuesta correcta: 'They'."
+        }
+      ]
+    },
+    {
+      "id": "repaso_b1_test2_tobe",
+      "title": "Repaso Bloque 1: Test 2 - Verbo To Be (Presente)",
+      "badge": "Extra: To Be",
+      "description": "Batería de 30 ejercicios: 24 preguntas tipo test de conjugación de To Be + 6 huecos cloze de texto.",
+      "questions": [
+        {
+          "id": "B1_TOBE_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "He ______ a good guy.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "are not"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "I ______ tall.",
+          "options": {
+            "A": "is not",
+            "B": "are",
+            "C": "am",
+            "D": "has"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "The cat  ______ black.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "are not"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "My name ______  Charlie.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "has"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "They ______  black dogs.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "‘s"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Children ______ usually sad.",
+          "options": {
+            "A": "is",
+            "B": "aren’t",
+            "C": "isn´t",
+            "D": "am"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "It ______ a wonderful planet.",
+          "options": {
+            "A": "‘s",
+            "B": "is’t",
+            "C": "are",
+            "D": "am"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Some people ______ angry with me.",
+          "options": {
+            "A": "‘snt",
+            "B": "is",
+            "C": "are",
+            "D": "are´t"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "His parents ______ angry with me.",
+          "options": {
+            "A": "isn't",
+            "B": "am",
+            "C": "aren´t",
+            "D": "am not"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "This thing ______ bad for us.",
+          "options": {
+            "A": "is",
+            "B": "am",
+            "C": "aren´t",
+            "D": "are"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ you happy?",
+          "options": {
+            "A": "Is",
+            "B": "Are",
+            "C": "Arent",
+            "D": "Am"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ your brother younger than you?",
+          "options": {
+            "A": "Is",
+            "B": "Are",
+            "C": "Aren´t",
+            "D": "Am"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ Paul your uncle?",
+          "options": {
+            "A": "Am",
+            "B": "Are",
+            "C": "Aren´t",
+            "D": "Is"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Be. Opción correcta: D."
+        },
+        {
+          "id": "B1_TOBE_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "What ______ your name?",
+          "options": {
+            "A": "am not",
+            "B": "is",
+            "C": "am",
+            "D": "are"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Are they sick? Yes, ______",
+          "options": {
+            "A": "it is",
+            "B": "they are",
+            "C": "they",
+            "D": "are"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Everything ______ always fine",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "be",
+            "D": "Are not"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Students ______ mostly women.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "be",
+            "D": "‘rent"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Select the true",
+          "options": {
+            "A": "Why are they never happy?",
+            "B": "Why are me never happy?",
+            "C": "Why is children never happy?",
+            "D": "Why are everything wrong?"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Who ______ your mother?",
+          "options": {
+            "A": "is",
+            "B": "be",
+            "C": "are not",
+            "D": "am"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ your keys sometimes on the table?",
+          "options": {
+            "A": "Isn´t",
+            "B": "Is not",
+            "C": "Aren’t",
+            "D": "Am"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "My mother and I ______ lawyers.",
+          "options": {
+            "A": "is",
+            "B": "is not",
+            "C": "are",
+            "D": "was"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Which ______ your notebook?",
+          "options": {
+            "A": "is",
+            "B": "were",
+            "C": "are",
+            "D": "be"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Both ______ in my city",
+          "options": {
+            "A": "is",
+            "B": "am",
+            "C": "are",
+            "D": "be"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "My friend ______ at home",
+          "options": {
+            "A": "‘re",
+            "B": "is't",
+            "C": "aren’t",
+            "D": "is not"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Be. Opción correcta: D."
+        },
+        {
+          "id": "B1_TOBE_Q25",
+          "number": 25,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (25):\n\"Simon and Susan (25) _____ happily married...\"",
+          "answer": "are",
+          "explanation": "Respuesta correcta: 'are'."
+        },
+        {
+          "id": "B1_TOBE_Q26",
+          "number": 26,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (26):\n\"...Julia (26) _____ 5 years old...\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        },
+        {
+          "id": "B1_TOBE_Q27",
+          "number": 27,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (27):\n\"...and the twin brothers (27) _____ 3.\"",
+          "answer": "are",
+          "explanation": "Respuesta correcta: 'are'."
+        },
+        {
+          "id": "B1_TOBE_Q28",
+          "number": 28,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (28):\n\"June (28) _____ a writer...\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        },
+        {
+          "id": "B1_TOBE_Q29",
+          "number": 29,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (29):\n\"...and Harry (29) _____ a lawyer.\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        },
+        {
+          "id": "B1_TOBE_Q30",
+          "number": 30,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (30):\n\"Their house (30) _____ big and comfortable...\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        }
+      ]
+    },
+    {
+      "id": "repaso_b1_test3_presente",
+      "title": "Repaso Bloque 1: Test 3 - Presente Simple (Resto de Verbos)",
+      "badge": "Extra: Pres.",
+      "description": "Batería de 25 preguntas tipo test: oraciones de presente simple, terceras personas singular (-s/-es), auxiliares y texto cloze.",
+      "questions": [
+        {
+          "id": "B1_PRES_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Tom ______ at home.",
+          "options": {
+            "A": "work",
+            "B": "does work",
+            "C": "works",
+            "D": "working"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C. Consejo: El do/ does sólo se utiliza en frases interrogativas (preguntas) y en frases negativas. Esta frase es afirmativa. Debemos de prestar mucha atención a la “s” final del verbo. A él/ella/ello ( animal o cosa en singular) siempre se le añade al verbo una s al final. Por eso en este caso la única respuesta válida es la “C”."
+        },
+        {
+          "id": "B1_PRES_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "I ______ football every day.",
+          "options": {
+            "A": "play",
+            "B": "does plays",
+            "C": "plays",
+            "D": "played"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Peter and James ______ Italian.",
+          "options": {
+            "A": "speaks",
+            "B": "doesn´t speak",
+            "C": "speak not",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "Present Simple. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRES_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Mary ______ fish.",
+          "options": {
+            "A": "ate",
+            "B": "doesn´t eat",
+            "C": "eat",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Roger ______ to watch films at home.",
+          "options": {
+            "A": "likes",
+            "B": "don´t like",
+            "C": "like does",
+            "D": "like"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "I ______ books very often.",
+          "options": {
+            "A": "read",
+            "B": "doesn´t read",
+            "C": "reads",
+            "D": "readed"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Teresa ______ to play piano.",
+          "options": {
+            "A": "love",
+            "B": "like",
+            "C": "loves",
+            "D": "does like"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRES_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Charlie ______ to play guitar.",
+          "options": {
+            "A": "love",
+            "B": "doesn’t like",
+            "C": "don’t love",
+            "D": "does like"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "I ______ do my homework.",
+          "options": {
+            "A": "don´t",
+            "B": "am",
+            "C": "do",
+            "D": "does do"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Mark ______ to school by car.",
+          "options": {
+            "A": "drive",
+            "B": "go",
+            "C": "is",
+            "D": "doesn´t go"
+          },
+          "answer": "D",
+          "explanation": "Present Simple. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRES_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "______ you like apples?.",
+          "options": {
+            "A": "Does",
+            "B": "Do",
+            "C": "Arent",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Does your sister______ in Scotland?",
+          "options": {
+            "A": "lives",
+            "B": "live",
+            "C": "is",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Does your brother look like you? Yes, he ______.",
+          "options": {
+            "A": "does",
+            "B": "do",
+            "C": "are",
+            "D": "is"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Does Lucy drive a motorbike? No, she ______.",
+          "options": {
+            "A": "does",
+            "B": "doesn´t",
+            "C": "do",
+            "D": "don´t"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Where ______ she work?",
+          "options": {
+            "A": "does",
+            "B": "Is",
+            "C": "do",
+            "D": "has"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "______  Rupert and Humphrey always  ______ together? Yes, they  ______.",
+          "options": {
+            "A": "Does/sing/does",
+            "B": "Do/sings/do",
+            "C": "Do/sing/do",
+            "D": "Are/sing/are"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRES_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "______  you have any money? Yes, I  ______.",
+          "options": {
+            "A": "Does/does",
+            "B": "Are/am",
+            "C": "Do/am",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "Present Simple. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRES_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (18) del texto sobre Monica:",
+          "options": {
+            "A": "works",
+            "B": "work",
+            "C": "working",
+            "D": "workes"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (19) del texto sobre Monica:",
+          "options": {
+            "A": "wake up",
+            "B": "wakes up",
+            "C": "wear",
+            "D": "wake ups"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (20) del texto sobre Monica:",
+          "options": {
+            "A": "walk",
+            "B": "does walk",
+            "C": "walks",
+            "D": "walking"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRES_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (21) del texto sobre Monica:",
+          "options": {
+            "A": "wears",
+            "B": "weird",
+            "C": "wear does",
+            "D": "wear"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (22) del texto sobre Monica:",
+          "options": {
+            "A": "takes",
+            "B": "taken",
+            "C": "is",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (23) del texto sobre Monica:",
+          "options": {
+            "A": "listen",
+            "B": "listens",
+            "C": "ears",
+            "D": "jump"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (24) del texto sobre Monica:",
+          "options": {
+            "A": "listen",
+            "B": "heard",
+            "C": "listens",
+            "D": "ear"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (25) del texto sobre Monica:",
+          "options": {
+            "A": "say",
+            "B": "says",
+            "C": "listen",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        }
+      ]
+    },
+    {
+      "id": "repaso_b1_test4_have",
+      "title": "Repaso Bloque 1: Test 4 - To Have / Have Got / Have To",
+      "badge": "Extra: Have",
+      "description": "Batería de 25 preguntas tipo test sobre posesión, expresiones comunes con have y obligación con have to.",
+      "questions": [
+        {
+          "id": "B1_HAVE_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "He ______  a car.",
+          "options": {
+            "A": "have",
+            "B": "haven´t",
+            "C": "has got",
+            "D": "does hasn´t"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "She ______  a car.",
+          "options": {
+            "A": "have got",
+            "B": "haven´t",
+            "C": "has",
+            "D": "does hasn´t"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "They ______  a car.",
+          "options": {
+            "A": "haven´t got",
+            "B": "have got not",
+            "C": "do have",
+            "D": "doesn´t have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Paul and Layla ______  a happy life together.",
+          "options": {
+            "A": "hasn’t got",
+            "B": "has",
+            "C": "doesn´t have",
+            "D": "don’t have"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+        },
+        {
+          "id": "B1_HAVE_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______  you got children?",
+          "options": {
+            "A": "Have",
+            "B": "has",
+            "C": "Do",
+            "D": "does"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______  you have pain?",
+          "options": {
+            "A": "Have got",
+            "B": "have",
+            "C": "Do",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I______  any food at home?",
+          "options": {
+            "A": "haven’t",
+            "B": "has got",
+            "C": "have got not",
+            "D": "don’t have"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+        },
+        {
+          "id": "B1_HAVE_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I______  any food at home?",
+          "options": {
+            "A": "haven’t",
+            "B": "has got",
+            "C": "have got not",
+            "D": "don’t have"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+        },
+        {
+          "id": "B1_HAVE_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I ______ want to be late at home",
+          "options": {
+            "A": "do not",
+            "B": "has got",
+            "C": "have got not",
+            "D": "don’t have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ any brothers and sisters?",
+          "options": {
+            "A": "Have you",
+            "B": "Have he got",
+            "C": "Have you got",
+            "D": "Does they have"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "She ______ blue eyes",
+          "options": {
+            "A": "hasn't got",
+            "B": "does have",
+            "C": "has you got",
+            "D": "have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ She ______ blue eyes?",
+          "options": {
+            "A": "Hasn't/ have",
+            "B": "Does/ have",
+            "C": "Got/ has",
+            "D": "Has/ do"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "She ______ a cold",
+          "options": {
+            "A": "does have",
+            "B": "doesn’t have",
+            "C": "has her got",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ time to talk to me?",
+          "options": {
+            "A": "Have you got",
+            "B": "Have you",
+            "C": "Has her got",
+            "D": "You have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ teeth when they are born?",
+          "options": {
+            "A": "Does babies have",
+            "B": "Do babies have",
+            "C": "Has babies got",
+            "D": "Have baby"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I´m tired of being home, _______ get some fresh air",
+          "options": {
+            "A": "I have",
+            "B": "Have I",
+            "C": "I have to",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "__________ leave early, I can sleep all day tomorrow.",
+          "options": {
+            "A": "I have",
+            "B": "Have I",
+            "C": "I have to",
+            "D": "I do"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "He __________ call his parents, they call me every day.",
+          "options": {
+            "A": "has to",
+            "B": "has got",
+            "C": "have to",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "We__________ a holiday in Mexico every year",
+          "options": {
+            "A": "‘ve got",
+            "B": "have to",
+            "C": "has",
+            "D": "has to"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "_____ we    _____ our payment?",
+          "options": {
+            "A": "Are/ -",
+            "B": "Have / got",
+            "C": "Does/ have",
+            "D": "Have / to"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Why__________ go shopping?",
+          "options": {
+            "A": "have you",
+            "B": "do you have to",
+            "C": "do you have",
+            "D": "have you got"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Normally, I ______a shower, but sometimes I  ______ a bath.",
+          "options": {
+            "A": "have/have",
+            "B": "do/do",
+            "C": "-/-",
+            "D": "has/has"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A. Nota: En inglés hay algunas expresiones dónde “have” se utiliza con otro significado distinto a “tener”. Algunas de las más comunes son: Have a breakfast…… Tomar el desayuno Have a shower………. Tomar una ducha Have a bath………….. Tomar un baño Have a pizza/lunch/coffee…. Tomar una pizza/almuerzo/un sandwich (comida y bebida) Más adelante las veremos con más detenimiento."
+        },
+        {
+          "id": "B1_HAVE_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "They ______a beautiful daughter.",
+          "options": {
+            "A": "have",
+            "B": "has",
+            "C": "do",
+            "D": "hasn’t"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "We ______a large garden.",
+          "options": {
+            "A": "has",
+            "B": "have got",
+            "C": "do",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Nicky usually ______much luggage",
+          "options": {
+            "A": "haven´t",
+            "B": "has to",
+            "C": "doesn´t have",
+            "D": "haven´t got"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "repaso_b1_plurales_demostrativos",
+      "title": "Repaso Bloque 1: Plurales y Demostrativos Extra",
+      "badge": "Extra: Plur.",
+      "description": "Batería de 50 preguntas tipo test: 30 de plurales irregulares y 20 de demostrativos (this/that/these/those).",
+      "questions": [
+        {
+          "id": "B1_PLUR_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: calf (becerro):",
+          "options": {
+            "A": "Calfs",
+            "B": "Calves",
+            "C": "Caves",
+            "D": "Calfes"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: child (niño)",
+          "options": {
+            "A": "Childs",
+            "B": "Kids",
+            "C": "Children",
+            "D": "Childss"
+          },
+          "answer": "C",
+          "explanation": "Plurales en inglés. Solución correcta: opción C."
+        },
+        {
+          "id": "B1_PLUR_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: crisis (crisis)",
+          "options": {
+            "A": "Crises",
+            "B": "Crisis",
+            "C": "Crissis",
+            "D": "Crissess"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: die (dado [para juegos de mesa])",
+          "options": {
+            "A": "Dies",
+            "B": "Dice",
+            "C": "Dia",
+            "D": "Dias"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: dwarf (enano)",
+          "options": {
+            "A": "Dwarves",
+            "B": "Dwarfes",
+            "C": "Dwarvs",
+            "D": "Dwarf"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: elf (duende)",
+          "options": {
+            "A": "Elves",
+            "B": "Elfes",
+            "C": "Elfs",
+            "D": "ELfess"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: fish (pescado)",
+          "options": {
+            "A": "Fish",
+            "B": "Vish",
+            "C": "Fishs",
+            "D": "Fishsh"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: foot (pie)",
+          "options": {
+            "A": "Foots",
+            "B": "Foot",
+            "C": "Foets",
+            "D": "Feet"
+          },
+          "answer": "D",
+          "explanation": "Plurales en inglés. Solución correcta: opción D."
+        },
+        {
+          "id": "B1_PLUR_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: gentleman (caballero)",
+          "options": {
+            "A": "Gentlemens",
+            "B": "Gentlemon",
+            "C": "Gentlemen",
+            "D": "Gentlemans"
+          },
+          "answer": "C",
+          "explanation": "Plurales en inglés. Solución correcta: opción C."
+        },
+        {
+          "id": "B1_PLUR_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: goose (ganso)",
+          "options": {
+            "A": "Gooses",
+            "B": "Geeses",
+            "C": "Goses",
+            "D": "Geese"
+          },
+          "answer": "D",
+          "explanation": "Plurales en inglés. Solución correcta: opción D."
+        },
+        {
+          "id": "B1_PLUR_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: half (mitad)",
+          "options": {
+            "A": "Halves",
+            "B": "Halve",
+            "C": "Halfs",
+            "D": "Halfes"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: hypothesis (hipótesis)",
+          "options": {
+            "A": "Hypotheses",
+            "B": "Hypothes",
+            "C": "Hypothese",
+            "D": "Hipotheses"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: knife (cuchillo)",
+          "options": {
+            "A": "knifes",
+            "B": "knives",
+            "C": "knifeses",
+            "D": "knifeves"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: leaf (hoja)",
+          "options": {
+            "A": "leave",
+            "B": "leaves",
+            "C": "leafes",
+            "D": "leafeves"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: life (vida)",
+          "options": {
+            "A": "lifes",
+            "B": "lifeses",
+            "C": "liveses",
+            "D": "live"
+          },
+          "answer": "D",
+          "explanation": "Plurales en inglés. Solución correcta: opción D."
+        },
+        {
+          "id": "B1_PLUR_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: loaf (hogaza [de pan])",
+          "options": {
+            "A": "loaf",
+            "B": "loafes",
+            "C": "loaves",
+            "D": "loaveses"
+          },
+          "answer": "C",
+          "explanation": "Plurales en inglés. Solución correcta: opción C."
+        },
+        {
+          "id": "B1_PLUR_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: man (hombre)",
+          "options": {
+            "A": "mans",
+            "B": "men",
+            "C": "mens",
+            "D": "manes"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: means (medio)",
+          "options": {
+            "A": "mean",
+            "B": "meanes",
+            "C": "means",
+            "D": "meaneses"
+          },
+          "answer": "C",
+          "explanation": "Plurales en inglés. Solución correcta: opción C."
+        },
+        {
+          "id": "B1_PLUR_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: mouse (ratón)",
+          "options": {
+            "A": "Mice",
+            "B": "Mices",
+            "C": "Mousess",
+            "D": "Mouses"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: ox (buey)",
+          "options": {
+            "A": "Oxs",
+            "B": "Oxen",
+            "C": "Oxes",
+            "D": "Oxeses"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: parenthesis (paréntesis)",
+          "options": {
+            "A": "parenthesises",
+            "B": "parenthesi",
+            "C": "parenthesies",
+            "D": "parentheses"
+          },
+          "answer": "D",
+          "explanation": "Plurales en inglés. Solución correcta: opción D."
+        },
+        {
+          "id": "B1_PLUR_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: person (persona)",
+          "options": {
+            "A": "Persons",
+            "B": "Peoples",
+            "C": "personas",
+            "D": "People"
+          },
+          "answer": "D",
+          "explanation": "Plurales en inglés. Solución correcta: opción D."
+        },
+        {
+          "id": "B1_PLUR_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: quiz (concurso)",
+          "options": {
+            "A": "Quizzes",
+            "B": "Quizes",
+            "C": "Quizzess",
+            "D": "Quizess"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: scarf (bufanda)",
+          "options": {
+            "A": "scarfes",
+            "B": "scarves",
+            "C": "scarfeses",
+            "D": "skarves"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: sheep (oveja)",
+          "options": {
+            "A": "ships",
+            "B": "sheeps",
+            "C": "sheep",
+            "D": "ship"
+          },
+          "answer": "C",
+          "explanation": "Plurales en inglés. Solución correcta: opción C."
+        },
+        {
+          "id": "B1_PLUR_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: shelf (estantería)",
+          "options": {
+            "A": "shelfvs",
+            "B": "shelfs",
+            "C": "shelfs",
+            "D": "shelves"
+          },
+          "answer": "D",
+          "explanation": "Plurales en inglés. Solución correcta: opción D."
+        },
+        {
+          "id": "B1_PLUR_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: synopsis (sinopsis)",
+          "options": {
+            "A": "synopses",
+            "B": "synopsises",
+            "C": "synpsis",
+            "D": "synopsess"
+          },
+          "answer": "A",
+          "explanation": "Plurales en inglés. Solución correcta: opción A."
+        },
+        {
+          "id": "B1_PLUR_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: thief (ladrón)",
+          "options": {
+            "A": "thief",
+            "B": "theeves",
+            "C": "thiefes",
+            "D": "thieves"
+          },
+          "answer": "D",
+          "explanation": "Plurales en inglés. Solución correcta: opción D."
+        },
+        {
+          "id": "B1_PLUR_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: tooth (diente)",
+          "options": {
+            "A": "tooth",
+            "B": "teeth",
+            "C": "tooths",
+            "D": "toothes"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_PLUR_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Plurales de Sustantivos (Refuerzo)",
+          "question": "Elige el plural correcto de: wife (esposa)",
+          "options": {
+            "A": "wifes",
+            "B": "wives",
+            "C": "wifeses",
+            "D": "wifeses"
+          },
+          "answer": "B",
+          "explanation": "Plurales en inglés. Solución correcta: opción B."
+        },
+        {
+          "id": "B1_DEMO_Q1",
+          "number": 31,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "____ is my car here.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "A",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+        },
+        {
+          "id": "B1_DEMO_Q2",
+          "number": 32,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "____ are my children over there in the park.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "C",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+        },
+        {
+          "id": "B1_DEMO_Q3",
+          "number": 33,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "____ is my car over there.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "B",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: B."
+        },
+        {
+          "id": "B1_DEMO_Q4",
+          "number": 34,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "____ are my children here.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "D",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+        },
+        {
+          "id": "B1_DEMO_Q5",
+          "number": 35,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "____ bike over there is mine.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "A",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+        },
+        {
+          "id": "B1_DEMO_Q6",
+          "number": 36,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Do you know ____ boys over there?",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "C",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+        },
+        {
+          "id": "B1_DEMO_Q7",
+          "number": 37,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Can I use ____ pencil here?",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "A",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+        },
+        {
+          "id": "B1_DEMO_Q8",
+          "number": 38,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "I love ____ biscuits here.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "D",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+        },
+        {
+          "id": "B1_DEMO_Q9",
+          "number": 39,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Hi Maria. ____ are my parents, Peter and Lucy.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "D",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+        },
+        {
+          "id": "B1_DEMO_Q10",
+          "number": 40,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "___ are mine.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "D",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+        },
+        {
+          "id": "B1_DEMO_Q11",
+          "number": 41,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "He made me ____ questions I'm going to tell you.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "D",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+        },
+        {
+          "id": "B1_DEMO_Q12",
+          "number": 42,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "___ is John speaking.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "A",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+        },
+        {
+          "id": "B1_DEMO_Q13",
+          "number": 43,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Would you like to have one of ____ donuts?",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "D",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+        },
+        {
+          "id": "B1_DEMO_Q14",
+          "number": 44,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "________ are the most interesting books I have read.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "D",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+        },
+        {
+          "id": "B1_DEMO_Q15",
+          "number": 45,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Did you know that ________ is the hottest month of the year?",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "A",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+        },
+        {
+          "id": "B1_DEMO_Q16",
+          "number": 46,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Look at _______ people over there. I think they are arguing.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "C",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+        },
+        {
+          "id": "B1_DEMO_Q17",
+          "number": 47,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Claire _______ is Kevin. He comes from Montevideo.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "A",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+        },
+        {
+          "id": "B1_DEMO_Q18",
+          "number": 48,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "_______’s the end of the presentation. Thank you for your attention and time.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "B",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: B."
+        },
+        {
+          "id": "B1_DEMO_Q19",
+          "number": 49,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "Sorry Armand but I didn’t catch ________. Please repeat.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "B",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: B."
+        },
+        {
+          "id": "B1_DEMO_Q20",
+          "number": 50,
+          "type": "choice",
+          "section": "Pronombres Demostrativos (This / That / These / Those)",
+          "question": "________ students who think they know it all are arrogant.",
+          "options": {
+            "A": "this",
+            "B": "that",
+            "C": "those",
+            "D": "these"
+          },
+          "answer": "C",
+          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
         }
       ]
     }

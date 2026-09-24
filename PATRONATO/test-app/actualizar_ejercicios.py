@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Script de extracción y actualización automática de ejercicios de PATRONATO.
-Escanea la carpeta de PATRONATO en busca de PDFs de ejercicios, extrae preguntas,
-opciones, respuestas y textos de lectura, y genera el archivo js/questions-data.js.
+Escanea la carpeta de PATRONATO (incluyendo subcarpetas como Bloque 1, Repaso Bloque 1, etc.)
+en busca de PDFs de ejercicios, extrae preguntas, opciones, respuestas y textos de lectura,
+y genera el archivo js/questions-data.js.
 """
 
 import os
@@ -45,7 +46,9 @@ def clean_text(t):
     t = t.replace('\r', ' ')
     t = re.sub(r'Patronato en casa \| English with Niusan\s+©\s*\d+\s*Todos los derechos reservados\.\s*\d*', ' ', t)
     t = re.sub(r'INGLÉS:\s*EJERCICIOS[^\n]*', ' ', t, flags=re.IGNORECASE)
+    t = re.sub(r'INGLÉS:\s*TEST BLOQUE 1[^\n]*', ' ', t, flags=re.IGNORECASE)
     t = re.sub(r'PATRONATOENCASA\.COM[^\n]*', ' ', t, flags=re.IGNORECASE)
+    t = re.sub(r'Elpatronatoencasa\.com[^\n]*', ' ', t, flags=re.IGNORECASE)
     return t
 
 def parse_answer_key(text):
@@ -61,6 +64,10 @@ def parse_answer_key(text):
             if n not in answers:
                 answers[n] = ans.upper()
     return answers
+
+# ==========================================
+# PARSERS: BLOQUE 1 (TEMAS 1 A 5)
+# ==========================================
 
 def parse_tema_1(pdf_path):
     raw_text = extract_text_from_pdf(pdf_path)
@@ -447,7 +454,7 @@ def parse_tema_5(pdf_path):
                 "D": opt_d
             },
             "answer": answer_key.get(q_num, "A"),
-            "explanation": f"Tema 5: {section_name}. Opcion correcta: {answer_key.get(q_num, '')}."
+            "explanation": f"Tema 5: {section_name}. Opción correcta: {answer_key.get(q_num, '')}."
         })
         
     return {
@@ -455,6 +462,605 @@ def parse_tema_5(pdf_path):
         "title": "Tema 5: Adjectives, Adverbs and Word Formation",
         "badge": "Tema 5",
         "description": "Adjetivos y adverbios, adjetivos en -ed/-ing, formación de palabras (sufijos) y prefijos de significado.",
+        "questions": questions
+    }
+
+# ==========================================
+# PARSERS: REPASO BLOQUE 1
+# ==========================================
+
+def parse_test_bloque_1(pdf_path):
+    raw_text = extract_text_from_pdf(pdf_path)
+    text = clean_text(raw_text)
+    
+    key_idx = text.find('ANSWER KEY')
+    key_section = text[key_idx:]
+    key_pairs = re.findall(r'(\d+)\s+([A-D])\b', key_section)
+    answers = {int(num): ans.upper() for num, ans in key_pairs}
+    
+    questions = []
+    
+    # 1. Reading part: 1 to 30
+    reading_part = text[:text.find('GRAMMAR / USE OF ENGLISH')]
+    sections = re.split(r'\bTEXT\s+(\d+)\b', reading_part)
+    for i in range(1, len(sections), 2):
+        t_num = int(sections[i])
+        content = sections[i+1].strip()
+        pat = re.compile(r'(?:^|\n)\s*' + str(t_num) + r'\.\s*(.*?)\s*a\)\s*(.*?)\s*b\)\s*(.*?)\s*c\)\s*(.*?)\s*d\)\s*(.*?)\Z', re.DOTALL)
+        m = pat.search(content)
+        if m:
+            r_text = content[:m.start()].strip()
+            prompt = m.group(1).strip().replace('\n', ' ')
+            opts = {
+                'A': m.group(2).strip().replace('\n', ' '),
+                'B': m.group(3).strip().replace('\n', ' '),
+                'C': m.group(4).strip().replace('\n', ' '),
+                'D': m.group(5).strip().replace('\n', ' ')
+            }
+            ans = answers.get(t_num, 'A')
+            questions.append({
+                "id": f"B1_EX_Q{t_num}",
+                "number": t_num,
+                "type": "choice",
+                "section": f"Reading Comprehension (Texto {t_num})",
+                "readingText": r_text,
+                "question": prompt,
+                "options": opts,
+                "answer": ans,
+                "explanation": f"Simulacro Bloque 1 - Reading Texto {t_num}. Solución oficial: {ans}."
+            })
+            
+    # 2. Grammar part: 31 to 60
+    grammar_part = text[text.find('GRAMMAR / USE OF ENGLISH'):key_idx]
+    g_texts = re.split(r'\bTEXT\s+(\d+)\s*[-–]\s*(.*?)\n', grammar_part)
+    for i in range(1, len(g_texts), 3):
+        t_num = g_texts[i]
+        t_title = g_texts[i+1].strip()
+        t_body = g_texts[i+2].strip()
+        first_q = 31 if t_num == '1' else (41 if t_num == '2' else 51)
+        q_start = re.search(r'(?:^|\n)\s*' + str(first_q) + r'\.\s*', t_body)
+        if q_start:
+            passage = t_body[:q_start.start()].strip()
+            q_section = t_body[q_start.start():].strip()
+            q_pat = re.compile(r'(\d+)\.\s*a\)\s*(.*?)\s*b\)\s*(.*?)\s*c\)\s*(.*?)\s*d\)\s*(.*?)(?=\n\s*\d+\.|\Z)', re.DOTALL)
+            for m in q_pat.finditer(q_section):
+                q_num = int(m.group(1))
+                opts = {
+                    'A': m.group(2).strip().replace('\n', ' '),
+                    'B': m.group(3).strip().replace('\n', ' '),
+                    'C': m.group(4).strip().replace('\n', ' '),
+                    'D': m.group(5).strip().replace('\n', ' ')
+                }
+                ans = answers.get(q_num, 'A')
+                questions.append({
+                    "id": f"B1_EX_Q{q_num}",
+                    "number": q_num,
+                    "type": "choice",
+                    "section": f"Use of English - {t_title}",
+                    "readingText": passage,
+                    "question": f"Completa el hueco ({q_num}) del texto:",
+                    "options": opts,
+                    "answer": ans,
+                    "explanation": f"Simulacro Bloque 1 - {t_title}. Solución oficial ({q_num}): {ans}."
+                })
+                
+    return {
+        "id": "bloque_1_examen",
+        "title": "Bloque 1: Simulacro Oficial Formato Examen (60 preguntas)",
+        "badge": "Simulacro B1",
+        "description": "Examen oficial de 60 preguntas: 30 de Reading comprehension con textos reales y 30 de Grammar & Use of English (cloze texts).",
+        "questions": questions
+    }
+
+def parse_repaso_reading(pdf_path):
+    questions = [
+        {
+            "id": "B1_READ_Q1",
+            "number": 1,
+            "type": "choice",
+            "section": "Reading 1: Bob in London",
+            "readingText": "Bob lives in a small flat in London. In the mornings, he wakes up and has a shower. Then he makes breakfast. He usually has a typical English breakfast with eggs and bacon. After that, he goes to work. He works in an office in the center of London. He sits in front of the computer all day and writes emails. He doesn't like his job very much, but he likes earning money. At 12 o'clock he goes to lunch and has a sandwich. After lunch, he comes back to work and writes more emails. At 5 o'clock he leaves work.",
+            "question": "Select the true statement:",
+            "options": {
+                "A": "Bob usually has breakfast at the office.",
+                "B": "After lunch Bob comes back home.",
+                "C": "Bob loves his job.",
+                "D": "Bob writes emails as part of his job."
+            },
+            "answer": "D",
+            "explanation": "El texto indica: 'He sits in front of the computer all day and writes emails... writes more emails', por lo que redactar emails forma parte de su trabajo (opción D)."
+        },
+        {
+            "id": "B1_READ_Q2",
+            "number": 2,
+            "type": "choice",
+            "section": "Reading 2: Blueberries",
+            "readingText": "Do you know how blueberries grow? They grow on bushes. Each blueberry is small and round. At first, the blueberries are green. The green berries are not ready to eat yet. They need a lot of sun and rain to help them become fat and sweet. When the berries turn blue, they are ripe and ready to be picked.",
+            "question": "What color are blueberries when they are ready to be picked?",
+            "options": {
+                "A": "blue",
+                "B": "feel",
+                "C": "green",
+                "D": "brown"
+            },
+            "answer": "A",
+            "explanation": "El texto especifica: 'When the berries turn blue, they are ripe and ready to be picked' (opción A)."
+        },
+        {
+            "id": "B1_READ_Q3",
+            "number": 3,
+            "type": "choice",
+            "section": "Reading 3: Clarkson",
+            "readingText": "Clarkson is a large town. It has more than fifty thousand people living there. It sits next to a large river, the Clark River. Every day, people take the ferry from North Clarkson to South Clarkson to go to work.",
+            "question": "What is there near Clarkson?",
+            "options": {
+                "A": "Mountains",
+                "B": "A river",
+                "C": "The sea",
+                "D": "A pond"
+            },
+            "answer": "B",
+            "explanation": "El texto dice textualmente: 'It sits next to a large river, the Clark River' (opción B)."
+        },
+        {
+            "id": "B1_READ_Q4",
+            "number": 4,
+            "type": "choice",
+            "section": "Reading 4: Frisian language",
+            "readingText": "Most people in the Netherlands speak Dutch. In Friesland, about 200,000 people speak Frisian which is the language with the most similarities to English. Some Dutch people speak dialects. The Saxon dialects spoken in the north-eastern part of the Netherlands are similar to Low German.",
+            "question": "Frisian ...",
+            "options": {
+                "A": "is a dialect of English",
+                "B": "is the most similar language to English",
+                "C": "is a difficult language",
+                "D": "is a language spoken in Saxony"
+            },
+            "answer": "B",
+            "explanation": "El texto afirma: '...about 200,000 people speak Frisian which is the language with the most similarities to English' (opción B)."
+        }
+    ]
+    return {
+        "id": "repaso_b1_reading",
+        "title": "Repaso Bloque 1: Comprensión Lectora (Reading)",
+        "badge": "Reading B1",
+        "description": "Textos breves de lectura con preguntas tipo test sobre información directa e inferencias.",
+        "questions": questions
+    }
+
+def parse_repaso_embed_test1(pdf_path):
+    reader = pypdf.PdfReader(pdf_path)
+    full_text = '\n'.join([p.extract_text() or '' for p in reader.pages])
+    clean = clean_text(full_text)
+    
+    last_page = reader.pages[-1].extract_text() or ''
+    ans_pairs = re.findall(r'(\d+)\s*-\s*([A-Za-z]+)', last_page)
+    answers = {int(num): ans.strip() for num, ans in ans_pairs}
+    
+    questions = []
+    for i in range(1, 31):
+        next_i = i + 1
+        pat_curr = re.compile(r'(?:^|\n)\s*' + str(i) + r'\s*[\.-]+\s*', re.DOTALL)
+        m_curr = pat_curr.search(clean)
+        if not m_curr:
+            continue
+        start_pos = m_curr.end()
+        if i < 30:
+            pat_next = re.compile(r'(?:^|\n)\s*' + str(next_i) + r'\s*[\.-]+\s*', re.DOTALL)
+            m_next = pat_next.search(clean, start_pos)
+            end_pos = m_next.start() if m_next else len(clean)
+        else:
+            pat_end = re.compile(r'\nA good boy|\nRespuestas|\Z')
+            m_end = pat_end.search(clean, start_pos)
+            end_pos = m_end.start() if m_end else len(clean)
+            
+        chunk = clean[start_pos:end_pos].strip()
+        consejo = ""
+        c_match = re.search(r'Consejo:\s*(.*?)(?=\n\s*[A-Da-d]\)|\Z)', chunk, re.DOTALL)
+        if not c_match:
+            c_match = re.search(r'Consejo:\s*(.*)', chunk, re.DOTALL)
+        if c_match:
+            consejo = c_match.group(1).strip().replace('\n', ' ')
+            
+        m_a = re.search(r'\b[aA]\)', chunk)
+        if m_a:
+            prompt = chunk[:m_a.start()].strip().replace('\n', ' ')
+            opts_part = chunk[m_a.start():]
+            opt_a = re.search(r'[aA]\)\s*(.*?)(?=\s+[bBcC]\)|\n\s*Consejo|\Z)', opts_part)
+            opt_b = re.search(r'[bB]\)\s*(.*?)(?=\s+[aAcCdD]\)|\n\s*Consejo|\Z)', opts_part)
+            opt_c = re.search(r'[cC]\)\s*(.*?)(?=\s+[aAbBdD]\)|\n\s*Consejo|\Z)', opts_part)
+            opt_d = re.search(r'[dD]\)\s*(.*?)(?=\s+[aAbBcC]\)|\n\s*Consejo|\Z)', opts_part)
+            
+            ans = answers.get(i, 'A').upper()
+            expl = f"Repaso Bloque 1 - Pronombres. Opción correcta: {ans}."
+            if consejo:
+                expl += f" Consejo: {consejo}"
+                
+            questions.append({
+                "id": f"B1_PRON_Q{i}",
+                "number": i,
+                "type": "choice",
+                "section": "Pronombres Personales y Posesivos",
+                "question": prompt,
+                "options": {
+                    "A": opt_a.group(1).strip() if opt_a else "",
+                    "B": opt_b.group(1).strip() if opt_b else "",
+                    "C": opt_c.group(1).strip() if opt_c else "",
+                    "D": opt_d.group(1).strip() if opt_d else ""
+                },
+                "answer": ans,
+                "explanation": expl
+            })
+            
+    # 31-40: Cloze text
+    cloze_text = "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together."
+    cloze_prompts = {
+        31: "Billy always listens to (31) ______ mother.",
+        32: "He always does what (32) ______ says.",
+        33: "If (33) ______ mother says, 'Brush your teeth,'...",
+        34: "...Billy brushes (34) ______ teeth.",
+        35: "Billy is a very good boy. (35) ______ has a friend.",
+        36: "(36) ______ name is Chloe.",
+        37: "Billy always helps Chloe to do (37) ______ homework.",
+        38: "Chloe always tells Billy, 'you are (38) ______ best friend'.",
+        39: "Of course Billy is (39) ______ best friend.",
+        40: "(40) ______ grew up together."
+    }
+    
+    for q_num in range(31, 41):
+        ans_word = answers.get(q_num, "")
+        questions.append({
+            "id": f"B1_PRON_Q{q_num}",
+            "number": q_num,
+            "type": "completion",
+            "section": "Texto Cloze - A good boy (Pronombres)",
+            "readingText": cloze_text,
+            "question": f"Escribe el pronombre correcto para el hueco ({q_num}):\n\"{cloze_prompts.get(q_num, '')}\"",
+            "answer": ans_word,
+            "explanation": f"Respuesta correcta: '{ans_word}'."
+        })
+        
+    return {
+        "id": "repaso_b1_test1_pronombres",
+        "title": "Repaso Bloque 1: Test 1 - Pronombres",
+        "badge": "Extra: Pron",
+        "description": "Batería de 40 ejercicios de refuerzo: 30 preguntas tipo test de pronombres personales y posesivos + 10 ejercicios cloze contextuales.",
+        "questions": questions
+    }
+
+def parse_repaso_embed_test2(pdf_path):
+    reader = pypdf.PdfReader(pdf_path)
+    full_text = '\n'.join([p.extract_text() or '' for p in reader.pages])
+    clean = clean_text(full_text)
+    
+    last_page = reader.pages[-1].extract_text() or ''
+    ans_pairs = re.findall(r'(\d+)\s*-\s*([A-Za-z]+)', last_page)
+    answers = {int(num): ans.strip() for num, ans in ans_pairs}
+    
+    questions = []
+    for i in range(1, 25):
+        next_i = i + 1
+        pat_curr = re.compile(r'(?:^|\n)\s*' + str(i) + r'\s*[\.-]+\s*', re.DOTALL)
+        m_curr = pat_curr.search(clean)
+        if not m_curr:
+            continue
+        start_pos = m_curr.end()
+        if i < 24:
+            pat_next = re.compile(r'(?:^|\n)\s*' + str(next_i) + r'\s*[\.-]+\s*', re.DOTALL)
+            m_next = pat_next.search(clean, start_pos)
+            end_pos = m_next.start() if m_next else len(clean)
+        else:
+            pat_end = re.compile(r'\nSimon|\n1-\n|\Z')
+            m_end = pat_end.search(clean, start_pos)
+            end_pos = m_end.start() if m_end else len(clean)
+            
+        chunk = clean[start_pos:end_pos].strip()
+        m_a = re.search(r'\b[aA]\)', chunk)
+        if m_a:
+            prompt = chunk[:m_a.start()].strip().replace('\n', ' ')
+            opts_part = chunk[m_a.start():]
+            opt_a = re.search(r'[aA]\)\s*(.*?)(?=\s+[bBcC]\)|\n|\Z)', opts_part)
+            opt_b = re.search(r'[bB]\)\s*(.*?)(?=\s+[aAcCdD]\)|\n|\Z)', opts_part)
+            opt_c = re.search(r'[cC]\)\s*(.*?)(?=\s+[aAbBdD]\)|\n|\Z)', opts_part)
+            opt_d = re.search(r'[dD]\)\s*(.*?)(?=\s+[aAbBcC]\)|\n|\Z)', opts_part)
+            
+            ans = answers.get(i, 'A').upper()
+            questions.append({
+                "id": f"B1_TOBE_Q{i}",
+                "number": i,
+                "type": "choice",
+                "section": "Verbo To Be (Presente)",
+                "question": prompt,
+                "options": {
+                    "A": opt_a.group(1).strip() if opt_a else "",
+                    "B": opt_b.group(1).strip() if opt_b else "",
+                    "C": opt_c.group(1).strip() if opt_c else "",
+                    "D": opt_d.group(1).strip() if opt_d else ""
+                },
+                "answer": ans,
+                "explanation": f"Verbo To Be. Opción correcta: {ans}."
+            })
+            
+    # 25-30: Cloze text Simon and Susan
+    simon_text = "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago."
+    simon_prompts = {
+        25: "Simon and Susan (25) _____ happily married...",
+        26: "...Julia (26) _____ 5 years old...",
+        27: "...and the twin brothers (27) _____ 3.",
+        28: "June (28) _____ a writer...",
+        29: "...and Harry (29) _____ a lawyer.",
+        30: "Their house (30) _____ big and comfortable..."
+    }
+    for q_num in range(25, 31):
+        ans_word = answers.get(q_num, "")
+        questions.append({
+            "id": f"B1_TOBE_Q{q_num}",
+            "number": q_num,
+            "type": "completion",
+            "section": "Texto Cloze - Simon & Susan (To Be)",
+            "readingText": simon_text,
+            "question": f"Escribe la forma correcta del verbo TO BE para el hueco ({q_num}):\n\"{simon_prompts.get(q_num, '')}\"",
+            "answer": ans_word,
+            "explanation": f"Respuesta correcta: '{ans_word}'."
+        })
+        
+    return {
+        "id": "repaso_b1_test2_tobe",
+        "title": "Repaso Bloque 1: Test 2 - Verbo To Be (Presente)",
+        "badge": "Extra: To Be",
+        "description": "Batería de 30 ejercicios: 24 preguntas tipo test de conjugación de To Be + 6 huecos cloze de texto.",
+        "questions": questions
+    }
+
+def parse_repaso_embed_test3(pdf_path):
+    reader = pypdf.PdfReader(pdf_path)
+    full_text = '\n'.join([p.extract_text() or '' for p in reader.pages])
+    clean = clean_text(full_text)
+    
+    last_page = reader.pages[-1].extract_text() or ''
+    ans_pairs = re.findall(r'(\d+)\s*-\s*([A-Za-z]+)', last_page)
+    answers = {int(num): ans.strip() for num, ans in ans_pairs}
+    
+    monica_text = "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton."
+    
+    questions = []
+    for i in range(1, 26):
+        next_i = i + 1
+        pat_curr = re.compile(r'(?:^|\n)\s*' + str(i) + r'\s*[\.-]+\s*', re.DOTALL)
+        m_curr = pat_curr.search(clean)
+        if not m_curr:
+            continue
+        start_pos = m_curr.end()
+        if i < 25:
+            pat_next = re.compile(r'(?:^|\n)\s*' + str(next_i) + r'\s*[\.-]+\s*', re.DOTALL)
+            m_next = pat_next.search(clean, start_pos)
+            end_pos = m_next.start() if m_next else len(clean)
+        else:
+            pat_end = re.compile(r'\n1-\n|\Z')
+            m_end = pat_end.search(clean, start_pos)
+            end_pos = m_end.start() if m_end else len(clean)
+            
+        chunk = clean[start_pos:end_pos].strip()
+        consejo = ""
+        c_match = re.search(r'Consejo:\s*(.*?)(?=\n\s*[A-Da-d]\)|\Z)', chunk, re.DOTALL)
+        if not c_match:
+            c_match = re.search(r'Consejo:\s*(.*)', chunk, re.DOTALL)
+        if c_match:
+            consejo = c_match.group(1).strip().replace('\n', ' ')
+            
+        m_a = re.search(r'\b[aA]\)', chunk)
+        if m_a:
+            prompt_raw = chunk[:m_a.start()].strip().replace('\n', ' ')
+            opts_part = chunk[m_a.start():]
+            opt_a = re.search(r'[aA]\)\s*(.*?)(?=\s+[bBcC]\)|\n\s*Consejo|\Z)', opts_part)
+            opt_b = re.search(r'[bB]\)\s*(.*?)(?=\s+[aAcCdD]\)|\n\s*Consejo|\Z)', opts_part)
+            opt_c = re.search(r'[cC]\)\s*(.*?)(?=\s+[aAbBdD]\)|\n\s*Consejo|\Z)', opts_part)
+            opt_d = re.search(r'[dD]\)\s*(.*?)(?=\s+[aAbBcC]\)|\n\s*Consejo|\Z)', opts_part)
+            
+            ans = answers.get(i, 'A').upper()
+            expl = f"Present Simple. Opción correcta: {ans}."
+            if consejo:
+                expl += f" Consejo: {consejo}"
+                
+            is_cloze = i >= 18
+            section_name = "Texto Cloze - Monica's day (Presente Simple)" if is_cloze else "Presente Simple (Resto de Verbos)"
+            r_text = monica_text if is_cloze else None
+            prompt = f"Completa el hueco ({i}) del texto sobre Monica:" if is_cloze else prompt_raw
+            
+            questions.append({
+                "id": f"B1_PRES_Q{i}",
+                "number": i,
+                "type": "choice",
+                "section": section_name,
+                "readingText": r_text,
+                "question": prompt,
+                "options": {
+                    "A": opt_a.group(1).strip() if opt_a else "",
+                    "B": opt_b.group(1).strip() if opt_b else "",
+                    "C": opt_c.group(1).strip() if opt_c else "",
+                    "D": opt_d.group(1).strip() if opt_d else ""
+                },
+                "answer": ans,
+                "explanation": expl
+            })
+            
+    return {
+        "id": "repaso_b1_test3_presente",
+        "title": "Repaso Bloque 1: Test 3 - Presente Simple (Resto de Verbos)",
+        "badge": "Extra: Pres.",
+        "description": "Batería de 25 preguntas tipo test: oraciones de presente simple, terceras personas singular (-s/-es), auxiliares y texto cloze.",
+        "questions": questions
+    }
+
+def parse_repaso_embed_test4(pdf_path):
+    reader = pypdf.PdfReader(pdf_path)
+    full_text = '\n'.join([p.extract_text() or '' for p in reader.pages])
+    clean = clean_text(full_text)
+    
+    last_page = reader.pages[-1].extract_text() or ''
+    ans_pairs = re.findall(r'(\d+)\s*-\s*([A-Za-z]+)', last_page)
+    answers = {int(num): ans.strip() for num, ans in ans_pairs}
+    
+    questions = []
+    for i in range(1, 26):
+        next_i = i + 1
+        pat_curr = re.compile(r'(?:^|\n)\s*' + str(i) + r'\s*[\.-]+\s*', re.DOTALL)
+        m_curr = pat_curr.search(clean)
+        if not m_curr:
+            continue
+        start_pos = m_curr.end()
+        if i < 25:
+            pat_next = re.compile(r'(?:^|\n)\s*' + str(next_i) + r'\s*[\.-]+\s*', re.DOTALL)
+            m_next = pat_next.search(clean, start_pos)
+            end_pos = m_next.start() if m_next else len(clean)
+        else:
+            pat_end = re.compile(r'\n1-\n|\Z')
+            m_end = pat_end.search(clean, start_pos)
+            end_pos = m_end.start() if m_end else len(clean)
+            
+        chunk = clean[start_pos:end_pos].strip()
+        nota = ""
+        n_match = re.search(r'Nota:\s*(.*?)(?=\n\s*[A-Da-d]\)|\Z)', chunk, re.DOTALL)
+        if not n_match:
+            n_match = re.search(r'Nota:\s*(.*)', chunk, re.DOTALL)
+        if n_match:
+            nota = n_match.group(1).strip().replace('\n', ' ')
+            
+        m_a = re.search(r'\b[aA]\)', chunk)
+        if m_a:
+            prompt = chunk[:m_a.start()].strip().replace('\n', ' ')
+            opts_part = chunk[m_a.start():]
+            opt_a = re.search(r'[aA]\)\s*(.*?)(?=\s+[bBcC]\)|\n\s*Nota|\Z)', opts_part)
+            opt_b = re.search(r'[bB]\)\s*(.*?)(?=\s+[aAcCdD]\)|\n\s*Nota|\Z)', opts_part)
+            opt_c = re.search(r'[cC]\)\s*(.*?)(?=\s+[aAbBdD]\)|\n\s*Nota|\Z)', opts_part)
+            opt_d = re.search(r'[dD]\)\s*(.*?)(?=\s+[aAbBcC]\)|\n\s*Nota|\Z)', opts_part)
+            
+            ans = answers.get(i, 'A').upper()
+            expl = f"Verbo To Have / Have Got / Have to. Opción correcta: {ans}."
+            if nota:
+                expl += f" Nota: {nota}"
+                
+            questions.append({
+                "id": f"B1_HAVE_Q{i}",
+                "number": i,
+                "type": "choice",
+                "section": "Verbo To Have / Have Got / Have To",
+                "question": prompt,
+                "options": {
+                    "A": opt_a.group(1).strip() if opt_a else "",
+                    "B": opt_b.group(1).strip() if opt_b else "",
+                    "C": opt_c.group(1).strip() if opt_c else "",
+                    "D": opt_d.group(1).strip() if opt_d else ""
+                },
+                "answer": ans,
+                "explanation": expl
+            })
+            
+    return {
+        "id": "repaso_b1_test4_have",
+        "title": "Repaso Bloque 1: Test 4 - To Have / Have Got / Have To",
+        "badge": "Extra: Have",
+        "description": "Batería de 25 preguntas tipo test sobre posesión, expresiones comunes con have y obligación con have to.",
+        "questions": questions
+    }
+
+def parse_repaso_embed_test5(pdf_path):
+    reader = pypdf.PdfReader(pdf_path)
+    full_text = '\n'.join([p.extract_text() or '' for p in reader.pages])
+    
+    # Solutions
+    sol1_idx = full_text.find('1. 1ER EJERCICIO SOLUCIONES.')
+    sol1_text = full_text[sol1_idx:full_text.find('2. Elige el pronombre')]
+    sol1_pairs = re.findall(r'(\d+)\s*([A-D])\b', sol1_text)
+    sol1 = {int(num): ans for num, ans in sol1_pairs}
+    
+    sol2_idx = full_text.find('2. 2')
+    sol2_text = full_text[sol2_idx:]
+    sol2_pairs = re.findall(r'(\d+)\s*([A-D])\b', sol2_text)
+    sol2 = {int(num): ans for num, ans in sol2_pairs}
+    
+    questions = []
+    
+    # Ejercicio 1: Plurales 1-30
+    p1_text = full_text[:sol1_idx]
+    chunks1 = re.split(r'\n\s*(\d+)-\.\s*', p1_text)
+    for i in range(1, len(chunks1), 2):
+        q_num = int(chunks1[i])
+        chunk = chunks1[i+1].strip()
+        m_opt = re.search(r'\bA\)', chunk)
+        if m_opt:
+            prompt = chunk[:m_opt.start()].strip().replace('\n', ' ')
+            opts_part = chunk[m_opt.start():]
+            opt_a = re.search(r'A\)\s*(.*?)(?=\s+[BCD]\)|\Z)', opts_part)
+            opt_b = re.search(r'B\)\s*(.*?)(?=\s+[ACD]\)|\Z)', opts_part)
+            opt_c = re.search(r'C\)\s*(.*?)(?=\s+[ABD]\)|\Z)', opts_part)
+            opt_d = re.search(r'D\)\s*(.*?)(?=\s+[ABC]\)|\Z)', opts_part)
+            ans = sol1.get(q_num, 'A')
+            questions.append({
+                "id": f"B1_PLUR_Q{q_num}",
+                "number": q_num,
+                "type": "choice",
+                "section": "Plurales de Sustantivos (Refuerzo)",
+                "question": f"Elige el plural correcto de: {prompt}",
+                "options": {
+                    "A": opt_a.group(1).strip() if opt_a else "",
+                    "B": opt_b.group(1).strip() if opt_b else "",
+                    "C": opt_c.group(1).strip() if opt_c else "",
+                    "D": opt_d.group(1).strip() if opt_d else ""
+                },
+                "answer": ans,
+                "explanation": f"Plurales en inglés. Solución correcta: opción {ans}."
+            })
+            
+    # Ejercicio 2: Demostrativos 1-20
+    p2_text = full_text[full_text.find('2. Elige el pronombre'):sol2_idx]
+    for i in range(1, 21):
+        next_i = i + 1
+        pat_curr = re.compile(r'(?:^|\n)\s*' + str(i) + r'(?:\s+|_+)', re.DOTALL)
+        m_curr = pat_curr.search(p2_text)
+        if not m_curr:
+            continue
+        start_pos = m_curr.end()
+        if i < 20:
+            pat_next = re.compile(r'(?:^|\n)\s*' + str(next_i) + r'(?:\s+|_+)', re.DOTALL)
+            m_next = pat_next.search(p2_text, start_pos)
+            end_pos = m_next.start() if m_next else len(p2_text)
+        else:
+            end_pos = len(p2_text)
+            
+        chunk = p2_text[start_pos:end_pos].strip()
+        m_opt = re.search(r'\bA\)', chunk)
+        if m_opt:
+            prompt_raw = chunk[:m_opt.start()].strip().replace('\n', ' ')
+            full_match = m_curr.group(0).strip()
+            unders = re.findall(r'_+', full_match)
+            prompt = (unders[0] + ' ' + prompt_raw).strip() if unders else prompt_raw
+            opts_part = chunk[m_opt.start():]
+            opt_a = re.search(r'A\)\s*(.*?)(?=\s+[BCD]\)|\Z)', opts_part)
+            opt_b = re.search(r'B\)\s*(.*?)(?=\s+[ACD]\)|\Z)', opts_part)
+            opt_c = re.search(r'C\)\s*(.*?)(?=\s+[ABD]\)|\Z)', opts_part)
+            opt_d = re.search(r'D\)\s*(.*?)(?=\s+[ABC]\)|\Z)', opts_part)
+            ans = sol2.get(i, 'A')
+            questions.append({
+                "id": f"B1_DEMO_Q{i}",
+                "number": 30 + i,
+                "type": "choice",
+                "section": "Pronombres Demostrativos (This / That / These / Those)",
+                "question": prompt,
+                "options": {
+                    "A": opt_a.group(1).strip() if opt_a else "",
+                    "B": opt_b.group(1).strip() if opt_b else "",
+                    "C": opt_c.group(1).strip() if opt_c else "",
+                    "D": opt_d.group(1).strip() if opt_d else ""
+                },
+                "answer": ans,
+                "explanation": f"Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: {ans}."
+            })
+
+    return {
+        "id": "repaso_b1_plurales_demostrativos",
+        "title": "Repaso Bloque 1: Plurales y Demostrativos Extra",
+        "badge": "Extra: Plur.",
+        "description": "Batería de 50 preguntas tipo test: 30 de plurales irregulares y 20 de demostrativos (this/that/these/those).",
         "questions": questions
     }
 
@@ -492,82 +1098,137 @@ def parse_generic_pdf(pdf_path):
                 "D": opt_d
             },
             "answer": answer_key.get(q_num, "A"),
-            "explanation": f"{title}. Opcion correcta: {answer_key.get(q_num, '')}."
+            "explanation": f"{title}. Opción correcta: {answer_key.get(q_num, '')}."
         })
 
     return {
         "id": topic_id,
         "title": title,
         "badge": title[:10],
-        "description": f"Ejercicios extraidos automaticamente de {filename}",
+        "description": f"Ejercicios extraídos automáticamente de {filename}",
         "questions": questions
     }
 
 def main():
-    print("=== INICIANDO EXTRACCION DE EJERCICIOS ===")
+    print("=== INICIANDO EXTRACCIÓN DE EJERCICIOS ===")
     topics = []
+    processed_paths = set()
     
-    files = sorted(os.listdir(PATRONATO_DIR))
-    processed_known = set()
+    # Recorrer todos los PDFs recursivamente en PATRONATO
+    all_pdfs = []
+    for root, dirs, files in os.walk(PATRONATO_DIR):
+        for f in files:
+            if f.lower().endswith('.pdf'):
+                all_pdfs.append((f, os.path.join(root, f)))
+                
+    all_pdfs.sort(key=lambda x: x[0].lower())
     
-    for f in files:
+    # 1. TEMAS OFICIALES BLOQUE 1
+    for f, full_path in all_pdfs:
         f_lower = f.lower()
-        full_path = os.path.join(PATRONATO_DIR, f)
-        if not f.endswith('.pdf'):
+        if full_path in processed_paths:
             continue
             
         if 'ejercicios tema 1.pdf' in f_lower or ('ejercicios' in f_lower and 'tema 1' in f_lower):
             print(f"-> Procesando Tema 1: {f}")
             topics.append(parse_tema_1(full_path))
-            processed_known.add(f)
+            processed_paths.add(full_path)
         elif 'ejercicios tema 2.pdf' in f_lower or ('ejercicios' in f_lower and 'tema 2' in f_lower):
             print(f"-> Procesando Tema 2: {f}")
             topics.append(parse_tema_2(full_path))
-            processed_known.add(f)
+            processed_paths.add(full_path)
         elif 'ejercicios 3- pronouns and possession - extra.pdf' in f_lower or ('extra' in f_lower and 'pronouns' in f_lower):
             print(f"-> Procesando Tema 3 Extra: {f}")
             topics.append(parse_tema_3_extra(full_path))
-            processed_known.add(f)
+            processed_paths.add(full_path)
         elif 'ejercicios 3- pronouns and possession.pdf' in f_lower or ('ejercicios 3' in f_lower):
             print(f"-> Procesando Tema 3: {f}")
             topics.append(parse_tema_3(full_path))
-            processed_known.add(f)
+            processed_paths.add(full_path)
         elif 'ejercicios 4 - plural nouns and demonstratives.pdf' in f_lower or ('ejercicios 4' in f_lower):
             print(f"-> Procesando Tema 4: {f}")
             topics.append(parse_tema_4(full_path))
-            processed_known.add(f)
+            processed_paths.add(full_path)
         elif 'ejercicios 5' in f_lower or ('tema 5' in f_lower and 'ejercicios' in f_lower):
             print(f"-> Procesando Tema 5: {f}")
             topics.append(parse_tema_5(full_path))
-            processed_known.add(f)
+            processed_paths.add(full_path)
+            
+    # 2. REPASO BLOQUE 1
+    for f, full_path in all_pdfs:
+        f_lower = f.lower()
+        if full_path in processed_paths:
+            continue
+            
+        if 'test bloque 1.pdf' in f_lower:
+            print(f"-> Procesando Examen Simulacro Bloque 1: {f}")
+            topics.append(parse_test_bloque_1(full_path))
+            processed_paths.add(full_path)
+        elif 'reading.pdf' in f_lower:
+            print(f"-> Procesando Reading Repaso Bloque 1: {f}")
+            topics.append(parse_repaso_reading(full_path))
+            processed_paths.add(full_path)
+        elif f_lower == 'embed.pdf':
+            print(f"-> Procesando Repaso Test 1 (Pronombres): {f}")
+            topics.append(parse_repaso_embed_test1(full_path))
+            processed_paths.add(full_path)
+        elif 'embed (1).pdf' in f_lower:
+            print(f"-> Procesando Repaso Test 2 (To Be): {f}")
+            topics.append(parse_repaso_embed_test2(full_path))
+            processed_paths.add(full_path)
+        elif 'embed (2).pdf' in f_lower:
+            print(f"-> Procesando Repaso Test 3 (Presente Simple): {f}")
+            topics.append(parse_repaso_embed_test3(full_path))
+            processed_paths.add(full_path)
+        elif 'embed (3).pdf' in f_lower:
+            print(f"-> Procesando Repaso Test 4 (Have / Have Got): {f}")
+            topics.append(parse_repaso_embed_test4(full_path))
+            processed_paths.add(full_path)
+        elif 'embed (4).pdf' in f_lower:
+            print(f"-> Procesando Repaso Plurales y Demostrativos: {f}")
+            topics.append(parse_repaso_embed_test5(full_path))
+            processed_paths.add(full_path)
 
-    for f in files:
-        if f.endswith('.pdf') and ('ejercicio' in f.lower() or 'test' in f.lower() or 'examen' in f.lower()) and f not in processed_known:
+    # 3. OTROS PDFs GENÉRICOS DE EJERCICIOS
+    for f, full_path in all_pdfs:
+        if full_path in processed_paths:
+            continue
+        if ('ejercicio' in f.lower() or 'test' in f.lower() or 'examen' in f.lower()) and not f.lower().startswith('vocabulario') and not f.lower().startswith('tema '):
             print(f"-> Procesando nuevo PDF detectado: {f}")
-            topic_data = parse_generic_pdf(os.path.join(PATRONATO_DIR, f))
+            topic_data = parse_generic_pdf(full_path)
             if topic_data["questions"]:
                 topics.append(topic_data)
-                print(f"   [OK] Extraidas {len(topic_data['questions'])} preguntas de {f}")
+                processed_paths.add(full_path)
+                print(f"   [OK] Extraídas {len(topic_data['questions'])} preguntas de {f}")
             else:
                 print(f"   [AVISO] No se pudieron extraer preguntas estructuradas de {f}")
 
-    # Dynamic sorting
+    # Ordenar temas: Temas 1 a 5 primero, luego Simulacro B1, luego Repaso B1
     def get_sort_key(t):
         tid = t["id"].lower()
-        m = re.search(r'tema_?(\d+)', tid)
-        if m:
-            n = int(m.group(1))
-            if 'extra' in tid:
-                return n * 10 + 1
-            return n * 10
+        if tid == "tema_1": return 10
+        if tid == "tema_2": return 20
+        if tid == "tema_3": return 30
+        if tid == "tema_3_extra": return 35
+        if tid == "tema_4": return 40
+        if tid == "tema_5": return 50
+        if tid == "bloque_1_examen": return 60
+        if tid == "repaso_b1_reading": return 70
+        if tid == "repaso_b1_test1_pronombres": return 80
+        if tid == "repaso_b1_test2_tobe": return 90
+        if tid == "repaso_b1_test3_presente": return 100
+        if tid == "repaso_b1_test4_have": return 110
+        if tid == "repaso_b1_plurales_demostrativos": return 120
         return 999
 
     topics.sort(key=get_sort_key)
     total_questions = sum(len(t["questions"]) for t in topics)
-    print(f"\nTotal de temas procesados: {len(topics)}")
-    print(f"Total de preguntas extraidas: {total_questions}")
+    print(f"\n==========================================")
+    print(f"Total de temas procesados: {len(topics)}")
+    print(f"Total de preguntas extraídas: {total_questions}")
+    print(f"==========================================")
     for t in topics:
-        print(f"  * {t['title']}: {len(t['questions'])} preguntas")
+        print(f"  * [{t['badge']}] {t['title']}: {len(t['questions'])} preguntas")
 
     metadata = {
         "generatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -585,7 +1246,7 @@ def main():
     with open(JS_OUTPUT_FILE, "w", encoding="utf-8") as out:
         out.write(js_content)
 
-    print(f"\n[EXITO] Archivo generado en: {JS_OUTPUT_FILE}")
+    print(f"\n[ÉXITO] Archivo generado en: {JS_OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
