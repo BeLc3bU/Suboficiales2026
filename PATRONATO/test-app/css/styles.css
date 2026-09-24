@@ -690,7 +690,8 @@ body {
   padding: 1.35rem 1.4rem 1.6rem;
 }
 
-.folder-content .topics-grid {
+.folder-content .topics-grid,
+.folder-content .special-grid {
   margin-bottom: 0;
 }
 

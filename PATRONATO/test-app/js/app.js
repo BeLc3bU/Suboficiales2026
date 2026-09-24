@@ -268,8 +268,18 @@
   function initDashboard() {
     showView('view-dashboard');
     updateStatsBar();
+    initSpecialModesFolder();
     renderTopics();
     renderPendingQuizBanner();
+  }
+
+  function initSpecialModesFolder() {
+    const fEspeciales = document.getElementById('folder-group-especiales');
+    if (!fEspeciales) return;
+    try {
+      const isCollapsed = localStorage.getItem('patronato_folder_especiales') === 'collapsed';
+      fEspeciales.classList.toggle('collapsed', isCollapsed);
+    } catch (e) {}
   }
 
   window.showDashboard = function () {
@@ -280,6 +290,7 @@
     }
     showView('view-dashboard');
     updateStatsBar();
+    initSpecialModesFolder();
     renderTopics();
     renderPendingQuizBanner();
   };
