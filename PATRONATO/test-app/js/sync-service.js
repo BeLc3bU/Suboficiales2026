@@ -74,8 +74,12 @@ const SyncService = (function () {
 
     const historyMap = new Map();
     [...(remote.history || []), ...(local.history || [])].forEach((h) => {
-      const key = `${h.date || ''}_${h.title || ''}_${h.score || ''}`;
-      if (!historyMap.has(key)) {
+      const key = h.id ? h.id : `${h.date || ''}_${h.title || ''}_${h.score || ''}`;
+      const existing = historyMap.get(key);
+      if (!existing) {
+        historyMap.set(key, h);
+      } else if (!existing.questionsReview && h.questionsReview) {
+        // Preservar la versión que tiene el detalle de preguntas guardado
         historyMap.set(key, h);
       }
     });

@@ -36,6 +36,10 @@
           <span class="autosave-dot"></span>
           <span class="autosave-text">Guardado</span>
         </div>
+        <button class="btn btn-outline btn-sm" id="btn-header-history" onclick="showHistoryView()" title="Histórico de tests realizados">
+          <span class="btn-icon">📜</span>
+          <span class="btn-text">Histórico</span>
+        </button>
         <button class="btn btn-outline btn-sm" id="btn-update-info" title="Cómo agregar nuevos temas">
           <span class="btn-icon">📥</span>
           <span class="btn-text">Actualizar</span>
@@ -70,25 +74,25 @@
             <div class="stat-val" id="user-accuracy-stat">0%</div>
             <div class="stat-lbl">Acierto Global</div>
           </div>
-          <div class="stat-box">
+          <div class="stat-box stat-box-interactive" id="stat-box-history" onclick="showHistoryView()" title="Ver historial de tests realizados" style="cursor: pointer;">
             <div class="stat-val" id="tests-completed-stat">0</div>
-            <div class="stat-lbl">Tests Hechos</div>
+            <div class="stat-lbl">Tests Hechos 📜</div>
           </div>
         </div>
       </div>
 
-      <!-- Special Modes (Simulacro / Fallos / Favoritas) como carpeta desplegable -->
+      <!-- Special Modes (Simulacro / Fallos / Favoritas / Histórico) como carpeta desplegable -->
       <div class="folder-group" id="folder-group-especiales" style="margin-top: 1.5rem; margin-bottom: 2rem;">
         <div class="folder-header" onclick="toggleFolder('especiales')">
           <div class="folder-header-left">
             <span class="folder-icon">🎯</span>
             <div>
-              <div class="folder-title">Modos Especiales de Examen</div>
-              <div class="folder-subtitle">Simulacro general con baremo oficial militar, repaso de fallos y preguntas guardadas</div>
+              <div class="folder-title">Modos Especiales de Examen y Registro</div>
+              <div class="folder-subtitle">Simulacro general con baremo oficial militar, repaso de fallos, favoritas e histórico</div>
             </div>
           </div>
           <div class="folder-header-right">
-            <span class="folder-badge">3 Modos</span>
+            <span class="folder-badge">4 Secciones</span>
             <span class="folder-arrow">▼</span>
           </div>
         </div>
@@ -123,6 +127,17 @@
               <div class="card-actions">
                 <button class="btn btn-secondary" id="btn-practice-favs" onclick="startFavsQuiz()">
                   Ver Guardadas (<span id="count-favs">0</span>)
+                </button>
+              </div>
+            </div>
+
+            <div class="special-card history-card">
+              <span class="card-badge badge-purple">Historial</span>
+              <h3 class="card-title">Histórico de Tests</h3>
+              <p class="card-desc">Consulta todos tus intentos anteriores, analiza preguntas acertadas y falladas, y repite exámenes pasados.</p>
+              <div class="card-actions">
+                <button class="btn btn-secondary" onclick="showHistoryView()">
+                  Ver Histórico (<span id="count-history-badge">0</span>)
                 </button>
               </div>
             </div>
@@ -292,7 +307,10 @@
           <button class="btn btn-danger" id="btn-retry-failed" onclick="retryCurrentQuiz(true)">
             ⚠️ Repetir Solo las Falladas
           </button>
-          <button class="btn btn-secondary" onclick="showDashboard()">
+          <button class="btn btn-secondary" id="btn-results-history" onclick="showLatestHistoryDetail()" title="Ver este intento en el histórico">
+            📜 Ver en Histórico
+          </button>
+          <button class="btn btn-outline" onclick="showDashboard()">
             🏠 Menú Principal
           </button>
         </div>
@@ -302,6 +320,146 @@
       <div class="review-container">
         <h3 class="section-title">📝 Revisión Detallada de Preguntas</h3>
         <div id="review-questions-list"></div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: TEST HISTORY -->
+    <section id="view-history" class="view-section">
+      <div class="history-page-header">
+        <div class="history-header-top">
+          <button class="btn btn-secondary btn-sm" onclick="showDashboard()">
+            ← Volver al Menú
+          </button>
+          <div class="history-header-actions">
+            <button class="btn btn-outline btn-sm btn-danger-outline" id="btn-clear-history" onclick="confirmClearHistory()" title="Borrar historial completo de tests">
+              🗑️ Limpiar Historial
+            </button>
+          </div>
+        </div>
+        <div class="history-title-row">
+          <h2>📜 Histórico de Tests Realizados</h2>
+          <p class="history-subtitle">Registro cronológico de tus exámenes, simulacros y prácticas. Pulsa en cualquier test para ver el desglose pregunta a pregunta con tus aciertos y fallos.</p>
+        </div>
+
+        <!-- Global Summary Statistics Banner -->
+        <div class="history-summary-grid">
+          <div class="h-summary-card">
+            <span class="h-summary-num" id="hist-stat-total">0</span>
+            <span class="h-summary-label">Tests Realizados</span>
+          </div>
+          <div class="h-summary-card">
+            <span class="h-summary-num text-accent" id="hist-stat-aptos">0</span>
+            <span class="h-summary-label">Aptos (≥70%)</span>
+          </div>
+          <div class="h-summary-card">
+            <span class="h-summary-num text-danger" id="hist-stat-no-aptos">0</span>
+            <span class="h-summary-label">No Aptos (&lt;70%)</span>
+          </div>
+          <div class="h-summary-card">
+            <span class="h-summary-num" id="hist-stat-avg-score">0.0</span>
+            <span class="h-summary-label">Nota Media (/10)</span>
+          </div>
+          <div class="h-summary-card">
+            <span class="h-summary-num" id="hist-stat-accuracy">0%</span>
+            <span class="h-summary-label">Acierto Global</span>
+          </div>
+        </div>
+
+        <!-- Filter and Search Bar -->
+        <div class="history-filters-bar">
+          <div class="history-search-wrap">
+            <input type="text" id="hist-search-input" class="history-search-input" placeholder="🔍 Buscar por título o tema..." oninput="onHistoryFilterChange()">
+          </div>
+          <div class="history-filter-controls">
+            <div class="folder-filter-pills" style="margin-bottom: 0;">
+              <button class="pill-btn active" id="hist-filter-all" onclick="setHistoryResultFilter('all')">Todos (<span id="hist-filter-count-all">0</span>)</button>
+              <button class="pill-btn" id="hist-filter-passed" onclick="setHistoryResultFilter('passed')">🎖️ Aptos (<span id="hist-filter-count-passed">0</span>)</button>
+              <button class="pill-btn" id="hist-filter-failed" onclick="setHistoryResultFilter('failed')">❌ No Aptos (<span id="hist-filter-count-failed">0</span>)</button>
+            </div>
+            <div class="history-sort-wrap">
+              <select id="hist-sort-select" class="history-select" onchange="onHistoryFilterChange()">
+                <option value="date-desc">Más recientes primero</option>
+                <option value="date-asc">Más antiguos primero</option>
+                <option value="score-desc">Mejor nota</option>
+                <option value="score-asc">Menor nota</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- History List Container -->
+      <div id="history-items-container" class="history-list-wrap">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- VIEW 5: TEST HISTORY DETAIL (Question-by-question review) -->
+    <section id="view-history-detail" class="view-section">
+      <div class="history-detail-header-card">
+        <div class="history-detail-nav">
+          <button class="btn btn-secondary btn-sm" onclick="showHistoryView()">
+            ← Volver al Histórico
+          </button>
+          <button class="btn btn-outline btn-sm" onclick="showDashboard()">
+            🏠 Menú Principal
+          </button>
+        </div>
+
+        <div class="history-detail-main-info">
+          <div class="history-detail-title-wrap">
+            <div class="history-badges-row" id="hd-badges-row"></div>
+            <h2 id="hd-test-title">Título del Test</h2>
+            <div class="history-meta-text" id="hd-meta-text">Realizado el -- • Duración: --</div>
+          </div>
+          <div class="history-detail-score-box" id="hd-score-box"></div>
+        </div>
+
+        <!-- Quick Metrics Row -->
+        <div class="results-stats-row" style="margin-top: 1.25rem; margin-bottom: 1.25rem;">
+          <div class="r-stat">
+            <h4 style="color: var(--accent);" id="hd-stat-correct">0</h4>
+            <span>Aciertos</span>
+          </div>
+          <div class="r-stat">
+            <h4 style="color: var(--danger);" id="hd-stat-wrong">0</h4>
+            <span>Fallos</span>
+          </div>
+          <div class="r-stat">
+            <h4 style="color: var(--warning);" id="hd-stat-blank">0</h4>
+            <span>En blanco</span>
+          </div>
+          <div class="r-stat">
+            <h4 id="hd-stat-time">00:00</h4>
+            <span>Tiempo</span>
+          </div>
+        </div>
+
+        <!-- Action Buttons for this specific historical test -->
+        <div class="history-detail-actions">
+          <button class="btn btn-primary" id="btn-hd-repeat-all" onclick="repeatCurrentHistoricalQuiz(false)">
+            🔄 Repetir Todo el Test
+          </button>
+          <button class="btn btn-danger" id="btn-hd-repeat-failed" onclick="repeatCurrentHistoricalQuiz(true)">
+            ⚠️ Repetir Solo las Falladas (<span id="hd-count-failed-repeat">0</span>)
+          </button>
+        </div>
+      </div>
+
+      <!-- Question Filter Tabs inside Detail View -->
+      <div class="review-filter-bar">
+        <h3 class="section-title" style="margin-bottom: 0;">📝 Desglose de Preguntas</h3>
+        <div class="review-pills-row">
+          <button class="pill-btn active" id="rf-pill-all" onclick="setReviewFilter('all')">Todas (<span id="rf-count-all">0</span>)</button>
+          <button class="pill-btn pill-danger" id="rf-pill-wrong" onclick="setReviewFilter('wrong')">❌ Falladas (<span id="rf-count-wrong">0</span>)</button>
+          <button class="pill-btn pill-success" id="rf-pill-correct" onclick="setReviewFilter('correct')">✓ Acertadas (<span id="rf-count-correct">0</span>)</button>
+          <button class="pill-btn" id="rf-pill-blank" onclick="setReviewFilter('blank')">⚪ En Blanco (<span id="rf-count-blank">0</span>)</button>
+        </div>
+      </div>
+
+      <!-- Detailed list of questions for this test -->
+      <div class="review-container" id="history-detail-questions-list">
+        <!-- Rendered question cards -->
       </div>
     </section>
 
@@ -371,6 +529,23 @@
       </ol>
       <div style="display: flex; justify-content: flex-end;">
         <button class="btn btn-primary" onclick="closeUpdateModal()">Entendido</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Confirmar Borrado de Historial o Intento -->
+  <div class="modal-overlay" id="modal-delete-confirm">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-delete-title">🗑️ Confirmar eliminación</h3>
+        <button class="modal-close-btn" onclick="closeDeleteConfirmModal()">✕</button>
+      </div>
+      <p id="modal-delete-desc" style="margin-bottom: 1.25rem; color: var(--text-muted); font-size: 0.95rem;">
+        ¿Estás seguro de que deseas eliminar este registro?
+      </p>
+      <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+        <button class="btn btn-secondary" onclick="closeDeleteConfirmModal()">Cancelar</button>
+        <button class="btn btn-danger" id="btn-confirm-delete-action" onclick="executeDeleteConfirmAction()">Eliminar</button>
       </div>
     </div>
   </div>

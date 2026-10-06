@@ -15,7 +15,13 @@
     history: JSON.parse(localStorage.getItem('patronato_history') || '[]'),
     currentQuiz: null,
     timerInterval: null,
-    folderFilter: 'all'
+    folderFilter: 'all',
+    historyReviewFilter: 'all',
+    historyResultFilter: 'all',
+    historySortOrder: 'date-desc',
+    currentViewingHistoryId: null,
+    latestFinishedTestId: null,
+    pendingDeleteAction: null
   };
 
   // Asegurar que el Tema 1 en modo práctica figure como completado inicialmente
@@ -27,23 +33,55 @@
       return;
     }
 
+    // Normalizar IDs para cualquier historial existente
+    state.history = state.history.map((h, idx) => {
+      if (!h.id) {
+        h.id = 'hist_' + (h.date ? new Date(h.date).getTime() : Date.now()) + '_' + idx;
+      }
+      return h;
+    });
+
     const hasTema1Practice = state.history.some(h => 
       (h.topicId === 'tema_1' || (h.title && h.title.includes('Tema 1'))) && (h.mode === 'practice' || !h.mode)
     );
 
     if (!hasTema1Practice) {
+      let tema1Questions = [];
+      if (window.TEST_DATA && window.TEST_DATA.topics) {
+        const t1 = window.TEST_DATA.topics.find(t => t.id === 'tema_1');
+        if (t1 && t1.questions) {
+          tema1Questions = t1.questions.map(q => ({
+            id: q.id,
+            number: q.number,
+            type: q.type || 'choice',
+            question: q.question,
+            options: q.options || null,
+            answer: q.answer,
+            explanation: q.explanation || '',
+            section: q.section || '',
+            readingText: q.readingText || null,
+            userAnswer: q.answer,
+            isCorrect: true,
+            isBlank: false
+          }));
+        }
+      }
+
       state.history.unshift({
+        id: 'hist_tema1_seed',
         date: new Date().toISOString(),
         topicId: 'tema_1',
         mode: 'practice',
         title: 'Tema 1: Formas verbales, To be y Presente simple',
+        badge: 'Tema 1',
         total: 45,
         correct: 45,
         wrong: 0,
         blank: 0,
         score: 10.0,
         passed: true,
-        timeSeconds: 720
+        timeSeconds: 720,
+        questionsReview: tema1Questions
       });
       localStorage.setItem('patronato_history', JSON.stringify(state.history));
       if (window.SyncService) window.SyncService.triggerAutoSave();
@@ -335,6 +373,23 @@
 
     const favsCountEl = document.getElementById('count-favs');
     if (favsCountEl) favsCountEl.textContent = state.favorites.length;
+
+    const historyBadgeEl = document.getElementById('count-history-badge');
+    if (historyBadgeEl) historyBadgeEl.textContent = state.history.length;
+
+    const historyCountEl = document.getElementById('count-history');
+    if (historyCountEl) historyCountEl.textContent = state.history.length;
+  }
+
+  function getQuestionById(qId) {
+    if (!qId || !window.TEST_DATA || !window.TEST_DATA.topics) return null;
+    for (const t of window.TEST_DATA.topics) {
+      const found = (t.questions || []).find(q => q.id === qId);
+      if (found) {
+        return { ...found, topicTitle: t.title, topicBadge: t.badge };
+      }
+    }
+    return null;
   }
 
   function getAllQuestions() {
@@ -616,8 +671,8 @@
     container.appendChild(fRepaso);
 
     // Aplicar filtro activo actual
-    if (state.folderFilter) {
-      setFolderFilter(state.folderFilter);
+    if (state.folderFilter && typeof window.setFolderFilter === 'function') {
+      window.setFolderFilter(state.folderFilter);
     }
   }
 
@@ -1185,24 +1240,56 @@
     // Passing criterion: 70%
     const isPassed = pct >= 70;
 
-    // Save to history
-    state.history.push({
+    // Generate unique test ID
+    const testId = 'test_' + Date.now() + '_' + Math.random().toString(36).substr(2, 6);
+    state.latestFinishedTestId = testId;
+
+    const questionsReview = qz.questions.map((q, idx) => {
+      const userAns = qz.userAnswers[q.id];
+      const isBlank = (userAns === undefined || userAns === '');
+      let isRight = false;
+      if (!isBlank) {
+        isRight = (q.type === 'choice') ? (userAns === q.answer) : checkTextAnswer(userAns, q.answer);
+      }
+      return {
+        id: q.id,
+        number: q.number || (idx + 1),
+        type: q.type || 'choice',
+        question: q.question,
+        options: q.options || null,
+        answer: q.answer,
+        explanation: q.explanation || '',
+        section: q.section || '',
+        readingText: q.readingText || null,
+        userAnswer: isBlank ? null : userAns,
+        isCorrect: isRight,
+        isBlank: isBlank
+      };
+    });
+
+    // Save to history (newest first)
+    state.history.unshift({
+      id: testId,
       date: new Date().toISOString(),
       topicId: qz.topicId || null,
       mode: qz.mode || 'practice',
       title: qz.title,
+      badge: qz.badge || '',
       total,
       correct,
       wrong,
       blank,
       score: parseFloat(scoreVal),
       passed: isPassed,
-      timeSeconds: qz.elapsedSeconds
+      timeSeconds: qz.elapsedSeconds,
+      questionsReview: questionsReview
     });
     localStorage.setItem('patronato_history', JSON.stringify(state.history));
     if (window.SyncService) window.SyncService.triggerAutoSave();
+    updateStatsBar();
 
     renderResultsScreen({
+      testId,
       total,
       correct,
       wrong,
@@ -1217,6 +1304,7 @@
   };
 
   function renderResultsScreen(res) {
+    state.latestFinishedTestId = res.testId;
     showView('view-results');
 
     // Badge APTO / NO APTO
@@ -1554,13 +1642,677 @@
     }
   });
 
-  window.addEventListener('pagehide', () => {
-    saveActiveQuizState();
-  });
+  // --- HISTÓRICO DE TESTS REALIZADOS ---
+  window.showHistoryView = function () {
+    if (state.currentQuiz && !state.currentQuiz.isFinished) {
+      clearInterval(state.timerInterval);
+      saveActiveQuizState();
+      state.currentQuiz = null;
+    }
+    showView('view-history');
+    renderHistorySummary();
+    renderHistoryList();
+  };
 
-  window.addEventListener('beforeunload', () => {
-    saveActiveQuizState();
-  });
+  window.showLatestHistoryDetail = function () {
+    if (state.latestFinishedTestId) {
+      showHistoryDetailView(state.latestFinishedTestId);
+    } else if (state.history.length > 0) {
+      showHistoryDetailView(state.history[0].id);
+    } else {
+      showHistoryView();
+    }
+  };
+
+  function renderHistorySummary() {
+    const list = state.history;
+    const total = list.length;
+    const aptos = list.filter(h => h.passed).length;
+    const noAptos = list.filter(h => !h.passed).length;
+
+    let avgScore = 0;
+    let totalCorrect = 0;
+    let totalQuestions = 0;
+
+    if (total > 0) {
+      const sumScores = list.reduce((acc, h) => acc + (parseFloat(h.score) || 0), 0);
+      avgScore = (sumScores / total).toFixed(1);
+      totalCorrect = list.reduce((acc, h) => acc + (h.correct || 0), 0);
+      totalQuestions = list.reduce((acc, h) => acc + (h.total || 0), 0);
+    }
+
+    const accuracyPct = totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 0;
+
+    const elTotal = document.getElementById('hist-stat-total');
+    if (elTotal) elTotal.textContent = total;
+
+    const elAptos = document.getElementById('hist-stat-aptos');
+    if (elAptos) elAptos.textContent = aptos;
+
+    const elNoAptos = document.getElementById('hist-stat-no-aptos');
+    if (elNoAptos) elNoAptos.textContent = noAptos;
+
+    const elAvg = document.getElementById('hist-stat-avg-score');
+    if (elAvg) elAvg.textContent = total > 0 ? avgScore : '0.0';
+
+    const elAcc = document.getElementById('hist-stat-accuracy');
+    if (elAcc) elAcc.textContent = `${accuracyPct}%`;
+  }
+
+  window.onHistoryFilterChange = function () {
+    renderHistoryList();
+  };
+
+  window.setHistoryResultFilter = function (val) {
+    state.historyResultFilter = val;
+    const btnAll = document.getElementById('hist-filter-all');
+    const btnPassed = document.getElementById('hist-filter-passed');
+    const btnFailed = document.getElementById('hist-filter-failed');
+
+    if (btnAll) btnAll.classList.toggle('active', val === 'all');
+    if (btnPassed) btnPassed.classList.toggle('active', val === 'passed');
+    if (btnFailed) btnFailed.classList.toggle('active', val === 'failed');
+
+    renderHistoryList();
+  };
+
+  function renderHistoryList() {
+    const container = document.getElementById('history-items-container');
+    if (!container) return;
+
+    const searchInput = document.getElementById('hist-search-input');
+    const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+    const sortSelect = document.getElementById('hist-sort-select');
+    const sortBy = sortSelect ? sortSelect.value : (state.historySortOrder || 'date-desc');
+
+    const totalCount = state.history.length;
+    const passedCount = state.history.filter(h => h.passed).length;
+    const failedCount = state.history.filter(h => !h.passed).length;
+
+    const elCountAll = document.getElementById('hist-filter-count-all');
+    if (elCountAll) elCountAll.textContent = totalCount;
+    const elCountPassed = document.getElementById('hist-filter-count-passed');
+    if (elCountPassed) elCountPassed.textContent = passedCount;
+    const elCountFailed = document.getElementById('hist-filter-count-failed');
+    if (elCountFailed) elCountFailed.textContent = failedCount;
+
+    // Filter
+    let filtered = state.history.filter(h => {
+      if (state.historyResultFilter === 'passed' && !h.passed) return false;
+      if (state.historyResultFilter === 'failed' && h.passed) return false;
+
+      if (query) {
+        const titleMatch = (h.title || '').toLowerCase().includes(query);
+        const badgeMatch = (h.badge || '').toLowerCase().includes(query);
+        const modeMatch = (h.mode === 'exam' ? 'examen simulacro' : 'práctica practica').includes(query);
+        if (!titleMatch && !badgeMatch && !modeMatch) return false;
+      }
+      return true;
+    });
+
+    // Sort
+    filtered.sort((a, b) => {
+      if (sortBy === 'date-asc') {
+        return new Date(a.date || 0) - new Date(b.date || 0);
+      } else if (sortBy === 'score-desc') {
+        return (parseFloat(b.score) || 0) - (parseFloat(a.score) || 0);
+      } else if (sortBy === 'score-asc') {
+        return (parseFloat(a.score) || 0) - (parseFloat(b.score) || 0);
+      } else {
+        return new Date(b.date || 0) - new Date(a.date || 0);
+      }
+    });
+
+    container.innerHTML = '';
+
+    if (filtered.length === 0) {
+      if (state.history.length === 0) {
+        container.innerHTML = `
+          <div class="empty-history-state">
+            <div class="empty-history-icon">📜</div>
+            <div class="empty-history-title">Aún no hay tests en el historial</div>
+            <p class="empty-history-desc">
+              Cada vez que finalices un test o simulacro militar, se guardará automáticamente aquí con el desglose de preguntas acertadas y falladas.
+            </p>
+            <button class="btn btn-primary" onclick="showDashboard()">
+              🚀 Comenzar un Test Ahora
+            </button>
+          </div>
+        `;
+      } else {
+        container.innerHTML = `
+          <div class="empty-history-state">
+            <div class="empty-history-icon">🔍</div>
+            <div class="empty-history-title">No hay resultados coincidentes</div>
+            <p class="empty-history-desc">
+              Ningún test de tu historial coincide con el término de búsqueda o filtro seleccionado.
+            </p>
+            <button class="btn btn-secondary" onclick="resetHistoryFilters()">
+              Restablecer Filtros
+            </button>
+          </div>
+        `;
+      }
+      return;
+    }
+
+    filtered.forEach((h) => {
+      const itemEl = document.createElement('div');
+      itemEl.className = `history-card-item ${h.passed ? 'passed' : 'failed'}`;
+
+      const totalQ = h.total || 0;
+      const correctPct = totalQ > 0 ? Math.round((h.correct / totalQ) * 100) : 0;
+      const wrongPct = totalQ > 0 ? Math.round((h.wrong / totalQ) * 100) : 0;
+      const blankPct = totalQ > 0 ? Math.round((h.blank / totalQ) * 100) : 0;
+
+      const formattedDate = formatHistoryDate(h.date);
+      const formattedTime = formatSeconds(h.timeSeconds || 0);
+
+      const isExam = h.mode === 'exam';
+      const modeLabel = isExam ? '⏱️ Examen / Simulacro' : '📝 Modo Práctica';
+      const modeClass = isExam ? 'badge-blue' : 'badge-amber';
+
+      itemEl.innerHTML = `
+        <div class="history-card-header">
+          <div class="history-card-badges">
+            <span class="card-badge ${modeClass}">${modeLabel}</span>
+            <span class="${h.passed ? 'badge-apto-tag' : 'badge-no-apto-tag'}">
+              ${h.passed ? '🎖️ APTO' : '❌ NO APTO'} (${(parseFloat(h.score) || 0).toFixed(1)}/10)
+            </span>
+          </div>
+          <span style="font-size: 0.82rem; color: var(--text-muted); font-weight: 500;">
+            📅 ${formattedDate}
+          </span>
+        </div>
+
+        <h3 class="history-card-title">${escapeHtml(h.title)}</h3>
+
+        <div class="history-card-bar-wrap" title="${correctPct}% aciertos, ${wrongPct}% fallos, ${blankPct}% en blanco">
+          <div class="h-bar-segment h-bar-correct" style="width: ${correctPct}%;"></div>
+          <div class="h-bar-segment h-bar-wrong" style="width: ${wrongPct}%;"></div>
+          <div class="h-bar-segment h-bar-blank" style="width: ${blankPct}%;"></div>
+        </div>
+
+        <div class="history-card-stats-row">
+          <span class="h-card-stat-item" style="color: var(--accent);">
+            ✓ <strong>${h.correct}</strong> aciertos
+          </span>
+          <span class="h-card-stat-item" style="color: var(--danger);">
+            ✕ <strong>${h.wrong}</strong> fallos
+          </span>
+          ${h.blank > 0 ? `
+            <span class="h-card-stat-item" style="color: var(--warning);">
+              ⚪ <strong>${h.blank}</strong> en blanco
+            </span>
+          ` : ''}
+          <span class="h-card-stat-item">
+            📊 <strong>${correctPct}%</strong> acierto
+          </span>
+          <span class="h-card-stat-item">
+            ⏱️ <strong>${formattedTime}</strong>
+          </span>
+        </div>
+
+        <div class="history-card-actions">
+          <button class="btn btn-primary btn-sm" onclick="showHistoryDetailView('${h.id}')" title="Ver análisis pregunta a pregunta de este test">
+            🔍 Ver Detalle de Preguntas
+          </button>
+          <button class="btn btn-secondary btn-sm" onclick="repeatHistoryQuiz('${h.id}', false)" title="Volver a realizar este mismo test">
+            🔄 Repetir Todo
+          </button>
+          ${h.wrong > 0 ? `
+            <button class="btn btn-danger btn-sm" onclick="repeatHistoryQuiz('${h.id}', true)" title="Hacer un test únicamente con las preguntas que fallaste">
+              ⚠️ Repetir Fallos (${h.wrong})
+            </button>
+          ` : ''}
+          <button class="btn btn-outline btn-sm btn-danger-outline" onclick="askDeleteHistoryItem('${h.id}')" title="Eliminar este intento del historial" style="margin-left: auto;">
+            🗑️
+          </button>
+        </div>
+      `;
+
+      container.appendChild(itemEl);
+    });
+  }
+
+  window.resetHistoryFilters = function () {
+    const searchInput = document.getElementById('hist-search-input');
+    if (searchInput) searchInput.value = '';
+    const sortSelect = document.getElementById('hist-sort-select');
+    if (sortSelect) sortSelect.value = 'date-desc';
+    setHistoryResultFilter('all');
+  };
+
+  // --- DETALLE DE PREGUNTAS DEL HISTÓRICO ---
+  window.showHistoryDetailView = function (testId) {
+    const item = state.history.find(h => h.id === testId);
+    if (!item) {
+      alert('No se encontró el registro seleccionado.');
+      showHistoryView();
+      return;
+    }
+
+    state.currentViewingHistoryId = testId;
+    state.historyReviewFilter = 'all';
+
+    showView('view-history-detail');
+
+    // Header info
+    document.getElementById('hd-test-title').textContent = item.title;
+    
+    const formattedDate = formatHistoryDate(item.date);
+    const formattedTime = formatSeconds(item.timeSeconds || 0);
+    document.getElementById('hd-meta-text').textContent = `Realizado el ${formattedDate} • Tiempo empleado: ${formattedTime}`;
+
+    const isExam = item.mode === 'exam';
+    const badgesRow = document.getElementById('hd-badges-row');
+    if (badgesRow) {
+      badgesRow.innerHTML = `
+        <span class="card-badge ${isExam ? 'badge-blue' : 'badge-amber'}">${isExam ? '⏱️ Examen' : '📝 Práctica'}</span>
+        ${item.badge ? `<span class="card-badge">${escapeHtml(item.badge)}</span>` : ''}
+      `;
+    }
+
+    const scoreBox = document.getElementById('hd-score-box');
+    if (scoreBox) {
+      const pct = item.total > 0 ? Math.round((item.correct / item.total) * 100) : 0;
+      scoreBox.innerHTML = `
+        <div class="result-badge-huge ${item.passed ? 'badge-apto' : 'badge-no-apto'}" style="font-size: 1rem; padding: 0.4rem 1.25rem;">
+          ${item.passed ? '🎖️ APTO (APROBADO)' : '❌ NO APTO (SUSPENSO)'}
+        </div>
+        <div style="font-size: 1.6rem; font-weight: 800; text-align: center; margin-top: 0.35rem; color: var(--text-main);">
+          ${(parseFloat(item.score) || 0).toFixed(1)} / 10 <span style="font-size: 1rem; font-weight: 600; color: var(--text-muted);">(${pct}%)</span>
+        </div>
+      `;
+    }
+
+    // Quick stats
+    document.getElementById('hd-stat-correct').textContent = item.correct;
+    document.getElementById('hd-stat-wrong').textContent = item.wrong;
+    document.getElementById('hd-stat-blank').textContent = item.blank;
+    document.getElementById('hd-stat-time').textContent = formattedTime;
+
+    // Retry failed button
+    const btnRepeatFailed = document.getElementById('btn-hd-repeat-failed');
+    const countFailedEl = document.getElementById('hd-count-failed-repeat');
+    if (btnRepeatFailed) {
+      if (item.wrong > 0) {
+        btnRepeatFailed.style.display = 'inline-flex';
+        if (countFailedEl) countFailedEl.textContent = item.wrong;
+      } else {
+        btnRepeatFailed.style.display = 'none';
+      }
+    }
+
+    // Counts for filter pills
+    const pillAll = document.getElementById('rf-count-all');
+    if (pillAll) pillAll.textContent = item.total;
+    const pillWrong = document.getElementById('rf-count-wrong');
+    if (pillWrong) pillWrong.textContent = item.wrong;
+    const pillCorrect = document.getElementById('rf-count-correct');
+    if (pillCorrect) pillCorrect.textContent = item.correct;
+    const pillBlank = document.getElementById('rf-count-blank');
+    if (pillBlank) pillBlank.textContent = item.blank;
+
+    // Reset pills UI to "all"
+    document.querySelectorAll('.review-pills-row .pill-btn').forEach(btn => btn.classList.remove('active'));
+    const allPill = document.getElementById('rf-pill-all');
+    if (allPill) allPill.classList.add('active');
+
+    renderHistoryDetailQuestions();
+  };
+
+  window.setReviewFilter = function (filter) {
+    state.historyReviewFilter = filter;
+    document.querySelectorAll('.review-pills-row .pill-btn').forEach(btn => btn.classList.remove('active'));
+    
+    if (filter === 'all') {
+      document.getElementById('rf-pill-all')?.classList.add('active');
+    } else if (filter === 'wrong') {
+      document.getElementById('rf-pill-wrong')?.classList.add('active');
+    } else if (filter === 'correct') {
+      document.getElementById('rf-pill-correct')?.classList.add('active');
+    } else if (filter === 'blank') {
+      document.getElementById('rf-pill-blank')?.classList.add('active');
+    }
+
+    renderHistoryDetailQuestions();
+  };
+
+  function renderHistoryDetailQuestions() {
+    const container = document.getElementById('history-detail-questions-list');
+    if (!container) return;
+    container.innerHTML = '';
+
+    const item = state.history.find(h => h.id === state.currentViewingHistoryId);
+    if (!item) return;
+
+    // Obtener preguntas guardadas o sintetizarlas para registros legados
+    let questions = item.questionsReview || [];
+    if (questions.length === 0 && item.topicId) {
+      const top = window.TEST_DATA?.topics?.find(t => t.id === item.topicId);
+      if (top && top.questions) {
+        questions = top.questions.map(q => ({
+          id: q.id,
+          number: q.number,
+          type: q.type || 'choice',
+          question: q.question,
+          options: q.options || null,
+          answer: q.answer,
+          explanation: q.explanation || '',
+          section: q.section || '',
+          readingText: q.readingText || null,
+          userAnswer: q.answer,
+          isCorrect: true,
+          isBlank: false
+        }));
+      }
+    }
+
+    if (questions.length === 0) {
+      container.innerHTML = `
+        <div class="empty-history-state" style="margin: 1.5rem auto;">
+          <p class="empty-history-desc">
+            Este intento fue guardado antes de habilitar el registro detallado pregunta a pregunta. Los tests nuevos que realices a partir de ahora registrarán el 100% de tus preguntas y respuestas.
+          </p>
+        </div>
+      `;
+      return;
+    }
+
+    // Filtrar preguntas
+    const currentFilter = state.historyReviewFilter || 'all';
+    const filteredQuestions = questions.filter(q => {
+      if (currentFilter === 'wrong') return !q.isCorrect && !q.isBlank;
+      if (currentFilter === 'correct') return q.isCorrect;
+      if (currentFilter === 'blank') return q.isBlank;
+      return true;
+    });
+
+    if (filteredQuestions.length === 0) {
+      container.innerHTML = `
+        <div style="text-align: center; padding: 2rem; color: var(--text-muted);">
+          No hay preguntas que coincidan con el filtro seleccionado.
+        </div>
+      `;
+      return;
+    }
+
+    filteredQuestions.forEach((q, idx) => {
+      // Intentar enriquecer datos con questions-data si faltan
+      const masterQ = getQuestionById(q.id);
+      const options = q.options || (masterQ ? masterQ.options : null);
+      const explanation = q.explanation || (masterQ ? masterQ.explanation : '');
+      const readingText = q.readingText || (masterQ ? masterQ.readingText : null);
+      const section = q.section || (masterQ ? masterQ.section : '');
+
+      const isFav = state.favorites.includes(q.id);
+
+      const card = document.createElement('div');
+      card.className = 'question-card';
+      card.style.marginBottom = '1.25rem';
+
+      if (q.isCorrect) {
+        card.style.borderLeft = '6px solid var(--accent)';
+      } else if (q.isBlank) {
+        card.style.borderLeft = '6px solid var(--warning)';
+      } else {
+        card.style.borderLeft = '6px solid var(--danger)';
+      }
+
+      let resultBadgeHtml = '';
+      if (q.isCorrect) {
+        resultBadgeHtml = `<span class="q-result-badge badge-q-correct">✓ Acertada</span>`;
+      } else if (q.isBlank) {
+        resultBadgeHtml = `<span class="q-result-badge badge-q-blank">⚪ En blanco</span>`;
+      } else {
+        resultBadgeHtml = `<span class="q-result-badge badge-q-wrong">✕ Fallada</span>`;
+      }
+
+      // Generar bloque de opciones o respuesta interactiva
+      let answersBlockHtml = '';
+      if (q.type === 'choice' && options) {
+        const letters = ['A', 'B', 'C', 'D'];
+        let optionsItemsHtml = '';
+
+        letters.forEach(letter => {
+          if (!options[letter]) return;
+          const optText = options[letter];
+
+          let itemClass = '';
+          let tagHtml = '';
+
+          const isUserPick = (q.userAnswer === letter);
+          const isOfficial = (q.answer === letter);
+
+          if (isUserPick && q.isCorrect) {
+            itemClass = 'choice-user-correct';
+            tagHtml = `<span class="review-choice-tag">✓ Tu respuesta (Correcta)</span>`;
+          } else if (isUserPick && !q.isCorrect) {
+            itemClass = 'choice-user-wrong';
+            tagHtml = `<span class="review-choice-tag">✕ Tu respuesta (Incorrecta)</span>`;
+          } else if (isOfficial && (!q.isCorrect || q.isBlank)) {
+            itemClass = 'choice-official-correct';
+            tagHtml = `<span class="review-choice-tag">✓ Solución correcta</span>`;
+          }
+
+          optionsItemsHtml += `
+            <div class="review-choice-item ${itemClass}">
+              <span class="review-choice-letter">${letter}</span>
+              <span class="review-choice-text">${escapeHtml(optText)}</span>
+              ${tagHtml}
+            </div>
+          `;
+        });
+
+        answersBlockHtml = `<div class="review-options-list">${optionsItemsHtml}</div>`;
+      } else {
+        answersBlockHtml = `
+          <div style="margin: 1rem 0;">
+            <div class="review-text-answer-box ${q.isCorrect ? 'text-correct' : (q.isBlank ? 'text-wrong' : 'text-wrong')}">
+              <strong>Tu respuesta:</strong> ${q.userAnswer ? escapeHtml(q.userAnswer) : '<em>Sin responder (en blanco)</em>'}
+            </div>
+            ${(!q.isCorrect || q.isBlank) ? `
+              <div class="review-text-answer-box text-official">
+                <strong>Solución oficial:</strong> ${escapeHtml(q.answer)}
+              </div>
+            ` : ''}
+          </div>
+        `;
+      }
+
+      card.innerHTML = `
+        <div class="question-header-row">
+          <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+            <span class="q-badge">Pregunta ${q.number || (idx + 1)}</span>
+            ${section ? `<span class="q-section-text">${escapeHtml(section)}</span>` : ''}
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.6rem;">
+            ${resultBadgeHtml}
+            <button class="q-fav-btn ${isFav ? 'active' : ''}" onclick="toggleHistoryQuestionFav('${q.id}', this)" title="${isFav ? 'Quitar de favoritas' : 'Guardar en favoritas'}">
+              ★
+            </button>
+          </div>
+        </div>
+
+        ${readingText ? `
+          <div class="reading-box" style="margin-bottom: 1rem;">
+            <div style="font-weight: 700; margin-bottom: 0.35rem; color: var(--primary);">📖 Texto de lectura</div>
+            <div style="font-size: 0.92rem; line-height: 1.5;">${escapeHtml(readingText)}</div>
+          </div>
+        ` : ''}
+
+        <div class="q-prompt" style="font-size: 1.05rem; margin-bottom: 0.75rem;">
+          ${formatPromptText(q.question)}
+        </div>
+
+        ${answersBlockHtml}
+
+        <div class="feedback-box show" style="margin-top: 0.85rem;">
+          <div class="feedback-text">
+            💡 <strong>Explicación del Patronato:</strong> ${escapeHtml(explanation || 'Regla gramatical oficial del temario.')}
+          </div>
+        </div>
+      `;
+
+      container.appendChild(card);
+    });
+  }
+
+  window.toggleHistoryQuestionFav = function (qId, btn) {
+    if (!qId) return;
+    if (state.favorites.includes(qId)) {
+      state.favorites = state.favorites.filter(id => id !== qId);
+      if (btn) btn.classList.remove('active');
+      showToast('⭐ Pregunta retirada de favoritas.');
+    } else {
+      state.favorites.push(qId);
+      if (btn) btn.classList.add('active');
+      showToast('⭐ ¡Pregunta guardada en favoritas!');
+    }
+    localStorage.setItem('patronato_favorites', JSON.stringify(state.favorites));
+    if (window.SyncService) window.SyncService.triggerAutoSave();
+    updateStatsBar();
+  };
+
+  // --- REPETICIÓN DE TESTS DESDE EL HISTÓRICO ---
+  window.repeatHistoryQuiz = function (testId, onlyFailed) {
+    const item = state.history.find(h => h.id === testId);
+    if (!item) {
+      alert('No se encontró el test a repetir.');
+      return;
+    }
+
+    let rawQuestions = item.questionsReview || [];
+    if (rawQuestions.length === 0 && item.topicId) {
+      const top = window.TEST_DATA?.topics?.find(t => t.id === item.topicId);
+      if (top && top.questions) rawQuestions = top.questions;
+    }
+
+    if (rawQuestions.length === 0) {
+      alert('No hay preguntas disponibles para repetir en este registro.');
+      return;
+    }
+
+    let targetQuestions = rawQuestions.map(qr => {
+      const fullQ = getQuestionById(qr.id);
+      if (fullQ) return fullQ;
+      return {
+        id: qr.id,
+        number: qr.number,
+        type: qr.type || 'choice',
+        section: qr.section || '',
+        question: qr.question,
+        options: qr.options,
+        answer: qr.answer,
+        explanation: qr.explanation,
+        readingText: qr.readingText
+      };
+    });
+
+    if (onlyFailed) {
+      targetQuestions = targetQuestions.filter((_, idx) => {
+        const qr = rawQuestions[idx];
+        return qr && !qr.isCorrect;
+      });
+    }
+
+    if (targetQuestions.length === 0) {
+      alert('¡Enhorabuena! No hay preguntas falladas en este intento.');
+      return;
+    }
+
+    startQuizSession({
+      topicId: item.topicId || null,
+      title: onlyFailed ? `Repetición de Fallos: ${item.title}` : item.title,
+      badge: item.badge || 'Histórico',
+      mode: 'practice',
+      questions: targetQuestions
+    });
+  };
+
+  window.repeatCurrentHistoricalQuiz = function (onlyFailed) {
+    if (state.currentViewingHistoryId) {
+      repeatHistoryQuiz(state.currentViewingHistoryId, onlyFailed);
+    }
+  };
+
+  // --- ELIMINACIÓN Y BORRADO DE HISTORIAL ---
+  window.askDeleteHistoryItem = function (testId) {
+    state.pendingDeleteAction = { type: 'single', testId };
+    const desc = document.getElementById('modal-delete-desc');
+    if (desc) desc.textContent = '¿Deseas eliminar este registro de examen del historial? Esta acción no se puede deshacer.';
+    const modal = document.getElementById('modal-delete-confirm');
+    if (modal) modal.classList.add('show');
+  };
+
+  window.confirmClearHistory = function () {
+    if (state.history.length === 0) {
+      alert('El historial ya está vacío.');
+      return;
+    }
+    state.pendingDeleteAction = { type: 'all' };
+    const desc = document.getElementById('modal-delete-desc');
+    if (desc) desc.textContent = '¿Estás seguro de que deseas vaciar TODO tu historial de tests realizados? Se borrarán todos los registros de intentos y estadísticas de exámenes.';
+    const modal = document.getElementById('modal-delete-confirm');
+    if (modal) modal.classList.add('show');
+  };
+
+  window.closeDeleteConfirmModal = function () {
+    state.pendingDeleteAction = null;
+    const modal = document.getElementById('modal-delete-confirm');
+    if (modal) modal.classList.remove('show');
+  };
+
+  window.executeDeleteConfirmAction = function () {
+    const action = state.pendingDeleteAction;
+    window.closeDeleteConfirmModal();
+
+    if (!action) return;
+
+    if (action.type === 'single') {
+      state.history = state.history.filter(h => h.id !== action.testId);
+      localStorage.setItem('patronato_history', JSON.stringify(state.history));
+      if (window.SyncService) window.SyncService.triggerAutoSave();
+      updateStatsBar();
+      renderHistorySummary();
+      renderHistoryList();
+      showToast('🗑️ Intento eliminado del historial.');
+    } else if (action.type === 'all') {
+      state.history = [];
+      localStorage.setItem('patronato_history', JSON.stringify(state.history));
+      localStorage.setItem('patronato_tema1_cleared', 'true');
+      if (window.SyncService) window.SyncService.triggerAutoSave();
+      updateStatsBar();
+      renderHistorySummary();
+      renderHistoryList();
+      showToast('🗑️ Historial de tests limpiado por completo.');
+    }
+  };
+
+  function formatHistoryDate(dateStr) {
+    if (!dateStr) return '--';
+    try {
+      const d = new Date(dateStr);
+      if (isNaN(d.getTime())) return '--';
+      return d.toLocaleDateString('es-ES', {
+        day: '2-digit',
+        month: 'short',
+        year: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+    } catch (e) {
+      return dateStr;
+    }
+  }
+
+  function formatSeconds(secs) {
+    const s = parseInt(secs || 0, 10);
+    const m = Math.floor(s / 60);
+    const rem = s % 60;
+    return `${String(m).padStart(2, '0')}:${String(rem).padStart(2, '0')}`;
+  }
 
   // --- UTILS ---
   function escapeHtml(str) {
