@@ -1643,7 +1643,7 @@
   });
 
   // --- HISTÓRICO DE TESTS REALIZADOS ---
-  window.showHistoryView = function () {
+  function showHistoryView() {
     if (state.currentQuiz && !state.currentQuiz.isFinished) {
       clearInterval(state.timerInterval);
       saveActiveQuizState();
@@ -1652,7 +1652,8 @@
     showView('view-history');
     renderHistorySummary();
     renderHistoryList();
-  };
+  }
+  window.showHistoryView = showHistoryView;
 
   window.showLatestHistoryDetail = function () {
     if (state.latestFinishedTestId) {
@@ -1884,7 +1885,7 @@
   };
 
   // --- DETALLE DE PREGUNTAS DEL HISTÓRICO ---
-  window.showHistoryDetailView = function (testId) {
+  function showHistoryDetailView(testId) {
     const item = state.history.find(h => h.id === testId);
     if (!item) {
       alert('No se encontró el registro seleccionado.');
@@ -1960,7 +1961,9 @@
     if (allPill) allPill.classList.add('active');
 
     renderHistoryDetailQuestions();
-  };
+  }
+  window.showHistoryDetailView = showHistoryDetailView;
+  window.viewHistoryDetail = showHistoryDetailView;
 
   window.setReviewFilter = function (filter) {
     state.historyReviewFilter = filter;
@@ -1987,42 +1990,91 @@
     const item = state.history.find(h => h.id === state.currentViewingHistoryId);
     if (!item) return;
 
-    // Obtener preguntas guardadas o sintetizarlas para registros legados
-    let questions = item.questionsReview || [];
-    if (questions.length === 0 && item.topicId) {
-      const top = window.TEST_DATA?.topics?.find(t => t.id === item.topicId);
-      if (top && top.questions) {
-        questions = top.questions.map(q => ({
-          id: q.id,
-          number: q.number,
-          type: q.type || 'choice',
-          question: q.question,
-          options: q.options || null,
-          answer: q.answer,
-          explanation: q.explanation || '',
-          section: q.section || '',
-          readingText: q.readingText || null,
-          userAnswer: q.answer,
-          isCorrect: true,
-          isBlank: false
-        }));
+    const hasStoredReview = Array.isArray(item.questionsReview) && item.questionsReview.length > 0;
+    let questions = [];
+    let isLegacy = false;
+
+    if (hasStoredReview) {
+      questions = item.questionsReview;
+    } else {
+      isLegacy = true;
+      // Intento legado sin telemetría de respuestas individuales
+      if (item.topicId) {
+        const top = window.TEST_DATA?.topics?.find(t => t.id === item.topicId);
+        if (top && top.questions) {
+          questions = top.questions.map((q, idx) => {
+            const isInErrors = state.errors.includes(q.id);
+            let legacyStatus = 'neutral';
+            if (isInErrors) {
+              legacyStatus = 'wrong';
+            } else if (item.wrong === 0) {
+              legacyStatus = 'correct';
+            } else {
+              legacyStatus = 'study';
+            }
+
+            return {
+              id: q.id,
+              number: q.number || (idx + 1),
+              type: q.type || 'choice',
+              question: q.question,
+              options: q.options || null,
+              answer: q.answer,
+              explanation: q.explanation || '',
+              section: q.section || '',
+              readingText: q.readingText || null,
+              userAnswer: null,
+              isCorrect: (item.wrong === 0),
+              isBlank: false,
+              isLegacy: true,
+              legacyStatus: legacyStatus
+            };
+          });
+        }
       }
     }
 
     if (questions.length === 0) {
       container.innerHTML = `
         <div class="empty-history-state" style="margin: 1.5rem auto;">
+          <div class="empty-history-icon">ℹ️</div>
+          <div class="empty-history-title">Registro histórico sin detalle individual</div>
           <p class="empty-history-desc">
-            Este intento fue guardado antes de habilitar el registro detallado pregunta a pregunta. Los tests nuevos que realices a partir de ahora registrarán el 100% de tus preguntas y respuestas.
+            Este intento fue guardado antes de habilitar el registro detallado pregunta a pregunta (${item.correct} aciertos y ${item.wrong} fallos globales).
+            <br><br>
+            Todos los tests nuevos que realices a partir de ahora registrarán el 100% de tus preguntas, respuestas exactas y explicaciones.
           </p>
         </div>
       `;
       return;
     }
 
+    // Banner informativo para intentos legados
+    if (isLegacy) {
+      const banner = document.createElement('div');
+      banner.className = 'legacy-history-notice';
+      banner.innerHTML = `
+        <div class="legacy-notice-icon">ℹ️</div>
+        <div class="legacy-notice-text">
+          <strong>Registro anterior a la actualización de detalle:</strong>
+          Este intento previo se registró antes de incorporar el guardado individual de respuestas. Se conserva tu resultado global (<strong>${item.correct} aciertos</strong>, <strong>${item.wrong} fallos</strong>${item.blank > 0 ? `, <strong>${item.blank} en blanco</strong>` : ''}).
+          <br>
+          ${item.wrong > 0 ? 'A continuación puedes repasar las preguntas y soluciones oficiales del tema. Aquellas registradas en tu <strong>Banco de Fallos</strong> se destacan en rojo.' : 'Todas las preguntas de este tema figuran con sus soluciones y explicaciones completas.'}
+          Los tests que realices a partir de ahora guardan automáticamente tus respuestas exactas.
+        </div>
+      `;
+      container.appendChild(banner);
+    }
+
     // Filtrar preguntas
     const currentFilter = state.historyReviewFilter || 'all';
     const filteredQuestions = questions.filter(q => {
+      if (q.isLegacy) {
+        if (currentFilter === 'wrong') return q.legacyStatus === 'wrong';
+        if (currentFilter === 'correct') return q.legacyStatus === 'correct';
+        if (currentFilter === 'blank') return false;
+        return true;
+      }
       if (currentFilter === 'wrong') return !q.isCorrect && !q.isBlank;
       if (currentFilter === 'correct') return q.isCorrect;
       if (currentFilter === 'blank') return q.isBlank;
@@ -2030,11 +2082,18 @@
     });
 
     if (filteredQuestions.length === 0) {
-      container.innerHTML = `
-        <div style="text-align: center; padding: 2rem; color: var(--text-muted);">
-          No hay preguntas que coincidan con el filtro seleccionado.
-        </div>
-      `;
+      const emptyFilterMsg = document.createElement('div');
+      emptyFilterMsg.style.cssText = 'text-align: center; padding: 2.5rem 1rem; color: var(--text-muted);';
+      if (isLegacy && currentFilter === 'wrong') {
+        emptyFilterMsg.innerHTML = `
+          <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🔍</div>
+          <p>En este intento anterior a la actualización no se registraron las preguntas exactas que fallaste (actualmente ninguna coincide en tu Banco de Fallos).</p>
+          <button class="btn btn-secondary btn-sm" onclick="setReviewFilter('all')" style="margin-top: 0.5rem;">Ver todas las preguntas del tema</button>
+        `;
+      } else {
+        emptyFilterMsg.innerHTML = 'No hay preguntas que coincidan con el filtro seleccionado.';
+      }
+      container.appendChild(emptyFilterMsg);
       return;
     }
 
@@ -2052,21 +2111,30 @@
       card.className = 'question-card';
       card.style.marginBottom = '1.25rem';
 
-      if (q.isCorrect) {
-        card.style.borderLeft = '6px solid var(--accent)';
-      } else if (q.isBlank) {
-        card.style.borderLeft = '6px solid var(--warning)';
-      } else {
-        card.style.borderLeft = '6px solid var(--danger)';
-      }
-
       let resultBadgeHtml = '';
-      if (q.isCorrect) {
-        resultBadgeHtml = `<span class="q-result-badge badge-q-correct">✓ Acertada</span>`;
-      } else if (q.isBlank) {
-        resultBadgeHtml = `<span class="q-result-badge badge-q-blank">⚪ En blanco</span>`;
+
+      if (q.isLegacy) {
+        if (q.legacyStatus === 'wrong') {
+          card.style.borderLeft = '6px solid var(--danger)';
+          resultBadgeHtml = `<span class="q-result-badge badge-q-wrong">✕ En Banco de Fallos</span>`;
+        } else if (q.legacyStatus === 'correct') {
+          card.style.borderLeft = '6px solid var(--accent)';
+          resultBadgeHtml = `<span class="q-result-badge badge-q-correct">✓ Acertada</span>`;
+        } else {
+          card.style.borderLeft = '6px solid var(--border)';
+          resultBadgeHtml = `<span class="q-result-badge badge-q-neutral">📖 Solución Oficial</span>`;
+        }
       } else {
-        resultBadgeHtml = `<span class="q-result-badge badge-q-wrong">✕ Fallada</span>`;
+        if (q.isCorrect) {
+          card.style.borderLeft = '6px solid var(--accent)';
+          resultBadgeHtml = `<span class="q-result-badge badge-q-correct">✓ Acertada</span>`;
+        } else if (q.isBlank) {
+          card.style.borderLeft = '6px solid var(--warning)';
+          resultBadgeHtml = `<span class="q-result-badge badge-q-blank">⚪ En blanco</span>`;
+        } else {
+          card.style.borderLeft = '6px solid var(--danger)';
+          resultBadgeHtml = `<span class="q-result-badge badge-q-wrong">✕ Fallada</span>`;
+        }
       }
 
       // Generar bloque de opciones o respuesta interactiva
@@ -2085,15 +2153,22 @@
           const isUserPick = (q.userAnswer === letter);
           const isOfficial = (q.answer === letter);
 
-          if (isUserPick && q.isCorrect) {
-            itemClass = 'choice-user-correct';
-            tagHtml = `<span class="review-choice-tag">✓ Tu respuesta (Correcta)</span>`;
-          } else if (isUserPick && !q.isCorrect) {
-            itemClass = 'choice-user-wrong';
-            tagHtml = `<span class="review-choice-tag">✕ Tu respuesta (Incorrecta)</span>`;
-          } else if (isOfficial && (!q.isCorrect || q.isBlank)) {
-            itemClass = 'choice-official-correct';
-            tagHtml = `<span class="review-choice-tag">✓ Solución correcta</span>`;
+          if (q.isLegacy) {
+            if (isOfficial) {
+              itemClass = 'choice-official-correct';
+              tagHtml = `<span class="review-choice-tag">✓ Solución correcta</span>`;
+            }
+          } else {
+            if (isUserPick && q.isCorrect) {
+              itemClass = 'choice-user-correct';
+              tagHtml = `<span class="review-choice-tag">✓ Tu respuesta (Correcta)</span>`;
+            } else if (isUserPick && !q.isCorrect) {
+              itemClass = 'choice-user-wrong';
+              tagHtml = `<span class="review-choice-tag">✕ Tu respuesta (Incorrecta)</span>`;
+            } else if (isOfficial && (!q.isCorrect || q.isBlank)) {
+              itemClass = 'choice-official-correct';
+              tagHtml = `<span class="review-choice-tag">✓ Solución correcta</span>`;
+            }
           }
 
           optionsItemsHtml += `
@@ -2107,18 +2182,28 @@
 
         answersBlockHtml = `<div class="review-options-list">${optionsItemsHtml}</div>`;
       } else {
-        answersBlockHtml = `
-          <div style="margin: 1rem 0;">
-            <div class="review-text-answer-box ${q.isCorrect ? 'text-correct' : (q.isBlank ? 'text-wrong' : 'text-wrong')}">
-              <strong>Tu respuesta:</strong> ${q.userAnswer ? escapeHtml(q.userAnswer) : '<em>Sin responder (en blanco)</em>'}
-            </div>
-            ${(!q.isCorrect || q.isBlank) ? `
+        if (q.isLegacy) {
+          answersBlockHtml = `
+            <div style="margin: 1rem 0;">
               <div class="review-text-answer-box text-official">
                 <strong>Solución oficial:</strong> ${escapeHtml(q.answer)}
               </div>
-            ` : ''}
-          </div>
-        `;
+            </div>
+          `;
+        } else {
+          answersBlockHtml = `
+            <div style="margin: 1rem 0;">
+              <div class="review-text-answer-box ${q.isCorrect ? 'text-correct' : 'text-wrong'}">
+                <strong>Tu respuesta:</strong> ${q.userAnswer ? escapeHtml(q.userAnswer) : '<em>Sin responder (en blanco)</em>'}
+              </div>
+              ${(!q.isCorrect || q.isBlank) ? `
+                <div class="review-text-answer-box text-official">
+                  <strong>Solución oficial:</strong> ${escapeHtml(q.answer)}
+                </div>
+              ` : ''}
+            </div>
+          `;
+        }
       }
 
       card.innerHTML = `
@@ -2168,7 +2253,7 @@
     } else {
       state.favorites.push(qId);
       if (btn) btn.classList.add('active');
-      showToast('⭐ ¡Pregunta guardada en favoritas!');
+      showToast('⭐ Pregunta guardada en favoritas.');
     }
     localStorage.setItem('patronato_favorites', JSON.stringify(state.favorites));
     if (window.SyncService) window.SyncService.triggerAutoSave();
@@ -2213,12 +2298,15 @@
     if (onlyFailed) {
       targetQuestions = targetQuestions.filter((_, idx) => {
         const qr = rawQuestions[idx];
-        return qr && !qr.isCorrect;
+        if (qr && qr.isCorrect !== undefined && !qr.isLegacy) {
+          return !qr.isCorrect;
+        }
+        return state.errors.includes(qr.id);
       });
     }
 
     if (targetQuestions.length === 0) {
-      alert('¡Enhorabuena! No hay preguntas falladas en este intento.');
+      alert('¡Enhorabuena! No hay preguntas falladas identificadas en este intento.');
       return;
     }
 

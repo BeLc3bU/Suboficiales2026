@@ -35,27 +35,27 @@ const SyncService = (function () {
   }
 
   /**
-   * Aplica datos remotos en el almacenamiento local
+   * Aplica datos remotos o combinados en el almacenamiento local
    */
-  function applyRemoteData(remoteData) {
-    if (!remoteData) return false;
+  function applyRemoteData(data) {
+    if (!data) return false;
 
-    if (Array.isArray(remoteData.favorites)) {
-      localStorage.setItem('patronato_favorites', JSON.stringify(remoteData.favorites));
+    if (Array.isArray(data.favorites)) {
+      localStorage.setItem('patronato_favorites', JSON.stringify(data.favorites));
     }
-    if (Array.isArray(remoteData.errors)) {
-      localStorage.setItem('patronato_errors', JSON.stringify(remoteData.errors));
+    if (Array.isArray(data.errors)) {
+      localStorage.setItem('patronato_errors', JSON.stringify(data.errors));
     }
-    if (Array.isArray(remoteData.history)) {
-      localStorage.setItem('patronato_history', JSON.stringify(remoteData.history));
+    if (Array.isArray(data.history)) {
+      localStorage.setItem('patronato_history', JSON.stringify(data.history));
     }
-    if (remoteData.theme) {
-      localStorage.setItem('patronato_theme', remoteData.theme);
+    if (data.theme) {
+      localStorage.setItem('patronato_theme', data.theme);
     }
-    if (remoteData.activeQuizUpdatedAt !== undefined) {
-      localStorage.setItem('patronato_active_quiz_updated_at', remoteData.activeQuizUpdatedAt.toString());
-      if (remoteData.activeQuiz) {
-        localStorage.setItem('patronato_active_quiz', JSON.stringify(remoteData.activeQuiz));
+    if (data.activeQuizUpdatedAt !== undefined) {
+      localStorage.setItem('patronato_active_quiz_updated_at', data.activeQuizUpdatedAt.toString());
+      if (data.activeQuiz) {
+        localStorage.setItem('patronato_active_quiz', JSON.stringify(data.activeQuiz));
       } else {
         localStorage.removeItem('patronato_active_quiz');
       }
@@ -72,15 +72,29 @@ const SyncService = (function () {
     const favSet = new Set([...(local.favorites || []), ...(remote.favorites || [])]);
     const errSet = new Set([...(local.errors || []), ...(remote.errors || [])]);
 
+    function getHistoryKey(h) {
+      if (!h) return '';
+      if (h.date && h.title) {
+        return `${h.date}_${h.title}_${h.total || ''}`;
+      }
+      return h.id || `${h.title || ''}_${h.score || ''}`;
+    }
+
     const historyMap = new Map();
-    [...(remote.history || []), ...(local.history || [])].forEach((h) => {
-      const key = h.id ? h.id : `${h.date || ''}_${h.title || ''}_${h.score || ''}`;
+    // Procesar local y remote asegurando conservar la versión más completa con questionsReview
+    [...(local.history || []), ...(remote.history || [])].forEach((h) => {
+      const key = getHistoryKey(h);
+      if (!key) return;
       const existing = historyMap.get(key);
       if (!existing) {
-        historyMap.set(key, h);
-      } else if (!existing.questionsReview && h.questionsReview) {
-        // Preservar la versión que tiene el detalle de preguntas guardado
-        historyMap.set(key, h);
+        historyMap.set(key, { ...h });
+      } else {
+        const best = { ...existing };
+        if (!best.id && h.id) best.id = h.id;
+        if ((!best.questionsReview || best.questionsReview.length === 0) && (h.questionsReview && h.questionsReview.length > 0)) {
+          best.questionsReview = h.questionsReview;
+        }
+        historyMap.set(key, best);
       }
     });
 
