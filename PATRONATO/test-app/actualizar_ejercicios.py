@@ -490,6 +490,52 @@ def parse_tema_5(pdf_path):
     }
 
 # ==========================================
+# PARSERS: BLOQUE 2 (TEMA 6 Y SIGUIENTES)
+# ==========================================
+
+def parse_tema_6(pdf_path):
+    raw_text = extract_text_from_pdf(pdf_path)
+    text = clean_text(raw_text)
+    answer_key = parse_answer_key(text)
+    
+    questions = []
+    pattern = re.compile(r'(\d+)\.\s*(.*?)\s*a\)\s*(.*?)\s*b\)\s*(.*?)\s*c\)\s*(.*?)\s*d\)\s*(.*?)(?=\n\s*\d+\.|\n\s*ANSWER KEY|\Z)', re.DOTALL)
+    q_section = text[:text.find("ANSWER KEY")] if "ANSWER KEY" in text else text
+    
+    for m in pattern.finditer(q_section):
+        q_num = int(m.group(1))
+        prompt = ' '.join(m.group(2).split())
+        opt_a = ' '.join(m.group(3).split())
+        opt_b = ' '.join(m.group(4).split())
+        opt_c = ' '.join(m.group(5).split())
+        opt_d = ' '.join(m.group(6).split())
+        ans = answer_key.get(q_num, "A")
+        
+        questions.append({
+            "id": f"T6_Q{q_num}",
+            "number": q_num,
+            "type": "choice",
+            "section": "Future Tenses",
+            "question": prompt,
+            "options": {
+                "A": opt_a,
+                "B": opt_b,
+                "C": opt_c,
+                "D": opt_d
+            },
+            "answer": ans,
+            "explanation": f"Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: {ans}."
+        })
+        
+    return {
+        "id": "tema_6",
+        "title": "Tema 6: El Futuro (Future Tenses)",
+        "badge": "Tema 6",
+        "description": "Tiempos de futuro: Will, Be going to, Present Continuous con valor de futuro, Future Continuous y oraciones de tiempo (when, until, as soon as).",
+        "questions": questions
+    }
+
+# ==========================================
 # PARSERS: REPASO BLOQUE 1
 # ==========================================
 
@@ -1088,29 +1134,64 @@ def parse_repaso_embed_test5(pdf_path):
         "questions": questions
     }
 
-def parse_generic_pdf(pdf_path):
+def detect_block_info(full_path):
+    rel = os.path.relpath(full_path, PATRONATO_DIR)
+    parts = rel.split(os.sep)
+    for p in parts:
+        m_rep = re.search(r'repaso\s*bloque\s*(\d+)', p, re.IGNORECASE)
+        if m_rep:
+            num = m_rep.group(1)
+            return f'repaso_b{num}', f'Repaso de Bloque {num}'
+        m_bloq = re.search(r'bloque\s*(\d+)', p, re.IGNORECASE)
+        if m_bloq:
+            num = m_bloq.group(1)
+            return f'bloque_{num}', f'Bloque {num}'
+    return 'otros', 'Otros'
+
+def parse_generic_pdf(pdf_path, theory_titles=None):
     filename = os.path.basename(pdf_path)
     raw_text = extract_text_from_pdf(pdf_path)
     text = clean_text(raw_text)
     answer_key = parse_answer_key(text)
     
+    block_id, block_name = detect_block_info(pdf_path)
+
+    m_theme = re.search(r'(?:tema\s*|ejercicios?\s*)(\d+)', filename, re.IGNORECASE)
+    theme_num = int(m_theme.group(1)) if m_theme else None
+
+    # Título inteligente
+    title = ''
+    if theme_num and theory_titles and theme_num in theory_titles:
+        title = f'Tema {theme_num}: {theory_titles[theme_num]}'
+    else:
+        first_line = text.strip().split('\n')[0].strip() if text.strip() else ''
+        if first_line and re.search(r'^(TEMA\s*\d+|EJERCICIOS?\s*\d+)', first_line, re.IGNORECASE):
+            title = first_line.replace('–', ':').replace('-', ':').strip()
+        if not title:
+            m_tit = re.search(r'(TEMA\s*\d+[^–\n]*|EJERCICIOS\s*\d+[^–\n]*)', text, re.IGNORECASE)
+            if m_tit:
+                title = m_tit.group(1).strip()
+            else:
+                title = filename.replace('.pdf', '')
+
+    topic_id = f'tema_{theme_num}' if theme_num else re.sub(r'[^a-zA-Z0-9_]', '_', filename.lower().replace('.pdf', ''))
+    badge = f'Tema {theme_num}' if theme_num else 'Test'
+
     questions = []
     pattern = re.compile(r'(\d+)\.\s*(.*?)\s*a\)\s*(.*?)\s*b\)\s*(.*?)\s*c\)\s*(.*?)\s*d\)\s*(.*?)(?=\n\s*\d+\.|\n\s*ANSWER KEY|\Z)', re.DOTALL)
     q_section = text[:text.find("ANSWER KEY")] if "ANSWER KEY" in text else text
-    
-    title_match = re.search(r'(TEMA\s*\d+[^–\n]*|EJERCICIOS\s*\d+[^–\n]*)', text, re.IGNORECASE)
-    title = title_match.group(1).strip() if title_match else filename.replace('.pdf', '')
-    topic_id = re.sub(r'[^a-zA-Z0-9_]', '_', filename.lower().replace('.pdf', ''))
 
     for m in pattern.finditer(q_section):
         q_num = int(m.group(1))
-        prompt = m.group(2).strip().replace('\n', ' ')
-        opt_a = m.group(3).strip().replace('\n', ' ')
-        opt_b = m.group(4).strip().replace('\n', ' ')
-        opt_c = m.group(5).strip().replace('\n', ' ')
-        opt_d = m.group(6).strip().replace('\n', ' ')
+        prompt = ' '.join(m.group(2).split())
+        opt_a = ' '.join(m.group(3).split())
+        opt_b = ' '.join(m.group(4).split())
+        opt_c = ' '.join(m.group(5).split())
+        opt_d = ' '.join(m.group(6).split())
+        ans = answer_key.get(q_num, "A")
+        q_id_prefix = f'T{theme_num}' if theme_num else topic_id
         questions.append({
-            "id": f"{topic_id}_Q{q_num}",
+            "id": f"{q_id_prefix}_Q{q_num}",
             "number": q_num,
             "type": "choice",
             "section": title,
@@ -1121,15 +1202,17 @@ def parse_generic_pdf(pdf_path):
                 "C": opt_c,
                 "D": opt_d
             },
-            "answer": answer_key.get(q_num, "A"),
-            "explanation": f"{title}. Opción correcta: {answer_key.get(q_num, '')}."
+            "answer": ans,
+            "explanation": f"{title}. Opción correcta: {ans}."
         })
 
     return {
         "id": topic_id,
         "title": title,
-        "badge": title[:10],
-        "description": f"Ejercicios extraídos automáticamente de {filename}",
+        "badge": badge,
+        "blockId": block_id,
+        "blockName": block_name,
+        "description": f"Ejercicios tipo test del {title} extraídos de {filename}.",
         "questions": questions
     }
 
@@ -1140,14 +1223,21 @@ def main():
     
     # Recorrer todos los PDFs recursivamente en PATRONATO
     all_pdfs = []
+    theory_titles = {}
     for root, dirs, files in os.walk(PATRONATO_DIR):
         for f in files:
             if f.lower().endswith('.pdf'):
-                all_pdfs.append((f, os.path.join(root, f)))
+                full_path = os.path.join(root, f)
+                all_pdfs.append((f, full_path))
+                # Detectar temario de teoría para títulos descriptivos
+                if f.lower().startswith('tema ') and 'ejercicio' not in f.lower():
+                    m_th = re.search(r'tema\s*(\d+)\s*[-–:]?\s*(.*)\.pdf', f, re.IGNORECASE)
+                    if m_th:
+                        theory_titles[int(m_th.group(1))] = m_th.group(2).strip()
                 
     all_pdfs.sort(key=lambda x: x[0].lower())
     
-    # 1. TEMAS OFICIALES BLOQUE 1
+    # 1. TEMAS ESPECÍFICOS CON PARSER AVANZADO
     for f, full_path in all_pdfs:
         f_lower = f.lower()
         if full_path in processed_paths:
@@ -1155,27 +1245,52 @@ def main():
             
         if 'ejercicios tema 1.pdf' in f_lower or ('ejercicios' in f_lower and 'tema 1' in f_lower):
             print(f"-> Procesando Tema 1: {f}")
-            topics.append(parse_tema_1(full_path))
+            t_obj = parse_tema_1(full_path)
+            t_obj["blockId"] = "bloque_1"
+            t_obj["blockName"] = "Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'ejercicios tema 2.pdf' in f_lower or ('ejercicios' in f_lower and 'tema 2' in f_lower):
             print(f"-> Procesando Tema 2: {f}")
-            topics.append(parse_tema_2(full_path))
+            t_obj = parse_tema_2(full_path)
+            t_obj["blockId"] = "bloque_1"
+            t_obj["blockName"] = "Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'ejercicios 3- pronouns and possession - extra.pdf' in f_lower or ('extra' in f_lower and 'pronouns' in f_lower):
             print(f"-> Procesando Tema 3 Extra: {f}")
-            topics.append(parse_tema_3_extra(full_path))
+            t_obj = parse_tema_3_extra(full_path)
+            t_obj["blockId"] = "bloque_1"
+            t_obj["blockName"] = "Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'ejercicios 3- pronouns and possession.pdf' in f_lower or ('ejercicios 3' in f_lower):
             print(f"-> Procesando Tema 3: {f}")
-            topics.append(parse_tema_3(full_path))
+            t_obj = parse_tema_3(full_path)
+            t_obj["blockId"] = "bloque_1"
+            t_obj["blockName"] = "Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'ejercicios 4 - plural nouns and demonstratives.pdf' in f_lower or ('ejercicios 4' in f_lower):
             print(f"-> Procesando Tema 4: {f}")
-            topics.append(parse_tema_4(full_path))
+            t_obj = parse_tema_4(full_path)
+            t_obj["blockId"] = "bloque_1"
+            t_obj["blockName"] = "Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'ejercicios 5' in f_lower or ('tema 5' in f_lower and 'ejercicios' in f_lower):
             print(f"-> Procesando Tema 5: {f}")
-            topics.append(parse_tema_5(full_path))
+            t_obj = parse_tema_5(full_path)
+            t_obj["blockId"] = "bloque_1"
+            t_obj["blockName"] = "Bloque 1"
+            topics.append(t_obj)
+            processed_paths.add(full_path)
+        elif 'ejercicio tema 6.pdf' in f_lower or ('tema 6' in f_lower and 'ejercicio' in f_lower):
+            print(f"-> Procesando Tema 6: {f}")
+            t_obj = parse_tema_6(full_path)
+            t_obj["blockId"] = "bloque_2"
+            t_obj["blockName"] = "Bloque 2"
+            topics.append(t_obj)
             processed_paths.add(full_path)
             
     # 2. REPASO BLOQUE 1
@@ -1186,31 +1301,52 @@ def main():
             
         if 'test bloque 1.pdf' in f_lower:
             print(f"-> Procesando Examen Simulacro Bloque 1: {f}")
-            topics.append(parse_test_bloque_1(full_path))
+            t_obj = parse_test_bloque_1(full_path)
+            t_obj["blockId"] = "repaso_b1"
+            t_obj["blockName"] = "Repaso de Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'reading.pdf' in f_lower:
             print(f"-> Procesando Reading Repaso Bloque 1: {f}")
-            topics.append(parse_repaso_reading(full_path))
+            t_obj = parse_repaso_reading(full_path)
+            t_obj["blockId"] = "repaso_b1"
+            t_obj["blockName"] = "Repaso de Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif f_lower == 'embed.pdf':
             print(f"-> Procesando Repaso Test 1 (Pronombres): {f}")
-            topics.append(parse_repaso_embed_test1(full_path))
+            t_obj = parse_repaso_embed_test1(full_path)
+            t_obj["blockId"] = "repaso_b1"
+            t_obj["blockName"] = "Repaso de Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'embed (1).pdf' in f_lower:
             print(f"-> Procesando Repaso Test 2 (To Be): {f}")
-            topics.append(parse_repaso_embed_test2(full_path))
+            t_obj = parse_repaso_embed_test2(full_path)
+            t_obj["blockId"] = "repaso_b1"
+            t_obj["blockName"] = "Repaso de Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'embed (2).pdf' in f_lower:
             print(f"-> Procesando Repaso Test 3 (Presente Simple): {f}")
-            topics.append(parse_repaso_embed_test3(full_path))
+            t_obj = parse_repaso_embed_test3(full_path)
+            t_obj["blockId"] = "repaso_b1"
+            t_obj["blockName"] = "Repaso de Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'embed (3).pdf' in f_lower:
             print(f"-> Procesando Repaso Test 4 (Have / Have Got): {f}")
-            topics.append(parse_repaso_embed_test4(full_path))
+            t_obj = parse_repaso_embed_test4(full_path)
+            t_obj["blockId"] = "repaso_b1"
+            t_obj["blockName"] = "Repaso de Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
         elif 'embed (4).pdf' in f_lower:
             print(f"-> Procesando Repaso Plurales y Demostrativos: {f}")
-            topics.append(parse_repaso_embed_test5(full_path))
+            t_obj = parse_repaso_embed_test5(full_path)
+            t_obj["blockId"] = "repaso_b1"
+            t_obj["blockName"] = "Repaso de Bloque 1"
+            topics.append(t_obj)
             processed_paths.add(full_path)
 
     # 3. OTROS PDFs GENÉRICOS DE EJERCICIOS
@@ -1219,31 +1355,40 @@ def main():
             continue
         if ('ejercicio' in f.lower() or 'test' in f.lower() or 'examen' in f.lower()) and not f.lower().startswith('vocabulario') and not f.lower().startswith('tema '):
             print(f"-> Procesando nuevo PDF detectado: {f}")
-            topic_data = parse_generic_pdf(full_path)
+            topic_data = parse_generic_pdf(full_path, theory_titles)
             if topic_data["questions"]:
                 topics.append(topic_data)
                 processed_paths.add(full_path)
-                print(f"   [OK] Extraídas {len(topic_data['questions'])} preguntas de {f}")
+                print(f"   [OK] Extraídas {len(topic_data['questions'])} preguntas de {f} (Asignado a {topic_data['blockName']})")
             else:
                 print(f"   [AVISO] No se pudieron extraer preguntas estructuradas de {f}")
 
-    # Ordenar temas: Temas 1 a 5 primero, luego Simulacro B1, luego Repaso B1
+    # Ordenar temas por Bloque y Número de tema
     def get_sort_key(t):
-        tid = t["id"].lower()
-        if tid == "tema_1": return 10
-        if tid == "tema_2": return 20
-        if tid == "tema_3": return 30
-        if tid == "tema_3_extra": return 35
-        if tid == "tema_4": return 40
-        if tid == "tema_5": return 50
-        if tid == "bloque_1_examen": return 60
-        if tid == "repaso_b1_reading": return 70
-        if tid == "repaso_b1_test1_pronombres": return 80
-        if tid == "repaso_b1_test2_tobe": return 90
-        if tid == "repaso_b1_test3_presente": return 100
-        if tid == "repaso_b1_test4_have": return 110
-        if tid == "repaso_b1_plurales_demostrativos": return 120
-        return 999
+        block_id = t.get("blockId", "")
+        tid = t.get("id", "").lower()
+
+        # Determinar número de bloque si existe
+        m_b = re.search(r'bloque_(\d+)', block_id)
+        b_num = int(m_b.group(1)) if m_b else 99
+
+        # Si es repaso
+        m_r = re.search(r'repaso_b(\d+)', block_id)
+        if m_r:
+            r_num = int(m_r.group(1))
+            if "examen" in tid or "simulacro" in tid:
+                sub = 10
+            elif "reading" in tid:
+                sub = 20
+            else:
+                sub = 30
+            return (r_num, 1, sub, tid)
+
+        # Número de tema dentro de bloque ordinario
+        m_t = re.search(r'tema_(\d+)', tid)
+        t_num = int(m_t.group(1)) if m_t else 999
+        is_extra = 1 if "extra" in tid else 0
+        return (b_num, 0, t_num, is_extra, tid)
 
     topics.sort(key=get_sort_key)
     total_questions = sum(len(t["questions"]) for t in topics)
@@ -1252,7 +1397,7 @@ def main():
     print(f"Total de preguntas extraídas: {total_questions}")
     print(f"==========================================")
     for t in topics:
-        print(f"  * [{t['badge']}] {t['title']}: {len(t['questions'])} preguntas")
+        print(f"  * [{t['badge']}] ({t.get('blockName', 'Sin bloque')}) {t['title']}: {len(t['questions'])} preguntas")
 
     metadata = {
         "generatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

@@ -1,11 +1,11 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-13 15:24:59
+ * Fecha: 2026-10-13 15:41:26
  * Total preguntas: 628
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-13 15:24:59",
+    "generatedAt": "2026-10-13 15:41:26",
     "totalTopics": 14,
     "totalQuestions": 628
   },
@@ -656,7 +656,9 @@ window.TEST_DATA = {
           "answer": "B",
           "explanation": "Comprensión lectora / cloze. Opción correcta: B."
         }
-      ]
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
     },
     {
       "id": "tema_2",
@@ -1024,7 +1026,9 @@ window.TEST_DATA = {
           "answer": "D",
           "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: D."
         }
-      ]
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
     },
     {
       "id": "tema_3",
@@ -1782,7 +1786,9 @@ window.TEST_DATA = {
           "answer": "C",
           "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: C."
         }
-      ]
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
     },
     {
       "id": "tema_3_extra",
@@ -3443,7 +3449,9 @@ window.TEST_DATA = {
           "answer": "yourselves",
           "explanation": "Respuesta correcta: 'yourselves'."
         }
-      ]
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
     },
     {
       "id": "tema_4",
@@ -4201,7 +4209,9 @@ window.TEST_DATA = {
           "answer": "B",
           "explanation": "Tema 4: Demonstratives. Opción correcta: B."
         }
-      ]
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
     },
     {
       "id": "tema_5",
@@ -4884,7 +4894,9 @@ window.TEST_DATA = {
           "answer": "B",
           "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: B."
         }
-      ]
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
     },
     {
       "id": "bloque_1_examen",
@@ -5852,7 +5864,9 @@ window.TEST_DATA = {
           "answer": "A",
           "explanation": "Simulacro Bloque 1 - THE TOWN SCIENCE MUSEUM. Solución oficial (60): A."
         }
-      ]
+      ],
+      "blockId": "repaso_b1",
+      "blockName": "Repaso de Bloque 1"
     },
     {
       "id": "repaso_b1_reading",
@@ -5924,1784 +5938,9 @@ window.TEST_DATA = {
           "answer": "B",
           "explanation": "El texto afirma: '...about 200,000 people speak Frisian which is the language with the most similarities to English' (opción B)."
         }
-      ]
-    },
-    {
-      "id": "repaso_b1_test1_pronombres",
-      "title": "Repaso Bloque 1: Test 1 - Pronombres",
-      "badge": "Extra: Pron",
-      "description": "Batería de 40 ejercicios de refuerzo: 30 preguntas tipo test de pronombres personales y posesivos + 10 ejercicios cloze contextuales.",
-      "questions": [
-        {
-          "id": "B1_PRON_Q1",
-          "number": 1,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "______ name is Charlie.",
-          "options": {
-            "A": "Yours",
-            "B": "My",
-            "C": "I",
-            "D": "Mine"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B. Consejo: En este tipo de ejercicios, donde sabemos que tenemos que poner un pronombre. Nos fijamos qué tipo de palabra está delante o detrás del hueco a rellenar. En este caso tenemos “ name ”, name es un sustantivo. Como vimos anteriormente, delante de un sustantivo tiene que ir un pronombre de la segunda columna. Por lo tanto la respuesta correcta solo puede ser la “B”."
-        },
-        {
-          "id": "B1_PRON_Q2",
-          "number": 2,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Is Olivia ______ sister?",
-          "options": {
-            "A": "she",
-            "B": "you",
-            "C": "your",
-            "D": "yours"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q3",
-          "number": 3,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Is your cat black? Yes,  _____ is .",
-          "options": {
-            "A": "it",
-            "B": "its",
-            "C": "I",
-            "D": "his"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q4",
-          "number": 4,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "It is his house. It isn’t ______.",
-          "options": {
-            "A": "I",
-            "B": "mine",
-            "C": "my",
-            "D": "me"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q5",
-          "number": 5,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Do you know my friend? Yes, but I don’t know ______  name.",
-          "options": {
-            "A": "his",
-            "B": "yours",
-            "C": "hers",
-            "D": "he"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q6",
-          "number": 6,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "I visited a friend of  ______.",
-          "options": {
-            "A": "her",
-            "B": "hers",
-            "C": "my",
-            "D": ""
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q7",
-          "number": 7,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "It is your pencil. It 's  ______.",
-          "options": {
-            "A": "her",
-            "B": "yours",
-            "C": "my",
-            "D": "his"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q8",
-          "number": 8,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Whose cars are these? They are ______.",
-          "options": {
-            "A": "my",
-            "B": "their",
-            "C": "your",
-            "D": "mine"
-          },
-          "answer": "D",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
-        },
-        {
-          "id": "B1_PRON_Q9",
-          "number": 9,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "James is married. ______  wife is an artist.",
-          "options": {
-            "A": "Our",
-            "B": "Their",
-            "C": "His",
-            "D": "Her"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q10",
-          "number": 10,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "It’s a mistake, it isn’t  ______ problem.",
-          "options": {
-            "A": "its",
-            "B": "ours",
-            "C": "my",
-            "D": "theirs"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q11",
-          "number": 11,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "The children are doing ______  difficult homework.",
-          "options": {
-            "A": "ours",
-            "B": "theirs",
-            "C": "their",
-            "D": "they"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q12",
-          "number": 12,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "He has got something in ______ head.",
-          "options": {
-            "A": "my",
-            "B": "your",
-            "C": "his",
-            "D": "her"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q13",
-          "number": 13,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Is that girl Isabella? Yes, she is with______son.",
-          "options": {
-            "A": "her",
-            "B": "mine",
-            "C": "hers",
-            "D": "theirs"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q14",
-          "number": 14,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "We like football. It’s ______  favourite sport.",
-          "options": {
-            "A": "yours",
-            "B": "our",
-            "C": "we",
-            "D": ""
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q15",
-          "number": 15,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "A brother of ______ is in that hotel.",
-          "options": {
-            "A": "my",
-            "B": "me",
-            "C": "I",
-            "D": "mine"
-          },
-          "answer": "D",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la segunda columna ya que el hueco está delante del verbo “is”. Sin embargo, por regla general, detrás de la preposición “of” hay que utilizar la 3ª columna."
-        },
-        {
-          "id": "B1_PRON_Q16",
-          "number": 16,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Benjamin doesn’t enjoy ______ meetings.",
-          "options": {
-            "A": "their",
-            "B": "hers",
-            "C": "mine",
-            "D": "theirs"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q17",
-          "number": 17,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Look at this poor bird! ______ leg is broken.",
-          "options": {
-            "A": "It",
-            "B": "Its",
-            "C": "It’s",
-            "D": "Our"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q18",
-          "number": 18,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "I haven’t got a computer. Can ______ use yours?",
-          "options": {
-            "A": "you",
-            "B": "I",
-            "C": "mine",
-            "D": "yours"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q19",
-          "number": 19,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "She is my friend Charlotte. A relative of ______  lives in this city.",
-          "options": {
-            "A": "my",
-            "B": "hers",
-            "C": "she",
-            "D": "his"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q20",
-          "number": 20,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "These are my children.______ are William and Lucas.",
-          "options": {
-            "A": "My",
-            "B": "His",
-            "C": "They",
-            "D": "Their"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q21",
-          "number": 21,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "She is my friend Michael. A relative of ______  lives in this city.",
-          "options": {
-            "A": "my",
-            "B": "hers",
-            "C": "she",
-            "D": ""
-          },
-          "answer": "D",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
-        },
-        {
-          "id": "B1_PRON_Q22",
-          "number": 22,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Paul and ______ go to school.",
-          "options": {
-            "A": "I",
-            "B": "mine",
-            "C": "my",
-            "D": "our"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q23",
-          "number": 23,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Zaragoza is a nice city.  ______cathedral is wonderful.",
-          "options": {
-            "A": "it’s",
-            "B": "its",
-            "C": "it",
-            "D": "his"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q24",
-          "number": 24,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Emma has got ______  T-shirt in the laundry.",
-          "options": {
-            "A": "hers",
-            "B": "her",
-            "C": "his",
-            "D": "its"
-          },
-          "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRON_Q25",
-          "number": 25,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "I am taller than ______ is.",
-          "options": {
-            "A": "He",
-            "B": "him",
-            "C": "his",
-            "D": "I"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la tercera columna ya que el hueco está detrás del verbo “is” y al final de la frase. Sin embargo, es una pregunta y por tanto una de las excepciones de la regla de la primera columna. Para este tipo de preguntas traducir ayudará mucho, Who is he? Quién es él. Más adelante explicaremos cómo se formulan las preguntas en inglés y lo verás con más claridad."
-        },
-        {
-          "id": "B1_PRON_Q26",
-          "number": 26,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Helen has got ______ money in that bank, but all the money isn’t ______",
-          "options": {
-            "A": "her / hers",
-            "B": "her / her",
-            "C": "hers / her",
-            "D": "hers / hers"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q27",
-          "number": 27,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "This car is ______.",
-          "options": {
-            "A": "her",
-            "B": "him",
-            "C": "his",
-            "D": ""
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q28",
-          "number": 28,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "My brother parks  ______ motorbike in  ______ garage",
-          "options": {
-            "A": "his / hers",
-            "B": "her / his",
-            "C": "his / his",
-            "D": "his / ours"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q29",
-          "number": 29,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Is this beer ______  or ______ ? 11",
-          "options": {
-            "A": "mine / yours",
-            "B": "my / your",
-            "C": "mine / your",
-            "D": "my / yours"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q30",
-          "number": 30,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "______ have a brother. ______ name is Albert.",
-          "options": {
-            "A": "I / His",
-            "B": "He / Her",
-            "C": "He / Hers",
-            "D": "I / Its"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRON_Q31",
-          "number": 31,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (31):\n\"Billy always listens to (31) ______ mother.\"",
-          "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
-        },
-        {
-          "id": "B1_PRON_Q32",
-          "number": 32,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (32):\n\"He always does what (32) ______ says.\"",
-          "answer": "she",
-          "explanation": "Respuesta correcta: 'she'."
-        },
-        {
-          "id": "B1_PRON_Q33",
-          "number": 33,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (33):\n\"If (33) ______ mother says, 'Brush your teeth,'...\"",
-          "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
-        },
-        {
-          "id": "B1_PRON_Q34",
-          "number": 34,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (34):\n\"...Billy brushes (34) ______ teeth.\"",
-          "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
-        },
-        {
-          "id": "B1_PRON_Q35",
-          "number": 35,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (35):\n\"Billy is a very good boy. (35) ______ has a friend.\"",
-          "answer": "He",
-          "explanation": "Respuesta correcta: 'He'."
-        },
-        {
-          "id": "B1_PRON_Q36",
-          "number": 36,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (36):\n\"(36) ______ name is Chloe.\"",
-          "answer": "Her",
-          "explanation": "Respuesta correcta: 'Her'."
-        },
-        {
-          "id": "B1_PRON_Q37",
-          "number": 37,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (37):\n\"Billy always helps Chloe to do (37) ______ homework.\"",
-          "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
-        },
-        {
-          "id": "B1_PRON_Q38",
-          "number": 38,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (38):\n\"Chloe always tells Billy, 'you are (38) ______ best friend'.\"",
-          "answer": "my",
-          "explanation": "Respuesta correcta: 'my'."
-        },
-        {
-          "id": "B1_PRON_Q39",
-          "number": 39,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (39):\n\"Of course Billy is (39) ______ best friend.\"",
-          "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
-        },
-        {
-          "id": "B1_PRON_Q40",
-          "number": 40,
-          "type": "completion",
-          "section": "Texto Cloze - A good boy (Pronombres)",
-          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
-          "question": "Escribe el pronombre correcto para el hueco (40):\n\"(40) ______ grew up together.\"",
-          "answer": "They",
-          "explanation": "Respuesta correcta: 'They'."
-        }
-      ]
-    },
-    {
-      "id": "repaso_b1_test2_tobe",
-      "title": "Repaso Bloque 1: Test 2 - Verbo To Be (Presente)",
-      "badge": "Extra: To Be",
-      "description": "Batería de 30 ejercicios: 24 preguntas tipo test de conjugación de To Be + 6 huecos cloze de texto.",
-      "questions": [
-        {
-          "id": "B1_TOBE_Q1",
-          "number": 1,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "He ______ a good guy.",
-          "options": {
-            "A": "is",
-            "B": "are",
-            "C": "am",
-            "D": "are not"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q2",
-          "number": 2,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "I ______ tall.",
-          "options": {
-            "A": "is not",
-            "B": "are",
-            "C": "am",
-            "D": "has"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
-        },
-        {
-          "id": "B1_TOBE_Q3",
-          "number": 3,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "The cat  ______ black.",
-          "options": {
-            "A": "is",
-            "B": "are",
-            "C": "am",
-            "D": "are not"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q4",
-          "number": 4,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "My name ______  Charlie.",
-          "options": {
-            "A": "is",
-            "B": "are",
-            "C": "am",
-            "D": "has"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q5",
-          "number": 5,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "They ______  black dogs.",
-          "options": {
-            "A": "is",
-            "B": "are",
-            "C": "am",
-            "D": "‘s"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
-        },
-        {
-          "id": "B1_TOBE_Q6",
-          "number": 6,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Children ______ usually sad.",
-          "options": {
-            "A": "is",
-            "B": "aren’t",
-            "C": "isn´t",
-            "D": "am"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
-        },
-        {
-          "id": "B1_TOBE_Q7",
-          "number": 7,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "It ______ a wonderful planet.",
-          "options": {
-            "A": "‘s",
-            "B": "is’t",
-            "C": "are",
-            "D": "am"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q8",
-          "number": 8,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Some people ______ angry with me.",
-          "options": {
-            "A": "‘snt",
-            "B": "is",
-            "C": "are",
-            "D": "are´t"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
-        },
-        {
-          "id": "B1_TOBE_Q9",
-          "number": 9,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "His parents ______ angry with me.",
-          "options": {
-            "A": "isn't",
-            "B": "am",
-            "C": "aren´t",
-            "D": "am not"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
-        },
-        {
-          "id": "B1_TOBE_Q10",
-          "number": 10,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "This thing ______ bad for us.",
-          "options": {
-            "A": "is",
-            "B": "am",
-            "C": "aren´t",
-            "D": "are"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q11",
-          "number": 11,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "______ you happy?",
-          "options": {
-            "A": "Is",
-            "B": "Are",
-            "C": "Arent",
-            "D": "Am"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
-        },
-        {
-          "id": "B1_TOBE_Q12",
-          "number": 12,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "______ your brother younger than you?",
-          "options": {
-            "A": "Is",
-            "B": "Are",
-            "C": "Aren´t",
-            "D": "Am"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q13",
-          "number": 13,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "______ Paul your uncle?",
-          "options": {
-            "A": "Am",
-            "B": "Are",
-            "C": "Aren´t",
-            "D": "Is"
-          },
-          "answer": "D",
-          "explanation": "Verbo To Be. Opción correcta: D."
-        },
-        {
-          "id": "B1_TOBE_Q14",
-          "number": 14,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "What ______ your name?",
-          "options": {
-            "A": "am not",
-            "B": "is",
-            "C": "am",
-            "D": "are"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
-        },
-        {
-          "id": "B1_TOBE_Q15",
-          "number": 15,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Are they sick? Yes, ______",
-          "options": {
-            "A": "it is",
-            "B": "they are",
-            "C": "they",
-            "D": "are"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
-        },
-        {
-          "id": "B1_TOBE_Q16",
-          "number": 16,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Everything ______ always fine",
-          "options": {
-            "A": "is",
-            "B": "are",
-            "C": "be",
-            "D": "Are not"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q17",
-          "number": 17,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Students ______ mostly women.",
-          "options": {
-            "A": "is",
-            "B": "are",
-            "C": "be",
-            "D": "‘rent"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
-        },
-        {
-          "id": "B1_TOBE_Q18",
-          "number": 18,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Select the true",
-          "options": {
-            "A": "Why are they never happy?",
-            "B": "Why are me never happy?",
-            "C": "Why is children never happy?",
-            "D": "Why are everything wrong?"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q19",
-          "number": 19,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Who ______ your mother?",
-          "options": {
-            "A": "is",
-            "B": "be",
-            "C": "are not",
-            "D": "am"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q20",
-          "number": 20,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "______ your keys sometimes on the table?",
-          "options": {
-            "A": "Isn´t",
-            "B": "Is not",
-            "C": "Aren’t",
-            "D": "Am"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
-        },
-        {
-          "id": "B1_TOBE_Q21",
-          "number": 21,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "My mother and I ______ lawyers.",
-          "options": {
-            "A": "is",
-            "B": "is not",
-            "C": "are",
-            "D": "was"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
-        },
-        {
-          "id": "B1_TOBE_Q22",
-          "number": 22,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Which ______ your notebook?",
-          "options": {
-            "A": "is",
-            "B": "were",
-            "C": "are",
-            "D": "be"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
-        },
-        {
-          "id": "B1_TOBE_Q23",
-          "number": 23,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Both ______ in my city",
-          "options": {
-            "A": "is",
-            "B": "am",
-            "C": "are",
-            "D": "be"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
-        },
-        {
-          "id": "B1_TOBE_Q24",
-          "number": 24,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "My friend ______ at home",
-          "options": {
-            "A": "‘re",
-            "B": "is't",
-            "C": "aren’t",
-            "D": "is not"
-          },
-          "answer": "D",
-          "explanation": "Verbo To Be. Opción correcta: D."
-        },
-        {
-          "id": "B1_TOBE_Q25",
-          "number": 25,
-          "type": "completion",
-          "section": "Texto Cloze - Simon & Susan (To Be)",
-          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
-          "question": "Escribe la forma correcta del verbo TO BE para el hueco (25):\n\"Simon and Susan (25) _____ happily married...\"",
-          "answer": "are",
-          "explanation": "Respuesta correcta: 'are'."
-        },
-        {
-          "id": "B1_TOBE_Q26",
-          "number": 26,
-          "type": "completion",
-          "section": "Texto Cloze - Simon & Susan (To Be)",
-          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
-          "question": "Escribe la forma correcta del verbo TO BE para el hueco (26):\n\"...Julia (26) _____ 5 years old...\"",
-          "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
-        },
-        {
-          "id": "B1_TOBE_Q27",
-          "number": 27,
-          "type": "completion",
-          "section": "Texto Cloze - Simon & Susan (To Be)",
-          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
-          "question": "Escribe la forma correcta del verbo TO BE para el hueco (27):\n\"...and the twin brothers (27) _____ 3.\"",
-          "answer": "are",
-          "explanation": "Respuesta correcta: 'are'."
-        },
-        {
-          "id": "B1_TOBE_Q28",
-          "number": 28,
-          "type": "completion",
-          "section": "Texto Cloze - Simon & Susan (To Be)",
-          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
-          "question": "Escribe la forma correcta del verbo TO BE para el hueco (28):\n\"June (28) _____ a writer...\"",
-          "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
-        },
-        {
-          "id": "B1_TOBE_Q29",
-          "number": 29,
-          "type": "completion",
-          "section": "Texto Cloze - Simon & Susan (To Be)",
-          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
-          "question": "Escribe la forma correcta del verbo TO BE para el hueco (29):\n\"...and Harry (29) _____ a lawyer.\"",
-          "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
-        },
-        {
-          "id": "B1_TOBE_Q30",
-          "number": 30,
-          "type": "completion",
-          "section": "Texto Cloze - Simon & Susan (To Be)",
-          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
-          "question": "Escribe la forma correcta del verbo TO BE para el hueco (30):\n\"Their house (30) _____ big and comfortable...\"",
-          "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
-        }
-      ]
-    },
-    {
-      "id": "repaso_b1_test3_presente",
-      "title": "Repaso Bloque 1: Test 3 - Presente Simple (Resto de Verbos)",
-      "badge": "Extra: Pres.",
-      "description": "Batería de 25 preguntas tipo test: oraciones de presente simple, terceras personas singular (-s/-es), auxiliares y texto cloze.",
-      "questions": [
-        {
-          "id": "B1_PRES_Q1",
-          "number": 1,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Tom ______ at home.",
-          "options": {
-            "A": "work",
-            "B": "does work",
-            "C": "works",
-            "D": "working"
-          },
-          "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C. Consejo: El do/ does sólo se utiliza en frases interrogativas (preguntas) y en frases negativas. Esta frase es afirmativa. Debemos de prestar mucha atención a la “s” final del verbo. A él/ella/ello ( animal o cosa en singular) siempre se le añade al verbo una s al final. Por eso en este caso la única respuesta válida es la “C”."
-        },
-        {
-          "id": "B1_PRES_Q2",
-          "number": 2,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "I ______ football every day.",
-          "options": {
-            "A": "play",
-            "B": "does plays",
-            "C": "plays",
-            "D": "played"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q3",
-          "number": 3,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Peter and James ______ Italian.",
-          "options": {
-            "A": "speaks",
-            "B": "doesn´t speak",
-            "C": "speak not",
-            "D": ""
-          },
-          "answer": "D",
-          "explanation": "Present Simple. Opción correcta: D."
-        },
-        {
-          "id": "B1_PRES_Q4",
-          "number": 4,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Mary ______ fish.",
-          "options": {
-            "A": "ate",
-            "B": "doesn´t eat",
-            "C": "eat",
-            "D": ""
-          },
-          "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRES_Q5",
-          "number": 5,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Roger ______ to watch films at home.",
-          "options": {
-            "A": "likes",
-            "B": "don´t like",
-            "C": "like does",
-            "D": "like"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q6",
-          "number": 6,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "I ______ books very often.",
-          "options": {
-            "A": "read",
-            "B": "doesn´t read",
-            "C": "reads",
-            "D": "readed"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q7",
-          "number": 7,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Teresa ______ to play piano.",
-          "options": {
-            "A": "love",
-            "B": "like",
-            "C": "loves",
-            "D": "does like"
-          },
-          "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRES_Q8",
-          "number": 8,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Charlie ______ to play guitar.",
-          "options": {
-            "A": "love",
-            "B": "doesn’t like",
-            "C": "don’t love",
-            "D": "does like"
-          },
-          "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRES_Q9",
-          "number": 9,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "I ______ do my homework.",
-          "options": {
-            "A": "don´t",
-            "B": "am",
-            "C": "do",
-            "D": "does do"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q10",
-          "number": 10,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Mark ______ to school by car.",
-          "options": {
-            "A": "drive",
-            "B": "go",
-            "C": "is",
-            "D": "doesn´t go"
-          },
-          "answer": "D",
-          "explanation": "Present Simple. Opción correcta: D."
-        },
-        {
-          "id": "B1_PRES_Q11",
-          "number": 11,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "______ you like apples?.",
-          "options": {
-            "A": "Does",
-            "B": "Do",
-            "C": "Arent",
-            "D": ""
-          },
-          "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRES_Q12",
-          "number": 12,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Does your sister______ in Scotland?",
-          "options": {
-            "A": "lives",
-            "B": "live",
-            "C": "is",
-            "D": ""
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q13",
-          "number": 13,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Does your brother look like you? Yes, he ______.",
-          "options": {
-            "A": "does",
-            "B": "do",
-            "C": "are",
-            "D": "is"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q14",
-          "number": 14,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Does Lucy drive a motorbike? No, she ______.",
-          "options": {
-            "A": "does",
-            "B": "doesn´t",
-            "C": "do",
-            "D": "don´t"
-          },
-          "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRES_Q15",
-          "number": 15,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "Where ______ she work?",
-          "options": {
-            "A": "does",
-            "B": "Is",
-            "C": "do",
-            "D": "has"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q16",
-          "number": 16,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "______  Rupert and Humphrey always  ______ together? Yes, they  ______.",
-          "options": {
-            "A": "Does/sing/does",
-            "B": "Do/sings/do",
-            "C": "Do/sing/do",
-            "D": "Are/sing/are"
-          },
-          "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRES_Q17",
-          "number": 17,
-          "type": "choice",
-          "section": "Presente Simple (Resto de Verbos)",
-          "readingText": null,
-          "question": "______  you have any money? Yes, I  ______.",
-          "options": {
-            "A": "Does/does",
-            "B": "Are/am",
-            "C": "Do/am",
-            "D": ""
-          },
-          "answer": "D",
-          "explanation": "Present Simple. Opción correcta: D."
-        },
-        {
-          "id": "B1_PRES_Q18",
-          "number": 18,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (18) del texto sobre Monica:",
-          "options": {
-            "A": "works",
-            "B": "work",
-            "C": "working",
-            "D": "workes"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q19",
-          "number": 19,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (19) del texto sobre Monica:",
-          "options": {
-            "A": "wake up",
-            "B": "wakes up",
-            "C": "wear",
-            "D": "wake ups"
-          },
-          "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRES_Q20",
-          "number": 20,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (20) del texto sobre Monica:",
-          "options": {
-            "A": "walk",
-            "B": "does walk",
-            "C": "walks",
-            "D": "walking"
-          },
-          "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRES_Q21",
-          "number": 21,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (21) del texto sobre Monica:",
-          "options": {
-            "A": "wears",
-            "B": "weird",
-            "C": "wear does",
-            "D": "wear"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q22",
-          "number": 22,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (22) del texto sobre Monica:",
-          "options": {
-            "A": "takes",
-            "B": "taken",
-            "C": "is",
-            "D": ""
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q23",
-          "number": 23,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (23) del texto sobre Monica:",
-          "options": {
-            "A": "listen",
-            "B": "listens",
-            "C": "ears",
-            "D": "jump"
-          },
-          "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
-        },
-        {
-          "id": "B1_PRES_Q24",
-          "number": 24,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (24) del texto sobre Monica:",
-          "options": {
-            "A": "listen",
-            "B": "heard",
-            "C": "listens",
-            "D": "ear"
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        },
-        {
-          "id": "B1_PRES_Q25",
-          "number": 25,
-          "type": "choice",
-          "section": "Texto Cloze - Monica's day (Presente Simple)",
-          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
-          "question": "Completa el hueco (25) del texto sobre Monica:",
-          "options": {
-            "A": "say",
-            "B": "says",
-            "C": "listen",
-            "D": ""
-          },
-          "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
-        }
-      ]
-    },
-    {
-      "id": "repaso_b1_test4_have",
-      "title": "Repaso Bloque 1: Test 4 - To Have / Have Got / Have To",
-      "badge": "Extra: Have",
-      "description": "Batería de 25 preguntas tipo test sobre posesión, expresiones comunes con have y obligación con have to.",
-      "questions": [
-        {
-          "id": "B1_HAVE_Q1",
-          "number": 1,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "He ______  a car.",
-          "options": {
-            "A": "have",
-            "B": "haven´t",
-            "C": "has got",
-            "D": "does hasn´t"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
-        },
-        {
-          "id": "B1_HAVE_Q2",
-          "number": 2,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "She ______  a car.",
-          "options": {
-            "A": "have got",
-            "B": "haven´t",
-            "C": "has",
-            "D": "does hasn´t"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
-        },
-        {
-          "id": "B1_HAVE_Q3",
-          "number": 3,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "They ______  a car.",
-          "options": {
-            "A": "haven´t got",
-            "B": "have got not",
-            "C": "do have",
-            "D": "doesn´t have"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q4",
-          "number": 4,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "Paul and Layla ______  a happy life together.",
-          "options": {
-            "A": "hasn’t got",
-            "B": "has",
-            "C": "doesn´t have",
-            "D": "don’t have"
-          },
-          "answer": "D",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
-        },
-        {
-          "id": "B1_HAVE_Q5",
-          "number": 5,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "______  you got children?",
-          "options": {
-            "A": "Have",
-            "B": "has",
-            "C": "Do",
-            "D": "does"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q6",
-          "number": 6,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "______  you have pain?",
-          "options": {
-            "A": "Have got",
-            "B": "have",
-            "C": "Do",
-            "D": ""
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
-        },
-        {
-          "id": "B1_HAVE_Q7",
-          "number": 7,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "I______  any food at home?",
-          "options": {
-            "A": "haven’t",
-            "B": "has got",
-            "C": "have got not",
-            "D": "don’t have"
-          },
-          "answer": "D",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
-        },
-        {
-          "id": "B1_HAVE_Q8",
-          "number": 8,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "I______  any food at home?",
-          "options": {
-            "A": "haven’t",
-            "B": "has got",
-            "C": "have got not",
-            "D": "don’t have"
-          },
-          "answer": "D",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
-        },
-        {
-          "id": "B1_HAVE_Q9",
-          "number": 9,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "I ______ want to be late at home",
-          "options": {
-            "A": "do not",
-            "B": "has got",
-            "C": "have got not",
-            "D": "don’t have"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q10",
-          "number": 10,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "______ any brothers and sisters?",
-          "options": {
-            "A": "Have you",
-            "B": "Have he got",
-            "C": "Have you got",
-            "D": "Does they have"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
-        },
-        {
-          "id": "B1_HAVE_Q11",
-          "number": 11,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "She ______ blue eyes",
-          "options": {
-            "A": "hasn't got",
-            "B": "does have",
-            "C": "has you got",
-            "D": "have"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q12",
-          "number": 12,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "______ She ______ blue eyes?",
-          "options": {
-            "A": "Hasn't/ have",
-            "B": "Does/ have",
-            "C": "Got/ has",
-            "D": "Has/ do"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q13",
-          "number": 13,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "She ______ a cold",
-          "options": {
-            "A": "does have",
-            "B": "doesn’t have",
-            "C": "has her got",
-            "D": ""
-          },
-          "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q14",
-          "number": 14,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "______ time to talk to me?",
-          "options": {
-            "A": "Have you got",
-            "B": "Have you",
-            "C": "Has her got",
-            "D": "You have"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q15",
-          "number": 15,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "______ teeth when they are born?",
-          "options": {
-            "A": "Does babies have",
-            "B": "Do babies have",
-            "C": "Has babies got",
-            "D": "Have baby"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q16",
-          "number": 16,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "I´m tired of being home, _______ get some fresh air",
-          "options": {
-            "A": "I have",
-            "B": "Have I",
-            "C": "I have to",
-            "D": ""
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
-        },
-        {
-          "id": "B1_HAVE_Q17",
-          "number": 17,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "__________ leave early, I can sleep all day tomorrow.",
-          "options": {
-            "A": "I have",
-            "B": "Have I",
-            "C": "I have to",
-            "D": "I do"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
-        },
-        {
-          "id": "B1_HAVE_Q18",
-          "number": 18,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "He __________ call his parents, they call me every day.",
-          "options": {
-            "A": "has to",
-            "B": "has got",
-            "C": "have to",
-            "D": ""
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q19",
-          "number": 19,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "We__________ a holiday in Mexico every year",
-          "options": {
-            "A": "‘ve got",
-            "B": "have to",
-            "C": "has",
-            "D": "has to"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q20",
-          "number": 20,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "_____ we    _____ our payment?",
-          "options": {
-            "A": "Are/ -",
-            "B": "Have / got",
-            "C": "Does/ have",
-            "D": "Have / to"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q21",
-          "number": 21,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "Why__________ go shopping?",
-          "options": {
-            "A": "have you",
-            "B": "do you have to",
-            "C": "do you have",
-            "D": "have you got"
-          },
-          "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q22",
-          "number": 22,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "Normally, I ______a shower, but sometimes I  ______ a bath.",
-          "options": {
-            "A": "have/have",
-            "B": "do/do",
-            "C": "-/-",
-            "D": "has/has"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A. Nota: En inglés hay algunas expresiones dónde “have” se utiliza con otro significado distinto a “tener”. Algunas de las más comunes son: Have a breakfast…… Tomar el desayuno Have a shower………. Tomar una ducha Have a bath………….. Tomar un baño Have a pizza/lunch/coffee…. Tomar una pizza/almuerzo/un sandwich (comida y bebida) Más adelante las veremos con más detenimiento."
-        },
-        {
-          "id": "B1_HAVE_Q23",
-          "number": 23,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "They ______a beautiful daughter.",
-          "options": {
-            "A": "have",
-            "B": "has",
-            "C": "do",
-            "D": "hasn’t"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q24",
-          "number": 24,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "We ______a large garden.",
-          "options": {
-            "A": "has",
-            "B": "have got",
-            "C": "do",
-            "D": ""
-          },
-          "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q25",
-          "number": 25,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "Nicky usually ______much luggage",
-          "options": {
-            "A": "haven´t",
-            "B": "has to",
-            "C": "doesn´t have",
-            "D": "haven´t got"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
-        }
-      ]
+      ],
+      "blockId": "repaso_b1",
+      "blockName": "Repaso de Bloque 1"
     },
     {
       "id": "repaso_b1_plurales_demostrativos",
@@ -8459,19 +6698,1806 @@ window.TEST_DATA = {
           "answer": "C",
           "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
         }
-      ]
+      ],
+      "blockId": "repaso_b1",
+      "blockName": "Repaso de Bloque 1"
     },
     {
-      "id": "ejercicio_tema_6",
-      "title": "TEMA 6",
-      "badge": "TEMA 6",
-      "description": "Ejercicios extraídos automáticamente de Ejercicio Tema 6.pdf",
+      "id": "repaso_b1_test1_pronombres",
+      "title": "Repaso Bloque 1: Test 1 - Pronombres",
+      "badge": "Extra: Pron",
+      "description": "Batería de 40 ejercicios de refuerzo: 30 preguntas tipo test de pronombres personales y posesivos + 10 ejercicios cloze contextuales.",
       "questions": [
         {
-          "id": "ejercicio_tema_6_Q1",
+          "id": "B1_PRON_Q1",
           "number": 1,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "______ name is Charlie.",
+          "options": {
+            "A": "Yours",
+            "B": "My",
+            "C": "I",
+            "D": "Mine"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B. Consejo: En este tipo de ejercicios, donde sabemos que tenemos que poner un pronombre. Nos fijamos qué tipo de palabra está delante o detrás del hueco a rellenar. En este caso tenemos “ name ”, name es un sustantivo. Como vimos anteriormente, delante de un sustantivo tiene que ir un pronombre de la segunda columna. Por lo tanto la respuesta correcta solo puede ser la “B”."
+        },
+        {
+          "id": "B1_PRON_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is Olivia ______ sister?",
+          "options": {
+            "A": "she",
+            "B": "you",
+            "C": "your",
+            "D": "yours"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is your cat black? Yes,  _____ is .",
+          "options": {
+            "A": "it",
+            "B": "its",
+            "C": "I",
+            "D": "his"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "It is his house. It isn’t ______.",
+          "options": {
+            "A": "I",
+            "B": "mine",
+            "C": "my",
+            "D": "me"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Do you know my friend? Yes, but I don’t know ______  name.",
+          "options": {
+            "A": "his",
+            "B": "yours",
+            "C": "hers",
+            "D": "he"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "I visited a friend of  ______.",
+          "options": {
+            "A": "her",
+            "B": "hers",
+            "C": "my",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "It is your pencil. It 's  ______.",
+          "options": {
+            "A": "her",
+            "B": "yours",
+            "C": "my",
+            "D": "his"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Whose cars are these? They are ______.",
+          "options": {
+            "A": "my",
+            "B": "their",
+            "C": "your",
+            "D": "mine"
+          },
+          "answer": "D",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRON_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "James is married. ______  wife is an artist.",
+          "options": {
+            "A": "Our",
+            "B": "Their",
+            "C": "His",
+            "D": "Her"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "It’s a mistake, it isn’t  ______ problem.",
+          "options": {
+            "A": "its",
+            "B": "ours",
+            "C": "my",
+            "D": "theirs"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "The children are doing ______  difficult homework.",
+          "options": {
+            "A": "ours",
+            "B": "theirs",
+            "C": "their",
+            "D": "they"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "He has got something in ______ head.",
+          "options": {
+            "A": "my",
+            "B": "your",
+            "C": "his",
+            "D": "her"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is that girl Isabella? Yes, she is with______son.",
+          "options": {
+            "A": "her",
+            "B": "mine",
+            "C": "hers",
+            "D": "theirs"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "We like football. It’s ______  favourite sport.",
+          "options": {
+            "A": "yours",
+            "B": "our",
+            "C": "we",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "A brother of ______ is in that hotel.",
+          "options": {
+            "A": "my",
+            "B": "me",
+            "C": "I",
+            "D": "mine"
+          },
+          "answer": "D",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la segunda columna ya que el hueco está delante del verbo “is”. Sin embargo, por regla general, detrás de la preposición “of” hay que utilizar la 3ª columna."
+        },
+        {
+          "id": "B1_PRON_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Benjamin doesn’t enjoy ______ meetings.",
+          "options": {
+            "A": "their",
+            "B": "hers",
+            "C": "mine",
+            "D": "theirs"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Look at this poor bird! ______ leg is broken.",
+          "options": {
+            "A": "It",
+            "B": "Its",
+            "C": "It’s",
+            "D": "Our"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "I haven’t got a computer. Can ______ use yours?",
+          "options": {
+            "A": "you",
+            "B": "I",
+            "C": "mine",
+            "D": "yours"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "She is my friend Charlotte. A relative of ______  lives in this city.",
+          "options": {
+            "A": "my",
+            "B": "hers",
+            "C": "she",
+            "D": "his"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "These are my children.______ are William and Lucas.",
+          "options": {
+            "A": "My",
+            "B": "His",
+            "C": "They",
+            "D": "Their"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "She is my friend Michael. A relative of ______  lives in this city.",
+          "options": {
+            "A": "my",
+            "B": "hers",
+            "C": "she",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRON_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Paul and ______ go to school.",
+          "options": {
+            "A": "I",
+            "B": "mine",
+            "C": "my",
+            "D": "our"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Zaragoza is a nice city.  ______cathedral is wonderful.",
+          "options": {
+            "A": "it’s",
+            "B": "its",
+            "C": "it",
+            "D": "his"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Emma has got ______  T-shirt in the laundry.",
+          "options": {
+            "A": "hers",
+            "B": "her",
+            "C": "his",
+            "D": "its"
+          },
+          "answer": "B",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRON_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "I am taller than ______ is.",
+          "options": {
+            "A": "He",
+            "B": "him",
+            "C": "his",
+            "D": "I"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la tercera columna ya que el hueco está detrás del verbo “is” y al final de la frase. Sin embargo, es una pregunta y por tanto una de las excepciones de la regla de la primera columna. Para este tipo de preguntas traducir ayudará mucho, Who is he? Quién es él. Más adelante explicaremos cómo se formulan las preguntas en inglés y lo verás con más claridad."
+        },
+        {
+          "id": "B1_PRON_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Helen has got ______ money in that bank, but all the money isn’t ______",
+          "options": {
+            "A": "her / hers",
+            "B": "her / her",
+            "C": "hers / her",
+            "D": "hers / hers"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "This car is ______.",
+          "options": {
+            "A": "her",
+            "B": "him",
+            "C": "his",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "My brother parks  ______ motorbike in  ______ garage",
+          "options": {
+            "A": "his / hers",
+            "B": "her / his",
+            "C": "his / his",
+            "D": "his / ours"
+          },
+          "answer": "C",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRON_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "Is this beer ______  or ______ ? 11",
+          "options": {
+            "A": "mine / yours",
+            "B": "my / your",
+            "C": "mine / your",
+            "D": "my / yours"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Pronombres Personales y Posesivos",
+          "question": "______ have a brother. ______ name is Albert.",
+          "options": {
+            "A": "I / His",
+            "B": "He / Her",
+            "C": "He / Hers",
+            "D": "I / Its"
+          },
+          "answer": "A",
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRON_Q31",
+          "number": 31,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (31):\n\"Billy always listens to (31) ______ mother.\"",
+          "answer": "his",
+          "explanation": "Respuesta correcta: 'his'."
+        },
+        {
+          "id": "B1_PRON_Q32",
+          "number": 32,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (32):\n\"He always does what (32) ______ says.\"",
+          "answer": "she",
+          "explanation": "Respuesta correcta: 'she'."
+        },
+        {
+          "id": "B1_PRON_Q33",
+          "number": 33,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (33):\n\"If (33) ______ mother says, 'Brush your teeth,'...\"",
+          "answer": "his",
+          "explanation": "Respuesta correcta: 'his'."
+        },
+        {
+          "id": "B1_PRON_Q34",
+          "number": 34,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (34):\n\"...Billy brushes (34) ______ teeth.\"",
+          "answer": "his",
+          "explanation": "Respuesta correcta: 'his'."
+        },
+        {
+          "id": "B1_PRON_Q35",
+          "number": 35,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (35):\n\"Billy is a very good boy. (35) ______ has a friend.\"",
+          "answer": "He",
+          "explanation": "Respuesta correcta: 'He'."
+        },
+        {
+          "id": "B1_PRON_Q36",
+          "number": 36,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (36):\n\"(36) ______ name is Chloe.\"",
+          "answer": "Her",
+          "explanation": "Respuesta correcta: 'Her'."
+        },
+        {
+          "id": "B1_PRON_Q37",
+          "number": 37,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (37):\n\"Billy always helps Chloe to do (37) ______ homework.\"",
+          "answer": "her",
+          "explanation": "Respuesta correcta: 'her'."
+        },
+        {
+          "id": "B1_PRON_Q38",
+          "number": 38,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (38):\n\"Chloe always tells Billy, 'you are (38) ______ best friend'.\"",
+          "answer": "my",
+          "explanation": "Respuesta correcta: 'my'."
+        },
+        {
+          "id": "B1_PRON_Q39",
+          "number": 39,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (39):\n\"Of course Billy is (39) ______ best friend.\"",
+          "answer": "her",
+          "explanation": "Respuesta correcta: 'her'."
+        },
+        {
+          "id": "B1_PRON_Q40",
+          "number": 40,
+          "type": "completion",
+          "section": "Texto Cloze - A good boy (Pronombres)",
+          "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
+          "question": "Escribe el pronombre correcto para el hueco (40):\n\"(40) ______ grew up together.\"",
+          "answer": "They",
+          "explanation": "Respuesta correcta: 'They'."
+        }
+      ],
+      "blockId": "repaso_b1",
+      "blockName": "Repaso de Bloque 1"
+    },
+    {
+      "id": "repaso_b1_test2_tobe",
+      "title": "Repaso Bloque 1: Test 2 - Verbo To Be (Presente)",
+      "badge": "Extra: To Be",
+      "description": "Batería de 30 ejercicios: 24 preguntas tipo test de conjugación de To Be + 6 huecos cloze de texto.",
+      "questions": [
+        {
+          "id": "B1_TOBE_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "He ______ a good guy.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "are not"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "I ______ tall.",
+          "options": {
+            "A": "is not",
+            "B": "are",
+            "C": "am",
+            "D": "has"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "The cat  ______ black.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "are not"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "My name ______  Charlie.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "has"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "They ______  black dogs.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "am",
+            "D": "‘s"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Children ______ usually sad.",
+          "options": {
+            "A": "is",
+            "B": "aren’t",
+            "C": "isn´t",
+            "D": "am"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "It ______ a wonderful planet.",
+          "options": {
+            "A": "‘s",
+            "B": "is’t",
+            "C": "are",
+            "D": "am"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Some people ______ angry with me.",
+          "options": {
+            "A": "‘snt",
+            "B": "is",
+            "C": "are",
+            "D": "are´t"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "His parents ______ angry with me.",
+          "options": {
+            "A": "isn't",
+            "B": "am",
+            "C": "aren´t",
+            "D": "am not"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "This thing ______ bad for us.",
+          "options": {
+            "A": "is",
+            "B": "am",
+            "C": "aren´t",
+            "D": "are"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ you happy?",
+          "options": {
+            "A": "Is",
+            "B": "Are",
+            "C": "Arent",
+            "D": "Am"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ your brother younger than you?",
+          "options": {
+            "A": "Is",
+            "B": "Are",
+            "C": "Aren´t",
+            "D": "Am"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ Paul your uncle?",
+          "options": {
+            "A": "Am",
+            "B": "Are",
+            "C": "Aren´t",
+            "D": "Is"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Be. Opción correcta: D."
+        },
+        {
+          "id": "B1_TOBE_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "What ______ your name?",
+          "options": {
+            "A": "am not",
+            "B": "is",
+            "C": "am",
+            "D": "are"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Are they sick? Yes, ______",
+          "options": {
+            "A": "it is",
+            "B": "they are",
+            "C": "they",
+            "D": "are"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Everything ______ always fine",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "be",
+            "D": "Are not"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Students ______ mostly women.",
+          "options": {
+            "A": "is",
+            "B": "are",
+            "C": "be",
+            "D": "‘rent"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Be. Opción correcta: B."
+        },
+        {
+          "id": "B1_TOBE_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Select the true",
+          "options": {
+            "A": "Why are they never happy?",
+            "B": "Why are me never happy?",
+            "C": "Why is children never happy?",
+            "D": "Why are everything wrong?"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Who ______ your mother?",
+          "options": {
+            "A": "is",
+            "B": "be",
+            "C": "are not",
+            "D": "am"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "______ your keys sometimes on the table?",
+          "options": {
+            "A": "Isn´t",
+            "B": "Is not",
+            "C": "Aren’t",
+            "D": "Am"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "My mother and I ______ lawyers.",
+          "options": {
+            "A": "is",
+            "B": "is not",
+            "C": "are",
+            "D": "was"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Which ______ your notebook?",
+          "options": {
+            "A": "is",
+            "B": "were",
+            "C": "are",
+            "D": "be"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Be. Opción correcta: A."
+        },
+        {
+          "id": "B1_TOBE_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "Both ______ in my city",
+          "options": {
+            "A": "is",
+            "B": "am",
+            "C": "are",
+            "D": "be"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Be. Opción correcta: C."
+        },
+        {
+          "id": "B1_TOBE_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Verbo To Be (Presente)",
+          "question": "My friend ______ at home",
+          "options": {
+            "A": "‘re",
+            "B": "is't",
+            "C": "aren’t",
+            "D": "is not"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Be. Opción correcta: D."
+        },
+        {
+          "id": "B1_TOBE_Q25",
+          "number": 25,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (25):\n\"Simon and Susan (25) _____ happily married...\"",
+          "answer": "are",
+          "explanation": "Respuesta correcta: 'are'."
+        },
+        {
+          "id": "B1_TOBE_Q26",
+          "number": 26,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (26):\n\"...Julia (26) _____ 5 years old...\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        },
+        {
+          "id": "B1_TOBE_Q27",
+          "number": 27,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (27):\n\"...and the twin brothers (27) _____ 3.\"",
+          "answer": "are",
+          "explanation": "Respuesta correcta: 'are'."
+        },
+        {
+          "id": "B1_TOBE_Q28",
+          "number": 28,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (28):\n\"June (28) _____ a writer...\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        },
+        {
+          "id": "B1_TOBE_Q29",
+          "number": 29,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (29):\n\"...and Harry (29) _____ a lawyer.\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        },
+        {
+          "id": "B1_TOBE_Q30",
+          "number": 30,
+          "type": "completion",
+          "section": "Texto Cloze - Simon & Susan (To Be)",
+          "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
+          "question": "Escribe la forma correcta del verbo TO BE para el hueco (30):\n\"Their house (30) _____ big and comfortable...\"",
+          "answer": "is",
+          "explanation": "Respuesta correcta: 'is'."
+        }
+      ],
+      "blockId": "repaso_b1",
+      "blockName": "Repaso de Bloque 1"
+    },
+    {
+      "id": "repaso_b1_test3_presente",
+      "title": "Repaso Bloque 1: Test 3 - Presente Simple (Resto de Verbos)",
+      "badge": "Extra: Pres.",
+      "description": "Batería de 25 preguntas tipo test: oraciones de presente simple, terceras personas singular (-s/-es), auxiliares y texto cloze.",
+      "questions": [
+        {
+          "id": "B1_PRES_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Tom ______ at home.",
+          "options": {
+            "A": "work",
+            "B": "does work",
+            "C": "works",
+            "D": "working"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C. Consejo: El do/ does sólo se utiliza en frases interrogativas (preguntas) y en frases negativas. Esta frase es afirmativa. Debemos de prestar mucha atención a la “s” final del verbo. A él/ella/ello ( animal o cosa en singular) siempre se le añade al verbo una s al final. Por eso en este caso la única respuesta válida es la “C”."
+        },
+        {
+          "id": "B1_PRES_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "I ______ football every day.",
+          "options": {
+            "A": "play",
+            "B": "does plays",
+            "C": "plays",
+            "D": "played"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Peter and James ______ Italian.",
+          "options": {
+            "A": "speaks",
+            "B": "doesn´t speak",
+            "C": "speak not",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "Present Simple. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRES_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Mary ______ fish.",
+          "options": {
+            "A": "ate",
+            "B": "doesn´t eat",
+            "C": "eat",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Roger ______ to watch films at home.",
+          "options": {
+            "A": "likes",
+            "B": "don´t like",
+            "C": "like does",
+            "D": "like"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "I ______ books very often.",
+          "options": {
+            "A": "read",
+            "B": "doesn´t read",
+            "C": "reads",
+            "D": "readed"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Teresa ______ to play piano.",
+          "options": {
+            "A": "love",
+            "B": "like",
+            "C": "loves",
+            "D": "does like"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRES_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Charlie ______ to play guitar.",
+          "options": {
+            "A": "love",
+            "B": "doesn’t like",
+            "C": "don’t love",
+            "D": "does like"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "I ______ do my homework.",
+          "options": {
+            "A": "don´t",
+            "B": "am",
+            "C": "do",
+            "D": "does do"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Mark ______ to school by car.",
+          "options": {
+            "A": "drive",
+            "B": "go",
+            "C": "is",
+            "D": "doesn´t go"
+          },
+          "answer": "D",
+          "explanation": "Present Simple. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRES_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "______ you like apples?.",
+          "options": {
+            "A": "Does",
+            "B": "Do",
+            "C": "Arent",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Does your sister______ in Scotland?",
+          "options": {
+            "A": "lives",
+            "B": "live",
+            "C": "is",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Does your brother look like you? Yes, he ______.",
+          "options": {
+            "A": "does",
+            "B": "do",
+            "C": "are",
+            "D": "is"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Does Lucy drive a motorbike? No, she ______.",
+          "options": {
+            "A": "does",
+            "B": "doesn´t",
+            "C": "do",
+            "D": "don´t"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "Where ______ she work?",
+          "options": {
+            "A": "does",
+            "B": "Is",
+            "C": "do",
+            "D": "has"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "______  Rupert and Humphrey always  ______ together? Yes, they  ______.",
+          "options": {
+            "A": "Does/sing/does",
+            "B": "Do/sings/do",
+            "C": "Do/sing/do",
+            "D": "Are/sing/are"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRES_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Presente Simple (Resto de Verbos)",
+          "readingText": null,
+          "question": "______  you have any money? Yes, I  ______.",
+          "options": {
+            "A": "Does/does",
+            "B": "Are/am",
+            "C": "Do/am",
+            "D": ""
+          },
+          "answer": "D",
+          "explanation": "Present Simple. Opción correcta: D."
+        },
+        {
+          "id": "B1_PRES_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (18) del texto sobre Monica:",
+          "options": {
+            "A": "works",
+            "B": "work",
+            "C": "working",
+            "D": "workes"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (19) del texto sobre Monica:",
+          "options": {
+            "A": "wake up",
+            "B": "wakes up",
+            "C": "wear",
+            "D": "wake ups"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (20) del texto sobre Monica:",
+          "options": {
+            "A": "walk",
+            "B": "does walk",
+            "C": "walks",
+            "D": "walking"
+          },
+          "answer": "C",
+          "explanation": "Present Simple. Opción correcta: C."
+        },
+        {
+          "id": "B1_PRES_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (21) del texto sobre Monica:",
+          "options": {
+            "A": "wears",
+            "B": "weird",
+            "C": "wear does",
+            "D": "wear"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (22) del texto sobre Monica:",
+          "options": {
+            "A": "takes",
+            "B": "taken",
+            "C": "is",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (23) del texto sobre Monica:",
+          "options": {
+            "A": "listen",
+            "B": "listens",
+            "C": "ears",
+            "D": "jump"
+          },
+          "answer": "B",
+          "explanation": "Present Simple. Opción correcta: B."
+        },
+        {
+          "id": "B1_PRES_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (24) del texto sobre Monica:",
+          "options": {
+            "A": "listen",
+            "B": "heard",
+            "C": "listens",
+            "D": "ear"
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        },
+        {
+          "id": "B1_PRES_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Texto Cloze - Monica's day (Presente Simple)",
+          "readingText": "Monica is an accountant. She (18) ______ at the Central Bank of Sydney. She always (19) ______ at 9 AM. She usually (20) ______ to work. Most of the times she (21) ______ a red blouse and a black skirt for work. Her husband (22) ______ the kids to school every day. She regularly (23) ______ to classical music on her way to work, but her children (24) ______ reggaeton; they (25) ______ that classical music is not as interesting and cool as reggaeton.",
+          "question": "Completa el hueco (25) del texto sobre Monica:",
+          "options": {
+            "A": "say",
+            "B": "says",
+            "C": "listen",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Present Simple. Opción correcta: A."
+        }
+      ],
+      "blockId": "repaso_b1",
+      "blockName": "Repaso de Bloque 1"
+    },
+    {
+      "id": "repaso_b1_test4_have",
+      "title": "Repaso Bloque 1: Test 4 - To Have / Have Got / Have To",
+      "badge": "Extra: Have",
+      "description": "Batería de 25 preguntas tipo test sobre posesión, expresiones comunes con have y obligación con have to.",
+      "questions": [
+        {
+          "id": "B1_HAVE_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "He ______  a car.",
+          "options": {
+            "A": "have",
+            "B": "haven´t",
+            "C": "has got",
+            "D": "does hasn´t"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "She ______  a car.",
+          "options": {
+            "A": "have got",
+            "B": "haven´t",
+            "C": "has",
+            "D": "does hasn´t"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "They ______  a car.",
+          "options": {
+            "A": "haven´t got",
+            "B": "have got not",
+            "C": "do have",
+            "D": "doesn´t have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Paul and Layla ______  a happy life together.",
+          "options": {
+            "A": "hasn’t got",
+            "B": "has",
+            "C": "doesn´t have",
+            "D": "don’t have"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+        },
+        {
+          "id": "B1_HAVE_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______  you got children?",
+          "options": {
+            "A": "Have",
+            "B": "has",
+            "C": "Do",
+            "D": "does"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______  you have pain?",
+          "options": {
+            "A": "Have got",
+            "B": "have",
+            "C": "Do",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I______  any food at home?",
+          "options": {
+            "A": "haven’t",
+            "B": "has got",
+            "C": "have got not",
+            "D": "don’t have"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+        },
+        {
+          "id": "B1_HAVE_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I______  any food at home?",
+          "options": {
+            "A": "haven’t",
+            "B": "has got",
+            "C": "have got not",
+            "D": "don’t have"
+          },
+          "answer": "D",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+        },
+        {
+          "id": "B1_HAVE_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I ______ want to be late at home",
+          "options": {
+            "A": "do not",
+            "B": "has got",
+            "C": "have got not",
+            "D": "don’t have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ any brothers and sisters?",
+          "options": {
+            "A": "Have you",
+            "B": "Have he got",
+            "C": "Have you got",
+            "D": "Does they have"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "She ______ blue eyes",
+          "options": {
+            "A": "hasn't got",
+            "B": "does have",
+            "C": "has you got",
+            "D": "have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ She ______ blue eyes?",
+          "options": {
+            "A": "Hasn't/ have",
+            "B": "Does/ have",
+            "C": "Got/ has",
+            "D": "Has/ do"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "She ______ a cold",
+          "options": {
+            "A": "does have",
+            "B": "doesn’t have",
+            "C": "has her got",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ time to talk to me?",
+          "options": {
+            "A": "Have you got",
+            "B": "Have you",
+            "C": "Has her got",
+            "D": "You have"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "______ teeth when they are born?",
+          "options": {
+            "A": "Does babies have",
+            "B": "Do babies have",
+            "C": "Has babies got",
+            "D": "Have baby"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "I´m tired of being home, _______ get some fresh air",
+          "options": {
+            "A": "I have",
+            "B": "Have I",
+            "C": "I have to",
+            "D": ""
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "__________ leave early, I can sleep all day tomorrow.",
+          "options": {
+            "A": "I have",
+            "B": "Have I",
+            "C": "I have to",
+            "D": "I do"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        },
+        {
+          "id": "B1_HAVE_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "He __________ call his parents, they call me every day.",
+          "options": {
+            "A": "has to",
+            "B": "has got",
+            "C": "have to",
+            "D": ""
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "We__________ a holiday in Mexico every year",
+          "options": {
+            "A": "‘ve got",
+            "B": "have to",
+            "C": "has",
+            "D": "has to"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "_____ we    _____ our payment?",
+          "options": {
+            "A": "Are/ -",
+            "B": "Have / got",
+            "C": "Does/ have",
+            "D": "Have / to"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Why__________ go shopping?",
+          "options": {
+            "A": "have you",
+            "B": "do you have to",
+            "C": "do you have",
+            "D": "have you got"
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Normally, I ______a shower, but sometimes I  ______ a bath.",
+          "options": {
+            "A": "have/have",
+            "B": "do/do",
+            "C": "-/-",
+            "D": "has/has"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A. Nota: En inglés hay algunas expresiones dónde “have” se utiliza con otro significado distinto a “tener”. Algunas de las más comunes son: Have a breakfast…… Tomar el desayuno Have a shower………. Tomar una ducha Have a bath………….. Tomar un baño Have a pizza/lunch/coffee…. Tomar una pizza/almuerzo/un sandwich (comida y bebida) Más adelante las veremos con más detenimiento."
+        },
+        {
+          "id": "B1_HAVE_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "They ______a beautiful daughter.",
+          "options": {
+            "A": "have",
+            "B": "has",
+            "C": "do",
+            "D": "hasn’t"
+          },
+          "answer": "A",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+        },
+        {
+          "id": "B1_HAVE_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "We ______a large garden.",
+          "options": {
+            "A": "has",
+            "B": "have got",
+            "C": "do",
+            "D": ""
+          },
+          "answer": "B",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+        },
+        {
+          "id": "B1_HAVE_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Verbo To Have / Have Got / Have To",
+          "question": "Nicky usually ______much luggage",
+          "options": {
+            "A": "haven´t",
+            "B": "has to",
+            "C": "doesn´t have",
+            "D": "haven´t got"
+          },
+          "answer": "C",
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+        }
+      ],
+      "blockId": "repaso_b1",
+      "blockName": "Repaso de Bloque 1"
+    },
+    {
+      "id": "tema_6",
+      "title": "Tema 6: El Futuro (Future Tenses)",
+      "badge": "Tema 6",
+      "description": "Tiempos de futuro: Will, Be going to, Present Continuous con valor de futuro, Future Continuous y oraciones de tiempo (when, until, as soon as).",
+      "questions": [
+        {
+          "id": "T6_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Future Tenses",
           "question": "I think the weather _____ colder next month.",
           "options": {
             "A": "will get",
@@ -8480,28 +8506,28 @@ window.TEST_DATA = {
             "D": "get"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q2",
+          "id": "T6_Q2",
           "number": 2,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "Look at those black clouds over the town. It _____.",
           "options": {
             "A": "rains",
             "B": "is rain",
             "C": "is going to rain",
-            "D": "going to  rain"
+            "D": "going to rain"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q3",
+          "id": "T6_Q3",
           "number": 3,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "- This box is very heavy. - I _____ it for you.”",
           "options": {
             "A": "carry",
@@ -8510,13 +8536,13 @@ window.TEST_DATA = {
             "D": "will carry"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q4",
+          "id": "T6_Q4",
           "number": 4,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The last bus _____ at 10:15 this evening.",
           "options": {
             "A": "leave",
@@ -8525,13 +8551,13 @@ window.TEST_DATA = {
             "D": "leaving"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q5",
+          "id": "T6_Q5",
           "number": 5,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The plan is ready. We _____ dinner with some friends this evening.",
           "options": {
             "A": "have",
@@ -8540,28 +8566,28 @@ window.TEST_DATA = {
             "D": "will having"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q6",
+          "id": "T6_Q6",
           "number": 6,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "At this time tomorrow, I _____ to a new place with my family.",
           "options": {
             "A": "will be travelling",
             "B": "will travelling",
             "C": "will be travel",
-            "D": "am be  travelling"
+            "D": "am be travelling"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q7",
+          "id": "T6_Q7",
           "number": 7,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "I will send you the information as soon as I _____ it.",
           "options": {
             "A": "will receive",
@@ -8570,43 +8596,43 @@ window.TEST_DATA = {
             "D": "receive"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q8",
+          "id": "T6_Q8",
           "number": 8,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The small room needs new paint next month. What _____ with it?",
           "options": {
             "A": "do you going to do",
             "B": "are you going to do",
-            "C": "will you  doing",
+            "C": "will you doing",
             "D": "are you do"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q9",
+          "id": "T6_Q9",
           "number": 9,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "“Tea or water?” “_____, please.”",
           "options": {
             "A": "I have some water",
             "B": "I am having some water",
-            "C": "I will have  some water",
+            "C": "I will have some water",
             "D": "I will to have some water"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q10",
+          "id": "T6_Q10",
           "number": 10,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "We will not start the exercise until the teacher _____.",
           "options": {
             "A": "arrives",
@@ -8615,43 +8641,43 @@ window.TEST_DATA = {
             "D": "is arrive"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q11",
+          "id": "T6_Q11",
           "number": 11,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "At eight tomorrow evening, the students _____ for the exam.",
           "options": {
             "A": "will studying",
             "B": "will be studying",
             "C": "will be study",
-            "D": "are be  studying"
+            "D": "are be studying"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q12",
+          "id": "T6_Q12",
           "number": 12,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "The company does not want to change the plan this month. It _____ it  until next month.",
+          "section": "Future Tenses",
+          "question": "The company does not want to change the plan this month. It _____ it until next month.",
           "options": {
             "A": "does not going to change",
             "B": "not going to change",
-            "C": "is not  going change",
+            "C": "is not going change",
             "D": "is not going to change"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q13",
+          "id": "T6_Q13",
           "number": 13,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The shop _____ at nine tomorrow morning.",
           "options": {
             "A": "open",
@@ -8660,13 +8686,13 @@ window.TEST_DATA = {
             "D": "opening"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q14",
+          "id": "T6_Q14",
           "number": 14,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "“The phone is ringing.” “I _____ it.”",
           "options": {
             "A": "will answer",
@@ -8675,13 +8701,13 @@ window.TEST_DATA = {
             "D": "answering"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q15",
+          "id": "T6_Q15",
           "number": 15,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "Before you _____ the house tomorrow, check the water.",
           "options": {
             "A": "will leave",
@@ -8690,28 +8716,28 @@ window.TEST_DATA = {
             "D": "are leave"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q16",
+          "id": "T6_Q16",
           "number": 16,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "We know exactly where and when. We _____ through the town tomorrow  afternoon.",
+          "section": "Future Tenses",
+          "question": "We know exactly where and when. We _____ through the town tomorrow afternoon.",
           "options": {
             "A": "are travel",
             "B": "travelling",
             "C": "are travelling",
-            "D": "will  travelling"
+            "D": "will travelling"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q17",
+          "id": "T6_Q17",
           "number": 17,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "I do not think the new shop _____ open next month.",
           "options": {
             "A": "will being",
@@ -8720,13 +8746,13 @@ window.TEST_DATA = {
             "D": "will be"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q18",
+          "id": "T6_Q18",
           "number": 18,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "Look at Peter! He is standing on a chair and the chair is moving. He _____.",
           "options": {
             "A": "is going to fall",
@@ -8735,28 +8761,28 @@ window.TEST_DATA = {
             "D": "going to fall"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q19",
+          "id": "T6_Q19",
           "number": 19,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "At this time next Friday, the company team _____ the new plan.",
           "options": {
             "A": "will discussing",
             "B": "will be discussing",
             "C": "will be discuss",
-            "D": "is be  discussing"
+            "D": "is be discussing"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q20",
+          "id": "T6_Q20",
           "number": 20,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "Once the group _____ ready, we will leave.",
           "options": {
             "A": "will be",
@@ -8765,28 +8791,28 @@ window.TEST_DATA = {
             "D": "being"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q21",
+          "id": "T6_Q21",
           "number": 21,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "“_____ in this town for another month?” “Yes, that is the plan.”",
           "options": {
             "A": "Do you going to stay",
             "B": "Are you stay",
-            "C": "Are you  going stay",
+            "C": "Are you going stay",
             "D": "Are you going to stay"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q22",
+          "id": "T6_Q22",
           "number": 22,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "Our plan is clear. My friend and I _____ in the park tomorrow afternoon.",
           "options": {
             "A": "are going to walk",
@@ -8795,13 +8821,13 @@ window.TEST_DATA = {
             "D": "will walking"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q23",
+          "id": "T6_Q23",
           "number": 23,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "I will call you when the bus _____.",
           "options": {
             "A": "will arrive",
@@ -8810,13 +8836,13 @@ window.TEST_DATA = {
             "D": "is arrive"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q24",
+          "id": "T6_Q24",
           "number": 24,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The film _____ at eight this evening.",
           "options": {
             "A": "start",
@@ -8825,13 +8851,13 @@ window.TEST_DATA = {
             "D": "starting"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q25",
+          "id": "T6_Q25",
           "number": 25,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "We have not got any water in the room. “I _____ some from the shop.”",
           "options": {
             "A": "get",
@@ -8840,13 +8866,13 @@ window.TEST_DATA = {
             "D": "will get"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q26",
+          "id": "T6_Q26",
           "number": 26,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "We _____ to a new house next month. We know the exact day.",
           "options": {
             "A": "are moving",
@@ -8855,13 +8881,13 @@ window.TEST_DATA = {
             "D": "will moving"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q27",
+          "id": "T6_Q27",
           "number": 27,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The route is easy at the moment, but I think it _____ difficult in winter.",
           "options": {
             "A": "is be",
@@ -8870,28 +8896,28 @@ window.TEST_DATA = {
             "D": "be"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q28",
+          "id": "T6_Q28",
           "number": 28,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "All the food is ready. She _____ dinner for her friends this evening.",
           "options": {
             "A": "is going prepare",
             "B": "going to prepare",
             "C": "is going to prepare",
-            "D": "will  preparing"
+            "D": "will preparing"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q29",
+          "id": "T6_Q29",
           "number": 29,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "While you _____ the room, I will prepare the food.",
           "options": {
             "A": "will clean",
@@ -8900,13 +8926,13 @@ window.TEST_DATA = {
             "D": "clean"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q30",
+          "id": "T6_Q30",
           "number": 30,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The workers have a plan: they _____ the room this evening.",
           "options": {
             "A": "are going to clean",
@@ -8915,13 +8941,13 @@ window.TEST_DATA = {
             "D": "will cleaning"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q31",
+          "id": "T6_Q31",
           "number": 31,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "Do you think people _____ more from home in the future?",
           "options": {
             "A": "work",
@@ -8930,14 +8956,14 @@ window.TEST_DATA = {
             "D": "will working"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q32",
+          "id": "T6_Q32",
           "number": 32,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "We have a meeting with our teacher tomorrow afternoon. We _____ her  at four.",
+          "section": "Future Tenses",
+          "question": "We have a meeting with our teacher tomorrow afternoon. We _____ her at four.",
           "options": {
             "A": "meeting",
             "B": "are meet",
@@ -8945,28 +8971,28 @@ window.TEST_DATA = {
             "D": "will meeting"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q33",
+          "id": "T6_Q33",
           "number": 33,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The company has a plan. It _____ a new shop in town next month.",
           "options": {
             "A": "going to open",
             "B": "is going open",
             "C": "will opening",
-            "D": "is going to  open"
+            "D": "is going to open"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q34",
+          "id": "T6_Q34",
           "number": 34,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "After the teacher _____ the exercise, the students will start.",
           "options": {
             "A": "explains",
@@ -8975,13 +9001,13 @@ window.TEST_DATA = {
             "D": "explaining"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q35",
+          "id": "T6_Q35",
           "number": 35,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "I am sure this new book _____ useful for the students.",
           "options": {
             "A": "is be",
@@ -8990,29 +9016,29 @@ window.TEST_DATA = {
             "D": "will to be"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q36",
+          "id": "T6_Q36",
           "number": 36,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "At nine tonight, I _____ the film with my family, so call me later.",
           "options": {
             "A": "will watching",
             "B": "will be watch",
             "C": "will be watching",
-            "D": "is be  watching"
+            "D": "is be watching"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q37",
+          "id": "T6_Q37",
           "number": 37,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "We have a room in town and a clear plan. We _____ the town this  weekend.",
+          "section": "Future Tenses",
+          "question": "We have a room in town and a clear plan. We _____ the town this weekend.",
           "options": {
             "A": "visiting",
             "B": "are visit",
@@ -9020,13 +9046,13 @@ window.TEST_DATA = {
             "D": "are visiting"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q38",
+          "id": "T6_Q38",
           "number": 38,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "My hands are dirty. I _____ them now.",
           "options": {
             "A": "am going to wash",
@@ -9035,13 +9061,13 @@ window.TEST_DATA = {
             "D": "will washing"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q39",
+          "id": "T6_Q39",
           "number": 39,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "We will wait here until the bus _____.",
           "options": {
             "A": "will come",
@@ -9050,28 +9076,28 @@ window.TEST_DATA = {
             "D": "is come"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q40",
+          "id": "T6_Q40",
           "number": 40,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "At this time next month, she _____ in this country; she will be living  abroad.",
+          "section": "Future Tenses",
+          "question": "At this time next month, she _____ in this country; she will be living abroad.",
           "options": {
             "A": "will not living",
             "B": "will not be live",
             "C": "will not be living",
-            "D": "not will be  living"
+            "D": "not will be living"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q41",
+          "id": "T6_Q41",
           "number": 41,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "“Where is my book?” “I do not know. I _____ for it with you.”",
           "options": {
             "A": "look",
@@ -9080,13 +9106,13 @@ window.TEST_DATA = {
             "D": "will look"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q42",
+          "id": "T6_Q42",
           "number": 42,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "The football season _____ next month.",
           "options": {
             "A": "starts",
@@ -9095,13 +9121,13 @@ window.TEST_DATA = {
             "D": "starting"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q43",
+          "id": "T6_Q43",
           "number": 43,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "Before the shop _____, I will buy the food.",
           "options": {
             "A": "will close",
@@ -9110,29 +9136,29 @@ window.TEST_DATA = {
             "D": "is close"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q44",
+          "id": "T6_Q44",
           "number": 44,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "“The meeting is at eleven. _____ your teacher then?”",
           "options": {
             "A": "Do you meeting",
             "B": "Are you meet",
             "C": "Are you meeting",
-            "D": "Will you  meeting"
+            "D": "Will you meeting"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q45",
+          "id": "T6_Q45",
           "number": 45,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "You probably _____ need the big book tomorrow; the teacher says the  exercise is very short.",
+          "section": "Future Tenses",
+          "question": "You probably _____ need the big book tomorrow; the teacher says the exercise is very short.",
           "options": {
             "A": "do not",
             "B": "not",
@@ -9140,14 +9166,14 @@ window.TEST_DATA = {
             "D": "won't"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q46",
+          "id": "T6_Q46",
           "number": 46,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "“What _____ at seven tomorrow morning?” “We will be having breakfast  at home.”",
+          "section": "Future Tenses",
+          "question": "“What _____ at seven tomorrow morning?” “We will be having breakfast at home.”",
           "options": {
             "A": "will your family be doing",
             "B": "will your family doing",
@@ -9155,13 +9181,13 @@ window.TEST_DATA = {
             "D": "does your family be doing"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         },
         {
-          "id": "ejercicio_tema_6_Q47",
+          "id": "T6_Q47",
           "number": 47,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "As soon as the teacher _____ the answer, I will write it down.",
           "options": {
             "A": "will give",
@@ -9170,28 +9196,28 @@ window.TEST_DATA = {
             "D": "giving"
           },
           "answer": "B",
-          "explanation": "TEMA 6. Opción correcta: B."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
         },
         {
-          "id": "ejercicio_tema_6_Q48",
+          "id": "T6_Q48",
           "number": 48,
           "type": "choice",
-          "section": "TEMA 6",
-          "question": "We do not want to take this bus. We _____ for the next one; it arrives in  five minutes.",
+          "section": "Future Tenses",
+          "question": "We do not want to take this bus. We _____ for the next one; it arrives in five minutes.",
           "options": {
             "A": "will waiting",
             "B": "going to wait",
             "C": "are going to wait",
-            "D": "are going  wait"
+            "D": "are going wait"
           },
           "answer": "C",
-          "explanation": "TEMA 6. Opción correcta: C."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
         },
         {
-          "id": "ejercicio_tema_6_Q49",
+          "id": "T6_Q49",
           "number": 49,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "I think the students _____ this book in the future.",
           "options": {
             "A": "like",
@@ -9200,13 +9226,13 @@ window.TEST_DATA = {
             "D": "will like"
           },
           "answer": "D",
-          "explanation": "TEMA 6. Opción correcta: D."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
         },
         {
-          "id": "ejercicio_tema_6_Q50",
+          "id": "T6_Q50",
           "number": 50,
           "type": "choice",
-          "section": "TEMA 6",
+          "section": "Future Tenses",
           "question": "We will leave after my mother _____ ready.",
           "options": {
             "A": "is",
@@ -9215,9 +9241,11 @@ window.TEST_DATA = {
             "D": "be"
           },
           "answer": "A",
-          "explanation": "TEMA 6. Opción correcta: A."
+          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
         }
-      ]
+      ],
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2"
     }
   ]
 };

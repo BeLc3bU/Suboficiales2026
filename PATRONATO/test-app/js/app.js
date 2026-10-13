@@ -452,22 +452,19 @@
     state.folderFilter = filter;
     
     // Actualizar píldoras activas
-    const pAll = document.getElementById('pill-all');
-    const pBloque = document.getElementById('pill-bloque');
-    const pRepaso = document.getElementById('pill-repaso');
-    if (pAll) pAll.classList.toggle('active', filter === 'all');
-    if (pBloque) pBloque.classList.toggle('active', filter === 'bloque');
-    if (pRepaso) pRepaso.classList.toggle('active', filter === 'repaso');
+    document.querySelectorAll('.folder-filter-pills .pill-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.getAttribute('data-filter') === filter);
+    });
 
-    const gBloque = document.getElementById('folder-group-bloque');
-    const gRepaso = document.getElementById('folder-group-repaso');
-
-    if (gBloque) {
-      gBloque.style.display = (filter === 'all' || filter === 'bloque') ? 'block' : 'none';
-    }
-    if (gRepaso) {
-      gRepaso.style.display = (filter === 'all' || filter === 'repaso') ? 'block' : 'none';
-    }
+    // Mostrar/ocultar carpetas según el filtro seleccionado
+    document.querySelectorAll('#topics-container .folder-group').forEach(group => {
+      const gFilter = group.getAttribute('data-block-id');
+      if (filter === 'all' || filter === gFilter) {
+        group.style.display = 'block';
+      } else {
+        group.style.display = 'none';
+      }
+    });
   };
 
   window.toggleFolder = function (folderId) {
@@ -551,124 +548,170 @@
       return;
     }
 
-    // Clasificación de temas
-    const bloqueTopics = [];
-    const repasoExamenTopics = [];
-    const repasoReadingTopics = [];
-    const repasoExtraTopics = [];
+    // 1. Agrupar temas por bloque (usando blockId o deduciendo)
+    const blocksOrder = [];
+    const blocksMap = {};
 
     data.topics.forEach(topic => {
-      const tid = topic.id.toLowerCase();
-      if (tid.startsWith('tema_')) {
-        bloqueTopics.push(topic);
-      } else if (tid.includes('examen') || tid.includes('simulacro')) {
-        repasoExamenTopics.push(topic);
-      } else if (tid.includes('reading')) {
-        repasoReadingTopics.push(topic);
-      } else {
-        repasoExtraTopics.push(topic);
+      let bId = topic.blockId;
+      let bName = topic.blockName;
+
+      if (!bId) {
+        const tid = topic.id.toLowerCase();
+        if (tid.includes('repaso') || tid.includes('simulacro') || tid.includes('bloque_1_examen') || tid.includes('embed') || tid.includes('reading')) {
+          bId = 'repaso_b1';
+          bName = 'Repaso de Bloque 1';
+        } else if (tid.startsWith('tema_6')) {
+          bId = 'bloque_2';
+          bName = 'Bloque 2';
+        } else {
+          bId = 'bloque_1';
+          bName = 'Bloque 1';
+        }
       }
+
+      if (!blocksMap[bId]) {
+        blocksMap[bId] = {
+          id: bId,
+          name: bName || bId,
+          isRepaso: bId.startsWith('repaso_'),
+          topics: []
+        };
+        blocksOrder.push(bId);
+      }
+      blocksMap[bId].topics.push(topic);
     });
 
-    const totalBloqueQ = bloqueTopics.reduce((acc, t) => acc + (t.questions || []).length, 0);
-    const totalRepasoTopicsCount = repasoExamenTopics.length + repasoReadingTopics.length + repasoExtraTopics.length;
-    const totalRepasoQ = [...repasoExamenTopics, ...repasoReadingTopics, ...repasoExtraTopics]
-      .reduce((acc, t) => acc + (t.questions || []).length, 0);
+    // 2. Renderizar dinámicamente las píldoras de filtrado
+    const pillsContainer = document.getElementById('folder-filter-pills');
+    if (pillsContainer) {
+      pillsContainer.innerHTML = '';
+      
+      // Píldora "Todos"
+      const btnAll = document.createElement('button');
+      btnAll.className = `pill-btn ${state.folderFilter === 'all' ? 'active' : ''}`;
+      btnAll.id = 'pill-all';
+      btnAll.setAttribute('data-filter', 'all');
+      btnAll.onclick = () => window.setFolderFilter('all');
+      btnAll.innerHTML = `Todos (<span id="count-pill-all">${data.topics.length}</span>)`;
+      pillsContainer.appendChild(btnAll);
 
-    // Actualizar píldoras de conteo
-    const pAll = document.getElementById('count-pill-all');
-    const pBloque = document.getElementById('count-pill-bloque');
-    const pRepaso = document.getElementById('count-pill-repaso');
-    if (pAll) pAll.textContent = data.topics.length;
-    if (pBloque) pBloque.textContent = bloqueTopics.length;
-    if (pRepaso) pRepaso.textContent = totalRepasoTopicsCount;
+      // Píldoras por cada bloque detectado
+      blocksOrder.forEach(bId => {
+        const block = blocksMap[bId];
+        const btnBlock = document.createElement('button');
+        const isActive = state.folderFilter === bId;
+        btnBlock.className = `pill-btn ${isActive ? 'active' : ''}`;
+        btnBlock.id = `pill-${bId}`;
+        btnBlock.setAttribute('data-filter', bId);
+        btnBlock.onclick = () => window.setFolderFilter(bId);
+        const icon = block.isRepaso ? '📂' : '📁';
+        btnBlock.innerHTML = `${icon} ${block.name} (<span id="count-pill-${bId}">${block.topics.length}</span>)`;
+        pillsContainer.appendChild(btnBlock);
+      });
+    }
 
-    // Estado de colapso guardado
-    let isBloqueCollapsed = false;
-    let isRepasoCollapsed = false;
-    try {
-      isBloqueCollapsed = localStorage.getItem('patronato_folder_bloque') === 'collapsed';
-      isRepasoCollapsed = localStorage.getItem('patronato_folder_repaso') === 'collapsed';
-    } catch (e) {}
+    // 3. Renderizar cada carpeta de bloque
+    blocksOrder.forEach(bId => {
+      const block = blocksMap[bId];
+      const totalQ = block.topics.reduce((acc, t) => acc + (t.questions || []).length, 0);
 
-    // --- CARPETA 1: BLOQUE 1 ---
-    const fBloque = document.createElement('div');
-    fBloque.className = `folder-group ${isBloqueCollapsed ? 'collapsed' : ''}`;
-    fBloque.id = 'folder-group-bloque';
-    fBloque.innerHTML = `
-      <div class="folder-header" onclick="toggleFolder('bloque')">
-        <div class="folder-header-left">
-          <span class="folder-icon">📁</span>
-          <div>
-            <div class="folder-title">Bloque 1</div>
-            <div class="folder-subtitle">${bloqueTopics.length} temas del temario • ${totalBloqueQ} preguntas</div>
+      let isCollapsed = false;
+      try {
+        isCollapsed = localStorage.getItem('patronato_folder_' + bId) === 'collapsed';
+      } catch (e) {}
+
+      const fGroup = document.createElement('div');
+      fGroup.className = `folder-group ${isCollapsed ? 'collapsed' : ''}`;
+      fGroup.id = `folder-group-${bId}`;
+      fGroup.setAttribute('data-block-id', bId);
+
+      const icon = block.isRepaso ? '📂' : '📁';
+      const badgeSuffix = block.isRepaso ? 'Tests' : 'Temas';
+      const subtitle = block.isRepaso 
+        ? `Simulacro oficial de examen, lectura y ejercicios extra • ${block.topics.length} tests • ${totalQ} preguntas`
+        : `${block.topics.length} temas del temario • ${totalQ} preguntas`;
+
+      // Si es una carpeta de repaso, subcategorizar (Simulacros, Reading, Refuerzo) si aplica
+      if (block.isRepaso) {
+        const examTopics = block.topics.filter(t => t.id.includes('examen') || t.id.includes('simulacro'));
+        const readingTopics = block.topics.filter(t => t.id.includes('reading'));
+        const extraTopics = block.topics.filter(t => !t.id.includes('examen') && !t.id.includes('simulacro') && !t.id.includes('reading'));
+
+        fGroup.innerHTML = `
+          <div class="folder-header" onclick="toggleFolder('${bId}')">
+            <div class="folder-header-left">
+              <span class="folder-icon">${icon}</span>
+              <div>
+                <div class="folder-title">${block.name}</div>
+                <div class="folder-subtitle">${subtitle}</div>
+              </div>
+            </div>
+            <div class="folder-header-right">
+              <span class="folder-badge">${block.topics.length} ${badgeSuffix}</span>
+              <span class="folder-arrow">▼</span>
+            </div>
           </div>
-        </div>
-        <div class="folder-header-right">
-          <span class="folder-badge">${bloqueTopics.length} Temas</span>
-          <span class="folder-arrow">▼</span>
-        </div>
-      </div>
-      <div class="folder-content" id="folder-content-bloque">
-        <div class="topics-grid" id="grid-bloque"></div>
-      </div>
-    `;
-    const gridBloque = fBloque.querySelector('#grid-bloque');
-    bloqueTopics.forEach(t => gridBloque.appendChild(createTopicCard(t)));
-    container.appendChild(fBloque);
+          <div class="folder-content" id="folder-content-${bId}">
+            ${examTopics.length > 0 ? `
+              <div class="folder-sub-header">
+                <span>🎯 Simulacro Oficial Formato Examen (60 preguntas)</span>
+              </div>
+              <div class="topics-grid" id="grid-${bId}-examen" style="margin-bottom: 1.5rem;"></div>
+            ` : ''}
 
-    // --- CARPETA 2: REPASO DE BLOQUE 1 ---
-    const fRepaso = document.createElement('div');
-    fRepaso.className = `folder-group ${isRepasoCollapsed ? 'collapsed' : ''}`;
-    fRepaso.id = 'folder-group-repaso';
-    fRepaso.innerHTML = `
-      <div class="folder-header" onclick="toggleFolder('repaso')">
-        <div class="folder-header-left">
-          <span class="folder-icon">📂</span>
-          <div>
-            <div class="folder-title">Repaso de Bloque 1</div>
-            <div class="folder-subtitle">Simulacro oficial de examen, lectura y ejercicios extra • ${totalRepasoTopicsCount} tests • ${totalRepasoQ} preguntas</div>
+            ${readingTopics.length > 0 ? `
+              <div class="folder-sub-header">
+                <span>📖 Comprensión Lectora (Reading)</span>
+              </div>
+              <div class="topics-grid" id="grid-${bId}-reading" style="margin-bottom: 1.5rem;"></div>
+            ` : ''}
+
+            ${extraTopics.length > 0 ? `
+              <div class="folder-sub-header">
+                <span>⚡ Ejercicios Extra de Refuerzo</span>
+              </div>
+              <div class="topics-grid" id="grid-${bId}-extra"></div>
+            ` : ''}
           </div>
-        </div>
-        <div class="folder-header-right">
-          <span class="folder-badge">${totalRepasoTopicsCount} Tests</span>
-          <span class="folder-arrow">▼</span>
-        </div>
-      </div>
-      <div class="folder-content" id="folder-content-repaso">
-        ${repasoExamenTopics.length > 0 ? `
-          <div class="folder-sub-header">
-            <span>🎯 Simulacro Oficial Formato Examen (60 preguntas)</span>
+        `;
+
+        const gridEx = fGroup.querySelector(`#grid-${bId}-examen`);
+        if (gridEx) examTopics.forEach(t => gridEx.appendChild(createTopicCard(t)));
+
+        const gridRd = fGroup.querySelector(`#grid-${bId}-reading`);
+        if (gridRd) readingTopics.forEach(t => gridRd.appendChild(createTopicCard(t)));
+
+        const gridExr = fGroup.querySelector(`#grid-${bId}-extra`);
+        if (gridExr) extraTopics.forEach(t => gridExr.appendChild(createTopicCard(t)));
+
+      } else {
+        // Bloque estándar con temas oficiales
+        fGroup.innerHTML = `
+          <div class="folder-header" onclick="toggleFolder('${bId}')">
+            <div class="folder-header-left">
+              <span class="folder-icon">${icon}</span>
+              <div>
+                <div class="folder-title">${block.name}</div>
+                <div class="folder-subtitle">${subtitle}</div>
+              </div>
+            </div>
+            <div class="folder-header-right">
+              <span class="folder-badge">${block.topics.length} ${badgeSuffix}</span>
+              <span class="folder-arrow">▼</span>
+            </div>
           </div>
-          <div class="topics-grid" id="grid-repaso-examen" style="margin-bottom: 1.5rem;"></div>
-        ` : ''}
-
-        ${repasoReadingTopics.length > 0 ? `
-          <div class="folder-sub-header">
-            <span>📖 Comprensión Lectora (Reading)</span>
+          <div class="folder-content" id="folder-content-${bId}">
+            <div class="topics-grid" id="grid-${bId}"></div>
           </div>
-          <div class="topics-grid" id="grid-repaso-reading" style="margin-bottom: 1.5rem;"></div>
-        ` : ''}
+        `;
 
-        ${repasoExtraTopics.length > 0 ? `
-          <div class="folder-sub-header">
-            <span>⚡ Ejercicios Extra de Refuerzo</span>
-          </div>
-          <div class="topics-grid" id="grid-repaso-extra"></div>
-        ` : ''}
-      </div>
-    `;
+        const grid = fGroup.querySelector(`#grid-${bId}`);
+        block.topics.forEach(t => grid.appendChild(createTopicCard(t)));
+      }
 
-    const gridExamen = fRepaso.querySelector('#grid-repaso-examen');
-    if (gridExamen) repasoExamenTopics.forEach(t => gridExamen.appendChild(createTopicCard(t)));
-
-    const gridReading = fRepaso.querySelector('#grid-repaso-reading');
-    if (gridReading) repasoReadingTopics.forEach(t => gridReading.appendChild(createTopicCard(t)));
-
-    const gridExtra = fRepaso.querySelector('#grid-repaso-extra');
-    if (gridExtra) repasoExtraTopics.forEach(t => gridExtra.appendChild(createTopicCard(t)));
-
-    container.appendChild(fRepaso);
+      container.appendChild(fGroup);
+    });
 
     // Aplicar filtro activo actual
     if (state.folderFilter && typeof window.setFolderFilter === 'function') {
