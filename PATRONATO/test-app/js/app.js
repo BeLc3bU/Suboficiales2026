@@ -1033,7 +1033,7 @@
 
     // Feedback in practice mode
     if (isPractice && isAnswered) {
-      showPracticeFeedback(q, userSelected === q.answer);
+      showPracticeFeedback(q, userSelected === q.answer, false, userSelected);
     }
   }
 
@@ -1065,7 +1065,7 @@
     if (isPractice && isChecked) {
       const userVal = (qz.userAnswers[q.id] || '').trim();
       const isCorrect = checkTextAnswer(userVal, q.answer);
-      showPracticeFeedback(q, isCorrect);
+      showPracticeFeedback(q, isCorrect, false, userVal);
     }
   }
 
@@ -1084,7 +1084,7 @@
 
     const isCorrect = checkTextAnswer(val, q.answer);
     updateErrorsState(q.id, isCorrect);
-    showPracticeFeedback(q, isCorrect);
+    showPracticeFeedback(q, isCorrect, false, val);
     renderSidebarGrid();
     saveActiveQuizState();
   };
@@ -1093,7 +1093,7 @@
     const qz = state.currentQuiz;
     const q = qz.questions[qz.currentIndex];
     qz.interactiveChecked[q.id] = true;
-    showPracticeFeedback(q, false, true);
+    showPracticeFeedback(q, false, true, null);
     saveActiveQuizState();
   };
 
@@ -1106,7 +1106,314 @@
     return options.includes(cleanUser);
   }
 
-  function showPracticeFeedback(q, isCorrect, isForcedReveal = false) {
+  function getMistakeExplanation(q, userPick) {
+    if (!q || !userPick || userPick === q.answer) return '';
+
+    const isChoice = q.type === 'choice' && q.options;
+    const userLetter = isChoice ? String(userPick).toUpperCase() : null;
+    const userText = isChoice ? (q.options[userLetter] || '').trim() : String(userPick).trim();
+    const correctLetter = isChoice ? String(q.answer).toUpperCase() : null;
+    const correctText = isChoice ? (q.options[correctLetter] || '').trim() : String(q.answer).trim();
+
+    const prompt = (q.question || '').toLowerCase();
+    const userLower = userText.toLowerCase();
+    const correctLower = correctText.toLowerCase();
+    const section = (q.section || '').toLowerCase();
+
+    // Si es sección de lectura (Reading)
+    if (q.readingText || section.includes('reading') || section.includes('comprensi')) {
+      return `Según el texto de lectura, la opción elegida no se corresponde con los datos expuestos en el pasaje o contradice la información del autor. La opción correcta fundamentada en el texto es "${escapeHtml(correctText)}".`;
+    }
+
+    // 1. Deformidades sintácticas en distractores
+    // 1a. 'to be' + verbo base (ej. 'is rain', 'are have', 'is leave', 'am carry', 'am receive', 'are you do', 'is work', 'are live')
+    if (/\b(am|is|are|was|were)\s+([a-z]+)\b/.test(userLower)) {
+      const match = userLower.match(/\b(am|is|are|was|were)\s+([a-z]+)\b/);
+      const beForm = match[1];
+      const nextWord = match[2];
+      const isSpecial = ['going', 'not', 'being', 'having', 'doing'].includes(nextWord) || nextWord.endsWith('ing') || nextWord.endsWith('ed') || nextWord.endsWith('en');
+      if (!isSpecial && !['very', 'so', 'too', 'quite', 'always', 'usually', 'often', 'never', 'just'].includes(nextWord)) {
+        return `La combinación de <em>to be</em> (${escapeHtml(beForm)}) con un verbo en infinitivo simple (<em>${escapeHtml(nextWord)}</em>) es una <strong>estructura agramatical</strong> en inglés. Para expresar una acción en desarrollo se requiere el gerundio en <em>-ing</em> (${escapeHtml(beForm)} ${escapeHtml(nextWord)}ing) o pasiva con participio, nunca el infinitivo sin 'to'.`;
+      }
+    }
+
+    // 1b. Perífrasis incompleta de 'going to' sin 'to be' (ej. 'going to rain', 'going to do', 'going to travel')
+    if (/^going\s+to\b/i.test(userLower) || (userLower.includes('going to') && !/\b(am|is|are|was|were)\b/.test(userLower))) {
+      return `La perífrasis de futuro con intención o evidencia requiere la presencia obligatoria del verbo auxiliar <em>to be</em>: <strong>am / is / are + going to + infinitivo</strong>. En "${escapeHtml(userText)}" falta la forma correspondiente de <em>to be</em>.`;
+    }
+
+    // 1c. Auxiliar modal 'will' unido directamente a gerundio -ing (ej. 'will having', 'will travelling', 'will doing')
+    if (/\bwill\s+([a-z]+ing)\b/i.test(userLower)) {
+      const match = userLower.match(/\bwill\s+([a-z]+ing)\b/i);
+      return `El auxiliar modal <em>will</em> siempre rige un infinitivo sin 'to' (bare infinitive). No se puede colocar un gerundio (<em>${escapeHtml(match[1])}</em>) directamente detrás de <em>will</em>. Si se desea expresar futuro continuo, la estructura exige el auxiliar 'be' intermedio: <strong>will be + -ing</strong>.`;
+    }
+
+    // 1d. Combinaciones de auxiliares incompatibles (ej. 'do you going to', 'am be travelling')
+    if (/do\s+you\s+going/i.test(userLower) || /am\s+be\b/i.test(userLower)) {
+      return `Estructura agramatical: no se pueden combinar auxiliares incompatibles en la misma perífrasis verbal.`;
+    }
+
+    // 2. Genitivo Sajón vs Plural Simple
+    if ((userLower.includes("'s") || userLower.includes("s'")) && !correctLower.includes("'")) {
+      return `Has seleccionado una forma con <strong>apóstrofo de genitivo sajón</strong> (<em>${escapeHtml(userText)}</em>). En esta frase no hay ninguna relación de pertenencia ni objeto poseído a continuación; se requiere un simple <strong>sustantivo en plural</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+    }
+    if (!userLower.includes("'") && (correctLower.includes("'s") || correctLower.includes("s'"))) {
+      return `En esta oración existe una relación de posesión que exige el <strong>genitivo sajón</strong> con apóstrofo (<strong>${escapeHtml(correctText)}</strong>), no un plural o sustantivo simple.`;
+    }
+    if (userLower.includes("'") && correctLower.includes("'")) {
+      if (userLower.includes("s'") && correctLower.includes("'s")) {
+        return `El genitivo con apóstrofo final (<em>s'</em>) se emplea exclusivamente para plurales regulares terminados en -s. Para sustantivos singulares o <strong>plurales irregulares que no acaban en -s</strong> (como <em>children, women, men</em>), el genitivo se forma siempre con <strong>'s</strong> (<em>${escapeHtml(correctText)}</em>).`;
+      }
+      if (userLower.includes("'s") && correctLower.includes("s'")) {
+        return `Para sustantivos en plural regular que ya terminan en -s (como <em>students, parents, teachers</em>), el genitivo sajón se forma simplemente añadiendo el apóstrofo al final (<strong>s'</strong>), sin duplicar la 's'.`;
+      }
+    }
+
+    // 3. Reglas ortográficas de plurales (Tema 4)
+    if (userLower.endsWith('ys') && correctLower.endsWith('ies')) {
+      return `Regla ortográfica de plurales: los sustantivos terminados en <strong>consonante + 'y'</strong> cambian la 'y' por <strong>-ies</strong> (<em>${escapeHtml(correctText)}</em>), no añaden simplemente '-s'.`;
+    }
+    if (userLower.endsWith('eies') || userLower.endsWith('keyes') || (userLower.endsWith('ies') && correctLower.endsWith('ys'))) {
+      return `Regla ortográfica: los sustantivos terminados en <strong>vocal + 'y'</strong> (como <em>key, day, boy</em>) forman el plural añadiendo simplemente <strong>-s</strong> (<em>${escapeHtml(correctText)}</em>), sin cambiar la 'y'.`;
+    }
+    if (userLower.endsWith('buss') || userLower.endsWith('workeres')) {
+      return `Error de ortografía en el plural. La terminación regular para este sustantivo es <strong>${escapeHtml(correctText)}</strong>.`;
+    }
+    if (userLower === 'photoes' && correctLower === 'photos') {
+      return `Sustantivos de origen abreviado o técnico como <em>photo</em> (de photograph) forman el plural añadiendo simplemente <strong>-s</strong> (<em>photos</em>), no '-es'.`;
+    }
+
+    // 4. Oraciones temporales con valor de futuro (as soon as, when, until, before, after, unless, etc.)
+    const timeClauseRegex = /\b(as soon as|when|until|till|before|after|unless|as long as|by the time)\b/i;
+    if (timeClauseRegex.test(prompt)) {
+      const conjMatch = prompt.match(timeClauseRegex);
+      const conj = conjMatch ? conjMatch[0] : 'la conjunción temporal';
+      if (/\bwill\b/i.test(userLower)) {
+        return `<strong>Regla de oro de las oraciones temporales:</strong> En las cláusulas subordinadas introducidas por conectores de tiempo como <em>${escapeHtml(conj)}</em>, la gramática inglesa <strong>prohíbe el uso de 'will'</strong>. En su lugar se debe emplear el <strong>Presente Simple</strong> con valor de futuro (<em>${escapeHtml(correctText)}</em>).`;
+      }
+      if (userLower.endsWith('ing') && !/\b(am|is|are)\b/.test(userLower)) {
+        return `Tras la conjunción temporal <em>${escapeHtml(conj)}</em> la oración subordinada requiere un verbo en <strong>Presente Simple</strong> conjugado, no un gerundio aislado.`;
+      }
+    }
+
+    // 5. Tiempos de Futuro (Tema 6)
+    // 5a. Evidencia visual directa / inmediata: Look at those clouds / watch out / look!
+    if (/look\s+at\b|clouds|look!|watch\s+out|be\s+careful|sky/i.test(prompt)) {
+      if (/\bwill\b/i.test(userLower)) {
+        return `Aunque <em>will</em> se usa para predicciones generales o basadas en opinión subjetiva (<em>I think...</em>), cuando existe <strong>evidencia visual directa o indicios presentes claros</strong> (como ${prompt.includes('cloud') ? 'las nubes oscuras' : 'lo que vemos'}), la norma del temario exige <strong>be going to</strong> para predicciones inminentes.`;
+      }
+      if (userLower === 'rains' || userLower === 'snows' || (!userLower.includes('going') && !userLower.includes('will'))) {
+        return `El Presente Simple describe hábitos o estados permanentes. Cuando hay <strong>evidencia física o visual presente</strong> de que algo va a ocurrir en breve, se debe usar <strong>be going to</strong> (<em>${escapeHtml(correctText)}</em>).`;
+      }
+    }
+
+    // 5b. Opinión / predicción subjetiva con 'I think', 'probably', 'maybe', 'I believe', etc.
+    if (/i\s+think|probably|maybe|i\s+doubt|i\s+guess|perhaps|in\s+my\s+opinion/i.test(prompt)) {
+      if (correctLower.includes('will') && !userLower.includes('will')) {
+        return `Con expresiones de opinión, creencia o incertidumbre como <em>${prompt.includes('think') ? 'I think' : 'predicciones subjetivas'}</em> sobre el futuro, se utiliza <strong>will + infinitivo</strong>, no el presente simple ni formas continuas.`;
+      }
+    }
+
+    // 5c. Decisión espontánea u ofrecimiento inmediato: "heavy", "doorbell", "phone is ringing", "I'll carry/help"
+    if (/heavy|phone|doorbell|i\s+carry|i\s+help|thirsty|hungry|cold\s+in\s+here/i.test(prompt)) {
+      if (!userLower.includes('will') && correctLower.includes('will')) {
+        return `Para <strong>decisiones espontáneas u ofrecimientos inmediatos</strong> tomados en el mismo instante de hablar (como ofrecerse a llevar algo pesado o abrir la puerta), se emplea <strong>will + infinitivo</strong>, no el presente simple (que expresaría una rutina periódica).`;
+      }
+    }
+
+    // 5d. Horarios públicos programados (bus, train, plane, flight, starts at, leaves at, opens at)
+    if (/bus|train|plane|flight|cinema|film|museum|class|match|concert/i.test(prompt) && (/\bat\s+\d/i.test(prompt) || /tomorrow\s+morning|this\s+evening/i.test(prompt))) {
+      if (userLower.includes('will') || userLower.includes('going to') || userLower.includes('is leave')) {
+        return `Para <strong>horarios fijos oficiales, transporte público o eventos de calendario preestablecido</strong> (como autobuses, trenes o vuelos), el inglés emplea el <strong>Presente Simple</strong> con valor de futuro (con la terminación <em>-s</em> de 3ª persona: <em>${escapeHtml(correctText)}</em>), en lugar de 'will' o 'be going to'.`;
+      }
+    }
+
+    // 5e. Planes personales concertados previamente (the plan is ready, tickets, arranged, meeting, dinner with)
+    if (/plan\s+is\s+ready|arranged|dinner\s+with|doctor|dentist|appointment/i.test(prompt)) {
+      if (!userLower.includes('ing') && correctLower.includes('ing')) {
+        return `Para <strong>planes personales acordados previamente con otras personas</strong> (citas fijadas en la agenda o preparativos cerrados), el inglés utiliza prioritariamente el <strong>Present Continuous con valor de futuro</strong> (<em>am/is/are + -ing</em>).`;
+      }
+    }
+
+    // 5f. Future continuous: at this time tomorrow, this time next week, at 10 am tomorrow
+    if (/at\s+this\s+time\s+tomorrow|this\s+time\s+next\s+week|at\s+\d{1,2}\s*(am|pm)\s+tomorrow/i.test(prompt)) {
+      if (correctLower.includes('will be') && !userLower.includes('will be')) {
+        return `Marcadores temporales precisos como <em>at this time tomorrow</em> sitúan una acción que <strong>estará en pleno desarrollo en un punto futuro concreto</strong>, exigiendo la estructura de <strong>Future Continuous</strong> (<strong>will be + verbo-ing</strong>).`;
+      }
+    }
+
+    // 6. Good vs Well (Tema 5)
+    if ((userLower === 'well' && correctLower === 'good') || (userLower === 'good' && correctLower === 'well')) {
+      if (userLower === 'well' && correctLower === 'good') {
+        return `Delante de un sustantivo para calificarlo se requiere el <strong>adjetivo</strong> (<strong>good</strong>). <em>Well</em> se reserva principalmente para su función como adverbio de modo que modifica a un verbo.`;
+      } else {
+        return `Para modificar la manera en que se ejecuta una acción verbal (cómo conduce, trabaja o habla) se necesita el <strong>adverbio de modo</strong> (<strong>well</strong>), no la forma adjetiva (<em>good</em>).`;
+      }
+    }
+
+    // 7. Adjetivo vs Adverbio en -ly (Tema 5)
+    if (/\b(are|is|am|was|were|seem|seems|feel|feels|look|looks|taste|smell)\s+____/i.test(prompt) || /\b(are|is|am|was|were)\s+____,/i.test(prompt)) {
+      if (userLower.endsWith('ly') && !correctLower.endsWith('ly')) {
+        return `Tras verbos copulativos o atributivos como <em>to be</em> (${prompt.includes('are') ? 'are' : 'is/was'}), la función sintáctica requiere un <strong>adjetivo</strong> atributivo (<strong>${escapeHtml(correctText)}</strong>), no un adverbio de modo en <em>-ly</em>.`;
+      }
+    }
+    if (correctLower.endsWith('ly') && !userLower.endsWith('ly')) {
+      return `La palabra modifica la forma en que se ejecuta la acción del verbo. Por lo tanto, la función gramatical exige un <strong>adverbio de modo</strong> (habitualmente terminado en <em>-ly</em>: <strong>${escapeHtml(correctText)}</strong>), no la forma adjetiva (<em>${escapeHtml(userText)}</em>).`;
+    }
+    if (userLower.endsWith('ly') && !correctLower.endsWith('ly')) {
+      return `<em>${escapeHtml(userText)}</em> es un adverbio. En esta posición se necesita la forma del <strong>adjetivo</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+    }
+
+    // 8. Pronombres y posesión (Tema 3)
+    const possAdjs = ['my', 'your', 'his', 'her', 'its', 'our', 'their'];
+    const possPronouns = ['mine', 'yours', 'his', 'hers', 'its', 'ours', 'theirs'];
+    const subjPronouns = ['i', 'he', 'she', 'we', 'they'];
+    const objPronouns = ['me', 'him', 'her', 'us', 'them'];
+    const reflexives = ['myself', 'yourself', 'himself', 'herself', 'itself', 'ourselves', 'themselves'];
+
+    // 8a. Posición de sujeto antes del verbo principal
+    if (/^____\b|[\.\?!]\s*____\b/i.test(prompt)) {
+      if (subjPronouns.includes(correctLower)) {
+        if (possAdjs.includes(userLower)) {
+          return `<em>${escapeHtml(userText)}</em> es un adjetivo posesivo que siempre requiere un sustantivo detrás. Al inicio de la oración como sujeto del verbo se necesita un <strong>pronombre personal sujeto</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+        }
+        if (possPronouns.includes(userLower)) {
+          return `<em>${escapeHtml(userText)}</em> es un pronombre posesivo ('el suyo/la suya'). En la posición de sujeto que realiza la acción se requiere el <strong>pronombre personal sujeto</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+        }
+        if (objPronouns.includes(userLower)) {
+          return `<em>${escapeHtml(userText)}</em> es un pronombre objeto. Para ejecutar la acción verbal como sujeto se debe utilizar el <strong>pronombre sujeto</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+        }
+        if (reflexives.includes(userLower)) {
+          return `<em>${escapeHtml(userText)}</em> es un pronombre reflexivo y no puede funcionar como sujeto principal de la oración; se requiere el <strong>pronombre personal sujeto</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+        }
+      }
+    }
+
+    // 8b. Posición de objeto tras preposición o verbo
+    if (/\b(to|with|for|at|about|between|after|before|behind)\s+____/i.test(prompt)) {
+      if (objPronouns.includes(correctLower)) {
+        if (subjPronouns.includes(userLower)) {
+          return `Detrás de una preposición (<em>${prompt.match(/\b(to|with|for|at|about|between|after|before|behind)\b/i)[0]}</em>) la gramática inglesa prohíbe los pronombres sujeto. Se debe emplear obligatoriamente el <strong>pronombre objeto</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+        }
+        if (possAdjs.includes(userLower)) {
+          return `<em>${escapeHtml(userText)}</em> es un adjetivo posesivo y necesita un sustantivo detrás. Tras la preposición se requiere el <strong>pronombre personal objeto</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+        }
+        if (possPronouns.includes(userLower)) {
+          return `En esta frase la preposición rige a las personas como objeto de la acción, por lo que corresponde el <strong>pronombre objeto</strong> (<strong>${escapeHtml(correctText)}</strong>), no el pronombre posesivo.`;
+        }
+      }
+    }
+
+    // 8c. Adjetivo posesivo delante de sustantivo
+    if (/____\s+[a-z]+/i.test(prompt) && possAdjs.includes(correctLower)) {
+      if (possPronouns.includes(userLower)) {
+        return `<em>${escapeHtml(userText)}</em> es un pronombre posesivo ('el suyo') que sustituye al nombre y nunca puede preceder a un sustantivo. Para acompañar al sustantivo que sigue se usa el <strong>adjetivo posesivo</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+      }
+      if (objPronouns.includes(userLower)) {
+        return `<em>${escapeHtml(userText)}</em> es un pronombre objeto. Delante del sustantivo poseído para indicar pertenencia se debe usar el <strong>adjetivo posesivo</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+      }
+      if (subjPronouns.includes(userLower)) {
+        return `Delante del sustantivo poseído se requiere el <strong>adjetivo posesivo</strong> (<strong>${escapeHtml(correctText)}</strong>), no el pronombre sujeto.`;
+      }
+    }
+
+    // 8d. Pronombre posesivo al final o aislado
+    if (possPronouns.includes(correctLower) && possAdjs.includes(userLower)) {
+      return `<em>${escapeHtml(userText)}</em> es un adjetivo posesivo y exige un sustantivo detrás (ej: <em>${escapeHtml(userText)} notebook</em>). Al encontrarse al final de la frase sin sustantivo, la función corresponde al <strong>pronombre posesivo</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+    }
+
+    // 8e. Reflexivo vs Recíproco
+    if ((userLower.includes('themselves') || userLower.includes('each other')) && (correctLower.includes('themselves') || correctLower.includes('each other'))) {
+      if (userLower.includes('themselves')) {
+        return `Los pronombres reflexivos como <em>themselves</em> indican que la acción recae sobre el mismo sujeto que la ejecuta ('a sí mismos'). Para expresar una <strong>acción recíproca mutua</strong> entre dos o más personas ('el uno al otro') se utiliza <strong>each other</strong> (o <em>one another</em>).`;
+      } else {
+        return `<em>Each other</em> expresa reciprocidad ('el uno al otro'). Cuando los sujetos ejecutan la acción sobre ellos mismos se debe usar el pronombre reflexivo <strong>themselves</strong>.`;
+      }
+    }
+
+    // 9. Demostrativos (Tema 4): this/that vs these/those
+    const demSingular = ['this', 'that'];
+    const demPlural = ['these', 'those'];
+    if (demSingular.includes(userLower) && demPlural.includes(correctLower)) {
+      return `<em>${escapeHtml(userText)}</em> es un demostrativo de número <strong>singular</strong> y no puede concordar con un sustantivo plural o una referencia plural. Para plurales se exige <strong>${escapeHtml(correctText)}</strong> (these/those).`;
+    }
+    if (demPlural.includes(userLower) && demSingular.includes(correctLower)) {
+      return `<em>${escapeHtml(userText)}</em> es un demostrativo de número <strong>plural</strong> y no puede acompañar a un sustantivo singular o incontable. En este caso se requiere la forma singular <strong>${escapeHtml(correctText)}</strong> (this/that).`;
+    }
+
+    // 10. Concordancia Sujeto-Verbo y 3ª persona singular (Tema 1 & Repasos)
+    // 10a. Sujeto plural con verbo acabado en -s
+    const pluralSubjectsRegex = /\b(the children|children|the women|women|the men|men|people|the people|the police|they|the hotels|hotels|my parents|parents|the students|students|the workers|workers)\b/i;
+    if (pluralSubjectsRegex.test(prompt)) {
+      const subjMatch = prompt.match(pluralSubjectsRegex)[0];
+      if (/[a-z]+(s|es)\b/i.test(userLower) && !userLower.endsWith('ss') && !userLower.endsWith('us') && userLower !== 'is' && userLower !== 'has') {
+        if (!pluralSubjectsRegex.test(userLower)) {
+          return `El sujeto (<em>${escapeHtml(subjMatch)}</em>) es <strong>plural</strong> (equivale a 'they'). En Presente Simple afirmativo los sujetos plurales llevan el verbo en su <strong>forma base</strong>; la desinencia <strong>-s / -es</strong> solo se aplica a la 3ª persona del singular (he / she / it).`;
+        }
+      }
+      if (userLower === 'has') {
+        return `El sujeto (<em>${escapeHtml(subjMatch)}</em>) es un sustantivo plural, por lo que el verbo correspondiente es <strong>have</strong>, reservando <em>has</em> únicamente para la 3ª persona singular (he / she / it).`;
+      }
+      if (userLower === 'is') {
+        return `El sujeto (<em>${escapeHtml(subjMatch)}</em>) es plural, por lo que la forma requerida del verbo <em>to be</em> es <strong>are</strong> (o <em>were</em> en pasado), no 'is'.`;
+      }
+    }
+
+    // 10b. Sujeto singular de 3ª persona con verbo base sin -s
+    if (correctLower.endsWith('s') && !userLower.endsWith('s') && !userLower.includes('is') && !userLower.includes('has')) {
+      if (/\b(he|she|it|the\s+([a-z]+\s+)?(mechanic|doctor|manager|sister|mother|train|bus|car|government|teacher|driver|room))\b/i.test(prompt)) {
+        return `El sujeto de la oración es <strong>3ª persona del singular</strong> (he/she/it). En Presente Simple afirmativo, la norma gramatical exige añadir obligatoriamente la desinencia <strong>-s / -es</strong> al verbo (<strong>${escapeHtml(correctText)}</strong>).`;
+      }
+    }
+
+    // 10c. 'Have got' vs 'Do/Does have'
+    if (/\bgot\b/i.test(prompt)) {
+      if (/\b(does|do|did)\b/i.test(userLower)) {
+        return `En la pregunta aparece la partícula <strong>got</strong>. Cuando se utiliza la estructura británica de posesión <em>have got</em>, la interrogación se formula directamente con el verbo tener: <strong>Have / Has + sujeto + got...?</strong>. Los auxiliares <em>Do / Does</em> solo se usan cuando el verbo es 'have' simple sin 'got' (ej: <em>Does she have...?</em>).`;
+      }
+      if (userLower === 'have' && correctLower === 'has') {
+        return `El sujeto de la oración es 3ª persona del singular, por lo que el auxiliar correcto es <strong>Has</strong> (Has ... got?), no <em>Have</em>.`;
+      }
+      if (userLower === 'has' && correctLower === 'have') {
+        return `El sujeto de la oración es plural o 'I/you/we/they', por lo que el auxiliar correspondiente es <strong>Have</strong> (Have ... got?), no <em>Has</em>.`;
+      }
+      if (userLower === 'is' || userLower === 'are') {
+        return `La estructura con <em>got</em> para expresar posesión se forma con el verbo <strong>have/has got</strong>, nunca con el verbo <em>to be</em>.`;
+      }
+      if (userLower === 'haves') {
+        return `La forma <em>haves</em> no existe en inglés. La 3ª persona irregular de <em>have</em> es <strong>has</strong>.`;
+      }
+    }
+
+    // 10d. Auxiliar 'do/does' usado con adjetivos
+    if (/\b(do|does|did)\b/i.test(userLower) && /\b(responsible|ready|tired|happy|busy|sure|late|early|available|afraid|interested)\b/i.test(prompt)) {
+      return `En la frase hay un adjetivo o atributo. En inglés, las oraciones atributivas o de estado se construyen con el verbo <strong>to be</strong> (<em>am / is / are</em>), nunca con el auxiliar léxico <em>do / does</em>.`;
+    }
+
+    // 11. Stative Verbs (Tema 2)
+    const stativeVerbs = ['know', 'want', 'like', 'love', 'hate', 'understand', 'believe', 'remember', 'prefer', 'need', 'belong', 'mean', 'seem', 'hear', 'see', 'contain', 'consist'];
+    for (const sv of stativeVerbs) {
+      if (userLower.includes(sv + 'ing') || userLower.includes(sv.slice(0, -1) + 'ing')) {
+        return `El verbo <em>${sv}</em> es un <strong>stative verb</strong> (verbo de estado, percepción o cognición). Según las normas gramaticales, estos verbos no admiten tiempos continuos (<em>-ing</em>) para describir estados, requiriendo su forma en <strong>Presente Simple</strong> (<em>${escapeHtml(correctText)}</em>).`;
+      }
+    }
+
+    // 12. Adjetivos en -ed vs -ing (Tema 5)
+    if (userLower.endsWith('ed') && correctLower.endsWith('ing')) {
+      return `Confusión clásica de adjetivos participiales: las formas terminadas en <strong>-ed</strong> describen cómo se <strong>siente</strong> una persona (el estado emocional recibido). Para describir la cualidad o el estímulo que <strong>provoca</strong> esa emoción (la película, el libro o la situación) se debe emplear la terminación en <strong>-ing</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+    }
+    if (userLower.endsWith('ing') && correctLower.endsWith('ed')) {
+      return `Las terminaciones en <strong>-ing</strong> definen la cualidad intrínseca de una situación o estímulo. Para expresar el <strong>sentimiento o emoción que experimenta una persona</strong> ante algo, la norma gramatical exige el adjetivo terminado en <strong>-ed</strong> (<strong>${escapeHtml(correctText)}</strong>).`;
+    }
+
+    // 13. Fallback inteligente de contraste
+    const userOptionDisplay = isChoice ? `la opción <strong>${userLetter}) "${escapeHtml(userText)}"</strong>` : `<strong>"${escapeHtml(userText)}"</strong>`;
+    const correctOptionDisplay = isChoice ? `la opción <strong>${correctLetter}) "${escapeHtml(correctText)}"</strong>` : `<strong>"${escapeHtml(correctText)}"</strong>`;
+
+    return `Has seleccionado ${userOptionDisplay}, pero en esta oración la opción correcta es ${correctOptionDisplay}. No concuerda gramatical o temporalmente con la estructura de la frase.`;
+  }
+
+  function showPracticeFeedback(q, isCorrect, isForcedReveal = false, userPickParam = null) {
     const box = document.getElementById('q-feedback-box');
     const header = document.getElementById('feedback-header');
     const text = document.getElementById('feedback-explanation');
@@ -1120,14 +1427,64 @@
       header.innerHTML = isForcedReveal ? 'ℹ️ Solución oficial' : '✕ Respuesta incorrecta';
     }
 
-    let explanationText = q.explanation || '';
-    if (q.type === 'choice' && q.options) {
-      explanationText = `<strong>Opción correcta: ${q.answer}) ${escapeHtml(q.options[q.answer] || '')}</strong><br>${escapeHtml(explanationText)}`;
+    const qz = state.currentQuiz;
+    const userPick = userPickParam !== null ? userPickParam : (qz && qz.userAnswers ? qz.userAnswers[q.id] : null);
+    const isChoice = q.type === 'choice' && q.options;
+
+    let contentHtml = '';
+
+    if (isCorrect) {
+      if (isChoice && q.options) {
+        contentHtml = `
+          <div class="feedback-correct-rule">
+            <div class="correct-rule-title">💡 <strong>Opción correcta: ${q.answer}) ${escapeHtml(q.options[q.answer] || '')}</strong></div>
+            <div class="correct-rule-text">${escapeHtml(q.explanation || 'Regla gramatical oficial del temario.')}</div>
+          </div>
+        `;
+      } else {
+        contentHtml = `
+          <div class="feedback-correct-rule">
+            <div class="correct-rule-title">💡 <strong>Respuesta correcta: ${escapeHtml(q.answer)}</strong></div>
+            <div class="correct-rule-text">${escapeHtml(q.explanation || 'Regla gramatical oficial del temario.')}</div>
+          </div>
+        `;
+      }
+    } else if (isForcedReveal || !userPick) {
+      if (isChoice && q.options) {
+        contentHtml = `
+          <div class="feedback-correct-rule">
+            <div class="correct-rule-title">💡 <strong>Solución oficial: Opción ${q.answer}) ${escapeHtml(q.options[q.answer] || '')}</strong></div>
+            <div class="correct-rule-text">${escapeHtml(q.explanation || 'Regla gramatical oficial del temario.')}</div>
+          </div>
+        `;
+      } else {
+        contentHtml = `
+          <div class="feedback-correct-rule">
+            <div class="correct-rule-title">💡 <strong>Solución oficial: ${escapeHtml(q.answer)}</strong></div>
+            <div class="correct-rule-text">${escapeHtml(q.explanation || 'Regla gramatical oficial del temario.')}</div>
+          </div>
+        `;
+      }
     } else {
-      explanationText = `<strong>Respuesta correcta: ${escapeHtml(q.answer)}</strong><br>${escapeHtml(explanationText)}`;
+      const mistakeExplanation = getMistakeExplanation(q, userPick);
+      const userText = isChoice ? (q.options[userPick] || userPick) : userPick;
+      const userPickLabel = isChoice ? `Opción ${userPick}) "${escapeHtml(userText)}"` : `"${escapeHtml(userText)}"`;
+      const correctText = isChoice ? (q.options[q.answer] || q.answer) : q.answer;
+      const correctPickLabel = isChoice ? `Opción ${q.answer}) "${escapeHtml(correctText)}"` : `"${escapeHtml(correctText)}"`;
+
+      contentHtml = `
+        <div class="feedback-mistake-analysis">
+          <div class="mistake-analysis-title">⚠️ <strong>¿Por qué no es tu respuesta (${userPickLabel})?</strong></div>
+          <div class="mistake-analysis-text">${mistakeExplanation}</div>
+        </div>
+        <div class="feedback-correct-rule">
+          <div class="correct-rule-title">💡 <strong>Solución oficial (${correctPickLabel}):</strong></div>
+          <div class="correct-rule-text">${escapeHtml(q.explanation || 'Regla gramatical oficial del temario.')}</div>
+        </div>
+      `;
     }
 
-    text.innerHTML = explanationText;
+    text.innerHTML = contentHtml;
   }
 
   function updateErrorsState(qId, isCorrect) {
@@ -2249,6 +2606,53 @@
         }
       }
 
+      let reviewFeedbackHtml = '';
+      if (!q.isLegacy && !q.isCorrect && !q.isBlank && q.userAnswer) {
+        const mistakeExplanation = getMistakeExplanation(q, q.userAnswer);
+        const isChoice = q.type === 'choice' && options;
+        const userText = isChoice ? (options[q.userAnswer] || q.userAnswer) : q.userAnswer;
+        const userPickLabel = isChoice ? `Opción ${q.userAnswer}) "${escapeHtml(userText)}"` : `"${escapeHtml(userText)}"`;
+        const correctText = isChoice ? (options[q.answer] || q.answer) : q.answer;
+        const correctPickLabel = isChoice ? `Opción ${q.answer}) "${escapeHtml(correctText)}"` : `"${escapeHtml(correctText)}"`;
+
+        reviewFeedbackHtml = `
+          <div class="feedback-box incorrect-box show" style="margin-top: 0.85rem;">
+            <div class="feedback-header">✕ Análisis pedagógico del error</div>
+            <div class="feedback-text">
+              <div class="feedback-mistake-analysis">
+                <div class="mistake-analysis-title">⚠️ <strong>¿Por qué no es tu respuesta (${userPickLabel})?</strong></div>
+                <div class="mistake-analysis-text">${mistakeExplanation}</div>
+              </div>
+              <div class="feedback-correct-rule">
+                <div class="correct-rule-title">💡 <strong>Solución oficial (${correctPickLabel}):</strong></div>
+                <div class="correct-rule-text">${escapeHtml(explanation || 'Regla gramatical oficial del temario.')}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      } else if (!q.isLegacy && q.isCorrect) {
+        reviewFeedbackHtml = `
+          <div class="feedback-box correct-box show" style="margin-top: 0.85rem;">
+            <div class="feedback-header">✓ Respuesta correcta</div>
+            <div class="feedback-text">
+              <div class="feedback-correct-rule">
+                <div class="correct-rule-title">💡 <strong>Regla del Patronato:</strong></div>
+                <div class="correct-rule-text">${escapeHtml(explanation || 'Regla gramatical oficial del temario.')}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      } else {
+        reviewFeedbackHtml = `
+          <div class="feedback-box show" style="margin-top: 0.85rem;">
+            <div class="feedback-header">${q.isBlank ? '⚪ Pregunta en blanco' : '💡 Solución oficial'}</div>
+            <div class="feedback-text">
+              <strong>Solución oficial: ${q.answer}</strong><br>${escapeHtml(explanation || 'Regla gramatical oficial del temario.')}
+            </div>
+          </div>
+        `;
+      }
+
       card.innerHTML = `
         <div class="question-header-row">
           <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
@@ -2276,11 +2680,7 @@
 
         ${answersBlockHtml}
 
-        <div class="feedback-box show" style="margin-top: 0.85rem;">
-          <div class="feedback-text">
-            💡 <strong>Explicación del Patronato:</strong> ${escapeHtml(explanation || 'Regla gramatical oficial del temario.')}
-          </div>
-        </div>
+        ${reviewFeedbackHtml}
       `;
 
       container.appendChild(card);
