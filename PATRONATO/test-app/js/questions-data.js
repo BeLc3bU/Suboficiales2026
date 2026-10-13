@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-13 15:41:26
- * Total preguntas: 628
+ * Fecha: 2026-10-13 17:16:02
+ * Total preguntas: 678
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-13 15:41:26",
-    "totalTopics": 14,
-    "totalQuestions": 628
+    "generatedAt": "2026-10-13 17:16:02",
+    "totalTopics": 15,
+    "totalQuestions": 678
   },
   "topics": [
     {
@@ -9246,6 +9246,766 @@ window.TEST_DATA = {
       ],
       "blockId": "bloque_2",
       "blockName": "Bloque 2"
+    },
+    {
+      "id": "tema_7",
+      "title": "Tema 7: There  + BE",
+      "badge": "Tema 7",
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2",
+      "description": "Ejercicios tipo test del Tema 7: There  + BE extraídos de Ejercicio Tema 7.pdf.",
+      "questions": [
+        {
+          "id": "T7_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Students study local history here. _____ a small museum near the town centre.",
+          "options": {
+            "A": "There are",
+            "B": "There is",
+            "C": "Is there",
+            "D": "It is"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Tourists enjoy this area because _____ several beaches near the sea.",
+          "options": {
+            "A": "there is",
+            "B": "it is",
+            "C": "is there",
+            "D": "there are"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "We want to sit outside. _____ a garden behind the building?",
+          "options": {
+            "A": "Is there",
+            "B": "Are there",
+            "C": "There is",
+            "D": "There are"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The museum does not allow pets, so _____ any animals inside.",
+          "options": {
+            "A": "There isn't",
+            "B": "Is there",
+            "C": "There aren't",
+            "D": "There wasn't"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Many people work in this mountain area. _____ several animals in the park.",
+          "options": {
+            "A": "There are",
+            "B": "There is",
+            "C": "Is there",
+            "D": "It is"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Do not worry about the smoke. Yesterday _____ a small fire in this building.",
+          "options": {
+            "A": "there were",
+            "B": "there was",
+            "C": "there is",
+            "D": "there will be"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "We need to fill these bottles. _____ enough water in the room.",
+          "options": {
+            "A": "There are",
+            "B": "Are there",
+            "C": "There were",
+            "D": "There is"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "I want to change before dinner. _____ any clean clothes in this room?",
+          "options": {
+            "A": "There is",
+            "B": "Is there",
+            "C": "Are there",
+            "D": "There are"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The shop does not offer hot drinks now. _____ any coffee.",
+          "options": {
+            "A": "There aren't",
+            "B": "There isn't",
+            "C": "Aren't there",
+            "D": "There wasn't"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The artist uses this room. _____ a large picture on the wall.",
+          "options": {
+            "A": "There is",
+            "B": "There are",
+            "C": "Is there",
+            "D": "It is"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Last summer _____ many tourists on the island.",
+          "options": {
+            "A": "there was",
+            "B": "there are",
+            "C": "there were",
+            "D": "there will be"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "I need to start the machine. _____ a key for it?",
+          "options": {
+            "A": "There is",
+            "B": "Are there",
+            "C": "There are",
+            "D": "Is there"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The company wants to reduce costs. _____ a new plan for next month.",
+          "options": {
+            "A": "There are",
+            "B": "There is",
+            "C": "It has",
+            "D": "Is there"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "We use this room to study. _____ two windows near the table.",
+          "options": {
+            "A": "There is",
+            "B": "Is there",
+            "C": "There are",
+            "D": "Are there"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Twenty years ago _____ any tall buildings in this street.",
+          "options": {
+            "A": "there weren't",
+            "B": "there wasn't",
+            "C": "there aren't",
+            "D": "weren't there"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "People live on this small island all year. _____ a village near the beach.",
+          "options": {
+            "A": "There are",
+            "B": "Are there",
+            "C": "It is",
+            "D": "There is"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The children play in the garden every afternoon. _____ many leaves on the ground today.",
+          "options": {
+            "A": "There are",
+            "B": "There is",
+            "C": "It is",
+            "D": "Is there"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "How many students _____ in the class today?",
+          "options": {
+            "A": "is there",
+            "B": "there are",
+            "C": "are there",
+            "D": "there is"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "We stayed at a small hotel last year. _____ a pool?",
+          "options": {
+            "A": "Were there",
+            "B": "There was",
+            "C": "There were",
+            "D": "Was there"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Many people enjoy this park because _____ several quiet places to sit.",
+          "options": {
+            "A": "There is",
+            "B": "There are",
+            "C": "It is",
+            "D": "Are there"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The bus stops here every twenty minutes. _____ a bus stop next to the museum.",
+          "options": {
+            "A": "There are",
+            "B": "Is there",
+            "C": "There is",
+            "D": "Are there"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The shop offers food and coffee, but _____ any clothes.",
+          "options": {
+            "A": "There aren't",
+            "B": "There isn't",
+            "C": "Aren't there",
+            "D": "There weren't"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Last night _____ many cars in this street?",
+          "options": {
+            "A": "Was there",
+            "B": "Were there",
+            "C": "Are there",
+            "D": "There were"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "I want to watch the news. _____ a television in this room.",
+          "options": {
+            "A": "There are",
+            "B": "Is there",
+            "C": "It is",
+            "D": "There is"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "I will call you when _____ news about the trip.",
+          "options": {
+            "A": "there is",
+            "B": "there are",
+            "C": "there will be",
+            "D": "is there"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The town wants to improve this area. Next year _____ a new museum near the park.",
+          "options": {
+            "A": "there is",
+            "B": "there was",
+            "C": "there are",
+            "D": "there will be"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "This diet includes water and fruit, but _____ no coffee.",
+          "options": {
+            "A": "there are",
+            "B": "are there",
+            "C": "there is",
+            "D": "there were"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The workers used a new machine last week, and _____ a problem with it.",
+          "options": {
+            "A": "there were",
+            "B": "there was",
+            "C": "there is",
+            "D": "there will be"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The course uses different ways to help students learn. _____ several methods in this book.",
+          "options": {
+            "A": "There is",
+            "B": "Is there",
+            "C": "It is",
+            "D": "There are"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The company wants to keep the same prices. Next month _____ any increase in cost.",
+          "options": {
+            "A": "there won't be",
+            "B": "there isn't",
+            "C": "there weren't",
+            "D": "won't there be"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "We need another table. _____ enough room here?",
+          "options": {
+            "A": "There is",
+            "B": "Are there",
+            "C": "Is there",
+            "D": "There are"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Ten years ago _____ only two buses on this route.",
+          "options": {
+            "A": "there was",
+            "B": "there were",
+            "C": "there are",
+            "D": "there will be"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The weather changes quickly in this season. _____ a lot of rain in the afternoon.",
+          "options": {
+            "A": "There is",
+            "B": "There are",
+            "C": "Is there",
+            "D": "There were"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Many people work in the capital. _____ several large companies in this area.",
+          "options": {
+            "A": "There is",
+            "B": "It is",
+            "C": "There are",
+            "D": "Are there"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Yesterday afternoon _____ any coffee in the shop.",
+          "options": {
+            "A": "there weren't",
+            "B": "there isn't",
+            "C": "there are",
+            "D": "there wasn't"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The teacher wants everyone in one room tomorrow. _____ enough room for all the students?",
+          "options": {
+            "A": "Will be there",
+            "B": "Will there be",
+            "C": "There will",
+            "D": "Is there"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Since Monday, _____ several changes to the plan.",
+          "options": {
+            "A": "there has been",
+            "B": "there were",
+            "C": "there have been",
+            "D": "there are"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The company tried a new machine last week, but _____ a problem with it.",
+          "options": {
+            "A": "there were",
+            "B": "there is",
+            "C": "there will be",
+            "D": "there was"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Next summer _____ a new walking route near the sea.",
+          "options": {
+            "A": "there is",
+            "B": "there will be",
+            "C": "there was",
+            "D": "will there be"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The new bus route starts next month. After that, _____ a bus every ten minutes.",
+          "options": {
+            "A": "there will be",
+            "B": "there is",
+            "C": "there was",
+            "D": "will there be"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Last winter _____ many days with ice on the road.",
+          "options": {
+            "A": "there was",
+            "B": "there are",
+            "C": "there will be",
+            "D": "there were"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The company will start a new activity next month. _____ more work to do.",
+          "options": {
+            "A": "there is",
+            "B": "there was",
+            "C": "there will be",
+            "D": "will there be"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Since the beginning of the season, _____ an increase in visitors.",
+          "options": {
+            "A": "There has been",
+            "B": "There have been",
+            "C": "There was",
+            "D": "There are"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "Fifty years ago, _____ a museum in this town?",
+          "options": {
+            "A": "Were there",
+            "B": "Was there",
+            "C": "Is there",
+            "D": "There was"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The town wants to improve the area. According to the plan, _____ a new garden next to the building next year.",
+          "options": {
+            "A": "there is",
+            "B": "there was",
+            "C": "there will be",
+            "D": "will there be"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        },
+        {
+          "id": "T7_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The bus company is changing the route next month. _____ any changes to the stops?",
+          "options": {
+            "A": "There are",
+            "B": "Were there",
+            "C": "Is there",
+            "D": "Will there be"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "_____ any problems with the new plan since Monday?",
+          "options": {
+            "A": "Has there been",
+            "B": "Have there been",
+            "C": "Were there",
+            "D": "Are there"
+          },
+          "answer": "B",
+          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+        },
+        {
+          "id": "T7_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "At the market yesterday, _____ any fresh food after six o'clock.",
+          "options": {
+            "A": "there wasn't",
+            "B": "there weren't",
+            "C": "there isn't",
+            "D": "there won't be"
+          },
+          "answer": "A",
+          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+        },
+        {
+          "id": "T7_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "My family will stay in this village next week. _____ a television in the house when we arrive.",
+          "options": {
+            "A": "there was",
+            "B": "there is",
+            "C": "there are",
+            "D": "there will be"
+          },
+          "answer": "D",
+          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+        },
+        {
+          "id": "T7_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Tema 7: There  + BE",
+          "question": "The new plan will reduce traffic. Tomorrow _____ any cars in the park.",
+          "options": {
+            "A": "there aren't",
+            "B": "there wasn't",
+            "C": "there won't be",
+            "D": "won't there be"
+          },
+          "answer": "C",
+          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        }
+      ]
     }
   ]
 };
