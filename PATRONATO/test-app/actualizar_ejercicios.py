@@ -1417,5 +1417,22 @@ def main():
 
     print(f"\n[ÉXITO] Archivo generado en: {JS_OUTPUT_FILE}")
 
+    # Actualizar versión de caché en sw.js para forzar actualización en clientes/PWA
+    sw_file = os.path.join(BASE_DIR, "sw.js")
+    if os.path.exists(sw_file):
+        try:
+            with open(sw_file, "r", encoding="utf-8") as f_sw:
+                sw_text = f_sw.read()
+            def bump_cache(match):
+                curr = int(match.group(1))
+                return f"const CACHE_NAME = 'suboficiales-cache-v{curr + 1}';"
+            new_sw_text, count = re.subn(r"const CACHE_NAME = 'suboficiales-cache-v(\d+)';", bump_cache, sw_text)
+            if count > 0:
+                with open(sw_file, "w", encoding="utf-8") as f_sw:
+                    f_sw.write(new_sw_text)
+                print(f"[CACHE] Service Worker actualizado a una nueva versión para forzar refresco en clientes.")
+        except Exception as e_sw:
+            print(f"[AVISO] No se pudo actualizar sw.js: {e_sw}")
+
 if __name__ == "__main__":
     main()
