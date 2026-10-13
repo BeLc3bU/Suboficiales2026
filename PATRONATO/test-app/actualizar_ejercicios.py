@@ -35,12 +35,36 @@ JS_OUTPUT_FILE = os.path.join(JS_OUTPUT_DIR, "questions-data.js")
 print(f"Buscando archivos de ejercicios en: {PATRONATO_DIR}")
 
 def extract_text_from_pdf(pdf_path):
-    reader = pypdf.PdfReader(pdf_path)
-    full_text = ""
-    for page in reader.pages:
-        page_text = page.extract_text() or ""
-        full_text += page_text + "\n"
-    return full_text
+    try:
+        reader = pypdf.PdfReader(pdf_path)
+        full_text = ""
+        for page in reader.pages:
+            page_text = page.extract_text() or ""
+            full_text += page_text + "\n"
+        return full_text
+    except Exception as e:
+        # Si el archivo contiene una URL en lugar de ser un PDF binario
+        try:
+            with open(pdf_path, 'r', encoding='utf-8', errors='ignore') as f:
+                content = f.read().strip()
+            if content.startswith('http://') or content.startswith('https://'):
+                print(f"   [INFO] Detectado enlace en lugar de PDF en {os.path.basename(pdf_path)}. Descargando archivo real...")
+                import urllib.request
+                req = urllib.request.Request(content, headers={'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(req) as resp:
+                    pdf_bytes = resp.read()
+                with open(pdf_path, 'wb') as f:
+                    f.write(pdf_bytes)
+                reader = pypdf.PdfReader(pdf_path)
+                full_text = ""
+                for page in reader.pages:
+                    page_text = page.extract_text() or ""
+                    full_text += page_text + "\n"
+                return full_text
+        except Exception as inner_e:
+            print(f"   [ERROR] No se pudo recuperar el PDF {pdf_path}: {inner_e}")
+        print(f"   [ERROR] Error leyendo PDF {pdf_path}: {e}")
+        return ""
 
 def clean_text(t):
     t = t.replace('\r', ' ')

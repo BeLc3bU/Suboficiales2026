@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-09-24 17:39:45
- * Total preguntas: 578
+ * Fecha: 2026-10-13 15:24:59
+ * Total preguntas: 628
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-09-24 17:39:45",
-    "totalTopics": 13,
-    "totalQuestions": 578
+    "generatedAt": "2026-10-13 15:24:59",
+    "totalTopics": 14,
+    "totalQuestions": 628
   },
   "topics": [
     {
@@ -8458,6 +8458,764 @@ window.TEST_DATA = {
           },
           "answer": "C",
           "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "ejercicio_tema_6",
+      "title": "TEMA 6",
+      "badge": "TEMA 6",
+      "description": "Ejercicios extraídos automáticamente de Ejercicio Tema 6.pdf",
+      "questions": [
+        {
+          "id": "ejercicio_tema_6_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "I think the weather _____ colder next month.",
+          "options": {
+            "A": "will get",
+            "B": "gets",
+            "C": "is getting",
+            "D": "get"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "Look at those black clouds over the town. It _____.",
+          "options": {
+            "A": "rains",
+            "B": "is rain",
+            "C": "is going to rain",
+            "D": "going to  rain"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "- This box is very heavy. - I _____ it for you.”",
+          "options": {
+            "A": "carry",
+            "B": "am carry",
+            "C": "carrying",
+            "D": "will carry"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The last bus _____ at 10:15 this evening.",
+          "options": {
+            "A": "leave",
+            "B": "leaves",
+            "C": "is leave",
+            "D": "leaving"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The plan is ready. We _____ dinner with some friends this evening.",
+          "options": {
+            "A": "have",
+            "B": "are have",
+            "C": "are having",
+            "D": "will having"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "At this time tomorrow, I _____ to a new place with my family.",
+          "options": {
+            "A": "will be travelling",
+            "B": "will travelling",
+            "C": "will be travel",
+            "D": "am be  travelling"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "I will send you the information as soon as I _____ it.",
+          "options": {
+            "A": "will receive",
+            "B": "receiving",
+            "C": "am receive",
+            "D": "receive"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The small room needs new paint next month. What _____ with it?",
+          "options": {
+            "A": "do you going to do",
+            "B": "are you going to do",
+            "C": "will you  doing",
+            "D": "are you do"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "“Tea or water?” “_____, please.”",
+          "options": {
+            "A": "I have some water",
+            "B": "I am having some water",
+            "C": "I will have  some water",
+            "D": "I will to have some water"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We will not start the exercise until the teacher _____.",
+          "options": {
+            "A": "arrives",
+            "B": "will arrive",
+            "C": "arriving",
+            "D": "is arrive"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "At eight tomorrow evening, the students _____ for the exam.",
+          "options": {
+            "A": "will studying",
+            "B": "will be studying",
+            "C": "will be study",
+            "D": "are be  studying"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The company does not want to change the plan this month. It _____ it  until next month.",
+          "options": {
+            "A": "does not going to change",
+            "B": "not going to change",
+            "C": "is not  going change",
+            "D": "is not going to change"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The shop _____ at nine tomorrow morning.",
+          "options": {
+            "A": "open",
+            "B": "is open",
+            "C": "opens",
+            "D": "opening"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "“The phone is ringing.” “I _____ it.”",
+          "options": {
+            "A": "will answer",
+            "B": "answer",
+            "C": "am answer",
+            "D": "answering"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "Before you _____ the house tomorrow, check the water.",
+          "options": {
+            "A": "will leave",
+            "B": "leave",
+            "C": "leaving",
+            "D": "are leave"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We know exactly where and when. We _____ through the town tomorrow  afternoon.",
+          "options": {
+            "A": "are travel",
+            "B": "travelling",
+            "C": "are travelling",
+            "D": "will  travelling"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "I do not think the new shop _____ open next month.",
+          "options": {
+            "A": "will being",
+            "B": "be",
+            "C": "will to be",
+            "D": "will be"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "Look at Peter! He is standing on a chair and the chair is moving. He _____.",
+          "options": {
+            "A": "is going to fall",
+            "B": "falls",
+            "C": "is fall",
+            "D": "going to fall"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "At this time next Friday, the company team _____ the new plan.",
+          "options": {
+            "A": "will discussing",
+            "B": "will be discussing",
+            "C": "will be discuss",
+            "D": "is be  discussing"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "Once the group _____ ready, we will leave.",
+          "options": {
+            "A": "will be",
+            "B": "be",
+            "C": "is",
+            "D": "being"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "“_____ in this town for another month?” “Yes, that is the plan.”",
+          "options": {
+            "A": "Do you going to stay",
+            "B": "Are you stay",
+            "C": "Are you  going stay",
+            "D": "Are you going to stay"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "Our plan is clear. My friend and I _____ in the park tomorrow afternoon.",
+          "options": {
+            "A": "are going to walk",
+            "B": "going to walk",
+            "C": "are going walk",
+            "D": "will walking"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "I will call you when the bus _____.",
+          "options": {
+            "A": "will arrive",
+            "B": "arrives",
+            "C": "arriving",
+            "D": "is arrive"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The film _____ at eight this evening.",
+          "options": {
+            "A": "start",
+            "B": "is start",
+            "C": "starts",
+            "D": "starting"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We have not got any water in the room. “I _____ some from the shop.”",
+          "options": {
+            "A": "get",
+            "B": "am get",
+            "C": "getting",
+            "D": "will get"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We _____ to a new house next month. We know the exact day.",
+          "options": {
+            "A": "are moving",
+            "B": "moving",
+            "C": "are move",
+            "D": "will moving"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The route is easy at the moment, but I think it _____ difficult in winter.",
+          "options": {
+            "A": "is be",
+            "B": "will be",
+            "C": "will being",
+            "D": "be"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "All the food is ready. She _____ dinner for her friends this evening.",
+          "options": {
+            "A": "is going prepare",
+            "B": "going to prepare",
+            "C": "is going to prepare",
+            "D": "will  preparing"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "While you _____ the room, I will prepare the food.",
+          "options": {
+            "A": "will clean",
+            "B": "cleaning",
+            "C": "are clean",
+            "D": "clean"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The workers have a plan: they _____ the room this evening.",
+          "options": {
+            "A": "are going to clean",
+            "B": "going to clean",
+            "C": "are going clean",
+            "D": "will cleaning"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "Do you think people _____ more from home in the future?",
+          "options": {
+            "A": "work",
+            "B": "will work",
+            "C": "are work",
+            "D": "will working"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We have a meeting with our teacher tomorrow afternoon. We _____ her  at four.",
+          "options": {
+            "A": "meeting",
+            "B": "are meet",
+            "C": "are meeting",
+            "D": "will meeting"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The company has a plan. It _____ a new shop in town next month.",
+          "options": {
+            "A": "going to open",
+            "B": "is going open",
+            "C": "will opening",
+            "D": "is going to  open"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "After the teacher _____ the exercise, the students will start.",
+          "options": {
+            "A": "explains",
+            "B": "will explain",
+            "C": "explain",
+            "D": "explaining"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "I am sure this new book _____ useful for the students.",
+          "options": {
+            "A": "is be",
+            "B": "will be",
+            "C": "will being",
+            "D": "will to be"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "At nine tonight, I _____ the film with my family, so call me later.",
+          "options": {
+            "A": "will watching",
+            "B": "will be watch",
+            "C": "will be watching",
+            "D": "is be  watching"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We have a room in town and a clear plan. We _____ the town this  weekend.",
+          "options": {
+            "A": "visiting",
+            "B": "are visit",
+            "C": "will visiting",
+            "D": "are visiting"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "My hands are dirty. I _____ them now.",
+          "options": {
+            "A": "am going to wash",
+            "B": "going to wash",
+            "C": "am going wash",
+            "D": "will washing"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We will wait here until the bus _____.",
+          "options": {
+            "A": "will come",
+            "B": "comes",
+            "C": "coming",
+            "D": "is come"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "At this time next month, she _____ in this country; she will be living  abroad.",
+          "options": {
+            "A": "will not living",
+            "B": "will not be live",
+            "C": "will not be living",
+            "D": "not will be  living"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "“Where is my book?” “I do not know. I _____ for it with you.”",
+          "options": {
+            "A": "look",
+            "B": "am look",
+            "C": "looking",
+            "D": "will look"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "The football season _____ next month.",
+          "options": {
+            "A": "starts",
+            "B": "start",
+            "C": "is start",
+            "D": "starting"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "Before the shop _____, I will buy the food.",
+          "options": {
+            "A": "will close",
+            "B": "closes",
+            "C": "closing",
+            "D": "is close"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "“The meeting is at eleven. _____ your teacher then?”",
+          "options": {
+            "A": "Do you meeting",
+            "B": "Are you meet",
+            "C": "Are you meeting",
+            "D": "Will you  meeting"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "You probably _____ need the big book tomorrow; the teacher says the  exercise is very short.",
+          "options": {
+            "A": "do not",
+            "B": "not",
+            "C": "willn't",
+            "D": "won't"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "“What _____ at seven tomorrow morning?” “We will be having breakfast  at home.”",
+          "options": {
+            "A": "will your family be doing",
+            "B": "will your family doing",
+            "C": "your family will be doing",
+            "D": "does your family be doing"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
+        },
+        {
+          "id": "ejercicio_tema_6_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "As soon as the teacher _____ the answer, I will write it down.",
+          "options": {
+            "A": "will give",
+            "B": "gives",
+            "C": "give",
+            "D": "giving"
+          },
+          "answer": "B",
+          "explanation": "TEMA 6. Opción correcta: B."
+        },
+        {
+          "id": "ejercicio_tema_6_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We do not want to take this bus. We _____ for the next one; it arrives in  five minutes.",
+          "options": {
+            "A": "will waiting",
+            "B": "going to wait",
+            "C": "are going to wait",
+            "D": "are going  wait"
+          },
+          "answer": "C",
+          "explanation": "TEMA 6. Opción correcta: C."
+        },
+        {
+          "id": "ejercicio_tema_6_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "I think the students _____ this book in the future.",
+          "options": {
+            "A": "like",
+            "B": "will liking",
+            "C": "are like",
+            "D": "will like"
+          },
+          "answer": "D",
+          "explanation": "TEMA 6. Opción correcta: D."
+        },
+        {
+          "id": "ejercicio_tema_6_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "TEMA 6",
+          "question": "We will leave after my mother _____ ready.",
+          "options": {
+            "A": "is",
+            "B": "will be",
+            "C": "being",
+            "D": "be"
+          },
+          "answer": "A",
+          "explanation": "TEMA 6. Opción correcta: A."
         }
       ]
     }
