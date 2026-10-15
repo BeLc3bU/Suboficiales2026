@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-13 17:20:30
- * Total preguntas: 678
+ * Fecha: 2026-10-15 16:56:09
+ * Total preguntas: 728
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-13 17:20:30",
-    "totalTopics": 15,
-    "totalQuestions": 678
+    "generatedAt": "2026-10-15 16:56:09",
+    "totalTopics": 16,
+    "totalQuestions": 728
   },
   "topics": [
     {
@@ -10004,6 +10004,766 @@ window.TEST_DATA = {
           },
           "answer": "C",
           "explanation": "Tema 7: There  + BE. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "tema_8",
+      "title": "TEMA 8 : CONNECTORS OF CONTRAST",
+      "badge": "Tema 8",
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2",
+      "description": "Ejercicios tipo test del TEMA 8 : CONNECTORS OF CONTRAST extraídos de Ejercicio Tema 8.pdf.",
+      "questions": [
+        {
+          "id": "T8_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "but",
+            "D": "Unlike"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "But",
+            "D": "Despite"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Despite",
+            "D": "Unlike"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "While",
+            "D": "Unlike TEXT 2 The college is developing a new online method for students. (6) _____ the old method, this one allows students to receive information immediately. (7) _____ some teachers were worried at first, they now consider it useful. One teacher learned to use it quickly (8) _____ having little experience with computers. Training takes time. (9) _____, the college believes the method will save time in the future. (10) _____ younger students often use it easily, some older students prefer printed information."
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "While",
+            "D": "Unlike"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Even though",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "In spite of",
+            "C": "However",
+            "D": "While"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "But",
+            "D": "Nevertheless"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "Whereas",
+            "D": "Unlike TEXT 3 A new bus route connects a village with the capital. Many passengers travel this way every day. (11) _____ the fact that the journey is long, the service remains popular. The journey can be tiring. Many passengers enjoy it, (12) _____. The bus is old, (13) _____ it is reliable. Delays sometimes occur because of rain. (14) _____ the bad weather, drivers usually follow the same route. At the final stop there is a small museum. (15) _____, it receives many visitors every day."
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "However",
+            "D": "But"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "though",
+            "B": "despite",
+            "C": "while",
+            "D": "but"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "but",
+            "D": "Unlike"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "But",
+            "D": "In spite of"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Despite",
+            "D": "Unlike TEXT 4 A family business in town has grown steadily. (16) _____ it receives many orders, it remains a small company. (17) _____ the fact that costs are rising, the company does not plan to close its office. (18) _____ larger businesses, it provides free training for every worker. (19) _____ some workers prefer the office, others work from home. The new plan may cause extra work at first. (20) _____, most workers support it. Of course, the company will ask them for their opinion before it makes further changes."
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Unlike",
+            "D": "In spite of"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "Unlike",
+            "D": "However"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "While",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Nevertheless",
+            "C": "Despite",
+            "D": "But TEXT 5 The town market has changed a lot. It now has a modern restaurant, (21) _____ the old food stalls remain popular. (22) _____ the restaurant is small, it provides meals for many people every day. Local farms produce fruit and vegetables for the market. (23) _____ the long wait at lunchtime, many people return. (24) _____ some people prefer coffee, others ask for water or tea. The food is simple. (25) _____, many visitors consider the restaurant one of the best places to relax after shopping. The menu includes local dishes as well as a few international choices."
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "but",
+            "D": "Unlike"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Even though",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "But",
+            "D": "Despite"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "Whereas",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "However",
+            "B": "Although",
+            "C": "Despite",
+            "D": "Unlike TEXT 6 The town is trying to reduce energy use. A new plan will change the street lights so that they use less electricity. (26) _____ the cost, the company responsible for the work wants to continue. (27) _____ some residents worry about the change, experts say the new method will save energy. (28) _____ the old lights, the new ones turn off automatically when the street is empty. The work may affect several streets. (29) _____, it should finish quickly. (30) _____ some people prefer the old lights, others like the new method. In winter, work can stop due to heavy rain."
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "In spite of",
+            "D": "While"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "Although",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "Nevertheless",
+            "D": "But"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "While",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike TEXT 7 A group of college students is developing a local-history activity. (31) _____ the fact that the activity involves a lot of work, they remain motivated. The team is small, (32) _____ it has enough people to finish the work. The instructions were difficult. They followed them carefully, (33) _____. (34) _____ receiving little help at the beginning, they finished the first part on time. They finished the final part later than planned. (35) _____, their teacher considers the result very good. For example, the activity includes pictures and information about the old market and museum. The students also ask local people questions and often discover new facts in the library."
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Unlike",
+            "D": "Despite"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "but",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "though",
+            "B": "despite",
+            "C": "while",
+            "D": "but"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Despite",
+            "D": "Unlike"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Despite",
+            "D": "Unlike TEXT 8 The new bus service connects the village with the capital. (36) _____ some passengers prefer the early bus, others travel in the afternoon. (37) _____ leaving the village early, the first bus sometimes arrives late because of traffic. (38) _____ the route passes through a mountain area, the road is usually easy to follow. (39) _____ the old bus, the new one is quiet and comfortable. (40) _____ the journey costs a little more, passengers like the service because it saves time. The bus moves slowly through the narrow streets, but it is faster on the main road."
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "Unlike",
+            "D": "Whereas"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "In spite of",
+            "D": "While"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Unlike",
+            "C": "However",
+            "D": "Despite"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "Unlike",
+            "D": "Even though TEXT 9 Laura loves films, (41) _____ her brother Daniel prefers sports. Their television is old. (42) _____, it still works well. (43) _____ Laura considers television relaxing, Daniel prefers reading in another room. (44) _____ the fact that the family has little free time during the week, they watch something together every Friday. They rarely agree on which film to choose. (45) _____, they usually have a good time together. Their dog often sits beside them."
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "but",
+            "B": "Despite",
+            "C": "However",
+            "D": "Unlike"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "Nevertheless",
+            "C": "Despite",
+            "D": "But"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "While",
+            "D": "Unlike"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Unlike",
+            "D": "In spite of"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "Despite",
+            "D": "Unlike TEXT 10 A small company is developing a new product for the market. (46) _____ the high cost, the company continues with the work. (47) _____ the first model had several problems, the team did not stop working. (48) _____ the previous version, the new product uses less energy. (49) _____ the old method was difficult to use, the new one is simple and clear. Some people consider the product expensive. They like the design, (50) _____. The company hopes the product will develop into an important part of its business."
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+        },
+        {
+          "id": "T8_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Although",
+            "B": "However",
+            "C": "In spite of",
+            "D": "While"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "Unlike",
+            "D": "Although"
+          },
+          "answer": "D",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+        },
+        {
+          "id": "T8_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Unlike",
+            "B": "Although",
+            "C": "However",
+            "D": "Despite"
+          },
+          "answer": "A",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+        },
+        {
+          "id": "T8_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "Despite",
+            "B": "However",
+            "C": "Whereas",
+            "D": "Unlike"
+          },
+          "answer": "C",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+        },
+        {
+          "id": "T8_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
+          "question": "",
+          "options": {
+            "A": "despite",
+            "B": "though",
+            "C": "while",
+            "D": "but"
+          },
+          "answer": "B",
+          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
         }
       ]
     }
