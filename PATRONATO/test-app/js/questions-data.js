@@ -1,11 +1,11 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-15 16:56:09
+ * Fecha: 2026-10-19 16:49:24
  * Total preguntas: 728
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-15 16:56:09",
+    "generatedAt": "2026-10-19 16:49:24",
     "totalTopics": 16,
     "totalQuestions": 728
   },
@@ -2671,7 +2671,7 @@ window.TEST_DATA = {
             "A": "her / hers",
             "B": "hers / her",
             "C": "her / her",
-            "D": "hers / hers                         The house isn’t (1) __________, it is (2) __________. She is a girl, (3)  __________ name is Helen. She goes (4) __________ every morning. She (5)  __________ a lot of friends in the town. Peter and Helen are doctors. (6)  __________ friends are doctors too. Is that (7) __________ new house? No, (8)  __________ isn’t. A sister of (9) __________ is in the restaurant now. (10)  __________ name is George."
+            "D": "hers / hers                        The house isn’t (1) __________, it is (2) __________. She is a girl, (3)  __________ name is Helen. She goes (4) __________ every morning. She (5)  __________ a lot of friends in the town. Peter and Helen are doctors. (6)  __________ friends are doctors too. Is that (7) __________ new house? No, (8)  __________ isn’t. A sister of (9) __________ is in the restaurant now. (10)  __________ name is George."
           },
           "answer": "A",
           "explanation": "Tema 3 Extra: Opción correcta: A."
@@ -2863,7 +2863,7 @@ window.TEST_DATA = {
             "A": "he",
             "B": "his",
             "C": "her",
-            "D": "him                         George [...] is packing his clothes in (6) __________ bedroom. [...] Mary, (9)  __________ sister [...] with him too."
+            "D": "him                        George [...] is packing his clothes in (6) __________ bedroom. [...] Mary, (9)  __________ sister [...] with him too."
           },
           "answer": "D",
           "explanation": "Tema 3 Extra: Opción correcta: D."
@@ -3049,7 +3049,7 @@ window.TEST_DATA = {
           "number": 86,
           "type": "completion",
           "section": "Completion - him / her / them",
-          "question": "I don’t know the woman with the black coat. Do you know __________?                         Exercise 2 — pronombres objeto",
+          "question": "I don’t know the woman with the black coat. Do you know __________?                        Exercise 2 — pronombres objeto",
           "answer": "her",
           "explanation": "Respuesta correcta: 'her'."
         },
@@ -10009,18 +10009,19 @@ window.TEST_DATA = {
     },
     {
       "id": "tema_8",
-      "title": "TEMA 8 : CONNECTORS OF CONTRAST",
+      "title": "Tema 8: Conectores de Contraste (Connectors of Contrast)",
       "badge": "Tema 8",
       "blockId": "bloque_2",
       "blockName": "Bloque 2",
-      "description": "Ejercicios tipo test del TEMA 8 : CONNECTORS OF CONTRAST extraídos de Ejercicio Tema 8.pdf.",
+      "description": "Conectores de contraste en inglés: although, even though, though, despite, in spite of, however, nevertheless, while, whereas, unlike y but (10 textos contextualizados con 50 preguntas).",
       "questions": [
         {
           "id": "T8_Q1",
           "number": 1,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 1)",
+          "readingText": "The Seaview Hotel is a small business near the beach. It is small, (1) _____ it receives many visitors every summer. (2) _____ the building is old, the rooms are clean and comfortable. The hotel provides basic services, such as breakfast and free water. (3) _____ the high price in August, most rooms are full. The hotel does not provide dinner. (4) _____, there is a restaurant across the street. (5) _____ some guests prefer to relax on the beach, others visit the local museum.",
+          "question": "It is small, (1) _____ it receives many visitors every summer.",
           "options": {
             "A": "Despite",
             "B": "However",
@@ -10028,14 +10029,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 1). Opción correcta: C."
         },
         {
           "id": "T8_Q2",
           "number": 2,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 1)",
+          "readingText": "The Seaview Hotel is a small business near the beach. It is small, (1) _____ it receives many visitors every summer. (2) _____ the building is old, the rooms are clean and comfortable. The hotel provides basic services, such as breakfast and free water. (3) _____ the high price in August, most rooms are full. The hotel does not provide dinner. (4) _____, there is a restaurant across the street. (5) _____ some guests prefer to relax on the beach, others visit the local museum.",
+          "question": "(2) _____ the building is old, the rooms are clean and comfortable.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10043,14 +10045,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 2). Opción correcta: A."
         },
         {
           "id": "T8_Q3",
           "number": 3,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 1)",
+          "readingText": "The Seaview Hotel is a small business near the beach. It is small, (1) _____ it receives many visitors every summer. (2) _____ the building is old, the rooms are clean and comfortable. The hotel provides basic services, such as breakfast and free water. (3) _____ the high price in August, most rooms are full. The hotel does not provide dinner. (4) _____, there is a restaurant across the street. (5) _____ some guests prefer to relax on the beach, others visit the local museum.",
+          "question": "(3) _____ the high price in August, most rooms are full.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10058,14 +10061,15 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 3). Opción correcta: D."
         },
         {
           "id": "T8_Q4",
           "number": 4,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 1)",
+          "readingText": "The Seaview Hotel is a small business near the beach. It is small, (1) _____ it receives many visitors every summer. (2) _____ the building is old, the rooms are clean and comfortable. The hotel provides basic services, such as breakfast and free water. (3) _____ the high price in August, most rooms are full. The hotel does not provide dinner. (4) _____, there is a restaurant across the street. (5) _____ some guests prefer to relax on the beach, others visit the local museum.",
+          "question": "(4) _____, there is a restaurant across the street.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10073,29 +10077,31 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 4). Opción correcta: B."
         },
         {
           "id": "T8_Q5",
           "number": 5,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 1)",
+          "readingText": "The Seaview Hotel is a small business near the beach. It is small, (1) _____ it receives many visitors every summer. (2) _____ the building is old, the rooms are clean and comfortable. The hotel provides basic services, such as breakfast and free water. (3) _____ the high price in August, most rooms are full. The hotel does not provide dinner. (4) _____, there is a restaurant across the street. (5) _____ some guests prefer to relax on the beach, others visit the local museum.",
+          "question": "(5) _____ some guests prefer to relax on the beach, others visit the local museum.",
           "options": {
             "A": "Despite",
             "B": "However",
             "C": "While",
-            "D": "Unlike TEXT 2 The college is developing a new online method for students. (6) _____ the old method, this one allows students to receive information immediately. (7) _____ some teachers were worried at first, they now consider it useful. One teacher learned to use it quickly (8) _____ having little experience with computers. Training takes time. (9) _____, the college believes the method will save time in the future. (10) _____ younger students often use it easily, some older students prefer printed information."
+            "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 5). Opción correcta: C."
         },
         {
           "id": "T8_Q6",
           "number": 6,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 2)",
+          "readingText": "The college is developing a new online method for students. (6) _____ the old method, this one allows students to receive information immediately. (7) _____ some teachers were worried at first, they now consider it useful. One teacher learned to use it quickly (8) _____ having little experience with computers. Training takes time. (9) _____, the college believes the method will save time in the future. (10) _____ younger students often use it easily, some older students prefer printed information.",
+          "question": "(6) _____ the old method, this one allows students to receive information immediately.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10103,14 +10109,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 6). Opción correcta: D."
         },
         {
           "id": "T8_Q7",
           "number": 7,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 2)",
+          "readingText": "The college is developing a new online method for students. (6) _____ the old method, this one allows students to receive information immediately. (7) _____ some teachers were worried at first, they now consider it useful. One teacher learned to use it quickly (8) _____ having little experience with computers. Training takes time. (9) _____, the college believes the method will save time in the future. (10) _____ younger students often use it easily, some older students prefer printed information.",
+          "question": "(7) _____ some teachers were worried at first, they now consider it useful.",
           "options": {
             "A": "Even though",
             "B": "Despite",
@@ -10118,14 +10125,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 7). Opción correcta: A."
         },
         {
           "id": "T8_Q8",
           "number": 8,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 2)",
+          "readingText": "The college is developing a new online method for students. (6) _____ the old method, this one allows students to receive information immediately. (7) _____ some teachers were worried at first, they now consider it useful. One teacher learned to use it quickly (8) _____ having little experience with computers. Training takes time. (9) _____, the college believes the method will save time in the future. (10) _____ younger students often use it easily, some older students prefer printed information.",
+          "question": "One teacher learned to use it quickly (8) _____ having little experience with computers.",
           "options": {
             "A": "Although",
             "B": "In spite of",
@@ -10133,14 +10141,15 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 8). Opción correcta: B."
         },
         {
           "id": "T8_Q9",
           "number": 9,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 2)",
+          "readingText": "The college is developing a new online method for students. (6) _____ the old method, this one allows students to receive information immediately. (7) _____ some teachers were worried at first, they now consider it useful. One teacher learned to use it quickly (8) _____ having little experience with computers. Training takes time. (9) _____, the college believes the method will save time in the future. (10) _____ younger students often use it easily, some older students prefer printed information.",
+          "question": "(9) _____, the college believes the method will save time in the future.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10148,29 +10157,31 @@ window.TEST_DATA = {
             "D": "Nevertheless"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 9). Opción correcta: D."
         },
         {
           "id": "T8_Q10",
           "number": 10,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 2)",
+          "readingText": "The college is developing a new online method for students. (6) _____ the old method, this one allows students to receive information immediately. (7) _____ some teachers were worried at first, they now consider it useful. One teacher learned to use it quickly (8) _____ having little experience with computers. Training takes time. (9) _____, the college believes the method will save time in the future. (10) _____ younger students often use it easily, some older students prefer printed information.",
+          "question": "(10) _____ younger students often use it easily, some older students prefer printed information.",
           "options": {
             "A": "Despite",
             "B": "However",
             "C": "Whereas",
-            "D": "Unlike TEXT 3 A new bus route connects a village with the capital. Many passengers travel this way every day. (11) _____ the fact that the journey is long, the service remains popular. The journey can be tiring. Many passengers enjoy it, (12) _____. The bus is old, (13) _____ it is reliable. Delays sometimes occur because of rain. (14) _____ the bad weather, drivers usually follow the same route. At the final stop there is a small museum. (15) _____, it receives many visitors every day."
+            "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 10). Opción correcta: C."
         },
         {
           "id": "T8_Q11",
           "number": 11,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 3)",
+          "readingText": "A new bus route connects a village with the capital. Many passengers travel this way every day. (11) _____ the fact that the journey is long, the service remains popular. The journey can be tiring. Many passengers enjoy it, (12) _____. The bus is old, (13) _____ it is reliable. Delays sometimes occur because of rain. (14) _____ the bad weather, drivers usually follow the same route. At the final stop there is a small museum. (15) _____, it receives many visitors every day.",
+          "question": "(11) _____ the fact that the journey is long, the service remains popular.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10178,14 +10189,15 @@ window.TEST_DATA = {
             "D": "But"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 11). Opción correcta: B."
         },
         {
           "id": "T8_Q12",
           "number": 12,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 3)",
+          "readingText": "A new bus route connects a village with the capital. Many passengers travel this way every day. (11) _____ the fact that the journey is long, the service remains popular. The journey can be tiring. Many passengers enjoy it, (12) _____. The bus is old, (13) _____ it is reliable. Delays sometimes occur because of rain. (14) _____ the bad weather, drivers usually follow the same route. At the final stop there is a small museum. (15) _____, it receives many visitors every day.",
+          "question": "Many passengers enjoy it, (12) _____.",
           "options": {
             "A": "though",
             "B": "despite",
@@ -10193,14 +10205,15 @@ window.TEST_DATA = {
             "D": "but"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 12). Opción correcta: A."
         },
         {
           "id": "T8_Q13",
           "number": 13,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 3)",
+          "readingText": "A new bus route connects a village with the capital. Many passengers travel this way every day. (11) _____ the fact that the journey is long, the service remains popular. The journey can be tiring. Many passengers enjoy it, (12) _____. The bus is old, (13) _____ it is reliable. Delays sometimes occur because of rain. (14) _____ the bad weather, drivers usually follow the same route. At the final stop there is a small museum. (15) _____, it receives many visitors every day.",
+          "question": "The bus is old, (13) _____ it is reliable.",
           "options": {
             "A": "Despite",
             "B": "However",
@@ -10208,14 +10221,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 13). Opción correcta: C."
         },
         {
           "id": "T8_Q14",
           "number": 14,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 3)",
+          "readingText": "A new bus route connects a village with the capital. Many passengers travel this way every day. (11) _____ the fact that the journey is long, the service remains popular. The journey can be tiring. Many passengers enjoy it, (12) _____. The bus is old, (13) _____ it is reliable. Delays sometimes occur because of rain. (14) _____ the bad weather, drivers usually follow the same route. At the final stop there is a small museum. (15) _____, it receives many visitors every day.",
+          "question": "(14) _____ the bad weather, drivers usually follow the same route.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10223,29 +10237,31 @@ window.TEST_DATA = {
             "D": "In spite of"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 14). Opción correcta: D."
         },
         {
           "id": "T8_Q15",
           "number": 15,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 3)",
+          "readingText": "A new bus route connects a village with the capital. Many passengers travel this way every day. (11) _____ the fact that the journey is long, the service remains popular. The journey can be tiring. Many passengers enjoy it, (12) _____. The bus is old, (13) _____ it is reliable. Delays sometimes occur because of rain. (14) _____ the bad weather, drivers usually follow the same route. At the final stop there is a small museum. (15) _____, it receives many visitors every day.",
+          "question": "(15) _____, it receives many visitors every day.",
           "options": {
             "A": "Although",
             "B": "However",
             "C": "Despite",
-            "D": "Unlike TEXT 4 A family business in town has grown steadily. (16) _____ it receives many orders, it remains a small company. (17) _____ the fact that costs are rising, the company does not plan to close its office. (18) _____ larger businesses, it provides free training for every worker. (19) _____ some workers prefer the office, others work from home. The new plan may cause extra work at first. (20) _____, most workers support it. Of course, the company will ask them for their opinion before it makes further changes."
+            "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 15). Opción correcta: B."
         },
         {
           "id": "T8_Q16",
           "number": 16,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 4)",
+          "readingText": "A family business in town has grown steadily. (16) _____ it receives many orders, it remains a small company. (17) _____ the fact that costs are rising, the company does not plan to close its office. (18) _____ larger businesses, it provides free training for every worker. (19) _____ some workers prefer the office, others work from home. The new plan may cause extra work at first. (20) _____, most workers support it. Of course, the company will ask them for their opinion before it makes further changes.",
+          "question": "(16) _____ it receives many orders, it remains a small company.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10253,14 +10269,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 16). Opción correcta: A."
         },
         {
           "id": "T8_Q17",
           "number": 17,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 4)",
+          "readingText": "A family business in town has grown steadily. (16) _____ it receives many orders, it remains a small company. (17) _____ the fact that costs are rising, the company does not plan to close its office. (18) _____ larger businesses, it provides free training for every worker. (19) _____ some workers prefer the office, others work from home. The new plan may cause extra work at first. (20) _____, most workers support it. Of course, the company will ask them for their opinion before it makes further changes.",
+          "question": "(17) _____ the fact that costs are rising, the company does not plan to close its office.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10268,14 +10285,15 @@ window.TEST_DATA = {
             "D": "In spite of"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 17). Opción correcta: D."
         },
         {
           "id": "T8_Q18",
           "number": 18,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 4)",
+          "readingText": "A family business in town has grown steadily. (16) _____ it receives many orders, it remains a small company. (17) _____ the fact that costs are rising, the company does not plan to close its office. (18) _____ larger businesses, it provides free training for every worker. (19) _____ some workers prefer the office, others work from home. The new plan may cause extra work at first. (20) _____, most workers support it. Of course, the company will ask them for their opinion before it makes further changes.",
+          "question": "(18) _____ larger businesses, it provides free training for every worker.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10283,14 +10301,15 @@ window.TEST_DATA = {
             "D": "However"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 18). Opción correcta: C."
         },
         {
           "id": "T8_Q19",
           "number": 19,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 4)",
+          "readingText": "A family business in town has grown steadily. (16) _____ it receives many orders, it remains a small company. (17) _____ the fact that costs are rising, the company does not plan to close its office. (18) _____ larger businesses, it provides free training for every worker. (19) _____ some workers prefer the office, others work from home. The new plan may cause extra work at first. (20) _____, most workers support it. Of course, the company will ask them for their opinion before it makes further changes.",
+          "question": "(19) _____ some workers prefer the office, others work from home.",
           "options": {
             "A": "While",
             "B": "Despite",
@@ -10298,29 +10317,31 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 19). Opción correcta: A."
         },
         {
           "id": "T8_Q20",
           "number": 20,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 4)",
+          "readingText": "A family business in town has grown steadily. (16) _____ it receives many orders, it remains a small company. (17) _____ the fact that costs are rising, the company does not plan to close its office. (18) _____ larger businesses, it provides free training for every worker. (19) _____ some workers prefer the office, others work from home. The new plan may cause extra work at first. (20) _____, most workers support it. Of course, the company will ask them for their opinion before it makes further changes.",
+          "question": "(20) _____, most workers support it.",
           "options": {
             "A": "Although",
             "B": "Nevertheless",
             "C": "Despite",
-            "D": "But TEXT 5 The town market has changed a lot. It now has a modern restaurant, (21) _____ the old food stalls remain popular. (22) _____ the restaurant is small, it provides meals for many people every day. Local farms produce fruit and vegetables for the market. (23) _____ the long wait at lunchtime, many people return. (24) _____ some people prefer coffee, others ask for water or tea. The food is simple. (25) _____, many visitors consider the restaurant one of the best places to relax after shopping. The menu includes local dishes as well as a few international choices."
+            "D": "But"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 20). Opción correcta: B."
         },
         {
           "id": "T8_Q21",
           "number": 21,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 5)",
+          "readingText": "The town market has changed a lot. It now has a modern restaurant, (21) _____ the old food stalls remain popular. (22) _____ the restaurant is small, it provides meals for many people every day. Local farms produce fruit and vegetables for the market. (23) _____ the long wait at lunchtime, many people return. (24) _____ some people prefer coffee, others ask for water or tea. The food is simple. (25) _____, many visitors consider the restaurant one of the best places to relax after shopping. The menu includes local dishes as well as a few international choices.",
+          "question": "It now has a modern restaurant, (21) _____ the old food stalls remain popular.",
           "options": {
             "A": "Despite",
             "B": "However",
@@ -10328,14 +10349,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 21). Opción correcta: C."
         },
         {
           "id": "T8_Q22",
           "number": 22,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 5)",
+          "readingText": "The town market has changed a lot. It now has a modern restaurant, (21) _____ the old food stalls remain popular. (22) _____ the restaurant is small, it provides meals for many people every day. Local farms produce fruit and vegetables for the market. (23) _____ the long wait at lunchtime, many people return. (24) _____ some people prefer coffee, others ask for water or tea. The food is simple. (25) _____, many visitors consider the restaurant one of the best places to relax after shopping. The menu includes local dishes as well as a few international choices.",
+          "question": "(22) _____ the restaurant is small, it provides meals for many people every day.",
           "options": {
             "A": "Even though",
             "B": "Despite",
@@ -10343,14 +10365,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 22). Opción correcta: A."
         },
         {
           "id": "T8_Q23",
           "number": 23,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 5)",
+          "readingText": "The town market has changed a lot. It now has a modern restaurant, (21) _____ the old food stalls remain popular. (22) _____ the restaurant is small, it provides meals for many people every day. Local farms produce fruit and vegetables for the market. (23) _____ the long wait at lunchtime, many people return. (24) _____ some people prefer coffee, others ask for water or tea. The food is simple. (25) _____, many visitors consider the restaurant one of the best places to relax after shopping. The menu includes local dishes as well as a few international choices.",
+          "question": "(23) _____ the long wait at lunchtime, many people return.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10358,14 +10381,15 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 23). Opción correcta: D."
         },
         {
           "id": "T8_Q24",
           "number": 24,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 5)",
+          "readingText": "The town market has changed a lot. It now has a modern restaurant, (21) _____ the old food stalls remain popular. (22) _____ the restaurant is small, it provides meals for many people every day. Local farms produce fruit and vegetables for the market. (23) _____ the long wait at lunchtime, many people return. (24) _____ some people prefer coffee, others ask for water or tea. The food is simple. (25) _____, many visitors consider the restaurant one of the best places to relax after shopping. The menu includes local dishes as well as a few international choices.",
+          "question": "(24) _____ some people prefer coffee, others ask for water or tea.",
           "options": {
             "A": "Despite",
             "B": "Whereas",
@@ -10373,29 +10397,31 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 24). Opción correcta: B."
         },
         {
           "id": "T8_Q25",
           "number": 25,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 5)",
+          "readingText": "The town market has changed a lot. It now has a modern restaurant, (21) _____ the old food stalls remain popular. (22) _____ the restaurant is small, it provides meals for many people every day. Local farms produce fruit and vegetables for the market. (23) _____ the long wait at lunchtime, many people return. (24) _____ some people prefer coffee, others ask for water or tea. The food is simple. (25) _____, many visitors consider the restaurant one of the best places to relax after shopping. The menu includes local dishes as well as a few international choices.",
+          "question": "(25) _____, many visitors consider the restaurant one of the best places to relax after shopping.",
           "options": {
             "A": "However",
             "B": "Although",
             "C": "Despite",
-            "D": "Unlike TEXT 6 The town is trying to reduce energy use. A new plan will change the street lights so that they use less electricity. (26) _____ the cost, the company responsible for the work wants to continue. (27) _____ some residents worry about the change, experts say the new method will save energy. (28) _____ the old lights, the new ones turn off automatically when the street is empty. The work may affect several streets. (29) _____, it should finish quickly. (30) _____ some people prefer the old lights, others like the new method. In winter, work can stop due to heavy rain."
+            "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 25). Opción correcta: A."
         },
         {
           "id": "T8_Q26",
           "number": 26,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 6)",
+          "readingText": "The town is trying to reduce energy use. A new plan will change the street lights so that they use less electricity. (26) _____ the cost, the company responsible for the work wants to continue. (27) _____ some residents worry about the change, experts say the new method will save energy. (28) _____ the old lights, the new ones turn off automatically when the street is empty. The work may affect several streets. (29) _____, it should finish quickly. (30) _____ some people prefer the old lights, others like the new method. In winter, work can stop due to heavy rain.",
+          "question": "(26) _____ the cost, the company responsible for the work wants to continue.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10403,14 +10429,15 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 26). Opción correcta: C."
         },
         {
           "id": "T8_Q27",
           "number": 27,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 6)",
+          "readingText": "The town is trying to reduce energy use. A new plan will change the street lights so that they use less electricity. (26) _____ the cost, the company responsible for the work wants to continue. (27) _____ some residents worry about the change, experts say the new method will save energy. (28) _____ the old lights, the new ones turn off automatically when the street is empty. The work may affect several streets. (29) _____, it should finish quickly. (30) _____ some people prefer the old lights, others like the new method. In winter, work can stop due to heavy rain.",
+          "question": "(27) _____ some residents worry about the change, experts say the new method will save energy.",
           "options": {
             "A": "Despite",
             "B": "Although",
@@ -10418,14 +10445,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 27). Opción correcta: B."
         },
         {
           "id": "T8_Q28",
           "number": 28,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 6)",
+          "readingText": "The town is trying to reduce energy use. A new plan will change the street lights so that they use less electricity. (26) _____ the cost, the company responsible for the work wants to continue. (27) _____ some residents worry about the change, experts say the new method will save energy. (28) _____ the old lights, the new ones turn off automatically when the street is empty. The work may affect several streets. (29) _____, it should finish quickly. (30) _____ some people prefer the old lights, others like the new method. In winter, work can stop due to heavy rain.",
+          "question": "(28) _____ the old lights, the new ones turn off automatically when the street is empty.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10433,14 +10461,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 28). Opción correcta: D."
         },
         {
           "id": "T8_Q29",
           "number": 29,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 6)",
+          "readingText": "The town is trying to reduce energy use. A new plan will change the street lights so that they use less electricity. (26) _____ the cost, the company responsible for the work wants to continue. (27) _____ some residents worry about the change, experts say the new method will save energy. (28) _____ the old lights, the new ones turn off automatically when the street is empty. The work may affect several streets. (29) _____, it should finish quickly. (30) _____ some people prefer the old lights, others like the new method. In winter, work can stop due to heavy rain.",
+          "question": "(29) _____, it should finish quickly.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10448,29 +10477,31 @@ window.TEST_DATA = {
             "D": "But"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 29). Opción correcta: C."
         },
         {
           "id": "T8_Q30",
           "number": 30,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 6)",
+          "readingText": "The town is trying to reduce energy use. A new plan will change the street lights so that they use less electricity. (26) _____ the cost, the company responsible for the work wants to continue. (27) _____ some residents worry about the change, experts say the new method will save energy. (28) _____ the old lights, the new ones turn off automatically when the street is empty. The work may affect several streets. (29) _____, it should finish quickly. (30) _____ some people prefer the old lights, others like the new method. In winter, work can stop due to heavy rain.",
+          "question": "(30) _____ some people prefer the old lights, others like the new method.",
           "options": {
             "A": "While",
             "B": "Despite",
             "C": "However",
-            "D": "Unlike TEXT 7 A group of college students is developing a local-history activity. (31) _____ the fact that the activity involves a lot of work, they remain motivated. The team is small, (32) _____ it has enough people to finish the work. The instructions were difficult. They followed them carefully, (33) _____. (34) _____ receiving little help at the beginning, they finished the first part on time. They finished the final part later than planned. (35) _____, their teacher considers the result very good. For example, the activity includes pictures and information about the old market and museum. The students also ask local people questions and often discover new facts in the library."
+            "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 30). Opción correcta: A."
         },
         {
           "id": "T8_Q31",
           "number": 31,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 7)",
+          "readingText": "A group of college students is developing a local-history activity. (31) _____ the fact that the activity involves a lot of work, they remain motivated. The team is small, (32) _____ it has enough people to finish the work. The instructions were difficult. They followed them carefully, (33) _____. (34) _____ receiving little help at the beginning, they finished the first part on time. They finished the final part later than planned. (35) _____, their teacher considers the result very good. For example, the activity includes pictures and information about the old market and museum. The students also ask local people questions and often discover new facts in the library.",
+          "question": "(31) _____ the fact that the activity involves a lot of work, they remain motivated.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10478,14 +10509,15 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 31). Opción correcta: D."
         },
         {
           "id": "T8_Q32",
           "number": 32,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 7)",
+          "readingText": "A group of college students is developing a local-history activity. (31) _____ the fact that the activity involves a lot of work, they remain motivated. The team is small, (32) _____ it has enough people to finish the work. The instructions were difficult. They followed them carefully, (33) _____. (34) _____ receiving little help at the beginning, they finished the first part on time. They finished the final part later than planned. (35) _____, their teacher considers the result very good. For example, the activity includes pictures and information about the old market and museum. The students also ask local people questions and often discover new facts in the library.",
+          "question": "The team is small, (32) _____ it has enough people to finish the work.",
           "options": {
             "A": "Despite",
             "B": "but",
@@ -10493,14 +10525,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 32). Opción correcta: B."
         },
         {
           "id": "T8_Q33",
           "number": 33,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 7)",
+          "readingText": "A group of college students is developing a local-history activity. (31) _____ the fact that the activity involves a lot of work, they remain motivated. The team is small, (32) _____ it has enough people to finish the work. The instructions were difficult. They followed them carefully, (33) _____. (34) _____ receiving little help at the beginning, they finished the first part on time. They finished the final part later than planned. (35) _____, their teacher considers the result very good. For example, the activity includes pictures and information about the old market and museum. The students also ask local people questions and often discover new facts in the library.",
+          "question": "They followed them carefully, (33) _____.",
           "options": {
             "A": "though",
             "B": "despite",
@@ -10508,14 +10541,15 @@ window.TEST_DATA = {
             "D": "but"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 33). Opción correcta: A."
         },
         {
           "id": "T8_Q34",
           "number": 34,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 7)",
+          "readingText": "A group of college students is developing a local-history activity. (31) _____ the fact that the activity involves a lot of work, they remain motivated. The team is small, (32) _____ it has enough people to finish the work. The instructions were difficult. They followed them carefully, (33) _____. (34) _____ receiving little help at the beginning, they finished the first part on time. They finished the final part later than planned. (35) _____, their teacher considers the result very good. For example, the activity includes pictures and information about the old market and museum. The students also ask local people questions and often discover new facts in the library.",
+          "question": "(34) _____ receiving little help at the beginning, they finished the first part on time.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10523,29 +10557,31 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 34). Opción correcta: C."
         },
         {
           "id": "T8_Q35",
           "number": 35,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 7)",
+          "readingText": "A group of college students is developing a local-history activity. (31) _____ the fact that the activity involves a lot of work, they remain motivated. The team is small, (32) _____ it has enough people to finish the work. The instructions were difficult. They followed them carefully, (33) _____. (34) _____ receiving little help at the beginning, they finished the first part on time. They finished the final part later than planned. (35) _____, their teacher considers the result very good. For example, the activity includes pictures and information about the old market and museum. The students also ask local people questions and often discover new facts in the library.",
+          "question": "(35) _____, their teacher considers the result very good.",
           "options": {
             "A": "Although",
             "B": "However",
             "C": "Despite",
-            "D": "Unlike TEXT 8 The new bus service connects the village with the capital. (36) _____ some passengers prefer the early bus, others travel in the afternoon. (37) _____ leaving the village early, the first bus sometimes arrives late because of traffic. (38) _____ the route passes through a mountain area, the road is usually easy to follow. (39) _____ the old bus, the new one is quiet and comfortable. (40) _____ the journey costs a little more, passengers like the service because it saves time. The bus moves slowly through the narrow streets, but it is faster on the main road."
+            "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 35). Opción correcta: B."
         },
         {
           "id": "T8_Q36",
           "number": 36,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 8)",
+          "readingText": "The new bus service connects the village with the capital. (36) _____ some passengers prefer the early bus, others travel in the afternoon. (37) _____ leaving the village early, the first bus sometimes arrives late because of traffic. (38) _____ the route passes through a mountain area, the road is usually easy to follow. (39) _____ the old bus, the new one is quiet and comfortable. (40) _____ the journey costs a little more, passengers like the service because it saves time. The bus moves slowly through the narrow streets, but it is faster on the main road.",
+          "question": "(36) _____ some passengers prefer the early bus, others travel in the afternoon.",
           "options": {
             "A": "Despite",
             "B": "However",
@@ -10553,14 +10589,15 @@ window.TEST_DATA = {
             "D": "Whereas"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 36). Opción correcta: D."
         },
         {
           "id": "T8_Q37",
           "number": 37,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 8)",
+          "readingText": "The new bus service connects the village with the capital. (36) _____ some passengers prefer the early bus, others travel in the afternoon. (37) _____ leaving the village early, the first bus sometimes arrives late because of traffic. (38) _____ the route passes through a mountain area, the road is usually easy to follow. (39) _____ the old bus, the new one is quiet and comfortable. (40) _____ the journey costs a little more, passengers like the service because it saves time. The bus moves slowly through the narrow streets, but it is faster on the main road.",
+          "question": "(37) _____ leaving the village early, the first bus sometimes arrives late because of traffic.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10568,14 +10605,15 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 37). Opción correcta: C."
         },
         {
           "id": "T8_Q38",
           "number": 38,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 8)",
+          "readingText": "The new bus service connects the village with the capital. (36) _____ some passengers prefer the early bus, others travel in the afternoon. (37) _____ leaving the village early, the first bus sometimes arrives late because of traffic. (38) _____ the route passes through a mountain area, the road is usually easy to follow. (39) _____ the old bus, the new one is quiet and comfortable. (40) _____ the journey costs a little more, passengers like the service because it saves time. The bus moves slowly through the narrow streets, but it is faster on the main road.",
+          "question": "(38) _____ the route passes through a mountain area, the road is usually easy to follow.",
           "options": {
             "A": "Although",
             "B": "Despite",
@@ -10583,14 +10621,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 38). Opción correcta: A."
         },
         {
           "id": "T8_Q39",
           "number": 39,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 8)",
+          "readingText": "The new bus service connects the village with the capital. (36) _____ some passengers prefer the early bus, others travel in the afternoon. (37) _____ leaving the village early, the first bus sometimes arrives late because of traffic. (38) _____ the route passes through a mountain area, the road is usually easy to follow. (39) _____ the old bus, the new one is quiet and comfortable. (40) _____ the journey costs a little more, passengers like the service because it saves time. The bus moves slowly through the narrow streets, but it is faster on the main road.",
+          "question": "(39) _____ the old bus, the new one is quiet and comfortable.",
           "options": {
             "A": "Although",
             "B": "Unlike",
@@ -10598,29 +10637,31 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 39). Opción correcta: B."
         },
         {
           "id": "T8_Q40",
           "number": 40,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 8)",
+          "readingText": "The new bus service connects the village with the capital. (36) _____ some passengers prefer the early bus, others travel in the afternoon. (37) _____ leaving the village early, the first bus sometimes arrives late because of traffic. (38) _____ the route passes through a mountain area, the road is usually easy to follow. (39) _____ the old bus, the new one is quiet and comfortable. (40) _____ the journey costs a little more, passengers like the service because it saves time. The bus moves slowly through the narrow streets, but it is faster on the main road.",
+          "question": "(40) _____ the journey costs a little more, passengers like the service because it saves time.",
           "options": {
             "A": "Despite",
             "B": "However",
             "C": "Unlike",
-            "D": "Even though TEXT 9 Laura loves films, (41) _____ her brother Daniel prefers sports. Their television is old. (42) _____, it still works well. (43) _____ Laura considers television relaxing, Daniel prefers reading in another room. (44) _____ the fact that the family has little free time during the week, they watch something together every Friday. They rarely agree on which film to choose. (45) _____, they usually have a good time together. Their dog often sits beside them."
+            "D": "Even though"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 40). Opción correcta: D."
         },
         {
           "id": "T8_Q41",
           "number": 41,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 9)",
+          "readingText": "Laura loves films, (41) _____ her brother Daniel prefers sports. Their television is old. (42) _____, it still works well. (43) _____ Laura considers television relaxing, Daniel prefers reading in another room. (44) _____ the fact that the family has little free time during the week, they watch something together every Friday. They rarely agree on which film to choose. (45) _____, they usually have a good time together. Their dog often sits beside them.",
+          "question": "Laura loves films, (41) _____ her brother Daniel prefers sports.",
           "options": {
             "A": "but",
             "B": "Despite",
@@ -10628,14 +10669,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 41). Opción correcta: A."
         },
         {
           "id": "T8_Q42",
           "number": 42,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 9)",
+          "readingText": "Laura loves films, (41) _____ her brother Daniel prefers sports. Their television is old. (42) _____, it still works well. (43) _____ Laura considers television relaxing, Daniel prefers reading in another room. (44) _____ the fact that the family has little free time during the week, they watch something together every Friday. They rarely agree on which film to choose. (45) _____, they usually have a good time together. Their dog often sits beside them.",
+          "question": "(42) _____, it still works well.",
           "options": {
             "A": "Although",
             "B": "Nevertheless",
@@ -10643,14 +10685,15 @@ window.TEST_DATA = {
             "D": "But"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 42). Opción correcta: B."
         },
         {
           "id": "T8_Q43",
           "number": 43,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 9)",
+          "readingText": "Laura loves films, (41) _____ her brother Daniel prefers sports. Their television is old. (42) _____, it still works well. (43) _____ Laura considers television relaxing, Daniel prefers reading in another room. (44) _____ the fact that the family has little free time during the week, they watch something together every Friday. They rarely agree on which film to choose. (45) _____, they usually have a good time together. Their dog often sits beside them.",
+          "question": "(43) _____ Laura considers television relaxing, Daniel prefers reading in another room.",
           "options": {
             "A": "Despite",
             "B": "However",
@@ -10658,14 +10701,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 43). Opción correcta: C."
         },
         {
           "id": "T8_Q44",
           "number": 44,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 9)",
+          "readingText": "Laura loves films, (41) _____ her brother Daniel prefers sports. Their television is old. (42) _____, it still works well. (43) _____ Laura considers television relaxing, Daniel prefers reading in another room. (44) _____ the fact that the family has little free time during the week, they watch something together every Friday. They rarely agree on which film to choose. (45) _____, they usually have a good time together. Their dog often sits beside them.",
+          "question": "(44) _____ the fact that the family has little free time during the week, they watch something together every Friday.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10673,29 +10717,31 @@ window.TEST_DATA = {
             "D": "In spite of"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 44). Opción correcta: D."
         },
         {
           "id": "T8_Q45",
           "number": 45,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 9)",
+          "readingText": "Laura loves films, (41) _____ her brother Daniel prefers sports. Their television is old. (42) _____, it still works well. (43) _____ Laura considers television relaxing, Daniel prefers reading in another room. (44) _____ the fact that the family has little free time during the week, they watch something together every Friday. They rarely agree on which film to choose. (45) _____, they usually have a good time together. Their dog often sits beside them.",
+          "question": "(45) _____, they usually have a good time together.",
           "options": {
             "A": "Although",
             "B": "However",
             "C": "Despite",
-            "D": "Unlike TEXT 10 A small company is developing a new product for the market. (46) _____ the high cost, the company continues with the work. (47) _____ the first model had several problems, the team did not stop working. (48) _____ the previous version, the new product uses less energy. (49) _____ the old method was difficult to use, the new one is simple and clear. Some people consider the product expensive. They like the design, (50) _____. The company hopes the product will develop into an important part of its business."
+            "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 45). Opción correcta: B."
         },
         {
           "id": "T8_Q46",
           "number": 46,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 10)",
+          "readingText": "A small company is developing a new product for the market. (46) _____ the high cost, the company continues with the work. (47) _____ the first model had several problems, the team did not stop working. (48) _____ the previous version, the new product uses less energy. (49) _____ the old method was difficult to use, the new one is simple and clear. Some people consider the product expensive. They like the design, (50) _____. The company hopes the product will develop into an important part of its business.",
+          "question": "(46) _____ the high cost, the company continues with the work.",
           "options": {
             "A": "Although",
             "B": "However",
@@ -10703,14 +10749,15 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 46). Opción correcta: C."
         },
         {
           "id": "T8_Q47",
           "number": 47,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 10)",
+          "readingText": "A small company is developing a new product for the market. (46) _____ the high cost, the company continues with the work. (47) _____ the first model had several problems, the team did not stop working. (48) _____ the previous version, the new product uses less energy. (49) _____ the old method was difficult to use, the new one is simple and clear. Some people consider the product expensive. They like the design, (50) _____. The company hopes the product will develop into an important part of its business.",
+          "question": "(47) _____ the first model had several problems, the team did not stop working.",
           "options": {
             "A": "Despite",
             "B": "However",
@@ -10718,14 +10765,15 @@ window.TEST_DATA = {
             "D": "Although"
           },
           "answer": "D",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: D."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 47). Opción correcta: D."
         },
         {
           "id": "T8_Q48",
           "number": 48,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 10)",
+          "readingText": "A small company is developing a new product for the market. (46) _____ the high cost, the company continues with the work. (47) _____ the first model had several problems, the team did not stop working. (48) _____ the previous version, the new product uses less energy. (49) _____ the old method was difficult to use, the new one is simple and clear. Some people consider the product expensive. They like the design, (50) _____. The company hopes the product will develop into an important part of its business.",
+          "question": "(48) _____ the previous version, the new product uses less energy.",
           "options": {
             "A": "Unlike",
             "B": "Although",
@@ -10733,14 +10781,15 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "A",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: A."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 48). Opción correcta: A."
         },
         {
           "id": "T8_Q49",
           "number": 49,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 10)",
+          "readingText": "A small company is developing a new product for the market. (46) _____ the high cost, the company continues with the work. (47) _____ the first model had several problems, the team did not stop working. (48) _____ the previous version, the new product uses less energy. (49) _____ the old method was difficult to use, the new one is simple and clear. Some people consider the product expensive. They like the design, (50) _____. The company hopes the product will develop into an important part of its business.",
+          "question": "(49) _____ the old method was difficult to use, the new one is simple and clear.",
           "options": {
             "A": "Despite",
             "B": "However",
@@ -10748,14 +10797,15 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: C."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 49). Opción correcta: C."
         },
         {
           "id": "T8_Q50",
           "number": 50,
           "type": "choice",
-          "section": "TEMA 8 : CONNECTORS OF CONTRAST",
-          "question": "",
+          "section": "Connectors of Contrast (Texto 10)",
+          "readingText": "A small company is developing a new product for the market. (46) _____ the high cost, the company continues with the work. (47) _____ the first model had several problems, the team did not stop working. (48) _____ the previous version, the new product uses less energy. (49) _____ the old method was difficult to use, the new one is simple and clear. Some people consider the product expensive. They like the design, (50) _____. The company hopes the product will develop into an important part of its business.",
+          "question": "They like the design, (50) _____.",
           "options": {
             "A": "despite",
             "B": "though",
@@ -10763,7 +10813,7 @@ window.TEST_DATA = {
             "D": "but"
           },
           "answer": "B",
-          "explanation": "TEMA 8 : CONNECTORS OF CONTRAST. Opción correcta: B."
+          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 50). Opción correcta: B."
         }
       ]
     }

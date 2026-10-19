@@ -68,9 +68,9 @@ def extract_text_from_pdf(pdf_path):
 
 def clean_text(t):
     t = t.replace('\r', ' ')
-    t = re.sub(r'Patronato en casa \| English with Niusan\s+©\s*\d+\s*Todos los derechos reservados\.\s*\d*', ' ', t)
-    t = re.sub(r'INGLÉS:\s*EJERCICIOS[^\n]*', ' ', t, flags=re.IGNORECASE)
-    t = re.sub(r'INGLÉS:\s*TEST BLOQUE 1[^\n]*', ' ', t, flags=re.IGNORECASE)
+    t = re.sub(r'Patronato en casa \| English with Niusan\s+[^\n]*\d*', ' ', t)
+    t = re.sub(r'INGL[^\n]*EJERCICIOS[^\n]*', ' ', t, flags=re.IGNORECASE)
+    t = re.sub(r'INGL[^\n]*TEST BLOQUE 1[^\n]*', ' ', t, flags=re.IGNORECASE)
     t = re.sub(r'PATRONATOENCASA\.COM[^\n]*', ' ', t, flags=re.IGNORECASE)
     t = re.sub(r'Elpatronatoencasa\.com[^\n]*', ' ', t, flags=re.IGNORECASE)
     return t
@@ -534,6 +534,79 @@ def parse_tema_6(pdf_path):
         "description": "Tiempos de futuro: Will, Be going to, Present Continuous con valor de futuro, Future Continuous y oraciones de tiempo (when, until, as soon as).",
         "questions": questions
     }
+
+def parse_tema_8(pdf_path):
+    raw_text = extract_text_from_pdf(pdf_path)
+    text = clean_text(raw_text)
+    answer_key = parse_answer_key(text)
+    
+    key_idx = text.find('ANSWER KEY')
+    if key_idx == -1:
+        key_idx = text.find('CLAVE DE RESPUESTAS')
+    text_before_key = text[:key_idx] if key_idx != -1 else text
+    
+    texts = re.split(r'TEXT\s+(\d+)', text_before_key)
+    questions = []
+    
+    for i in range(1, len(texts), 2):
+        t_num = int(texts[i])
+        content = texts[i+1].strip()
+        first_q_num = (t_num - 1) * 5 + 1
+        m_split = re.search(r'(?:^|\n)\s*' + str(first_q_num) + r'\.\s*', content)
+        if not m_split:
+            continue
+        passage_raw = content[:m_split.start()].strip()
+        passage = ' '.join(passage_raw.split())
+        
+        q_section = content[m_split.start():].strip()
+        q_pat = re.compile(r'(\d+)\.\s*a\)\s*(.*?)\s*b\)\s*(.*?)\s*c\)\s*(.*?)\s*d\)\s*(.*?)(?=\n\s*\d+\.|\Z)', re.DOTALL)
+        
+        sentences = re.split(r'(?<=[.!?])\s+', passage)
+        
+        for m in q_pat.finditer(q_section):
+            q_num = int(m.group(1))
+            opt_a = ' '.join(m.group(2).split())
+            opt_b = ' '.join(m.group(3).split())
+            opt_c = ' '.join(m.group(4).split())
+            opt_d = ' '.join(m.group(5).split())
+            
+            target_sentence = ''
+            for s in sentences:
+                if f'({q_num})' in s:
+                    target_sentence = s.strip()
+                    break
+            
+            if not target_sentence:
+                target_sentence = f'Completa el hueco ({q_num}) del Texto {t_num}:'
+                
+            ans = answer_key.get(q_num, 'A')
+            questions.append({
+                'id': f'T8_Q{q_num}',
+                'number': q_num,
+                'type': 'choice',
+                'section': f'Connectors of Contrast (Texto {t_num})',
+                'readingText': passage,
+                'question': target_sentence,
+                'options': {
+                    'A': opt_a,
+                    'B': opt_b,
+                    'C': opt_c,
+                    'D': opt_d
+                },
+                'answer': ans,
+                'explanation': f'Tema 8: Connectors of Contrast (Texto {t_num}, hueco {q_num}). Opción correcta: {ans}.'
+            })
+            
+    return {
+        'id': 'tema_8',
+        'title': 'Tema 8: Conectores de Contraste (Connectors of Contrast)',
+        'badge': 'Tema 8',
+        'blockId': 'bloque_2',
+        'blockName': 'Bloque 2',
+        'description': 'Conectores de contraste en inglés: although, even though, though, despite, in spite of, however, nevertheless, while, whereas, unlike y but (10 textos contextualizados con 50 preguntas).',
+        'questions': questions
+    }
+
 
 # ==========================================
 # PARSERS: REPASO BLOQUE 1
@@ -1292,6 +1365,14 @@ def main():
             t_obj["blockName"] = "Bloque 2"
             topics.append(t_obj)
             processed_paths.add(full_path)
+        elif 'ejercicio tema 8.pdf' in f_lower or ('tema 8' in f_lower and 'ejercicio' in f_lower):
+            print(f"-> Procesando Tema 8: {f}")
+            t_obj = parse_tema_8(full_path)
+            t_obj["blockId"] = "bloque_2"
+            t_obj["blockName"] = "Bloque 2"
+            topics.append(t_obj)
+            processed_paths.add(full_path)
+
             
     # 2. REPASO BLOQUE 1
     for f, full_path in all_pdfs:
