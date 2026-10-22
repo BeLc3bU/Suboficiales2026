@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-19 16:49:24
- * Total preguntas: 728
+ * Fecha: 2026-10-22 16:30:39
+ * Total preguntas: 763
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-19 16:49:24",
-    "totalTopics": 16,
-    "totalQuestions": 728
+    "generatedAt": "2026-10-22 16:30:39",
+    "totalTopics": 17,
+    "totalQuestions": 763
   },
   "topics": [
     {
@@ -10814,6 +10814,541 @@ window.TEST_DATA = {
           },
           "answer": "B",
           "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 50). Opción correcta: B."
+        }
+      ]
+    },
+    {
+      "id": "tema_9",
+      "title": "Tema 9: Subjets and Objets Questions",
+      "badge": "Tema 9",
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2",
+      "description": "Ejercicios tipo test del Tema 9: Subjets and Objets Questions extraídos de Ejercicio Tema 9.pdf.",
+      "questions": [
+        {
+          "id": "T9_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody broke the window. ____ broke the window?",
+          "options": {
+            "A": "What",
+            "B": "Who",
+            "C": "Which",
+            "D": "Whose"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Something fell off the shelf. ____ fell off the shelf?",
+          "options": {
+            "A": "Who",
+            "B": "Which",
+            "C": "Whose",
+            "D": "What"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody wants to see you. ____ wants to see you?",
+          "options": {
+            "A": "Who",
+            "B": "What",
+            "C": "Whom",
+            "D": "Which"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody took my umbrella. ____ took my umbrella?",
+          "options": {
+            "A": "What",
+            "B": "Whose",
+            "C": "Who",
+            "D": "Which"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Something made me ill. ____ made me ill?",
+          "options": {
+            "A": "Who",
+            "B": "What",
+            "C": "Whose",
+            "D": "Which"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody is coming. ____ is coming?",
+          "options": {
+            "A": "What",
+            "B": "Whom",
+            "C": "Which",
+            "D": "Who"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I bought something. ____?",
+          "options": {
+            "A": "What did you buy",
+            "B": "What you bought",
+            "C": "What did you bought",
+            "D": "What bought you"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody lives in this town. ____ in this town?",
+          "options": {
+            "A": "Who does live",
+            "B": "Who do live",
+            "C": "Who lives",
+            "D": "Who living"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I phoned somebody. Who did you ____?",
+          "options": {
+            "A": "phoned",
+            "B": "phone",
+            "C": "phones",
+            "D": "phoning"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Something happened last night. ____ last night?",
+          "options": {
+            "A": "What did happen",
+            "B": "What did happened",
+            "C": "What was happen",
+            "D": "What happened"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody knows the answer. ____ the answer?",
+          "options": {
+            "A": "Who knows",
+            "B": "Who does knows",
+            "C": "Who know",
+            "D": "Who does know"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody did the washing-up. ____ the washing-up?",
+          "options": {
+            "A": "Who does",
+            "B": "Who did",
+            "C": "Who did do",
+            "D": "Who was"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Jill did something. ____?",
+          "options": {
+            "A": "What Jill did",
+            "B": "What did Jill did",
+            "C": "What did Jill do",
+            "D": "What Jill do"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Something woke me up. ____ me up?",
+          "options": {
+            "A": "Who did wake",
+            "B": "What did woke",
+            "C": "What did wake",
+            "D": "What woke"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody saw the accident. ____ the accident?",
+          "options": {
+            "A": "Who saw",
+            "B": "Who did see",
+            "C": "Who did saw",
+            "D": "Who seeing"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I saw somebody. ____?",
+          "options": {
+            "A": "Who you saw",
+            "B": "Who saw you",
+            "C": "Who did you see",
+            "D": "Who did you saw"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Somebody has got my pen. ____ my pen?",
+          "options": {
+            "A": "Who does have",
+            "B": "Who has got",
+            "C": "Who did get",
+            "D": "Who have got"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "This word means something. ____?",
+          "options": {
+            "A": "What means this word",
+            "B": "What this word means",
+            "C": "What does this word means",
+            "D": "What does this word mean"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "¿Qué estás leyendo? — ____?",
+          "options": {
+            "A": "What are you reading",
+            "B": "What you are reading",
+            "C": "What do you reading",
+            "D": "What reading are you"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "¿A quién viste en la fiesta? — ____?",
+          "options": {
+            "A": "Who saw you at the party",
+            "B": "Who you saw at the party",
+            "C": "Who did you see at the party",
+            "D": "Who did you saw at the party"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "¿Qué hiciste el domingo? — ____?",
+          "options": {
+            "A": "What you did on Sunday",
+            "B": "What did you do on Sunday",
+            "C": "What did you did on Sunday",
+            "D": "What do you did on Sunday"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "¿Qué dijo la profesora? — ____?",
+          "options": {
+            "A": "What the teacher said",
+            "B": "What did say the teacher",
+            "C": "What did the teacher said",
+            "D": "What did the teacher say"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "¿A quién visitaste ayer? — ____?",
+          "options": {
+            "A": "Who visited you yesterday",
+            "B": "Who you visited yesterday",
+            "C": "Who did you visit yesterday",
+            "D": "Who did you visited yesterday"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "¿Qué pasó el viernes? — ____?",
+          "options": {
+            "A": "What happened on Friday",
+            "B": "What did happen on Friday",
+            "C": "What did happened on Friday",
+            "D": "What was happen on Friday"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "¿Quién quiere hablar conmigo? — ____?",
+          "options": {
+            "A": "Who does want to talk to me",
+            "B": "Who wants to talk to me",
+            "C": "Who want to talk to me",
+            "D": "Who does wants to talk to me"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The letter is from John. Who is the letter ____?",
+          "options": {
+            "A": "to",
+            "B": "with",
+            "C": "about",
+            "D": "from"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I am looking for a new job. What are you looking ____?",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "with",
+            "D": "about"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I went to the cinema with Sarah. ____?",
+          "options": {
+            "A": "Who did you go with to the cinema",
+            "B": "Who went you to the cinema with",
+            "C": "Who did you go to the cinema with",
+            "D": "Who did you went to the cinema with"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The film was about a famous artist. What was the film ____?",
+          "options": {
+            "A": "with",
+            "B": "about",
+            "C": "for",
+            "D": "to"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I gave the money to Peter. ____?",
+          "options": {
+            "A": "Who gave you the money to",
+            "B": "Who did give you the money",
+            "C": "Who did you gave the money to",
+            "D": "Who did you give the money to"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The book was written by George Orwell. Who was the book written ____?",
+          "options": {
+            "A": "by",
+            "B": "from",
+            "C": "with",
+            "D": "for"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Tom's father is in St Mary's Hospital. Which hospital is he ____?",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "to",
+            "D": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "We stayed at the Grand Hotel. ____?",
+          "options": {
+            "A": "Which hotel you stayed at",
+            "B": "Which hotel did you stayed at",
+            "C": "Which did hotel you stay at",
+            "D": "Which hotel did you stay at"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Jack plays for United. Which team does Jack play ____?",
+          "options": {
+            "A": "for",
+            "B": "with",
+            "C": "to",
+            "D": "about"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I went to Central School in this town. ____?",
+          "options": {
+            "A": "Which school went you to",
+            "B": "Which school you went to",
+            "C": "Which school did you go to",
+            "D": "Which did school you go to"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
         }
       ]
     }
