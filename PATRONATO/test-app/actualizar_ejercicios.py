@@ -1251,33 +1251,47 @@ def parse_generic_pdf(pdf_path, theory_titles=None):
     badge = f'Tema {theme_num}' if theme_num else 'Test'
 
     questions = []
-    pattern = re.compile(r'(\d+)\.\s*(.*?)\s*a\)\s*(.*?)\s*b\)\s*(.*?)\s*c\)\s*(.*?)\s*d\)\s*(.*?)(?=\n\s*\d+\.|\n\s*ANSWER KEY|\Z)', re.DOTALL)
     q_section = text[:text.find("ANSWER KEY")] if "ANSWER KEY" in text else text
 
-    for m in pattern.finditer(q_section):
-        q_num = int(m.group(1))
-        prompt = ' '.join(m.group(2).split())
-        opt_a = ' '.join(m.group(3).split())
-        opt_b = ' '.join(m.group(4).split())
-        opt_c = ' '.join(m.group(5).split())
-        opt_d = ' '.join(m.group(6).split())
-        ans = answer_key.get(q_num, "A")
-        q_id_prefix = f'T{theme_num}' if theme_num else topic_id
-        questions.append({
-            "id": f"{q_id_prefix}_Q{q_num}",
-            "number": q_num,
-            "type": "choice",
-            "section": title,
-            "question": prompt,
-            "options": {
-                "A": opt_a,
-                "B": opt_b,
-                "C": opt_c,
-                "D": opt_d
-            },
-            "answer": ans,
-            "explanation": f"{title}. Opción correcta: {ans}."
-        })
+    # Separar por bloques numerados (ej: "1. ...", "2. ...") para evitar backtracking catastrófico
+    # y soportar preguntas tanto de 3 opciones (a, b, c) como de 4 opciones (a, b, c, d)
+    blocks = re.split(r'\n\s*(?=\d+\.\s*)', '\n' + q_section)
+    for b in blocks:
+        b = b.strip()
+        if not b:
+            continue
+        m_num = re.match(r'^(\d+)\.\s*(.*)', b, re.DOTALL)
+        if not m_num:
+            continue
+        q_num = int(m_num.group(1))
+        body = m_num.group(2)
+
+        m_opt = re.search(r'^(.*?)\s*a\)\s*(.*?)\s*b\)\s*(.*?)(?:\s*c\)\s*(.*?))?(?:\s*d\)\s*(.*?))?$', body, re.DOTALL)
+        if m_opt:
+            prompt = ' '.join(m_opt.group(1).split())
+            opt_a = ' '.join(m_opt.group(2).split())
+            opt_b = ' '.join(m_opt.group(3).split())
+            opt_c = ' '.join((m_opt.group(4) or '').split())
+            opt_d = ' '.join((m_opt.group(5) or '').split())
+
+            opts = {"A": opt_a, "B": opt_b}
+            if opt_c:
+                opts["C"] = opt_c
+            if opt_d:
+                opts["D"] = opt_d
+
+            ans = answer_key.get(q_num, "A")
+            q_id_prefix = f'T{theme_num}' if theme_num else topic_id
+            questions.append({
+                "id": f"{q_id_prefix}_Q{q_num}",
+                "number": q_num,
+                "type": "choice",
+                "section": title,
+                "question": prompt,
+                "options": opts,
+                "answer": ans,
+                "explanation": f"{title}. Opción correcta: {ans}."
+            })
 
     return {
         "id": topic_id,

@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-22 16:30:39
- * Total preguntas: 763
+ * Fecha: 2026-10-22 17:48:39
+ * Total preguntas: 852
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-22 16:30:39",
-    "totalTopics": 17,
-    "totalQuestions": 763
+    "generatedAt": "2026-10-22 17:48:39",
+    "totalTopics": 19,
+    "totalQuestions": 852
   },
   "topics": [
     {
@@ -10823,6 +10823,466 @@ window.TEST_DATA = {
       "badge": "Tema 9",
       "blockId": "bloque_2",
       "blockName": "Bloque 2",
+      "description": "Ejercicios tipo test del Tema 9: Subjets and Objets Questions extraídos de Ejercicio Tema 9 Extra.pdf.",
+      "questions": [
+        {
+          "id": "T9_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "A power surge shut down two computers during the night. _____ shut down the computers?",
+          "options": {
+            "A": "Who",
+            "B": "What",
+            "C": "Which",
+            "D": "Whose"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Nobody can find the emergency exit on the floor plan. Do you know where the emergency exit _____?",
+          "options": {
+            "A": "does",
+            "B": "be",
+            "C": "are",
+            "D": "is"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Nora found a wallet beside the photocopier this morning. What did Nora _____ beside the photocopier?",
+          "options": {
+            "A": "find",
+            "B": "found",
+            "C": "finding",
+            "D": "finds"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The documentary focused entirely on renewable energy. What _____ about?",
+          "options": {
+            "A": "did it",
+            "B": "it was",
+            "C": "was it",
+            "D": "it did"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Four employees helped organise the event, but Rosa made the final reservation. “_____?” “Rosa did.”",
+          "options": {
+            "A": "Who did make the final reservation",
+            "B": "Who made the final reservation",
+            "C": "Who did the final reservation make",
+            "D": "Who the final reservation made"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Daniel has recently moved to a coastal area. You have never been there. What is the area _____?",
+          "options": {
+            "A": "like",
+            "B": "how",
+            "C": "about",
+            "D": "as"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The alarm sounded twice and then suddenly stopped. The engineers still do not know why _____.",
+          "options": {
+            "A": "did it",
+            "B": "it stop",
+            "C": "stopped it",
+            "D": "it stopped"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "According to the security record, the night guard opened the main gate at 05:40. Who _____ the gate at 05:40?",
+          "options": {
+            "A": "did",
+            "B": "open",
+            "C": "opened",
+            "D": "was"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "I borrowed the charger from Andrés, not from Javier. Who did you borrow it _____?",
+          "options": {
+            "A": "to",
+            "B": "from",
+            "C": "with",
+            "D": "for"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "A technician saw smoke behind the backup generator just before the alarm started. “_____?” “Smoke behind the backup generator.”",
+          "options": {
+            "A": "What did the technician see before the alarm started",
+            "B": "What the technician saw before the alarm started",
+            "C": "What did the technician saw before the alarm started",
+            "D": "What saw the technician before the alarm started"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The notice gives the date of the inspection but not the starting time. Could you tell me _____?",
+          "options": {
+            "A": "when does the next inspection begin",
+            "B": "when begins the next inspection",
+            "C": "when does begin the next inspection",
+            "D": "when the next inspection begins"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Three roads lead to the village. The mountain road and the forest road are closed, but the coastal road remains open. _____ road remains open?",
+          "options": {
+            "A": "Who",
+            "B": "Whose",
+            "C": "Which",
+            "D": "How"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The workers normally need twenty minutes to load the vehicle. How long _____ take to load it?",
+          "options": {
+            "A": "it does",
+            "B": "does it",
+            "C": "is it",
+            "D": "it is"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The supplier may accept credit cards, but I am not certain. I need to know _____ the supplier accepts them.",
+          "options": {
+            "A": "whether",
+            "B": "what",
+            "C": "where",
+            "D": "whose"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Marta bought two replacement batteries at the market; she did not buy any tools. What did _____ at the market?",
+          "options": {
+            "A": "buy Marta",
+            "B": "Marta bought",
+            "C": "bought Marta",
+            "D": "Marta buy"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The equipment was ready and all the staff arrived on time, but heavy fog caused the final delay. “_____?” “Heavy fog.”",
+          "options": {
+            "A": "What did the final delay cause",
+            "B": "What the final delay caused",
+            "C": "What caused the final delay",
+            "D": "What did the final delay caused"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The committee considered four designs and eventually chose option C. Which option did _____?",
+          "options": {
+            "A": "chose they",
+            "B": "they choose",
+            "C": "they chose",
+            "D": "choose they"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The port is somewhere beyond the hotel, but I do not know the exact distance. Can you tell me how far the port _____ from here?",
+          "options": {
+            "A": "is",
+            "B": "does",
+            "C": "has",
+            "D": "be"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The mechanic says that replacing the filter normally requires about forty minutes. “_____?” “About forty minutes.”",
+          "options": {
+            "A": "How long it takes to replace the filter",
+            "B": "How long does take it to replace the filter",
+            "C": "How long does it takes to replace the filter",
+            "D": "How long does it take to replace the filter"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Several teams are available tomorrow, but only Team 3 will inspect the bridge. Which team _____ inspect the bridge tomorrow?",
+          "options": {
+            "A": "does",
+            "B": "is",
+            "C": "will",
+            "D": "did"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The driver is waiting for the mechanic, not for the manager. Who is the driver waiting _____?",
+          "options": {
+            "A": "about",
+            "B": "for",
+            "C": "with",
+            "D": "to"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The spare keys are somewhere in reception, but nobody has told me where _____ them.",
+          "options": {
+            "A": "they keep",
+            "B": "do they",
+            "C": "they keeps",
+            "D": "keep they"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The company invited the safety officer to the meeting but did not invite the regional manager. “_____?” “The safety officer.”",
+          "options": {
+            "A": "Who invited the safety officer to the meeting",
+            "B": "Who they invited to the meeting",
+            "C": "Who did they invited to the meeting",
+            "D": "Who did they invite to the meeting"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "Two units are working at the site. Unit A is measuring the damage, while Unit B is repairing the roof. Which unit _____ repairing the roof?",
+          "options": {
+            "A": "does",
+            "B": "are",
+            "C": "is",
+            "D": "did"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The organiser gave the spare passes to the security desk. Which desk did the organiser give the passes _____?",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "about",
+            "D": "with"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The opening hours are not shown on the notice. Could you tell me _____?",
+          "options": {
+            "A": "whether the clinic is open on Saturdays",
+            "B": "whether is the clinic open on Saturdays",
+            "C": "whether does the clinic open on Saturdays",
+            "D": "does the clinic open on Saturdays"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        },
+        {
+          "id": "T9_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The consultant spoke directly to the operations director yesterday. Who did the consultant _____?",
+          "options": {
+            "A": "to speak",
+            "B": "spoke to",
+            "C": "speak about",
+            "D": "speak to"
+          },
+          "answer": "D",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+        },
+        {
+          "id": "T9_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The access card disappeared from the reception desk. The camera shows that the receptionist took it. “_____?” “The receptionist did.”",
+          "options": {
+            "A": "Who did take the access card",
+            "B": "Who did the access card take",
+            "C": "Who took the access card",
+            "D": "Who the access card took"
+          },
+          "answer": "C",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        },
+        {
+          "id": "T9_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The replacement engine is extremely reliable according to the engineers. _____ reliable is it?",
+          "options": {
+            "A": "What",
+            "B": "How",
+            "C": "Which",
+            "D": "Who"
+          },
+          "answer": "B",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+        },
+        {
+          "id": "T9_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 9: Subjets and Objets Questions",
+          "question": "The parcel arrived without the sender's name. I do not know who _____ it.",
+          "options": {
+            "A": "sent",
+            "B": "did",
+            "C": "send",
+            "D": "sending"
+          },
+          "answer": "A",
+          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+        }
+      ]
+    },
+    {
+      "id": "tema_9",
+      "title": "Tema 9: Subjets and Objets Questions",
+      "badge": "Tema 9",
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2",
       "description": "Ejercicios tipo test del Tema 9: Subjets and Objets Questions extraídos de Ejercicio Tema 9.pdf.",
       "questions": [
         {
@@ -11349,6 +11809,842 @@ window.TEST_DATA = {
           },
           "answer": "C",
           "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "tema_10",
+      "title": "Tema 10: in on at extra",
+      "badge": "Tema 10",
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2",
+      "description": "Ejercicios tipo test del Tema 10: in on at extra extraídos de Ejercicio Tema 10.pdf.",
+      "questions": [
+        {
+          "id": "T10_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Helen is studying law _____ university.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Were there many people _____ the concert last night?",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "My house is at the end of the street _____ the left.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Who is that man _____ the photograph?",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Are your children _____ school?",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Tom is _____ his brother’s.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "How many pages are there _____ this book?",
+          "options": {
+            "A": "at",
+            "B": "on",
+            "C": "in"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "There is some tea _____ the shelf.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "There is some tea on the shelf _____ the cupboard.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Does your train stop _____ Lyon?",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Is Ken _____ the living room?",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "No, he is _____ the garden.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Rio de Janeiro is _____ the south-east coast of Brazil.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "My friend works _____ a chemist’s.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "My friend works at a chemist’s _____ the town centre.",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "They are staying _____ the Metropole Hotel.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "They are _____ Brighton.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Can you meet me _____ 2 o’clock?",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Kate doesn’t normally work _____ weekends.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "What time does the meeting start _____ Monday?",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I can normally get home from work _____ about half an hour.",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I can normally get home from work in about half an hour _____ Friday evenings.",
+          "options": {
+            "A": "at",
+            "B": "on",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Do you enjoy driving _____ night?",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I’m taking my driving test _____ 4.30.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I’m taking my driving test at 4.30 _____ July 3rd.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Don’t sit _____ the grass. It’s wet.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "What have you got _____ your bag?",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Look! There’s a man _____ the roof. What’s he doing?",
+          "options": {
+            "A": "at",
+            "B": "on",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "There are a lot of fish _____ this river.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Is the cinema near here? Yes, turn left _____ the traffic lights.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I usually do my shopping _____ the city centre.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Munich is a large city _____ the south of Germany.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "There is a mirror _____ the wall.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "There is a mirror on the wall _____ the living room.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Goodbye! See you _____ Friday.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Where were you _____ 28 February?",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I got up _____ 8 o’clock this morning.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I like getting up early _____ the morning.",
+          "options": {
+            "A": "at",
+            "B": "on",
+            "C": "in"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Did you go out _____ Tuesday?",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Do you often go out _____ the evening?",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I often go away _____ the weekend.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "We often go to the beach _____ summer.",
+          "options": {
+            "A": "at",
+            "B": "on",
+            "C": "in"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "George isn’t here _____ the moment.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Julia’s birthday is _____ January.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Do you work _____ Saturdays?",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "I like to look at the stars _____ night.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "The company started _____ 1969.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "My grandmother is _____ home.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "He will come here _____ a few hours.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "My sister was born _____ April 10th.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q51",
+          "number": 51,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "They go to church _____ Sunday.",
+          "options": {
+            "A": "at",
+            "B": "on",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q52",
+          "number": 52,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "The Eastwoods live _____ the country.",
+          "options": {
+            "A": "on",
+            "B": "in",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q53",
+          "number": 53,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "He was born _____ 1991.",
+          "options": {
+            "A": "at",
+            "B": "on",
+            "C": "in"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q54",
+          "number": 54,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "English is spoken _____ America.",
+          "options": {
+            "A": "in",
+            "B": "at",
+            "C": "on"
+          },
+          "answer": "A",
+          "explanation": "Tema 10: in on at extra. Opción correcta: A."
+        },
+        {
+          "id": "T10_Q55",
+          "number": 55,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Summer vacation begins _____ June 30th.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q56",
+          "number": 56,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "Our classes begin _____ 8.30.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q57",
+          "number": 57,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "We plan to go _____ a picnic next Saturday.",
+          "options": {
+            "A": "at",
+            "B": "in",
+            "C": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        },
+        {
+          "id": "T10_Q58",
+          "number": 58,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "He has appeared _____ TV many times.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 10: in on at extra. Opción correcta: B."
+        },
+        {
+          "id": "T10_Q59",
+          "number": 59,
+          "type": "choice",
+          "section": "Tema 10: in on at extra",
+          "question": "The children are waiting for the bus _____ the bus stop.",
+          "options": {
+            "A": "in",
+            "B": "on",
+            "C": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 10: in on at extra. Opción correcta: C."
         }
       ]
     }
