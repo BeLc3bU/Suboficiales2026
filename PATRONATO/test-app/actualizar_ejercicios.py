@@ -1221,7 +1221,7 @@ def detect_block_info(full_path):
             return f'bloque_{num}', f'Bloque {num}'
     return 'otros', 'Otros'
 
-def parse_generic_pdf(pdf_path, theory_titles=None):
+def parse_generic_pdf(pdf_path, theory_titles=None, existing_ids=None):
     filename = os.path.basename(pdf_path)
     raw_text = extract_text_from_pdf(pdf_path)
     text = clean_text(raw_text)
@@ -1231,27 +1231,68 @@ def parse_generic_pdf(pdf_path, theory_titles=None):
 
     m_theme = re.search(r'(?:tema\s*|ejercicios?\s*)(\d+)', filename, re.IGNORECASE)
     theme_num = int(m_theme.group(1)) if m_theme else None
+    is_extra = bool(re.search(r'extra', filename, re.IGNORECASE))
+
+    # Extraer subtítulo del encabezado si existe (ej. "TEMA 11 – PAST SIMPLE & CONTINUOUS")
+    header_subtitle = ''
+    if theme_num:
+        for line in raw_text.splitlines():
+            line = line.strip()
+            if re.search(rf'TEMA\s*{theme_num}\b', line, re.IGNORECASE):
+                sub = re.sub(rf'^.*?TEMA\s*{theme_num}\s*[-–:\.]*\s*', '', line, flags=re.IGNORECASE).strip()
+                sub = re.split(r'Choose|Pon|\n', sub, flags=re.IGNORECASE)[0].strip()
+                if sub:
+                    header_subtitle = sub
+                    break
 
     # Título inteligente
-    title = ''
-    if theme_num and theory_titles and theme_num in theory_titles:
+    if theme_num and theory_titles and theme_num in theory_titles and not is_extra:
         title = f'Tema {theme_num}: {theory_titles[theme_num]}'
+    elif theme_num and header_subtitle:
+        if is_extra:
+            title = f'Tema {theme_num} (Extra): {header_subtitle}'
+        else:
+            title = f'Tema {theme_num}: {header_subtitle}'
+    elif theme_num:
+        title = f'Tema {theme_num} (Extra)' if is_extra else f'Tema {theme_num}'
     else:
         first_line = text.strip().split('\n')[0].strip() if text.strip() else ''
         if first_line and re.search(r'^(TEMA\s*\d+|EJERCICIOS?\s*\d+)', first_line, re.IGNORECASE):
             title = first_line.replace('–', ':').replace('-', ':').strip()
-        if not title:
+        else:
             m_tit = re.search(r'(TEMA\s*\d+[^–\n]*|EJERCICIOS\s*\d+[^–\n]*)', text, re.IGNORECASE)
             if m_tit:
                 title = m_tit.group(1).strip()
             else:
                 title = filename.replace('.pdf', '')
 
-    topic_id = f'tema_{theme_num}' if theme_num else re.sub(r'[^a-zA-Z0-9_]', '_', filename.lower().replace('.pdf', ''))
-    badge = f'Tema {theme_num}' if theme_num else 'Test'
+    # Generación de topic_id único y badge
+    if theme_num:
+        base_id = f'tema_{theme_num}_extra' if is_extra else f'tema_{theme_num}'
+        badge = f'Tema {theme_num} Extra' if is_extra else f'Tema {theme_num}'
+    else:
+        base_id = re.sub(r'[^a-zA-Z0-9_]', '_', filename.lower().replace('.pdf', ''))
+        badge = 'Extra' if is_extra else 'Test'
+
+    topic_id = base_id
+    if existing_ids is not None:
+        counter = 2
+        while topic_id in existing_ids:
+            topic_id = f'{base_id}_{counter}'
+            counter += 1
 
     questions = []
     q_section = text[:text.find("ANSWER KEY")] if "ANSWER KEY" in text else text
+
+    # Detección de texto de lectura / cloze test tipo "D. TEXT" si las preguntas finales son de rellenar huecos
+    cloze_passage = None
+    cloze_sentences = []
+    cloze_match = re.search(r'(?:[A-Z]\.\s*TEXT[^\n]*\n)(.*?)(?=\n\s*\d+\.\s*a\))', q_section, re.DOTALL | re.IGNORECASE)
+    if cloze_match:
+        raw_p = cloze_match.group(1).strip()
+        lines = [l.strip() for l in raw_p.splitlines() if l.strip() and not re.search(r'Choose the correct', l, re.IGNORECASE)]
+        cloze_passage = ' '.join(lines)
+        cloze_sentences = re.split(r'(?<=[.!?])\s+', cloze_passage)
 
     # Separar por bloques numerados (ej: "1. ...", "2. ...") para evitar backtracking catastrófico
     # y soportar preguntas tanto de 3 opciones (a, b, c) como de 4 opciones (a, b, c, d)
@@ -1280,9 +1321,17 @@ def parse_generic_pdf(pdf_path, theory_titles=None):
             if opt_d:
                 opts["D"] = opt_d
 
+            r_text = None
+            if not prompt and cloze_sentences:
+                for s in cloze_sentences:
+                    if f'({q_num})' in s:
+                        prompt = s.strip()
+                        r_text = cloze_passage
+                        break
+
             ans = answer_key.get(q_num, "A")
-            q_id_prefix = f'T{theme_num}' if theme_num else topic_id
-            questions.append({
+            q_id_prefix = f'T{theme_num}E' if (theme_num and is_extra) else (f'T{theme_num}' if theme_num else topic_id)
+            q_obj = {
                 "id": f"{q_id_prefix}_Q{q_num}",
                 "number": q_num,
                 "type": "choice",
@@ -1291,7 +1340,11 @@ def parse_generic_pdf(pdf_path, theory_titles=None):
                 "options": opts,
                 "answer": ans,
                 "explanation": f"{title}. Opción correcta: {ans}."
-            })
+            }
+            if r_text:
+                q_obj["readingText"] = r_text
+
+            questions.append(q_obj)
 
     return {
         "id": topic_id,
@@ -1317,10 +1370,16 @@ def main():
                 full_path = os.path.join(root, f)
                 all_pdfs.append((f, full_path))
                 # Detectar temario de teoría para títulos descriptivos
-                if f.lower().startswith('tema ') and 'ejercicio' not in f.lower():
+                if f.lower().startswith('tema ') and 'ejercicio' not in f.lower() and 'vocabulario' not in f.lower():
+                    # Si es un archivo de teoría 'extra', ignorarlo para no sobreescribir el título principal
+                    if 'extra' in f.lower():
+                        continue
                     m_th = re.search(r'tema\s*(\d+)\s*[-–:]?\s*(.*)\.pdf', f, re.IGNORECASE)
                     if m_th:
-                        theory_titles[int(m_th.group(1))] = m_th.group(2).strip()
+                        num = int(m_th.group(1))
+                        name = m_th.group(2).strip()
+                        if num not in theory_titles:
+                            theory_titles[num] = name
                 
     all_pdfs.sort(key=lambda x: x[0].lower())
     
@@ -1450,7 +1509,8 @@ def main():
             continue
         if ('ejercicio' in f.lower() or 'test' in f.lower() or 'examen' in f.lower()) and not f.lower().startswith('vocabulario') and not f.lower().startswith('tema '):
             print(f"-> Procesando nuevo PDF detectado: {f}")
-            topic_data = parse_generic_pdf(full_path, theory_titles)
+            existing_ids = {t["id"] for t in topics}
+            topic_data = parse_generic_pdf(full_path, theory_titles, existing_ids)
             if topic_data["questions"]:
                 topics.append(topic_data)
                 processed_paths.add(full_path)
