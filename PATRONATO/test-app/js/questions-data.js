@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-22 17:48:39
- * Total preguntas: 852
+ * Fecha: 2026-10-29 15:19:35
+ * Total preguntas: 986
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-22 17:48:39",
-    "totalTopics": 19,
-    "totalQuestions": 852
+    "generatedAt": "2026-10-29 15:19:35",
+    "totalTopics": 21,
+    "totalQuestions": 986
   },
   "topics": [
     {
@@ -12645,6 +12645,2036 @@ window.TEST_DATA = {
           },
           "answer": "C",
           "explanation": "Tema 10: in on at extra. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "tema_11",
+      "title": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+      "badge": "Tema 11",
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2",
+      "description": "Ejercicios tipo test del TEMA 11 : EJERCICIOS COMPLEMENTARIOS extraídos de Ejercicio Tema 11 EXTRA.pdf.",
+      "questions": [
+        {
+          "id": "T11_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "The plane ____________________ at six o’clock yesterday.",
+          "options": {
+            "A": "takes off",
+            "B": "tooks off",
+            "C": "took off",
+            "D": "take off"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "We ____________________ bread yesterday morning.",
+          "options": {
+            "A": "didn’t buy",
+            "B": "don’t buy",
+            "C": "buy not",
+            "D": "bought not"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "What time the concert was?",
+            "B": "What time was the concert?",
+            "C": "What the concert was time?",
+            "D": "What was time the concert?"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Jane ____________________ early last week.",
+          "options": {
+            "A": "come",
+            "B": "comes",
+            "C": "came",
+            "D": "is come"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I ____________________ the window because it was hot.",
+          "options": {
+            "A": "opened",
+            "B": "opening",
+            "C": "opens",
+            "D": "did opened"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I ____________________ all the answers, so I had a very good mark in my exam.",
+          "options": {
+            "A": "know",
+            "B": "did knew",
+            "C": "knew",
+            "D": "am knowing"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "“Is Mary here?” “Yes, she ____________________ five minutes ago.”",
+          "options": {
+            "A": "arrived",
+            "B": "arrives",
+            "C": "arrive",
+            "D": "did arrived"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "What’s the negative form of “I spoke English last night”?",
+          "options": {
+            "A": "I not spoke English last night.",
+            "B": "I didn’t speak English last night.",
+            "C": "I didn’t spoke English last night.",
+            "D": "I spoke didn’t English last night."
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Your parents ____________________ very kind at yesterday’s dinner.",
+          "options": {
+            "A": "are",
+            "B": "was",
+            "C": "were",
+            "D": "where"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I like your new watch. Where ____________________ it?",
+          "options": {
+            "A": "do you buying",
+            "B": "are you buy",
+            "C": "did you buy",
+            "D": "bought you"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "My football team ____________________ a fantastic match last weekend.",
+          "options": {
+            "A": "played",
+            "B": "is played",
+            "C": "plays",
+            "D": "play"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "She didn’t like the idea.",
+            "B": "She liked not the idea.",
+            "C": "She didn’t likes the idea.",
+            "D": "She wasn’t liked the idea."
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "“Is your son still at school?” “No, he ____________________ school two years ago.”",
+          "options": {
+            "A": "left",
+            "B": "was left",
+            "C": "did left",
+            "D": "did leave"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "She ____________________ until ten o’clock last Saturday.",
+          "options": {
+            "A": "works",
+            "B": "doesn’t work",
+            "C": "worked",
+            "D": "working"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "My mother ____________________ a Spanish omelette last night.",
+          "options": {
+            "A": "makes",
+            "B": "is making",
+            "C": "mades",
+            "D": "made"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Did you visit your grandparents?",
+          "options": {
+            "A": "Yes, I didn’t.",
+            "B": "No, I did.",
+            "C": "Yes, I was.",
+            "D": "Yes, I did."
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "We ____________________ to the cinema yesterday, and the film ____________________ great.",
+          "options": {
+            "A": "go / was",
+            "B": "went / was",
+            "C": "went / is",
+            "D": "go / were"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "____________________ the kitchen yesterday?",
+          "options": {
+            "A": "Do you clean",
+            "B": "Did you cleaned",
+            "C": "Did you clean",
+            "D": "Did clean you"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "She ____________________ Peter in the cinema yesterday.",
+          "options": {
+            "A": "see",
+            "B": "saws",
+            "C": "saw",
+            "D": "did saw"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I ____________________ the shirt because I ____________________ like it.",
+          "options": {
+            "A": "did buy / didn’t",
+            "B": "didn’t buy / did",
+            "C": "bought / did",
+            "D": "didn’t buy / didn’t"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Were you good at sport? Yes, ____________________.",
+          "options": {
+            "A": "I was",
+            "B": "I were",
+            "C": "I did",
+            "D": "I had"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Did you phone Alan? No, I’m afraid I ____________________.",
+          "options": {
+            "A": "forget",
+            "B": "did forgot",
+            "C": "didn’t forgot",
+            "D": "forgot"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "What time did the meeting start?",
+            "B": "What time started the meeting?",
+            "C": "What time did start the meeting?",
+            "D": "What time the meeting started?"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Paul wasn’t very well yesterday. He ____________________ to work.",
+          "options": {
+            "A": "went not",
+            "B": "didn’t go",
+            "C": "didn’t went",
+            "D": "not went"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "They ____________________ in London in 1998.",
+          "options": {
+            "A": "arrive",
+            "B": "arriving",
+            "C": "are arrive",
+            "D": "arrived"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "What the weather was like last week?",
+            "B": "What was the weather like last week?",
+            "C": "What was like the weather last week?",
+            "D": "What like was the weather last week?"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Were you good at sport when you were a child?",
+          "options": {
+            "A": "Yes, I were.",
+            "B": "Yes, I was.",
+            "C": "Yes, I did.",
+            "D": "No, I weren’t."
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "When I was a child, I ____________________ to travel all over the world.",
+          "options": {
+            "A": "want",
+            "B": "wants",
+            "C": "did wanted",
+            "D": "wanted"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "When ____________________? An hour ago.",
+          "options": {
+            "A": "is Ann phoning",
+            "B": "Ann phoned",
+            "C": "did Ann phone",
+            "D": "is Ann phones"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "What’s the interrogative form of “We lost our purse on the bus”?",
+          "options": {
+            "A": "Did we lost our purse on the bus?",
+            "B": "Did we lose our purse on the bus?",
+            "C": "Did we losting our purse on the bus?",
+            "D": "Did we were losting our purse on the bus?"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "It ____________________ late, we ____________________ hungry and it ____________________ cold.",
+          "options": {
+            "A": "was / were / was",
+            "B": "was / was / was",
+            "C": "were / was / were",
+            "D": "was / were / were"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Tom was tired last night, so he ____________________ to bed early.",
+          "options": {
+            "A": "goes",
+            "B": "went",
+            "C": "did went",
+            "D": "was go"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "It was a good party. I ____________________ it very much.",
+          "options": {
+            "A": "enjoy",
+            "B": "am enjoying",
+            "C": "enjoyed",
+            "D": "did enjoyed"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "Did they went to Madrid last week?",
+            "B": "Did they goes to Madrid last week?",
+            "C": "Did they go to Madrid last week?",
+            "D": "Did go they to Madrid last week? C. PAST SIMPLE vs PAST CONTINUOUS Choose the correct option."
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I ____________________ for Peter when he ____________________.",
+          "options": {
+            "A": "was waiting / arrived",
+            "B": "waited / was arriving",
+            "C": "was waiting / was arriving",
+            "D": "waited / was arrived"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "She ____________________ her hair when there was a knock on the front door.",
+          "options": {
+            "A": "washed",
+            "B": "was washing",
+            "C": "washes",
+            "D": "washing"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "What ____________________ at 6 o’clock yesterday afternoon?",
+          "options": {
+            "A": "did you do",
+            "B": "you did",
+            "C": "were doing you",
+            "D": "were you doing"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "John ____________________ his car when the girl ran out into the road.",
+          "options": {
+            "A": "stopped",
+            "B": "was stopped",
+            "C": "stoped",
+            "D": "stops"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "She ____________________ the car into the garage and went out.",
+          "options": {
+            "A": "drived",
+            "B": "drove",
+            "C": "drives",
+            "D": "driven"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "When I arrived at the office, Jane and Paul ____________________ at their desks.",
+          "options": {
+            "A": "work",
+            "B": "are working",
+            "C": "were working",
+            "D": "worked"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q51",
+          "number": 51,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "What is the past tense of “drink”?",
+          "options": {
+            "A": "drinking",
+            "B": "drank",
+            "C": "drink",
+            "D": "drunk"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q52",
+          "number": 52,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I ____________________ last night. I was really tired.",
+          "options": {
+            "A": "went not out",
+            "B": "did go not out",
+            "C": "didn’t go out",
+            "D": "not went out"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q53",
+          "number": 53,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "It ____________________ when we ____________________.",
+          "options": {
+            "A": "rained / went out",
+            "B": "was raining / went out",
+            "C": "rained / were going out",
+            "D": "were raining / went out"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q54",
+          "number": 54,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Did the child break the window? Yes, he ____________________ it.",
+          "options": {
+            "A": "breaks",
+            "B": "broken",
+            "C": "broke",
+            "D": "break"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q55",
+          "number": 55,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "My friend ____________________ for me when I arrived.",
+          "options": {
+            "A": "was waited",
+            "B": "waits",
+            "C": "was waiting",
+            "D": "were waiting"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q56",
+          "number": 56,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "The Chinese ____________________ printing.",
+          "options": {
+            "A": "invent",
+            "B": "invented",
+            "C": "have invented",
+            "D": "did invented"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q57",
+          "number": 57,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "____________________ television when I phoned you?",
+          "options": {
+            "A": "Did you watch",
+            "B": "Were you watch",
+            "C": "Were you watching",
+            "D": "Have you watch"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q58",
+          "number": 58,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "They ____________________ a photo when I was on the podium.",
+          "options": {
+            "A": "were taken",
+            "B": "had taken",
+            "C": "are taken",
+            "D": "took"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q59",
+          "number": 59,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "When ____________________ she go to the USA? Last year.",
+          "options": {
+            "A": "did",
+            "B": "was",
+            "C": "went",
+            "D": "have"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q60",
+          "number": 60,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "We ____________________ a good film while we ____________________ to New York.",
+          "options": {
+            "A": "see / flew",
+            "B": "were seeing / was flying",
+            "C": "saw / were flying",
+            "D": "saw / was flew"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q61",
+          "number": 61,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "The telephone rang at 7 o’clock, but I ____________________.",
+          "options": {
+            "A": "had a shower",
+            "B": "did a shower",
+            "C": "was having a shower",
+            "D": "was have a showering"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q62",
+          "number": 62,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "____________________ you in the U.S.A. in 1990?",
+          "options": {
+            "A": "Was",
+            "B": "Were",
+            "C": "Is",
+            "D": "Are"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q63",
+          "number": 63,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Tom ____________________ his hand when he was cooking dinner.",
+          "options": {
+            "A": "burnt",
+            "B": "has burnt",
+            "C": "was burning",
+            "D": "burn"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q64",
+          "number": 64,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "She entered the class while I ____________________.",
+          "options": {
+            "A": "explained the lesson",
+            "B": "has explained the lesson",
+            "C": "was explaining the lesson",
+            "D": "were explain the lesson"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q65",
+          "number": 65,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "My sister ____________________ when she was a child.",
+          "options": {
+            "A": "is afraid of mice",
+            "B": "were afraid of mice",
+            "C": "had afraid of mice",
+            "D": "was afraid of mice"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q66",
+          "number": 66,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "John ____________________ her yesterday.",
+          "options": {
+            "A": "don’t saw",
+            "B": "didn’t saw",
+            "C": "don’t see",
+            "D": "didn’t see"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q67",
+          "number": 67,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "What were you doing at 5 o’clock yesterday?",
+          "options": {
+            "A": "I played chess.",
+            "B": "I play chess.",
+            "C": "I were playing chess.",
+            "D": "I was playing chess."
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q68",
+          "number": 68,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "She ____________________ it a minute ago.",
+          "options": {
+            "A": "has boiled",
+            "B": "had boiled",
+            "C": "boiled",
+            "D": "were boiling"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q69",
+          "number": 69,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "A: We went to New York last month. B: Where ____________________? A: At a hotel near the centre.",
+          "options": {
+            "A": "stayed you",
+            "B": "were you staying",
+            "C": "staying you",
+            "D": "did you stay"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q70",
+          "number": 70,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Why ____________________ while the teacher ____________________?",
+          "options": {
+            "A": "didn’t you pays attention / was talking",
+            "B": "weren’t you pay attention / talked",
+            "C": "didn’t you pay attention / was talking",
+            "D": "you not pay attention / talked"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q71",
+          "number": 71,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Did you say that you ____________________ here only three days ago?",
+          "options": {
+            "A": "came",
+            "B": "had came",
+            "C": "come",
+            "D": "have come"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q72",
+          "number": 72,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I ____________________ the door because everybody was hot.",
+          "options": {
+            "A": "was opening",
+            "B": "was opened",
+            "C": "opened",
+            "D": "open"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q73",
+          "number": 73,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "Liked you the film?",
+            "B": "Did you like the film?",
+            "C": "Did you liked the film?",
+            "D": "Did liked you the film?"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q74",
+          "number": 74,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "“Were you in Switzerland last year?” “No, I ____________________.”",
+          "options": {
+            "A": "didn’t",
+            "B": "wasn’t",
+            "C": "weren’t",
+            "D": "don’t"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q75",
+          "number": 75,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "“What did you do last night?” “I watched TV, practised the violin, and ____________________ my homework.”",
+          "options": {
+            "A": "made",
+            "B": "do",
+            "C": "done",
+            "D": "did"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q76",
+          "number": 76,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "The telephone rang at 7 o’clock, but I ____________________.",
+          "options": {
+            "A": "had a shower",
+            "B": "did a shower",
+            "C": "was having a shower",
+            "D": "was have a showering"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q77",
+          "number": 77,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "“What did you do yesterday morning?” “____________________”",
+          "options": {
+            "A": "We was playing tennis.",
+            "B": "We were played tennis.",
+            "C": "We played tennis.",
+            "D": "We did played tennis."
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q78",
+          "number": 78,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I ____________________ very well last night.",
+          "options": {
+            "A": "not slept",
+            "B": "did sleep",
+            "C": "didn’t sleep",
+            "D": "don’t sleep"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q79",
+          "number": 79,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Peter ____________________ me an important favour last week.",
+          "options": {
+            "A": "took",
+            "B": "made",
+            "C": "did",
+            "D": "had"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q80",
+          "number": 80,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "It was a good party. I ____________________ it very much.",
+          "options": {
+            "A": "enjoyed",
+            "B": "enjoy",
+            "C": "enjoying",
+            "D": "enjoys"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q81",
+          "number": 81,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I like your new watch. Where ____________________ it?",
+          "options": {
+            "A": "did you buy",
+            "B": "you bought",
+            "C": "did you bought",
+            "D": "did buy you"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q82",
+          "number": 82,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "I met my boyfriend ____________________ I was studying at university.",
+          "options": {
+            "A": "while",
+            "B": "during",
+            "C": "if",
+            "D": "of"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q83",
+          "number": 83,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "She came into the room while I have watched TV.",
+            "B": "She came into the room while I has watched TV.",
+            "C": "She came into the room while I was watched TV.",
+            "D": "She came into the room while I was watching TV. D. TEXT Choose the correct option for each gap. When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q84",
+          "number": 84,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "studied",
+            "B": "didn’t studied",
+            "C": "was studying",
+            "D": "studying"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q85",
+          "number": 85,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "was meeting",
+            "B": "meet",
+            "C": "am meeting",
+            "D": "met"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q86",
+          "number": 86,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "was working",
+            "B": "works",
+            "C": "worked",
+            "D": "is working"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q87",
+          "number": 87,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "met",
+            "B": "meet",
+            "C": "was meeting",
+            "D": "is meeting"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q88",
+          "number": 88,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "didn’t wanted",
+            "B": "didn’t want",
+            "C": "wasn’t wanting",
+            "D": "wanted"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q89",
+          "number": 89,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "was",
+            "B": "are",
+            "C": "is being",
+            "D": "was being"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q90",
+          "number": 90,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "was living",
+            "B": "were live",
+            "C": "live",
+            "D": "lived"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q91",
+          "number": 91,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "lives",
+            "B": "were living",
+            "C": "do live",
+            "D": "are living"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q92",
+          "number": 92,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "was finishing",
+            "B": "finish",
+            "C": "don’t finish",
+            "D": "finished"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q93",
+          "number": 93,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "got",
+            "B": "was getting",
+            "C": "am getting",
+            "D": "did got"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q94",
+          "number": 94,
+          "type": "choice",
+          "section": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS",
+          "question": "",
+          "options": {
+            "A": "work",
+            "B": "are working",
+            "C": "works",
+            "D": "worked"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "tema_11",
+      "title": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+      "badge": "Tema 11",
+      "blockId": "bloque_2",
+      "blockName": "Bloque 2",
+      "description": "Ejercicios tipo test del TEMA 11 : PAST SIMPLE & CONTINUOUS extraídos de Ejercicio Tema 11.pdf.",
+      "questions": [
+        {
+          "id": "T11_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "At nine yesterday morning, several visitors _____ around the exhibition while the guide was preparing the next room.",
+          "options": {
+            "A": "looked",
+            "B": "were looking",
+            "C": "are looking",
+            "D": "did look"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The committee _____ the final report yesterday and sent it to the director before lunch.",
+          "options": {
+            "A": "was completing",
+            "B": "completes",
+            "C": "did completed",
+            "D": "completed"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "While the staff were preparing the hall, one of the lights suddenly _____.",
+          "options": {
+            "A": "went out",
+            "B": "was going out",
+            "C": "goes out",
+            "D": "did went out"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The event _____ at 10.30, and everyone left the building a few minutes later.",
+          "options": {
+            "A": "was concluding",
+            "B": "conclude",
+            "C": "concluded",
+            "D": "did concluded"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "Before the bridge was built, people _____ cross the river by boat.",
+          "options": {
+            "A": "used to",
+            "B": "were used to",
+            "C": "use to",
+            "D": "were using to"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "“What _____ at six yesterday evening when the manager called?” “I was preparing dinner.”",
+          "options": {
+            "A": "did you do",
+            "B": "you were doing",
+            "C": "were you doing",
+            "D": "were doing you"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "Marta works night shifts every week, so she _____ working late.",
+          "options": {
+            "A": "used to",
+            "B": "gets used",
+            "C": "use to",
+            "D": "is used to"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "They attended Monday’s meeting, but they _____ the session on Tuesday.",
+          "options": {
+            "A": "weren’t attend",
+            "B": "didn’t attend",
+            "C": "didn’t attended",
+            "D": "not attended"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "I _____ a magazine when all the lights suddenly went out.",
+          "options": {
+            "A": "read",
+            "B": "was read",
+            "C": "was reading",
+            "D": "did read"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The museum _____ at nine yesterday because there was a special exhibition.",
+          "options": {
+            "A": "opened",
+            "B": "openened",
+            "C": "was open",
+            "D": "did opened"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "Did your grandparents _____ in this town when they were young?",
+          "options": {
+            "A": "used to live",
+            "B": "used live",
+            "C": "use living",
+            "D": "use to live"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "I _____ later that the ticket was for the wrong day.",
+          "options": {
+            "A": "was realizing",
+            "B": "realised",
+            "C": "did realised",
+            "D": "realise"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "At seven yesterday evening, the volunteers _____ the final details of the festival.",
+          "options": {
+            "A": "organized",
+            "B": "were organizing",
+            "C": "did organize",
+            "D": "are organizing"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "Why _____ the concert before the final song?",
+          "options": {
+            "A": "they left",
+            "B": "did they left",
+            "C": "did they leave",
+            "D": "were they leave"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "Our flight _____ in Rome two hours ago.",
+          "options": {
+            "A": "arrived",
+            "B": "arriveed",
+            "C": "was arriving",
+            "D": "did arrived"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The new timetable was confusing at first, but the staff soon _____ working with it.",
+          "options": {
+            "A": "were used",
+            "B": "used to",
+            "C": "were getting use to",
+            "D": "got used to"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "I _____ towards the station when I saw the accident.",
+          "options": {
+            "A": "walked",
+            "B": "did walk",
+            "C": "was walking",
+            "D": "am walking"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The rescue boat _____ the island just before dark.",
+          "options": {
+            "A": "reached",
+            "B": "was reaching",
+            "C": "reach",
+            "D": "did reached"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "When the alarm sounded, most of the staff _____ dinner in the canteen.",
+          "options": {
+            "A": "had",
+            "B": "were having",
+            "C": "was having",
+            "D": "did have"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "She _____ like history at school, but now she reads about it all the time.",
+          "options": {
+            "A": "wasn't used to",
+            "B": "used not",
+            "C": "didn't used to",
+            "D": "didn't use to"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "_____ you attend the event last Saturday?",
+          "options": {
+            "A": "Did",
+            "B": "Were",
+            "C": "Do",
+            "D": "Was"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "At university, he _____ art and later worked in a small museum.",
+          "options": {
+            "A": "studyed",
+            "B": "study",
+            "C": "was study",
+            "D": "studied"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The rain started while we _____ basketball in the park.",
+          "options": {
+            "A": "played",
+            "B": "did play",
+            "C": "were playing",
+            "D": "was playing"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The festival _____ thousands of visitors last summer.",
+          "options": {
+            "A": "was attracting",
+            "B": "attracted",
+            "C": "attractted",
+            "D": "did attracted"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "After years on cargo ships, he _____ long journeys at sea.",
+          "options": {
+            "A": "used to",
+            "B": "got used",
+            "C": "use to",
+            "D": "was used to"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "At eight last night, we _____ television; we were talking in the kitchen.",
+          "options": {
+            "A": "didn't watched",
+            "B": "weren't watching",
+            "C": "wasn't watching",
+            "D": "didn't watching"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The assistant _____ the heavy boxes into the storage room yesterday afternoon.",
+          "options": {
+            "A": "carried",
+            "B": "carryed",
+            "C": "was carry",
+            "D": "did carried"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "As I _____ the office door, someone called my name from behind me.",
+          "options": {
+            "A": "opened",
+            "B": "did open",
+            "C": "was opening",
+            "D": "were opening"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "This road _____ much quieter before the new station opened.",
+          "options": {
+            "A": "was used to be",
+            "B": "used to be",
+            "C": "use to be",
+            "D": "used be"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "“The flight was very late.” “What time _____ yesterday?”",
+          "options": {
+            "A": "the flight arrived",
+            "B": "did arrive the flight",
+            "C": "did the flight arrived",
+            "D": "did the flight arrive"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The team _____ the event carefully, so everything went well on the day.",
+          "options": {
+            "A": "planed",
+            "B": "was plan",
+            "C": "planned",
+            "D": "did planned"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The road was difficult to see because it _____ heavily.",
+          "options": {
+            "A": "was raining",
+            "B": "rained",
+            "C": "were raining",
+            "D": "did raining"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "Luis moved to the city last month, and he still isn't _____ the noise at night.",
+          "options": {
+            "A": "use to",
+            "B": "used with",
+            "C": "using to",
+            "D": "used to"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "While the mechanic _____ the vehicle, the driver talked to one of the passengers.",
+          "options": {
+            "A": "checked",
+            "B": "did check",
+            "C": "was checking",
+            "D": "were checking"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "They _____ the conference because their flight arrived several hours late.",
+          "options": {
+            "A": "weren't attend",
+            "B": "didn't attend",
+            "C": "didn't attended",
+            "D": "not attend"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "When we were children, we _____ magazines about space every month.",
+          "options": {
+            "A": "used to buy",
+            "B": "were used to buy",
+            "C": "used buying",
+            "D": "use to bought"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The organisers _____ the stage when the strong wind started.",
+          "options": {
+            "A": "prepared",
+            "B": "was preparing",
+            "C": "were preparing",
+            "D": "did prepared"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The concert _____ at 11.30, and the last buses left shortly afterwards.",
+          "options": {
+            "A": "was concluding",
+            "B": "concluded",
+            "C": "did concluded",
+            "D": "conclude"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "We _____ along the coast when we saw a boat in trouble.",
+          "options": {
+            "A": "walked",
+            "B": "did walk",
+            "C": "was walking",
+            "D": "were walking"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The old bus _____ here every morning, but the route changed last year.",
+          "options": {
+            "A": "used to stop",
+            "B": "was used to stop",
+            "C": "used to stopping",
+            "D": "use to stopped"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "At first the early shift was difficult, but after a few weeks she _____ starting work at six.",
+          "options": {
+            "A": "was used to",
+            "B": "got used to",
+            "C": "used to",
+            "D": "got used"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The driver _____ the vehicle suddenly when an animal crossed the road.",
+          "options": {
+            "A": "stopping",
+            "B": "stoped",
+            "C": "stopped",
+            "D": "did stopped"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "At that moment, several passengers _____ for information at the desk.",
+          "options": {
+            "A": "were asking",
+            "B": "asked",
+            "C": "was asking",
+            "D": "did ask"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "He _____ the instructions, so the machine did not start properly.",
+          "options": {
+            "A": "wasn't follow",
+            "B": "didn't followed",
+            "C": "not followed",
+            "D": "didn't follow"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "“The fire started at about midnight.” “What _____ when it started?”",
+          "options": {
+            "A": "did they doing",
+            "B": "they were doing",
+            "C": "were they doing",
+            "D": "did they do"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+        },
+        {
+          "id": "T11_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "We _____ working outdoors now; we do it almost every day.",
+          "options": {
+            "A": "used to",
+            "B": "are used to",
+            "C": "use to",
+            "D": "are use to"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "It took him several days to _____ waking up before sunrise.",
+          "options": {
+            "A": "used to",
+            "B": "be used",
+            "C": "used",
+            "D": "get used to"
+          },
+          "answer": "D",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+        },
+        {
+          "id": "T11_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The students _____ the final project yesterday afternoon.",
+          "options": {
+            "A": "completed",
+            "B": "complete",
+            "C": "were complete",
+            "D": "did completed"
+          },
+          "answer": "A",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+        },
+        {
+          "id": "T11_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "When the artist arrived at the hall, dozens of people _____ outside.",
+          "options": {
+            "A": "waited",
+            "B": "were waiting",
+            "C": "was waiting",
+            "D": "did wait"
+          },
+          "answer": "B",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+        },
+        {
+          "id": "T11_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "TEMA 11 : PAST SIMPLE & CONTINUOUS",
+          "question": "The company _____ paper tickets, but now passengers use an app.",
+          "options": {
+            "A": "was used to use",
+            "B": "use to used",
+            "C": "used to use",
+            "D": "was using to"
+          },
+          "answer": "C",
+          "explanation": "TEMA 11 : PAST SIMPLE & CONTINUOUS. Opción correcta: C."
         }
       ]
     }
