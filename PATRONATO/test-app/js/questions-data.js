@@ -1,1315 +1,15 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-11 19:33:54
- * Total preguntas: 1076
+ * Fecha: 2026-11-11 19:56:55
+ * Total preguntas: 1101
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-11 19:33:54",
+    "generatedAt": "2026-11-11 19:56:55",
     "totalTopics": 23,
-    "totalQuestions": 1076
+    "totalQuestions": 1101
   },
   "topics": [
-    {
-      "id": "tema_1",
-      "title": "Tema 1: Formas verbales, To be y Presente simple",
-      "badge": "Tema 1",
-      "description": "Formas de To be, Presente Simple, Have Got, corrección de errores y textos de comprensión.",
-      "questions": [
-        {
-          "id": "T1_Q1",
-          "number": 1,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Stella looks after patients in hospital. She is _______.",
-          "options": {
-            "A": "nurse",
-            "B": "a nurse",
-            "C": "an nurse",
-            "D": "the nurse"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q2",
-          "number": 2,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "George works in a restaurant and brings food to the tables. He is _______.",
-          "options": {
-            "A": "waiter",
-            "B": "an waiter",
-            "C": "a waiter",
-            "D": "the waiter"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q3",
-          "number": 3,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Mary arranges people’s holidays for them. She is _______.",
-          "options": {
-            "A": "a travel agent",
-            "B": "an travel agent",
-            "C": "travel agent",
-            "D": "the travel  agent"
-          },
-          "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
-        },
-        {
-          "id": "T1_Q4",
-          "number": 4,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Ron works for an airline and flies aeroplanes. He is _______.",
-          "options": {
-            "A": "the pilot",
-            "B": "pilot",
-            "C": "an pilot",
-            "D": "a pilot"
-          },
-          "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
-        },
-        {
-          "id": "T1_Q5",
-          "number": 5,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Linda teaches people how to drive. She is _______.",
-          "options": {
-            "A": "a driving instructor",
-            "B": "an driving instructor",
-            "C": "driving instructor",
-            "D": "the driving instructor"
-          },
-          "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
-        },
-        {
-          "id": "T1_Q6",
-          "number": 6,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Dave fits and repairs water pipes. He is _______.",
-          "options": {
-            "A": "plumber",
-            "B": "the plumber",
-            "C": "a plumber",
-            "D": "an plumber"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q7",
-          "number": 7,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Jenny writes articles for a newspaper. She is _______.",
-          "options": {
-            "A": "journalist",
-            "B": "a journalist",
-            "C": "an journalist",
-            "D": "the journalist"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q8",
-          "number": 8,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "John translates what people are saying from one language into another. He  is _______.",
-          "options": {
-            "A": "a interpreter",
-            "B": "interpreter",
-            "C": "the interpreter",
-            "D": "an interpreter"
-          },
-          "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
-        },
-        {
-          "id": "T1_Q9",
-          "number": 9,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "She is _______ teacher and works in one of those schools.",
-          "options": {
-            "A": "a",
-            "B": "an",
-            "C": "the",
-            "D": "Ø"
-          },
-          "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
-        },
-        {
-          "id": "T1_Q10",
-          "number": 10,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "I saw _______ UFO in the sky.",
-          "options": {
-            "A": "an",
-            "B": "the",
-            "C": "a",
-            "D": "Ø"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q11",
-          "number": 11,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "She’s _______ artist and her husband is _______ electrician.",
-          "options": {
-            "A": "a / an",
-            "B": "an / an",
-            "C": "an / a",
-            "D": "a / a"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q12",
-          "number": 12,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "She goes to London once _______ week.",
-          "options": {
-            "A": "the",
-            "B": "an",
-            "C": "Ø",
-            "D": "a"
-          },
-          "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
-        },
-        {
-          "id": "T1_Q13",
-          "number": 13,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Are you _______ only child?",
-          "options": {
-            "A": "a",
-            "B": "the",
-            "C": "an",
-            "D": "Ø"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q14",
-          "number": 14,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "I work nine hours _______ day.",
-          "options": {
-            "A": "a",
-            "B": "an",
-            "C": "the",
-            "D": "Ø"
-          },
-          "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
-        },
-        {
-          "id": "T1_Q15",
-          "number": 15,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "I’ve seen _______ good films recently.",
-          "options": {
-            "A": "the",
-            "B": "a",
-            "C": "some",
-            "D": "an"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q16",
-          "number": 16,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "What’s wrong with you? Have you got _______ headache?",
-          "options": {
-            "A": "an",
-            "B": "a",
-            "C": "some",
-            "D": "Ø"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q17",
-          "number": 17,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "I know a lot of people. Most of them are _______ students.",
-          "options": {
-            "A": "a",
-            "B": "some",
-            "C": "the",
-            "D": "Ø"
-          },
-          "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
-        },
-        {
-          "id": "T1_Q18",
-          "number": 18,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "When I was _______ child, I used to be very shy.",
-          "options": {
-            "A": "a",
-            "B": "an",
-            "C": "some",
-            "D": "Ø"
-          },
-          "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
-        },
-        {
-          "id": "T1_Q19",
-          "number": 19,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Would you like to be _______ actor?",
-          "options": {
-            "A": "a",
-            "B": "the",
-            "C": "an",
-            "D": "Ø"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q20",
-          "number": 20,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Do you collect _______ stamps?",
-          "options": {
-            "A": "a",
-            "B": "Ø",
-            "C": "an",
-            "D": "the"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q21",
-          "number": 21,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"People in this area speaks two languages.\"",
-          "wrongSentence": "People in this area speaks two languages.",
-          "answer": "People in this area speak two languages.",
-          "explanation": "'People' es sustantivo plural, el verbo en Present Simple va sin -s (speak)."
-        },
-        {
-          "id": "T1_Q22",
-          "number": 22,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"My cousins doesn't eat breakfast at home.\"",
-          "wrongSentence": "My cousins doesn't eat breakfast at home.",
-          "answer": "My cousins don't eat breakfast at home.",
-          "explanation": "'My cousins' es plural (they), requiere el auxiliar negativo 'don't'."
-        },
-        {
-          "id": "T1_Q23",
-          "number": 23,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"Do your parents on holiday this week?\"",
-          "wrongSentence": "Do your parents on holiday this week?",
-          "answer": "Are your parents on holiday this week?",
-          "explanation": "Para preguntar por estado o ubicación con adjetivo/preposición usamos el verbo To Be ('Are your parents...')."
-        },
-        {
-          "id": "T1_Q24",
-          "number": 24,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"She have got a small apartment near the beach.\"",
-          "wrongSentence": "She have got a small apartment near the beach.",
-          "answer": "She has got a small apartment near the beach.",
-          "explanation": "3ª persona singular (She) con have got exige 'has got'."
-        },
-        {
-          "id": "T1_Q25",
-          "number": 25,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"Do the train leave from platform four?\"",
-          "wrongSentence": "Do the train leave from platform four?",
-          "answer": "Does the train leave from platform four?",
-          "explanation": "'The train' es 3ª persona singular (it), requiere auxiliar interrogativo 'Does'."
-        },
-        {
-          "id": "T1_Q26",
-          "number": 26,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"I has got a meeting this afternoon.\"",
-          "wrongSentence": "I has got a meeting this afternoon.",
-          "answer": "I have got a meeting this afternoon.",
-          "explanation": "1ª persona singular (I) forma 'I have got'."
-        },
-        {
-          "id": "T1_Q27",
-          "number": 27,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"The shop close at nine o'clock every evening.\"",
-          "wrongSentence": "The shop close at nine o'clock every evening.",
-          "answer": "The shop closes at nine o'clock every evening.",
-          "explanation": "'The shop' (it) en Present Simple afirmativo añade -s al verbo (closes)."
-        },
-        {
-          "id": "T1_Q28",
-          "number": 28,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"We isn't interested in that course.\"",
-          "wrongSentence": "We isn't interested in that course.",
-          "answer": "We aren't interested in that course.",
-          "explanation": "Sujeto 'We' concuerda con 'aren't' en To Be."
-        },
-        {
-          "id": "T1_Q29",
-          "number": 29,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"Does your neighbours have a dog?\"",
-          "wrongSentence": "Does your neighbours have a dog?",
-          "answer": "Do your neighbours have a dog?",
-          "explanation": "'Your neighbours' es plural (they), el auxiliar debe ser 'Do'."
-        },
-        {
-          "id": "T1_Q30",
-          "number": 30,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"The woman carrys a large bag to work every day.\"",
-          "wrongSentence": "The woman carrys a large bag to work every day.",
-          "answer": "The woman carries a large bag to work every day.",
-          "explanation": "Verbos terminados en consonante + y cambian a -ies en 3ª persona singular (carries)."
-        },
-        {
-          "id": "T1_Q31",
-          "number": 31,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "Riverside Sports Centre (31) ____ near a large residential area.",
-          "options": {
-            "A": "are",
-            "B": "do",
-            "C": "is",
-            "D": "has"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
-        },
-        {
-          "id": "T1_Q32",
-          "number": 32,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "On most weekdays, the centre (32) ____ opens at seven, but it opens later on Sundays.",
-          "options": {
-            "A": "usually",
-            "B": "never",
-            "C": "seldom",
-            "D": "every"
-          },
-          "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
-        },
-        {
-          "id": "T1_Q33",
-          "number": 33,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "The children in the local swimming club (33) ____ got training sessions twice a week.",
-          "options": {
-            "A": "are",
-            "B": "haves",
-            "C": "has",
-            "D": "have"
-          },
-          "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
-        },
-        {
-          "id": "T1_Q34",
-          "number": 34,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "Their coach (34) ____ the equipment to the pool before each lesson, and the staff check the safety equipment (35) ____ Friday.",
-          "options": {
-            "A": "carrys",
-            "B": "carries",
-            "C": "carry",
-            "D": "carryes"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
-        },
-        {
-          "id": "T1_Q35",
-          "number": 35,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "...and the staff check the safety equipment (35) ____ Friday.",
-          "options": {
-            "A": "daily",
-            "B": "always",
-            "C": "every",
-            "D": "twice"
-          },
-          "answer": "C",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
-        },
-        {
-          "id": "T1_Q36",
-          "number": 36,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "The ferries (36) ____ operate after midnight, so passengers must use another form of transport...",
-          "options": {
-            "A": "doesn't",
-            "B": "don't",
-            "C": "aren't",
-            "D": "isn't"
-          },
-          "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
-        },
-        {
-          "id": "T1_Q37",
-          "number": 37,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "Services (37) ____ leave on time, although bad weather can cause delays.",
-          "options": {
-            "A": "never",
-            "B": "seldom",
-            "C": "every",
-            "D": "usually"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
-        },
-        {
-          "id": "T1_Q38",
-          "number": 38,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "The company checks each boat once a day, so inspections take place (38) ____.",
-          "options": {
-            "A": "daily",
-            "B": "every",
-            "C": "monthly",
-            "D": "twice"
-          },
-          "answer": "C",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
-        },
-        {
-          "id": "T1_Q39",
-          "number": 39,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "Some people (39) ____ got a monthly travel card.",
-          "options": {
-            "A": "has",
-            "B": "haves",
-            "C": "have",
-            "D": "are"
-          },
-          "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
-        },
-        {
-          "id": "T1_Q40",
-          "number": 40,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "(40) ____ the service busy in summer? Yes, especially in July and August.",
-          "options": {
-            "A": "Does",
-            "B": "Is",
-            "C": "Are",
-            "D": "Has"
-          },
-          "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
-        },
-        {
-          "id": "T1_Q41",
-          "number": 41,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "Several men and women (41) ____ there six days a week.",
-          "options": {
-            "A": "works",
-            "B": "workes",
-            "C": "working",
-            "D": "work"
-          },
-          "answer": "C",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
-        },
-        {
-          "id": "T1_Q42",
-          "number": 42,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "The market (42) ____ at nine in the morning and closes at six.",
-          "options": {
-            "A": "open",
-            "B": "openes",
-            "C": "opens",
-            "D": "opening"
-          },
-          "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
-        },
-        {
-          "id": "T1_Q43",
-          "number": 43,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "Customers (43) ____ complain about the prices because most products are affordable.",
-          "options": {
-            "A": "rarely",
-            "B": "always",
-            "C": "frequently",
-            "D": "constantly"
-          },
-          "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
-        },
-        {
-          "id": "T1_Q44",
-          "number": 44,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "One food stall (44) ____ got tables for customers, but the others only sell takeaway food.",
-          "options": {
-            "A": "have",
-            "B": "haves",
-            "C": "is",
-            "D": "has"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
-        },
-        {
-          "id": "T1_Q45",
-          "number": 45,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "The market is (45) ____ closed on Mondays, so traders use that day to prepare for the week.",
-          "options": {
-            "A": "every",
-            "B": "always",
-            "C": "seldom",
-            "D": "sometimes"
-          },
-          "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
-        }
-      ],
-      "blockId": "bloque_1",
-      "blockName": "Bloque 1"
-    },
-    {
-      "id": "tema_1",
-      "title": "Tema 1: Formas verbales, To be y Presente simple",
-      "badge": "Tema 1",
-      "description": "Formas de To be, Presente Simple, Have Got, corrección de errores y textos de comprensión.",
-      "questions": [
-        {
-          "id": "T1_Q1",
-          "number": 1,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "I’m afraid of _______.",
-          "options": {
-            "A": "the dogs",
-            "B": "dogs",
-            "C": "a dogs",
-            "D": "an dogs"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q2",
-          "number": 2,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Can you pass _______, please?",
-          "options": {
-            "A": "salt",
-            "B": "a salt",
-            "C": "salts",
-            "D": "the salt"
-          },
-          "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
-        },
-        {
-          "id": "T1_Q3",
-          "number": 3,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "_______ are good for you.",
-          "options": {
-            "A": "A apples",
-            "B": "The apples",
-            "C": "Apples",
-            "D": "An apples"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q4",
-          "number": 4,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Look at _______ on that tree! They’re very big.",
-          "options": {
-            "A": "apples",
-            "B": "the apples",
-            "C": "an apples",
-            "D": "a apples"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q5",
-          "number": 5,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "_______ live longer than _______.",
-          "options": {
-            "A": "The women / the men",
-            "B": "Women / the men",
-            "C": "Women / men",
-            "D": "The women / men"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q6",
-          "number": 6,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "I don’t drink _______. I don’t like it.",
-          "options": {
-            "A": "a tea",
-            "B": "the tea",
-            "C": "tea",
-            "D": "teas"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q7",
-          "number": 7,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "We had a very nice meal. _______ were especially good.",
-          "options": {
-            "A": "Vegetables",
-            "B": "A vegetables",
-            "C": "The vegetables",
-            "D": "An vegetables"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q8",
-          "number": 8,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "_______ is strange sometimes. Some very strange things happen.",
-          "options": {
-            "A": "A life",
-            "B": "The life",
-            "C": "Life",
-            "D": "An life"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q9",
-          "number": 9,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "I like _______, but I’m not very good at it.",
-          "options": {
-            "A": "the skiing",
-            "B": "skiing",
-            "C": "a skiing",
-            "D": "skis"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q10",
-          "number": 10,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Who are _______ in this photograph?",
-          "options": {
-            "A": "people",
-            "B": "a people",
-            "C": "the people",
-            "D": "an people"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q11",
-          "number": 11,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "What makes _______ violent? What causes _______?",
-          "options": {
-            "A": "the people / the aggression",
-            "B": "people / aggression",
-            "C": "people / the aggression",
-            "D": "the people / aggression"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q12",
-          "number": 12,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "All of _______ books on the top shelf belong to me.",
-          "options": {
-            "A": "Ø",
-            "B": "a",
-            "C": "the",
-            "D": "an"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q13",
-          "number": 13,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Don’t stay in that hotel. It’s very noisy and _______ are very  uncomfortable.",
-          "options": {
-            "A": "beds",
-            "B": "a beds",
-            "C": "the beds",
-            "D": "an beds"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q14",
-          "number": 14,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "A pacifist is somebody who is against _______.",
-          "options": {
-            "A": "a war",
-            "B": "war",
-            "C": "the war",
-            "D": "wars"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q15",
-          "number": 15,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "_______ lasted from 1914 until 1918.",
-          "options": {
-            "A": "First World War",
-            "B": "A First World War",
-            "C": "The First World War",
-            "D": "First the World War"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q16",
-          "number": 16,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "One of our biggest social problems is _______.",
-          "options": {
-            "A": "an unemployment",
-            "B": "the unemployment",
-            "C": "unemployment",
-            "D": "a unemployment"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q17",
-          "number": 17,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Ron and Brenda got married, but _______ didn’t last very long.",
-          "options": {
-            "A": "marriage",
-            "B": "a marriage",
-            "C": "the marriage",
-            "D": "marriages"
-          },
-          "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
-        },
-        {
-          "id": "T1_Q18",
-          "number": 18,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "_______ believe that _______ and _______ are the basis of _______.",
-          "options": {
-            "A": "The most people / the marriage / the family life / the society",
-            "B": "Most people / marriage / family life / society",
-            "C": "Most people / the marriage / family life / society",
-            "D": "The most people / marriage / the family life / society"
-          },
-          "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
-        },
-        {
-          "id": "T1_Q19",
-          "number": 19,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "When was _______ invented?",
-          "options": {
-            "A": "telephone",
-            "B": "a telephone",
-            "C": "an telephone",
-            "D": "the telephone"
-          },
-          "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
-        },
-        {
-          "id": "T1_Q20",
-          "number": 20,
-          "type": "choice",
-          "section": "Grammar (Presente Simple y To Be)",
-          "question": "Can you play _______?",
-          "options": {
-            "A": "musical instruments",
-            "B": "the musical instruments",
-            "C": "a musical instruments",
-            "D": "an musical instruments"
-          },
-          "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
-        },
-        {
-          "id": "T1_Q21",
-          "number": 21,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"People in this area speaks two languages.\"",
-          "wrongSentence": "People in this area speaks two languages.",
-          "answer": "People in this area speak two languages.",
-          "explanation": "'People' es sustantivo plural, el verbo en Present Simple va sin -s (speak)."
-        },
-        {
-          "id": "T1_Q22",
-          "number": 22,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"My cousins doesn't eat breakfast at home.\"",
-          "wrongSentence": "My cousins doesn't eat breakfast at home.",
-          "answer": "My cousins don't eat breakfast at home.",
-          "explanation": "'My cousins' es plural (they), requiere el auxiliar negativo 'don't'."
-        },
-        {
-          "id": "T1_Q23",
-          "number": 23,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"Do your parents on holiday this week?\"",
-          "wrongSentence": "Do your parents on holiday this week?",
-          "answer": "Are your parents on holiday this week?",
-          "explanation": "Para preguntar por estado o ubicación con adjetivo/preposición usamos el verbo To Be ('Are your parents...')."
-        },
-        {
-          "id": "T1_Q24",
-          "number": 24,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"She have got a small apartment near the beach.\"",
-          "wrongSentence": "She have got a small apartment near the beach.",
-          "answer": "She has got a small apartment near the beach.",
-          "explanation": "3ª persona singular (She) con have got exige 'has got'."
-        },
-        {
-          "id": "T1_Q25",
-          "number": 25,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"Do the train leave from platform four?\"",
-          "wrongSentence": "Do the train leave from platform four?",
-          "answer": "Does the train leave from platform four?",
-          "explanation": "'The train' es 3ª persona singular (it), requiere auxiliar interrogativo 'Does'."
-        },
-        {
-          "id": "T1_Q26",
-          "number": 26,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"I has got a meeting this afternoon.\"",
-          "wrongSentence": "I has got a meeting this afternoon.",
-          "answer": "I have got a meeting this afternoon.",
-          "explanation": "1ª persona singular (I) forma 'I have got'."
-        },
-        {
-          "id": "T1_Q27",
-          "number": 27,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"The shop close at nine o'clock every evening.\"",
-          "wrongSentence": "The shop close at nine o'clock every evening.",
-          "answer": "The shop closes at nine o'clock every evening.",
-          "explanation": "'The shop' (it) en Present Simple afirmativo añade -s al verbo (closes)."
-        },
-        {
-          "id": "T1_Q28",
-          "number": 28,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"We isn't interested in that course.\"",
-          "wrongSentence": "We isn't interested in that course.",
-          "answer": "We aren't interested in that course.",
-          "explanation": "Sujeto 'We' concuerda con 'aren't' en To Be."
-        },
-        {
-          "id": "T1_Q29",
-          "number": 29,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"Does your neighbours have a dog?\"",
-          "wrongSentence": "Does your neighbours have a dog?",
-          "answer": "Do your neighbours have a dog?",
-          "explanation": "'Your neighbours' es plural (they), el auxiliar debe ser 'Do'."
-        },
-        {
-          "id": "T1_Q30",
-          "number": 30,
-          "type": "correction",
-          "section": "Find the Mistake (Corrección de errores)",
-          "question": "Corrige el error en la siguiente frase:\n\"The woman carrys a large bag to work every day.\"",
-          "wrongSentence": "The woman carrys a large bag to work every day.",
-          "answer": "The woman carries a large bag to work every day.",
-          "explanation": "Verbos terminados en consonante + y cambian a -ies en 3ª persona singular (carries)."
-        },
-        {
-          "id": "T1_Q31",
-          "number": 31,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "Riverside Sports Centre (31) ____ near a large residential area.",
-          "options": {
-            "A": "are",
-            "B": "do",
-            "C": "is",
-            "D": "has"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q32",
-          "number": 32,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "On most weekdays, the centre (32) ____ opens at seven, but it opens later on Sundays.",
-          "options": {
-            "A": "usually",
-            "B": "never",
-            "C": "seldom",
-            "D": "every"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q33",
-          "number": 33,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "The children in the local swimming club (33) ____ got training sessions twice a week.",
-          "options": {
-            "A": "are",
-            "B": "haves",
-            "C": "has",
-            "D": "have"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q34",
-          "number": 34,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "Their coach (34) ____ the equipment to the pool before each lesson, and the staff check the safety equipment (35) ____ Friday.",
-          "options": {
-            "A": "carrys",
-            "B": "carries",
-            "C": "carry",
-            "D": "carryes"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q35",
-          "number": 35,
-          "type": "choice",
-          "section": "Texto 1: Riverside Sports Centre",
-          "readingText": "",
-          "question": "...and the staff check the safety equipment (35) ____ Friday.",
-          "options": {
-            "A": "daily",
-            "B": "always",
-            "C": "every",
-            "D": "twice"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q36",
-          "number": 36,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "The ferries (36) ____ operate after midnight, so passengers must use another form of transport...",
-          "options": {
-            "A": "doesn't",
-            "B": "don't",
-            "C": "aren't",
-            "D": "isn't"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q37",
-          "number": 37,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "Services (37) ____ leave on time, although bad weather can cause delays.",
-          "options": {
-            "A": "never",
-            "B": "seldom",
-            "C": "every",
-            "D": "usually"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q38",
-          "number": 38,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "The company checks each boat once a day, so inspections take place (38) ____.",
-          "options": {
-            "A": "daily",
-            "B": "every",
-            "C": "monthly",
-            "D": "twice"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q39",
-          "number": 39,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "Some people (39) ____ got a monthly travel card.",
-          "options": {
-            "A": "has",
-            "B": "haves",
-            "C": "have",
-            "D": "are"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
-        },
-        {
-          "id": "T1_Q40",
-          "number": 40,
-          "type": "choice",
-          "section": "Texto 2: The Bay Ferry Service",
-          "readingText": "",
-          "question": "(40) ____ the service busy in summer? Yes, especially in July and August.",
-          "options": {
-            "A": "Does",
-            "B": "Is",
-            "C": "Are",
-            "D": "Has"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
-        },
-        {
-          "id": "T1_Q41",
-          "number": 41,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "Several men and women (41) ____ there six days a week.",
-          "options": {
-            "A": "works",
-            "B": "workes",
-            "C": "working",
-            "D": "work"
-          },
-          "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
-        },
-        {
-          "id": "T1_Q42",
-          "number": 42,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "The market (42) ____ at nine in the morning and closes at six.",
-          "options": {
-            "A": "open",
-            "B": "openes",
-            "C": "opens",
-            "D": "opening"
-          },
-          "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
-        },
-        {
-          "id": "T1_Q43",
-          "number": 43,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "Customers (43) ____ complain about the prices because most products are affordable.",
-          "options": {
-            "A": "rarely",
-            "B": "always",
-            "C": "frequently",
-            "D": "constantly"
-          },
-          "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
-        },
-        {
-          "id": "T1_Q44",
-          "number": 44,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "One food stall (44) ____ got tables for customers, but the others only sell takeaway food.",
-          "options": {
-            "A": "have",
-            "B": "haves",
-            "C": "is",
-            "D": "has"
-          },
-          "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
-        },
-        {
-          "id": "T1_Q45",
-          "number": 45,
-          "type": "choice",
-          "section": "Texto 3: Harbour Market",
-          "readingText": "",
-          "question": "The market is (45) ____ closed on Mondays, so traders use that day to prepare for the week.",
-          "options": {
-            "A": "every",
-            "B": "always",
-            "C": "seldom",
-            "D": "sometimes"
-          },
-          "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
-        }
-      ],
-      "blockId": "bloque_1",
-      "blockName": "Bloque 1"
-    },
     {
       "id": "tema_1",
       "title": "Tema 1: Formas verbales, To be y Presente simple",
@@ -14717,6 +13417,24 @@ window.TEST_DATA = {
       "description": "Ejercicios tipo test del Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS extraídos de Ejercicio Tema 11 EXTRA.pdf.",
       "questions": [
         {
+          "id": "T11E_Q7",
+          "number": 7,
+          "type": "completion",
+          "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
+          "question": "Was Jane busy when you went to see her? Yes, she ____________________ (study).",
+          "answer": "was studying",
+          "explanation": "Respuesta correcta: 'was studying'."
+        },
+        {
+          "id": "T11E_Q10",
+          "number": 10,
+          "type": "completion",
+          "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
+          "question": "What ____________________ (you / do) at 2 o’clock this morning? I was asleep.",
+          "answer": "were you doing",
+          "explanation": "Respuesta correcta: 'were you doing'."
+        },
+        {
           "id": "T11E_Q11",
           "number": 11,
           "type": "choice",
@@ -15986,6 +14704,1649 @@ window.TEST_DATA = {
           "answer": "C",
           "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C.",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
+        }
+      ]
+    },
+    {
+      "id": "tema_12_f1",
+      "title": "Tema 12 (Ficha 1): Articles",
+      "badge": "Tema 12 F1",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 12 (Ficha 1): Articles extraídos de Ejercicios  Tema 12. Ficha 1.pdf.",
+      "questions": [
+        {
+          "id": "T12F1_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Stella looks after patients in hospital. She is _______.",
+          "options": {
+            "A": "nurse",
+            "B": "a nurse",
+            "C": "an nurse",
+            "D": "the nurse"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "George works in a restaurant and brings food to the tables. He is _______.",
+          "options": {
+            "A": "waiter",
+            "B": "an waiter",
+            "C": "a waiter",
+            "D": "the waiter"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Mary arranges people’s holidays for them. She is _______.",
+          "options": {
+            "A": "a travel agent",
+            "B": "an travel agent",
+            "C": "travel agent",
+            "D": "the travel agent"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Ron works for an airline and flies aeroplanes. He is _______.",
+          "options": {
+            "A": "the pilot",
+            "B": "pilot",
+            "C": "an pilot",
+            "D": "a pilot"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Linda teaches people how to drive. She is _______.",
+          "options": {
+            "A": "a driving instructor",
+            "B": "an driving instructor",
+            "C": "driving instructor",
+            "D": "the driving instructor"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Dave fits and repairs water pipes. He is _______.",
+          "options": {
+            "A": "plumber",
+            "B": "the plumber",
+            "C": "a plumber",
+            "D": "an plumber"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Jenny writes articles for a newspaper. She is _______.",
+          "options": {
+            "A": "journalist",
+            "B": "a journalist",
+            "C": "an journalist",
+            "D": "the journalist"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "John translates what people are saying from one language into another. He is _______.",
+          "options": {
+            "A": "a interpreter",
+            "B": "interpreter",
+            "C": "the interpreter",
+            "D": "an interpreter"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "She is _______ teacher and works in one of those schools.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "Ø"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I saw _______ UFO in the sky.",
+          "options": {
+            "A": "an",
+            "B": "the",
+            "C": "a",
+            "D": "Ø"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "She’s _______ artist and her husband is _______ electrician.",
+          "options": {
+            "A": "a / an",
+            "B": "an / an",
+            "C": "an / a",
+            "D": "a / a"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "She goes to London once _______ week.",
+          "options": {
+            "A": "the",
+            "B": "an",
+            "C": "Ø",
+            "D": "a"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Are you _______ only child?",
+          "options": {
+            "A": "a",
+            "B": "the",
+            "C": "an",
+            "D": "Ø"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I work nine hours _______ day.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "Ø B. Choose the correct option."
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I’ve seen _______ good films recently.",
+          "options": {
+            "A": "the",
+            "B": "a",
+            "C": "some",
+            "D": "an"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "What’s wrong with you? Have you got _______ headache?",
+          "options": {
+            "A": "an",
+            "B": "a",
+            "C": "some",
+            "D": "Ø"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I know a lot of people. Most of them are _______ students.",
+          "options": {
+            "A": "a",
+            "B": "some",
+            "C": "the",
+            "D": "Ø"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "When I was _______ child, I used to be very shy.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "some",
+            "D": "Ø"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Would you like to be _______ actor?",
+          "options": {
+            "A": "a",
+            "B": "the",
+            "C": "an",
+            "D": "Ø"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Do you collect _______ stamps?",
+          "options": {
+            "A": "a",
+            "B": "Ø",
+            "C": "an",
+            "D": "the"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "What _______ beautiful garden!",
+          "options": {
+            "A": "an",
+            "B": "some",
+            "C": "Ø",
+            "D": "a"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "_______ birds, for example the penguin, cannot fly.",
+          "options": {
+            "A": "Some",
+            "B": "A",
+            "C": "An",
+            "D": "The"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I’ve been walking for three hours. I’ve got _______ sore feet.",
+          "options": {
+            "A": "a",
+            "B": "Ø",
+            "C": "some",
+            "D": "an"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I don’t feel very well this morning. I’ve got _______ sore throat.",
+          "options": {
+            "A": "some",
+            "B": "an",
+            "C": "Ø",
+            "D": "a"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "It’s a pity we haven’t got _______ camera. I’d like to take _______ photograph of that house.",
+          "options": {
+            "A": "an / a",
+            "B": "the / a",
+            "C": "a / a",
+            "D": "a / an"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Those are _______ nice shoes. Where did you get them?",
+          "options": {
+            "A": "some",
+            "B": "Ø",
+            "C": "a",
+            "D": "an"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I’m going shopping. I want to buy _______ new shoes.",
+          "options": {
+            "A": "some",
+            "B": "a",
+            "C": "an",
+            "D": "the"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "You need _______ visa to visit _______ countries, but not all of them.",
+          "options": {
+            "A": "an / some",
+            "B": "a / a",
+            "C": "the / some",
+            "D": "a / some"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Jane is _______ teacher. Her parents were _______ teachers too.",
+          "options": {
+            "A": "the / the",
+            "B": "an / Ø",
+            "C": "a / Ø",
+            "D": "a / some"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Do you enjoy going to _______ concerts?",
+          "options": {
+            "A": "the",
+            "B": "Ø",
+            "C": "a",
+            "D": "an"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "When we got to the city centre, _______ shops were still open, but most of them were closed.",
+          "options": {
+            "A": "some",
+            "B": "the",
+            "C": "a",
+            "D": "any"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I don’t believe him. He’s _______ liar.",
+          "options": {
+            "A": "an",
+            "B": "Ø",
+            "C": "the",
+            "D": "a C. Choose the correct option."
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: Where did you have _______ lunch? B: We went to _______ restaurant.",
+          "options": {
+            "A": "the / the",
+            "B": "Ø / a",
+            "C": "a / the",
+            "D": "Ø / the"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: Did you have _______ nice holiday? B: Yes, it was _______ best holiday I’ve ever had.",
+          "options": {
+            "A": "a / the",
+            "B": "the / a",
+            "C": "a / a",
+            "D": "the / the"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: Where’s _______ nearest shop? B: There’s one at _______ end of this street.",
+          "options": {
+            "A": "a / the",
+            "B": "the / an",
+            "C": "the / the",
+            "D": "Ø / the"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: Do you often listen to _______ radio? B: No, in fact I haven’t got _______ radio.",
+          "options": {
+            "A": "Ø / a",
+            "B": "the / the",
+            "C": "a / a",
+            "D": "the / a"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: Would you like to travel in _______ space? B: Yes, I’d love to go to _______ moon.",
+          "options": {
+            "A": "Ø / the",
+            "B": "the / the",
+            "C": "Ø / Ø",
+            "D": "the / Ø"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: Do you go to _______ cinema very often? B: No, but I watch a lot of films on _______ television.",
+          "options": {
+            "A": "Ø / Ø",
+            "B": "the / the",
+            "C": "the / Ø",
+            "D": "a / the"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "It was _______ nice day yesterday, so we went for a walk by _______ sea.",
+          "options": {
+            "A": "the / Ø",
+            "B": "a / Ø",
+            "C": "the / the",
+            "D": "a / the"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: What did you have for _______ breakfast this morning? B: Nothing. I never eat _______ breakfast.",
+          "options": {
+            "A": "the / the",
+            "B": "Ø / Ø",
+            "C": "Ø / the",
+            "D": "a / Ø"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A: Can you tell me where _______ Room 25 is? B: It’s on _______ second floor.",
+          "options": {
+            "A": "the / the",
+            "B": "Ø / a",
+            "C": "Ø / the",
+            "D": "the / a"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "We stayed at _______ most expensive hotel in town. Why didn’t we choose _______ cheaper hotel?",
+          "options": {
+            "A": "a / the",
+            "B": "a / a",
+            "C": "the / the",
+            "D": "the / a"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "My parents and I like _______ sea, but my brothers prefer climbing mountains.",
+          "options": {
+            "A": "Ø",
+            "B": "the",
+            "C": "a",
+            "D": "an"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I don’t watch _______ TV very often.",
+          "options": {
+            "A": "Ø",
+            "B": "the",
+            "C": "a",
+            "D": "an D. Choose the correct option."
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "_______ rice is the main food in many parts of Asia.",
+          "options": {
+            "A": "The",
+            "B": "A",
+            "C": "An",
+            "D": "Ø"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "She saw _______ elephant this morning.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "Ø"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "_______ apples I have are very good.",
+          "options": {
+            "A": "Ø",
+            "B": "A",
+            "C": "The",
+            "D": "An"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "I like _______ cats, but my sister doesn’t.",
+          "options": {
+            "A": "Ø",
+            "B": "the",
+            "C": "a",
+            "D": "an"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "She’s visiting _______ United States next month.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "Ø",
+            "D": "the"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "_______ pubs usually close at midnight.",
+          "options": {
+            "A": "The",
+            "B": "A",
+            "C": "Ø",
+            "D": "An"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q51",
+          "number": 51,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "We like _______ tea, but we don’t like _______ coffee.",
+          "options": {
+            "A": "the / the",
+            "B": "Ø / Ø",
+            "C": "the / Ø",
+            "D": "Ø / the"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F1_Q52",
+          "number": 52,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "A famous proverb says that _______ apple a day keeps _______ doctor away.",
+          "options": {
+            "A": "an / the",
+            "B": "an / a",
+            "C": "a / the",
+            "D": "the / the"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q53",
+          "number": 53,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "_______ most people travel to London by plane.",
+          "options": {
+            "A": "The",
+            "B": "A",
+            "C": "Ø",
+            "D": "An"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F1_Q54",
+          "number": 54,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "She likes _______ milk, but she doesn’t like _______ milk you have in the fridge.",
+          "options": {
+            "A": "the / a",
+            "B": "the / Ø",
+            "C": "Ø / a",
+            "D": "Ø / the"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F1_Q55",
+          "number": 55,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "My apartment is on _______ second floor.",
+          "options": {
+            "A": "the",
+            "B": "a",
+            "C": "Ø",
+            "D": "an"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F1_Q56",
+          "number": 56,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 1): Articles",
+          "question": "Who was _______ first president of _______ United States?",
+          "options": {
+            "A": "Ø / the",
+            "B": "the / the",
+            "C": "a / the",
+            "D": "the / Ø"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+        }
+      ]
+    },
+    {
+      "id": "tema_12_f2",
+      "title": "Tema 12 (Ficha 2): Articles",
+      "badge": "Tema 12 F2",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 12 (Ficha 2): Articles extraídos de Ejercicios  Tema 12. Ficha 2.pdf.",
+      "questions": [
+        {
+          "id": "T12F2_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "I’m afraid of _______.",
+          "options": {
+            "A": "the dogs",
+            "B": "dogs",
+            "C": "a dogs",
+            "D": "an dogs"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Can you pass _______, please?",
+          "options": {
+            "A": "salt",
+            "B": "a salt",
+            "C": "salts",
+            "D": "the salt"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F2_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ are good for you.",
+          "options": {
+            "A": "A apples",
+            "B": "The apples",
+            "C": "Apples",
+            "D": "An apples"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Look at _______ on that tree! They’re very big.",
+          "options": {
+            "A": "apples",
+            "B": "the apples",
+            "C": "an apples",
+            "D": "a apples"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ live longer than _______.",
+          "options": {
+            "A": "The women / the men",
+            "B": "Women / the men",
+            "C": "Women / men",
+            "D": "The women / men"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "I don’t drink _______. I don’t like it.",
+          "options": {
+            "A": "a tea",
+            "B": "the tea",
+            "C": "tea",
+            "D": "teas"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "We had a very nice meal. _______ were especially good.",
+          "options": {
+            "A": "Vegetables",
+            "B": "A vegetables",
+            "C": "The vegetables",
+            "D": "An vegetables"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ is strange sometimes. Some very strange things happen.",
+          "options": {
+            "A": "A life",
+            "B": "The life",
+            "C": "Life",
+            "D": "An life"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "I like _______, but I’m not very good at it.",
+          "options": {
+            "A": "the skiing",
+            "B": "skiing",
+            "C": "a skiing",
+            "D": "skis"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Who are _______ in this photograph?",
+          "options": {
+            "A": "people",
+            "B": "a people",
+            "C": "the people",
+            "D": "an people"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "What makes _______ violent? What causes _______?",
+          "options": {
+            "A": "the people / the aggression",
+            "B": "people / aggression",
+            "C": "people / the aggression",
+            "D": "the people / aggression"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "All of _______ books on the top shelf belong to me.",
+          "options": {
+            "A": "Ø",
+            "B": "a",
+            "C": "the",
+            "D": "an"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Don’t stay in that hotel. It’s very noisy and _______ are very uncomfortable.",
+          "options": {
+            "A": "beds",
+            "B": "a beds",
+            "C": "the beds",
+            "D": "an beds"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "A pacifist is somebody who is against _______.",
+          "options": {
+            "A": "a war",
+            "B": "war",
+            "C": "the war",
+            "D": "wars"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ lasted from 1914 until 1918.",
+          "options": {
+            "A": "First World War",
+            "B": "A First World War",
+            "C": "The First World War",
+            "D": "First the World War"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "One of our biggest social problems is _______.",
+          "options": {
+            "A": "an unemployment",
+            "B": "the unemployment",
+            "C": "unemployment",
+            "D": "a unemployment"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Ron and Brenda got married, but _______ didn’t last very long.",
+          "options": {
+            "A": "marriage",
+            "B": "a marriage",
+            "C": "the marriage",
+            "D": "marriages"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ believe that _______ and _______ are the basis of _______.",
+          "options": {
+            "A": "The most people / the marriage / the family life / the society",
+            "B": "Most people / marriage / family life / society",
+            "C": "Most people / the marriage / family life / society",
+            "D": "The most people / marriage / the family life / society"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "When was _______ invented?",
+          "options": {
+            "A": "telephone",
+            "B": "a telephone",
+            "C": "an telephone",
+            "D": "the telephone"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F2_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Can you play _______?",
+          "options": {
+            "A": "musical instruments",
+            "B": "the musical instruments",
+            "C": "a musical instruments",
+            "D": "an musical instruments"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F2_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Jill plays _______ in an orchestra.",
+          "options": {
+            "A": "violin",
+            "B": "a violin",
+            "C": "the violin",
+            "D": "an violin"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "There was _______ in the corner of the room.",
+          "options": {
+            "A": "piano",
+            "B": "the piano",
+            "C": "an piano",
+            "D": "a piano"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F2_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Can you play _______?",
+          "options": {
+            "A": "piano",
+            "B": "the piano",
+            "C": "a piano",
+            "D": "pianos"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Our society is based on _______.",
+          "options": {
+            "A": "a family",
+            "B": "family",
+            "C": "the family",
+            "D": "families"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Martin comes from _______.",
+          "options": {
+            "A": "large family",
+            "B": "the large family",
+            "C": "a large family",
+            "D": "large families"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "When was _______ first made?",
+          "options": {
+            "A": "the paper",
+            "B": "a paper",
+            "C": "paper",
+            "D": "papers"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ has changed the way we live.",
+          "options": {
+            "A": "Computer",
+            "B": "A computers",
+            "C": "The computer",
+            "D": "Computers the B. Complete each sentence using one of the words below. Use “the” where necessary. basketball · questions · history · hotels · information · patience · people · water · meat · grass · lies · spiders"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q28",
+          "number": 28,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "My favourite sport is ________________________________.",
+          "answer": "basketball",
+          "explanation": "Respuesta correcta: 'basketball'."
+        },
+        {
+          "id": "T12F2_Q29",
+          "number": 29,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "________________________________ we were given wasn’t correct.",
+          "answer": "the information",
+          "explanation": "Respuesta correcta: 'the information'."
+        },
+        {
+          "id": "T12F2_Q30",
+          "number": 30,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Many people are afraid of ________________________________.",
+          "answer": "spiders",
+          "explanation": "Respuesta correcta: 'spiders'."
+        },
+        {
+          "id": "T12F2_Q31",
+          "number": 31,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "A vegetarian is somebody who doesn’t eat ________________________________.",
+          "answer": "meat",
+          "explanation": "Respuesta correcta: 'meat'."
+        },
+        {
+          "id": "T12F2_Q32",
+          "number": 32,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "The test wasn’t very difficult. I answered all ________________________________ without difficulty.",
+          "answer": "the questions",
+          "explanation": "Respuesta correcta: 'the questions'."
+        },
+        {
+          "id": "T12F2_Q33",
+          "number": 33,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Do you know ________________________________ who lives next door?",
+          "answer": "the people",
+          "explanation": "Respuesta correcta: 'the people'."
+        },
+        {
+          "id": "T12F2_Q34",
+          "number": 34,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "________________________________ is the study of the past.",
+          "answer": "history",
+          "explanation": "Respuesta correcta: 'history'."
+        },
+        {
+          "id": "T12F2_Q35",
+          "number": 35,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "George always tells the truth. He never tells ________________________________.",
+          "answer": "lies",
+          "explanation": "Respuesta correcta: 'lies'."
+        },
+        {
+          "id": "T12F2_Q36",
+          "number": 36,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "We couldn’t find anywhere to stay in the town. All ________________________________ were full.",
+          "answer": "the hotels",
+          "explanation": "Respuesta correcta: 'the hotels'."
+        },
+        {
+          "id": "T12F2_Q37",
+          "number": 37,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "________________________________ in the pool didn’t look very clean, so we didn’t go for a swim.",
+          "answer": "the water",
+          "explanation": "Respuesta correcta: 'the water'."
+        },
+        {
+          "id": "T12F2_Q38",
+          "number": 38,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Don’t sit on ________________________________. It’s wet after the rain.",
+          "answer": "the grass",
+          "explanation": "Respuesta correcta: 'the grass'."
+        },
+        {
+          "id": "T12F2_Q39",
+          "number": 39,
+          "type": "completion",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "You need ________________________________ to teach young children.",
+          "answer": "patience",
+          "explanation": "Respuesta correcta: 'patience'."
+        },
+        {
+          "id": "T12F2_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "I want to have _______ party _______ home.",
+          "options": {
+            "A": "a / at",
+            "B": "the / a",
+            "C": "a / the",
+            "D": "the / an"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F2_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Where are you going _______ next week?",
+          "options": {
+            "A": "the",
+            "B": "a",
+            "C": "an",
+            "D": "Ø"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F2_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "She plays _______ flute on Monday and Friday and she plays _______ football at weekends.",
+          "options": {
+            "A": "the / the",
+            "B": "the / Ø",
+            "C": "a / a",
+            "D": "Ø / the"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "They have got two children, _______ boy and _______ girl. _______ girl is seven and _______ boy is nine.",
+          "options": {
+            "A": "the / a / a / the",
+            "B": "a / a / the / the",
+            "C": "the / the / a / a",
+            "D": "a / the / a / the"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "My sister usually has _______ breakfast at _______ half past eight.",
+          "options": {
+            "A": "the / the",
+            "B": "Ø / the",
+            "C": "the / Ø",
+            "D": "Ø / Ø"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F2_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "She sometimes goes to _______ supermarket and buys some chocolate. She loves _______ chocolate very much.",
+          "options": {
+            "A": "the / Ø",
+            "B": "Ø / Ø",
+            "C": "the / the",
+            "D": "a / the"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F2_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ friend of mine is expecting _______ baby.",
+          "options": {
+            "A": "The / a",
+            "B": "A / the",
+            "C": "A / a",
+            "D": "The / the"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Is there _______ bank near here?",
+          "options": {
+            "A": "the",
+            "B": "a",
+            "C": "Ø",
+            "D": "an"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Where’s Sue? She’s in _______ garden.",
+          "options": {
+            "A": "an",
+            "B": "Ø",
+            "C": "it",
+            "D": "the"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F2_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "I usually listen to _______ radio while I’m having _______ dinner.",
+          "options": {
+            "A": "Ø / the",
+            "B": "the / Ø",
+            "C": "the / the",
+            "D": "Ø / Ø"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Have you ever been to _______ Philippines?",
+          "options": {
+            "A": "a",
+            "B": "Ø",
+            "C": "the",
+            "D": "an"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q51",
+          "number": 51,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "Margaret lives in _______ Sevilla Street.",
+          "options": {
+            "A": "the",
+            "B": "a",
+            "C": "Ø",
+            "D": "an"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q52",
+          "number": 52,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ Spain is a very nice country.",
+          "options": {
+            "A": "Ø",
+            "B": "The",
+            "C": "A",
+            "D": "An"
+          },
+          "answer": "A",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+        },
+        {
+          "id": "T12F2_Q53",
+          "number": 53,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "I’m waiting for Peter at _______ Victoria Station.",
+          "options": {
+            "A": "the",
+            "B": "Ø",
+            "C": "a",
+            "D": "an"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q54",
+          "number": 54,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ English is very difficult.",
+          "options": {
+            "A": "The",
+            "B": "A",
+            "C": "An",
+            "D": "Ø"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        },
+        {
+          "id": "T12F2_Q55",
+          "number": 55,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "_______ tomatoes are expensive.",
+          "options": {
+            "A": "The",
+            "B": "Ø",
+            "C": "A",
+            "D": "An"
+          },
+          "answer": "B",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+        },
+        {
+          "id": "T12F2_Q56",
+          "number": 56,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "It’s a nice house and _______ bedrooms are very big.",
+          "options": {
+            "A": "Ø",
+            "B": "a",
+            "C": "the",
+            "D": "mine"
+          },
+          "answer": "C",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+        },
+        {
+          "id": "T12F2_Q57",
+          "number": 57,
+          "type": "choice",
+          "section": "Tema 12 (Ficha 2): Articles",
+          "question": "On Monday _______ shops open at 9.",
+          "options": {
+            "A": "the",
+            "B": "a",
+            "C": "an",
+            "D": "Ø"
+          },
+          "answer": "D",
+          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
         }
       ]
     }

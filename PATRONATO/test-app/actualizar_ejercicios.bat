@@ -72,10 +72,16 @@ REM Añadir cambios de test-app al stage de git
 
 REM Comprobar si hay cambios para commitear
 "!GIT_CMD!" diff --cached --quiet
-if !ERRORLEVEL! equ 0 goto NO_CHANGES
+if !ERRORLEVEL! equ 0 (
+    "!GIT_CMD!" log @{u}..HEAD --oneline 2>nul | findstr . >nul 2>nul
+    if !ERRORLEVEL! equ 0 goto DO_PUSH
+    goto NO_CHANGES
+)
 
 echo Guardando cambios en Git...
 "!GIT_CMD!" commit -m "feat(data): actualizacion automatica de ejercicios de Patronato"
+
+:DO_PUSH
 echo.
 echo Enviando cambios a GitHub...
 "!GIT_CMD!" push origin main
