@@ -525,6 +525,18 @@
         </div>
       </div>
 
+      ${(function() {
+        const sheet = resolveStudySheet(topic.id);
+        if (!sheet) return '';
+        return `
+          <div class="card-actions-study">
+            <button class="btn btn-study-action btn-sm" onclick="openStudySheet('${topic.id}', event)" title="Ver Ficha de Estudio y Tips de Examen">
+              💡 Ficha & Tips de Examen
+            </button>
+          </div>
+        `;
+      })()}
+
       <div class="card-actions">
         <button class="btn btn-secondary btn-sm" onclick="startTopicQuiz('${topic.id}', 'practice')">
           📖 Práctica
@@ -2844,6 +2856,215 @@
     const rem = s % 60;
     return `${String(m).padStart(2, '0')}:${String(rem).padStart(2, '0')}`;
   }
+
+  // ========================================================
+  // CONTROLADOR DE FICHAS DE ESTUDIO Y FLASHCARDS (PATRONATO 2026)
+  // ========================================================
+  
+  function resolveStudySheet(topicId) {
+    if (!topicId || !window.STUDY_DATA || !window.STUDY_DATA.sheets) return null;
+    const sheets = window.STUDY_DATA.sheets;
+    
+    // Coincidencia directa
+    if (sheets[topicId]) return sheets[topicId];
+    
+    // Normalizar ID por número de tema (ej. tema_3_extra -> tema_3, tema_12_f1 -> tema_12)
+    const m = topicId.match(/tema_(\d+)/i);
+    if (m) {
+      const baseKey = 'tema_' + m[1];
+      if (sheets[baseKey]) return sheets[baseKey];
+    }
+    
+    return null;
+  }
+  window.resolveStudySheet = resolveStudySheet;
+
+  window.openStudySheet = function(topicId, event) {
+    if (event) {
+      event.preventDefault();
+      event.stopPropagation();
+    }
+    const sheet = resolveStudySheet(topicId);
+    if (!sheet) {
+      showToast('⚠️ No hay ficha de estudio disponible para este tema.');
+      return;
+    }
+
+    state.currentStudySheet = sheet;
+    state.currentStudyTopicId = topicId;
+    state.currentCardIndex = 0;
+    state.isCardFlipped = false;
+
+    // Renderizar cabecera
+    const badgeEl = document.getElementById('study-sheet-badge');
+    if (badgeEl) badgeEl.textContent = sheet.badge || 'Tema';
+    
+    const titleEl = document.getElementById('study-sheet-title');
+    if (titleEl) titleEl.textContent = sheet.title || '';
+
+    const summaryEl = document.getElementById('study-sheet-summary');
+    if (summaryEl) summaryEl.textContent = sheet.summary || '';
+
+    // Renderizar Reglas de Oro
+    const grList = document.getElementById('study-golden-rules-list');
+    if (grList) {
+      grList.innerHTML = (sheet.goldenRules || []).map(r => `
+        <div class="golden-rule-card">
+          <div class="golden-rule-title">✓ ${escapeHtml(r.title)}</div>
+          <div class="golden-rule-content">${escapeHtml(r.content)}</div>
+        </div>
+      `).join('');
+    }
+
+    // Renderizar Trampas del Patronato
+    const trapsList = document.getElementById('study-exam-traps-list');
+    if (trapsList) {
+      trapsList.innerHTML = (sheet.examTraps || []).map(t => `
+        <div class="exam-trap-item">
+          <div class="exam-trap-header">⚠️ ${escapeHtml(t.trap)}</div>
+          <div class="trap-comparison-row">
+            <div class="trap-box-bad" title="Fallo típico que pone el tribunal">${escapeHtml(t.exampleBad)}</div>
+            <div class="trap-box-good" title="Opción correcta en el examen">${escapeHtml(t.exampleGood)}</div>
+          </div>
+          <div class="trap-explanation">${escapeHtml(t.explanation)}</div>
+        </div>
+      `).join('');
+    }
+
+    // Renderizar Tips de Descarte Rápido
+    const tipsList = document.getElementById('study-exam-tips-list');
+    if (tipsList) {
+      tipsList.innerHTML = (sheet.examTips || []).map(tip => `
+        <div class="exam-tip-card">
+          <div class="exam-tip-rule">🎯 ${escapeHtml(tip.rule)}</div>
+          <div class="exam-tip-text">${escapeHtml(tip.tip)}</div>
+        </div>
+      `).join('');
+    }
+
+    // Renderizar Vocabulario Clave
+    const vocabCard = document.getElementById('study-vocab-card');
+    const vocabList = document.getElementById('study-vocab-list');
+    if (vocabCard && vocabList) {
+      if (sheet.vocabularyKeys && sheet.vocabularyKeys.length > 0) {
+        vocabCard.style.display = 'block';
+        vocabList.innerHTML = sheet.vocabularyKeys.map(v => `
+          <div class="study-vocab-item">
+            <div class="study-vocab-term">${escapeHtml(v.term)}</div>
+            <div class="study-vocab-meaning">${escapeHtml(v.meaning)}</div>
+            ${v.distractorRole ? `<div class="study-vocab-role">${escapeHtml(v.distractorRole)}</div>` : ''}
+          </div>
+        `).join('');
+      } else {
+        vocabCard.style.display = 'none';
+      }
+    }
+
+    // Configurar contador de Flashcards
+    const flashCountEl = document.getElementById('study-flashcards-total-count');
+    if (flashCountEl) {
+      flashCountEl.textContent = (sheet.flashcards || []).length;
+    }
+
+    // Iniciar por defecto en modo Resumen
+    setStudyViewMode('summary');
+    showView('view-study-sheet');
+  };
+
+  window.setStudyViewMode = function(mode) {
+    const btnSummary = document.getElementById('btn-mode-summary');
+    const btnFlash = document.getElementById('btn-mode-flashcards');
+    const containerSummary = document.getElementById('study-mode-summary-container');
+    const containerFlash = document.getElementById('study-mode-flashcards-container');
+
+    if (mode === 'flashcards') {
+      if (btnSummary) btnSummary.classList.remove('active');
+      if (btnFlash) btnFlash.classList.add('active');
+      if (containerSummary) containerSummary.style.display = 'none';
+      if (containerFlash) containerFlash.style.display = 'block';
+      renderCurrentFlashcard();
+    } else {
+      if (btnSummary) btnSummary.classList.add('active');
+      if (btnFlash) btnFlash.classList.remove('active');
+      if (containerSummary) containerSummary.style.display = 'block';
+      if (containerFlash) containerFlash.style.display = 'none';
+    }
+  };
+
+  function renderCurrentFlashcard() {
+    const sheet = state.currentStudySheet;
+    if (!sheet || !sheet.flashcards || sheet.flashcards.length === 0) return;
+    const cards = sheet.flashcards;
+
+    if (state.currentCardIndex >= cards.length) state.currentCardIndex = 0;
+    if (state.currentCardIndex < 0) state.currentCardIndex = cards.length - 1;
+
+    const card = cards[state.currentCardIndex];
+    const counterEl = document.getElementById('flashcard-counter-indicator');
+    if (counterEl) {
+      counterEl.textContent = `Tarjeta ${state.currentCardIndex + 1} de ${cards.length}`;
+    }
+
+    const frontEl = document.getElementById('flashcard-front-text');
+    if (frontEl) frontEl.textContent = card.front;
+
+    const backEl = document.getElementById('flashcard-back-text');
+    if (backEl) backEl.textContent = card.back;
+
+    // Resetear giro al cambiar de tarjeta
+    state.isCardFlipped = false;
+    const innerEl = document.getElementById('study-flashcard-inner');
+    if (innerEl) innerEl.classList.remove('is-flipped');
+  }
+
+  window.flipCurrentStudyCard = function() {
+    state.isCardFlipped = !state.isCardFlipped;
+    const innerEl = document.getElementById('study-flashcard-inner');
+    if (innerEl) {
+      innerEl.classList.toggle('is-flipped', state.isCardFlipped);
+    }
+  };
+
+  window.nextStudyCard = function() {
+    const sheet = state.currentStudySheet;
+    if (!sheet || !sheet.flashcards || sheet.flashcards.length === 0) return;
+    state.currentCardIndex = (state.currentCardIndex + 1) % sheet.flashcards.length;
+    renderCurrentFlashcard();
+  };
+
+  window.prevStudyCard = function() {
+    const sheet = state.currentStudySheet;
+    if (!sheet || !sheet.flashcards || sheet.flashcards.length === 0) return;
+    state.currentCardIndex = (state.currentCardIndex - 1 + sheet.flashcards.length) % sheet.flashcards.length;
+    renderCurrentFlashcard();
+  };
+
+  window.startTestFromStudySheet = function() {
+    if (state.currentStudyTopicId) {
+      startTopicQuiz(state.currentStudyTopicId, 'exam');
+    } else {
+      showDashboard();
+    }
+  };
+
+  // Atajos de teclado para Flashcards (Flechas y Espacio)
+  window.addEventListener('keydown', function(e) {
+    const studyView = document.getElementById('view-study-sheet');
+    const flashContainer = document.getElementById('study-mode-flashcards-container');
+    if (!studyView || !studyView.classList.contains('active')) return;
+    if (!flashContainer || flashContainer.style.display === 'none') return;
+
+    if (e.key === 'ArrowRight') {
+      e.preventDefault();
+      nextStudyCard();
+    } else if (e.key === 'ArrowLeft') {
+      e.preventDefault();
+      prevStudyCard();
+    } else if (e.key === ' ' || e.key === 'Enter') {
+      e.preventDefault();
+      flipCurrentStudyCard();
+    }
+  });
 
   // --- UTILS ---
   function escapeHtml(str) {

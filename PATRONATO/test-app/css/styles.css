@@ -2464,5 +2464,456 @@ body {
   border: 2px dashed var(--accent);
 }
 
+/* ========================================================
+   FICHAS DE ESTUDIO Y TIPS DE EXAMEN (PATRONATO 2026)
+   ======================================================== */
+
+.card-actions-study {
+  margin-bottom: 0.6rem;
+}
+
+.btn-study-action {
+  width: 100%;
+  background: linear-gradient(135deg, rgba(217, 119, 6, 0.12), rgba(5, 150, 105, 0.12));
+  border: 1px solid var(--warning);
+  color: var(--warning);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.btn-study-action:hover {
+  background: var(--warning);
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-sm);
+}
+
+[data-theme="dark"] .btn-study-action {
+  background: rgba(245, 158, 11, 0.15);
+  border-color: #f59e0b;
+  color: #fbbf24;
+}
+
+[data-theme="dark"] .btn-study-action:hover {
+  background: #f59e0b;
+  color: #0b0f19;
+}
+
+/* Header de la Ficha */
+.study-sheet-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.study-header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.study-mode-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.study-sheet-title-wrap {
+  background: linear-gradient(135deg, var(--bg-card), var(--bg-alt));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.study-sheet-title-wrap h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+}
+
+.study-sheet-desc {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Secciones de Estudio */
+.study-section-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.study-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.study-section-title h3 {
+  font-size: 1.25rem;
+  color: var(--text-main);
+}
+
+.study-sec-icon {
+  font-size: 1.35rem;
+}
+
+.study-section-subtitle {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Reglas de Oro */
+.golden-rules-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.golden-rule-card {
+  background: var(--bg-alt);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.25rem;
+  transition: transform 0.2s ease;
+}
+
+.golden-rule-card:hover {
+  transform: translateY(-2px);
+}
+
+.golden-rule-title {
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 0.4rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+[data-theme="dark"] .golden-rule-title {
+  color: #60a5fa;
+}
+
+.golden-rule-content {
+  font-size: 0.93rem;
+  line-height: 1.5;
+  color: var(--text-main);
+}
+
+/* Trampas Típicas */
+.exam-traps-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.exam-trap-item {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+}
+
+.exam-trap-header {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--danger);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+[data-theme="dark"] .exam-trap-header {
+  color: #f87171;
+}
+
+.trap-comparison-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .trap-comparison-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trap-box-bad {
+  background: var(--danger-light);
+  border: 1px solid var(--danger);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  font-size: 0.93rem;
+  color: #991b1b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+[data-theme="dark"] .trap-box-bad {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: #ef4444;
+  color: #fca5a5;
+}
+
+.trap-box-good {
+  background: var(--accent-light);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 1rem;
+  font-size: 0.93rem;
+  color: #065f46;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+[data-theme="dark"] .trap-box-good {
+  background: rgba(16, 185, 129, 0.15);
+  border-color: #10b981;
+  color: #6ee7b7;
+}
+
+.trap-explanation {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  padding-top: 0.4rem;
+  border-top: 1px dashed var(--border);
+}
+
+/* Tips de Descarte */
+.exam-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.exam-tip-card {
+  background: var(--bg-alt);
+  border-left: 4px solid var(--warning);
+  border-radius: var(--radius-sm);
+  padding: 1rem 1.25rem;
+}
+
+.exam-tip-rule {
+  font-weight: 700;
+  color: var(--warning);
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+}
+
+[data-theme="dark"] .exam-tip-rule {
+  color: #fbbf24;
+}
+
+.exam-tip-text {
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--text-main);
+}
+
+/* Vocabulario Clave */
+.study-vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.75rem;
+}
+
+.study-vocab-item {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.9rem 1.1rem;
+}
+
+.study-vocab-term {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+[data-theme="dark"] .study-vocab-term {
+  color: #60a5fa;
+}
+
+.study-vocab-meaning {
+  font-size: 0.9rem;
+  color: var(--text-main);
+  margin-bottom: 0.4rem;
+}
+
+.study-vocab-role {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  font-style: italic;
+  border-top: 1px solid var(--border);
+  padding-top: 0.35rem;
+}
+
+/* Acciones Inferiores */
+.study-bottom-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+/* ========================================================
+   MODO FLASHCARDS 3D INTERACTIVAS
+   ======================================================== */
+
+.flashcards-top-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.flashcard-counter {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary);
+  background: var(--primary-light);
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+}
+
+.flashcard-tip-label {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.flashcard-scene {
+  perspective: 1200px;
+  max-width: 650px;
+  width: 100%;
+  min-height: 320px;
+  margin: 1.5rem auto;
+  cursor: pointer;
+  user-select: none;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 320px;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flashcard-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius-lg);
+  padding: 2rem 2.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: var(--shadow-lg);
+  border: 2px solid var(--border);
+  box-sizing: border-box;
+}
+
+.flashcard-front {
+  background: var(--bg-card);
+  border-color: var(--primary);
+}
+
+.flashcard-back {
+  background: var(--bg-card);
+  border-color: var(--accent);
+  transform: rotateY(180deg);
+}
+
+.flashcard-badge {
+  align-self: flex-start;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.3rem 0.65rem;
+  border-radius: 999px;
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+.flashcard-badge.badge-green {
+  background: var(--accent-light);
+  color: var(--accent);
+}
+
+.flashcard-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-main);
+  line-height: 1.6;
+  margin: 1.5rem 0;
+  white-space: pre-line;
+}
+
+.flashcard-tap-hint {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  text-align: center;
+  opacity: 0.85;
+}
+
+.flashcard-nav-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 1.75rem auto 1rem auto;
+  max-width: 650px;
+}
+
+.flashcard-nav-controls .btn {
+  min-width: 110px;
+  justify-content: center;
+}
+
+.flashcard-keyboard-hints {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
 
 

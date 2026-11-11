@@ -1,11 +1,11 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-11 19:56:55
+ * Fecha: 2026-11-11 22:05:17
  * Total preguntas: 1101
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-11 19:56:55",
+    "generatedAt": "2026-11-11 22:05:17",
     "totalTopics": 23,
     "totalQuestions": 1101
   },
@@ -13939,7 +13939,7 @@ window.TEST_DATA = {
             "A": "Did they went to Madrid last week?",
             "B": "Did they goes to Madrid last week?",
             "C": "Did they go to Madrid last week?",
-            "D": "Did go they to Madrid last week? C. PAST SIMPLE vs PAST CONTINUOUS Choose the correct option."
+            "D": "Did go they to Madrid last week?"
           },
           "answer": "C",
           "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
@@ -14524,7 +14524,7 @@ window.TEST_DATA = {
             "A": "She came into the room while I have watched TV.",
             "B": "She came into the room while I has watched TV.",
             "C": "She came into the room while I was watched TV.",
-            "D": "She came into the room while I was watching TV. D. TEXT Choose the correct option for each gap. When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
+            "D": "She came into the room while I was watching TV."
           },
           "answer": "D",
           "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
@@ -14920,7 +14920,7 @@ window.TEST_DATA = {
             "A": "a",
             "B": "an",
             "C": "the",
-            "D": "Ø B. Choose the correct option."
+            "D": "Ø"
           },
           "answer": "A",
           "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
@@ -15190,7 +15190,7 @@ window.TEST_DATA = {
             "A": "an",
             "B": "Ø",
             "C": "the",
-            "D": "a C. Choose the correct option."
+            "D": "a"
           },
           "answer": "D",
           "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
@@ -15370,7 +15370,7 @@ window.TEST_DATA = {
             "A": "Ø",
             "B": "the",
             "C": "a",
-            "D": "an D. Choose the correct option."
+            "D": "an"
           },
           "answer": "A",
           "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
@@ -15965,7 +15965,7 @@ window.TEST_DATA = {
             "A": "Computer",
             "B": "A computers",
             "C": "The computer",
-            "D": "Computers the B. Complete each sentence using one of the words below. Use “the” where necessary. basketball · questions · history · hotels · information · patience · people · water · meat · grass · lies · spiders"
+            "D": "Computers the"
           },
           "answer": "C",
           "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
@@ -15977,7 +15977,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "My favourite sport is ________________________________.",
           "answer": "basketball",
-          "explanation": "Respuesta correcta: 'basketball'."
+          "explanation": "Respuesta correcta: 'basketball'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q29",
@@ -15986,7 +15987,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "________________________________ we were given wasn’t correct.",
           "answer": "the information",
-          "explanation": "Respuesta correcta: 'the information'."
+          "explanation": "Respuesta correcta: 'the information'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q30",
@@ -15995,7 +15997,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "Many people are afraid of ________________________________.",
           "answer": "spiders",
-          "explanation": "Respuesta correcta: 'spiders'."
+          "explanation": "Respuesta correcta: 'spiders'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q31",
@@ -16004,7 +16007,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "A vegetarian is somebody who doesn’t eat ________________________________.",
           "answer": "meat",
-          "explanation": "Respuesta correcta: 'meat'."
+          "explanation": "Respuesta correcta: 'meat'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q32",
@@ -16013,7 +16017,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "The test wasn’t very difficult. I answered all ________________________________ without difficulty.",
           "answer": "the questions",
-          "explanation": "Respuesta correcta: 'the questions'."
+          "explanation": "Respuesta correcta: 'the questions'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q33",
@@ -16022,7 +16027,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "Do you know ________________________________ who lives next door?",
           "answer": "the people",
-          "explanation": "Respuesta correcta: 'the people'."
+          "explanation": "Respuesta correcta: 'the people'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q34",
@@ -16031,7 +16037,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "________________________________ is the study of the past.",
           "answer": "history",
-          "explanation": "Respuesta correcta: 'history'."
+          "explanation": "Respuesta correcta: 'history'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q35",
@@ -16040,7 +16047,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "George always tells the truth. He never tells ________________________________.",
           "answer": "lies",
-          "explanation": "Respuesta correcta: 'lies'."
+          "explanation": "Respuesta correcta: 'lies'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q36",
@@ -16049,7 +16057,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "We couldn’t find anywhere to stay in the town. All ________________________________ were full.",
           "answer": "the hotels",
-          "explanation": "Respuesta correcta: 'the hotels'."
+          "explanation": "Respuesta correcta: 'the hotels'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q37",
@@ -16058,7 +16067,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "________________________________ in the pool didn’t look very clean, so we didn’t go for a swim.",
           "answer": "the water",
-          "explanation": "Respuesta correcta: 'the water'."
+          "explanation": "Respuesta correcta: 'the water'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q38",
@@ -16067,7 +16077,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "Don’t sit on ________________________________. It’s wet after the rain.",
           "answer": "the grass",
-          "explanation": "Respuesta correcta: 'the grass'."
+          "explanation": "Respuesta correcta: 'the grass'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q39",
@@ -16076,7 +16087,8 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "You need ________________________________ to teach young children.",
           "answer": "patience",
-          "explanation": "Respuesta correcta: 'patience'."
+          "explanation": "Respuesta correcta: 'patience'.",
+          "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
           "id": "T12F2_Q40",

@@ -461,6 +461,141 @@
       </div>
     </section>
 
+    <!-- VIEW 6: FICHA DE ESTUDIO Y TIPS DE EXAMEN -->
+    <section id="view-study-sheet" class="view-section">
+      <!-- Header de la Ficha -->
+      <div class="study-sheet-header">
+        <div class="study-header-left">
+          <button class="btn btn-outline btn-sm" onclick="showDashboard()" title="Volver al Menú Principal">
+            ← Menú Principal
+          </button>
+          <span class="card-badge badge-blue" id="study-sheet-badge">Tema 1</span>
+        </div>
+        <div class="study-mode-toggle">
+          <button class="pill-btn active" id="btn-mode-summary" onclick="setStudyViewMode('summary')">
+            📖 Resumen & Tips
+          </button>
+          <button class="pill-btn" id="btn-mode-flashcards" onclick="setStudyViewMode('flashcards')">
+            🃏 Flashcards (<span id="study-flashcards-total-count">0</span>)
+          </button>
+        </div>
+      </div>
+
+      <div class="study-sheet-title-wrap">
+        <h2 id="study-sheet-title">Título del Tema</h2>
+        <p id="study-sheet-summary" class="study-sheet-desc">Descripción pedagógica del tema.</p>
+      </div>
+
+      <!-- MODO 1: RESUMEN Y TIPS DE EXAMEN -->
+      <div id="study-mode-summary-container" class="study-mode-content active">
+        <!-- 1. Reglas de Oro -->
+        <div class="study-section-card">
+          <div class="study-section-title">
+            <span class="study-sec-icon">🏆</span>
+            <h3>Reglas de Oro (Imprescindibles para el Examen)</h3>
+          </div>
+          <div id="study-golden-rules-list" class="golden-rules-grid">
+            <!-- Dynamic golden rules cards -->
+          </div>
+        </div>
+
+        <!-- 2. Trampas Típicas del Patronato Militar -->
+        <div class="study-section-card">
+          <div class="study-section-title">
+            <span class="study-sec-icon">⚠️</span>
+            <h3>Trampas Típicas del Tribunal Examinador</h3>
+          </div>
+          <p class="study-section-subtitle">Distractores frecuentes diseñados para inducir a error en el tipo test. Aprende a detectarlos:</p>
+          <div id="study-exam-traps-list" class="exam-traps-grid">
+            <!-- Dynamic exam traps comparison -->
+          </div>
+        </div>
+
+        <!-- 3. Tips de Descarte Rápido (Baremo 70% sin penalización) -->
+        <div class="study-section-card">
+          <div class="study-section-title">
+            <span class="study-sec-icon">⚡</span>
+            <h3>Tips de Descarte Rápido (Estrategia 70% Apto)</h3>
+          </div>
+          <div id="study-exam-tips-list" class="exam-tips-grid">
+            <!-- Dynamic quick tips -->
+          </div>
+        </div>
+
+        <!-- 4. Vocabulario Clave y Expresiones -->
+        <div class="study-section-card" id="study-vocab-card">
+          <div class="study-section-title">
+            <span class="study-sec-icon">📚</span>
+            <h3>Vocabulario y Expresiones Clave</h3>
+          </div>
+          <div id="study-vocab-list" class="study-vocab-grid">
+            <!-- Dynamic vocab keys -->
+          </div>
+        </div>
+
+        <!-- Botones de Acción al pie de la Ficha -->
+        <div class="study-bottom-actions">
+          <button class="btn btn-secondary" onclick="showDashboard()">
+            ← Volver al Menú
+          </button>
+          <button class="btn btn-outline" onclick="setStudyViewMode('flashcards')">
+            🃏 Practicar con Flashcards
+          </button>
+          <button class="btn btn-primary" id="btn-study-start-test" onclick="startTestFromStudySheet()">
+            📝 Hacer Test de este Tema
+          </button>
+        </div>
+      </div>
+
+      <!-- MODO 2: TARJETAS INTERACTIVAS (FLASHCARDS 3D) -->
+      <div id="study-mode-flashcards-container" class="study-mode-content" style="display: none;">
+        <div class="flashcards-top-meta">
+          <div class="flashcard-counter" id="flashcard-counter-indicator">Tarjeta 1 de 4</div>
+          <div class="flashcard-tip-label">💡 Toca la tarjeta o pulsa Espacio para girar</div>
+        </div>
+
+        <div class="flashcard-scene" onclick="flipCurrentStudyCard()" title="Toca para girar la tarjeta">
+          <div class="flashcard-inner" id="study-flashcard-inner">
+            <div class="flashcard-face flashcard-front">
+              <span class="flashcard-badge">❓ Pregunta / Reto de Examen</span>
+              <div class="flashcard-text" id="flashcard-front-text">Pregunta de la tarjeta</div>
+              <div class="flashcard-tap-hint">👆 Toca para ver la respuesta y regla explicada</div>
+            </div>
+            <div class="flashcard-face flashcard-back">
+              <span class="flashcard-badge badge-green">💡 Solución y Regla de Examen</span>
+              <div class="flashcard-text" id="flashcard-back-text">Respuesta y explicación</div>
+              <div class="flashcard-tap-hint">👆 Toca para volver a girar</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flashcard-nav-controls">
+          <button class="btn btn-outline btn-sm" id="btn-flashcard-prev" onclick="prevStudyCard()">
+            ⬅️ Anterior
+          </button>
+          <button class="btn btn-secondary btn-sm" onclick="flipCurrentStudyCard()">
+            🔄 Girar
+          </button>
+          <button class="btn btn-primary btn-sm" id="btn-flashcard-next" onclick="nextStudyCard()">
+            Siguiente ➡️
+          </button>
+        </div>
+
+        <div class="flashcard-keyboard-hints">
+          <span>Atajos de teclado: Flechas <strong>← / →</strong> para navegar • <strong>Espacio</strong> para voltear</span>
+        </div>
+
+        <div class="study-bottom-actions" style="margin-top: 1.5rem;">
+          <button class="btn btn-secondary btn-sm" onclick="setStudyViewMode('summary')">
+            📖 Volver al Resumen
+          </button>
+          <button class="btn btn-primary btn-sm" onclick="startTestFromStudySheet()">
+            📝 Ir al Test
+          </button>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- PWA Install Prompt Banner (Para Android / iOS) -->
@@ -519,10 +654,10 @@
         <button class="modal-close-btn" onclick="closeUpdateModal()">✕</button>
       </div>
       <p style="margin-bottom: 0.8rem;">La aplicación cuenta con un actualizador automático para incorporar nuevos PDFs que añadas en la carpeta de PATRONATO:</p>
-      <ol style="margin-left: 1.25rem; margin-bottom: 1.25rem;">
-        <li>Copia los nuevos archivos PDF de ejercicios dentro de la carpeta principal <code>PATRONATO</code>.</li>
+      <ol style="margin-left: 1.25rem; margin-bottom: 1.25rem; line-height: 1.6;">
+        <li>Copia los nuevos archivos PDF de ejercicios, teoría (<code>Tema X...</code>) o vocabulario (<code>Vocabulario X...</code>) dentro de la carpeta principal <code>PATRONATO</code>.</li>
         <li>Haz doble clic sobre el archivo <strong><code>actualizar_ejercicios.bat</code></strong> situado en <code>test-app</code>.</li>
-        <li>El extractor actualizará el archivo <code>questions-data.js</code> al instante.</li>
+        <li>El extractor actualizará el banco de preguntas (<code>questions-data.js</code>) y compilará automáticamente las fichas de estudio, reglas de oro, trampas y flashcards (<code>study-cards-data.js</code>).</li>
         <li>Para que se actualice también en tu móvil y en Vercel, haz un commit y sube los cambios a GitHub. ¡Vercel se actualizará automáticamente en 5 segundos!</li>
       </ol>
       <div style="display: flex; justify-content: flex-end;">
@@ -556,6 +691,7 @@
   <!-- Scripts -->
   <script src="js/sync-service.js"></script>
   <script src="js/questions-data.js"></script>
+  <script src="js/study-cards-data.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

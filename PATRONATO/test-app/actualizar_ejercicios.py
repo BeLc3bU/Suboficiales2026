@@ -1330,15 +1330,34 @@ def parse_generic_pdf(pdf_path, theory_titles=None, existing_ids=None):
     # Separar por bloques numerados (ej: "1. ...", "2. ...") para evitar backtracking catastrófico
     # y soportar preguntas tanto de opción múltiple como de completado interactivo
     blocks = re.split(r'\n\s*(?=\d+\.\s*)', '\n' + q_section)
+    current_context = None
+
     for b in blocks:
         b = b.strip()
         if not b:
             continue
         m_num = re.match(r'^(\d+)\.\s*(.*)', b, re.DOTALL)
         if not m_num:
+            # Texto antes de la primera pregunta (instrucciones o banco de palabras inicial)
+            m_sec = re.search(r'([A-Z]\.\s+.*)$', b, re.DOTALL)
+            if m_sec:
+                sec_text = m_sec.group(1).strip()
+                if any(k in sec_text.lower() for k in ['words below', 'complete each', 'box', 'bank', 'list', 'using one of']):
+                    lines = [l.strip() for l in sec_text.splitlines() if l.strip()]
+                    current_context = '\n'.join(lines)
+                else:
+                    current_context = None
             continue
+
         q_num = int(m_num.group(1))
         body = m_num.group(2)
+
+        # Detectar si al final del cuerpo viene un encabezado de sección para los siguientes ejercicios
+        trailing_sec = None
+        m_next_sec = re.search(r'\n\s*([A-Z]\.\s+.*)$', body, re.DOTALL)
+        if m_next_sec:
+            trailing_sec = m_next_sec.group(1).strip()
+            body = body[:m_next_sec.start()].strip()
 
         m_opt = re.search(r'^(.*?)\s*a\)\s*(.*?)\s*b\)\s*(.*?)(?:\s*c\)\s*(.*?))?(?:\s*d\)\s*(.*?))?$', body, re.DOTALL)
         if m_opt:
@@ -1375,6 +1394,8 @@ def parse_generic_pdf(pdf_path, theory_titles=None, existing_ids=None):
             }
             if r_text:
                 q_obj["readingText"] = r_text
+            elif current_context:
+                q_obj["readingText"] = current_context
 
             questions.append(q_obj)
         elif q_num in comp_answers:
@@ -1390,7 +1411,17 @@ def parse_generic_pdf(pdf_path, theory_titles=None, existing_ids=None):
                 "answer": ans,
                 "explanation": f"Respuesta correcta: '{ans}'."
             }
+            if current_context:
+                q_obj["readingText"] = current_context
+
             questions.append(q_obj)
+
+        if trailing_sec:
+            if any(k in trailing_sec.lower() for k in ['words below', 'complete each', 'box', 'bank', 'list', 'using one of']):
+                lines = [l.strip() for l in trailing_sec.splitlines() if l.strip()]
+                current_context = '\n'.join(lines)
+            else:
+                current_context = None
 
     return {
         "id": topic_id,
@@ -1621,6 +1652,13 @@ def main():
         out.write(js_content)
 
     print(f"\n[ÉXITO] Archivo generado en: {JS_OUTPUT_FILE}")
+
+    # Generar Fichas de Estudio y Tips de Examen para Patronato
+    try:
+        from study_cards_builder import build_study_cards
+        build_study_cards(PATRONATO_DIR, JS_OUTPUT_DIR, topics)
+    except Exception as e_study:
+        print(f"[ERROR] No se pudieron generar las fichas de estudio: {e_study}")
 
     # Actualizar versión de caché en sw.js para forzar actualización en clientes/PWA
     sw_file = os.path.join(BASE_DIR, "sw.js")

@@ -44,17 +44,17 @@ Para que tu web en Vercel guarde y comparta automáticamente tu progreso entre e
 
 ---
 
-## 📚 Añadir Nuevos Temas y Ejercicios
+## 📚 Añadir Nuevos Temas, Vocabulario y Ejercicios
 
-La plataforma cuenta con un extractor automatizado en Python:
+La plataforma cuenta con un analizador y extractor automatizado en Python:
 
-1. Añade los nuevos PDFs de ejercicios en la carpeta `PATRONATO`.
+1. Añade los nuevos PDFs de ejercicios, teoría (`Tema X...`) o vocabulario (`Vocabulario X...`) en la carpeta `PATRONATO`.
 2. Haz doble clic en `PATRONATO/test-app/actualizar_ejercicios.bat`.
-3. El script extraerá las preguntas, opciones y claves, actualizando `questions-data.js`.
+3. El script extraerá las preguntas (`questions-data.js`) y generará las **fichas de estudio pedagógicas, reglas de oro, trampas de examen y flashcards interactivas** (`study-cards-data.js`).
 4. Sube los cambios a GitHub:
    ```bash
    git add .
-   git commit -m "Actualizar banco de preguntas"
+   git commit -m "Actualizar banco de preguntas y fichas de estudio"
    git push origin main
    ```
 5. Vercel desplegará automáticamente la nueva versión en 5 segundos.
