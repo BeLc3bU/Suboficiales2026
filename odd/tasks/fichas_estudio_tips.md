@@ -39,3 +39,4 @@
 - **L5 (2026-11-11):** Registro en `index.html`, `sw.js` (PWA offline), maquetación CSS responsive y modo oscuro en `styles.css`.
 - **L6 (2026-11-11):** Controlador interactivo de visualización de fichas y flashcards 3D en `app.js` con soporte táctil y atajos de teclado.
 - **L7 (2026-11-11):** Validación de extremo a extremo: 16 temas cubiertos con fichas inmediatas, 100% sintaxis válida y cero regresiones.
+- **L8 (2026-11-11):** Autorización y ejecución de commit `c339616` y push a `origin/main` para despliegue automático en Vercel.
