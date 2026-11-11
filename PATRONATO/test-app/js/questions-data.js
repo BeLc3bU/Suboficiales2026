@@ -1,15 +1,1315 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-10-29 15:44:19
- * Total preguntas: 986
+ * Fecha: 2026-11-11 19:33:54
+ * Total preguntas: 1076
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-10-29 15:44:19",
-    "totalTopics": 21,
-    "totalQuestions": 986
+    "generatedAt": "2026-11-11 19:33:54",
+    "totalTopics": 23,
+    "totalQuestions": 1076
   },
   "topics": [
+    {
+      "id": "tema_1",
+      "title": "Tema 1: Formas verbales, To be y Presente simple",
+      "badge": "Tema 1",
+      "description": "Formas de To be, Presente Simple, Have Got, corrección de errores y textos de comprensión.",
+      "questions": [
+        {
+          "id": "T1_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Stella looks after patients in hospital. She is _______.",
+          "options": {
+            "A": "nurse",
+            "B": "a nurse",
+            "C": "an nurse",
+            "D": "the nurse"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "George works in a restaurant and brings food to the tables. He is _______.",
+          "options": {
+            "A": "waiter",
+            "B": "an waiter",
+            "C": "a waiter",
+            "D": "the waiter"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Mary arranges people’s holidays for them. She is _______.",
+          "options": {
+            "A": "a travel agent",
+            "B": "an travel agent",
+            "C": "travel agent",
+            "D": "the travel  agent"
+          },
+          "answer": "A",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+        },
+        {
+          "id": "T1_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Ron works for an airline and flies aeroplanes. He is _______.",
+          "options": {
+            "A": "the pilot",
+            "B": "pilot",
+            "C": "an pilot",
+            "D": "a pilot"
+          },
+          "answer": "D",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+        },
+        {
+          "id": "T1_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Linda teaches people how to drive. She is _______.",
+          "options": {
+            "A": "a driving instructor",
+            "B": "an driving instructor",
+            "C": "driving instructor",
+            "D": "the driving instructor"
+          },
+          "answer": "A",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+        },
+        {
+          "id": "T1_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Dave fits and repairs water pipes. He is _______.",
+          "options": {
+            "A": "plumber",
+            "B": "the plumber",
+            "C": "a plumber",
+            "D": "an plumber"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Jenny writes articles for a newspaper. She is _______.",
+          "options": {
+            "A": "journalist",
+            "B": "a journalist",
+            "C": "an journalist",
+            "D": "the journalist"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "John translates what people are saying from one language into another. He  is _______.",
+          "options": {
+            "A": "a interpreter",
+            "B": "interpreter",
+            "C": "the interpreter",
+            "D": "an interpreter"
+          },
+          "answer": "D",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+        },
+        {
+          "id": "T1_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "She is _______ teacher and works in one of those schools.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "Ø"
+          },
+          "answer": "A",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+        },
+        {
+          "id": "T1_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "I saw _______ UFO in the sky.",
+          "options": {
+            "A": "an",
+            "B": "the",
+            "C": "a",
+            "D": "Ø"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "She’s _______ artist and her husband is _______ electrician.",
+          "options": {
+            "A": "a / an",
+            "B": "an / an",
+            "C": "an / a",
+            "D": "a / a"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "She goes to London once _______ week.",
+          "options": {
+            "A": "the",
+            "B": "an",
+            "C": "Ø",
+            "D": "a"
+          },
+          "answer": "D",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+        },
+        {
+          "id": "T1_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Are you _______ only child?",
+          "options": {
+            "A": "a",
+            "B": "the",
+            "C": "an",
+            "D": "Ø"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "I work nine hours _______ day.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "Ø"
+          },
+          "answer": "A",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+        },
+        {
+          "id": "T1_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "I’ve seen _______ good films recently.",
+          "options": {
+            "A": "the",
+            "B": "a",
+            "C": "some",
+            "D": "an"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "What’s wrong with you? Have you got _______ headache?",
+          "options": {
+            "A": "an",
+            "B": "a",
+            "C": "some",
+            "D": "Ø"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "I know a lot of people. Most of them are _______ students.",
+          "options": {
+            "A": "a",
+            "B": "some",
+            "C": "the",
+            "D": "Ø"
+          },
+          "answer": "D",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+        },
+        {
+          "id": "T1_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "When I was _______ child, I used to be very shy.",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "some",
+            "D": "Ø"
+          },
+          "answer": "A",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+        },
+        {
+          "id": "T1_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Would you like to be _______ actor?",
+          "options": {
+            "A": "a",
+            "B": "the",
+            "C": "an",
+            "D": "Ø"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Do you collect _______ stamps?",
+          "options": {
+            "A": "a",
+            "B": "Ø",
+            "C": "an",
+            "D": "the"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q21",
+          "number": 21,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"People in this area speaks two languages.\"",
+          "wrongSentence": "People in this area speaks two languages.",
+          "answer": "People in this area speak two languages.",
+          "explanation": "'People' es sustantivo plural, el verbo en Present Simple va sin -s (speak)."
+        },
+        {
+          "id": "T1_Q22",
+          "number": 22,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"My cousins doesn't eat breakfast at home.\"",
+          "wrongSentence": "My cousins doesn't eat breakfast at home.",
+          "answer": "My cousins don't eat breakfast at home.",
+          "explanation": "'My cousins' es plural (they), requiere el auxiliar negativo 'don't'."
+        },
+        {
+          "id": "T1_Q23",
+          "number": 23,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"Do your parents on holiday this week?\"",
+          "wrongSentence": "Do your parents on holiday this week?",
+          "answer": "Are your parents on holiday this week?",
+          "explanation": "Para preguntar por estado o ubicación con adjetivo/preposición usamos el verbo To Be ('Are your parents...')."
+        },
+        {
+          "id": "T1_Q24",
+          "number": 24,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"She have got a small apartment near the beach.\"",
+          "wrongSentence": "She have got a small apartment near the beach.",
+          "answer": "She has got a small apartment near the beach.",
+          "explanation": "3ª persona singular (She) con have got exige 'has got'."
+        },
+        {
+          "id": "T1_Q25",
+          "number": 25,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"Do the train leave from platform four?\"",
+          "wrongSentence": "Do the train leave from platform four?",
+          "answer": "Does the train leave from platform four?",
+          "explanation": "'The train' es 3ª persona singular (it), requiere auxiliar interrogativo 'Does'."
+        },
+        {
+          "id": "T1_Q26",
+          "number": 26,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"I has got a meeting this afternoon.\"",
+          "wrongSentence": "I has got a meeting this afternoon.",
+          "answer": "I have got a meeting this afternoon.",
+          "explanation": "1ª persona singular (I) forma 'I have got'."
+        },
+        {
+          "id": "T1_Q27",
+          "number": 27,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"The shop close at nine o'clock every evening.\"",
+          "wrongSentence": "The shop close at nine o'clock every evening.",
+          "answer": "The shop closes at nine o'clock every evening.",
+          "explanation": "'The shop' (it) en Present Simple afirmativo añade -s al verbo (closes)."
+        },
+        {
+          "id": "T1_Q28",
+          "number": 28,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"We isn't interested in that course.\"",
+          "wrongSentence": "We isn't interested in that course.",
+          "answer": "We aren't interested in that course.",
+          "explanation": "Sujeto 'We' concuerda con 'aren't' en To Be."
+        },
+        {
+          "id": "T1_Q29",
+          "number": 29,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"Does your neighbours have a dog?\"",
+          "wrongSentence": "Does your neighbours have a dog?",
+          "answer": "Do your neighbours have a dog?",
+          "explanation": "'Your neighbours' es plural (they), el auxiliar debe ser 'Do'."
+        },
+        {
+          "id": "T1_Q30",
+          "number": 30,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"The woman carrys a large bag to work every day.\"",
+          "wrongSentence": "The woman carrys a large bag to work every day.",
+          "answer": "The woman carries a large bag to work every day.",
+          "explanation": "Verbos terminados en consonante + y cambian a -ies en 3ª persona singular (carries)."
+        },
+        {
+          "id": "T1_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "Riverside Sports Centre (31) ____ near a large residential area.",
+          "options": {
+            "A": "are",
+            "B": "do",
+            "C": "is",
+            "D": "has"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+        },
+        {
+          "id": "T1_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "On most weekdays, the centre (32) ____ opens at seven, but it opens later on Sundays.",
+          "options": {
+            "A": "usually",
+            "B": "never",
+            "C": "seldom",
+            "D": "every"
+          },
+          "answer": "D",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+        },
+        {
+          "id": "T1_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "The children in the local swimming club (33) ____ got training sessions twice a week.",
+          "options": {
+            "A": "are",
+            "B": "haves",
+            "C": "has",
+            "D": "have"
+          },
+          "answer": "B",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+        },
+        {
+          "id": "T1_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "Their coach (34) ____ the equipment to the pool before each lesson, and the staff check the safety equipment (35) ____ Friday.",
+          "options": {
+            "A": "carrys",
+            "B": "carries",
+            "C": "carry",
+            "D": "carryes"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+        },
+        {
+          "id": "T1_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "...and the staff check the safety equipment (35) ____ Friday.",
+          "options": {
+            "A": "daily",
+            "B": "always",
+            "C": "every",
+            "D": "twice"
+          },
+          "answer": "C",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
+        },
+        {
+          "id": "T1_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "The ferries (36) ____ operate after midnight, so passengers must use another form of transport...",
+          "options": {
+            "A": "doesn't",
+            "B": "don't",
+            "C": "aren't",
+            "D": "isn't"
+          },
+          "answer": "D",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+        },
+        {
+          "id": "T1_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "Services (37) ____ leave on time, although bad weather can cause delays.",
+          "options": {
+            "A": "never",
+            "B": "seldom",
+            "C": "every",
+            "D": "usually"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+        },
+        {
+          "id": "T1_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "The company checks each boat once a day, so inspections take place (38) ____.",
+          "options": {
+            "A": "daily",
+            "B": "every",
+            "C": "monthly",
+            "D": "twice"
+          },
+          "answer": "C",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
+        },
+        {
+          "id": "T1_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "Some people (39) ____ got a monthly travel card.",
+          "options": {
+            "A": "has",
+            "B": "haves",
+            "C": "have",
+            "D": "are"
+          },
+          "answer": "D",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+        },
+        {
+          "id": "T1_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "(40) ____ the service busy in summer? Yes, especially in July and August.",
+          "options": {
+            "A": "Does",
+            "B": "Is",
+            "C": "Are",
+            "D": "Has"
+          },
+          "answer": "B",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+        },
+        {
+          "id": "T1_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "Several men and women (41) ____ there six days a week.",
+          "options": {
+            "A": "works",
+            "B": "workes",
+            "C": "working",
+            "D": "work"
+          },
+          "answer": "C",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
+        },
+        {
+          "id": "T1_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "The market (42) ____ at nine in the morning and closes at six.",
+          "options": {
+            "A": "open",
+            "B": "openes",
+            "C": "opens",
+            "D": "opening"
+          },
+          "answer": "D",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+        },
+        {
+          "id": "T1_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "Customers (43) ____ complain about the prices because most products are affordable.",
+          "options": {
+            "A": "rarely",
+            "B": "always",
+            "C": "frequently",
+            "D": "constantly"
+          },
+          "answer": "B",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+        },
+        {
+          "id": "T1_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "One food stall (44) ____ got tables for customers, but the others only sell takeaway food.",
+          "options": {
+            "A": "have",
+            "B": "haves",
+            "C": "is",
+            "D": "has"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+        },
+        {
+          "id": "T1_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "The market is (45) ____ closed on Mondays, so traders use that day to prepare for the week.",
+          "options": {
+            "A": "every",
+            "B": "always",
+            "C": "seldom",
+            "D": "sometimes"
+          },
+          "answer": "D",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+        }
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
+    },
+    {
+      "id": "tema_1",
+      "title": "Tema 1: Formas verbales, To be y Presente simple",
+      "badge": "Tema 1",
+      "description": "Formas de To be, Presente Simple, Have Got, corrección de errores y textos de comprensión.",
+      "questions": [
+        {
+          "id": "T1_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "I’m afraid of _______.",
+          "options": {
+            "A": "the dogs",
+            "B": "dogs",
+            "C": "a dogs",
+            "D": "an dogs"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Can you pass _______, please?",
+          "options": {
+            "A": "salt",
+            "B": "a salt",
+            "C": "salts",
+            "D": "the salt"
+          },
+          "answer": "D",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+        },
+        {
+          "id": "T1_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "_______ are good for you.",
+          "options": {
+            "A": "A apples",
+            "B": "The apples",
+            "C": "Apples",
+            "D": "An apples"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Look at _______ on that tree! They’re very big.",
+          "options": {
+            "A": "apples",
+            "B": "the apples",
+            "C": "an apples",
+            "D": "a apples"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "_______ live longer than _______.",
+          "options": {
+            "A": "The women / the men",
+            "B": "Women / the men",
+            "C": "Women / men",
+            "D": "The women / men"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "I don’t drink _______. I don’t like it.",
+          "options": {
+            "A": "a tea",
+            "B": "the tea",
+            "C": "tea",
+            "D": "teas"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "We had a very nice meal. _______ were especially good.",
+          "options": {
+            "A": "Vegetables",
+            "B": "A vegetables",
+            "C": "The vegetables",
+            "D": "An vegetables"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "_______ is strange sometimes. Some very strange things happen.",
+          "options": {
+            "A": "A life",
+            "B": "The life",
+            "C": "Life",
+            "D": "An life"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "I like _______, but I’m not very good at it.",
+          "options": {
+            "A": "the skiing",
+            "B": "skiing",
+            "C": "a skiing",
+            "D": "skis"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Who are _______ in this photograph?",
+          "options": {
+            "A": "people",
+            "B": "a people",
+            "C": "the people",
+            "D": "an people"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "What makes _______ violent? What causes _______?",
+          "options": {
+            "A": "the people / the aggression",
+            "B": "people / aggression",
+            "C": "people / the aggression",
+            "D": "the people / aggression"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "All of _______ books on the top shelf belong to me.",
+          "options": {
+            "A": "Ø",
+            "B": "a",
+            "C": "the",
+            "D": "an"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Don’t stay in that hotel. It’s very noisy and _______ are very  uncomfortable.",
+          "options": {
+            "A": "beds",
+            "B": "a beds",
+            "C": "the beds",
+            "D": "an beds"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "A pacifist is somebody who is against _______.",
+          "options": {
+            "A": "a war",
+            "B": "war",
+            "C": "the war",
+            "D": "wars"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "_______ lasted from 1914 until 1918.",
+          "options": {
+            "A": "First World War",
+            "B": "A First World War",
+            "C": "The First World War",
+            "D": "First the World War"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "One of our biggest social problems is _______.",
+          "options": {
+            "A": "an unemployment",
+            "B": "the unemployment",
+            "C": "unemployment",
+            "D": "a unemployment"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Ron and Brenda got married, but _______ didn’t last very long.",
+          "options": {
+            "A": "marriage",
+            "B": "a marriage",
+            "C": "the marriage",
+            "D": "marriages"
+          },
+          "answer": "C",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+        },
+        {
+          "id": "T1_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "_______ believe that _______ and _______ are the basis of _______.",
+          "options": {
+            "A": "The most people / the marriage / the family life / the society",
+            "B": "Most people / marriage / family life / society",
+            "C": "Most people / the marriage / family life / society",
+            "D": "The most people / marriage / the family life / society"
+          },
+          "answer": "B",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+        },
+        {
+          "id": "T1_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "When was _______ invented?",
+          "options": {
+            "A": "telephone",
+            "B": "a telephone",
+            "C": "an telephone",
+            "D": "the telephone"
+          },
+          "answer": "D",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+        },
+        {
+          "id": "T1_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Grammar (Presente Simple y To Be)",
+          "question": "Can you play _______?",
+          "options": {
+            "A": "musical instruments",
+            "B": "the musical instruments",
+            "C": "a musical instruments",
+            "D": "an musical instruments"
+          },
+          "answer": "A",
+          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+        },
+        {
+          "id": "T1_Q21",
+          "number": 21,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"People in this area speaks two languages.\"",
+          "wrongSentence": "People in this area speaks two languages.",
+          "answer": "People in this area speak two languages.",
+          "explanation": "'People' es sustantivo plural, el verbo en Present Simple va sin -s (speak)."
+        },
+        {
+          "id": "T1_Q22",
+          "number": 22,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"My cousins doesn't eat breakfast at home.\"",
+          "wrongSentence": "My cousins doesn't eat breakfast at home.",
+          "answer": "My cousins don't eat breakfast at home.",
+          "explanation": "'My cousins' es plural (they), requiere el auxiliar negativo 'don't'."
+        },
+        {
+          "id": "T1_Q23",
+          "number": 23,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"Do your parents on holiday this week?\"",
+          "wrongSentence": "Do your parents on holiday this week?",
+          "answer": "Are your parents on holiday this week?",
+          "explanation": "Para preguntar por estado o ubicación con adjetivo/preposición usamos el verbo To Be ('Are your parents...')."
+        },
+        {
+          "id": "T1_Q24",
+          "number": 24,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"She have got a small apartment near the beach.\"",
+          "wrongSentence": "She have got a small apartment near the beach.",
+          "answer": "She has got a small apartment near the beach.",
+          "explanation": "3ª persona singular (She) con have got exige 'has got'."
+        },
+        {
+          "id": "T1_Q25",
+          "number": 25,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"Do the train leave from platform four?\"",
+          "wrongSentence": "Do the train leave from platform four?",
+          "answer": "Does the train leave from platform four?",
+          "explanation": "'The train' es 3ª persona singular (it), requiere auxiliar interrogativo 'Does'."
+        },
+        {
+          "id": "T1_Q26",
+          "number": 26,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"I has got a meeting this afternoon.\"",
+          "wrongSentence": "I has got a meeting this afternoon.",
+          "answer": "I have got a meeting this afternoon.",
+          "explanation": "1ª persona singular (I) forma 'I have got'."
+        },
+        {
+          "id": "T1_Q27",
+          "number": 27,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"The shop close at nine o'clock every evening.\"",
+          "wrongSentence": "The shop close at nine o'clock every evening.",
+          "answer": "The shop closes at nine o'clock every evening.",
+          "explanation": "'The shop' (it) en Present Simple afirmativo añade -s al verbo (closes)."
+        },
+        {
+          "id": "T1_Q28",
+          "number": 28,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"We isn't interested in that course.\"",
+          "wrongSentence": "We isn't interested in that course.",
+          "answer": "We aren't interested in that course.",
+          "explanation": "Sujeto 'We' concuerda con 'aren't' en To Be."
+        },
+        {
+          "id": "T1_Q29",
+          "number": 29,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"Does your neighbours have a dog?\"",
+          "wrongSentence": "Does your neighbours have a dog?",
+          "answer": "Do your neighbours have a dog?",
+          "explanation": "'Your neighbours' es plural (they), el auxiliar debe ser 'Do'."
+        },
+        {
+          "id": "T1_Q30",
+          "number": 30,
+          "type": "correction",
+          "section": "Find the Mistake (Corrección de errores)",
+          "question": "Corrige el error en la siguiente frase:\n\"The woman carrys a large bag to work every day.\"",
+          "wrongSentence": "The woman carrys a large bag to work every day.",
+          "answer": "The woman carries a large bag to work every day.",
+          "explanation": "Verbos terminados en consonante + y cambian a -ies en 3ª persona singular (carries)."
+        },
+        {
+          "id": "T1_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "Riverside Sports Centre (31) ____ near a large residential area.",
+          "options": {
+            "A": "are",
+            "B": "do",
+            "C": "is",
+            "D": "has"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "On most weekdays, the centre (32) ____ opens at seven, but it opens later on Sundays.",
+          "options": {
+            "A": "usually",
+            "B": "never",
+            "C": "seldom",
+            "D": "every"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "The children in the local swimming club (33) ____ got training sessions twice a week.",
+          "options": {
+            "A": "are",
+            "B": "haves",
+            "C": "has",
+            "D": "have"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "Their coach (34) ____ the equipment to the pool before each lesson, and the staff check the safety equipment (35) ____ Friday.",
+          "options": {
+            "A": "carrys",
+            "B": "carries",
+            "C": "carry",
+            "D": "carryes"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Texto 1: Riverside Sports Centre",
+          "readingText": "",
+          "question": "...and the staff check the safety equipment (35) ____ Friday.",
+          "options": {
+            "A": "daily",
+            "B": "always",
+            "C": "every",
+            "D": "twice"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "The ferries (36) ____ operate after midnight, so passengers must use another form of transport...",
+          "options": {
+            "A": "doesn't",
+            "B": "don't",
+            "C": "aren't",
+            "D": "isn't"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "Services (37) ____ leave on time, although bad weather can cause delays.",
+          "options": {
+            "A": "never",
+            "B": "seldom",
+            "C": "every",
+            "D": "usually"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "The company checks each boat once a day, so inspections take place (38) ____.",
+          "options": {
+            "A": "daily",
+            "B": "every",
+            "C": "monthly",
+            "D": "twice"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "Some people (39) ____ got a monthly travel card.",
+          "options": {
+            "A": "has",
+            "B": "haves",
+            "C": "have",
+            "D": "are"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: ."
+        },
+        {
+          "id": "T1_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Texto 2: The Bay Ferry Service",
+          "readingText": "",
+          "question": "(40) ____ the service busy in summer? Yes, especially in July and August.",
+          "options": {
+            "A": "Does",
+            "B": "Is",
+            "C": "Are",
+            "D": "Has"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+        },
+        {
+          "id": "T1_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "Several men and women (41) ____ there six days a week.",
+          "options": {
+            "A": "works",
+            "B": "workes",
+            "C": "working",
+            "D": "work"
+          },
+          "answer": "D",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+        },
+        {
+          "id": "T1_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "The market (42) ____ at nine in the morning and closes at six.",
+          "options": {
+            "A": "open",
+            "B": "openes",
+            "C": "opens",
+            "D": "opening"
+          },
+          "answer": "B",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+        },
+        {
+          "id": "T1_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "Customers (43) ____ complain about the prices because most products are affordable.",
+          "options": {
+            "A": "rarely",
+            "B": "always",
+            "C": "frequently",
+            "D": "constantly"
+          },
+          "answer": "B",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+        },
+        {
+          "id": "T1_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "One food stall (44) ____ got tables for customers, but the others only sell takeaway food.",
+          "options": {
+            "A": "have",
+            "B": "haves",
+            "C": "is",
+            "D": "has"
+          },
+          "answer": "D",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+        },
+        {
+          "id": "T1_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Texto 3: Harbour Market",
+          "readingText": "",
+          "question": "The market is (45) ____ closed on Mondays, so traders use that day to prepare for the week.",
+          "options": {
+            "A": "every",
+            "B": "always",
+            "C": "seldom",
+            "D": "sometimes"
+          },
+          "answer": "A",
+          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+        }
+      ],
+      "blockId": "bloque_1",
+      "blockName": "Bloque 1"
+    },
     {
       "id": "tema_1",
       "title": "Tema 1: Formas verbales, To be y Presente simple",
