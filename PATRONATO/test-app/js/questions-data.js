@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-11 22:05:17
- * Total preguntas: 1101
+ * Fecha: 2026-11-12 17:17:22
+ * Total preguntas: 1160
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-11 22:05:17",
-    "totalTopics": 23,
-    "totalQuestions": 1101
+    "generatedAt": "2026-11-12 17:17:22",
+    "totalTopics": 25,
+    "totalQuestions": 1160
   },
   "topics": [
     {
@@ -16359,6 +16359,911 @@ window.TEST_DATA = {
           },
           "answer": "D",
           "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+        }
+      ]
+    },
+    {
+      "id": "tema_13_f1",
+      "title": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+      "badge": "Tema 13 F1",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 13 (Ficha 1): Comparatives and Superlatives extraídos de Ejercicios  Tema 13. Ficha 1.pdf.",
+      "questions": [
+        {
+          "id": "T13F1_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "far → _______ → _______",
+          "options": {
+            "A": "farther → the farthest",
+            "B": "more far → the most far",
+            "C": "farer → the farest",
+            "D": "farthest → the farther"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "early → _______ → _______",
+          "options": {
+            "A": "more early → the most early",
+            "B": "earlier → the earliest",
+            "C": "earlyer → the earlyest",
+            "D": "more earlier → the most earliest"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "near → _______ → _______",
+          "options": {
+            "A": "more nearer → the most nearest",
+            "B": "nearest → nearer",
+            "C": "nearer → the nearest",
+            "D": "nearier → the neariest"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "expensive → _______ → _______",
+          "options": {
+            "A": "expensiver → the expensivest",
+            "B": "more expensive → the most expensive",
+            "C": "most expensive → more expensive",
+            "D": "more expensiver → the most expensivest"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "dirty → _______ → _______",
+          "options": {
+            "A": "dirtier → the dirtiest",
+            "B": "more dirtier → the most dirtiest",
+            "C": "dirtyer → the dirtyest",
+            "D": "dirtiest → dirtier"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "wide → _______ → _______",
+          "options": {
+            "A": "more wider → the most widest",
+            "B": "wider → the widest",
+            "C": "wideer → the wideest",
+            "D": "widest → wider"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "narrow → _______ → _______",
+          "options": {
+            "A": "narrower → the narrowest",
+            "B": "narrower → the most narrowest",
+            "C": "narrowest → narrower",
+            "D": "narrower → the narrowiest"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "old → _______ → _______",
+          "options": {
+            "A": "more old → the most old",
+            "B": "oldest → older",
+            "C": "elder → older",
+            "D": "older → the oldest"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F1_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "bad → _______ → _______",
+          "options": {
+            "A": "badder → the baddest",
+            "B": "worse → the worst",
+            "C": "more bad → the most bad",
+            "D": "worst → worse"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "kind → _______ → _______",
+          "options": {
+            "A": "more kinder → the most kindest",
+            "B": "kindest → kinder",
+            "C": "kinder → the kindest",
+            "D": "kindder → the kinddest"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "sad → _______ → _______",
+          "options": {
+            "A": "sadder → the saddest",
+            "B": "sader → the sadest",
+            "C": "more sadder → the most saddest",
+            "D": "saddest → sadder"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "She is the _______ in my class.",
+          "options": {
+            "A": "taller",
+            "B": "most tall",
+            "C": "tallest",
+            "D": "more tall"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Our hotel was _______ than all the others in the town.",
+          "options": {
+            "A": "more cheap",
+            "B": "most cheap",
+            "C": "the cheapest",
+            "D": "cheaper"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F1_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Mary isn’t _______ than her sister.",
+          "options": {
+            "A": "more intelligent",
+            "B": "intelligenter",
+            "C": "most intelligent",
+            "D": "the more intelligent"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "It was an awful day. It was the _______ day of my life.",
+          "options": {
+            "A": "worse",
+            "B": "badest",
+            "C": "bader",
+            "D": "worst"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F1_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Of all the houses on the street, theirs is the _______.",
+          "options": {
+            "A": "smaller",
+            "B": "smallest",
+            "C": "more small",
+            "D": "most small"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Tom isn’t _______ he looks.",
+          "options": {
+            "A": "as older than",
+            "B": "as old than",
+            "C": "as old as",
+            "D": "so older as"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "We have a _______ car than you.",
+          "options": {
+            "A": "more comfortable",
+            "B": "comfortabler",
+            "C": "most comfortable",
+            "D": "the more comfortable"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "It’s _______ today than it was yesterday.",
+          "options": {
+            "A": "the coldest",
+            "B": "more colder",
+            "C": "more cold",
+            "D": "colder"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F1_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "She studies _______ than her friend Mary.",
+          "options": {
+            "A": "more hard",
+            "B": "harder",
+            "C": "hardest",
+            "D": "the harder"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "My mother’s dress is _______ than my aunt’s.",
+          "options": {
+            "A": "longer",
+            "B": "longest",
+            "C": "more long",
+            "D": "the longest"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "We are _______ happy _______ they are.",
+          "options": {
+            "A": "so / than",
+            "B": "as / than",
+            "C": "as / as",
+            "D": "more / as"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "This man is _______ Mr Wilson, perhaps taller.",
+          "options": {
+            "A": "so tall so",
+            "B": "as tall as",
+            "C": "as tall so",
+            "D": "so taller as"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "I’m the _______ in my family.",
+          "options": {
+            "A": "younger",
+            "B": "more young",
+            "C": "youngest",
+            "D": "most young"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Of the six houses on this estate, theirs is _______ from the main road.",
+          "options": {
+            "A": "farthest than",
+            "B": "farther than",
+            "C": "the farthest",
+            "D": "the most farthest"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "The other films are expensive to rent. At £1, this one is _______ expensive of all.",
+          "options": {
+            "A": "less",
+            "B": "the least",
+            "C": "the less",
+            "D": "least than"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Our football team is _______ yours.",
+          "options": {
+            "A": "the better",
+            "B": "better than",
+            "C": "best than",
+            "D": "the best"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F1_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "This pullover is too big. I want a _______ one.",
+          "options": {
+            "A": "smaller",
+            "B": "more small",
+            "C": "smallest",
+            "D": "most small"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Lionel’s exam was _______ mine.",
+          "options": {
+            "A": "the worst",
+            "B": "worst than",
+            "C": "worse than",
+            "D": "badly"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Little Jimmy is very clever. He is _______ than his friends.",
+          "options": {
+            "A": "intelligenter",
+            "B": "most intelligent",
+            "C": "intelligentest",
+            "D": "more intelligent"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F1_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "That restaurant is _______ this one here.",
+          "options": {
+            "A": "as good as",
+            "B": "so good so",
+            "C": "as good so",
+            "D": "as better as"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F1_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "The museum has several fine portraits. This is one of _______ in its collection.",
+          "options": {
+            "A": "the most beautiful portrait",
+            "B": "more beautiful portraits",
+            "C": "the most beautiful portraits",
+            "D": "the more beautiful portrait"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F1_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "Getting married to you is _______ thing I have ever done.",
+          "options": {
+            "A": "better than",
+            "B": "the goodest",
+            "C": "the better",
+            "D": "the best"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F1_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 1): Comparatives and Superlatives",
+          "question": "This is the _______ book in the library.",
+          "options": {
+            "A": "thinest",
+            "B": "thinner",
+            "C": "most thin",
+            "D": "thinnest"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+        }
+      ]
+    },
+    {
+      "id": "tema_13_f2",
+      "title": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+      "badge": "Tema 13 F2",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 13 (Ficha 2): Comparatives and Superlatives extraídos de Ejercicios  Tema 13. Ficha 2.pdf.",
+      "questions": [
+        {
+          "id": "T13F2_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "This detergent gets clothes much _______ than that one.",
+          "options": {
+            "A": "more whiter",
+            "B": "whiter",
+            "C": "most white",
+            "D": "much white"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F2_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "This table is much _______ than ours.",
+          "options": {
+            "A": "more long",
+            "B": "longest",
+            "C": "longer",
+            "D": "more longer"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F2_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Today is much _______ yesterday.",
+          "options": {
+            "A": "colder than",
+            "B": "more cold than",
+            "C": "colder that",
+            "D": "the coldest than"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F2_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Jonny, your exam is by far the _______ of all.",
+          "options": {
+            "A": "worse",
+            "B": "badder",
+            "C": "worst",
+            "D": "baddest"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F2_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "After the races he was a little bit _______.",
+          "options": {
+            "A": "richer",
+            "B": "more richer",
+            "C": "richest",
+            "D": "more rich"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F2_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Is there _______ in your coffee?",
+          "options": {
+            "A": "enough much sugar",
+            "B": "enough of sugar",
+            "C": "too sugar",
+            "D": "enough sugar"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F2_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "You are always at home. You don’t go out _______.",
+          "options": {
+            "A": "enough",
+            "B": "too",
+            "C": "enough much",
+            "D": "too enough"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F2_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Can you hear the radio? Is it _______ for you?",
+          "options": {
+            "A": "enough loud",
+            "B": "too loud enough",
+            "C": "loud enough",
+            "D": "enough loudly"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F2_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Neither George nor James has _______ to do it.",
+          "options": {
+            "A": "enough of time",
+            "B": "too time",
+            "C": "many time",
+            "D": "enough time"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F2_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "He has just reached the minimum school-leaving age. He is _______ to leave school.",
+          "options": {
+            "A": "enough old",
+            "B": "too old",
+            "C": "enough older",
+            "D": "old enough"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F2_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "She has decided against marrying him because of the age gap. She thinks he is _______ for her to marry.",
+          "options": {
+            "A": "old enough",
+            "B": "too old",
+            "C": "enough old",
+            "D": "too much old"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F2_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Did you have _______ to answer all the questions in the exam?",
+          "options": {
+            "A": "enough time",
+            "B": "many time",
+            "C": "too many time",
+            "D": "enough of time"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F2_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "I don’t think he is _______ to do it alone.",
+          "options": {
+            "A": "enough clever",
+            "B": "clever too",
+            "C": "too clever enough",
+            "D": "clever enough"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F2_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "This house isn’t _______ for a large family.",
+          "options": {
+            "A": "enough big",
+            "B": "big enough",
+            "C": "too big enough",
+            "D": "enough bigger"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F2_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "You’re always tired. I think you work _______ hard.",
+          "options": {
+            "A": "enough",
+            "B": "much enough",
+            "C": "enough too",
+            "D": "too"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F2_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Tina is very thin. She doesn’t _______.",
+          "options": {
+            "A": "enough eat",
+            "B": "eat enough",
+            "C": "eat too",
+            "D": "enough eating"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F2_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "“What was the examination like?” “_______ difficult, I’m afraid.”",
+          "options": {
+            "A": "Too much",
+            "B": "Enough",
+            "C": "Too",
+            "D": "Many"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F2_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "You don’t eat _______. You should eat more; it’s good for you.",
+          "options": {
+            "A": "many fruit",
+            "B": "too fruit",
+            "C": "enough fruit",
+            "D": "enough of fruit"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F2_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "The wallet was _______ big to put in my pocket.",
+          "options": {
+            "A": "enough",
+            "B": "so much",
+            "C": "too",
+            "D": "many"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F2_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "It’s late, but I don’t want to go to bed now. I’m not _______.",
+          "options": {
+            "A": "tired enough",
+            "B": "enough tired",
+            "C": "too tired",
+            "D": "enough tiring"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F2_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "I can’t wait for them. I haven’t got _______ time.",
+          "options": {
+            "A": "too many",
+            "B": "many enough",
+            "C": "enough",
+            "D": "too enough"
+          },
+          "answer": "C",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+        },
+        {
+          "id": "T13F2_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Lisa isn’t a very good tennis player because she doesn’t _______.",
+          "options": {
+            "A": "practise enough",
+            "B": "enough practise",
+            "C": "practise too",
+            "D": "enough practising"
+          },
+          "answer": "A",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+        },
+        {
+          "id": "T13F2_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "Did you have _______ to eat?",
+          "options": {
+            "A": "too",
+            "B": "enough",
+            "C": "enough much",
+            "D": "too enough"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+        },
+        {
+          "id": "T13F2_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "You don’t eat _______ vegetables. You should eat more.",
+          "options": {
+            "A": "too much",
+            "B": "many enough",
+            "C": "enough of",
+            "D": "enough"
+          },
+          "answer": "D",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+        },
+        {
+          "id": "T13F2_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 13 (Ficha 2): Comparatives and Superlatives",
+          "question": "I don’t like the weather here. It’s _______ cold.",
+          "options": {
+            "A": "enough",
+            "B": "too",
+            "C": "enough much",
+            "D": "too much"
+          },
+          "answer": "B",
+          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
         }
       ]
     }

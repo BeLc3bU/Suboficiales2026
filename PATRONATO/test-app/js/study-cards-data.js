@@ -1,12 +1,12 @@
 /**
  * Generado automáticamente por study_cards_builder.py
- * Fecha: 2026-11-11 22:11:07
- * Total de Fichas: 17
+ * Fecha: 2026-11-12 17:17:22
+ * Total de Fichas: 18
  */
 window.STUDY_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-11 22:11:07",
-    "totalSheets": 17
+    "generatedAt": "2026-11-12 17:17:22",
+    "totalSheets": 18
   },
   "sheets": {
     "tema_1": {
@@ -1421,6 +1421,71 @@ window.STUDY_DATA = {
         {
           "front": "¿Llevan artículo los deportes como el tenis o las comidas como el desayuno?",
           "back": "NO. Se dice 'play tennis' (no 'play the tennis') y 'have breakfast' (no 'have the breakfast')."
+        }
+      ]
+    },
+    "tema_13": {
+      "topicId": "tema_13",
+      "badge": "Tema 13",
+      "title": "Tema 13: Material Oficial de Estudio",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_13.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 13 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Términos clave Tema 13",
+          "meaning": "Vocabulario esencial",
+          "distractorRole": "Palabras recurrentes en los distractores de este tema."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 13?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
         }
       ]
     }
