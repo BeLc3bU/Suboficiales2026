@@ -1,12 +1,12 @@
 /**
  * Generado automáticamente por study_cards_builder.py
- * Fecha: 2026-11-12 17:17:22
- * Total de Fichas: 18
+ * Fecha: 2026-11-12 17:24:39
+ * Total de Fichas: 20
  */
 window.STUDY_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-12 17:17:22",
-    "totalSheets": 18
+    "generatedAt": "2026-11-12 17:24:39",
+    "totalSheets": 20
   },
   "sheets": {
     "tema_1": {
@@ -1009,6 +1009,128 @@ window.STUDY_DATA = {
         }
       ]
     },
+    "tema_13": {
+      "topicId": "tema_13",
+      "badge": "Tema 13",
+      "title": "Comparatives & Superlatives",
+      "summary": "Formación y uso de comparativos (superioridad, inferioridad, igualdad) y superlativos. Estructuras de examen: as... as, less... than, one of the + superlativo + plural, intensificadores y adjetivos irregulares.",
+      "goldenRules": [
+        {
+          "title": "Comparativos de Superioridad: Longitud del Adjetivo",
+          "content": "Adjetivos cortos (1 sílaba o 2 acabadas en -y): añade -ER + THAN (shorter than, bigger than, easier than). Adjetivos largos (2+ sílabas): MORE + adjetivo + THAN (more expensive than). Nunca uses more y -er a la vez (*more easier ❌)."
+        },
+        {
+          "title": "Superlativos de Superioridad",
+          "content": "Adjetivos cortos: THE + adjetivo + -EST (the tallest, the biggest, the easiest). Adjetivos largos: THE MOST + adjetivo (the most difficult). Con lugares se usa 'in' (the tallest in the city); con grupos o números se usa 'of' (the cheapest of the three)."
+        },
+        {
+          "title": "Estructuras Clave de Examen Oficial",
+          "content": "1) 'One of the + superlativo + PLURAL NOUN' (one of the largest forests). 2) Igualdad: 'AS + adjetivo + AS' (as wide as). 3) Proporción: 'TWICE / THREE TIMES + AS + adjetivo + AS' (twice as fast as). 4) Too/Enough: 'TOO + adjetivo + TO-infinitive' y 'adjetivo + ENOUGH + TO-infinitive'."
+        },
+        {
+          "title": "Irregulares e Intensificadores",
+          "content": "Good -> better -> the best. Bad -> worse -> the worst. Far -> farther/further -> the farthest/furthest. Intensificadores de comparativo: MUCH, FAR, A LOT, A BIT (much better, far more expensive; nunca *very better ❌)."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Duplicar la marca comparativa o superlativa",
+          "exampleBad": "This test is more easier than the previous one. ❌",
+          "exampleGood": "This test is easier than the previous one. ✔️",
+          "explanation": "Si el adjetivo es corto y lleva '-er', NUNCA puede llevar 'more' delante. El tribunal lo usa constantemente como distractor."
+        },
+        {
+          "trap": "Sustantivo en singular tras 'One of the + superlativo'",
+          "exampleBad": "It is one of the oldest game in the country. ❌",
+          "exampleGood": "It is one of the oldest games in the country. ✔️",
+          "explanation": "Tras la estructura 'one of the + superlativo', el sustantivo va OBLIGATORIAMENTE en plural ('games', 'trees', 'forests')."
+        },
+        {
+          "trap": "Usar 'very' con adjetivos en grado comparativo",
+          "exampleBad": "The weather is very worse today. ❌",
+          "exampleGood": "The weather is much worse / far worse today. ✔️",
+          "explanation": "'Very' solo modifica adjetivos en grado positivo (very bad). Delante de un comparativo (worse, better, faster) se usa 'much', 'far' o 'a lot'."
+        },
+        {
+          "trap": "Confusión en comparaciones cuantitativas de Reading",
+          "exampleBad": "The text says 'more than 200' and option states 'nearly 200' ❌",
+          "exampleGood": "more than 200 = over 200 (> 200) | nearly 200 = almost 200 (< 200) ✔️",
+          "explanation": "En textos de Reading, cambiar 'more than' por 'nearly' convierte una opción en falsa. 'More than' es superior; 'nearly' es inferior pero cercano."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia de descarte rápido por pistas estructurales",
+          "tip": "1) Si ves dos elementos y la palabra 'than' -> necesitas un comparativo (-er o more). 2) Si ves 'the' o 'one of the' delante del hueco -> busca un superlativo (-est o most). 3) Si ves 'as' al inicio del patrón -> busca 'as + adjetivo + as'."
+        },
+        {
+          "rule": "Detección de intensificadores antes del hueco",
+          "tip": "Si antes del hueco aparece 'much', 'far', 'a lot' o 'a bit', la respuesta correcta SIEMPRE es una forma comparativa (better, worse, faster, more expensive)."
+        },
+        {
+          "rule": "Preposiciones fijas con comparación",
+          "tip": "'the same AS', 'different FROM' (estándar de examen), 'similar TO'. Descarta opciones con *the same than o *different with."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Good → Better → The best",
+          "meaning": "Bueno/a → Mejor → El/la mejor",
+          "distractorRole": "Irregular. NUNCA 'more good' ni 'most good'."
+        },
+        {
+          "term": "Bad → Worse → The worst",
+          "meaning": "Malo/a → Peor → El/la peor",
+          "distractorRole": "Irregular. Cuidado con confundir 'worse' (comparativo) y 'worst' (superlativo)."
+        },
+        {
+          "term": "More than / Over vs Less than / Under",
+          "meaning": "Más de (> cifra) vs Menos de (< cifra)",
+          "distractorRole": "Señales cuantitativas de Reading que definen si la opción es verdadera o falsa."
+        },
+        {
+          "term": "At least",
+          "meaning": "Al menos / Como mínimo (>= cifra)",
+          "distractorRole": "Equivale a 'no less than'. Indica esa cifra o más."
+        },
+        {
+          "term": "Almost / Nearly",
+          "meaning": "Casi / Por poco (< cifra)",
+          "distractorRole": "Indica una cifra cercana pero inferior al número indicado."
+        },
+        {
+          "term": "Different from / Similar to",
+          "meaning": "Diferente de / Similar a",
+          "distractorRole": "Preposiciones dependientes obligatorias en tests de Patronato."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Por qué es incorrecto decir 'This exercise is more easier'?",
+          "back": "Porque 'easy' es un adjetivo corto que forma el comparativo con '-er' (easier). No puede combinarse con 'more' (doble comparativo)."
+        },
+        {
+          "front": "En la estructura 'one of the + superlativo', ¿el sustantivo va en singular o en plural?",
+          "back": "En PLURAL.\nEjemplo: 'It is one of the oldest GAMES' (no 'game'). Es una de las trampas más repetidas en exámenes oficiales."
+        },
+        {
+          "front": "¿Se dice 'very better' o 'much better'?",
+          "back": "'MUCH BETTER'. Con formas comparativas no se usa 'very', sino intensificadores como 'much', 'far', 'a lot' o 'a bit'."
+        },
+        {
+          "front": "¿Cuál es la diferencia de significado entre 'more than 100' y 'nearly 100' en un texto de Reading?",
+          "back": "'More than 100' significa MÁS de 100 (> 100).\n'Nearly 100' significa CASI 100, es decir, MENOS de 100 (< 100)."
+        },
+        {
+          "front": "¿Cuáles son los comparativos y superlativos de GOOD y BAD?",
+          "back": "GOOD → BETTER → THE BEST.\nBAD → WORSE → THE WORST."
+        },
+        {
+          "front": "¿Qué preposiciones acompañan a 'the same', 'different' y 'similar'?",
+          "back": "The same AS.\nDifferent FROM.\nSimilar TO."
+        }
+      ]
+    },
     "tema_3_extra": {
       "topicId": "tema_3_extra",
       "badge": "Tema 3",
@@ -1424,68 +1546,247 @@ window.STUDY_DATA = {
         }
       ]
     },
-    "tema_13": {
-      "topicId": "tema_13",
+    "tema_13_f1": {
+      "topicId": "tema_13_f1",
       "badge": "Tema 13",
-      "title": "Tema 13: Material Oficial de Estudio",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_13.",
+      "title": "Comparatives & Superlatives",
+      "summary": "Formación y uso de comparativos (superioridad, inferioridad, igualdad) y superlativos. Estructuras de examen: as... as, less... than, one of the + superlativo + plural, intensificadores y adjetivos irregulares.",
       "goldenRules": [
         {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 13 antes de abordar las preguntas tipo test."
+          "title": "Comparativos de Superioridad: Longitud del Adjetivo",
+          "content": "Adjetivos cortos (1 sílaba o 2 acabadas en -y): añade -ER + THAN (shorter than, bigger than, easier than). Adjetivos largos (2+ sílabas): MORE + adjetivo + THAN (more expensive than). Nunca uses more y -er a la vez (*more easier ❌)."
         },
         {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+          "title": "Superlativos de Superioridad",
+          "content": "Adjetivos cortos: THE + adjetivo + -EST (the tallest, the biggest, the easiest). Adjetivos largos: THE MOST + adjetivo (the most difficult). Con lugares se usa 'in' (the tallest in the city); con grupos o números se usa 'of' (the cheapest of the three)."
+        },
+        {
+          "title": "Estructuras Clave de Examen Oficial",
+          "content": "1) 'One of the + superlativo + PLURAL NOUN' (one of the largest forests). 2) Igualdad: 'AS + adjetivo + AS' (as wide as). 3) Proporción: 'TWICE / THREE TIMES + AS + adjetivo + AS' (twice as fast as). 4) Too/Enough: 'TOO + adjetivo + TO-infinitive' y 'adjetivo + ENOUGH + TO-infinitive'."
+        },
+        {
+          "title": "Irregulares e Intensificadores",
+          "content": "Good -> better -> the best. Bad -> worse -> the worst. Far -> farther/further -> the farthest/furthest. Intensificadores de comparativo: MUCH, FAR, A LOT, A BIT (much better, far more expensive; nunca *very better ❌)."
         }
       ],
       "examTraps": [
         {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+          "trap": "Duplicar la marca comparativa o superlativa",
+          "exampleBad": "This test is more easier than the previous one. ❌",
+          "exampleGood": "This test is easier than the previous one. ✔️",
+          "explanation": "Si el adjetivo es corto y lleva '-er', NUNCA puede llevar 'more' delante. El tribunal lo usa constantemente como distractor."
         },
         {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
+          "trap": "Sustantivo en singular tras 'One of the + superlativo'",
+          "exampleBad": "It is one of the oldest game in the country. ❌",
+          "exampleGood": "It is one of the oldest games in the country. ✔️",
+          "explanation": "Tras la estructura 'one of the + superlativo', el sustantivo va OBLIGATORIAMENTE en plural ('games', 'trees', 'forests')."
+        },
+        {
+          "trap": "Usar 'very' con adjetivos en grado comparativo",
+          "exampleBad": "The weather is very worse today. ❌",
+          "exampleGood": "The weather is much worse / far worse today. ✔️",
+          "explanation": "'Very' solo modifica adjetivos en grado positivo (very bad). Delante de un comparativo (worse, better, faster) se usa 'much', 'far' o 'a lot'."
+        },
+        {
+          "trap": "Confusión en comparaciones cuantitativas de Reading",
+          "exampleBad": "The text says 'more than 200' and option states 'nearly 200' ❌",
+          "exampleGood": "more than 200 = over 200 (> 200) | nearly 200 = almost 200 (< 200) ✔️",
+          "explanation": "En textos de Reading, cambiar 'more than' por 'nearly' convierte una opción en falsa. 'More than' es superior; 'nearly' es inferior pero cercano."
         }
       ],
       "examTips": [
         {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+          "rule": "Estrategia de descarte rápido por pistas estructurales",
+          "tip": "1) Si ves dos elementos y la palabra 'than' -> necesitas un comparativo (-er o more). 2) Si ves 'the' o 'one of the' delante del hueco -> busca un superlativo (-est o most). 3) Si ves 'as' al inicio del patrón -> busca 'as + adjetivo + as'."
         },
         {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+          "rule": "Detección de intensificadores antes del hueco",
+          "tip": "Si antes del hueco aparece 'much', 'far', 'a lot' o 'a bit', la respuesta correcta SIEMPRE es una forma comparativa (better, worse, faster, more expensive)."
+        },
+        {
+          "rule": "Preposiciones fijas con comparación",
+          "tip": "'the same AS', 'different FROM' (estándar de examen), 'similar TO'. Descarta opciones con *the same than o *different with."
         }
       ],
       "vocabularyKeys": [
         {
-          "term": "Términos clave Tema 13",
-          "meaning": "Vocabulario esencial",
-          "distractorRole": "Palabras recurrentes en los distractores de este tema."
+          "term": "Good → Better → The best",
+          "meaning": "Bueno/a → Mejor → El/la mejor",
+          "distractorRole": "Irregular. NUNCA 'more good' ni 'most good'."
+        },
+        {
+          "term": "Bad → Worse → The worst",
+          "meaning": "Malo/a → Peor → El/la peor",
+          "distractorRole": "Irregular. Cuidado con confundir 'worse' (comparativo) y 'worst' (superlativo)."
+        },
+        {
+          "term": "More than / Over vs Less than / Under",
+          "meaning": "Más de (> cifra) vs Menos de (< cifra)",
+          "distractorRole": "Señales cuantitativas de Reading que definen si la opción es verdadera o falsa."
+        },
+        {
+          "term": "At least",
+          "meaning": "Al menos / Como mínimo (>= cifra)",
+          "distractorRole": "Equivale a 'no less than'. Indica esa cifra o más."
+        },
+        {
+          "term": "Almost / Nearly",
+          "meaning": "Casi / Por poco (< cifra)",
+          "distractorRole": "Indica una cifra cercana pero inferior al número indicado."
+        },
+        {
+          "term": "Different from / Similar to",
+          "meaning": "Diferente de / Similar a",
+          "distractorRole": "Preposiciones dependientes obligatorias en tests de Patronato."
         }
       ],
       "flashcards": [
         {
-          "front": "¿Cuál es el objetivo principal del Tema 13?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+          "front": "¿Por qué es incorrecto decir 'This exercise is more easier'?",
+          "back": "Porque 'easy' es un adjetivo corto que forma el comparativo con '-er' (easier). No puede combinarse con 'more' (doble comparativo)."
         },
         {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+          "front": "En la estructura 'one of the + superlativo', ¿el sustantivo va en singular o en plural?",
+          "back": "En PLURAL.\nEjemplo: 'It is one of the oldest GAMES' (no 'game'). Es una de las trampas más repetidas en exámenes oficiales."
         },
         {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+          "front": "¿Se dice 'very better' o 'much better'?",
+          "back": "'MUCH BETTER'. Con formas comparativas no se usa 'very', sino intensificadores como 'much', 'far', 'a lot' o 'a bit'."
         },
         {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+          "front": "¿Cuál es la diferencia de significado entre 'more than 100' y 'nearly 100' en un texto de Reading?",
+          "back": "'More than 100' significa MÁS de 100 (> 100).\n'Nearly 100' significa CASI 100, es decir, MENOS de 100 (< 100)."
+        },
+        {
+          "front": "¿Cuáles son los comparativos y superlativos de GOOD y BAD?",
+          "back": "GOOD → BETTER → THE BEST.\nBAD → WORSE → THE WORST."
+        },
+        {
+          "front": "¿Qué preposiciones acompañan a 'the same', 'different' y 'similar'?",
+          "back": "The same AS.\nDifferent FROM.\nSimilar TO."
+        }
+      ]
+    },
+    "tema_13_f2": {
+      "topicId": "tema_13_f2",
+      "badge": "Tema 13",
+      "title": "Comparatives & Superlatives",
+      "summary": "Formación y uso de comparativos (superioridad, inferioridad, igualdad) y superlativos. Estructuras de examen: as... as, less... than, one of the + superlativo + plural, intensificadores y adjetivos irregulares.",
+      "goldenRules": [
+        {
+          "title": "Comparativos de Superioridad: Longitud del Adjetivo",
+          "content": "Adjetivos cortos (1 sílaba o 2 acabadas en -y): añade -ER + THAN (shorter than, bigger than, easier than). Adjetivos largos (2+ sílabas): MORE + adjetivo + THAN (more expensive than). Nunca uses more y -er a la vez (*more easier ❌)."
+        },
+        {
+          "title": "Superlativos de Superioridad",
+          "content": "Adjetivos cortos: THE + adjetivo + -EST (the tallest, the biggest, the easiest). Adjetivos largos: THE MOST + adjetivo (the most difficult). Con lugares se usa 'in' (the tallest in the city); con grupos o números se usa 'of' (the cheapest of the three)."
+        },
+        {
+          "title": "Estructuras Clave de Examen Oficial",
+          "content": "1) 'One of the + superlativo + PLURAL NOUN' (one of the largest forests). 2) Igualdad: 'AS + adjetivo + AS' (as wide as). 3) Proporción: 'TWICE / THREE TIMES + AS + adjetivo + AS' (twice as fast as). 4) Too/Enough: 'TOO + adjetivo + TO-infinitive' y 'adjetivo + ENOUGH + TO-infinitive'."
+        },
+        {
+          "title": "Irregulares e Intensificadores",
+          "content": "Good -> better -> the best. Bad -> worse -> the worst. Far -> farther/further -> the farthest/furthest. Intensificadores de comparativo: MUCH, FAR, A LOT, A BIT (much better, far more expensive; nunca *very better ❌)."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Duplicar la marca comparativa o superlativa",
+          "exampleBad": "This test is more easier than the previous one. ❌",
+          "exampleGood": "This test is easier than the previous one. ✔️",
+          "explanation": "Si el adjetivo es corto y lleva '-er', NUNCA puede llevar 'more' delante. El tribunal lo usa constantemente como distractor."
+        },
+        {
+          "trap": "Sustantivo en singular tras 'One of the + superlativo'",
+          "exampleBad": "It is one of the oldest game in the country. ❌",
+          "exampleGood": "It is one of the oldest games in the country. ✔️",
+          "explanation": "Tras la estructura 'one of the + superlativo', el sustantivo va OBLIGATORIAMENTE en plural ('games', 'trees', 'forests')."
+        },
+        {
+          "trap": "Usar 'very' con adjetivos en grado comparativo",
+          "exampleBad": "The weather is very worse today. ❌",
+          "exampleGood": "The weather is much worse / far worse today. ✔️",
+          "explanation": "'Very' solo modifica adjetivos en grado positivo (very bad). Delante de un comparativo (worse, better, faster) se usa 'much', 'far' o 'a lot'."
+        },
+        {
+          "trap": "Confusión en comparaciones cuantitativas de Reading",
+          "exampleBad": "The text says 'more than 200' and option states 'nearly 200' ❌",
+          "exampleGood": "more than 200 = over 200 (> 200) | nearly 200 = almost 200 (< 200) ✔️",
+          "explanation": "En textos de Reading, cambiar 'more than' por 'nearly' convierte una opción en falsa. 'More than' es superior; 'nearly' es inferior pero cercano."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia de descarte rápido por pistas estructurales",
+          "tip": "1) Si ves dos elementos y la palabra 'than' -> necesitas un comparativo (-er o more). 2) Si ves 'the' o 'one of the' delante del hueco -> busca un superlativo (-est o most). 3) Si ves 'as' al inicio del patrón -> busca 'as + adjetivo + as'."
+        },
+        {
+          "rule": "Detección de intensificadores antes del hueco",
+          "tip": "Si antes del hueco aparece 'much', 'far', 'a lot' o 'a bit', la respuesta correcta SIEMPRE es una forma comparativa (better, worse, faster, more expensive)."
+        },
+        {
+          "rule": "Preposiciones fijas con comparación",
+          "tip": "'the same AS', 'different FROM' (estándar de examen), 'similar TO'. Descarta opciones con *the same than o *different with."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Good → Better → The best",
+          "meaning": "Bueno/a → Mejor → El/la mejor",
+          "distractorRole": "Irregular. NUNCA 'more good' ni 'most good'."
+        },
+        {
+          "term": "Bad → Worse → The worst",
+          "meaning": "Malo/a → Peor → El/la peor",
+          "distractorRole": "Irregular. Cuidado con confundir 'worse' (comparativo) y 'worst' (superlativo)."
+        },
+        {
+          "term": "More than / Over vs Less than / Under",
+          "meaning": "Más de (> cifra) vs Menos de (< cifra)",
+          "distractorRole": "Señales cuantitativas de Reading que definen si la opción es verdadera o falsa."
+        },
+        {
+          "term": "At least",
+          "meaning": "Al menos / Como mínimo (>= cifra)",
+          "distractorRole": "Equivale a 'no less than'. Indica esa cifra o más."
+        },
+        {
+          "term": "Almost / Nearly",
+          "meaning": "Casi / Por poco (< cifra)",
+          "distractorRole": "Indica una cifra cercana pero inferior al número indicado."
+        },
+        {
+          "term": "Different from / Similar to",
+          "meaning": "Diferente de / Similar a",
+          "distractorRole": "Preposiciones dependientes obligatorias en tests de Patronato."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Por qué es incorrecto decir 'This exercise is more easier'?",
+          "back": "Porque 'easy' es un adjetivo corto que forma el comparativo con '-er' (easier). No puede combinarse con 'more' (doble comparativo)."
+        },
+        {
+          "front": "En la estructura 'one of the + superlativo', ¿el sustantivo va en singular o en plural?",
+          "back": "En PLURAL.\nEjemplo: 'It is one of the oldest GAMES' (no 'game'). Es una de las trampas más repetidas en exámenes oficiales."
+        },
+        {
+          "front": "¿Se dice 'very better' o 'much better'?",
+          "back": "'MUCH BETTER'. Con formas comparativas no se usa 'very', sino intensificadores como 'much', 'far', 'a lot' o 'a bit'."
+        },
+        {
+          "front": "¿Cuál es la diferencia de significado entre 'more than 100' y 'nearly 100' en un texto de Reading?",
+          "back": "'More than 100' significa MÁS de 100 (> 100).\n'Nearly 100' significa CASI 100, es decir, MENOS de 100 (< 100)."
+        },
+        {
+          "front": "¿Cuáles son los comparativos y superlativos de GOOD y BAD?",
+          "back": "GOOD → BETTER → THE BEST.\nBAD → WORSE → THE WORST."
+        },
+        {
+          "front": "¿Qué preposiciones acompañan a 'the same', 'different' y 'similar'?",
+          "back": "The same AS.\nDifferent FROM.\nSimilar TO."
         }
       ]
     }

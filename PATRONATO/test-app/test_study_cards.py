@@ -57,7 +57,7 @@ class TestStudyCardsGeneration(unittest.TestCase):
         data = json.loads(match.group(1))
         sheets = data["sheets"]
 
-        expected_topics = [f"tema_{i}" for i in range(1, 13)]
+        expected_topics = [f"tema_{i}" for i in range(1, 14)]
         for tid in expected_topics:
             self.assertIn(tid, sheets, f"Falta ficha para {tid}")
             sheet = sheets[tid]
@@ -117,6 +117,12 @@ class TestStudyCardsGeneration(unittest.TestCase):
         # Tema 10: In, On, At
         t10 = json.dumps(sheets["tema_10"], ensure_ascii=False)
         self.assertTrue("at" in t10.lower() and "in" in t10.lower() and "on" in t10.lower())
+
+        # Tema 13: Comparatives & Superlatives
+        t13 = json.dumps(sheets["tema_13"], ensure_ascii=False)
+        self.assertTrue("comparative" in t13.lower() or "superlative" in t13.lower() or "than" in t13.lower())
+        self.assertIn("tema_13_f1", sheets)
+        self.assertIn("tema_13_f2", sheets)
 
 if __name__ == "__main__":
     unittest.main()

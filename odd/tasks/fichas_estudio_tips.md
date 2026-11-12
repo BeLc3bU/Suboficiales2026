@@ -40,3 +40,4 @@
 - **L6 (2026-11-11):** Controlador interactivo de visualización de fichas y flashcards 3D en `app.js` con soporte táctil y atajos de teclado.
 - **L7 (2026-11-11):** Validación de extremo a extremo: 16 temas cubiertos con fichas inmediatas, 100% sintaxis válida y cero regresiones.
 - **L8 (2026-11-11):** Autorización y ejecución de commit `c339616` y push a `origin/main` para despliegue automático en Vercel.
+- **L9 (2026-11-12):** Corrección y mejora en `study_cards_builder.py`: inclusión de la ficha pedagógica curada del Tema 13 (Comparatives & Superlatives), asociación automática de subfichas y variantes (`tema_13_f1`, `tema_13_f2`) y extracción avanzada de títulos y pistas desde PDFs. Test suite ampliada a 13 temas.

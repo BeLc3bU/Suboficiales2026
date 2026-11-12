@@ -894,6 +894,105 @@ CURATED_STUDY_SHEETS = {
                 "back": "NO. Se dice 'play tennis' (no 'play the tennis') y 'have breakfast' (no 'have the breakfast')."
             }
         ]
+    },
+
+    "tema_13": {
+        "topicId": "tema_13",
+        "badge": "Tema 13",
+        "title": "Comparatives & Superlatives",
+        "summary": "Formación y uso de comparativos (superioridad, inferioridad, igualdad) y superlativos. Estructuras de examen: as... as, less... than, one of the + superlativo + plural, intensificadores y adjetivos irregulares.",
+        "goldenRules": [
+            {
+                "title": "Comparativos de Superioridad: Longitud del Adjetivo",
+                "content": "Adjetivos cortos (1 sílaba o 2 acabadas en -y): añade -ER + THAN (shorter than, bigger than, easier than). Adjetivos largos (2+ sílabas): MORE + adjetivo + THAN (more expensive than). Nunca uses more y -er a la vez (*more easier ❌)."
+            },
+            {
+                "title": "Superlativos de Superioridad",
+                "content": "Adjetivos cortos: THE + adjetivo + -EST (the tallest, the biggest, the easiest). Adjetivos largos: THE MOST + adjetivo (the most difficult). Con lugares se usa 'in' (the tallest in the city); con grupos o números se usa 'of' (the cheapest of the three)."
+            },
+            {
+                "title": "Estructuras Clave de Examen Oficial",
+                "content": "1) 'One of the + superlativo + PLURAL NOUN' (one of the largest forests). 2) Igualdad: 'AS + adjetivo + AS' (as wide as). 3) Proporción: 'TWICE / THREE TIMES + AS + adjetivo + AS' (twice as fast as). 4) Too/Enough: 'TOO + adjetivo + TO-infinitive' y 'adjetivo + ENOUGH + TO-infinitive'."
+            },
+            {
+                "title": "Irregulares e Intensificadores",
+                "content": "Good -> better -> the best. Bad -> worse -> the worst. Far -> farther/further -> the farthest/furthest. Intensificadores de comparativo: MUCH, FAR, A LOT, A BIT (much better, far more expensive; nunca *very better ❌)."
+            }
+        ],
+        "examTraps": [
+            {
+                "trap": "Duplicar la marca comparativa o superlativa",
+                "exampleBad": "This test is more easier than the previous one. ❌",
+                "exampleGood": "This test is easier than the previous one. ✔️",
+                "explanation": "Si el adjetivo es corto y lleva '-er', NUNCA puede llevar 'more' delante. El tribunal lo usa constantemente como distractor."
+            },
+            {
+                "trap": "Sustantivo en singular tras 'One of the + superlativo'",
+                "exampleBad": "It is one of the oldest game in the country. ❌",
+                "exampleGood": "It is one of the oldest games in the country. ✔️",
+                "explanation": "Tras la estructura 'one of the + superlativo', el sustantivo va OBLIGATORIAMENTE en plural ('games', 'trees', 'forests')."
+            },
+            {
+                "trap": "Usar 'very' con adjetivos en grado comparativo",
+                "exampleBad": "The weather is very worse today. ❌",
+                "exampleGood": "The weather is much worse / far worse today. ✔️",
+                "explanation": "'Very' solo modifica adjetivos en grado positivo (very bad). Delante de un comparativo (worse, better, faster) se usa 'much', 'far' o 'a lot'."
+            },
+            {
+                "trap": "Confusión en comparaciones cuantitativas de Reading",
+                "exampleBad": "The text says 'more than 200' and option states 'nearly 200' ❌",
+                "exampleGood": "more than 200 = over 200 (> 200) | nearly 200 = almost 200 (< 200) ✔️",
+                "explanation": "En textos de Reading, cambiar 'more than' por 'nearly' convierte una opción en falsa. 'More than' es superior; 'nearly' es inferior pero cercano."
+            }
+        ],
+        "examTips": [
+            {
+                "rule": "Estrategia de descarte rápido por pistas estructurales",
+                "tip": "1) Si ves dos elementos y la palabra 'than' -> necesitas un comparativo (-er o more). 2) Si ves 'the' o 'one of the' delante del hueco -> busca un superlativo (-est o most). 3) Si ves 'as' al inicio del patrón -> busca 'as + adjetivo + as'."
+            },
+            {
+                "rule": "Detección de intensificadores antes del hueco",
+                "tip": "Si antes del hueco aparece 'much', 'far', 'a lot' o 'a bit', la respuesta correcta SIEMPRE es una forma comparativa (better, worse, faster, more expensive)."
+            },
+            {
+                "rule": "Preposiciones fijas con comparación",
+                "tip": "'the same AS', 'different FROM' (estándar de examen), 'similar TO'. Descarta opciones con *the same than o *different with."
+            }
+        ],
+        "vocabularyKeys": [
+            { "term": "Good → Better → The best", "meaning": "Bueno/a → Mejor → El/la mejor", "distractorRole": "Irregular. NUNCA 'more good' ni 'most good'." },
+            { "term": "Bad → Worse → The worst", "meaning": "Malo/a → Peor → El/la peor", "distractorRole": "Irregular. Cuidado con confundir 'worse' (comparativo) y 'worst' (superlativo)." },
+            { "term": "More than / Over vs Less than / Under", "meaning": "Más de (> cifra) vs Menos de (< cifra)", "distractorRole": "Señales cuantitativas de Reading que definen si la opción es verdadera o falsa." },
+            { "term": "At least", "meaning": "Al menos / Como mínimo (>= cifra)", "distractorRole": "Equivale a 'no less than'. Indica esa cifra o más." },
+            { "term": "Almost / Nearly", "meaning": "Casi / Por poco (< cifra)", "distractorRole": "Indica una cifra cercana pero inferior al número indicado." },
+            { "term": "Different from / Similar to", "meaning": "Diferente de / Similar a", "distractorRole": "Preposiciones dependientes obligatorias en tests de Patronato." }
+        ],
+        "flashcards": [
+            {
+                "front": "¿Por qué es incorrecto decir 'This exercise is more easier'?",
+                "back": "Porque 'easy' es un adjetivo corto que forma el comparativo con '-er' (easier). No puede combinarse con 'more' (doble comparativo)."
+            },
+            {
+                "front": "En la estructura 'one of the + superlativo', ¿el sustantivo va en singular o en plural?",
+                "back": "En PLURAL.\nEjemplo: 'It is one of the oldest GAMES' (no 'game'). Es una de las trampas más repetidas en exámenes oficiales."
+            },
+            {
+                "front": "¿Se dice 'very better' o 'much better'?",
+                "back": "'MUCH BETTER'. Con formas comparativas no se usa 'very', sino intensificadores como 'much', 'far', 'a lot' o 'a bit'."
+            },
+            {
+                "front": "¿Cuál es la diferencia de significado entre 'more than 100' y 'nearly 100' en un texto de Reading?",
+                "back": "'More than 100' significa MÁS de 100 (> 100).\n'Nearly 100' significa CASI 100, es decir, MENOS de 100 (< 100)."
+            },
+            {
+                "front": "¿Cuáles son los comparativos y superlativos de GOOD y BAD?",
+                "back": "GOOD → BETTER → THE BEST.\nBAD → WORSE → THE WORST."
+            },
+            {
+                "front": "¿Qué preposiciones acompañan a 'the same', 'different' y 'similar'?",
+                "back": "The same AS.\nDifferent FROM.\nSimilar TO."
+            }
+        ]
     }
 }
 
@@ -904,6 +1003,8 @@ TOPIC_ALIASES = {
     "tema_11_extra": "tema_11",
     "tema_12_f1": "tema_12",
     "tema_12_f2": "tema_12",
+    "tema_13_f1": "tema_13",
+    "tema_13_f2": "tema_13",
 }
 
 def analyze_theory_and_vocab_files(patronato_dir):
@@ -947,7 +1048,7 @@ def build_study_cards(patronato_dir, output_dir, existing_topics=None):
     for tid, sheet_data in CURATED_STUDY_SHEETS.items():
         sheets[tid] = dict(sheet_data)
 
-    # 2. Asignar alias para que cada tema en questions-data.js tenga acceso a su ficha
+    # 2. Asignar alias predefinidos
     for alias_id, target_id in TOPIC_ALIASES.items():
         if target_id in sheets:
             alias_sheet = dict(sheets[target_id])
@@ -958,18 +1059,61 @@ def build_study_cards(patronato_dir, output_dir, existing_topics=None):
     detected = analyze_theory_and_vocab_files(patronato_dir)
     for tid, pdf_list in detected.items():
         if tid not in sheets:
-            # Generar ficha automática preliminar para nuevos temas futuros
+            # Extraer información rica desde el PDF si está disponible
             num = tid.split('_')[1] if '_' in tid else tid
-            sheets[tid] = {
-                "topicId": tid,
-                "badge": f"Tema {num}",
-                "title": f"Tema {num}: Material Oficial de Estudio",
-                "summary": f"Ficha generada a partir de los documentos teóricos y de vocabulario de {tid}.",
-                "goldenRules": [
+            extracted_title = f"Tema {num}: Material Oficial de Estudio"
+            extracted_rules = []
+            extracted_traps = []
+            extracted_tips = []
+            extracted_vocab = []
+
+            tema_pdf = next((p for p in pdf_list if 'vocabulario' not in os.path.basename(p).lower()), None)
+            vocab_pdf = next((p for p in pdf_list if 'vocabulario' in os.path.basename(p).lower()), None)
+
+            try:
+                import pypdf
+                if tema_pdf:
+                    r_t = pypdf.PdfReader(tema_pdf)
+                    text_t = '\n'.join([p.extract_text() or '' for p in r_t.pages])
+                    for line in text_t.splitlines():
+                        line_s = line.strip()
+                        m_t = re.match(r'Tema\s*(\d+)[\s:–-]+(.*)', line_s, re.I)
+                        if m_t and 'patronato' not in line_s.lower():
+                            extracted_title = f"Tema {m_t.group(1)}: {m_t.group(2).strip()}"
+                            break
+
+                    # Extraer pistas de resolución si existen
+                    m_tips = re.search(r'Cómo resolver estas preguntas[^\n]*\n(.*?)(?=Errores típicos|RESUMEN DE EXAMEN|\Z)', text_t, re.DOTALL)
+                    if m_tips:
+                        for bullet in m_tips.group(1).splitlines():
+                            b_clean = bullet.strip('• \t\r\n')
+                            if b_clean and len(b_clean) > 10:
+                                extracted_tips.append({
+                                    "rule": "Pista de Examen",
+                                    "tip": b_clean
+                                })
+
+                if vocab_pdf:
+                    r_v = pypdf.PdfReader(vocab_pdf)
+                    text_v = '\n'.join([p.extract_text() or '' for p in r_v.pages])
+                    v_items = re.findall(r'(\d+)\.\s*([^\n—–-]+?)\s*[—–-]\s*([^\n]+)', text_v)
+                    for _, term, meaning in v_items[:6]:
+                        extracted_vocab.append({
+                            "term": term.strip(),
+                            "meaning": meaning.strip(),
+                            "distractorRole": "Término extraído del vocabulario oficial."
+                        })
+            except Exception as e_ext:
+                print(f"[AVISO] Extracción avanzada para {tid} omitida: {e_ext}")
+
+            # Rellenar con defaults pedagógicos si falta algún bloque
+            if not extracted_rules:
+                extracted_rules = [
                     { "title": "Regla Fundamental", "content": f"Revisa los conceptos principales del Tema {num} antes de abordar las preguntas tipo test." },
                     { "title": "Estrategia de Examen", "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización." }
-                ],
-                "examTraps": [
+                ]
+            if not extracted_traps:
+                extracted_traps = [
                     {
                         "trap": "Traducción literal del español",
                         "exampleBad": "Estructura literal ❌",
@@ -982,14 +1126,26 @@ def build_study_cards(patronato_dir, output_dir, existing_topics=None):
                         "exampleGood": "Concordancia estricta de persona y número ✔️",
                         "explanation": "Verifica siempre la persona y tiempo de la oración."
                     }
-                ],
-                "examTips": [
+                ]
+            if not extracted_tips:
+                extracted_tips = [
                     { "rule": "Estrategia 70% Apto", "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar." },
                     { "rule": "Descarte Rápido", "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas." }
-                ],
-                "vocabularyKeys": [
+                ]
+            if not extracted_vocab:
+                extracted_vocab = [
                     { "term": f"Términos clave Tema {num}", "meaning": "Vocabulario esencial", "distractorRole": "Palabras recurrentes en los distractores de este tema." }
-                ],
+                ]
+
+            sheets[tid] = {
+                "topicId": tid,
+                "badge": f"Tema {num}",
+                "title": extracted_title,
+                "summary": f"Ficha generada a partir de los documentos teóricos y de vocabulario de {tid}.",
+                "goldenRules": extracted_rules,
+                "examTraps": extracted_traps,
+                "examTips": extracted_tips,
+                "vocabularyKeys": extracted_vocab,
                 "flashcards": [
                     { "front": f"¿Cuál es el objetivo principal del Tema {num}?", "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar." },
                     { "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?", "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas." },
@@ -997,6 +1153,19 @@ def build_study_cards(patronato_dir, output_dir, existing_topics=None):
                     { "front": "¿Cómo optimizar el tiempo en preguntas difíciles?", "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes." }
                 ]
             }
+
+    # 4. Vincular automáticamente subfichas y variantes existentes (ej. tema_X_f1, tema_X_f2, tema_X_extra)
+    if existing_topics:
+        for t in existing_topics:
+            t_id = t.get("id", "")
+            if t_id and t_id not in sheets:
+                m = re.match(r'tema_(\d+)', t_id, re.IGNORECASE)
+                if m:
+                    base_id = f"tema_{m.group(1)}"
+                    if base_id in sheets:
+                        variant_sheet = dict(sheets[base_id])
+                        variant_sheet["topicId"] = t_id
+                        sheets[t_id] = variant_sheet
 
     metadata = {
         "generatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
