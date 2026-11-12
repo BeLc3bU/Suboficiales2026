@@ -1,5 +1,5 @@
 // Service Worker para PATRONATO 2026 Tests de Inglés
-const CACHE_NAME = 'suboficiales-cache-v81';
+const CACHE_NAME = 'suboficiales-cache-v84';
 const ASSETS = [
   './',
   './index.html',
@@ -8,6 +8,8 @@ const ASSETS = [
   './js/sync-service.js',
   './js/questions-data.js',
   './js/study-cards-data.js',
+  './js/exam-data.js',
+  './js/exam-generator.js',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png'

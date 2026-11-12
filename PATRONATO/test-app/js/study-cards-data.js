@@ -1,11 +1,11 @@
 /**
  * Generado automáticamente por study_cards_builder.py
- * Fecha: 2026-11-12 17:24:39
+ * Fecha: 2026-11-12 18:23:53
  * Total de Fichas: 20
  */
 window.STUDY_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-12 17:24:39",
+    "generatedAt": "2026-11-12 18:23:53",
     "totalSheets": 20
   },
   "sheets": {

@@ -768,6 +768,21 @@
     });
   };
 
+  window.startOfficialMockExam = function () {
+    if (!checkPendingBeforeStarting()) return;
+    if (typeof EXAM_GENERATOR === 'undefined' || !EXAM_GENERATOR.generateOfficialExam) {
+      alert('El motor de generación del simulacro oficial no está disponible.');
+      return;
+    }
+    try {
+      const exam = EXAM_GENERATOR.generateOfficialExam();
+      startQuizSession(exam);
+    } catch (err) {
+      console.error('Error generando simulacro oficial:', err);
+      alert('Error generando el simulacro oficial: ' + err.message);
+    }
+  };
+
   window.startGlobalExam = function (count) {
     if (!checkPendingBeforeStarting()) return;
     const all = getAllQuestions();
@@ -832,7 +847,7 @@
     });
   };
 
-  function startQuizSession({ topicId, title, badge, mode, questions }) {
+  function startQuizSession({ topicId, title, badge, mode, questions, isOfficialMock, timeLimitMinutes, totalTimeSeconds }) {
     clearInterval(state.timerInterval);
 
     state.currentQuiz = {
@@ -846,7 +861,10 @@
       interactiveChecked: {}, // { [qId]: true/false }
       isFinished: false,
       startTime: Date.now(),
-      elapsedSeconds: 0
+      elapsedSeconds: 0,
+      isOfficialMock: Boolean(isOfficialMock),
+      timeLimitMinutes: timeLimitMinutes || null,
+      totalTimeSeconds: totalTimeSeconds || null
     };
 
     saveActiveQuizState();
@@ -854,9 +872,11 @@
     // Update UI headers
     document.getElementById('quiz-title').textContent = title;
     document.getElementById('quiz-badge').textContent = badge;
-    const modeDesc = mode === 'practice'
-      ? 'Modo Práctica • Corrección inmediata y explicación'
-      : 'Modo Examen • Sin corrección hasta finalizar (Corte: 70% Apto)';
+    const modeDesc = isOfficialMock
+      ? 'Simulacro Oficial AGBS (2022) • 30 Comprensión Escrita + 30 Gramática y Cloze • 90 min (Corte: 70% Apto)'
+      : (mode === 'practice'
+          ? 'Modo Práctica • Corrección inmediata y explicación'
+          : 'Modo Examen • Sin corrección hasta finalizar (Corte: 70% Apto)');
     document.getElementById('quiz-mode-desc').textContent = modeDesc;
 
     // Timer setup
@@ -885,7 +905,20 @@
     const s = seconds % 60;
     const valEl = document.getElementById('timer-val');
     if (valEl) {
-      valEl.textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+      if (state.currentQuiz && state.currentQuiz.isOfficialMock) {
+        valEl.textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')} / 90:00`;
+        if (seconds >= 5400) {
+          valEl.style.color = '#ef4444';
+          valEl.style.fontWeight = '700';
+        } else {
+          valEl.style.color = '';
+          valEl.style.fontWeight = '';
+        }
+      } else {
+        valEl.textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+        valEl.style.color = '';
+        valEl.style.fontWeight = '';
+      }
     }
   }
 
@@ -954,8 +987,18 @@
 
     // Reading Box
     const readingBox = document.getElementById('reading-box');
+    const readingTitle = document.getElementById('reading-title');
     if (q.readingText) {
       readingBox.style.display = 'block';
+      if (readingTitle) {
+        if (q.part === 1) {
+          readingTitle.textContent = '📖 Parte I: Texto de Lectura (Comprensión Escrita)';
+        } else if (q.part === 2) {
+          readingTitle.textContent = '📝 Parte II: Texto con Huecos (Use of English — Cloze)';
+        } else {
+          readingTitle.textContent = '📖 Texto de lectura';
+        }
+      }
       document.getElementById('reading-content').textContent = q.readingText;
     } else {
       readingBox.style.display = 'none';
@@ -1621,6 +1664,8 @@
     let correct = 0;
     let wrong = 0;
     let blank = 0;
+    let part1Correct = 0;
+    let part2Correct = 0;
 
     qz.questions.forEach(q => {
       const userAns = qz.userAnswers[q.id];
@@ -1636,6 +1681,8 @@
 
         if (isRight) {
           correct++;
+          if (q.part === 1) part1Correct++;
+          else if (q.part === 2) part2Correct++;
           updateErrorsState(q.id, true);
         } else {
           wrong++;
@@ -1687,6 +1734,11 @@
       mode: qz.mode || 'practice',
       title: qz.title,
       badge: qz.badge || '',
+      isOfficialMock: Boolean(qz.isOfficialMock),
+      part1Score: `${part1Correct} / 30`,
+      part2Score: `${part2Correct} / 30`,
+      part1Correct: part1Correct,
+      part2Correct: part2Correct,
       total,
       correct,
       wrong,
@@ -1709,6 +1761,11 @@
       scoreVal,
       pct,
       isPassed,
+      isOfficialMock: Boolean(qz.isOfficialMock),
+      part1Score: `${part1Correct} / 30`,
+      part2Score: `${part2Correct} / 30`,
+      part1Correct: part1Correct,
+      part2Correct: part2Correct,
       timeSeconds: qz.elapsedSeconds,
       questions: qz.questions,
       userAnswers: qz.userAnswers
@@ -1738,6 +1795,37 @@
     } else {
       const missing = neededForPass - res.correct;
       subEl.innerHTML = `Has acertado <strong>${res.correct}</strong> de <strong>${res.total}</strong> preguntas (<strong>${res.pct}%</strong>). Se exige un mínimo del <strong>70% (${neededForPass} aciertos)</strong>. Te han faltado <strong>${missing}</strong> acierto(s) para el Apto.`;
+    }
+
+    // Desglose exclusivo para simulacro oficial
+    const breakdownEl = document.getElementById('official-exam-breakdown');
+    if (breakdownEl) {
+      if (res.isOfficialMock) {
+        breakdownEl.style.display = 'block';
+        breakdownEl.innerHTML = `
+          <div class="official-breakdown-card">
+            <div class="official-breakdown-title">🎖️ Desglose Oficial por Partes (AGBS / Patronato)</div>
+            <div class="official-breakdown-grid">
+              <div class="breakdown-item">
+                <span class="breakdown-label">Parte I: Comprensión Escrita</span>
+                <span class="breakdown-val">${res.part1Score || (res.part1Correct + ' / 30')}</span>
+              </div>
+              <div class="breakdown-item">
+                <span class="breakdown-label">Parte II: Gramática y Cloze</span>
+                <span class="breakdown-val">${res.part2Score || (res.part2Correct + ' / 30')}</span>
+              </div>
+            </div>
+            <div class="official-breakdown-verdict ${res.isPassed ? 'verdict-pass' : 'verdict-fail'}">
+              ${res.isPassed 
+                ? '🎖️ APTO OFICIAL: Has superado el corte mínimo de 42 aciertos (70%) exigido en la oposición.' 
+                : '❌ NO APTO: Se requiere un mínimo de 42 aciertos (70%). Te han faltado ' + (42 - res.correct) + ' acierto(s).'}
+            </div>
+          </div>
+        `;
+      } else {
+        breakdownEl.style.display = 'none';
+        breakdownEl.innerHTML = '';
+      }
     }
 
     // Stats

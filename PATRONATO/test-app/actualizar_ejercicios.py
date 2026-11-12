@@ -1660,6 +1660,13 @@ def main():
     except Exception as e_study:
         print(f"[ERROR] No se pudieron generar las fichas de estudio: {e_study}")
 
+    # Generar Dataset para el Simulacro Oficial Procedural (60 preguntas)
+    try:
+        from exam_data_builder import build_exam_data
+        build_exam_data()
+    except Exception as e_exam:
+        print(f"[ERROR] No se pudo generar el dataset de simulacro oficial: {e_exam}")
+
     # Actualizar versión de caché en sw.js para forzar actualización en clientes/PWA
     sw_file = os.path.join(BASE_DIR, "sw.js")
     if os.path.exists(sw_file):

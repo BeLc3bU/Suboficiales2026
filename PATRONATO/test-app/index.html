@@ -92,12 +92,26 @@
             </div>
           </div>
           <div class="folder-header-right">
-            <span class="folder-badge">4 Secciones</span>
+            <span class="folder-badge">5 Secciones</span>
             <span class="folder-arrow">▼</span>
           </div>
         </div>
         <div class="folder-content" id="folder-content-especiales">
           <div class="special-grid" style="margin-bottom: 0;">
+            <div class="special-card official-exam-card">
+              <div class="official-card-top-row">
+                <span class="card-badge badge-military">🎖️ Formato Oficial 2022</span>
+                <span class="official-meta-pill">90 min • 60 Preguntas</span>
+              </div>
+              <h3 class="card-title">Simulacro Oficial Procedural (AGBS)</h3>
+              <p class="card-desc">Genera un examen <strong>único y diferente cada vez</strong>: 30 de <strong>Comprensión Escrita</strong> (textos íntegros) + 30 de <strong>Gramática y Vocabulario</strong> (3 textos Cloze de 10 huecos). Baremo oficial del 70% (42/60) sin penalización.</p>
+              <div class="card-actions">
+                <button class="btn btn-primary btn-official-start" onclick="startOfficialMockExam()">
+                  🚀 Iniciar Nuevo Simulacro Oficial (60 Qs)
+                </button>
+              </div>
+            </div>
+
             <div class="special-card exam-card">
               <span class="card-badge badge-blue">Simulacro Militar</span>
               <h3 class="card-title">Simulacro General</h3>
@@ -278,6 +292,9 @@
         <div id="result-badge-container"></div>
         <div class="score-display" id="result-score-val">0 / 10</div>
         <p class="score-subtitle" id="result-score-subtitle">Has acertado 0 de 0 preguntas (0%)</p>
+
+        <!-- Desglose exclusivo para Simulacro Oficial -->
+        <div id="official-exam-breakdown" style="display: none; margin-bottom: 1.5rem;"></div>
 
         <div class="results-stats-row">
           <div class="r-stat">
@@ -692,6 +709,8 @@
   <script src="js/sync-service.js"></script>
   <script src="js/questions-data.js"></script>
   <script src="js/study-cards-data.js"></script>
+  <script src="js/exam-data.js"></script>
+  <script src="js/exam-generator.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

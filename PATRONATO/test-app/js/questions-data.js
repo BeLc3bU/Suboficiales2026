@@ -1,11 +1,11 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-12 17:23:35
+ * Fecha: 2026-11-12 18:23:53
  * Total preguntas: 1160
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-12 17:23:35",
+    "generatedAt": "2026-11-12 18:23:53",
     "totalTopics": 25,
     "totalQuestions": 1160
   },
