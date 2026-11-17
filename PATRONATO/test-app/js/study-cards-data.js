@@ -1,12 +1,12 @@
 /**
  * Generado automáticamente por study_cards_builder.py
- * Fecha: 2026-11-12 18:23:53
- * Total de Fichas: 20
+ * Fecha: 2026-11-17 17:49:17
+ * Total de Fichas: 21
  */
 window.STUDY_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-12 18:23:53",
-    "totalSheets": 20
+    "generatedAt": "2026-11-17 17:49:17",
+    "totalSheets": 21
   },
   "sheets": {
     "tema_1": {
@@ -1787,6 +1787,96 @@ window.STUDY_DATA = {
         {
           "front": "¿Qué preposiciones acompañan a 'the same', 'different' y 'similar'?",
           "back": "The same AS.\nDifferent FROM.\nSimilar TO."
+        }
+      ]
+    },
+    "tema_14": {
+      "topicId": "tema_14",
+      "badge": "Tema 14",
+      "title": "Tema 14: Present Perfect Simple & Continuous",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_14.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 14 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "just",
+          "meaning": "acabar de / justo",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "already",
+          "meaning": "ya",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "ever",
+          "meaning": "alguna vez / jamás",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "never",
+          "meaning": "nunca / jamás",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "yet",
+          "meaning": "ya / todavía / aún",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "still",
+          "meaning": "todavía / aún / seguir",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 14?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
         }
       ]
     }
