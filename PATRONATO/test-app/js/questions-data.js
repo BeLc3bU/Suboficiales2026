@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-17 17:49:17
- * Total preguntas: 1160
+ * Fecha: 2026-11-19 17:22:11
+ * Total preguntas: 1319
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-17 17:49:17",
-    "totalTopics": 25,
-    "totalQuestions": 1160
+    "generatedAt": "2026-11-19 17:22:11",
+    "totalTopics": 28,
+    "totalQuestions": 1319
   },
   "topics": [
     {
@@ -17264,6 +17264,2135 @@ window.TEST_DATA = {
           },
           "answer": "B",
           "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+        }
+      ]
+    },
+    {
+      "id": "tema_14_f1",
+      "title": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+      "badge": "Tema 14 F1",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 14 (Ficha 1): Present Perfect Simple and Continuous extraídos de Ejercicios  Tema 14. Ficha 1.pdf.",
+      "questions": [
+        {
+          "id": "T14F1_Q1",
+          "number": 1,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Can I have this newspaper? Yes, I __________________________ with it.",
+          "answer": "have finished",
+          "explanation": "Respuesta correcta: 'have finished'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q2",
+          "number": 2,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I __________________________ some new shoes. Do you want to see them?",
+          "answer": "have bought",
+          "explanation": "Respuesta correcta: 'have bought'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q3",
+          "number": 3,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "“Where is Liz?” “She __________________________ out.”",
+          "answer": "has gone",
+          "explanation": "Respuesta correcta: 'has gone'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q5",
+          "number": 5,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Look! Somebody __________________________ that window.",
+          "answer": "has broken",
+          "explanation": "Respuesta correcta: 'has broken'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q6",
+          "number": 6,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "“Does Lisa know that you’re going away?” “Yes, I __________________________ her.”",
+          "answer": "have told",
+          "explanation": "Respuesta correcta: 'have told'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q7",
+          "number": 7,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I can’t find my umbrella. Somebody __________________________ it.",
+          "answer": "has taken",
+          "explanation": "Respuesta correcta: 'has taken'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q9",
+          "number": 9,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I know that woman, but I __________________________ her name.",
+          "answer": "have forgotten",
+          "explanation": "Respuesta correcta: 'have forgotten'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q10",
+          "number": 10,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Sue is having a party tonight. She __________________________ a lot of people.",
+          "answer": "has invited",
+          "explanation": "Respuesta correcta: 'has invited'.",
+          "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
+        },
+        {
+          "id": "T14F1_Q13",
+          "number": 13,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "We __________________________________________. (just / arrive)",
+          "answer": "have just arrived",
+          "explanation": "Respuesta correcta: 'have just arrived'."
+        },
+        {
+          "id": "T14F1_Q14",
+          "number": 14,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "They __________________________________________ those apples. (already / eat)",
+          "answer": "have already eaten",
+          "explanation": "Respuesta correcta: 'have already eaten'."
+        },
+        {
+          "id": "T14F1_Q16",
+          "number": 16,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "We __________________________________________ him. (already / phone)",
+          "answer": "have already phoned",
+          "explanation": "Respuesta correcta: 'have already phoned'."
+        },
+        {
+          "id": "T14F1_Q17",
+          "number": 17,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I __________________________________________ the exam. (just / finish)",
+          "answer": "have just finished",
+          "explanation": "Respuesta correcta: 'have just finished'."
+        },
+        {
+          "id": "T14F1_Q18",
+          "number": 18,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Bill is on holiday at the moment. He’s __________________ to Spain.",
+          "answer": "gone",
+          "explanation": "Respuesta correcta: 'gone'."
+        },
+        {
+          "id": "T14F1_Q19",
+          "number": 19,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Where’s Jill? She’s not here. I think she’s __________________ to the bank.",
+          "answer": "gone",
+          "explanation": "Respuesta correcta: 'gone'."
+        },
+        {
+          "id": "T14F1_Q21",
+          "number": 21,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Have you ever __________________ to Mexico? No, never.",
+          "answer": "been",
+          "explanation": "Respuesta correcta: 'been'."
+        },
+        {
+          "id": "T14F1_Q22",
+          "number": 22,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "My parents aren’t at home this evening. They’ve __________________ out.",
+          "answer": "gone",
+          "explanation": "Respuesta correcta: 'gone'."
+        },
+        {
+          "id": "T14F1_Q23",
+          "number": 23,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "There’s a new restaurant in town. Have you __________________ to it?",
+          "answer": "been",
+          "explanation": "Respuesta correcta: 'been'."
+        },
+        {
+          "id": "T14F1_Q24",
+          "number": 24,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Ann knows Paris very well. She’s __________________ there many times.",
+          "answer": "been",
+          "explanation": "Respuesta correcta: 'been'."
+        },
+        {
+          "id": "T14F1_Q25",
+          "number": 25,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Helen was here earlier, but I think she’s __________________ now.",
+          "answer": "gone",
+          "explanation": "Respuesta correcta: 'gone'."
+        },
+        {
+          "id": "T14F1_Q26",
+          "number": 26,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Jill is in hospital. She __________________________ in hospital since Monday. (be)",
+          "answer": "has been",
+          "explanation": "Respuesta correcta: 'has been'."
+        },
+        {
+          "id": "T14F1_Q27",
+          "number": 27,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I know Sarah. I __________________________ her for a long time. (know)",
+          "answer": "have known",
+          "explanation": "Respuesta correcta: 'have known'."
+        },
+        {
+          "id": "T14F1_Q28",
+          "number": 28,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Linda and Frank are married. They __________________________ married since 2019. (be)",
+          "answer": "have been",
+          "explanation": "Respuesta correcta: 'have been'."
+        },
+        {
+          "id": "T14F1_Q29",
+          "number": 29,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Brian is ill. He __________________________ ill for the last few days. (be)",
+          "answer": "has been",
+          "explanation": "Respuesta correcta: 'has been'."
+        },
+        {
+          "id": "T14F1_Q30",
+          "number": 30,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "We live in Scott Road. We __________________________ there for ten years. (live)",
+          "answer": "have lived",
+          "explanation": "Respuesta correcta: 'have lived'."
+        },
+        {
+          "id": "T14F1_Q31",
+          "number": 31,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Catherine works in a bank. She __________________________ there for five years. (work — use the Present Perfect Continuous)",
+          "answer": "has been working",
+          "explanation": "Respuesta correcta: 'has been working'."
+        },
+        {
+          "id": "T14F1_Q32",
+          "number": 32,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Alan has a headache. He __________________________ a headache since he got up this morning. (have)",
+          "answer": "has had",
+          "explanation": "Respuesta correcta: 'has had'."
+        },
+        {
+          "id": "T14F1_Q33",
+          "number": 33,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I’m learning English. I __________________________ English for six months. (learn — use the Present Perfect Continuous)",
+          "answer": "have been learning",
+          "explanation": "Respuesta correcta: 'have been learning'."
+        },
+        {
+          "id": "T14F1_Q34",
+          "number": 34,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Jill has been in Ireland __________________ Monday.",
+          "answer": "since",
+          "explanation": "Respuesta correcta: 'since'."
+        },
+        {
+          "id": "T14F1_Q35",
+          "number": 35,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Jill has been in Ireland __________________ three days.",
+          "answer": "for",
+          "explanation": "Respuesta correcta: 'for'."
+        },
+        {
+          "id": "T14F1_Q36",
+          "number": 36,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "My aunt has lived in Australia __________________ fifteen years.",
+          "answer": "for",
+          "explanation": "Respuesta correcta: 'for'."
+        },
+        {
+          "id": "T14F1_Q37",
+          "number": 37,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Margaret is in her office. She has been there __________________ seven o’clock.",
+          "answer": "since",
+          "explanation": "Respuesta correcta: 'since'."
+        },
+        {
+          "id": "T14F1_Q38",
+          "number": 38,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "India has been an independent country __________________ 1947.",
+          "answer": "since",
+          "explanation": "Respuesta correcta: 'since'."
+        },
+        {
+          "id": "T14F1_Q39",
+          "number": 39,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "The bus is late. We’ve been waiting __________________ twenty minutes.",
+          "answer": "for",
+          "explanation": "Respuesta correcta: 'for'."
+        },
+        {
+          "id": "T14F1_Q40",
+          "number": 40,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Nobody lives in those houses. They have been empty __________________ many years.",
+          "answer": "for",
+          "explanation": "Respuesta correcta: 'for'."
+        },
+        {
+          "id": "T14F1_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "I have just invite Peter.",
+            "B": "I have invited just Peter.",
+            "C": "I have just invited Peter.",
+            "D": "I has just invited Peter."
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F1_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Mary isn’t at home. She ______ to the doctor’s.",
+          "options": {
+            "A": "has gone",
+            "B": "has been",
+            "C": "went yesterday",
+            "D": "have gone"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F1_Q51",
+          "number": 51,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Joe hasn’t phoned ______.",
+          "options": {
+            "A": "already",
+            "B": "just",
+            "C": "yet",
+            "D": "ever"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F1_Q52",
+          "number": 52,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "How long ______ in this town?",
+          "options": {
+            "A": "do you live",
+            "B": "have lived you",
+            "C": "have you lived",
+            "D": "did you lived"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F1_Q53",
+          "number": 53,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "Have ever you been to Italy?",
+            "B": "Have you ever been to Italy?",
+            "C": "Have you been ever to Italy?",
+            "D": "Have been you ever to Italy?"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F1_Q54",
+          "number": 54,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "Have you started your new job yet?",
+            "B": "Have you yet started your new job?",
+            "C": "Have started you your new job yet?",
+            "D": "Do you have started your new job yet?"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F1_Q55",
+          "number": 55,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I’ve had a headache ______ I got up this morning.",
+          "options": {
+            "A": "for",
+            "B": "ago",
+            "C": "during",
+            "D": "since"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F1_Q56",
+          "number": 56,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "“Have you ______ to France?” “Yes, many times.”",
+          "options": {
+            "A": "gone",
+            "B": "be",
+            "C": "go",
+            "D": "been"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F1_Q57",
+          "number": 57,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Choose the correct sentence.",
+          "options": {
+            "A": "I have got this sweater since 2022.",
+            "B": "I am having this sweater since 2022.",
+            "C": "I’ve had this sweater since 2022.",
+            "D": "I had this sweater since"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F1_Q58",
+          "number": 58,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "I can’t find Peter. Where has he ______?",
+          "options": {
+            "A": "be",
+            "B": "been",
+            "C": "go",
+            "D": "gone"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F1_Q59",
+          "number": 59,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "“Are you hungry?” “No, I ______.”",
+          "options": {
+            "A": "have just eaten",
+            "B": "have eaten just",
+            "C": "am just eaten",
+            "D": "have just eat"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F1_Q60",
+          "number": 60,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "“I’m looking for my glasses.” “Here they are! I ______ them.”",
+          "options": {
+            "A": "have already found",
+            "B": "have yet found",
+            "C": "have found already yesterday",
+            "D": "found yet"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F1_Q61",
+          "number": 61,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Look at Paul! He was asleep in the armchair. He ______.",
+          "options": {
+            "A": "just woken up",
+            "B": "has just woken up",
+            "C": "has just wake up",
+            "D": "has yet woke up"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F1_Q62",
+          "number": 62,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "We ______ Chinese food so far.",
+          "options": {
+            "A": "have never eaten",
+            "B": "had never eat",
+            "C": "didn’t never eat",
+            "D": "never have ate"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F1_Q63",
+          "number": 63,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "The teacher isn’t in the classroom now. He’s ______ to the staff room.",
+          "options": {
+            "A": "been",
+            "B": "go",
+            "C": "went",
+            "D": "gone"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F1_Q64",
+          "number": 64,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
+          "question": "Peter and Jane ______ for seven years.",
+          "options": {
+            "A": "have married",
+            "B": "have been married",
+            "C": "did married",
+            "D": "are marry"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: B."
+        }
+      ]
+    },
+    {
+      "id": "tema_14_f2",
+      "title": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+      "badge": "Tema 14 F2",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 14 (Ficha 2): Present Perfect Simple and Continuous extraídos de Ejercicios  Tema 14. Ficha 2.pdf.",
+      "questions": [
+        {
+          "id": "T14F2_Q1",
+          "number": 1,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Mark is / has been in Canada since April.",
+          "answer": "has been",
+          "explanation": "Respuesta correcta: 'has been'."
+        },
+        {
+          "id": "T14F2_Q2",
+          "number": 2,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Jane is a good friend of mine. I know / have known her very well.",
+          "answer": "know",
+          "explanation": "Respuesta correcta: 'know'."
+        },
+        {
+          "id": "T14F2_Q3",
+          "number": 3,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Jane is a good friend of mine. I know / have known her for a long time.",
+          "answer": "have known",
+          "explanation": "Respuesta correcta: 'have known'."
+        },
+        {
+          "id": "T14F2_Q4",
+          "number": 4,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Sorry I’m late. How long are you waiting / have you been waiting?",
+          "answer": "have you been waiting",
+          "explanation": "Respuesta correcta: 'have you been waiting'."
+        },
+        {
+          "id": "T14F2_Q5",
+          "number": 5,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Martin works / has worked in a hotel. He likes his job very much.",
+          "answer": "works",
+          "explanation": "Respuesta correcta: 'works'."
+        },
+        {
+          "id": "T14F2_Q6",
+          "number": 6,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Linda started reading the newspaper two hours ago and she is still reading it. She is reading / has been reading it for two hours.",
+          "answer": "has been reading",
+          "explanation": "Respuesta correcta: 'has been reading'."
+        },
+        {
+          "id": "T14F2_Q7",
+          "number": 7,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "How long do you live / have you lived in this house?",
+          "answer": "have you lived",
+          "explanation": "Respuesta correcta: 'have you lived'."
+        },
+        {
+          "id": "T14F2_Q8",
+          "number": 8,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "“Is that a new coat?” “No, I have / have had this coat for a long time.”",
+          "answer": "have had",
+          "explanation": "Respuesta correcta: 'have had'."
+        },
+        {
+          "id": "T14F2_Q10",
+          "number": 10,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "My friend is a writer. He __________________________ many books. (write)",
+          "answer": "has written",
+          "explanation": "Respuesta correcta: 'has written'."
+        },
+        {
+          "id": "T14F2_Q12",
+          "number": 12,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "I __________________________ tennis yesterday afternoon. (play)",
+          "answer": "played",
+          "explanation": "Respuesta correcta: 'played'."
+        },
+        {
+          "id": "T14F2_Q13",
+          "number": 13,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "What time __________________________ to bed last night? (you / go)",
+          "answer": "did you go",
+          "explanation": "Respuesta correcta: 'did you go'."
+        },
+        {
+          "id": "T14F2_Q14",
+          "number": 14,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "__________________________ a famous person? (you / ever / meet)",
+          "answer": "Have you ever met",
+          "explanation": "Respuesta correcta: 'Have you ever met'."
+        },
+        {
+          "id": "T14F2_Q16",
+          "number": 16,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "My hair is wet. I __________________________ it. (just / wash)",
+          "answer": "have just washed",
+          "explanation": "Respuesta correcta: 'have just washed'."
+        },
+        {
+          "id": "T14F2_Q17",
+          "number": 17,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "I __________________________ my hair before breakfast this morning. (wash — the morning is finished)",
+          "answer": "washed",
+          "explanation": "Respuesta correcta: 'washed'."
+        },
+        {
+          "id": "T14F2_Q18",
+          "number": 18,
+          "type": "completion",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Kathy travels a lot. She __________________________ many countries. (visit)",
+          "answer": "has visited",
+          "explanation": "Respuesta correcta: 'has visited'."
+        },
+        {
+          "id": "T14F2_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "What time ______?",
+          "options": {
+            "A": "has the class started",
+            "B": "started the class",
+            "C": "did the class start",
+            "D": "has the class start"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "“When did you buy that house?”",
+          "options": {
+            "A": "Two years ago.",
+            "B": "Since two years.",
+            "C": "For two years.",
+            "D": "During two years."
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "“Has Catherine gone home?”",
+          "options": {
+            "A": "Yes, she has gone home one hour ago.",
+            "B": "Yes, she went home one hour ago.",
+            "C": "Yes, she has gone home since one hour.",
+            "D": "Yes, she went home since one hour ago."
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "I ______ German for three years, but I’m studying English now.",
+          "options": {
+            "A": "have studied",
+            "B": "have been studying",
+            "C": "studied",
+            "D": "study"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "“Mary has just come back from the United States.” “Yes, I ______ yesterday.”",
+          "options": {
+            "A": "have seen her",
+            "B": "see her",
+            "C": "did saw her",
+            "D": "saw her"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F2_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Have you ever ______ the Eiffel Tower? “Yes. I ______ it two months ago.”",
+          "options": {
+            "A": "visited / visited",
+            "B": "visit / visited",
+            "C": "visited / have visited",
+            "D": "visit / have visited"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "When ______ your family?",
+          "options": {
+            "A": "did you visit",
+            "B": "have you visited",
+            "C": "visited you",
+            "D": "have you visit"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "You still live in New York. How long ______ there?",
+          "options": {
+            "A": "did you live",
+            "B": "have you lived",
+            "C": "do you live",
+            "D": "were you living"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "So far this month, she ______ her driving test and completed the first-aid course.",
+          "options": {
+            "A": "passed",
+            "B": "has passed",
+            "C": "was passing",
+            "D": "have passed"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "Henry ______ to Madrid yesterday.",
+          "options": {
+            "A": "has gone",
+            "B": "has been going",
+            "C": "went",
+            "D": "has been"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "I ______ dinner, but I haven’t finished yet.",
+          "options": {
+            "A": "have cooked",
+            "B": "have been cooking",
+            "C": "cooked",
+            "D": "was cooked"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "You started painting two hours ago and you are still painting. How long ______ pictures?",
+          "options": {
+            "A": "did you paint",
+            "B": "have you painted",
+            "C": "have you been painting",
+            "D": "are you paint"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "I bought this boat in 2021, so ______.",
+          "options": {
+            "A": "I have it since 2021",
+            "B": "I’ve had it since 2021",
+            "C": "I had it since 2021",
+            "D": "I’ve been having it since 2021"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "“I have worked in this place for eleven years.” Which sentence expresses the same idea?",
+          "options": {
+            "A": "I worked here for eleven years, but I do not work here now.",
+            "B": "I started working here eleven years ago and I still work here.",
+            "C": "I will start working here in eleven years.",
+            "D": "I stopped working here eleven years ago."
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "did you lived",
+            "B": "have you live",
+            "C": "have you lived",
+            "D": "have you been lived"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "have been lived",
+            "B": "have living",
+            "C": "have live",
+            "D": "have lived"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F2_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "since",
+            "B": "during",
+            "C": "for",
+            "D": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "have lived",
+            "B": "was lived",
+            "C": "did lived",
+            "D": "lived"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F2_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "have decide",
+            "B": "did decide",
+            "C": "decided",
+            "D": "am deciding"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "have never been to",
+            "B": "have never gone to",
+            "C": "have never been in",
+            "D": "have never gone in"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "am liking",
+            "B": "love",
+            "C": "am loving",
+            "D": "likes"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "have been working",
+            "B": "works",
+            "C": "have been worked",
+            "D": "worked"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "since",
+            "B": "during",
+            "C": "for",
+            "D": "at"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+          "question": "",
+          "options": {
+            "A": "enjoy",
+            "B": "am enjoying",
+            "C": "have enjoyed",
+            "D": "did enjoy"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "tema_14_f3",
+      "title": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+      "badge": "Tema 14 F3",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 14 (Ficha 3): Present Perfect Simple and Continuous extraídos de Ejercicios  Tema 14. Ficha 3.pdf.",
+      "questions": [
+        {
+          "id": "T14F3_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We have _______ arrived at the station. We’re lucky the train hasn’t left yet.",
+          "options": {
+            "A": "already",
+            "B": "just",
+            "C": "yet",
+            "D": "lately"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Jill has been in Ireland _______ Monday.",
+          "options": {
+            "A": "for",
+            "B": "during",
+            "C": "since",
+            "D": "ago"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Have you finished the report _______?",
+          "options": {
+            "A": "yet",
+            "B": "now",
+            "C": "still",
+            "D": "since"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "They have _______ eaten, so they are not hungry.",
+          "options": {
+            "A": "yet",
+            "B": "lately",
+            "C": "still",
+            "D": "already"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Have you _______ visited the United States?",
+          "options": {
+            "A": "never",
+            "B": "ever",
+            "C": "already",
+            "D": "still"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "My aunt has lived in Australia _______ fifteen years.",
+          "options": {
+            "A": "for",
+            "B": "since",
+            "C": "ago",
+            "D": "from"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I have been feeling very tired _______.",
+          "options": {
+            "A": "already",
+            "B": "ever",
+            "C": "lately",
+            "D": "yet"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I have _______ travelled outside Europe.",
+          "options": {
+            "A": "ever",
+            "B": "already",
+            "C": "still",
+            "D": "never"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "They _______ haven’t received the results. It has been more than two weeks.",
+          "options": {
+            "A": "yet",
+            "B": "still",
+            "C": "already",
+            "D": "just"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The company has _______ introduced new safety measures.",
+          "options": {
+            "A": "recently",
+            "B": "yet",
+            "C": "since",
+            "D": "ever"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We have completed five exercises _______.",
+          "options": {
+            "A": "already yesterday",
+            "B": "since",
+            "C": "so far",
+            "D": "for"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "_______, everything has gone well.",
+          "options": {
+            "A": "For",
+            "B": "Ever",
+            "C": "Yet",
+            "D": "Up to now"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I have _______ finished the exam. I put my pen down only a few seconds ago.",
+          "options": {
+            "A": "just",
+            "B": "yet",
+            "C": "still",
+            "D": "ever"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We have _______ phoned him, so there is no need to call again.",
+          "options": {
+            "A": "yet",
+            "B": "still",
+            "C": "already",
+            "D": "ever"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Sonia hasn’t arrived _______.",
+          "options": {
+            "A": "already",
+            "B": "yet",
+            "C": "ever",
+            "D": "just"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "This is the best hotel I have _______ stayed in.",
+          "options": {
+            "A": "never",
+            "B": "already",
+            "C": "ever",
+            "D": "lately"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "She has _______ seen snow in her life.",
+          "options": {
+            "A": "never",
+            "B": "ever",
+            "C": "just",
+            "D": "yet"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Margaret has been in her office _______ seven o’clock.",
+          "options": {
+            "A": "for",
+            "B": "ago",
+            "C": "since",
+            "D": "during"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We’ve been waiting _______ twenty minutes.",
+          "options": {
+            "A": "since",
+            "B": "for",
+            "C": "from",
+            "D": "ago"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Sarah _______ hasn’t finished the report, although she started it yesterday.",
+          "options": {
+            "A": "already",
+            "B": "yet",
+            "C": "still",
+            "D": "ever"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Have you seen Peter _______? I heard he came back to town a few days ago.",
+          "options": {
+            "A": "recently",
+            "B": "since",
+            "C": "ever",
+            "D": "for"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I haven’t seen much of Laura _______. She has been very busy.",
+          "options": {
+            "A": "already",
+            "B": "lately",
+            "C": "yet",
+            "D": "since"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "_______, we haven’t had any serious problems.",
+          "options": {
+            "A": "Since",
+            "B": "For",
+            "C": "So far",
+            "D": "Already"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We haven’t received any complaints _______.",
+          "options": {
+            "A": "ever since",
+            "B": "recently yesterday",
+            "C": "already",
+            "D": "up to now"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "“Do we need to tell Mark?” “No, somebody has _______ told him.”",
+          "options": {
+            "A": "yet",
+            "B": "already",
+            "C": "still",
+            "D": "ever"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "She has _______ left the office, so you might still catch her outside.",
+          "options": {
+            "A": "never",
+            "B": "just",
+            "C": "yet",
+            "D": "since"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Has Mary painted the room _______?",
+          "options": {
+            "A": "ever",
+            "B": "still",
+            "C": "yet",
+            "D": "since"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Have you _______ met a famous person?",
+          "options": {
+            "A": "ever",
+            "B": "never",
+            "C": "yet",
+            "D": "lately"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Nobody has _______ explained why the project was cancelled.",
+          "options": {
+            "A": "already",
+            "B": "ever",
+            "C": "since",
+            "D": "just"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "India has been an independent country _______ 1947.",
+          "options": {
+            "A": "during",
+            "B": "for",
+            "C": "ago",
+            "D": "since"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Nobody has lived in those houses _______ many years.",
+          "options": {
+            "A": "for",
+            "B": "since",
+            "C": "ago",
+            "D": "from"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "They are _______ working on the problem. They haven’t solved it yet.",
+          "options": {
+            "A": "ever",
+            "B": "never",
+            "C": "still",
+            "D": "just"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The company has _______ opened a new office in Córdoba.",
+          "options": {
+            "A": "recently",
+            "B": "lately",
+            "C": "for",
+            "D": "since"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Have you been sleeping badly _______?",
+          "options": {
+            "A": "recently yesterday",
+            "B": "already",
+            "C": "lately",
+            "D": "yet"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "How many applications have you received _______?",
+          "options": {
+            "A": "yesterday",
+            "B": "so far",
+            "C": "since two hours",
+            "D": "ago"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "_______, nobody has found a solution.",
+          "options": {
+            "A": "Up to now",
+            "B": "For",
+            "C": "Since",
+            "D": "Ever"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Have you finished _______? That was much faster than I expected!",
+          "options": {
+            "A": "yet",
+            "B": "already",
+            "C": "still",
+            "D": "never"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The technicians have _______ repaired the machine. They finished a few moments ago.",
+          "options": {
+            "A": "already",
+            "B": "yet",
+            "C": "just",
+            "D": "still"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The train hasn’t arrived _______.",
+          "options": {
+            "A": "already",
+            "B": "since",
+            "C": "yet",
+            "D": "just"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I have lived here _______ I left the army.",
+          "options": {
+            "A": "ever since",
+            "B": "for",
+            "C": "lately",
+            "D": "already"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I have _______ eaten Chinese food.",
+          "options": {
+            "A": "ever",
+            "B": "still",
+            "C": "yet",
+            "D": "never"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I haven’t seen him _______ he moved to Madrid.",
+          "options": {
+            "A": "for",
+            "B": "during",
+            "C": "since",
+            "D": "ago"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "She has known him _______ a long time.",
+          "options": {
+            "A": "since",
+            "B": "for",
+            "C": "ago",
+            "D": "from"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The children are _______ waiting for the bus. It is twenty minutes late.",
+          "options": {
+            "A": "still",
+            "B": "yet",
+            "C": "already",
+            "D": "ever"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "There have been several changes in the department _______.",
+          "options": {
+            "A": "ago",
+            "B": "recently",
+            "C": "since yesterday ago",
+            "D": "ever"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I have been working much harder than usual _______.",
+          "options": {
+            "A": "yet",
+            "B": "already",
+            "C": "lately",
+            "D": "since"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The team has scored twelve goals _______ this season.",
+          "options": {
+            "A": "yesterday",
+            "B": "ago",
+            "C": "so far",
+            "D": "since"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "_______, the investigation has produced no clear evidence.",
+          "options": {
+            "A": "Ever",
+            "B": "For",
+            "C": "Already",
+            "D": "Up to now"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The house is _______ sold, so we are now looking for somewhere else to live.",
+          "options": {
+            "A": "already",
+            "B": "yet",
+            "C": "still",
+            "D": "lately"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "“Why are your hands dirty?” “I’ve _______ repaired the bike.”",
+          "options": {
+            "A": "already last week",
+            "B": "just",
+            "C": "yet",
+            "D": "ever"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q51",
+          "number": 51,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We haven’t decided what to do _______.",
+          "options": {
+            "A": "already",
+            "B": "just",
+            "C": "yet",
+            "D": "ever"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q52",
+          "number": 52,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "This is the most difficult test I have _______ taken.",
+          "options": {
+            "A": "never",
+            "B": "ever",
+            "C": "lately",
+            "D": "already"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q53",
+          "number": 53,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Nothing has _______ changed in this village.",
+          "options": {
+            "A": "never",
+            "B": "already",
+            "C": "ever",
+            "D": "yet"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q54",
+          "number": 54,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "He has had a headache _______ he got up this morning.",
+          "options": {
+            "A": "for",
+            "B": "during",
+            "C": "ago",
+            "D": "since"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q55",
+          "number": 55,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Peter and Jane have been married _______ seven years.",
+          "options": {
+            "A": "for",
+            "B": "since",
+            "C": "during",
+            "D": "ago"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q56",
+          "number": 56,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We are _______ living in the same small flat because our new house isn’t ready.",
+          "options": {
+            "A": "already",
+            "B": "still",
+            "C": "yet",
+            "D": "ever"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q57",
+          "number": 57,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Scientists have _______ discovered several new species in this area.",
+          "options": {
+            "A": "recently",
+            "B": "for",
+            "C": "since",
+            "D": "yet"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q58",
+          "number": 58,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "I haven’t been going to the gym much _______.",
+          "options": {
+            "A": "already",
+            "B": "lately",
+            "C": "since Monday ago",
+            "D": "yet"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q59",
+          "number": 59,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "_______, the project has cost less than expected.",
+          "options": {
+            "A": "Ago",
+            "B": "Since",
+            "C": "So far",
+            "D": "Ever"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q60",
+          "number": 60,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We have completed three stages of the project _______.",
+          "options": {
+            "A": "yesterday",
+            "B": "already ago",
+            "C": "since",
+            "D": "up to now"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F3_Q61",
+          "number": 61,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "The company _______ hasn’t announced the results, even though the deadline was last week.",
+          "options": {
+            "A": "just",
+            "B": "already",
+            "C": "still",
+            "D": "ever"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q62",
+          "number": 62,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Several employees have left the company _______.",
+          "options": {
+            "A": "recently",
+            "B": "since two weeks",
+            "C": "for Monday",
+            "D": "yet"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q63",
+          "number": 63,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "She has been complaining about headaches _______.",
+          "options": {
+            "A": "just",
+            "B": "lately",
+            "C": "already",
+            "D": "ever"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q64",
+          "number": 64,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "We have received twenty applications _______, and the deadline is next Friday.",
+          "options": {
+            "A": "for",
+            "B": "since",
+            "C": "so far",
+            "D": "ago"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q65",
+          "number": 65,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "_______, no one has been able to explain what happened.",
+          "options": {
+            "A": "Yesterday",
+            "B": "Up to now",
+            "C": "Since two weeks",
+            "D": "Already"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q66",
+          "number": 66,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Which sentence best means “Ya he terminado el informe”?",
+          "options": {
+            "A": "I have just finished the report.",
+            "B": "I have already finished the report.",
+            "C": "I haven’t finished the report yet.",
+            "D": "I still haven’t finished the report."
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F3_Q67",
+          "number": 67,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Which sentence best means “Acabo de terminar el informe”?",
+          "options": {
+            "A": "I have already finished the report.",
+            "B": "I have finished the report yet.",
+            "C": "I have just finished the report.",
+            "D": "I still haven’t finished the report."
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q68",
+          "number": 68,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Which sentence is the most neutral way to ask “¿Has terminado ya?”",
+          "options": {
+            "A": "Have you finished yet?",
+            "B": "Have you finished already?",
+            "C": "Do you still finish?",
+            "D": "Have you just finished yet?"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F3_Q69",
+          "number": 69,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Which sentence most strongly emphasizes that the delay is continuing longer than expected?",
+          "options": {
+            "A": "They have already arrived.",
+            "B": "They haven’t arrived yet.",
+            "C": "They still haven’t arrived.",
+            "D": "They have just arrived."
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F3_Q70",
+          "number": 70,
+          "type": "choice",
+          "section": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous",
+          "question": "Which sentence is correct?",
+          "options": {
+            "A": "I haven’t never been to London.",
+            "B": "I have never been to London.",
+            "C": "I never have not been to London.",
+            "D": "I have not never been to London."
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
         }
       ]
     }
