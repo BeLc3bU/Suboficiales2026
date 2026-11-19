@@ -1,12 +1,12 @@
 /**
  * Generado automáticamente por study_cards_builder.py
- * Fecha: 2026-11-19 17:22:11
- * Total de Fichas: 24
+ * Fecha: 2026-11-19 17:41:37
+ * Total de Fichas: 27
  */
 window.STUDY_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-19 17:22:11",
-    "totalSheets": 24
+    "generatedAt": "2026-11-19 17:41:37",
+    "totalSheets": 27
   },
   "sheets": {
     "tema_1": {
@@ -1880,6 +1880,71 @@ window.STUDY_DATA = {
         }
       ]
     },
+    "tema_15": {
+      "topicId": "tema_15",
+      "badge": "Tema 15",
+      "title": "Tema 15: Quantifiers + Subject–Verb Agreement",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_15.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 15 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Términos clave Tema 15",
+          "meaning": "Vocabulario esencial",
+          "distractorRole": "Palabras recurrentes en los distractores de este tema."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 15?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+        }
+      ]
+    },
     "tema_14_f1": {
       "topicId": "tema_14_f1",
       "badge": "Tema 14",
@@ -2134,6 +2199,136 @@ window.STUDY_DATA = {
       "flashcards": [
         {
           "front": "¿Cuál es el objetivo principal del Tema 14?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+        }
+      ]
+    },
+    "tema_15_f1": {
+      "topicId": "tema_15_f1",
+      "badge": "Tema 15",
+      "title": "Tema 15: Quantifiers + Subject–Verb Agreement",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_15.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 15 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Términos clave Tema 15",
+          "meaning": "Vocabulario esencial",
+          "distractorRole": "Palabras recurrentes en los distractores de este tema."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 15?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+        }
+      ]
+    },
+    "tema_15_f2": {
+      "topicId": "tema_15_f2",
+      "badge": "Tema 15",
+      "title": "Tema 15: Quantifiers + Subject–Verb Agreement",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_15.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 15 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Términos clave Tema 15",
+          "meaning": "Vocabulario esencial",
+          "distractorRole": "Palabras recurrentes en los distractores de este tema."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 15?",
           "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
         },
         {
