@@ -1,13 +1,13 @@
 /**
  * Dataset de Unidades de Examen para el Generador Procedural Oficial.
- * Lecturas disponibles: 44 (44 preguntas)
+ * Lecturas disponibles: 45 (54 preguntas)
  * Textos Cloze disponibles: 9 (90 preguntas)
  */
 window.EXAM_DATA = {
   "metadata": {
     "version": "1.0.0",
-    "totalReadingUnits": 44,
-    "totalReadingQuestions": 44,
+    "totalReadingUnits": 45,
+    "totalReadingQuestions": 54,
     "totalClozeUnits": 9,
     "totalClozeQuestions": 90
   },
@@ -655,6 +655,133 @@ window.EXAM_DATA = {
           },
           "answer": "B",
           "explanation": "El texto afirma: '...about 200,000 people speak Frisian which is the language with the most similarities to English' (opción B)."
+        }
+      ]
+    },
+    {
+      "id": "reading_tema_14_f2_35",
+      "title": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
+      "text": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now.",
+      "questions": [
+        {
+          "id": "T14F2_Q34",
+          "question": "How long (34) [ ______ ] in Italy?",
+          "options": {
+            "A": "did you lived",
+            "B": "have you live",
+            "C": "have you lived",
+            "D": "have you been lived"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q35",
+          "question": "I (35) [ ______ ] in Italy (36) ______ three years.",
+          "options": {
+            "A": "have been lived",
+            "B": "have living",
+            "C": "have live",
+            "D": "have lived"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F2_Q36",
+          "question": "I (35) ______ in Italy (36) [ ______ ] three years.",
+          "options": {
+            "A": "since",
+            "B": "during",
+            "C": "for",
+            "D": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q37",
+          "question": "I (37) [ ______ ] in France from 2010 to 2017 and then I (38) ______ to come here.",
+          "options": {
+            "A": "have lived",
+            "B": "was lived",
+            "C": "did lived",
+            "D": "lived"
+          },
+          "answer": "D",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+        },
+        {
+          "id": "T14F2_Q38",
+          "question": "I (37) ______ in France from 2010 to 2017 and then I (38) [ ______ ] to come here.",
+          "options": {
+            "A": "have decide",
+            "B": "did decide",
+            "C": "decided",
+            "D": "am deciding"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+        },
+        {
+          "id": "T14F2_Q39",
+          "question": "I (39) [ ______ ] Italy before, but I (40) ______ this country very much.",
+          "options": {
+            "A": "have never been to",
+            "B": "have never gone to",
+            "C": "have never been in",
+            "D": "have never gone in"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q40",
+          "question": "I (39) ______ Italy before, but I (40) [ ______ ] this country very much.",
+          "options": {
+            "A": "am liking",
+            "B": "love",
+            "C": "am loving",
+            "D": "likes"
+          },
+          "answer": "B",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+        },
+        {
+          "id": "T14F2_Q41",
+          "question": "I (41) [ ______ ] in this firm (42) ______ May, and I (43) ______ it up to now.",
+          "options": {
+            "A": "have been working",
+            "B": "works",
+            "C": "have been worked",
+            "D": "worked"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q42",
+          "question": "I (41) ______ in this firm (42) [ ______ ] May, and I (43) ______ it up to now.",
+          "options": {
+            "A": "since",
+            "B": "during",
+            "C": "for",
+            "D": "at"
+          },
+          "answer": "A",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+        },
+        {
+          "id": "T14F2_Q43",
+          "question": "I (41) ______ in this firm (42) ______ May, and I (43) [ ______ ] it up to now.",
+          "options": {
+            "A": "enjoy",
+            "B": "am enjoying",
+            "C": "have enjoyed",
+            "D": "did enjoy"
+          },
+          "answer": "C",
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
         }
       ]
     },

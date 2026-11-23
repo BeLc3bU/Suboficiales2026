@@ -57,7 +57,7 @@ class TestStudyCardsGeneration(unittest.TestCase):
         data = json.loads(match.group(1))
         sheets = data["sheets"]
 
-        expected_topics = [f"tema_{i}" for i in range(1, 14)]
+        expected_topics = [f"tema_{i}" for i in range(1, 16)]
         for tid in expected_topics:
             self.assertIn(tid, sheets, f"Falta ficha para {tid}")
             sheet = sheets[tid]

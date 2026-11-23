@@ -1,11 +1,11 @@
 /**
  * Generado automáticamente por study_cards_builder.py
- * Fecha: 2026-11-19 17:41:37
+ * Fecha: 2026-11-23 18:43:49
  * Total de Fichas: 27
  */
 window.STUDY_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-19 17:41:37",
+    "generatedAt": "2026-11-23 18:43:49",
     "totalSheets": 27
   },
   "sheets": {
@@ -1131,6 +1131,250 @@ window.STUDY_DATA = {
         }
       ]
     },
+    "tema_14": {
+      "topicId": "tema_14",
+      "badge": "Tema 14",
+      "title": "Present Perfect Simple & Continuous",
+      "summary": "Diferenciación esencial entre Present Perfect Simple (resultado, cantidad, periodo no terminado) y Continuous (duración, proceso, evidencia visible), contraste crucial con Past Simple y dominio de los marcadores temporales (for, since, already, yet, still, just, ever, never).",
+      "goldenRules": [
+        {
+          "title": "Present Perfect Simple vs Past Simple: ¿Cuándo ocurrió?",
+          "content": "Si el momento pasado está concretado y terminado (yesterday, last night, two years ago, in 2022, when I was young), se usa OBLIGATORIAMENTE PAST SIMPLE. Si el momento no se especifica, el periodo sigue abierto (today, this week) o importa la experiencia y el resultado en el presente, se usa PRESENT PERFECT (have/has + participio)."
+        },
+        {
+          "title": "Simple vs Continuous: Resultado vs Duración",
+          "content": "Present Perfect Simple (have/has + participio) enfatiza el RESULTADO o la CANTIDAD de veces completada ('I have written three reports'). Present Perfect Continuous (have/has + been + -ing) enfatiza la ACTIVIDAD, PROCESO o DURACIÓN ('I have been writing the report all morning')."
+        },
+        {
+          "title": "Regla Inmutable: Stative Verbs NUNCA en Continuous",
+          "content": "Los verbos de estado (know, believe, like, love, understand, have de posesión, own) no admiten forma continua ni siquiera al expresar duración: 'I have known her for years' ✔️ (NUNCA *I have been knowing ❌)."
+        },
+        {
+          "title": "Contraste Fundamental: SINCE vs FOR",
+          "content": "SINCE señala el PUNTO DE INICIO en el tiempo ('since 2020', 'since Monday', 'since breakfast', 'since he arrived'). FOR indica la DURACIÓN o lapso transcurrido ('for two years', 'for three weeks', 'for a long time')."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Usar Present Perfect con marcador de tiempo pasado terminado",
+          "exampleBad": "I have seen him yesterday at the base. ❌",
+          "exampleGood": "I saw him yesterday at the base. ✔️",
+          "explanation": "Yesterday, ago, in 2024 o last week cortan toda conexión con el presente y exigen estrictamente Past Simple."
+        },
+        {
+          "trap": "Confundir forma de participio con pasado simple tras have/has",
+          "exampleBad": "She has went home early. ❌",
+          "exampleGood": "She has gone home early. ✔️",
+          "explanation": "El auxiliar have/has siempre exige PARTICIPIO (3ª columna: gone, seen, done), nunca forma de pasado (went, saw, did)."
+        },
+        {
+          "trap": "Mezclar DID con participio o con have en preguntas",
+          "exampleBad": "Did you seen the new orders? ❌",
+          "exampleGood": "Did you see the new orders? / Have you seen the new orders? ✔️",
+          "explanation": "Past Simple interrogativo usa 'DID + sujeto + verbo en FORMA BASE'. Present Perfect usa 'HAVE/HAS + sujeto + PARTICIPIO'. Nunca los mezcles."
+        },
+        {
+          "trap": "Posición y polaridad errónea de YET y ALREADY",
+          "exampleBad": "Have you finished your homework already? / I haven't finished already. ❌",
+          "exampleGood": "Have you finished your homework yet? / I haven't finished yet. ✔️",
+          "explanation": "En el estándar del examen, YET va al FINAL de oraciones interrogativas ('ya') y negativas ('todavía/aún no'). ALREADY va entre el auxiliar y el participio en afirmativas."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto: Detección relámpago de marcadores",
+          "tip": "1) Yesterday / Last / Ago / In 202X -> Descarta todo lo que lleve have/has y marca Past Simple. 2) Just / Already / Yet / Ever / Never / Since -> Elige de inmediato la opción con have/has + participio."
+        },
+        {
+          "rule": "Descarte en preguntas de duración (How long...?)",
+          "tip": "Si la pregunta empieza por 'How long...?' y la acción continúa, la respuesta natural requiere Present Perfect o Present Perfect Continuous con 'for' o 'since'. Descarta opciones en Present Simple o Past Simple."
+        },
+        {
+          "rule": "Pista clave: Still vs Yet en negativas",
+          "tip": "STILL se coloca ANTES de haven't/hasn't ('They still haven't arrived'). YET se coloca al FINAL de la frase ('They haven't arrived yet'). Ambas indican que no ha ocurrido, pero su posición es fija."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Just / Already",
+          "meaning": "Acabar de / Ya",
+          "distractorRole": "Van entre el auxiliar y el participio (have just arrived / have already seen). Indican acción muy reciente o completada antes de lo esperado."
+        },
+        {
+          "term": "Ever / Never",
+          "meaning": "Alguna vez / Nunca",
+          "distractorRole": "Ever se usa en preguntas de experiencia ('Have you ever been...?'). Never aporta sentido negativo al verbo afirmativo (I have never seen)."
+        },
+        {
+          "term": "Yet / Still",
+          "meaning": "Ya (en ?) / Todavía no (en -)",
+          "distractorRole": "Yet va al final. Still va antes del auxiliar negativo (He still hasn't called). El tribunal los intercambia para tender trampas."
+        },
+        {
+          "term": "Since vs For",
+          "meaning": "Desde (inicio) vs Durante (duración)",
+          "distractorRole": "Since + fecha/momento (since 2018, since yesterday). For + periodo de tiempo (for 5 days, for hours)."
+        },
+        {
+          "term": "So far / Up to now",
+          "meaning": "Hasta ahora / Hasta el momento",
+          "distractorRole": "Expresan periodo incompleto hasta el presente; rigen siempre Present Perfect."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Por qué es incorrecto decir 'I have seen him yesterday'?",
+          "back": "Porque 'yesterday' es un marcador temporal de pasado terminado. Exige obligatoriamente Past Simple:\n✔️ 'I saw him yesterday'."
+        },
+        {
+          "front": "¿Cuál es la diferencia entre SINCE y FOR?",
+          "back": "SINCE indica el PUNTO DE INICIO (since 2020, since Monday).\nFOR indica la DURACIÓN total del periodo (for 3 years, for two hours)."
+        },
+        {
+          "front": "¿Cuál es la estructura del Present Perfect Continuous?",
+          "back": "SUJETO + HAVE / HAS + BEEN + VERBO EN -ING.\nEjemplo: 'She has been working all morning'."
+        },
+        {
+          "front": "¿Se puede decir 'I have been knowing him for ten years'?",
+          "back": "NO ❌. 'Know' es un Stative Verb (verbo de estado) y no admite tiempos continuos. Lo correcto es:\n✔️ 'I have known him for ten years'."
+        },
+        {
+          "front": "¿Dónde se colocan YET y STILL en oraciones negativas?",
+          "back": "STILL va ANTES del auxiliar negativo: 'He STILL hasn't called'.\nYET va al FINAL de la oración: 'He hasn't called YET'."
+        },
+        {
+          "front": "¿Qué diferencia hay entre 'I have written 3 letters' y 'I have been writing letters all day'?",
+          "back": "Present Perfect Simple se enfoca en el RESULTADO y CANTIDAD (3 cartas terminadas).\nPresent Perfect Continuous se enfoca en la ACTIVIDAD y DURACIÓN (todo el día escribiendo)."
+        }
+      ]
+    },
+    "tema_15": {
+      "topicId": "tema_15",
+      "badge": "Tema 15",
+      "title": "Quantifiers + Subject–Verb Agreement",
+      "summary": "Uso preciso de cuantificadores según contabilidad del sustantivo (much/many, little/few, some/any, each/every, both/either/neither) y reglas estrictas de concordancia sujeto-verbo (Subject-Verb Agreement) para el examen militar.",
+      "goldenRules": [
+        {
+          "title": "Clasificación Contable vs Incontable: La Regla Madre",
+          "content": "Sustantivos Contables Plurales llevan: MANY, FEW / A FEW, SEVERAL, BOTH. Sustantivos Incontables (money, traffic, water, news, information, luggage, furniture, advice, equipment) llevan: MUCH, LITTLE / A LITTLE, A BIT OF. Ambos aceptan: A LOT OF, LOTS OF, PLENTY OF, SOME, ANY, ENOUGH."
+        },
+        {
+          "title": "Poco vs Un Poco: La presencia del artículo 'A'",
+          "content": "Sin artículo ('few' / 'little') tiene sentido NEGATIVO ('pocos / casi nada, insuficiente'). Con artículo ('a few' / 'a little') tiene sentido POSITIVO ('unos pocos / algo de, suficiente')."
+        },
+        {
+          "title": "La Regla de Oro de OF: Grupo General vs Específico",
+          "content": "Sentido general: MOST / SOME / ALL + sustantivo directo ('Most people', 'Some students'). Grupo específico: MOST OF / SOME OF / ALL OF + the / these / my / them ('Most of the people', 'Some of these books'). NUNCA digas *most of people ❌."
+        },
+        {
+          "title": "Concordancia Sujeto-Verbo: Indefinidos siempre en SINGULAR",
+          "content": "Everyone, everybody, someone, nobody, no one, everything, nothing, each y every rigen SIEMPRE verbo en 3ª PERSONA DEL SINGULAR ('Everyone has finished' ✔️, 'Nobody knows' ✔️, 'Every student has an ID' ✔️)."
+        },
+        {
+          "title": "El Trío de Dos Elementos: BOTH, EITHER, NEITHER",
+          "content": "BOTH se refiere a los dos y rige VERBO EN PLURAL ('Both teams have won'). EITHER (uno u otro) y NEITHER (ninguno de los dos) rigen VERBO EN SINGULAR ('Neither route is safe', 'Either of them is fine'). Correlativos: both...and, either...or, neither...nor."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Usar MANY o FEW con sustantivos incontables falsos amigos",
+          "exampleBad": "We don't have many money / She gave me many advices. ❌",
+          "exampleGood": "We don't have much money / She gave me a lot of advice. ✔️",
+          "explanation": "Money, advice, information, news, luggage y furniture son estrictamente INCONTABLES en inglés. Llevan much/little, nunca many/few ni plural en -s."
+        },
+        {
+          "trap": "Caer en la doble negación con Nobody / Nothing / Neither",
+          "exampleBad": "I did not see nobody at the base. ❌",
+          "exampleGood": "I did not see anybody / I saw nobody. ✔️",
+          "explanation": "Nobody, nothing, none y neither ya son negativos. En inglés está prohibida la doble negación: o niegas con 'not + any-' o afirmas con 'no-'."
+        },
+        {
+          "trap": "Escribir 'most of' delante de un sustantivo sin artículo ni determinante",
+          "exampleBad": "Most of students passed the military exam. ❌",
+          "exampleGood": "Most students passed / Most of the students passed. ✔️",
+          "explanation": "Se usa 'most + sustantivo' (general) o 'most of + the/determiner + sustantivo' (específico). 'Most of students' es uno de los fallos favoritos del tribunal."
+        },
+        {
+          "trap": "Pluralizar el sustantivo o el verbo después de EVERY / EACH",
+          "exampleBad": "Every countries have military agreements. ❌",
+          "exampleGood": "Every country has military agreements / All countries have... ✔️",
+          "explanation": "Every y Each se combinan exclusivamente con SUSTANTIVO SINGULAR y VERBO EN SINGULAR."
+        },
+        {
+          "trap": "Posición incorrecta de ENOUGH",
+          "exampleBad": "We have money enough for the equipment. ❌",
+          "exampleGood": "We have enough money for the equipment. ✔️",
+          "explanation": "ENOUGH va DELANTE de los sustantivos ('enough time', 'enough money'), pero DETRÁS de los adjetivos ('strong enough', 'fast enough')."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto: Descarte por contabilidad del sustantivo",
+          "tip": "Mira la palabra inmediatamente posterior al hueco. Si es incontable (information, time, money), elimina al instante opciones con many, few, a few, several y both."
+        },
+        {
+          "rule": "Descarte en preguntas de concordancia con indefinidos",
+          "tip": "Si el sujeto es Everyone, Somebody, Nobody, Each o Neither, descarta cualquier opción que tenga verbo en plural (have, are, were, do). La opción correcta siempre será singular (has, is, was, does)."
+        },
+        {
+          "rule": "Truco para Two Elements (2 cosas / 2 personas)",
+          "tip": "Si el contexto menciona a dos elementos (two soldiers, both hands, father and mother), busca Both (afirmativo plural), Either (uno u otro singular) o Neither (ninguno singular)."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "Much vs Many",
+          "meaning": "Mucho (incontable) vs Muchos (contable plural)",
+          "distractorRole": "Much time / Many books. Se usan sobre todo en interrogativas y negativas."
+        },
+        {
+          "term": "Little / A little vs Few / A few",
+          "meaning": "Poco / Algo de (incontable) vs Pocos / Unos pocos (contable)",
+          "distractorRole": "Little money (casi nada) vs A little money (algo). Few friends (casi ninguno) vs A few friends (algunos)."
+        },
+        {
+          "term": "Some vs Any",
+          "meaning": "Algunos / Algo de",
+          "distractorRole": "Some en afirmativas y peticiones corteses ('Would you like some tea?'). Any en interrogativas, negativas y afirmativas con sentido de 'cualquiera'."
+        },
+        {
+          "term": "Both / Either / Neither",
+          "meaning": "Ambos / Cualquiera de los dos / Ninguno de los dos",
+          "distractorRole": "Exclusivos para conjuntos de DOS elementos. Both rige plural; Either y Neither rigen singular."
+        },
+        {
+          "term": "Each / Every",
+          "meaning": "Cada / Cada uno",
+          "distractorRole": "Exigen sustantivo y verbo en singular. Every day (todos los días) vs All day (todo el día entero)."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es la diferencia de uso entre 'MANY' y 'MUCH'?",
+          "back": "MANY se usa con sustantivos contables plurales (many cars, many questions).\nMUCH se usa con sustantivos incontables (much time, much luggage)."
+        },
+        {
+          "front": "¿Qué diferencia de significado hay entre 'few' y 'a few'?",
+          "back": "'FEW' (sin 'a') = pocos, casi ninguno (connotación negativa/insuficiente).\n'A FEW' = unos pocos, algunos (connotación positiva/suficiente)."
+        },
+        {
+          "front": "¿El sustantivo 'NEWS' y el pronombre 'EVERYONE' rigen verbo en singular o plural?",
+          "back": "En SINGULAR siempre:\n✔️ 'The news IS good'.\n✔️ 'Everyone HAS finished'."
+        },
+        {
+          "front": "¿Por qué es incorrecto decir 'Most of people like sports'?",
+          "back": "Porque con 'of' se exige un determinante para un grupo específico:\n✔️ 'Most people like sports' (general)\n✔️ 'Most OF THE people like sports' (específico)."
+        },
+        {
+          "front": "¿Qué rige la palabra 'NEITHER' respecto a número y verbo?",
+          "back": "Se refiere siempre a DOS elementos y rige verbo en SINGULAR:\n✔️ 'Neither of the soldiers is tired'."
+        },
+        {
+          "front": "¿Dónde se coloca 'ENOUGH' con un sustantivo y con un adjetivo?",
+          "back": "DELANTE del sustantivo: 'enough money', 'enough time'.\nDETRÁS del adjetivo: 'fast enough', 'strong enough'."
+        }
+      ]
+    },
     "tema_3_extra": {
       "topicId": "tema_3_extra",
       "badge": "Tema 3",
@@ -1790,558 +2034,608 @@ window.STUDY_DATA = {
         }
       ]
     },
-    "tema_14": {
-      "topicId": "tema_14",
-      "badge": "Tema 14",
-      "title": "Tema 14: Present Perfect Simple & Continuous",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_14.",
-      "goldenRules": [
-        {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 14 antes de abordar las preguntas tipo test."
-        },
-        {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
-        }
-      ],
-      "examTraps": [
-        {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
-        },
-        {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
-        }
-      ],
-      "examTips": [
-        {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
-        },
-        {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
-        }
-      ],
-      "vocabularyKeys": [
-        {
-          "term": "just",
-          "meaning": "acabar de / justo",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "already",
-          "meaning": "ya",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "ever",
-          "meaning": "alguna vez / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "never",
-          "meaning": "nunca / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "yet",
-          "meaning": "ya / todavía / aún",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "still",
-          "meaning": "todavía / aún / seguir",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        }
-      ],
-      "flashcards": [
-        {
-          "front": "¿Cuál es el objetivo principal del Tema 14?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
-        },
-        {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
-        },
-        {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
-        },
-        {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
-        }
-      ]
-    },
-    "tema_15": {
-      "topicId": "tema_15",
-      "badge": "Tema 15",
-      "title": "Tema 15: Quantifiers + Subject–Verb Agreement",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_15.",
-      "goldenRules": [
-        {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 15 antes de abordar las preguntas tipo test."
-        },
-        {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
-        }
-      ],
-      "examTraps": [
-        {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
-        },
-        {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
-        }
-      ],
-      "examTips": [
-        {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
-        },
-        {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
-        }
-      ],
-      "vocabularyKeys": [
-        {
-          "term": "Términos clave Tema 15",
-          "meaning": "Vocabulario esencial",
-          "distractorRole": "Palabras recurrentes en los distractores de este tema."
-        }
-      ],
-      "flashcards": [
-        {
-          "front": "¿Cuál es el objetivo principal del Tema 15?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
-        },
-        {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
-        },
-        {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
-        },
-        {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
-        }
-      ]
-    },
     "tema_14_f1": {
       "topicId": "tema_14_f1",
       "badge": "Tema 14",
-      "title": "Tema 14: Present Perfect Simple & Continuous",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_14.",
+      "title": "Present Perfect Simple & Continuous",
+      "summary": "Diferenciación esencial entre Present Perfect Simple (resultado, cantidad, periodo no terminado) y Continuous (duración, proceso, evidencia visible), contraste crucial con Past Simple y dominio de los marcadores temporales (for, since, already, yet, still, just, ever, never).",
       "goldenRules": [
         {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 14 antes de abordar las preguntas tipo test."
+          "title": "Present Perfect Simple vs Past Simple: ¿Cuándo ocurrió?",
+          "content": "Si el momento pasado está concretado y terminado (yesterday, last night, two years ago, in 2022, when I was young), se usa OBLIGATORIAMENTE PAST SIMPLE. Si el momento no se especifica, el periodo sigue abierto (today, this week) o importa la experiencia y el resultado en el presente, se usa PRESENT PERFECT (have/has + participio)."
         },
         {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+          "title": "Simple vs Continuous: Resultado vs Duración",
+          "content": "Present Perfect Simple (have/has + participio) enfatiza el RESULTADO o la CANTIDAD de veces completada ('I have written three reports'). Present Perfect Continuous (have/has + been + -ing) enfatiza la ACTIVIDAD, PROCESO o DURACIÓN ('I have been writing the report all morning')."
+        },
+        {
+          "title": "Regla Inmutable: Stative Verbs NUNCA en Continuous",
+          "content": "Los verbos de estado (know, believe, like, love, understand, have de posesión, own) no admiten forma continua ni siquiera al expresar duración: 'I have known her for years' ✔️ (NUNCA *I have been knowing ❌)."
+        },
+        {
+          "title": "Contraste Fundamental: SINCE vs FOR",
+          "content": "SINCE señala el PUNTO DE INICIO en el tiempo ('since 2020', 'since Monday', 'since breakfast', 'since he arrived'). FOR indica la DURACIÓN o lapso transcurrido ('for two years', 'for three weeks', 'for a long time')."
         }
       ],
       "examTraps": [
         {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+          "trap": "Usar Present Perfect con marcador de tiempo pasado terminado",
+          "exampleBad": "I have seen him yesterday at the base. ❌",
+          "exampleGood": "I saw him yesterday at the base. ✔️",
+          "explanation": "Yesterday, ago, in 2024 o last week cortan toda conexión con el presente y exigen estrictamente Past Simple."
         },
         {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
+          "trap": "Confundir forma de participio con pasado simple tras have/has",
+          "exampleBad": "She has went home early. ❌",
+          "exampleGood": "She has gone home early. ✔️",
+          "explanation": "El auxiliar have/has siempre exige PARTICIPIO (3ª columna: gone, seen, done), nunca forma de pasado (went, saw, did)."
+        },
+        {
+          "trap": "Mezclar DID con participio o con have en preguntas",
+          "exampleBad": "Did you seen the new orders? ❌",
+          "exampleGood": "Did you see the new orders? / Have you seen the new orders? ✔️",
+          "explanation": "Past Simple interrogativo usa 'DID + sujeto + verbo en FORMA BASE'. Present Perfect usa 'HAVE/HAS + sujeto + PARTICIPIO'. Nunca los mezcles."
+        },
+        {
+          "trap": "Posición y polaridad errónea de YET y ALREADY",
+          "exampleBad": "Have you finished your homework already? / I haven't finished already. ❌",
+          "exampleGood": "Have you finished your homework yet? / I haven't finished yet. ✔️",
+          "explanation": "En el estándar del examen, YET va al FINAL de oraciones interrogativas ('ya') y negativas ('todavía/aún no'). ALREADY va entre el auxiliar y el participio en afirmativas."
         }
       ],
       "examTips": [
         {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+          "rule": "Estrategia 70% Apto: Detección relámpago de marcadores",
+          "tip": "1) Yesterday / Last / Ago / In 202X -> Descarta todo lo que lleve have/has y marca Past Simple. 2) Just / Already / Yet / Ever / Never / Since -> Elige de inmediato la opción con have/has + participio."
         },
         {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+          "rule": "Descarte en preguntas de duración (How long...?)",
+          "tip": "Si la pregunta empieza por 'How long...?' y la acción continúa, la respuesta natural requiere Present Perfect o Present Perfect Continuous con 'for' o 'since'. Descarta opciones en Present Simple o Past Simple."
+        },
+        {
+          "rule": "Pista clave: Still vs Yet en negativas",
+          "tip": "STILL se coloca ANTES de haven't/hasn't ('They still haven't arrived'). YET se coloca al FINAL de la frase ('They haven't arrived yet'). Ambas indican que no ha ocurrido, pero su posición es fija."
         }
       ],
       "vocabularyKeys": [
         {
-          "term": "just",
-          "meaning": "acabar de / justo",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Just / Already",
+          "meaning": "Acabar de / Ya",
+          "distractorRole": "Van entre el auxiliar y el participio (have just arrived / have already seen). Indican acción muy reciente o completada antes de lo esperado."
         },
         {
-          "term": "already",
-          "meaning": "ya",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Ever / Never",
+          "meaning": "Alguna vez / Nunca",
+          "distractorRole": "Ever se usa en preguntas de experiencia ('Have you ever been...?'). Never aporta sentido negativo al verbo afirmativo (I have never seen)."
         },
         {
-          "term": "ever",
-          "meaning": "alguna vez / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Yet / Still",
+          "meaning": "Ya (en ?) / Todavía no (en -)",
+          "distractorRole": "Yet va al final. Still va antes del auxiliar negativo (He still hasn't called). El tribunal los intercambia para tender trampas."
         },
         {
-          "term": "never",
-          "meaning": "nunca / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Since vs For",
+          "meaning": "Desde (inicio) vs Durante (duración)",
+          "distractorRole": "Since + fecha/momento (since 2018, since yesterday). For + periodo de tiempo (for 5 days, for hours)."
         },
         {
-          "term": "yet",
-          "meaning": "ya / todavía / aún",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "still",
-          "meaning": "todavía / aún / seguir",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "So far / Up to now",
+          "meaning": "Hasta ahora / Hasta el momento",
+          "distractorRole": "Expresan periodo incompleto hasta el presente; rigen siempre Present Perfect."
         }
       ],
       "flashcards": [
         {
-          "front": "¿Cuál es el objetivo principal del Tema 14?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+          "front": "¿Por qué es incorrecto decir 'I have seen him yesterday'?",
+          "back": "Porque 'yesterday' es un marcador temporal de pasado terminado. Exige obligatoriamente Past Simple:\n✔️ 'I saw him yesterday'."
         },
         {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+          "front": "¿Cuál es la diferencia entre SINCE y FOR?",
+          "back": "SINCE indica el PUNTO DE INICIO (since 2020, since Monday).\nFOR indica la DURACIÓN total del periodo (for 3 years, for two hours)."
         },
         {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+          "front": "¿Cuál es la estructura del Present Perfect Continuous?",
+          "back": "SUJETO + HAVE / HAS + BEEN + VERBO EN -ING.\nEjemplo: 'She has been working all morning'."
         },
         {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+          "front": "¿Se puede decir 'I have been knowing him for ten years'?",
+          "back": "NO ❌. 'Know' es un Stative Verb (verbo de estado) y no admite tiempos continuos. Lo correcto es:\n✔️ 'I have known him for ten years'."
+        },
+        {
+          "front": "¿Dónde se colocan YET y STILL en oraciones negativas?",
+          "back": "STILL va ANTES del auxiliar negativo: 'He STILL hasn't called'.\nYET va al FINAL de la oración: 'He hasn't called YET'."
+        },
+        {
+          "front": "¿Qué diferencia hay entre 'I have written 3 letters' y 'I have been writing letters all day'?",
+          "back": "Present Perfect Simple se enfoca en el RESULTADO y CANTIDAD (3 cartas terminadas).\nPresent Perfect Continuous se enfoca en la ACTIVIDAD y DURACIÓN (todo el día escribiendo)."
         }
       ]
     },
     "tema_14_f2": {
       "topicId": "tema_14_f2",
       "badge": "Tema 14",
-      "title": "Tema 14: Present Perfect Simple & Continuous",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_14.",
+      "title": "Present Perfect Simple & Continuous",
+      "summary": "Diferenciación esencial entre Present Perfect Simple (resultado, cantidad, periodo no terminado) y Continuous (duración, proceso, evidencia visible), contraste crucial con Past Simple y dominio de los marcadores temporales (for, since, already, yet, still, just, ever, never).",
       "goldenRules": [
         {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 14 antes de abordar las preguntas tipo test."
+          "title": "Present Perfect Simple vs Past Simple: ¿Cuándo ocurrió?",
+          "content": "Si el momento pasado está concretado y terminado (yesterday, last night, two years ago, in 2022, when I was young), se usa OBLIGATORIAMENTE PAST SIMPLE. Si el momento no se especifica, el periodo sigue abierto (today, this week) o importa la experiencia y el resultado en el presente, se usa PRESENT PERFECT (have/has + participio)."
         },
         {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+          "title": "Simple vs Continuous: Resultado vs Duración",
+          "content": "Present Perfect Simple (have/has + participio) enfatiza el RESULTADO o la CANTIDAD de veces completada ('I have written three reports'). Present Perfect Continuous (have/has + been + -ing) enfatiza la ACTIVIDAD, PROCESO o DURACIÓN ('I have been writing the report all morning')."
+        },
+        {
+          "title": "Regla Inmutable: Stative Verbs NUNCA en Continuous",
+          "content": "Los verbos de estado (know, believe, like, love, understand, have de posesión, own) no admiten forma continua ni siquiera al expresar duración: 'I have known her for years' ✔️ (NUNCA *I have been knowing ❌)."
+        },
+        {
+          "title": "Contraste Fundamental: SINCE vs FOR",
+          "content": "SINCE señala el PUNTO DE INICIO en el tiempo ('since 2020', 'since Monday', 'since breakfast', 'since he arrived'). FOR indica la DURACIÓN o lapso transcurrido ('for two years', 'for three weeks', 'for a long time')."
         }
       ],
       "examTraps": [
         {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+          "trap": "Usar Present Perfect con marcador de tiempo pasado terminado",
+          "exampleBad": "I have seen him yesterday at the base. ❌",
+          "exampleGood": "I saw him yesterday at the base. ✔️",
+          "explanation": "Yesterday, ago, in 2024 o last week cortan toda conexión con el presente y exigen estrictamente Past Simple."
         },
         {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
+          "trap": "Confundir forma de participio con pasado simple tras have/has",
+          "exampleBad": "She has went home early. ❌",
+          "exampleGood": "She has gone home early. ✔️",
+          "explanation": "El auxiliar have/has siempre exige PARTICIPIO (3ª columna: gone, seen, done), nunca forma de pasado (went, saw, did)."
+        },
+        {
+          "trap": "Mezclar DID con participio o con have en preguntas",
+          "exampleBad": "Did you seen the new orders? ❌",
+          "exampleGood": "Did you see the new orders? / Have you seen the new orders? ✔️",
+          "explanation": "Past Simple interrogativo usa 'DID + sujeto + verbo en FORMA BASE'. Present Perfect usa 'HAVE/HAS + sujeto + PARTICIPIO'. Nunca los mezcles."
+        },
+        {
+          "trap": "Posición y polaridad errónea de YET y ALREADY",
+          "exampleBad": "Have you finished your homework already? / I haven't finished already. ❌",
+          "exampleGood": "Have you finished your homework yet? / I haven't finished yet. ✔️",
+          "explanation": "En el estándar del examen, YET va al FINAL de oraciones interrogativas ('ya') y negativas ('todavía/aún no'). ALREADY va entre el auxiliar y el participio en afirmativas."
         }
       ],
       "examTips": [
         {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+          "rule": "Estrategia 70% Apto: Detección relámpago de marcadores",
+          "tip": "1) Yesterday / Last / Ago / In 202X -> Descarta todo lo que lleve have/has y marca Past Simple. 2) Just / Already / Yet / Ever / Never / Since -> Elige de inmediato la opción con have/has + participio."
         },
         {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+          "rule": "Descarte en preguntas de duración (How long...?)",
+          "tip": "Si la pregunta empieza por 'How long...?' y la acción continúa, la respuesta natural requiere Present Perfect o Present Perfect Continuous con 'for' o 'since'. Descarta opciones en Present Simple o Past Simple."
+        },
+        {
+          "rule": "Pista clave: Still vs Yet en negativas",
+          "tip": "STILL se coloca ANTES de haven't/hasn't ('They still haven't arrived'). YET se coloca al FINAL de la frase ('They haven't arrived yet'). Ambas indican que no ha ocurrido, pero su posición es fija."
         }
       ],
       "vocabularyKeys": [
         {
-          "term": "just",
-          "meaning": "acabar de / justo",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Just / Already",
+          "meaning": "Acabar de / Ya",
+          "distractorRole": "Van entre el auxiliar y el participio (have just arrived / have already seen). Indican acción muy reciente o completada antes de lo esperado."
         },
         {
-          "term": "already",
-          "meaning": "ya",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Ever / Never",
+          "meaning": "Alguna vez / Nunca",
+          "distractorRole": "Ever se usa en preguntas de experiencia ('Have you ever been...?'). Never aporta sentido negativo al verbo afirmativo (I have never seen)."
         },
         {
-          "term": "ever",
-          "meaning": "alguna vez / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Yet / Still",
+          "meaning": "Ya (en ?) / Todavía no (en -)",
+          "distractorRole": "Yet va al final. Still va antes del auxiliar negativo (He still hasn't called). El tribunal los intercambia para tender trampas."
         },
         {
-          "term": "never",
-          "meaning": "nunca / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Since vs For",
+          "meaning": "Desde (inicio) vs Durante (duración)",
+          "distractorRole": "Since + fecha/momento (since 2018, since yesterday). For + periodo de tiempo (for 5 days, for hours)."
         },
         {
-          "term": "yet",
-          "meaning": "ya / todavía / aún",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "still",
-          "meaning": "todavía / aún / seguir",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "So far / Up to now",
+          "meaning": "Hasta ahora / Hasta el momento",
+          "distractorRole": "Expresan periodo incompleto hasta el presente; rigen siempre Present Perfect."
         }
       ],
       "flashcards": [
         {
-          "front": "¿Cuál es el objetivo principal del Tema 14?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+          "front": "¿Por qué es incorrecto decir 'I have seen him yesterday'?",
+          "back": "Porque 'yesterday' es un marcador temporal de pasado terminado. Exige obligatoriamente Past Simple:\n✔️ 'I saw him yesterday'."
         },
         {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+          "front": "¿Cuál es la diferencia entre SINCE y FOR?",
+          "back": "SINCE indica el PUNTO DE INICIO (since 2020, since Monday).\nFOR indica la DURACIÓN total del periodo (for 3 years, for two hours)."
         },
         {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+          "front": "¿Cuál es la estructura del Present Perfect Continuous?",
+          "back": "SUJETO + HAVE / HAS + BEEN + VERBO EN -ING.\nEjemplo: 'She has been working all morning'."
         },
         {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+          "front": "¿Se puede decir 'I have been knowing him for ten years'?",
+          "back": "NO ❌. 'Know' es un Stative Verb (verbo de estado) y no admite tiempos continuos. Lo correcto es:\n✔️ 'I have known him for ten years'."
+        },
+        {
+          "front": "¿Dónde se colocan YET y STILL en oraciones negativas?",
+          "back": "STILL va ANTES del auxiliar negativo: 'He STILL hasn't called'.\nYET va al FINAL de la oración: 'He hasn't called YET'."
+        },
+        {
+          "front": "¿Qué diferencia hay entre 'I have written 3 letters' y 'I have been writing letters all day'?",
+          "back": "Present Perfect Simple se enfoca en el RESULTADO y CANTIDAD (3 cartas terminadas).\nPresent Perfect Continuous se enfoca en la ACTIVIDAD y DURACIÓN (todo el día escribiendo)."
         }
       ]
     },
     "tema_14_f3": {
       "topicId": "tema_14_f3",
       "badge": "Tema 14",
-      "title": "Tema 14: Present Perfect Simple & Continuous",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_14.",
+      "title": "Present Perfect Simple & Continuous",
+      "summary": "Diferenciación esencial entre Present Perfect Simple (resultado, cantidad, periodo no terminado) y Continuous (duración, proceso, evidencia visible), contraste crucial con Past Simple y dominio de los marcadores temporales (for, since, already, yet, still, just, ever, never).",
       "goldenRules": [
         {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 14 antes de abordar las preguntas tipo test."
+          "title": "Present Perfect Simple vs Past Simple: ¿Cuándo ocurrió?",
+          "content": "Si el momento pasado está concretado y terminado (yesterday, last night, two years ago, in 2022, when I was young), se usa OBLIGATORIAMENTE PAST SIMPLE. Si el momento no se especifica, el periodo sigue abierto (today, this week) o importa la experiencia y el resultado en el presente, se usa PRESENT PERFECT (have/has + participio)."
         },
         {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+          "title": "Simple vs Continuous: Resultado vs Duración",
+          "content": "Present Perfect Simple (have/has + participio) enfatiza el RESULTADO o la CANTIDAD de veces completada ('I have written three reports'). Present Perfect Continuous (have/has + been + -ing) enfatiza la ACTIVIDAD, PROCESO o DURACIÓN ('I have been writing the report all morning')."
+        },
+        {
+          "title": "Regla Inmutable: Stative Verbs NUNCA en Continuous",
+          "content": "Los verbos de estado (know, believe, like, love, understand, have de posesión, own) no admiten forma continua ni siquiera al expresar duración: 'I have known her for years' ✔️ (NUNCA *I have been knowing ❌)."
+        },
+        {
+          "title": "Contraste Fundamental: SINCE vs FOR",
+          "content": "SINCE señala el PUNTO DE INICIO en el tiempo ('since 2020', 'since Monday', 'since breakfast', 'since he arrived'). FOR indica la DURACIÓN o lapso transcurrido ('for two years', 'for three weeks', 'for a long time')."
         }
       ],
       "examTraps": [
         {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+          "trap": "Usar Present Perfect con marcador de tiempo pasado terminado",
+          "exampleBad": "I have seen him yesterday at the base. ❌",
+          "exampleGood": "I saw him yesterday at the base. ✔️",
+          "explanation": "Yesterday, ago, in 2024 o last week cortan toda conexión con el presente y exigen estrictamente Past Simple."
         },
         {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
+          "trap": "Confundir forma de participio con pasado simple tras have/has",
+          "exampleBad": "She has went home early. ❌",
+          "exampleGood": "She has gone home early. ✔️",
+          "explanation": "El auxiliar have/has siempre exige PARTICIPIO (3ª columna: gone, seen, done), nunca forma de pasado (went, saw, did)."
+        },
+        {
+          "trap": "Mezclar DID con participio o con have en preguntas",
+          "exampleBad": "Did you seen the new orders? ❌",
+          "exampleGood": "Did you see the new orders? / Have you seen the new orders? ✔️",
+          "explanation": "Past Simple interrogativo usa 'DID + sujeto + verbo en FORMA BASE'. Present Perfect usa 'HAVE/HAS + sujeto + PARTICIPIO'. Nunca los mezcles."
+        },
+        {
+          "trap": "Posición y polaridad errónea de YET y ALREADY",
+          "exampleBad": "Have you finished your homework already? / I haven't finished already. ❌",
+          "exampleGood": "Have you finished your homework yet? / I haven't finished yet. ✔️",
+          "explanation": "En el estándar del examen, YET va al FINAL de oraciones interrogativas ('ya') y negativas ('todavía/aún no'). ALREADY va entre el auxiliar y el participio en afirmativas."
         }
       ],
       "examTips": [
         {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+          "rule": "Estrategia 70% Apto: Detección relámpago de marcadores",
+          "tip": "1) Yesterday / Last / Ago / In 202X -> Descarta todo lo que lleve have/has y marca Past Simple. 2) Just / Already / Yet / Ever / Never / Since -> Elige de inmediato la opción con have/has + participio."
         },
         {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+          "rule": "Descarte en preguntas de duración (How long...?)",
+          "tip": "Si la pregunta empieza por 'How long...?' y la acción continúa, la respuesta natural requiere Present Perfect o Present Perfect Continuous con 'for' o 'since'. Descarta opciones en Present Simple o Past Simple."
+        },
+        {
+          "rule": "Pista clave: Still vs Yet en negativas",
+          "tip": "STILL se coloca ANTES de haven't/hasn't ('They still haven't arrived'). YET se coloca al FINAL de la frase ('They haven't arrived yet'). Ambas indican que no ha ocurrido, pero su posición es fija."
         }
       ],
       "vocabularyKeys": [
         {
-          "term": "just",
-          "meaning": "acabar de / justo",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Just / Already",
+          "meaning": "Acabar de / Ya",
+          "distractorRole": "Van entre el auxiliar y el participio (have just arrived / have already seen). Indican acción muy reciente o completada antes de lo esperado."
         },
         {
-          "term": "already",
-          "meaning": "ya",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Ever / Never",
+          "meaning": "Alguna vez / Nunca",
+          "distractorRole": "Ever se usa en preguntas de experiencia ('Have you ever been...?'). Never aporta sentido negativo al verbo afirmativo (I have never seen)."
         },
         {
-          "term": "ever",
-          "meaning": "alguna vez / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Yet / Still",
+          "meaning": "Ya (en ?) / Todavía no (en -)",
+          "distractorRole": "Yet va al final. Still va antes del auxiliar negativo (He still hasn't called). El tribunal los intercambia para tender trampas."
         },
         {
-          "term": "never",
-          "meaning": "nunca / jamás",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "Since vs For",
+          "meaning": "Desde (inicio) vs Durante (duración)",
+          "distractorRole": "Since + fecha/momento (since 2018, since yesterday). For + periodo de tiempo (for 5 days, for hours)."
         },
         {
-          "term": "yet",
-          "meaning": "ya / todavía / aún",
-          "distractorRole": "Término extraído del vocabulario oficial."
-        },
-        {
-          "term": "still",
-          "meaning": "todavía / aún / seguir",
-          "distractorRole": "Término extraído del vocabulario oficial."
+          "term": "So far / Up to now",
+          "meaning": "Hasta ahora / Hasta el momento",
+          "distractorRole": "Expresan periodo incompleto hasta el presente; rigen siempre Present Perfect."
         }
       ],
       "flashcards": [
         {
-          "front": "¿Cuál es el objetivo principal del Tema 14?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+          "front": "¿Por qué es incorrecto decir 'I have seen him yesterday'?",
+          "back": "Porque 'yesterday' es un marcador temporal de pasado terminado. Exige obligatoriamente Past Simple:\n✔️ 'I saw him yesterday'."
         },
         {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+          "front": "¿Cuál es la diferencia entre SINCE y FOR?",
+          "back": "SINCE indica el PUNTO DE INICIO (since 2020, since Monday).\nFOR indica la DURACIÓN total del periodo (for 3 years, for two hours)."
         },
         {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+          "front": "¿Cuál es la estructura del Present Perfect Continuous?",
+          "back": "SUJETO + HAVE / HAS + BEEN + VERBO EN -ING.\nEjemplo: 'She has been working all morning'."
         },
         {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+          "front": "¿Se puede decir 'I have been knowing him for ten years'?",
+          "back": "NO ❌. 'Know' es un Stative Verb (verbo de estado) y no admite tiempos continuos. Lo correcto es:\n✔️ 'I have known him for ten years'."
+        },
+        {
+          "front": "¿Dónde se colocan YET y STILL en oraciones negativas?",
+          "back": "STILL va ANTES del auxiliar negativo: 'He STILL hasn't called'.\nYET va al FINAL de la oración: 'He hasn't called YET'."
+        },
+        {
+          "front": "¿Qué diferencia hay entre 'I have written 3 letters' y 'I have been writing letters all day'?",
+          "back": "Present Perfect Simple se enfoca en el RESULTADO y CANTIDAD (3 cartas terminadas).\nPresent Perfect Continuous se enfoca en la ACTIVIDAD y DURACIÓN (todo el día escribiendo)."
         }
       ]
     },
     "tema_15_f1": {
       "topicId": "tema_15_f1",
       "badge": "Tema 15",
-      "title": "Tema 15: Quantifiers + Subject–Verb Agreement",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_15.",
+      "title": "Quantifiers + Subject–Verb Agreement",
+      "summary": "Uso preciso de cuantificadores según contabilidad del sustantivo (much/many, little/few, some/any, each/every, both/either/neither) y reglas estrictas de concordancia sujeto-verbo (Subject-Verb Agreement) para el examen militar.",
       "goldenRules": [
         {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 15 antes de abordar las preguntas tipo test."
+          "title": "Clasificación Contable vs Incontable: La Regla Madre",
+          "content": "Sustantivos Contables Plurales llevan: MANY, FEW / A FEW, SEVERAL, BOTH. Sustantivos Incontables (money, traffic, water, news, information, luggage, furniture, advice, equipment) llevan: MUCH, LITTLE / A LITTLE, A BIT OF. Ambos aceptan: A LOT OF, LOTS OF, PLENTY OF, SOME, ANY, ENOUGH."
         },
         {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+          "title": "Poco vs Un Poco: La presencia del artículo 'A'",
+          "content": "Sin artículo ('few' / 'little') tiene sentido NEGATIVO ('pocos / casi nada, insuficiente'). Con artículo ('a few' / 'a little') tiene sentido POSITIVO ('unos pocos / algo de, suficiente')."
+        },
+        {
+          "title": "La Regla de Oro de OF: Grupo General vs Específico",
+          "content": "Sentido general: MOST / SOME / ALL + sustantivo directo ('Most people', 'Some students'). Grupo específico: MOST OF / SOME OF / ALL OF + the / these / my / them ('Most of the people', 'Some of these books'). NUNCA digas *most of people ❌."
+        },
+        {
+          "title": "Concordancia Sujeto-Verbo: Indefinidos siempre en SINGULAR",
+          "content": "Everyone, everybody, someone, nobody, no one, everything, nothing, each y every rigen SIEMPRE verbo en 3ª PERSONA DEL SINGULAR ('Everyone has finished' ✔️, 'Nobody knows' ✔️, 'Every student has an ID' ✔️)."
+        },
+        {
+          "title": "El Trío de Dos Elementos: BOTH, EITHER, NEITHER",
+          "content": "BOTH se refiere a los dos y rige VERBO EN PLURAL ('Both teams have won'). EITHER (uno u otro) y NEITHER (ninguno de los dos) rigen VERBO EN SINGULAR ('Neither route is safe', 'Either of them is fine'). Correlativos: both...and, either...or, neither...nor."
         }
       ],
       "examTraps": [
         {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+          "trap": "Usar MANY o FEW con sustantivos incontables falsos amigos",
+          "exampleBad": "We don't have many money / She gave me many advices. ❌",
+          "exampleGood": "We don't have much money / She gave me a lot of advice. ✔️",
+          "explanation": "Money, advice, information, news, luggage y furniture son estrictamente INCONTABLES en inglés. Llevan much/little, nunca many/few ni plural en -s."
         },
         {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
+          "trap": "Caer en la doble negación con Nobody / Nothing / Neither",
+          "exampleBad": "I did not see nobody at the base. ❌",
+          "exampleGood": "I did not see anybody / I saw nobody. ✔️",
+          "explanation": "Nobody, nothing, none y neither ya son negativos. En inglés está prohibida la doble negación: o niegas con 'not + any-' o afirmas con 'no-'."
+        },
+        {
+          "trap": "Escribir 'most of' delante de un sustantivo sin artículo ni determinante",
+          "exampleBad": "Most of students passed the military exam. ❌",
+          "exampleGood": "Most students passed / Most of the students passed. ✔️",
+          "explanation": "Se usa 'most + sustantivo' (general) o 'most of + the/determiner + sustantivo' (específico). 'Most of students' es uno de los fallos favoritos del tribunal."
+        },
+        {
+          "trap": "Pluralizar el sustantivo o el verbo después de EVERY / EACH",
+          "exampleBad": "Every countries have military agreements. ❌",
+          "exampleGood": "Every country has military agreements / All countries have... ✔️",
+          "explanation": "Every y Each se combinan exclusivamente con SUSTANTIVO SINGULAR y VERBO EN SINGULAR."
+        },
+        {
+          "trap": "Posición incorrecta de ENOUGH",
+          "exampleBad": "We have money enough for the equipment. ❌",
+          "exampleGood": "We have enough money for the equipment. ✔️",
+          "explanation": "ENOUGH va DELANTE de los sustantivos ('enough time', 'enough money'), pero DETRÁS de los adjetivos ('strong enough', 'fast enough')."
         }
       ],
       "examTips": [
         {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+          "rule": "Estrategia 70% Apto: Descarte por contabilidad del sustantivo",
+          "tip": "Mira la palabra inmediatamente posterior al hueco. Si es incontable (information, time, money), elimina al instante opciones con many, few, a few, several y both."
         },
         {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+          "rule": "Descarte en preguntas de concordancia con indefinidos",
+          "tip": "Si el sujeto es Everyone, Somebody, Nobody, Each o Neither, descarta cualquier opción que tenga verbo en plural (have, are, were, do). La opción correcta siempre será singular (has, is, was, does)."
+        },
+        {
+          "rule": "Truco para Two Elements (2 cosas / 2 personas)",
+          "tip": "Si el contexto menciona a dos elementos (two soldiers, both hands, father and mother), busca Both (afirmativo plural), Either (uno u otro singular) o Neither (ninguno singular)."
         }
       ],
       "vocabularyKeys": [
         {
-          "term": "Términos clave Tema 15",
-          "meaning": "Vocabulario esencial",
-          "distractorRole": "Palabras recurrentes en los distractores de este tema."
+          "term": "Much vs Many",
+          "meaning": "Mucho (incontable) vs Muchos (contable plural)",
+          "distractorRole": "Much time / Many books. Se usan sobre todo en interrogativas y negativas."
+        },
+        {
+          "term": "Little / A little vs Few / A few",
+          "meaning": "Poco / Algo de (incontable) vs Pocos / Unos pocos (contable)",
+          "distractorRole": "Little money (casi nada) vs A little money (algo). Few friends (casi ninguno) vs A few friends (algunos)."
+        },
+        {
+          "term": "Some vs Any",
+          "meaning": "Algunos / Algo de",
+          "distractorRole": "Some en afirmativas y peticiones corteses ('Would you like some tea?'). Any en interrogativas, negativas y afirmativas con sentido de 'cualquiera'."
+        },
+        {
+          "term": "Both / Either / Neither",
+          "meaning": "Ambos / Cualquiera de los dos / Ninguno de los dos",
+          "distractorRole": "Exclusivos para conjuntos de DOS elementos. Both rige plural; Either y Neither rigen singular."
+        },
+        {
+          "term": "Each / Every",
+          "meaning": "Cada / Cada uno",
+          "distractorRole": "Exigen sustantivo y verbo en singular. Every day (todos los días) vs All day (todo el día entero)."
         }
       ],
       "flashcards": [
         {
-          "front": "¿Cuál es el objetivo principal del Tema 15?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+          "front": "¿Cuál es la diferencia de uso entre 'MANY' y 'MUCH'?",
+          "back": "MANY se usa con sustantivos contables plurales (many cars, many questions).\nMUCH se usa con sustantivos incontables (much time, much luggage)."
         },
         {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+          "front": "¿Qué diferencia de significado hay entre 'few' y 'a few'?",
+          "back": "'FEW' (sin 'a') = pocos, casi ninguno (connotación negativa/insuficiente).\n'A FEW' = unos pocos, algunos (connotación positiva/suficiente)."
         },
         {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+          "front": "¿El sustantivo 'NEWS' y el pronombre 'EVERYONE' rigen verbo en singular o plural?",
+          "back": "En SINGULAR siempre:\n✔️ 'The news IS good'.\n✔️ 'Everyone HAS finished'."
         },
         {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+          "front": "¿Por qué es incorrecto decir 'Most of people like sports'?",
+          "back": "Porque con 'of' se exige un determinante para un grupo específico:\n✔️ 'Most people like sports' (general)\n✔️ 'Most OF THE people like sports' (específico)."
+        },
+        {
+          "front": "¿Qué rige la palabra 'NEITHER' respecto a número y verbo?",
+          "back": "Se refiere siempre a DOS elementos y rige verbo en SINGULAR:\n✔️ 'Neither of the soldiers is tired'."
+        },
+        {
+          "front": "¿Dónde se coloca 'ENOUGH' con un sustantivo y con un adjetivo?",
+          "back": "DELANTE del sustantivo: 'enough money', 'enough time'.\nDETRÁS del adjetivo: 'fast enough', 'strong enough'."
         }
       ]
     },
     "tema_15_f2": {
       "topicId": "tema_15_f2",
       "badge": "Tema 15",
-      "title": "Tema 15: Quantifiers + Subject–Verb Agreement",
-      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_15.",
+      "title": "Quantifiers + Subject–Verb Agreement",
+      "summary": "Uso preciso de cuantificadores según contabilidad del sustantivo (much/many, little/few, some/any, each/every, both/either/neither) y reglas estrictas de concordancia sujeto-verbo (Subject-Verb Agreement) para el examen militar.",
       "goldenRules": [
         {
-          "title": "Regla Fundamental",
-          "content": "Revisa los conceptos principales del Tema 15 antes de abordar las preguntas tipo test."
+          "title": "Clasificación Contable vs Incontable: La Regla Madre",
+          "content": "Sustantivos Contables Plurales llevan: MANY, FEW / A FEW, SEVERAL, BOTH. Sustantivos Incontables (money, traffic, water, news, information, luggage, furniture, advice, equipment) llevan: MUCH, LITTLE / A LITTLE, A BIT OF. Ambos aceptan: A LOT OF, LOTS OF, PLENTY OF, SOME, ANY, ENOUGH."
         },
         {
-          "title": "Estrategia de Examen",
-          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+          "title": "Poco vs Un Poco: La presencia del artículo 'A'",
+          "content": "Sin artículo ('few' / 'little') tiene sentido NEGATIVO ('pocos / casi nada, insuficiente'). Con artículo ('a few' / 'a little') tiene sentido POSITIVO ('unos pocos / algo de, suficiente')."
+        },
+        {
+          "title": "La Regla de Oro de OF: Grupo General vs Específico",
+          "content": "Sentido general: MOST / SOME / ALL + sustantivo directo ('Most people', 'Some students'). Grupo específico: MOST OF / SOME OF / ALL OF + the / these / my / them ('Most of the people', 'Some of these books'). NUNCA digas *most of people ❌."
+        },
+        {
+          "title": "Concordancia Sujeto-Verbo: Indefinidos siempre en SINGULAR",
+          "content": "Everyone, everybody, someone, nobody, no one, everything, nothing, each y every rigen SIEMPRE verbo en 3ª PERSONA DEL SINGULAR ('Everyone has finished' ✔️, 'Nobody knows' ✔️, 'Every student has an ID' ✔️)."
+        },
+        {
+          "title": "El Trío de Dos Elementos: BOTH, EITHER, NEITHER",
+          "content": "BOTH se refiere a los dos y rige VERBO EN PLURAL ('Both teams have won'). EITHER (uno u otro) y NEITHER (ninguno de los dos) rigen VERBO EN SINGULAR ('Neither route is safe', 'Either of them is fine'). Correlativos: both...and, either...or, neither...nor."
         }
       ],
       "examTraps": [
         {
-          "trap": "Traducción literal del español",
-          "exampleBad": "Estructura literal ❌",
-          "exampleGood": "Estructura estándar en inglés ✔️",
-          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+          "trap": "Usar MANY o FEW con sustantivos incontables falsos amigos",
+          "exampleBad": "We don't have many money / She gave me many advices. ❌",
+          "exampleGood": "We don't have much money / She gave me a lot of advice. ✔️",
+          "explanation": "Money, advice, information, news, luggage y furniture son estrictamente INCONTABLES en inglés. Llevan much/little, nunca many/few ni plural en -s."
         },
         {
-          "trap": "Discordancia gramatical",
-          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
-          "exampleGood": "Concordancia estricta de persona y número ✔️",
-          "explanation": "Verifica siempre la persona y tiempo de la oración."
+          "trap": "Caer en la doble negación con Nobody / Nothing / Neither",
+          "exampleBad": "I did not see nobody at the base. ❌",
+          "exampleGood": "I did not see anybody / I saw nobody. ✔️",
+          "explanation": "Nobody, nothing, none y neither ya son negativos. En inglés está prohibida la doble negación: o niegas con 'not + any-' o afirmas con 'no-'."
+        },
+        {
+          "trap": "Escribir 'most of' delante de un sustantivo sin artículo ni determinante",
+          "exampleBad": "Most of students passed the military exam. ❌",
+          "exampleGood": "Most students passed / Most of the students passed. ✔️",
+          "explanation": "Se usa 'most + sustantivo' (general) o 'most of + the/determiner + sustantivo' (específico). 'Most of students' es uno de los fallos favoritos del tribunal."
+        },
+        {
+          "trap": "Pluralizar el sustantivo o el verbo después de EVERY / EACH",
+          "exampleBad": "Every countries have military agreements. ❌",
+          "exampleGood": "Every country has military agreements / All countries have... ✔️",
+          "explanation": "Every y Each se combinan exclusivamente con SUSTANTIVO SINGULAR y VERBO EN SINGULAR."
+        },
+        {
+          "trap": "Posición incorrecta de ENOUGH",
+          "exampleBad": "We have money enough for the equipment. ❌",
+          "exampleGood": "We have enough money for the equipment. ✔️",
+          "explanation": "ENOUGH va DELANTE de los sustantivos ('enough time', 'enough money'), pero DETRÁS de los adjetivos ('strong enough', 'fast enough')."
         }
       ],
       "examTips": [
         {
-          "rule": "Estrategia 70% Apto",
-          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+          "rule": "Estrategia 70% Apto: Descarte por contabilidad del sustantivo",
+          "tip": "Mira la palabra inmediatamente posterior al hueco. Si es incontable (information, time, money), elimina al instante opciones con many, few, a few, several y both."
         },
         {
-          "rule": "Descarte Rápido",
-          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+          "rule": "Descarte en preguntas de concordancia con indefinidos",
+          "tip": "Si el sujeto es Everyone, Somebody, Nobody, Each o Neither, descarta cualquier opción que tenga verbo en plural (have, are, were, do). La opción correcta siempre será singular (has, is, was, does)."
+        },
+        {
+          "rule": "Truco para Two Elements (2 cosas / 2 personas)",
+          "tip": "Si el contexto menciona a dos elementos (two soldiers, both hands, father and mother), busca Both (afirmativo plural), Either (uno u otro singular) o Neither (ninguno singular)."
         }
       ],
       "vocabularyKeys": [
         {
-          "term": "Términos clave Tema 15",
-          "meaning": "Vocabulario esencial",
-          "distractorRole": "Palabras recurrentes en los distractores de este tema."
+          "term": "Much vs Many",
+          "meaning": "Mucho (incontable) vs Muchos (contable plural)",
+          "distractorRole": "Much time / Many books. Se usan sobre todo en interrogativas y negativas."
+        },
+        {
+          "term": "Little / A little vs Few / A few",
+          "meaning": "Poco / Algo de (incontable) vs Pocos / Unos pocos (contable)",
+          "distractorRole": "Little money (casi nada) vs A little money (algo). Few friends (casi ninguno) vs A few friends (algunos)."
+        },
+        {
+          "term": "Some vs Any",
+          "meaning": "Algunos / Algo de",
+          "distractorRole": "Some en afirmativas y peticiones corteses ('Would you like some tea?'). Any en interrogativas, negativas y afirmativas con sentido de 'cualquiera'."
+        },
+        {
+          "term": "Both / Either / Neither",
+          "meaning": "Ambos / Cualquiera de los dos / Ninguno de los dos",
+          "distractorRole": "Exclusivos para conjuntos de DOS elementos. Both rige plural; Either y Neither rigen singular."
+        },
+        {
+          "term": "Each / Every",
+          "meaning": "Cada / Cada uno",
+          "distractorRole": "Exigen sustantivo y verbo en singular. Every day (todos los días) vs All day (todo el día entero)."
         }
       ],
       "flashcards": [
         {
-          "front": "¿Cuál es el objetivo principal del Tema 15?",
-          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+          "front": "¿Cuál es la diferencia de uso entre 'MANY' y 'MUCH'?",
+          "back": "MANY se usa con sustantivos contables plurales (many cars, many questions).\nMUCH se usa con sustantivos incontables (much time, much luggage)."
         },
         {
-          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
-          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+          "front": "¿Qué diferencia de significado hay entre 'few' y 'a few'?",
+          "back": "'FEW' (sin 'a') = pocos, casi ninguno (connotación negativa/insuficiente).\n'A FEW' = unos pocos, algunos (connotación positiva/suficiente)."
         },
         {
-          "front": "¿Cuál es la nota mínima para obtener el APTO?",
-          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+          "front": "¿El sustantivo 'NEWS' y el pronombre 'EVERYONE' rigen verbo en singular o plural?",
+          "back": "En SINGULAR siempre:\n✔️ 'The news IS good'.\n✔️ 'Everyone HAS finished'."
         },
         {
-          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
-          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+          "front": "¿Por qué es incorrecto decir 'Most of people like sports'?",
+          "back": "Porque con 'of' se exige un determinante para un grupo específico:\n✔️ 'Most people like sports' (general)\n✔️ 'Most OF THE people like sports' (específico)."
+        },
+        {
+          "front": "¿Qué rige la palabra 'NEITHER' respecto a número y verbo?",
+          "back": "Se refiere siempre a DOS elementos y rige verbo en SINGULAR:\n✔️ 'Neither of the soldiers is tired'."
+        },
+        {
+          "front": "¿Dónde se coloca 'ENOUGH' con un sustantivo y con un adjetivo?",
+          "back": "DELANTE del sustantivo: 'enough money', 'enough time'.\nDETRÁS del adjetivo: 'fast enough', 'strong enough'."
         }
       ]
     }

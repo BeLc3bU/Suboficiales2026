@@ -1,11 +1,11 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-19 17:41:35
+ * Fecha: 2026-11-23 18:42:11
  * Total preguntas: 1430
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-19 17:41:35",
+    "generatedAt": "2026-11-23 18:42:11",
     "totalTopics": 30,
     "totalQuestions": 1430
   },
@@ -14534,7 +14534,7 @@ window.TEST_DATA = {
           "number": 84,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "When I (84) __________ in London, I (85) __________ my boyfriend Peter.",
+          "question": "When I (84) [ ______ ] __________ in London, I (85) ______ __________ my boyfriend Peter.",
           "options": {
             "A": "studied",
             "B": "didn’t studied",
@@ -14550,7 +14550,7 @@ window.TEST_DATA = {
           "number": 85,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "When I (84) __________ in London, I (85) __________ my boyfriend Peter.",
+          "question": "When I (84) ______ __________ in London, I (85) [ ______ ] __________ my boyfriend Peter.",
           "options": {
             "A": "was meeting",
             "B": "meet",
@@ -14566,7 +14566,7 @@ window.TEST_DATA = {
           "number": 86,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "He (86) __________ in an Italian restaurant.",
+          "question": "He (86) [ ______ ] __________ in an Italian restaurant.",
           "options": {
             "A": "was working",
             "B": "works",
@@ -14582,7 +14582,7 @@ window.TEST_DATA = {
           "number": 87,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "I first (87) __________ him in a street market.",
+          "question": "I first (87) [ ______ ] __________ him in a street market.",
           "options": {
             "A": "met",
             "B": "meet",
@@ -14598,7 +14598,7 @@ window.TEST_DATA = {
           "number": 88,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man.",
+          "question": "I (88) [ ______ ] __________ to have a boyfriend at that moment, but he (89) ______ __________ such a nice man.",
           "options": {
             "A": "didn’t wanted",
             "B": "didn’t want",
@@ -14614,7 +14614,7 @@ window.TEST_DATA = {
           "number": 89,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man.",
+          "question": "I (88) ______ __________ to have a boyfriend at that moment, but he (89) [ ______ ] __________ such a nice man.",
           "options": {
             "A": "was",
             "B": "are",
@@ -14630,7 +14630,7 @@ window.TEST_DATA = {
           "number": 90,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "We (90) __________ together in London for two years, but we (91) __________ in Montreal now.",
+          "question": "We (90) [ ______ ] __________ together in London for two years, but we (91) ______ __________ in Montreal now.",
           "options": {
             "A": "was living",
             "B": "were live",
@@ -14646,7 +14646,7 @@ window.TEST_DATA = {
           "number": 91,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "We (90) __________ together in London for two years, but we (91) __________ in Montreal now.",
+          "question": "We (90) ______ __________ together in London for two years, but we (91) [ ______ ] __________ in Montreal now.",
           "options": {
             "A": "lives",
             "B": "were living",
@@ -14662,7 +14662,7 @@ window.TEST_DATA = {
           "number": 92,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "I (92) __________ my university degree in London, and I (93) __________ a good job here.",
+          "question": "I (92) [ ______ ] __________ my university degree in London, and I (93) ______ __________ a good job here.",
           "options": {
             "A": "was finishing",
             "B": "finish",
@@ -14678,7 +14678,7 @@ window.TEST_DATA = {
           "number": 93,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "I (92) __________ my university degree in London, and I (93) __________ a good job here.",
+          "question": "I (92) ______ __________ my university degree in London, and I (93) [ ______ ] __________ a good job here.",
           "options": {
             "A": "got",
             "B": "was getting",
@@ -14694,7 +14694,7 @@ window.TEST_DATA = {
           "number": 94,
           "type": "choice",
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
-          "question": "My boyfriend (94) __________ in an office.",
+          "question": "My boyfriend (94) [ ______ ] __________ in an office.",
           "options": {
             "A": "work",
             "B": "are working",
@@ -18189,7 +18189,7 @@ window.TEST_DATA = {
           "number": 34,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "How long (34) [ ______ ] in Italy?",
           "options": {
             "A": "did you lived",
             "B": "have you live",
@@ -18197,14 +18197,15 @@ window.TEST_DATA = {
             "D": "have you been lived"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q35",
           "number": 35,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (35) [ ______ ] in Italy (36) ______ three years.",
           "options": {
             "A": "have been lived",
             "B": "have living",
@@ -18212,14 +18213,15 @@ window.TEST_DATA = {
             "D": "have lived"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q36",
           "number": 36,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (35) ______ in Italy (36) [ ______ ] three years.",
           "options": {
             "A": "since",
             "B": "during",
@@ -18227,14 +18229,15 @@ window.TEST_DATA = {
             "D": "at"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q37",
           "number": 37,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (37) [ ______ ] in France from 2010 to 2017 and then I (38) ______ to come here.",
           "options": {
             "A": "have lived",
             "B": "was lived",
@@ -18242,14 +18245,15 @@ window.TEST_DATA = {
             "D": "lived"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q38",
           "number": 38,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (37) ______ in France from 2010 to 2017 and then I (38) [ ______ ] to come here.",
           "options": {
             "A": "have decide",
             "B": "did decide",
@@ -18257,14 +18261,15 @@ window.TEST_DATA = {
             "D": "am deciding"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q39",
           "number": 39,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (39) [ ______ ] Italy before, but I (40) ______ this country very much.",
           "options": {
             "A": "have never been to",
             "B": "have never gone to",
@@ -18272,14 +18277,15 @@ window.TEST_DATA = {
             "D": "have never gone in"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q40",
           "number": 40,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (39) ______ Italy before, but I (40) [ ______ ] this country very much.",
           "options": {
             "A": "am liking",
             "B": "love",
@@ -18287,14 +18293,15 @@ window.TEST_DATA = {
             "D": "likes"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q41",
           "number": 41,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (41) [ ______ ] in this firm (42) ______ May, and I (43) ______ it up to now.",
           "options": {
             "A": "have been working",
             "B": "works",
@@ -18302,14 +18309,15 @@ window.TEST_DATA = {
             "D": "worked"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q42",
           "number": 42,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (41) ______ in this firm (42) [ ______ ] May, and I (43) ______ it up to now.",
           "options": {
             "A": "since",
             "B": "during",
@@ -18317,14 +18325,15 @@ window.TEST_DATA = {
             "D": "at"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
           "id": "T14F2_Q43",
           "number": 43,
           "type": "choice",
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
-          "question": "",
+          "question": "I (41) ______ in this firm (42) ______ May, and I (43) [ ______ ] it up to now.",
           "options": {
             "A": "enjoy",
             "B": "am enjoying",
@@ -18332,7 +18341,8 @@ window.TEST_DATA = {
             "D": "did enjoy"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         }
       ]
     },

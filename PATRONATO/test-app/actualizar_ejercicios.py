@@ -1307,10 +1307,10 @@ def parse_generic_pdf(pdf_path, theory_titles=None, existing_ids=None):
                 if len(ans_str) > 1 and ans_str.upper() not in ['A', 'B', 'C', 'D']:
                     comp_answers[num] = ans_str
 
-    # Detección de texto de lectura / cloze test tipo "D. TEXT" si las preguntas finales son de rellenar huecos
+    # Detección de texto de lectura / cloze test tipo "D. TEXT" o "D. FINAL MIXED CLOZE" si las preguntas finales son de rellenar huecos
     cloze_passage = None
     cloze_sentences = []
-    cloze_match = re.search(r'(?:[A-Z]\.\s*TEXT[^\n]*\n)(.*?)(?=\n\s*\d+\.\s*a\))', q_section, re.DOTALL | re.IGNORECASE)
+    cloze_match = re.search(r'(?:[A-Z]\.\s*(?:FINAL\s+)?(?:MIXED\s+)?(?:CLOZE|TEXT)[^\n]*\n)(.*?)(?=\n\s*\d+\.\s*(?:a\)?|\n))', q_section, re.DOTALL | re.IGNORECASE)
     if cloze_match:
         raw_p = cloze_match.group(1).strip()
         lines = [l.strip() for l in raw_p.splitlines() if l.strip() and not re.search(r'Choose the correct', l, re.IGNORECASE)]
@@ -1376,8 +1376,16 @@ def parse_generic_pdf(pdf_path, theory_titles=None, existing_ids=None):
             r_text = None
             if not prompt and cloze_sentences:
                 for s in cloze_sentences:
-                    if f'({q_num})' in s:
-                        prompt = s.strip()
+                    if re.search(rf'\b{q_num}\b|\({q_num}\)', s):
+                        def _format_gap(m):
+                            val = m.group(0).strip('()')
+                            if len(val) == 4 and val.isdigit():
+                                return val
+                            if val == str(q_num):
+                                return f'({val}) [ ______ ]'
+                            return f'({val}) ______'
+
+                        prompt = re.sub(r'\b\d+\b|\(\d+\)', _format_gap, s).strip()
                         r_text = cloze_passage
                         break
 
