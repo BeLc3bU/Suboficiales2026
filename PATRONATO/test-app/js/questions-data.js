@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-23 18:42:11
- * Total preguntas: 1430
+ * Fecha: 2026-11-24 17:25:15
+ * Total preguntas: 1495
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-23 18:42:11",
-    "totalTopics": 30,
-    "totalQuestions": 1430
+    "generatedAt": "2026-11-24 17:25:15",
+    "totalTopics": 32,
+    "totalQuestions": 1495
   },
   "topics": [
     {
@@ -21088,6 +21088,1001 @@ window.TEST_DATA = {
           },
           "answer": "C",
           "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "tema_16_f1",
+      "title": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+      "badge": "Tema 16 F1",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 16 (Ficha 1): TO vs FOR y finalidad extraídos de Ejercicios  Tema 16. Ficha 1.pdf.",
+      "questions": [
+        {
+          "id": "T16F1_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "We went to London _______ improve our English.",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "so that to",
+            "D": "in order"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "This tool is used _______ cutting metal.",
+          "options": {
+            "A": "to",
+            "B": "so as to",
+            "C": "in order to",
+            "D": "for"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "The team went to the training centre _______ a practical exercise.",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "in order to",
+            "D": "so that"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "I called the company _______ ask for more information.",
+          "options": {
+            "A": "for",
+            "B": "so that",
+            "C": "to",
+            "D": "that"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "Managers should organise the work carefully _______ reduce the staff’s workload.",
+          "options": {
+            "A": "in order to",
+            "B": "so",
+            "C": "for",
+            "D": "order to"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "She left home early _______ miss the bus.",
+          "options": {
+            "A": "for not miss",
+            "B": "so as not missing",
+            "C": "so that not to",
+            "D": "in order not to"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "He whispered _______ wake the baby.",
+          "options": {
+            "A": "for not wake",
+            "B": "so as not to",
+            "C": "so that not wake",
+            "D": "in order not waking"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "We switched off the television _______ we could concentrate on our work.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "so that",
+            "D": "so as to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "The teacher gave the students extra exercises yesterday so that they _______ practise at home that evening.",
+          "options": {
+            "A": "to",
+            "B": "would",
+            "C": "for",
+            "D": "can"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "She moved closer so that I _______ hear her more clearly.",
+          "options": {
+            "A": "could",
+            "B": "can",
+            "C": "to",
+            "D": "for"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "He has been saving money _______ buy a new computer.",
+          "options": {
+            "A": "for",
+            "B": "so that",
+            "C": "so then",
+            "D": "to"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "They installed several signs _______ visitors could find the emergency exit easily.",
+          "options": {
+            "A": "in order to",
+            "B": "for",
+            "C": "so that",
+            "D": "to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "The instructions were rewritten _______ make them easier to understand.",
+          "options": {
+            "A": "in order to",
+            "B": "for",
+            "C": "so that",
+            "D": "in order"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "I took an umbrella _______ avoid getting wet.",
+          "options": {
+            "A": "for",
+            "B": "in order to",
+            "C": "so that",
+            "D": "not to"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "We left the room quietly _______ disturb the people who were sleeping.",
+          "options": {
+            "A": "for not",
+            "B": "so that not",
+            "C": "so as to not disturbing",
+            "D": "so as not to"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "“Why did you go to the bank?” “_______ withdraw some cash.”",
+          "options": {
+            "A": "For",
+            "B": "In order to",
+            "C": "To",
+            "D": "So that"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "“What are these gloves for?” “_______ handling hot equipment.”",
+          "options": {
+            "A": "For",
+            "B": "To",
+            "C": "In order to",
+            "D": "So as to"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "The company created an online form _______ customers could apply more easily.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "so as to",
+            "D": "so that"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "The instructor spoke slowly _______ everyone could understand the procedure.",
+          "options": {
+            "A": "to",
+            "B": "so that",
+            "C": "for",
+            "D": "so as to"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "She took detailed notes _______ forget any important information.",
+          "options": {
+            "A": "for not",
+            "B": "so that not",
+            "C": "so as not to",
+            "D": "not for"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "We went to Greece _______ a week’s holiday.",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "in order to",
+            "D": "so that"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "We wrote the letter _______ the tenants about the change.",
+          "options": {
+            "A": "for inform",
+            "B": "so that to inform",
+            "C": "in order that inform",
+            "D": "to inform"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "There are several competitions _______ the best singers, poets and writers.",
+          "options": {
+            "A": "for search",
+            "B": "to find",
+            "C": "in order find",
+            "D": "so search"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "Managers can learn to schedule work more effectively _______ reduce their employees’ workload.",
+          "options": {
+            "A": "so",
+            "B": "for",
+            "C": "in order to",
+            "D": "so as"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "Many Scottish Army regiments have a piper _______ the bagpipes when they go on parade.",
+          "options": {
+            "A": "to play",
+            "B": "for play",
+            "C": "playing",
+            "D": "which plays"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "The trainer repeated the safety rules _______ nobody would forget them.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "in order to",
+            "D": "so that"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "I bought a map _______ get lost in the city.",
+          "options": {
+            "A": "for not",
+            "B": "so as not to",
+            "C": "so that not",
+            "D": "in order not"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "We closed the door _______ the pupils could take the exam in silence.",
+          "options": {
+            "A": "for",
+            "B": "so as to",
+            "C": "so that",
+            "D": "to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "She bought a beautiful dress _______ her daughter could wear it at the ceremony.",
+          "options": {
+            "A": "so that",
+            "B": "to",
+            "C": "for",
+            "D": "in order to"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "I play tennis regularly _______ keep fit.",
+          "options": {
+            "A": "for",
+            "B": "because",
+            "C": "so that",
+            "D": "to"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "_______ the report, the number of accidents has decreased.",
+          "options": {
+            "A": "For",
+            "B": "According to",
+            "C": "According for",
+            "D": "To"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "Poor maintenance can lead _______ serious accidents.",
+          "options": {
+            "A": "for",
+            "B": "on",
+            "C": "to",
+            "D": "at"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "Everyone is waiting _______ the exam results.",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "at",
+            "D": "of"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "Who does this bag belong _______?",
+          "options": {
+            "A": "at",
+            "B": "for",
+            "C": "with",
+            "D": "to"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "I’m really looking forward _______ seeing you again.",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "on",
+            "D": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "He apologized _______ arriving late.",
+          "options": {
+            "A": "to",
+            "B": "at",
+            "C": "for",
+            "D": "of"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F1_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "The instructor explained the procedure _______ the students.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "at",
+            "D": "with"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F1_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "Regular exercise is good _______ your health.",
+          "options": {
+            "A": "to",
+            "B": "at",
+            "C": "of",
+            "D": "for"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F1_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "I was ill so she signed the documents _______ me. In return, I sent some chocolate _______ her.",
+          "options": {
+            "A": "to / for",
+            "B": "for / to",
+            "C": "to / to",
+            "D": "for / for"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F1_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 1): TO vs FOR y finalidad",
+          "question": "I was worried because the test looked difficult _______ me at first, but the extra practice was very useful _______ me.",
+          "options": {
+            "A": "for / to",
+            "B": "for / for",
+            "C": "to / for",
+            "D": "to / to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+        }
+      ]
+    },
+    {
+      "id": "tema_16_f2",
+      "title": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+      "badge": "Tema 16 F2",
+      "blockId": "bloque_3",
+      "blockName": "Bloque 3",
+      "description": "Ejercicios tipo test del Tema 16 (Ficha 2): TO vs FOR y finalidad extraídos de Ejercicios  Tema 16. Ficha 2.pdf.",
+      "questions": [
+        {
+          "id": "T16F2_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "I went to reception _______ ask for more information about the course.",
+          "options": {
+            "A": "for",
+            "B": "that reason",
+            "C": "to",
+            "D": "so that"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F2_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "“What is this tool for?” “It is _______ opening sealed containers.”",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "so that",
+            "D": "in order"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F2_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "I bought a small present _______ my colleague because it was her birthday.",
+          "options": {
+            "A": "to",
+            "B": "at",
+            "C": "of",
+            "D": "for"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F2_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The manager sent the revised schedule _______ all the employees.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "at",
+            "D": "with"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F2_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "I sent him a reminder _______ he wouldn’t forget the appointment.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "so that",
+            "D": "so as to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F2_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "He spoke quietly _______ wake the child.",
+          "options": {
+            "A": "for not",
+            "B": "so as not to",
+            "C": "so that not",
+            "D": "in order not"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F2_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The room is used _______ staff training.",
+          "options": {
+            "A": "to",
+            "B": "so that",
+            "C": "in order to",
+            "D": "for"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F2_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "We went to the office _______ speak to the manager.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "so that to",
+            "D": "in order"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F2_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The company introduced a second shift _______ reduce waiting times.",
+          "options": {
+            "A": "in order",
+            "B": "so as",
+            "C": "in order to",
+            "D": "so that to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F2_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The officer moved the barrier so that the vehicles _______ enter safely now.",
+          "options": {
+            "A": "could",
+            "B": "can",
+            "C": "to",
+            "D": "for"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F2_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The driver reduced his speed _______ lose control on the icy road.",
+          "options": {
+            "A": "for not",
+            "B": "so that not",
+            "C": "to not",
+            "D": "in order not to"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F2_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "She closed the door _______ the noise would not disturb the patients.",
+          "options": {
+            "A": "so that",
+            "B": "to",
+            "C": "for",
+            "D": "so as to"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F2_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "We packed some food _______ the journey.",
+          "options": {
+            "A": "to",
+            "B": "so that",
+            "C": "for",
+            "D": "in order to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F2_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The researcher repeated the measurement _______ obtain a more reliable result.",
+          "options": {
+            "A": "so as",
+            "B": "so as to",
+            "C": "so that to",
+            "D": "in order"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F2_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The final exercise was too difficult _______.",
+          "options": {
+            "A": "to me",
+            "B": "at me",
+            "C": "from me",
+            "D": "for me"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F2_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The instructions sounded rather unclear _______.",
+          "options": {
+            "A": "to me",
+            "B": "for me",
+            "C": "at me",
+            "D": "by me"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F2_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "She has always been very good _______ me.",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "to",
+            "D": "of"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F2_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "Regular exercise is good _______ your health.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "with",
+            "D": "at"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F2_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "Are you ready _______ the exam?",
+          "options": {
+            "A": "to",
+            "B": "at",
+            "C": "with",
+            "D": "for"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F2_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "Are you ready _______ start the exam?",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "at",
+            "D": "with"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F2_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "I’m looking forward _______ hearing from you.",
+          "options": {
+            "A": "for",
+            "B": "at",
+            "C": "to",
+            "D": "on"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+        },
+        {
+          "id": "T16F2_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "This machine is used _______ metal.",
+          "options": {
+            "A": "to cutting",
+            "B": "for cutting",
+            "C": "for cut",
+            "D": "so that cut"
+          },
+          "answer": "B",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+        },
+        {
+          "id": "T16F2_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "The trainer explained the method _______ us before the exercise began.",
+          "options": {
+            "A": "for",
+            "B": "at",
+            "C": "with",
+            "D": "to"
+          },
+          "answer": "D",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+        },
+        {
+          "id": "T16F2_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "I made some coffee _______ the team before the meeting.",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "at",
+            "D": "up to"
+          },
+          "answer": "A",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+        },
+        {
+          "id": "T16F2_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Tema 16 (Ficha 2): TO vs FOR y finalidad",
+          "question": "I turned on the lamp _______ everyone could read the instructions clearly.",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "so that",
+            "D": "so as to"
+          },
+          "answer": "C",
+          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
         }
       ]
     }

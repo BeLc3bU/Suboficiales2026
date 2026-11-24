@@ -1,12 +1,12 @@
 /**
  * Generado automáticamente por study_cards_builder.py
- * Fecha: 2026-11-23 18:43:49
- * Total de Fichas: 27
+ * Fecha: 2026-11-24 17:25:15
+ * Total de Fichas: 30
  */
 window.STUDY_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-23 18:43:49",
-    "totalSheets": 27
+    "generatedAt": "2026-11-24 17:25:15",
+    "totalSheets": 30
   },
   "sheets": {
     "tema_1": {
@@ -2636,6 +2636,276 @@ window.STUDY_DATA = {
         {
           "front": "¿Dónde se coloca 'ENOUGH' con un sustantivo y con un adjetivo?",
           "back": "DELANTE del sustantivo: 'enough money', 'enough time'.\nDETRÁS del adjetivo: 'fast enough', 'strong enough'."
+        }
+      ]
+    },
+    "tema_16": {
+      "topicId": "tema_16",
+      "badge": "Tema 16",
+      "title": "Tema 16: TO vs FOR + Purpose Clauses",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_16.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 16 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "according to",
+          "meaning": "según / de acuerdo con",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "lead to",
+          "meaning": "conducir a / provocar / dar lugar a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "contribute to",
+          "meaning": "contribuir a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "listen to",
+          "meaning": "escuchar",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "belong to",
+          "meaning": "pertenecer a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "close to",
+          "meaning": "cerca de / próximo a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 16?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+        }
+      ]
+    },
+    "tema_16_f1": {
+      "topicId": "tema_16_f1",
+      "badge": "Tema 16",
+      "title": "Tema 16: TO vs FOR + Purpose Clauses",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_16.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 16 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "according to",
+          "meaning": "según / de acuerdo con",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "lead to",
+          "meaning": "conducir a / provocar / dar lugar a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "contribute to",
+          "meaning": "contribuir a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "listen to",
+          "meaning": "escuchar",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "belong to",
+          "meaning": "pertenecer a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "close to",
+          "meaning": "cerca de / próximo a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 16?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
+        }
+      ]
+    },
+    "tema_16_f2": {
+      "topicId": "tema_16_f2",
+      "badge": "Tema 16",
+      "title": "Tema 16: TO vs FOR + Purpose Clauses",
+      "summary": "Ficha generada a partir de los documentos teóricos y de vocabulario de tema_16.",
+      "goldenRules": [
+        {
+          "title": "Regla Fundamental",
+          "content": "Revisa los conceptos principales del Tema 16 antes de abordar las preguntas tipo test."
+        },
+        {
+          "title": "Estrategia de Examen",
+          "content": "Identifica las palabras clave del enunciado y aplica descarte sin penalización."
+        }
+      ],
+      "examTraps": [
+        {
+          "trap": "Traducción literal del español",
+          "exampleBad": "Estructura literal ❌",
+          "exampleGood": "Estructura estándar en inglés ✔️",
+          "explanation": "El tribunal militar recurre con frecuencia a calcos del español como opciones trampa."
+        },
+        {
+          "trap": "Discordancia gramatical",
+          "exampleBad": "Sujeto y verbo en desacuerdo ❌",
+          "exampleGood": "Concordancia estricta de persona y número ✔️",
+          "explanation": "Verifica siempre la persona y tiempo de la oración."
+        }
+      ],
+      "examTips": [
+        {
+          "rule": "Estrategia 70% Apto",
+          "tip": "Recuerda que los fallos no restan puntuación. No dejes ninguna pregunta sin contestar."
+        },
+        {
+          "rule": "Descarte Rápido",
+          "tip": "Descarta inmediatamente las dos opciones que incumplan reglas gramaticales básicas."
+        }
+      ],
+      "vocabularyKeys": [
+        {
+          "term": "according to",
+          "meaning": "según / de acuerdo con",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "lead to",
+          "meaning": "conducir a / provocar / dar lugar a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "contribute to",
+          "meaning": "contribuir a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "listen to",
+          "meaning": "escuchar",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "belong to",
+          "meaning": "pertenecer a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        },
+        {
+          "term": "close to",
+          "meaning": "cerca de / próximo a",
+          "distractorRole": "Término extraído del vocabulario oficial."
+        }
+      ],
+      "flashcards": [
+        {
+          "front": "¿Cuál es el objetivo principal del Tema 16?",
+          "back": "Dominar las estructuras gramaticales y vocabulario clave para el examen militar."
+        },
+        {
+          "front": "¿Se debe dejar alguna pregunta en blanco en el examen de Suboficiales?",
+          "back": "NO. Al no haber penalización por fallos, se debe responder el 100% de las preguntas."
+        },
+        {
+          "front": "¿Cuál es la nota mínima para obtener el APTO?",
+          "back": "Se exige un 70% de aciertos sobre el total de preguntas."
+        },
+        {
+          "front": "¿Cómo optimizar el tiempo en preguntas difíciles?",
+          "back": "Descartar primero las opciones absurdas o con fallos de concordancia y elegir entre las restantes."
         }
       ]
     }
