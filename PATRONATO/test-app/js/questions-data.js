@@ -1,13 +1,13 @@
 /**
  * Generado automáticamente por actualizar_ejercicios.py
- * Fecha: 2026-11-24 17:25:15
- * Total preguntas: 1495
+ * Fecha: 2026-11-25 10:01:44
+ * Total preguntas: 1538
  */
 window.TEST_DATA = {
   "metadata": {
-    "generatedAt": "2026-11-24 17:25:15",
-    "totalTopics": 32,
-    "totalQuestions": 1495
+    "generatedAt": "2026-11-25 10:01:44",
+    "totalTopics": 33,
+    "totalQuestions": 1538
   },
   "topics": [
     {
@@ -29,7 +29,7 @@ window.TEST_DATA = {
             "D": "are live"
           },
           "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+          "explanation": "'live' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "T1_Q2",
@@ -44,7 +44,7 @@ window.TEST_DATA = {
             "D": "Has"
           },
           "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+          "explanation": "'Has' es correcto porque 'have/has got' concuerda con 3.ª persona del singular (he/she/it) y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q3",
@@ -59,7 +59,7 @@ window.TEST_DATA = {
             "D": "is"
           },
           "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+          "explanation": "'am' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "T1_Q4",
@@ -74,7 +74,7 @@ window.TEST_DATA = {
             "D": "servs"
           },
           "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+          "explanation": "'serve' (forma base) es obligatorio porque el auxiliar 'do/does' ya marca el tiempo y la persona; el verbo principal nunca lleva '-s'."
         },
         {
           "id": "T1_Q5",
@@ -89,7 +89,7 @@ window.TEST_DATA = {
             "D": "are"
           },
           "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+          "explanation": "'have' es correcto porque 'have/has got' concuerda con sujeto plural/I/you/we/they y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q6",
@@ -104,7 +104,7 @@ window.TEST_DATA = {
             "D": "washes"
           },
           "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+          "explanation": "'washes' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "T1_Q7",
@@ -119,7 +119,7 @@ window.TEST_DATA = {
             "D": "isn't"
           },
           "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+          "explanation": "'don't' es el auxiliar correcto en Present Simple para concordar con el sujeto en interrogativa o negativa."
         },
         {
           "id": "T1_Q8",
@@ -134,7 +134,7 @@ window.TEST_DATA = {
             "D": "Does"
           },
           "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+          "explanation": "'Are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "T1_Q9",
@@ -149,7 +149,7 @@ window.TEST_DATA = {
             "D": "studying"
           },
           "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+          "explanation": "'studies' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "T1_Q10",
@@ -164,7 +164,7 @@ window.TEST_DATA = {
             "D": "aren't"
           },
           "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+          "explanation": "'haven't' es correcto porque 'have/has got' concuerda con sujeto plural/I/you/we/they y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q11",
@@ -179,7 +179,7 @@ window.TEST_DATA = {
             "D": "never stops"
           },
           "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+          "explanation": "'don't stop' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "T1_Q12",
@@ -194,7 +194,7 @@ window.TEST_DATA = {
             "D": "Do"
           },
           "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+          "explanation": "'Do' es el auxiliar correcto en Present Simple para concordar con el sujeto en interrogativa o negativa."
         },
         {
           "id": "T1_Q13",
@@ -209,7 +209,7 @@ window.TEST_DATA = {
             "D": "has"
           },
           "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "T1_Q14",
@@ -224,7 +224,7 @@ window.TEST_DATA = {
             "D": "isn't"
           },
           "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+          "explanation": "'hasn't' es correcto porque 'have/has got' concuerda con 3.ª persona del singular (he/she/it) y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q15",
@@ -239,7 +239,7 @@ window.TEST_DATA = {
             "D": "has"
           },
           "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "T1_Q16",
@@ -254,7 +254,7 @@ window.TEST_DATA = {
             "D": "copies"
           },
           "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+          "explanation": "'copies' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "T1_Q17",
@@ -269,7 +269,7 @@ window.TEST_DATA = {
             "D": "don't lives"
           },
           "answer": "A",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción A."
+          "explanation": "'don't live' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "T1_Q18",
@@ -284,7 +284,7 @@ window.TEST_DATA = {
             "D": "Are"
           },
           "answer": "B",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción B."
+          "explanation": "'Have' es correcto porque 'have/has got' concuerda con sujeto plural/I/you/we/they y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q19",
@@ -299,7 +299,7 @@ window.TEST_DATA = {
             "D": "does"
           },
           "answer": "D",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción D."
+          "explanation": "'does' es el auxiliar correcto en Present Simple para concordar con el sujeto en interrogativa o negativa."
         },
         {
           "id": "T1_Q20",
@@ -314,7 +314,7 @@ window.TEST_DATA = {
             "D": "do"
           },
           "answer": "C",
-          "explanation": "Tema 1: Present Simple / To Be / Have got. Solución correcta: opción C."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "T1_Q21",
@@ -430,7 +430,7 @@ window.TEST_DATA = {
             "D": "has"
           },
           "answer": "C",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "T1_Q32",
@@ -446,7 +446,7 @@ window.TEST_DATA = {
             "D": "every"
           },
           "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+          "explanation": "En el contexto del texto, 'usually' es la única opción que encaja tanto gramaticalmente como por sentido en el hueco."
         },
         {
           "id": "T1_Q33",
@@ -462,7 +462,7 @@ window.TEST_DATA = {
             "D": "have"
           },
           "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+          "explanation": "'have' es correcto porque 'have/has got' concuerda con sujeto plural/I/you/we/they y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q34",
@@ -478,7 +478,7 @@ window.TEST_DATA = {
             "D": "carryes"
           },
           "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+          "explanation": "'carries' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "T1_Q35",
@@ -494,7 +494,7 @@ window.TEST_DATA = {
             "D": "twice"
           },
           "answer": "C",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
+          "explanation": "'every' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "T1_Q36",
@@ -510,7 +510,7 @@ window.TEST_DATA = {
             "D": "isn't"
           },
           "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+          "explanation": "'don't' es el auxiliar correcto en Present Simple para concordar con el sujeto en interrogativa o negativa."
         },
         {
           "id": "T1_Q37",
@@ -526,7 +526,7 @@ window.TEST_DATA = {
             "D": "usually"
           },
           "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+          "explanation": "En el contexto del texto, 'usually' es la única opción que encaja tanto gramaticalmente como por sentido en el hueco."
         },
         {
           "id": "T1_Q38",
@@ -542,7 +542,7 @@ window.TEST_DATA = {
             "D": "twice"
           },
           "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+          "explanation": "En el contexto del texto, 'daily' es la única opción que encaja tanto gramaticalmente como por sentido en el hueco."
         },
         {
           "id": "T1_Q39",
@@ -558,7 +558,7 @@ window.TEST_DATA = {
             "D": "are"
           },
           "answer": "C",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
+          "explanation": "'have' es correcto porque 'have/has got' concuerda con sujeto plural/I/you/we/they y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q40",
@@ -574,7 +574,7 @@ window.TEST_DATA = {
             "D": "Has"
           },
           "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+          "explanation": "'Is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "T1_Q41",
@@ -590,7 +590,7 @@ window.TEST_DATA = {
             "D": "work"
           },
           "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+          "explanation": "'work' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "T1_Q42",
@@ -606,7 +606,7 @@ window.TEST_DATA = {
             "D": "opening"
           },
           "answer": "C",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: C."
+          "explanation": "'opens' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "T1_Q43",
@@ -622,7 +622,7 @@ window.TEST_DATA = {
             "D": "constantly"
           },
           "answer": "A",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: A."
+          "explanation": "En el contexto del texto, 'rarely' es la única opción que encaja tanto gramaticalmente como por sentido en el hueco."
         },
         {
           "id": "T1_Q44",
@@ -638,7 +638,7 @@ window.TEST_DATA = {
             "D": "has"
           },
           "answer": "D",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: D."
+          "explanation": "'has' es correcto porque 'have/has got' concuerda con 3.ª persona del singular (he/she/it) y no admite el auxiliar 'do/does'."
         },
         {
           "id": "T1_Q45",
@@ -654,7 +654,7 @@ window.TEST_DATA = {
             "D": "sometimes"
           },
           "answer": "B",
-          "explanation": "Comprensión lectora / cloze. Opción correcta: B."
+          "explanation": "'always' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         }
       ],
       "blockId": "bloque_1",
@@ -679,7 +679,7 @@ window.TEST_DATA = {
             "D": "checking"
           },
           "answer": "C",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: C."
+          "explanation": "'are checking' expresa una acción en progreso en este momento mediante Present Continuous (am/is/are + gerundio -ing)."
         },
         {
           "id": "T2_Q2",
@@ -694,7 +694,7 @@ window.TEST_DATA = {
             "D": "don't remembering"
           },
           "answer": "A",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: A."
+          "explanation": "'don't remember' en Present Simple es correcto: es un verbo de estado (stative verb) y no suele emplearse en forma continua (-ing), aunque haya marcadores de ahora."
         },
         {
           "id": "T2_Q3",
@@ -709,7 +709,7 @@ window.TEST_DATA = {
             "D": "running"
           },
           "answer": "D",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: D."
+          "explanation": "La respuesta 'running' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q4",
@@ -724,7 +724,7 @@ window.TEST_DATA = {
             "D": "are using"
           },
           "answer": "B",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: B."
+          "explanation": "'is using' expresa una acción en progreso en este momento mediante Present Continuous (am/is/are + gerundio -ing)."
         },
         {
           "id": "T2_Q5",
@@ -739,7 +739,7 @@ window.TEST_DATA = {
             "D": "is belong"
           },
           "answer": "B",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: B."
+          "explanation": "'belongs' en Present Simple es correcto: es un verbo de estado (stative verb) y no suele emplearse en forma continua (-ing), aunque haya marcadores de ahora."
         },
         {
           "id": "T2_Q6",
@@ -754,7 +754,7 @@ window.TEST_DATA = {
             "D": "are you looking"
           },
           "answer": "D",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: D."
+          "explanation": "La respuesta 'are you looking' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q7",
@@ -769,7 +769,7 @@ window.TEST_DATA = {
             "D": "waits"
           },
           "answer": "A",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: A."
+          "explanation": "La respuesta 'waiting' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q8",
@@ -784,7 +784,7 @@ window.TEST_DATA = {
             "D": "tasting"
           },
           "answer": "C",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: C."
+          "explanation": "La respuesta 'tastes' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q9",
@@ -799,7 +799,7 @@ window.TEST_DATA = {
             "D": "are meeting"
           },
           "answer": "D",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: D."
+          "explanation": "'are meeting' expresa una acción en progreso en este momento mediante Present Continuous (am/is/are + gerundio -ing)."
         },
         {
           "id": "T2_Q10",
@@ -814,7 +814,7 @@ window.TEST_DATA = {
             "D": "are carry"
           },
           "answer": "A",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: A."
+          "explanation": "'are carrying' expresa una acción en progreso en este momento mediante Present Continuous (am/is/are + gerundio -ing)."
         },
         {
           "id": "T2_Q11",
@@ -829,7 +829,7 @@ window.TEST_DATA = {
             "D": "writes"
           },
           "answer": "C",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: C."
+          "explanation": "La respuesta 'writing' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q12",
@@ -844,7 +844,7 @@ window.TEST_DATA = {
             "D": "am think"
           },
           "answer": "B",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: B."
+          "explanation": "La respuesta 'think' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q13",
@@ -859,7 +859,7 @@ window.TEST_DATA = {
             "D": "makes"
           },
           "answer": "A",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: A."
+          "explanation": "La respuesta 'making' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q14",
@@ -874,7 +874,7 @@ window.TEST_DATA = {
             "D": "don't understand"
           },
           "answer": "D",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: D."
+          "explanation": "'don't understand' en Present Simple es correcto: es un verbo de estado (stative verb) y no suele emplearse en forma continua (-ing), aunque haya marcadores de ahora."
         },
         {
           "id": "T2_Q15",
@@ -889,7 +889,7 @@ window.TEST_DATA = {
             "D": "leaving"
           },
           "answer": "B",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: B."
+          "explanation": "'are leaving' expresa una acción en progreso en este momento mediante Present Continuous (am/is/are + gerundio -ing)."
         },
         {
           "id": "T2_Q16",
@@ -904,7 +904,7 @@ window.TEST_DATA = {
             "D": "liying"
           },
           "answer": "C",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: C."
+          "explanation": "La respuesta 'lying' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q17",
@@ -919,7 +919,7 @@ window.TEST_DATA = {
             "D": "thinks"
           },
           "answer": "C",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: C."
+          "explanation": "'am thinking' expresa una acción en progreso en este momento mediante Present Continuous (am/is/are + gerundio -ing)."
         },
         {
           "id": "T2_Q18",
@@ -934,7 +934,7 @@ window.TEST_DATA = {
             "D": "having"
           },
           "answer": "B",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: B."
+          "explanation": "La respuesta 'has' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q19",
@@ -949,7 +949,7 @@ window.TEST_DATA = {
             "D": "are having"
           },
           "answer": "D",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: D."
+          "explanation": "'are having' expresa una acción en progreso en este momento mediante Present Continuous (am/is/are + gerundio -ing)."
         },
         {
           "id": "T2_Q20",
@@ -964,7 +964,7 @@ window.TEST_DATA = {
             "D": "stops"
           },
           "answer": "A",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: A."
+          "explanation": "La respuesta 'stopping' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q21",
@@ -979,7 +979,7 @@ window.TEST_DATA = {
             "D": "am hear"
           },
           "answer": "B",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: B."
+          "explanation": "La respuesta 'hear' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q22",
@@ -994,7 +994,7 @@ window.TEST_DATA = {
             "D": "seeeing"
           },
           "answer": "C",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: C."
+          "explanation": "La respuesta 'seeing' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q23",
@@ -1009,7 +1009,7 @@ window.TEST_DATA = {
             "D": "looking"
           },
           "answer": "A",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: A."
+          "explanation": "La respuesta 'look' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         },
         {
           "id": "T2_Q24",
@@ -1024,7 +1024,7 @@ window.TEST_DATA = {
             "D": "stopping"
           },
           "answer": "D",
-          "explanation": "Tema 2: Present Continuous / Stative Verbs / Reglas ortográficas del gerundio (-ing). Respuesta correcta: D."
+          "explanation": "La respuesta 'stopping' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 2."
         }
       ],
       "blockId": "bloque_1",
@@ -1049,7 +1049,7 @@ window.TEST_DATA = {
             "D": "Herself"
           },
           "answer": "C",
-          "explanation": "Tema 3: Pronouns. Opción correcta: C."
+          "explanation": "'She' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3_Q2",
@@ -1064,7 +1064,7 @@ window.TEST_DATA = {
             "D": "theirs"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3_Q3",
@@ -1079,7 +1079,7 @@ window.TEST_DATA = {
             "D": "they"
           },
           "answer": "C",
-          "explanation": "Tema 3: Pronouns. Opción correcta: C."
+          "explanation": "'their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q4",
@@ -1094,7 +1094,7 @@ window.TEST_DATA = {
             "D": "I"
           },
           "answer": "A",
-          "explanation": "Tema 3: Pronouns. Opción correcta: A."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3_Q5",
@@ -1109,7 +1109,7 @@ window.TEST_DATA = {
             "D": "They"
           },
           "answer": "D",
-          "explanation": "Tema 3: Pronouns. Opción correcta: D."
+          "explanation": "'They' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3_Q6",
@@ -1124,7 +1124,7 @@ window.TEST_DATA = {
             "D": "himself"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'him' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3_Q7",
@@ -1139,7 +1139,7 @@ window.TEST_DATA = {
             "D": "itself"
           },
           "answer": "A",
-          "explanation": "Tema 3: Pronouns. Opción correcta: A."
+          "explanation": "'its' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q8",
@@ -1154,7 +1154,7 @@ window.TEST_DATA = {
             "D": "herself"
           },
           "answer": "C",
-          "explanation": "Tema 3: Pronouns. Opción correcta: C."
+          "explanation": "'hers' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3_Q9",
@@ -1169,7 +1169,7 @@ window.TEST_DATA = {
             "D": "us"
           },
           "answer": "D",
-          "explanation": "Tema 3: Pronouns. Opción correcta: D."
+          "explanation": "'us' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3_Q10",
@@ -1184,7 +1184,7 @@ window.TEST_DATA = {
             "D": "Himself"
           },
           "answer": "C",
-          "explanation": "Tema 3: Pronouns. Opción correcta: C."
+          "explanation": "'He' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3_Q11",
@@ -1199,7 +1199,7 @@ window.TEST_DATA = {
             "D": "We"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'Our' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q12",
@@ -1214,7 +1214,7 @@ window.TEST_DATA = {
             "D": "yourself"
           },
           "answer": "A",
-          "explanation": "Tema 3: Pronouns. Opción correcta: A."
+          "explanation": "'yours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3_Q13",
@@ -1229,7 +1229,7 @@ window.TEST_DATA = {
             "D": "her"
           },
           "answer": "D",
-          "explanation": "Tema 3: Pronouns. Opción correcta: D."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q14",
@@ -1244,7 +1244,7 @@ window.TEST_DATA = {
             "D": "He"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'His' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q15",
@@ -1259,7 +1259,7 @@ window.TEST_DATA = {
             "D": "Itself"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'It' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3_Q16",
@@ -1274,7 +1274,7 @@ window.TEST_DATA = {
             "D": "me"
           },
           "answer": "D",
-          "explanation": "Tema 3: Pronouns. Opción correcta: D."
+          "explanation": "'me' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3_Q17",
@@ -1289,7 +1289,7 @@ window.TEST_DATA = {
             "D": "they"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'theirs' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3_Q18",
@@ -1304,7 +1304,7 @@ window.TEST_DATA = {
             "D": "yourself"
           },
           "answer": "C",
-          "explanation": "Tema 3: Pronouns. Opción correcta: C."
+          "explanation": "'your' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q19",
@@ -1319,7 +1319,7 @@ window.TEST_DATA = {
             "D": "Ours"
           },
           "answer": "C",
-          "explanation": "Tema 3: Pronouns. Opción correcta: C."
+          "explanation": "'We' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3_Q20",
@@ -1334,7 +1334,7 @@ window.TEST_DATA = {
             "D": "theirs"
           },
           "answer": "A",
-          "explanation": "Tema 3: Pronouns. Opción correcta: A."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3_Q21",
@@ -1349,7 +1349,7 @@ window.TEST_DATA = {
             "D": "we"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'ours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3_Q22",
@@ -1364,7 +1364,7 @@ window.TEST_DATA = {
             "D": "Herself"
           },
           "answer": "B",
-          "explanation": "Tema 3: Pronouns. Opción correcta: B."
+          "explanation": "'Her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q23",
@@ -1379,7 +1379,7 @@ window.TEST_DATA = {
             "D": "yourselves"
           },
           "answer": "C",
-          "explanation": "Tema 3: Pronouns. Opción correcta: C."
+          "explanation": "'you' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3_Q24",
@@ -1394,7 +1394,7 @@ window.TEST_DATA = {
             "D": "itself"
           },
           "answer": "A",
-          "explanation": "Tema 3: Pronouns. Opción correcta: A."
+          "explanation": "'it' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3_Q25",
@@ -1409,7 +1409,7 @@ window.TEST_DATA = {
             "D": "his"
           },
           "answer": "D",
-          "explanation": "Tema 3: Pronouns. Opción correcta: D."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3_Q26",
@@ -1424,7 +1424,7 @@ window.TEST_DATA = {
             "D": "pilots'"
           },
           "answer": "C",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: C."
+          "explanation": "'pilot's' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q27",
@@ -1439,7 +1439,7 @@ window.TEST_DATA = {
             "D": "soldier"
           },
           "answer": "A",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: A."
+          "explanation": "'soldiers'' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q28",
@@ -1454,7 +1454,7 @@ window.TEST_DATA = {
             "D": "children"
           },
           "answer": "C",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: C."
+          "explanation": "'children's' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q29",
@@ -1469,7 +1469,7 @@ window.TEST_DATA = {
             "D": "John's and Mary car"
           },
           "answer": "A",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: A."
+          "explanation": "'John and Mary's car' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q30",
@@ -1484,7 +1484,7 @@ window.TEST_DATA = {
             "D": "the  room of door"
           },
           "answer": "B",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: B."
+          "explanation": "La respuesta 'the door of the room' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3."
         },
         {
           "id": "T3_Q31",
@@ -1499,7 +1499,7 @@ window.TEST_DATA = {
             "D": "the today's  meeting"
           },
           "answer": "B",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: B."
+          "explanation": "'today's meeting' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q32",
@@ -1514,7 +1514,7 @@ window.TEST_DATA = {
             "D": "parent's the  house"
           },
           "answer": "C",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: C."
+          "explanation": "'parents' house' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q33",
@@ -1529,7 +1529,7 @@ window.TEST_DATA = {
             "D": "woman"
           },
           "answer": "A",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: A."
+          "explanation": "'woman's' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q34",
@@ -1544,7 +1544,7 @@ window.TEST_DATA = {
             "D": "men"
           },
           "answer": "B",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: B."
+          "explanation": "'men's' aplica correctamente el genitivo sajón ('s tras singular o plural irregular; solo apóstrofo ' tras plural acabado en -s)."
         },
         {
           "id": "T3_Q35",
@@ -1559,7 +1559,7 @@ window.TEST_DATA = {
             "D": "mine"
           },
           "answer": "D",
-          "explanation": "Tema 3: Saxon Genitive & Possession. Opción correcta: D."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3_Q36",
@@ -1574,7 +1574,7 @@ window.TEST_DATA = {
             "D": "she"
           },
           "answer": "B",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: B."
+          "explanation": "'herself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q37",
@@ -1589,7 +1589,7 @@ window.TEST_DATA = {
             "D": "their"
           },
           "answer": "C",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: C."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3."
         },
         {
           "id": "T3_Q38",
@@ -1604,7 +1604,7 @@ window.TEST_DATA = {
             "D": "he"
           },
           "answer": "A",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: A."
+          "explanation": "'himself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q39",
@@ -1619,7 +1619,7 @@ window.TEST_DATA = {
             "D": "each other"
           },
           "answer": "C",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: C."
+          "explanation": "'themselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q40",
@@ -1634,7 +1634,7 @@ window.TEST_DATA = {
             "D": "their"
           },
           "answer": "B",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: B."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3."
         },
         {
           "id": "T3_Q41",
@@ -1649,7 +1649,7 @@ window.TEST_DATA = {
             "D": "ours"
           },
           "answer": "A",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: A."
+          "explanation": "'ourselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q42",
@@ -1664,7 +1664,7 @@ window.TEST_DATA = {
             "D": "your"
           },
           "answer": "B",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: B."
+          "explanation": "'yourself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q43",
@@ -1679,7 +1679,7 @@ window.TEST_DATA = {
             "D": "one another"
           },
           "answer": "D",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: D."
+          "explanation": "La respuesta 'one another' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3."
         },
         {
           "id": "T3_Q44",
@@ -1694,7 +1694,7 @@ window.TEST_DATA = {
             "D": "she"
           },
           "answer": "A",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: A."
+          "explanation": "'herself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q45",
@@ -1709,7 +1709,7 @@ window.TEST_DATA = {
             "D": "them"
           },
           "answer": "C",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: C."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3."
         },
         {
           "id": "T3_Q46",
@@ -1724,7 +1724,7 @@ window.TEST_DATA = {
             "D": "he"
           },
           "answer": "C",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: C."
+          "explanation": "'himself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q47",
@@ -1739,7 +1739,7 @@ window.TEST_DATA = {
             "D": "I"
           },
           "answer": "B",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: B."
+          "explanation": "'myself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q48",
@@ -1754,7 +1754,7 @@ window.TEST_DATA = {
             "D": "each other"
           },
           "answer": "D",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: D."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3."
         },
         {
           "id": "T3_Q49",
@@ -1769,7 +1769,7 @@ window.TEST_DATA = {
             "D": "himself"
           },
           "answer": "A",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: A."
+          "explanation": "'itself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3_Q50",
@@ -1784,7 +1784,7 @@ window.TEST_DATA = {
             "D": "you"
           },
           "answer": "C",
-          "explanation": "Tema 3: Reflexive & Reciprocal Pronouns. Opción correcta: C."
+          "explanation": "'yourselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         }
       ],
       "blockId": "bloque_1",
@@ -1810,7 +1810,7 @@ window.TEST_DATA = {
             "D": "my"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q2",
@@ -1826,7 +1826,7 @@ window.TEST_DATA = {
             "D": "his"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "'its' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q3",
@@ -1842,7 +1842,7 @@ window.TEST_DATA = {
             "D": "ours"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'ours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q4",
@@ -1858,7 +1858,7 @@ window.TEST_DATA = {
             "D": "It"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "'Their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q5",
@@ -1874,7 +1874,7 @@ window.TEST_DATA = {
             "D": "her"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'my' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q6",
@@ -1890,7 +1890,7 @@ window.TEST_DATA = {
             "D": "car’s the father"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "La respuesta 'father’s car' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q7",
@@ -1906,7 +1906,7 @@ window.TEST_DATA = {
             "D": "she’s"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'hers' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q8",
@@ -1922,7 +1922,7 @@ window.TEST_DATA = {
             "D": "childrens’"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'children’s' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q9",
@@ -1938,7 +1938,7 @@ window.TEST_DATA = {
             "D": "Their"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'Its' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q10",
@@ -1954,7 +1954,7 @@ window.TEST_DATA = {
             "D": "The John’s car"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'John’s car' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q11",
@@ -1970,7 +1970,7 @@ window.TEST_DATA = {
             "D": "apple’s girls"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'girls’ apples' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q12",
@@ -1986,7 +1986,7 @@ window.TEST_DATA = {
             "D": "it"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q13",
@@ -2002,7 +2002,7 @@ window.TEST_DATA = {
             "D": "my"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'my' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q14",
@@ -2018,7 +2018,7 @@ window.TEST_DATA = {
             "D": "hers"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'our' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q15",
@@ -2034,7 +2034,7 @@ window.TEST_DATA = {
             "D": "theirs"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q16",
@@ -2050,7 +2050,7 @@ window.TEST_DATA = {
             "D": "Their"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'His' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q17",
@@ -2066,7 +2066,7 @@ window.TEST_DATA = {
             "D": "Mother’s the  Jean"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'Jean’s mother' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q18",
@@ -2082,7 +2082,7 @@ window.TEST_DATA = {
             "D": "his / ours"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'his / his' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q19",
@@ -2098,7 +2098,7 @@ window.TEST_DATA = {
             "D": "their"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'hers' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q20",
@@ -2114,7 +2114,7 @@ window.TEST_DATA = {
             "D": "Legs’ cat"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'The cat’s legs' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q21",
@@ -2130,7 +2130,7 @@ window.TEST_DATA = {
             "D": "theirs"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q22",
@@ -2146,7 +2146,7 @@ window.TEST_DATA = {
             "D": "their"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q23",
@@ -2162,7 +2162,7 @@ window.TEST_DATA = {
             "D": "He"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'He' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3E_Q24",
@@ -2178,7 +2178,7 @@ window.TEST_DATA = {
             "D": "My  sister’s brother"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "La respuesta 'My father’s brother' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q25",
@@ -2194,7 +2194,7 @@ window.TEST_DATA = {
             "D": "The Mary’s the cat is here"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'Mary’s cat is here' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q26",
@@ -2210,7 +2210,7 @@ window.TEST_DATA = {
             "D": "their"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q27",
@@ -2226,7 +2226,7 @@ window.TEST_DATA = {
             "D": "The Mary’s the cat is here"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'Mary’s cat is here' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q28",
@@ -2242,7 +2242,7 @@ window.TEST_DATA = {
             "D": "mine"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q29",
@@ -2258,7 +2258,7 @@ window.TEST_DATA = {
             "D": "her"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'yours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q30",
@@ -2274,7 +2274,7 @@ window.TEST_DATA = {
             "D": "sister’s mum"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'mum’s sister' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q31",
@@ -2290,7 +2290,7 @@ window.TEST_DATA = {
             "D": "their"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q32",
@@ -2306,7 +2306,7 @@ window.TEST_DATA = {
             "D": "childs’ woman"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'woman’s child' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q33",
@@ -2322,7 +2322,7 @@ window.TEST_DATA = {
             "D": "the son’s mother"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "La respuesta 'mother’s son' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q34",
@@ -2338,7 +2338,7 @@ window.TEST_DATA = {
             "D": "Mine"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'Mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q35",
@@ -2354,7 +2354,7 @@ window.TEST_DATA = {
             "D": "yours"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'yours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q36",
@@ -2370,7 +2370,7 @@ window.TEST_DATA = {
             "D": "his"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q37",
@@ -2386,7 +2386,7 @@ window.TEST_DATA = {
             "D": "my"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'my' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q38",
@@ -2402,7 +2402,7 @@ window.TEST_DATA = {
             "D": "ours"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q39",
@@ -2418,7 +2418,7 @@ window.TEST_DATA = {
             "D": "she"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q40",
@@ -2434,7 +2434,7 @@ window.TEST_DATA = {
             "D": "Browns"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "La respuesta 'The Browns’' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q41",
@@ -2450,7 +2450,7 @@ window.TEST_DATA = {
             "D": "ours"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q42",
@@ -2466,7 +2466,7 @@ window.TEST_DATA = {
             "D": "mine"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "'their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q43",
@@ -2482,7 +2482,7 @@ window.TEST_DATA = {
             "D": "one"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q44",
@@ -2498,7 +2498,7 @@ window.TEST_DATA = {
             "D": "my / yours"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'mine / yours' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q45",
@@ -2514,7 +2514,7 @@ window.TEST_DATA = {
             "D": "The computer’s Richard"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'Richard’s computer' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q46",
@@ -2530,7 +2530,7 @@ window.TEST_DATA = {
             "D": "the women’s the"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'the women’s' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q47",
@@ -2546,7 +2546,7 @@ window.TEST_DATA = {
             "D": "Yours"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'Our' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q48",
@@ -2562,7 +2562,7 @@ window.TEST_DATA = {
             "D": "Linda’s the car"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "La respuesta 'Linda’s car' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q49",
@@ -2578,7 +2578,7 @@ window.TEST_DATA = {
             "D": "the children’s  toys"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "La respuesta 'children’s toys' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q50",
@@ -2594,7 +2594,7 @@ window.TEST_DATA = {
             "D": "its"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q51",
@@ -2610,7 +2610,7 @@ window.TEST_DATA = {
             "D": "Door’s the kitchen"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "La respuesta 'The door of the kitchen' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q52",
@@ -2626,7 +2626,7 @@ window.TEST_DATA = {
             "D": "I"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'yours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q53",
@@ -2642,7 +2642,7 @@ window.TEST_DATA = {
             "D": "balls’ boys"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "La respuesta 'boy’s ball' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q54",
@@ -2658,7 +2658,7 @@ window.TEST_DATA = {
             "D": "friend’s the son"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'son’s friend' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q55",
@@ -2674,7 +2674,7 @@ window.TEST_DATA = {
             "D": "hers / hers                        The house isn’t (1) __________, it is (2) __________. She is a girl, (3)  __________ name is Helen. She goes (4) __________ every morning. She (5)  __________ a lot of friends in the town. Peter and Helen are doctors. (6)  __________ friends are doctors too. Is that (7) __________ new house? No, (8)  __________ isn’t. A sister of (9) __________ is in the restaurant now. (10)  __________ name is George."
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "La respuesta 'her / hers' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q56",
@@ -2690,7 +2690,7 @@ window.TEST_DATA = {
             "D": "it"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'yours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q57",
@@ -2706,7 +2706,7 @@ window.TEST_DATA = {
             "D": "yourself"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q58",
@@ -2722,7 +2722,7 @@ window.TEST_DATA = {
             "D": "His"
           },
           "answer": "C",
-          "explanation": "Tema 3 Extra: Opción correcta: C."
+          "explanation": "'Her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q59",
@@ -2738,7 +2738,7 @@ window.TEST_DATA = {
             "D": "Theirs"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'Their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q60",
@@ -2754,7 +2754,7 @@ window.TEST_DATA = {
             "D": "her"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'your' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q61",
@@ -2770,7 +2770,7 @@ window.TEST_DATA = {
             "D": "it"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'it' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3E_Q62",
@@ -2786,7 +2786,7 @@ window.TEST_DATA = {
             "D": "my"
           },
           "answer": "A",
-          "explanation": "Tema 3 Extra: Opción correcta: A."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q63",
@@ -2802,7 +2802,7 @@ window.TEST_DATA = {
             "D": "his    How long did it take (1) __________ to finish (2) __________ exercises? A friend  of (3) __________ told me [...] because it takes (10) __________ one hour to get  to the centre of the town."
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "La respuesta 'his    How long did it take (1) __________ to finish (2) __________ exercises? A friend  of (3) __________ told me [...] because it takes (10) __________ one hour to get  to the centre of the town.' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q64",
@@ -2818,7 +2818,7 @@ window.TEST_DATA = {
             "D": "him"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'him' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q65",
@@ -2834,7 +2834,7 @@ window.TEST_DATA = {
             "D": "his"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q66",
@@ -2850,7 +2850,7 @@ window.TEST_DATA = {
             "D": "me"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q67",
@@ -2866,7 +2866,7 @@ window.TEST_DATA = {
             "D": "him                        George [...] is packing his clothes in (6) __________ bedroom. [...] Mary, (9)  __________ sister [...] with him too."
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "La respuesta 'him                        George [...] is packing his clothes in (6) __________ bedroom. [...] Mary, (9)  __________ sister [...] with him too.' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q68",
@@ -2882,7 +2882,7 @@ window.TEST_DATA = {
             "D": "his"
           },
           "answer": "D",
-          "explanation": "Tema 3 Extra: Opción correcta: D."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q69",
@@ -2898,7 +2898,7 @@ window.TEST_DATA = {
             "D": "yourself"
           },
           "answer": "B",
-          "explanation": "Tema 3 Extra: Opción correcta: B."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q70",
@@ -2907,7 +2907,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "I am Peter. __________ name is Peter.",
           "answer": "My",
-          "explanation": "Respuesta correcta: 'My'."
+          "explanation": "'My' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q71",
@@ -2916,7 +2916,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "Jane and Margaret are friends. __________ parents live in Canada.",
           "answer": "Their",
-          "explanation": "Respuesta correcta: 'Their'."
+          "explanation": "'Their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q72",
@@ -2925,7 +2925,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "This is a bottle of wine. __________ label is green.",
           "answer": "Its",
-          "explanation": "Respuesta correcta: 'Its'."
+          "explanation": "'Its' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q73",
@@ -2934,7 +2934,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "My teacher is very nice. __________ wife is a doctor.",
           "answer": "His",
-          "explanation": "Respuesta correcta: 'His'."
+          "explanation": "'His' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q74",
@@ -2943,7 +2943,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "Harry has got a blue pencil. __________ pencil is blue.    PRONOMBRES POSESIVOS — COMPLETION",
           "answer": "His",
-          "explanation": "Respuesta correcta: 'His'."
+          "explanation": "'His' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q75",
@@ -2952,7 +2952,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "Peter is at home, that car isn’t __________.",
           "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q76",
@@ -2961,7 +2961,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "No, that notebook isn’t __________, it is hers.",
           "answer": "mine",
-          "explanation": "Respuesta correcta: 'mine'."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q77",
@@ -2970,7 +2970,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "This is John’s cat. The cat is __________.",
           "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q78",
@@ -2979,7 +2979,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "My sister and I have got a computer. The computer is __________.",
           "answer": "ours",
-          "explanation": "Respuesta correcta: 'ours'."
+          "explanation": "'ours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "T3E_Q79",
@@ -2988,7 +2988,7 @@ window.TEST_DATA = {
           "section": "Completion - Posesivos",
           "question": "Jane is in Madrid but __________ mother is in Málaga.    Exercise 1 — him / her / them",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q80",
@@ -2997,7 +2997,7 @@ window.TEST_DATA = {
           "section": "Completion - him / her / them",
           "question": "I don’t know those girls. Do you know __________?",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q81",
@@ -3006,7 +3006,7 @@ window.TEST_DATA = {
           "section": "Completion - him / her / them",
           "question": "I don’t know that man. Do you know __________?",
           "answer": "him",
-          "explanation": "Respuesta correcta: 'him'."
+          "explanation": "'him' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q82",
@@ -3015,7 +3015,7 @@ window.TEST_DATA = {
           "section": "Completion - him / her / them",
           "question": "I don’t know those people. Do you know __________?",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q83",
@@ -3024,7 +3024,7 @@ window.TEST_DATA = {
           "section": "Completion - him / her / them",
           "question": "I don’t know David’s wife. Do you know __________?",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q84",
@@ -3033,7 +3033,7 @@ window.TEST_DATA = {
           "section": "Completion - him / her / them",
           "question": "I don’t know Mr Stevens. Do you know __________?",
           "answer": "him",
-          "explanation": "Respuesta correcta: 'him'."
+          "explanation": "'him' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q85",
@@ -3042,7 +3042,7 @@ window.TEST_DATA = {
           "section": "Completion - him / her / them",
           "question": "I don’t know Sara’s parents. Do you know __________?",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q86",
@@ -3051,7 +3051,7 @@ window.TEST_DATA = {
           "section": "Completion - him / her / them",
           "question": "I don’t know the woman with the black coat. Do you know __________?                        Exercise 2 — pronombres objeto",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q87",
@@ -3060,7 +3060,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres objeto",
           "question": "I don’t eat tomatoes. I don’t like __________.",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q88",
@@ -3069,7 +3069,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres objeto",
           "question": "George is a very nice man. I like __________.",
           "answer": "him",
-          "explanation": "Respuesta correcta: 'him'."
+          "explanation": "'him' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q89",
@@ -3078,7 +3078,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres objeto",
           "question": "This jacket isn’t very nice. I don’t like __________.",
           "answer": "it",
-          "explanation": "Respuesta correcta: 'it'."
+          "explanation": "'it' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3E_Q90",
@@ -3087,7 +3087,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres objeto",
           "question": "This is my new car. Do you like __________?",
           "answer": "it",
-          "explanation": "Respuesta correcta: 'it'."
+          "explanation": "'it' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3E_Q91",
@@ -3096,7 +3096,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres objeto",
           "question": "Mrs Clark is not very friendly. I don’t like __________.",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q92",
@@ -3105,7 +3105,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres objeto",
           "question": "These are my new shoes. Do you like __________?    Exercise 3 — sujeto u objeto",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q93",
@@ -3114,7 +3114,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "Who is that woman? Why are you looking at __________?",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q94",
@@ -3123,7 +3123,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "Do you know that man? Yes, I work with __________.",
           "answer": "him",
-          "explanation": "Respuesta correcta: 'him'."
+          "explanation": "'him' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q95",
@@ -3132,7 +3132,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "Where are the tickets? I can’t find __________.",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q96",
@@ -3141,7 +3141,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "I can’t find my keys. Where are __________?",
           "answer": "they",
-          "explanation": "Respuesta correcta: 'they'."
+          "explanation": "'they' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3E_Q97",
@@ -3150,7 +3150,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "We are going out, you can come with __________.",
           "answer": "us",
-          "explanation": "Respuesta correcta: 'us'."
+          "explanation": "'us' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q98",
@@ -3159,7 +3159,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "Margaret likes music. __________ plays the piano.",
           "answer": "She",
-          "explanation": "Respuesta correcta: 'She'."
+          "explanation": "'She' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "T3E_Q99",
@@ -3168,7 +3168,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "I don’t like dogs. I’m afraid of __________.",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q100",
@@ -3177,7 +3177,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "I’m talking to you, please listen to __________.",
           "answer": "me",
-          "explanation": "Respuesta correcta: 'me'."
+          "explanation": "'me' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q101",
@@ -3186,7 +3186,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "Where’s Ann? I want to talk to __________.",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "T3E_Q102",
@@ -3195,7 +3195,7 @@ window.TEST_DATA = {
           "section": "Completion - Sujeto u objeto",
           "question": "My brother has a new job. __________ doesn’t like __________ very  much.    Exercise 1 — reflexivo o recíproco",
           "answer": "He / it",
-          "explanation": "Respuesta correcta: 'He / it'."
+          "explanation": "La respuesta 'He / it' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q103",
@@ -3204,7 +3204,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "Did you enjoy __________ last night?",
           "answer": "yourself",
-          "explanation": "Respuesta correcta: 'yourself'."
+          "explanation": "'yourself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q104",
@@ -3213,7 +3213,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "She has accustomed __________ to that food.",
           "answer": "herself",
-          "explanation": "Respuesta correcta: 'herself'."
+          "explanation": "'herself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q105",
@@ -3231,7 +3231,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "Mary and Tom wrote to __________ for a long time.",
           "answer": "each other",
-          "explanation": "Respuesta correcta: 'each other'."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q107",
@@ -3240,7 +3240,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "Did you do it __________?",
           "answer": "yourself",
-          "explanation": "Respuesta correcta: 'yourself'."
+          "explanation": "'yourself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q108",
@@ -3249,7 +3249,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "He looked at __________ in the mirror.",
           "answer": "himself",
-          "explanation": "Respuesta correcta: 'himself'."
+          "explanation": "'himself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q109",
@@ -3258,7 +3258,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "George and Mary had an accident and hurt __________.",
           "answer": "themselves",
-          "explanation": "Respuesta correcta: 'themselves'."
+          "explanation": "'themselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q110",
@@ -3276,7 +3276,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "My son and my daughter are very fond of __________.",
           "answer": "each other",
-          "explanation": "Respuesta correcta: 'each other'."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q112",
@@ -3285,7 +3285,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo o recíproco",
           "question": "That girl never controls __________.    Exercise 2 — reflexivo / recíproco / objeto",
           "answer": "herself",
-          "explanation": "Respuesta correcta: 'herself'."
+          "explanation": "'herself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q113",
@@ -3294,7 +3294,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "Paul and I live near __________.",
           "answer": "each other",
-          "explanation": "Respuesta correcta: 'each other'."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q114",
@@ -3303,7 +3303,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "Who are those people? Do you know __________?",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q115",
@@ -3312,7 +3312,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "You can help Tom and Tom can help you. So you and Tom can help  __________.",
           "answer": "each other",
-          "explanation": "Respuesta correcta: 'each other'."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q116",
@@ -3321,7 +3321,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "There’s food in the kitchen. If you and Chris are hungry, you can help  __________.",
           "answer": "yourselves",
-          "explanation": "Respuesta correcta: 'yourselves'."
+          "explanation": "'yourselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q117",
@@ -3330,7 +3330,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "We didn’t go to Ann’s party. She didn’t invite __________.",
           "answer": "us",
-          "explanation": "Respuesta correcta: 'us'."
+          "explanation": "'us' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q118",
@@ -3339,7 +3339,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "When we go on holiday, we always enjoy __________.",
           "answer": "ourselves",
-          "explanation": "Respuesta correcta: 'ourselves'."
+          "explanation": "'ourselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q119",
@@ -3348,7 +3348,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "Mary and Jane were at school together but they never see __________  now.",
           "answer": "each other",
-          "explanation": "Respuesta correcta: 'each other'."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q120",
@@ -3357,7 +3357,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "Diane and I are very good friends. We’ve known __________ for a long  time.",
           "answer": "each other",
-          "explanation": "Respuesta correcta: 'each other'."
+          "explanation": "La respuesta 'each other' completa correctamente el enunciado según la gramática y el vocabulario evaluados en tema 3 extra."
         },
         {
           "id": "T3E_Q121",
@@ -3366,7 +3366,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "“Did you see David and Diane at the party?” “Yes, but I didn’t speak to  __________.”",
           "answer": "them",
-          "explanation": "Respuesta correcta: 'them'."
+          "explanation": "'them' es pronombre objeto porque aparece detrás del verbo o de una preposición."
         },
         {
           "id": "T3E_Q122",
@@ -3375,7 +3375,7 @@ window.TEST_DATA = {
           "section": "Completion - Reflexivo / Recíproco / Objeto",
           "question": "Many people talk to __________ when they’re alone.    Exercise 3 — reflexivos",
           "answer": "themselves",
-          "explanation": "Respuesta correcta: 'themselves'."
+          "explanation": "'themselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q123",
@@ -3384,7 +3384,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "He looked at __________ in the mirror.",
           "answer": "himself",
-          "explanation": "Respuesta correcta: 'himself'."
+          "explanation": "'himself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q124",
@@ -3393,7 +3393,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "I’m not angry with you. I’m angry with __________.",
           "answer": "myself",
-          "explanation": "Respuesta correcta: 'myself'."
+          "explanation": "'myself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q125",
@@ -3402,7 +3402,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "Margaret had a nice time in London. She enjoyed __________.",
           "answer": "herself",
-          "explanation": "Respuesta correcta: 'herself'."
+          "explanation": "'herself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q126",
@@ -3411,7 +3411,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "My friends had a nice time in London. They enjoyed __________.",
           "answer": "themselves",
-          "explanation": "Respuesta correcta: 'themselves'."
+          "explanation": "'themselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q127",
@@ -3420,7 +3420,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "I picked up a very hot plate and burnt __________.",
           "answer": "myself",
-          "explanation": "Respuesta correcta: 'myself'."
+          "explanation": "'myself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q128",
@@ -3429,7 +3429,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "He never thinks about other people. He only thinks about __________.",
           "answer": "himself",
-          "explanation": "Respuesta correcta: 'himself'."
+          "explanation": "'himself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q129",
@@ -3438,7 +3438,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "I want to know more about you. Tell me about __________. (one person)",
           "answer": "yourself",
-          "explanation": "Respuesta correcta: 'yourself'."
+          "explanation": "'yourself' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         },
         {
           "id": "T3E_Q130",
@@ -3447,7 +3447,7 @@ window.TEST_DATA = {
           "section": "Completion - Pronombres reflexivos",
           "question": "Goodbye! Have a nice holiday and look after __________! (two people)",
           "answer": "yourselves",
-          "explanation": "Respuesta correcta: 'yourselves'."
+          "explanation": "'yourselves' es el pronombre reflexivo correcto porque la acción recae sobre el mismo sujeto de la oración."
         }
       ],
       "blockId": "bloque_1",
@@ -3472,7 +3472,7 @@ window.TEST_DATA = {
             "D": "workeres"
           },
           "answer": "B",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: B."
+          "explanation": "'workers' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q2",
@@ -3487,7 +3487,7 @@ window.TEST_DATA = {
             "D": "buses"
           },
           "answer": "D",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: D."
+          "explanation": "'buses' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q3",
@@ -3502,7 +3502,7 @@ window.TEST_DATA = {
             "D": "cityes"
           },
           "answer": "A",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: A."
+          "explanation": "'cities' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q4",
@@ -3517,7 +3517,7 @@ window.TEST_DATA = {
             "D": "keyes"
           },
           "answer": "C",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: C."
+          "explanation": "'keys' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q5",
@@ -3532,7 +3532,7 @@ window.TEST_DATA = {
             "D": "photoies"
           },
           "answer": "B",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: B."
+          "explanation": "'photos' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q6",
@@ -3547,7 +3547,7 @@ window.TEST_DATA = {
             "D": "roofs"
           },
           "answer": "D",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: D."
+          "explanation": "'roofs' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q7",
@@ -3562,7 +3562,7 @@ window.TEST_DATA = {
             "D": "leaf's"
           },
           "answer": "A",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: A."
+          "explanation": "'leaves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q8",
@@ -3577,7 +3577,7 @@ window.TEST_DATA = {
             "D": "womanes"
           },
           "answer": "C",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: C."
+          "explanation": "'women' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "T4_Q9",
@@ -3592,7 +3592,7 @@ window.TEST_DATA = {
             "D": "childes"
           },
           "answer": "B",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: B."
+          "explanation": "'children' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "T4_Q10",
@@ -3607,7 +3607,7 @@ window.TEST_DATA = {
             "D": "feet"
           },
           "answer": "D",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: D."
+          "explanation": "'feet' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "T4_Q11",
@@ -3622,7 +3622,7 @@ window.TEST_DATA = {
             "D": "teethe"
           },
           "answer": "A",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: A."
+          "explanation": "'teeth' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "T4_Q12",
@@ -3637,7 +3637,7 @@ window.TEST_DATA = {
             "D": "mouse"
           },
           "answer": "C",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: C."
+          "explanation": "'mice' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "T4_Q13",
@@ -3652,7 +3652,7 @@ window.TEST_DATA = {
             "D": "die"
           },
           "answer": "B",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: B."
+          "explanation": "'dice' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q14",
@@ -3667,7 +3667,7 @@ window.TEST_DATA = {
             "D": "sheep"
           },
           "answer": "D",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: D."
+          "explanation": "'sheep' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "T4_Q15",
@@ -3682,7 +3682,7 @@ window.TEST_DATA = {
             "D": "deeres"
           },
           "answer": "A",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: A."
+          "explanation": "'deer' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q16",
@@ -3697,7 +3697,7 @@ window.TEST_DATA = {
             "D": "was"
           },
           "answer": "C",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: C."
+          "explanation": "'are' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q17",
@@ -3712,7 +3712,7 @@ window.TEST_DATA = {
             "D": "were"
           },
           "answer": "B",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: B."
+          "explanation": "'is' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q18",
@@ -3727,7 +3727,7 @@ window.TEST_DATA = {
             "D": "are"
           },
           "answer": "D",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: D."
+          "explanation": "'are' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q19",
@@ -3742,7 +3742,7 @@ window.TEST_DATA = {
             "D": "was"
           },
           "answer": "A",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: A."
+          "explanation": "'are' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q20",
@@ -3757,7 +3757,7 @@ window.TEST_DATA = {
             "D": "was"
           },
           "answer": "C",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: C."
+          "explanation": "'are' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q21",
@@ -3772,7 +3772,7 @@ window.TEST_DATA = {
             "D": "were"
           },
           "answer": "B",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: B."
+          "explanation": "'is' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q22",
@@ -3787,7 +3787,7 @@ window.TEST_DATA = {
             "D": "is"
           },
           "answer": "D",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: D."
+          "explanation": "'is' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q23",
@@ -3802,7 +3802,7 @@ window.TEST_DATA = {
             "D": "were"
           },
           "answer": "A",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: A."
+          "explanation": "'is' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q24",
@@ -3817,7 +3817,7 @@ window.TEST_DATA = {
             "D": "were"
           },
           "answer": "C",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: C."
+          "explanation": "'is' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q25",
@@ -3832,7 +3832,7 @@ window.TEST_DATA = {
             "D": "tomatoies"
           },
           "answer": "B",
-          "explanation": "Tema 4: Plural Nouns. Opción correcta: B."
+          "explanation": "'tomatoes' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "T4_Q26",
@@ -3847,7 +3847,7 @@ window.TEST_DATA = {
             "D": "That"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'Those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q27",
@@ -3862,7 +3862,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "B",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: B."
+          "explanation": "'that' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q28",
@@ -3877,7 +3877,7 @@ window.TEST_DATA = {
             "D": "These"
           },
           "answer": "D",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: D."
+          "explanation": "'These' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q29",
@@ -3892,7 +3892,7 @@ window.TEST_DATA = {
             "D": "that"
           },
           "answer": "B",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: B."
+          "explanation": "'those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q30",
@@ -3907,7 +3907,7 @@ window.TEST_DATA = {
             "D": "That"
           },
           "answer": "A",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: A."
+          "explanation": "'This' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q31",
@@ -3922,7 +3922,7 @@ window.TEST_DATA = {
             "D": "those"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'that' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q32",
@@ -3937,7 +3937,7 @@ window.TEST_DATA = {
             "D": "this"
           },
           "answer": "D",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: D."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q33",
@@ -3952,7 +3952,7 @@ window.TEST_DATA = {
             "D": "that"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q34",
@@ -3967,7 +3967,7 @@ window.TEST_DATA = {
             "D": "those"
           },
           "answer": "A",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: A."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q35",
@@ -3982,7 +3982,7 @@ window.TEST_DATA = {
             "D": "This"
           },
           "answer": "B",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: B."
+          "explanation": "'That' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q36",
@@ -3997,7 +3997,7 @@ window.TEST_DATA = {
             "D": "this"
           },
           "answer": "D",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: D."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q37",
@@ -4012,7 +4012,7 @@ window.TEST_DATA = {
             "D": "That"
           },
           "answer": "A",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: A."
+          "explanation": "'These' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q38",
@@ -4027,7 +4027,7 @@ window.TEST_DATA = {
             "D": "This"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'Those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q39",
@@ -4042,7 +4042,7 @@ window.TEST_DATA = {
             "D": "That"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'This' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q40",
@@ -4057,7 +4057,7 @@ window.TEST_DATA = {
             "D": "These"
           },
           "answer": "B",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: B."
+          "explanation": "'Those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q41",
@@ -4072,7 +4072,7 @@ window.TEST_DATA = {
             "D": "These"
           },
           "answer": "D",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: D."
+          "explanation": "'These' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q42",
@@ -4087,7 +4087,7 @@ window.TEST_DATA = {
             "D": "That"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'Those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q43",
@@ -4102,7 +4102,7 @@ window.TEST_DATA = {
             "D": "Those"
           },
           "answer": "A",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: A."
+          "explanation": "'That' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q44",
@@ -4117,7 +4117,7 @@ window.TEST_DATA = {
             "D": "that"
           },
           "answer": "B",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: B."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q45",
@@ -4132,7 +4132,7 @@ window.TEST_DATA = {
             "D": "This"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'Those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q46",
@@ -4147,7 +4147,7 @@ window.TEST_DATA = {
             "D": "That"
           },
           "answer": "A",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: A."
+          "explanation": "'This' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q47",
@@ -4162,7 +4162,7 @@ window.TEST_DATA = {
             "D": "This"
           },
           "answer": "D",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: D."
+          "explanation": "'This' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q48",
@@ -4177,7 +4177,7 @@ window.TEST_DATA = {
             "D": "Those"
           },
           "answer": "B",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: B."
+          "explanation": "'That' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q49",
@@ -4192,7 +4192,7 @@ window.TEST_DATA = {
             "D": "Those"
           },
           "answer": "C",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: C."
+          "explanation": "'These' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "T4_Q50",
@@ -4207,7 +4207,7 @@ window.TEST_DATA = {
             "D": "That"
           },
           "answer": "B",
-          "explanation": "Tema 4: Demonstratives. Opción correcta: B."
+          "explanation": "'Those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         }
       ],
       "blockId": "bloque_1",
@@ -4232,7 +4232,7 @@ window.TEST_DATA = {
             "D": "easiness"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'easy' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q2",
@@ -4247,7 +4247,7 @@ window.TEST_DATA = {
             "D": "easiness"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
+          "explanation": "'easily' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q3",
@@ -4262,7 +4262,7 @@ window.TEST_DATA = {
             "D": "goodly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'good' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q4",
@@ -4277,7 +4277,7 @@ window.TEST_DATA = {
             "D": "well"
           },
           "answer": "D",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: D."
+          "explanation": "'well' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q5",
@@ -4292,7 +4292,7 @@ window.TEST_DATA = {
             "D": "careless"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'carefully' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q6",
@@ -4307,7 +4307,7 @@ window.TEST_DATA = {
             "D": "carelessly"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
+          "explanation": "'careful' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q7",
@@ -4322,7 +4322,7 @@ window.TEST_DATA = {
             "D": "hardy"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'hard' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q8",
@@ -4337,7 +4337,7 @@ window.TEST_DATA = {
             "D": "hardy"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
+          "explanation": "'hardly' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q9",
@@ -4352,7 +4352,7 @@ window.TEST_DATA = {
             "D": "highness"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'high' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q10",
@@ -4367,7 +4367,7 @@ window.TEST_DATA = {
             "D": "highness"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'highly' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q11",
@@ -4382,7 +4382,7 @@ window.TEST_DATA = {
             "D": "friendship"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
+          "explanation": "'friendly' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q12",
@@ -4397,7 +4397,7 @@ window.TEST_DATA = {
             "D": "likelyly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'likely' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q13",
@@ -4412,7 +4412,7 @@ window.TEST_DATA = {
             "D": "completely"
           },
           "answer": "D",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: D."
+          "explanation": "'completely' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q14",
@@ -4427,7 +4427,7 @@ window.TEST_DATA = {
             "D": "nicer"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: C."
+          "explanation": "'nice' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q15",
@@ -4442,7 +4442,7 @@ window.TEST_DATA = {
             "D": "too"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives and Adverbs. Opción correcta: B."
+          "explanation": "'enough' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q16",
@@ -4457,7 +4457,7 @@ window.TEST_DATA = {
             "D": "interestingly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'interested' es correcto: los adjetivos acabados en '-ed' describen sentimiento/estado de una persona, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q17",
@@ -4472,7 +4472,7 @@ window.TEST_DATA = {
             "D": "interestingly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'interesting' es correcto: los adjetivos acabados en '-ed' describen cualidad de la cosa o situación que provoca la sensación, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q18",
@@ -4487,7 +4487,7 @@ window.TEST_DATA = {
             "D": "worriedly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'worried' es correcto: los adjetivos acabados en '-ed' describen sentimiento/estado de una persona, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q19",
@@ -4502,7 +4502,7 @@ window.TEST_DATA = {
             "D": "worriedly"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: B."
+          "explanation": "'worrying' es correcto: los adjetivos acabados en '-ed' describen cualidad de la cosa o situación que provoca la sensación, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q20",
@@ -4517,7 +4517,7 @@ window.TEST_DATA = {
             "D": "boringly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'bored' es correcto: los adjetivos acabados en '-ed' describen sentimiento/estado de una persona, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q21",
@@ -4532,7 +4532,7 @@ window.TEST_DATA = {
             "D": "boringly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'boring' es correcto: los adjetivos acabados en '-ed' describen cualidad de la cosa o situación que provoca la sensación, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q22",
@@ -4547,7 +4547,7 @@ window.TEST_DATA = {
             "D": "disappoint"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'disappointed' es correcto: los adjetivos acabados en '-ed' describen sentimiento/estado de una persona, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q23",
@@ -4562,7 +4562,7 @@ window.TEST_DATA = {
             "D": "disappointing"
           },
           "answer": "D",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: D."
+          "explanation": "'disappointing' es correcto: los adjetivos acabados en '-ed' describen cualidad de la cosa o situación que provoca la sensación, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q24",
@@ -4577,7 +4577,7 @@ window.TEST_DATA = {
             "D": "amaze"
           },
           "answer": "B",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: B."
+          "explanation": "'amazed' es correcto: los adjetivos acabados en '-ed' describen sentimiento/estado de una persona, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q25",
@@ -4592,7 +4592,7 @@ window.TEST_DATA = {
             "D": "amaze"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'amazing' es correcto: los adjetivos acabados en '-ed' describen cualidad de la cosa o situación que provoca la sensación, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q26",
@@ -4607,7 +4607,7 @@ window.TEST_DATA = {
             "D": "silencing"
           },
           "answer": "C",
-          "explanation": "Tema 5: Adjectives in -ed and -ing. Opción correcta: C."
+          "explanation": "'silence' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q27",
@@ -4622,7 +4622,7 @@ window.TEST_DATA = {
             "D": "silencing"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'silent' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q28",
@@ -4637,7 +4637,7 @@ window.TEST_DATA = {
             "D": "traditionalism"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'traditional' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q29",
@@ -4652,7 +4652,7 @@ window.TEST_DATA = {
             "D": "unhealthy"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'healthily' funciona aquí como adverbio modificando a un verbo, adjetivo u oración (recuerda excepciones como 'well' para 'good')."
         },
         {
           "id": "T5_Q30",
@@ -4667,7 +4667,7 @@ window.TEST_DATA = {
             "D": "popularity"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'populated' es correcto: los adjetivos acabados en '-ed' describen sentimiento/estado de una persona, mientras que '-ing' describe lo que causa el efecto."
         },
         {
           "id": "T5_Q31",
@@ -4682,7 +4682,7 @@ window.TEST_DATA = {
             "D": "safety"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
+          "explanation": "'safety' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q32",
@@ -4697,7 +4697,7 @@ window.TEST_DATA = {
             "D": "impossible"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'possibility' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q33",
@@ -4712,7 +4712,7 @@ window.TEST_DATA = {
             "D": "unsuccessful"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'success' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q34",
@@ -4727,7 +4727,7 @@ window.TEST_DATA = {
             "D": "decided"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'decision' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q35",
@@ -4742,7 +4742,7 @@ window.TEST_DATA = {
             "D": "improving"
           },
           "answer": "B",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: B."
+          "explanation": "'improvement' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q36",
@@ -4757,7 +4757,7 @@ window.TEST_DATA = {
             "D": "information"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
+          "explanation": "'information' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q37",
@@ -4772,7 +4772,7 @@ window.TEST_DATA = {
             "D": "environments"
           },
           "answer": "B",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: B."
+          "explanation": "'environmental' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q38",
@@ -4787,7 +4787,7 @@ window.TEST_DATA = {
             "D": "scientific"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
+          "explanation": "'scientific' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q39",
@@ -4802,7 +4802,7 @@ window.TEST_DATA = {
             "D": "attractively"
           },
           "answer": "C",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: C."
+          "explanation": "'attraction' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q40",
@@ -4817,7 +4817,7 @@ window.TEST_DATA = {
             "D": "effective"
           },
           "answer": "D",
-          "explanation": "Tema 5: Word Formation / Suffixes. Opción correcta: D."
+          "explanation": "'effective' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q41",
@@ -4832,7 +4832,7 @@ window.TEST_DATA = {
             "D": "irregularly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: C."
+          "explanation": "'irregular' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q42",
@@ -4847,7 +4847,7 @@ window.TEST_DATA = {
             "D": "illegally"
           },
           "answer": "B",
-          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: B."
+          "explanation": "'illegal' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q43",
@@ -4862,7 +4862,7 @@ window.TEST_DATA = {
             "D": "impossibly"
           },
           "answer": "C",
-          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: C."
+          "explanation": "'impossible' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q44",
@@ -4877,7 +4877,7 @@ window.TEST_DATA = {
             "D": "dishonest"
           },
           "answer": "D",
-          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: D."
+          "explanation": "'dishonest' cumple la categoría gramatical (adjetivo/adverbio/formación de palabra) exigida por la posición en la frase."
         },
         {
           "id": "T5_Q45",
@@ -4892,7 +4892,7 @@ window.TEST_DATA = {
             "D": "self-employing"
           },
           "answer": "B",
-          "explanation": "Tema 5: Prefixes and Meaning. Opción correcta: B."
+          "explanation": "'self-employed' es correcto: los adjetivos acabados en '-ed' describen sentimiento/estado de una persona, mientras que '-ing' describe lo que causa el efecto."
         }
       ],
       "blockId": "bloque_1",
@@ -5961,7 +5961,7 @@ window.TEST_DATA = {
             "D": "Calfes"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'Calves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q2",
@@ -5976,7 +5976,7 @@ window.TEST_DATA = {
             "D": "Childss"
           },
           "answer": "C",
-          "explanation": "Plurales en inglés. Solución correcta: opción C."
+          "explanation": "'Children' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q3",
@@ -5991,7 +5991,7 @@ window.TEST_DATA = {
             "D": "Crissess"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Crises' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q4",
@@ -6006,7 +6006,7 @@ window.TEST_DATA = {
             "D": "Dias"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'Dice' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q5",
@@ -6021,7 +6021,7 @@ window.TEST_DATA = {
             "D": "Dwarf"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Dwarves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q6",
@@ -6036,7 +6036,7 @@ window.TEST_DATA = {
             "D": "ELfess"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Elves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q7",
@@ -6051,7 +6051,7 @@ window.TEST_DATA = {
             "D": "Fishsh"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Fish' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q8",
@@ -6066,7 +6066,7 @@ window.TEST_DATA = {
             "D": "Feet"
           },
           "answer": "D",
-          "explanation": "Plurales en inglés. Solución correcta: opción D."
+          "explanation": "'Feet' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q9",
@@ -6081,7 +6081,7 @@ window.TEST_DATA = {
             "D": "Gentlemans"
           },
           "answer": "C",
-          "explanation": "Plurales en inglés. Solución correcta: opción C."
+          "explanation": "'Gentlemen' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q10",
@@ -6096,7 +6096,7 @@ window.TEST_DATA = {
             "D": "Geese"
           },
           "answer": "D",
-          "explanation": "Plurales en inglés. Solución correcta: opción D."
+          "explanation": "'Geese' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q11",
@@ -6111,7 +6111,7 @@ window.TEST_DATA = {
             "D": "Halfes"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Halves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q12",
@@ -6126,7 +6126,7 @@ window.TEST_DATA = {
             "D": "Hipotheses"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Hypotheses' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q13",
@@ -6141,7 +6141,7 @@ window.TEST_DATA = {
             "D": "knifeves"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'knives' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q14",
@@ -6156,7 +6156,7 @@ window.TEST_DATA = {
             "D": "leafeves"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'leaves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q15",
@@ -6171,7 +6171,7 @@ window.TEST_DATA = {
             "D": "live"
           },
           "answer": "D",
-          "explanation": "Plurales en inglés. Solución correcta: opción D."
+          "explanation": "'live' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q16",
@@ -6186,7 +6186,7 @@ window.TEST_DATA = {
             "D": "loaveses"
           },
           "answer": "C",
-          "explanation": "Plurales en inglés. Solución correcta: opción C."
+          "explanation": "'loaves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q17",
@@ -6201,7 +6201,7 @@ window.TEST_DATA = {
             "D": "manes"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'men' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q18",
@@ -6216,7 +6216,7 @@ window.TEST_DATA = {
             "D": "meaneses"
           },
           "answer": "C",
-          "explanation": "Plurales en inglés. Solución correcta: opción C."
+          "explanation": "'means' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q19",
@@ -6231,7 +6231,7 @@ window.TEST_DATA = {
             "D": "Mouses"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Mice' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q20",
@@ -6246,7 +6246,7 @@ window.TEST_DATA = {
             "D": "Oxeses"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'Oxen' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q21",
@@ -6261,7 +6261,7 @@ window.TEST_DATA = {
             "D": "parentheses"
           },
           "answer": "D",
-          "explanation": "Plurales en inglés. Solución correcta: opción D."
+          "explanation": "'parentheses' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q22",
@@ -6276,7 +6276,7 @@ window.TEST_DATA = {
             "D": "People"
           },
           "answer": "D",
-          "explanation": "Plurales en inglés. Solución correcta: opción D."
+          "explanation": "'People' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q23",
@@ -6291,7 +6291,7 @@ window.TEST_DATA = {
             "D": "Quizess"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'Quizzes' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q24",
@@ -6306,7 +6306,7 @@ window.TEST_DATA = {
             "D": "skarves"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'scarves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q25",
@@ -6321,7 +6321,7 @@ window.TEST_DATA = {
             "D": "ship"
           },
           "answer": "C",
-          "explanation": "Plurales en inglés. Solución correcta: opción C."
+          "explanation": "'sheep' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q26",
@@ -6336,7 +6336,7 @@ window.TEST_DATA = {
             "D": "shelves"
           },
           "answer": "D",
-          "explanation": "Plurales en inglés. Solución correcta: opción D."
+          "explanation": "'shelves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q27",
@@ -6351,7 +6351,7 @@ window.TEST_DATA = {
             "D": "synopsess"
           },
           "answer": "A",
-          "explanation": "Plurales en inglés. Solución correcta: opción A."
+          "explanation": "'synopses' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q28",
@@ -6366,7 +6366,7 @@ window.TEST_DATA = {
             "D": "thieves"
           },
           "answer": "D",
-          "explanation": "Plurales en inglés. Solución correcta: opción D."
+          "explanation": "'thieves' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_PLUR_Q29",
@@ -6381,7 +6381,7 @@ window.TEST_DATA = {
             "D": "toothes"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'teeth' es un plural irregular obligatorio en inglés (no admite añadir '-s' regular)."
         },
         {
           "id": "B1_PLUR_Q30",
@@ -6396,7 +6396,7 @@ window.TEST_DATA = {
             "D": "wifeses"
           },
           "answer": "B",
-          "explanation": "Plurales en inglés. Solución correcta: opción B."
+          "explanation": "'wives' sigue las reglas de pluralización del inglés (-s, -es tras s/sh/ch/x/o, -ies tras consonante+y, o plural irregular)."
         },
         {
           "id": "B1_DEMO_Q1",
@@ -6411,7 +6411,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "A",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q2",
@@ -6426,7 +6426,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "C",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+          "explanation": "'those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q3",
@@ -6441,7 +6441,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "B",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: B."
+          "explanation": "'that' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q4",
@@ -6456,7 +6456,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "D",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q5",
@@ -6471,7 +6471,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "A",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q6",
@@ -6486,7 +6486,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "C",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+          "explanation": "'those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q7",
@@ -6501,7 +6501,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "A",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q8",
@@ -6516,7 +6516,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "D",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q9",
@@ -6531,7 +6531,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "D",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q10",
@@ -6546,7 +6546,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "D",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q11",
@@ -6561,7 +6561,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "D",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q12",
@@ -6576,7 +6576,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "A",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q13",
@@ -6591,7 +6591,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "D",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q14",
@@ -6606,7 +6606,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "D",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: D."
+          "explanation": "'these' es el demostrativo correcto para plural y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q15",
@@ -6621,7 +6621,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "A",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q16",
@@ -6636,7 +6636,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "C",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+          "explanation": "'those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q17",
@@ -6651,7 +6651,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "A",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: A."
+          "explanation": "'this' es el demostrativo correcto para singular y cercanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q18",
@@ -6666,7 +6666,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "B",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: B."
+          "explanation": "'that' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q19",
@@ -6681,7 +6681,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "B",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: B."
+          "explanation": "'that' es el demostrativo correcto para singular y lejanía, concordando en número con el sustantivo y el verbo."
         },
         {
           "id": "B1_DEMO_Q20",
@@ -6696,7 +6696,7 @@ window.TEST_DATA = {
             "D": "these"
           },
           "answer": "C",
-          "explanation": "Demostrativos (cercanía vs lejanía / singular vs plural). Opción correcta: C."
+          "explanation": "'those' es el demostrativo correcto para plural y lejanía, concordando en número con el sustantivo y el verbo."
         }
       ],
       "blockId": "repaso_b1",
@@ -6716,12 +6716,12 @@ window.TEST_DATA = {
           "question": "______ name is Charlie.",
           "options": {
             "A": "Yours",
-            "B": "My",
+            "B": "MyC) I",
             "C": "I",
             "D": "Mine"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B. Consejo: En este tipo de ejercicios, donde sabemos que tenemos que poner un pronombre. Nos fijamos qué tipo de palabra está delante o detrás del hueco a rellenar. En este caso tenemos “ name ”, name es un sustantivo. Como vimos anteriormente, delante de un sustantivo tiene que ir un pronombre de la segunda columna. Por lo tanto la respuesta correcta solo puede ser la “B”."
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B. Consejo: En este tipo de ejercicios, donde sabemos que tenemos que poner unpronombre. Nos fijamos qué tipo de palabra está delante o detrás del hueco arellenar. En este caso tenemos “name”, name es unsustantivo. Como vimosanteriormente, delante de un sustantivo tiene que ir un pronombre de lasegunda columna. Por lo tanto la respuesta correcta solo puede ser la “B”."
         },
         {
           "id": "B1_PRON_Q2",
@@ -6732,11 +6732,11 @@ window.TEST_DATA = {
           "options": {
             "A": "she",
             "B": "you",
-            "C": "your",
+            "C": "yourB) you",
             "D": "yours"
           },
           "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+          "explanation": "La respuesta 'yourB) you' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q3",
@@ -6747,11 +6747,11 @@ window.TEST_DATA = {
           "options": {
             "A": "it",
             "B": "its",
-            "C": "I",
+            "C": "IB) its",
             "D": "his"
           },
           "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "'it' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "B1_PRON_Q4",
@@ -6762,11 +6762,11 @@ window.TEST_DATA = {
           "options": {
             "A": "I",
             "B": "mine",
-            "C": "my",
+            "C": "myB) mine",
             "D": "me"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "B1_PRON_Q5",
@@ -6777,11 +6777,11 @@ window.TEST_DATA = {
           "options": {
             "A": "his",
             "B": "yours",
-            "C": "hers",
+            "C": "hersB) yours",
             "D": "he"
           },
           "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q6",
@@ -6792,11 +6792,11 @@ window.TEST_DATA = {
           "options": {
             "A": "her",
             "B": "hers",
-            "C": "my",
+            "C": "myB) hers",
             "D": ""
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'hers' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "B1_PRON_Q7",
@@ -6807,11 +6807,11 @@ window.TEST_DATA = {
           "options": {
             "A": "her",
             "B": "yours",
-            "C": "my",
+            "C": "myB) yours",
             "D": "his"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'yours' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "B1_PRON_Q8",
@@ -6822,11 +6822,11 @@ window.TEST_DATA = {
           "options": {
             "A": "my",
             "B": "their",
-            "C": "your",
+            "C": "yourB) their",
             "D": "mine"
           },
           "answer": "D",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
+          "explanation": "'mine' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "B1_PRON_Q9",
@@ -6837,11 +6837,11 @@ window.TEST_DATA = {
           "options": {
             "A": "Our",
             "B": "Their",
-            "C": "His",
+            "C": "HisB) Their",
             "D": "Her"
           },
           "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+          "explanation": "La respuesta 'HisB) Their' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q10",
@@ -6852,11 +6852,11 @@ window.TEST_DATA = {
           "options": {
             "A": "its",
             "B": "ours",
-            "C": "my",
+            "C": "myB) ours",
             "D": "theirs"
           },
           "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+          "explanation": "La respuesta 'myB) ours' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q11",
@@ -6867,11 +6867,11 @@ window.TEST_DATA = {
           "options": {
             "A": "ours",
             "B": "theirs",
-            "C": "their",
+            "C": "theirB) theirs",
             "D": "they"
           },
           "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+          "explanation": "La respuesta 'theirB) theirs' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q12",
@@ -6882,11 +6882,11 @@ window.TEST_DATA = {
           "options": {
             "A": "my",
             "B": "your",
-            "C": "his",
+            "C": "hisB) your",
             "D": "her"
           },
           "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+          "explanation": "La respuesta 'hisB) your' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q13",
@@ -6897,11 +6897,11 @@ window.TEST_DATA = {
           "options": {
             "A": "her",
             "B": "mine",
-            "C": "hers",
+            "C": "hersB) mine",
             "D": "theirs"
           },
           "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q14",
@@ -6912,11 +6912,11 @@ window.TEST_DATA = {
           "options": {
             "A": "yours",
             "B": "our",
-            "C": "we",
+            "C": "weB) our",
             "D": ""
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'our' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q15",
@@ -6927,11 +6927,11 @@ window.TEST_DATA = {
           "options": {
             "A": "my",
             "B": "me",
-            "C": "I",
+            "C": "IB) me",
             "D": "mine"
           },
           "answer": "D",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la segunda columna ya que el hueco está delante del verbo “is”. Sin embargo, por regla general, detrás de la preposición “of” hay que utilizar la 3ª columna."
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar quedebemos de coger un pronombre de la segunda columna ya que el hueco estádelante del verbo “is”. Sin embargo, por regla general, detrás de la preposición“of” hay que utilizar la 3ª columna."
         },
         {
           "id": "B1_PRON_Q16",
@@ -6942,11 +6942,11 @@ window.TEST_DATA = {
           "options": {
             "A": "their",
             "B": "hers",
-            "C": "mine",
+            "C": "mineB) hers",
             "D": "theirs"
           },
           "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "'their' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q17",
@@ -6957,11 +6957,11 @@ window.TEST_DATA = {
           "options": {
             "A": "It",
             "B": "Its",
-            "C": "It’s",
+            "C": "It’sB) Its",
             "D": "Our"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'Its' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q18",
@@ -6972,11 +6972,11 @@ window.TEST_DATA = {
           "options": {
             "A": "you",
             "B": "I",
-            "C": "mine",
+            "C": "mineB) I",
             "D": "yours"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'I' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "B1_PRON_Q19",
@@ -6987,11 +6987,11 @@ window.TEST_DATA = {
           "options": {
             "A": "my",
             "B": "hers",
-            "C": "she",
+            "C": "sheB) hers",
             "D": "his"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'hers' es pronombre posesivo (sustituye al sustantivo y va sin nombre detrás; evita repetir el objeto)."
         },
         {
           "id": "B1_PRON_Q20",
@@ -7002,11 +7002,11 @@ window.TEST_DATA = {
           "options": {
             "A": "My",
             "B": "His",
-            "C": "They",
+            "C": "TheyB) His",
             "D": "Their"
           },
           "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
+          "explanation": "La respuesta 'TheyB) His' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q21",
@@ -7017,11 +7017,11 @@ window.TEST_DATA = {
           "options": {
             "A": "my",
             "B": "hers",
-            "C": "she",
+            "C": "sheB) hers",
             "D": ""
           },
           "answer": "D",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: D."
+          "explanation": "La respuesta '' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q22",
@@ -7030,13 +7030,13 @@ window.TEST_DATA = {
           "section": "Pronombres Personales y Posesivos",
           "question": "Paul and ______ go to school.",
           "options": {
-            "A": "I",
-            "B": "mine",
-            "C": "my",
+            "A": "Ib) minec) myd) our",
+            "B": "minec) myd) our",
+            "C": "myd) our",
             "D": "our"
           },
           "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "La respuesta 'Ib) minec) myd) our' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q23",
@@ -7047,11 +7047,11 @@ window.TEST_DATA = {
           "options": {
             "A": "it’s",
             "B": "its",
-            "C": "it",
+            "C": "itB) its",
             "D": "his"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'its' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q24",
@@ -7062,11 +7062,11 @@ window.TEST_DATA = {
           "options": {
             "A": "hers",
             "B": "her",
-            "C": "his",
+            "C": "hisB) her",
             "D": "its"
           },
           "answer": "B",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: B."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q25",
@@ -7077,26 +7077,11 @@ window.TEST_DATA = {
           "options": {
             "A": "He",
             "B": "him",
-            "C": "his",
+            "C": "hisB) him",
             "D": "I"
           },
           "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar que debemos de coger un pronombre de la tercera columna ya que el hueco está detrás del verbo “is” y al final de la frase. Sin embargo, es una pregunta y por tanto una de las excepciones de la regla de la primera columna. Para este tipo de preguntas traducir ayudará mucho, Who is he? Quién es él. Más adelante explicaremos cómo se formulan las preguntas en inglés y lo verás con más claridad."
-        },
-        {
-          "id": "B1_PRON_Q26",
-          "number": 26,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Helen has got ______ money in that bank, but all the money isn’t ______",
-          "options": {
-            "A": "her / hers",
-            "B": "her / her",
-            "C": "hers / her",
-            "D": "hers / hers"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A. Consejo: Esta pregunta puede ser confusa. Podríamos llegar a pensar quedebemos de coger un pronombre de la tercera columna ya que el hueco estádetrás del verbo “is” y al final de la frase. Sin embargo, es una pregunta y portanto una de las excepciones de la regla de la primera columna. Para este tipode preguntas traducir ayudará mucho, Who is he? Quién es él. Más adelanteexplicaremos cómo se formulan las preguntas en inglés y lo verás con másclaridad."
         },
         {
           "id": "B1_PRON_Q27",
@@ -7107,41 +7092,11 @@ window.TEST_DATA = {
           "options": {
             "A": "her",
             "B": "him",
-            "C": "his",
+            "C": "hisB) him",
             "D": ""
           },
           "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q28",
-          "number": 28,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "My brother parks  ______ motorbike in  ______ garage",
-          "options": {
-            "A": "his / hers",
-            "B": "her / his",
-            "C": "his / his",
-            "D": "his / ours"
-          },
-          "answer": "C",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: C."
-        },
-        {
-          "id": "B1_PRON_Q29",
-          "number": 29,
-          "type": "choice",
-          "section": "Pronombres Personales y Posesivos",
-          "question": "Is this beer ______  or ______ ? 11",
-          "options": {
-            "A": "mine / yours",
-            "B": "my / your",
-            "C": "mine / your",
-            "D": "my / yours"
-          },
-          "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "La respuesta 'hisB) him' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q30",
@@ -7152,11 +7107,11 @@ window.TEST_DATA = {
           "options": {
             "A": "I / His",
             "B": "He / Her",
-            "C": "He / Hers",
+            "C": "He / HersB) He / Her",
             "D": "I / Its"
           },
           "answer": "A",
-          "explanation": "Repaso Bloque 1 - Pronombres. Opción correcta: A."
+          "explanation": "La respuesta 'I / His' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test1 pronombres."
         },
         {
           "id": "B1_PRON_Q31",
@@ -7166,7 +7121,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (31):\n\"Billy always listens to (31) ______ mother.\"",
           "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q32",
@@ -7176,7 +7131,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (32):\n\"He always does what (32) ______ says.\"",
           "answer": "she",
-          "explanation": "Respuesta correcta: 'she'."
+          "explanation": "'she' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "B1_PRON_Q33",
@@ -7186,7 +7141,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (33):\n\"If (33) ______ mother says, 'Brush your teeth,'...\"",
           "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q34",
@@ -7196,7 +7151,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (34):\n\"...Billy brushes (34) ______ teeth.\"",
           "answer": "his",
-          "explanation": "Respuesta correcta: 'his'."
+          "explanation": "'his' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q35",
@@ -7206,7 +7161,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (35):\n\"Billy is a very good boy. (35) ______ has a friend.\"",
           "answer": "He",
-          "explanation": "Respuesta correcta: 'He'."
+          "explanation": "'He' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         },
         {
           "id": "B1_PRON_Q36",
@@ -7216,7 +7171,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (36):\n\"(36) ______ name is Chloe.\"",
           "answer": "Her",
-          "explanation": "Respuesta correcta: 'Her'."
+          "explanation": "'Her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q37",
@@ -7226,7 +7181,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (37):\n\"Billy always helps Chloe to do (37) ______ homework.\"",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q38",
@@ -7236,7 +7191,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (38):\n\"Chloe always tells Billy, 'you are (38) ______ best friend'.\"",
           "answer": "my",
-          "explanation": "Respuesta correcta: 'my'."
+          "explanation": "'my' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q39",
@@ -7246,7 +7201,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (39):\n\"Of course Billy is (39) ______ best friend.\"",
           "answer": "her",
-          "explanation": "Respuesta correcta: 'her'."
+          "explanation": "'her' es el adjetivo posesivo adecuado delante del sustantivo para concordar en persona y número con el poseedor."
         },
         {
           "id": "B1_PRON_Q40",
@@ -7256,7 +7211,7 @@ window.TEST_DATA = {
           "readingText": "Billy always listens to (31) ______ mother. He always does what (32) ______ says. If (33) ______ mother says, \"Brush your teeth,\" Billy brushes (34) ______ teeth. If his mother says, \"Go to bed,\" Billy goes to bed. Billy is a very good boy. (35) ______ has a friend. (36) ______ name is Chloe. Billy always helps Chloe to do (37) ______ homework. Chloe always tells Billy, 'you are (38) ______ best friend'. Of course Billy is (39) ______ best friend. (40) ______ grew up together.",
           "question": "Escribe el pronombre correcto para el hueco (40):\n\"(40) ______ grew up together.\"",
           "answer": "They",
-          "explanation": "Respuesta correcta: 'They'."
+          "explanation": "'They' actúa como pronombre sujeto antes del verbo (no confundir con pronombres objeto ni posesivos)."
         }
       ],
       "blockId": "repaso_b1",
@@ -7276,12 +7231,12 @@ window.TEST_DATA = {
           "question": "He ______ a good guy.",
           "options": {
             "A": "is",
-            "B": "are",
+            "B": "areC) am",
             "C": "am",
             "D": "are not"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q2",
@@ -7291,12 +7246,12 @@ window.TEST_DATA = {
           "question": "I ______ tall.",
           "options": {
             "A": "is not",
-            "B": "are",
+            "B": "areC) am",
             "C": "am",
             "D": "has"
           },
           "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
+          "explanation": "'am' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q3",
@@ -7306,12 +7261,12 @@ window.TEST_DATA = {
           "question": "The cat  ______ black.",
           "options": {
             "A": "is",
-            "B": "are",
+            "B": "areC) am",
             "C": "am",
             "D": "are not"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q4",
@@ -7321,12 +7276,12 @@ window.TEST_DATA = {
           "question": "My name ______  Charlie.",
           "options": {
             "A": "is",
-            "B": "are",
+            "B": "areC) am",
             "C": "am",
             "D": "has"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q5",
@@ -7336,12 +7291,12 @@ window.TEST_DATA = {
           "question": "They ______  black dogs.",
           "options": {
             "A": "is",
-            "B": "are",
+            "B": "areC) am",
             "C": "am",
             "D": "‘s"
           },
           "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
+          "explanation": "'areC) am' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_TOBE_Q6",
@@ -7351,12 +7306,12 @@ window.TEST_DATA = {
           "question": "Children ______ usually sad.",
           "options": {
             "A": "is",
-            "B": "aren’t",
+            "B": "aren’tC) isn´t",
             "C": "isn´t",
             "D": "am"
           },
           "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
+          "explanation": "'aren’tC) isn´t' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_TOBE_Q7",
@@ -7366,12 +7321,12 @@ window.TEST_DATA = {
           "question": "It ______ a wonderful planet.",
           "options": {
             "A": "‘s",
-            "B": "is’t",
+            "B": "is’tC) are",
             "C": "are",
             "D": "am"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'‘s' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_TOBE_Q8",
@@ -7381,12 +7336,12 @@ window.TEST_DATA = {
           "question": "Some people ______ angry with me.",
           "options": {
             "A": "‘snt",
-            "B": "is",
+            "B": "isC) are",
             "C": "are",
             "D": "are´t"
           },
           "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q9",
@@ -7396,12 +7351,12 @@ window.TEST_DATA = {
           "question": "His parents ______ angry with me.",
           "options": {
             "A": "isn't",
-            "B": "am",
+            "B": "amC) aren´t",
             "C": "aren´t",
             "D": "am not"
           },
           "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
+          "explanation": "'aren´t' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_TOBE_Q10",
@@ -7411,12 +7366,12 @@ window.TEST_DATA = {
           "question": "This thing ______ bad for us.",
           "options": {
             "A": "is",
-            "B": "am",
+            "B": "amC) aren´t",
             "C": "aren´t",
             "D": "are"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q11",
@@ -7426,12 +7381,12 @@ window.TEST_DATA = {
           "question": "______ you happy?",
           "options": {
             "A": "Is",
-            "B": "Are",
+            "B": "AreC) Arent",
             "C": "Arent",
             "D": "Am"
           },
           "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
+          "explanation": "'AreC) Arent' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_TOBE_Q12",
@@ -7441,12 +7396,12 @@ window.TEST_DATA = {
           "question": "______ your brother younger than you?",
           "options": {
             "A": "Is",
-            "B": "Are",
+            "B": "AreC) Aren´t",
             "C": "Aren´t",
             "D": "Am"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'Is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q13",
@@ -7456,12 +7411,12 @@ window.TEST_DATA = {
           "question": "______ Paul your uncle?",
           "options": {
             "A": "Am",
-            "B": "Are",
+            "B": "AreC) Aren´t",
             "C": "Aren´t",
             "D": "Is"
           },
           "answer": "D",
-          "explanation": "Verbo To Be. Opción correcta: D."
+          "explanation": "'Is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q14",
@@ -7471,12 +7426,12 @@ window.TEST_DATA = {
           "question": "What ______ your name?",
           "options": {
             "A": "am not",
-            "B": "is",
+            "B": "isC) am",
             "C": "am",
             "D": "are"
           },
           "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
+          "explanation": "La respuesta 'isC) am' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test2 tobe."
         },
         {
           "id": "B1_TOBE_Q15",
@@ -7486,12 +7441,12 @@ window.TEST_DATA = {
           "question": "Are they sick? Yes, ______",
           "options": {
             "A": "it is",
-            "B": "they are",
+            "B": "they areC) they",
             "C": "they",
             "D": "are"
           },
           "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
+          "explanation": "'they areC) they' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_TOBE_Q16",
@@ -7501,12 +7456,12 @@ window.TEST_DATA = {
           "question": "Everything ______ always fine",
           "options": {
             "A": "is",
-            "B": "are",
+            "B": "areC) be",
             "C": "be",
             "D": "Are not"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q17",
@@ -7516,27 +7471,12 @@ window.TEST_DATA = {
           "question": "Students ______ mostly women.",
           "options": {
             "A": "is",
-            "B": "are",
+            "B": "areC) be",
             "C": "be",
             "D": "‘rent"
           },
           "answer": "B",
-          "explanation": "Verbo To Be. Opción correcta: B."
-        },
-        {
-          "id": "B1_TOBE_Q18",
-          "number": 18,
-          "type": "choice",
-          "section": "Verbo To Be (Presente)",
-          "question": "Select the true",
-          "options": {
-            "A": "Why are they never happy?",
-            "B": "Why are me never happy?",
-            "C": "Why is children never happy?",
-            "D": "Why are everything wrong?"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'areC) be' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_TOBE_Q19",
@@ -7546,12 +7486,12 @@ window.TEST_DATA = {
           "question": "Who ______ your mother?",
           "options": {
             "A": "is",
-            "B": "be",
+            "B": "beC) are not",
             "C": "are not",
             "D": "am"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q20",
@@ -7561,12 +7501,12 @@ window.TEST_DATA = {
           "question": "______ your keys sometimes on the table?",
           "options": {
             "A": "Isn´t",
-            "B": "Is not",
+            "B": "Is notC) Aren’t",
             "C": "Aren’t",
             "D": "Am"
           },
           "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
+          "explanation": "La respuesta 'Aren’t' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test2 tobe."
         },
         {
           "id": "B1_TOBE_Q21",
@@ -7576,12 +7516,12 @@ window.TEST_DATA = {
           "question": "My mother and I ______ lawyers.",
           "options": {
             "A": "is",
-            "B": "is not",
+            "B": "is notC) are",
             "C": "are",
             "D": "was"
           },
           "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q22",
@@ -7591,12 +7531,12 @@ window.TEST_DATA = {
           "question": "Which ______ your notebook?",
           "options": {
             "A": "is",
-            "B": "were",
+            "B": "wereC) are",
             "C": "are",
             "D": "be"
           },
           "answer": "A",
-          "explanation": "Verbo To Be. Opción correcta: A."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q23",
@@ -7606,12 +7546,12 @@ window.TEST_DATA = {
           "question": "Both ______ in my city",
           "options": {
             "A": "is",
-            "B": "am",
+            "B": "amC) are",
             "C": "are",
             "D": "be"
           },
           "answer": "C",
-          "explanation": "Verbo To Be. Opción correcta: C."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q24",
@@ -7621,12 +7561,12 @@ window.TEST_DATA = {
           "question": "My friend ______ at home",
           "options": {
             "A": "‘re",
-            "B": "is't",
+            "B": "is'tC) aren’t",
             "C": "aren’t",
             "D": "is not"
           },
           "answer": "D",
-          "explanation": "Verbo To Be. Opción correcta: D."
+          "explanation": "La respuesta 'is not' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test2 tobe."
         },
         {
           "id": "B1_TOBE_Q25",
@@ -7636,7 +7576,7 @@ window.TEST_DATA = {
           "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
           "question": "Escribe la forma correcta del verbo TO BE para el hueco (25):\n\"Simon and Susan (25) _____ happily married...\"",
           "answer": "are",
-          "explanation": "Respuesta correcta: 'are'."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q26",
@@ -7646,7 +7586,7 @@ window.TEST_DATA = {
           "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
           "question": "Escribe la forma correcta del verbo TO BE para el hueco (26):\n\"...Julia (26) _____ 5 years old...\"",
           "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q27",
@@ -7656,7 +7596,7 @@ window.TEST_DATA = {
           "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
           "question": "Escribe la forma correcta del verbo TO BE para el hueco (27):\n\"...and the twin brothers (27) _____ 3.\"",
           "answer": "are",
-          "explanation": "Respuesta correcta: 'are'."
+          "explanation": "'are' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q28",
@@ -7666,7 +7606,7 @@ window.TEST_DATA = {
           "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
           "question": "Escribe la forma correcta del verbo TO BE para el hueco (28):\n\"June (28) _____ a writer...\"",
           "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q29",
@@ -7676,7 +7616,7 @@ window.TEST_DATA = {
           "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
           "question": "Escribe la forma correcta del verbo TO BE para el hueco (29):\n\"...and Harry (29) _____ a lawyer.\"",
           "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         },
         {
           "id": "B1_TOBE_Q30",
@@ -7686,7 +7626,7 @@ window.TEST_DATA = {
           "readingText": "Simon and Susan (25) _____ happily married, they have three children, Julia (26) _____ 5 years old, and the twin brothers (27) _____ 3. June (28) _____ a writer and Harry (29) _____ a lawyer. Their house (30) _____ big and comfortable, they bought it a year ago.",
           "question": "Escribe la forma correcta del verbo TO BE para el hueco (30):\n\"Their house (30) _____ big and comfortable...\"",
           "answer": "is",
-          "explanation": "Respuesta correcta: 'is'."
+          "explanation": "'is' es la forma correcta del verbo 'To Be' en concordancia con el sujeto de la oración (no se usa auxiliar 'do' con To Be)."
         }
       ],
       "blockId": "repaso_b1",
@@ -7707,12 +7647,12 @@ window.TEST_DATA = {
           "question": "Tom ______ at home.",
           "options": {
             "A": "work",
-            "B": "does work",
+            "B": "does workC) works",
             "C": "works",
             "D": "working"
           },
           "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C. Consejo: El do/ does sólo se utiliza en frases interrogativas (preguntas) y en frases negativas. Esta frase es afirmativa. Debemos de prestar mucha atención a la “s” final del verbo. A él/ella/ello ( animal o cosa en singular) siempre se le añade al verbo una s al final. Por eso en este caso la única respuesta válida es la “C”."
+          "explanation": "Present Simple. Opción correcta: C. Consejo: El do/ does sólo se utiliza en frases interrogativas (preguntas) y en frasesnegativas. Esta frase es afirmativa.Debemos de prestar mucha atención a la “s” final del verbo. Aél/ella/ello(animal o cosa en singular) siempre se le añade al verbo una s al final.Por eso en este caso la única respuesta válida es la “C”."
         },
         {
           "id": "B1_PRES_Q2",
@@ -7723,12 +7663,12 @@ window.TEST_DATA = {
           "question": "I ______ football every day.",
           "options": {
             "A": "play",
-            "B": "does plays",
+            "B": "does playsC) plays",
             "C": "plays",
             "D": "played"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "La respuesta 'play' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test3 presente."
         },
         {
           "id": "B1_PRES_Q3",
@@ -7739,12 +7679,12 @@ window.TEST_DATA = {
           "question": "Peter and James ______ Italian.",
           "options": {
             "A": "speaks",
-            "B": "doesn´t speak",
+            "B": "doesn´t speakC) speak not",
             "C": "speak not",
-            "D": ""
+            "D": "don´t speakNota:Para que esta frase fuera afirmativa la palabra speak no podría llevar “s” al final,porque Peter and James (They) ( 2 personas) son plural.Por lo tanto, la única opción válida es la frase negativa bien conjugada. Larespuesta correcta es la “D”. Recuerda que “Does” es para singular."
           },
           "answer": "D",
-          "explanation": "Present Simple. Opción correcta: D."
+          "explanation": "'don´t speakNota:Para que esta frase fuera afirmativa la palabra speak no podría llevar “s” al final,porque Peter and James (They) ( 2 personas) son plural.Por lo tanto, la única opción válida es la frase negativa bien conjugada. Larespuesta correcta es la “D”. Recuerda que “Does” es para singular.' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_PRES_Q4",
@@ -7755,12 +7695,12 @@ window.TEST_DATA = {
           "question": "Mary ______ fish.",
           "options": {
             "A": "ate",
-            "B": "doesn´t eat",
+            "B": "doesn´t eatC) eat",
             "C": "eat",
             "D": ""
           },
           "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
+          "explanation": "La respuesta 'doesn´t eatC) eat' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test3 presente."
         },
         {
           "id": "B1_PRES_Q5",
@@ -7771,12 +7711,12 @@ window.TEST_DATA = {
           "question": "Roger ______ to watch films at home.",
           "options": {
             "A": "likes",
-            "B": "don´t like",
+            "B": "don´t likeC) like does",
             "C": "like does",
             "D": "like"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "'likes' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_PRES_Q6",
@@ -7787,12 +7727,12 @@ window.TEST_DATA = {
           "question": "I ______ books very often.",
           "options": {
             "A": "read",
-            "B": "doesn´t read",
+            "B": "doesn´t readC) reads",
             "C": "reads",
             "D": "readed"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "La respuesta 'read' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test3 presente."
         },
         {
           "id": "B1_PRES_Q7",
@@ -7803,12 +7743,12 @@ window.TEST_DATA = {
           "question": "Teresa ______ to play piano.",
           "options": {
             "A": "love",
-            "B": "like",
+            "B": "likeC) loves",
             "C": "loves",
             "D": "does like"
           },
           "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C."
+          "explanation": "'loves' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_PRES_Q8",
@@ -7819,12 +7759,12 @@ window.TEST_DATA = {
           "question": "Charlie ______ to play guitar.",
           "options": {
             "A": "love",
-            "B": "doesn’t like",
+            "B": "doesn’t likeC) don’t love",
             "C": "don’t love",
             "D": "does like"
           },
           "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
+          "explanation": "La respuesta 'doesn’t likeC) don’t love' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test3 presente."
         },
         {
           "id": "B1_PRES_Q9",
@@ -7835,12 +7775,12 @@ window.TEST_DATA = {
           "question": "I ______ do my homework.",
           "options": {
             "A": "don´t",
-            "B": "am",
+            "B": "amC) do",
             "C": "do",
             "D": "does do"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "La respuesta 'don´t' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test3 presente."
         },
         {
           "id": "B1_PRES_Q10",
@@ -7851,12 +7791,12 @@ window.TEST_DATA = {
           "question": "Mark ______ to school by car.",
           "options": {
             "A": "drive",
-            "B": "go",
+            "B": "goC) is",
             "C": "is",
             "D": "doesn´t go"
           },
           "answer": "D",
-          "explanation": "Present Simple. Opción correcta: D."
+          "explanation": "La respuesta 'doesn´t go' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test3 presente."
         },
         {
           "id": "B1_PRES_Q11",
@@ -7867,12 +7807,12 @@ window.TEST_DATA = {
           "question": "______ you like apples?.",
           "options": {
             "A": "Does",
-            "B": "Do",
+            "B": "DoC) Arent",
             "C": "Arent",
             "D": ""
           },
           "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
+          "explanation": "'DoC) Arent' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_PRES_Q12",
@@ -7883,12 +7823,12 @@ window.TEST_DATA = {
           "question": "Does your sister______ in Scotland?",
           "options": {
             "A": "lives",
-            "B": "live",
+            "B": "liveC) is",
             "C": "is",
             "D": ""
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "'lives' (forma base) es obligatorio porque el auxiliar 'do/does' ya marca el tiempo y la persona; el verbo principal nunca lleva '-s'."
         },
         {
           "id": "B1_PRES_Q13",
@@ -7899,12 +7839,12 @@ window.TEST_DATA = {
           "question": "Does your brother look like you? Yes, he ______.",
           "options": {
             "A": "does",
-            "B": "do",
+            "B": "doC) are",
             "C": "are",
             "D": "is"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "'does' es el auxiliar correcto en Present Simple para concordar con el sujeto en interrogativa o negativa."
         },
         {
           "id": "B1_PRES_Q14",
@@ -7915,12 +7855,12 @@ window.TEST_DATA = {
           "question": "Does Lucy drive a motorbike? No, she ______.",
           "options": {
             "A": "does",
-            "B": "doesn´t",
+            "B": "doesn´tC) do",
             "C": "do",
             "D": "don´t"
           },
           "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
+          "explanation": "La respuesta 'doesn´tC) do' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test3 presente."
         },
         {
           "id": "B1_PRES_Q15",
@@ -7931,12 +7871,12 @@ window.TEST_DATA = {
           "question": "Where ______ she work?",
           "options": {
             "A": "does",
-            "B": "Is",
+            "B": "IsC) do",
             "C": "do",
             "D": "has"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "'does' es el auxiliar correcto en Present Simple para concordar con el sujeto en interrogativa o negativa."
         },
         {
           "id": "B1_PRES_Q16",
@@ -7947,12 +7887,12 @@ window.TEST_DATA = {
           "question": "______  Rupert and Humphrey always  ______ together? Yes, they  ______.",
           "options": {
             "A": "Does/sing/does",
-            "B": "Do/sings/do",
+            "B": "Do/sings/doC) Do/sing/do",
             "C": "Do/sing/do",
             "D": "Are/sing/are"
           },
           "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C."
+          "explanation": "'Do/sing/do' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_PRES_Q17",
@@ -7963,12 +7903,12 @@ window.TEST_DATA = {
           "question": "______  you have any money? Yes, I  ______.",
           "options": {
             "A": "Does/does",
-            "B": "Are/am",
+            "B": "Are/amC) Do/am",
             "C": "Do/am",
             "D": ""
           },
           "answer": "D",
-          "explanation": "Present Simple. Opción correcta: D."
+          "explanation": "'' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_PRES_Q18",
@@ -7979,12 +7919,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (18) del texto sobre Monica:",
           "options": {
             "A": "works",
-            "B": "work",
+            "B": "workC) working",
             "C": "working",
             "D": "workes"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "'works' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_PRES_Q19",
@@ -7995,12 +7935,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (19) del texto sobre Monica:",
           "options": {
             "A": "wake up",
-            "B": "wakes up",
+            "B": "wakes upC) wear",
             "C": "wear",
             "D": "wake ups"
           },
           "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
+          "explanation": "En el contexto del texto, 'wakes upC) wear' es la única opción que encaja tanto gramaticalmente como por sentido en el hueco."
         },
         {
           "id": "B1_PRES_Q20",
@@ -8011,12 +7951,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (20) del texto sobre Monica:",
           "options": {
             "A": "walk",
-            "B": "does walk",
+            "B": "does walkC) walks",
             "C": "walks",
             "D": "walking"
           },
           "answer": "C",
-          "explanation": "Present Simple. Opción correcta: C."
+          "explanation": "'walks' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_PRES_Q21",
@@ -8027,12 +7967,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (21) del texto sobre Monica:",
           "options": {
             "A": "wears",
-            "B": "weird",
+            "B": "weirdC) wear does",
             "C": "wear does",
             "D": "wear"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "'wears' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_PRES_Q22",
@@ -8043,12 +7983,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (22) del texto sobre Monica:",
           "options": {
             "A": "takes",
-            "B": "taken",
+            "B": "takenC) is",
             "C": "is",
             "D": ""
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "'takes' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_PRES_Q23",
@@ -8059,12 +7999,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (23) del texto sobre Monica:",
           "options": {
             "A": "listen",
-            "B": "listens",
+            "B": "listensC) ears",
             "C": "ears",
             "D": "jump"
           },
           "answer": "B",
-          "explanation": "Present Simple. Opción correcta: B."
+          "explanation": "'listensC) ears' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_PRES_Q24",
@@ -8075,12 +8015,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (24) del texto sobre Monica:",
           "options": {
             "A": "listen",
-            "B": "heard",
+            "B": "heardC) listens",
             "C": "listens",
             "D": "ear"
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "En el contexto del texto, 'listen' es la única opción que encaja tanto gramaticalmente como por sentido en el hueco."
         },
         {
           "id": "B1_PRES_Q25",
@@ -8091,12 +8031,12 @@ window.TEST_DATA = {
           "question": "Completa el hueco (25) del texto sobre Monica:",
           "options": {
             "A": "say",
-            "B": "says",
+            "B": "saysC) listen",
             "C": "listen",
             "D": ""
           },
           "answer": "A",
-          "explanation": "Present Simple. Opción correcta: A."
+          "explanation": "En el contexto del texto, 'say' es la única opción que encaja tanto gramaticalmente como por sentido en el hueco."
         }
       ],
       "blockId": "repaso_b1",
@@ -8116,12 +8056,12 @@ window.TEST_DATA = {
           "question": "He ______  a car.",
           "options": {
             "A": "have",
-            "B": "haven´t",
+            "B": "haven´tC) has got",
             "C": "has got",
             "D": "does hasn´t"
           },
           "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+          "explanation": "La respuesta 'has got' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q2",
@@ -8131,12 +8071,12 @@ window.TEST_DATA = {
           "question": "She ______  a car.",
           "options": {
             "A": "have got",
-            "B": "haven´t",
+            "B": "haven´tC) has",
             "C": "has",
             "D": "does hasn´t"
           },
           "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+          "explanation": "'has' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_HAVE_Q3",
@@ -8146,12 +8086,12 @@ window.TEST_DATA = {
           "question": "They ______  a car.",
           "options": {
             "A": "haven´t got",
-            "B": "have got not",
+            "B": "have got notC) do have",
             "C": "do have",
             "D": "doesn´t have"
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+          "explanation": "'haven´t got' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_HAVE_Q4",
@@ -8161,12 +8101,12 @@ window.TEST_DATA = {
           "question": "Paul and Layla ______  a happy life together.",
           "options": {
             "A": "hasn’t got",
-            "B": "has",
+            "B": "hasC) doesn´t have",
             "C": "doesn´t have",
             "D": "don’t have"
           },
           "answer": "D",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+          "explanation": "La respuesta 'don’t have' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q5",
@@ -8176,12 +8116,12 @@ window.TEST_DATA = {
           "question": "______  you got children?",
           "options": {
             "A": "Have",
-            "B": "has",
+            "B": "hasC) Do",
             "C": "Do",
             "D": "does"
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+          "explanation": "'Have' es correcto porque 'have/has got' concuerda con sujeto plural/I/you/we/they y no admite el auxiliar 'do/does'."
         },
         {
           "id": "B1_HAVE_Q6",
@@ -8191,12 +8131,12 @@ window.TEST_DATA = {
           "question": "______  you have pain?",
           "options": {
             "A": "Have got",
-            "B": "have",
+            "B": "haveC) Do",
             "C": "Do",
             "D": ""
           },
           "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+          "explanation": "'Do' es el auxiliar correcto en Present Simple para concordar con el sujeto en interrogativa o negativa."
         },
         {
           "id": "B1_HAVE_Q7",
@@ -8206,12 +8146,12 @@ window.TEST_DATA = {
           "question": "I______  any food at home?",
           "options": {
             "A": "haven’t",
-            "B": "has got",
+            "B": "has gotC) have got not",
             "C": "have got not",
             "D": "don’t have"
           },
           "answer": "D",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+          "explanation": "La respuesta 'don’t have' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q8",
@@ -8221,12 +8161,12 @@ window.TEST_DATA = {
           "question": "I______  any food at home?",
           "options": {
             "A": "haven’t",
-            "B": "has got",
+            "B": "has gotC) have got not",
             "C": "have got not",
             "D": "don’t have"
           },
           "answer": "D",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: D."
+          "explanation": "La respuesta 'don’t have' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q9",
@@ -8236,12 +8176,12 @@ window.TEST_DATA = {
           "question": "I ______ want to be late at home",
           "options": {
             "A": "do not",
-            "B": "has got",
+            "B": "has gotC) have got not",
             "C": "have got not",
             "D": "don’t have"
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+          "explanation": "La respuesta 'do not' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q10",
@@ -8251,12 +8191,12 @@ window.TEST_DATA = {
           "question": "______ any brothers and sisters?",
           "options": {
             "A": "Have you",
-            "B": "Have he got",
+            "B": "Have he gotC) Have you got",
             "C": "Have you got",
             "D": "Does they have"
           },
           "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+          "explanation": "La respuesta 'Have you got' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q11",
@@ -8266,12 +8206,12 @@ window.TEST_DATA = {
           "question": "She ______ blue eyes",
           "options": {
             "A": "hasn't got",
-            "B": "does have",
+            "B": "does haveC) has you got",
             "C": "has you got",
             "D": "have"
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+          "explanation": "La respuesta 'hasn't got' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q12",
@@ -8281,12 +8221,12 @@ window.TEST_DATA = {
           "question": "______ She ______ blue eyes?",
           "options": {
             "A": "Hasn't/ have",
-            "B": "Does/ have",
+            "B": "Does/ haveC) Got/ has",
             "C": "Got/ has",
             "D": "Has/ do"
           },
           "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+          "explanation": "'Does/ haveC) Got/ has' lleva la terminación '-s/-es' de 3.ª persona del singular en Present Simple afirmativo."
         },
         {
           "id": "B1_HAVE_Q13",
@@ -8296,12 +8236,12 @@ window.TEST_DATA = {
           "question": "She ______ a cold",
           "options": {
             "A": "does have",
-            "B": "doesn’t have",
+            "B": "doesn’t haveC) has her got",
             "C": "has her got",
             "D": ""
           },
           "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+          "explanation": "La respuesta 'doesn’t haveC) has her got' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q14",
@@ -8311,12 +8251,12 @@ window.TEST_DATA = {
           "question": "______ time to talk to me?",
           "options": {
             "A": "Have you got",
-            "B": "Have you",
+            "B": "Have youC) Has her got",
             "C": "Has her got",
             "D": "You have"
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+          "explanation": "La respuesta 'Have you got' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q15",
@@ -8326,27 +8266,12 @@ window.TEST_DATA = {
           "question": "______ teeth when they are born?",
           "options": {
             "A": "Does babies have",
-            "B": "Do babies have",
+            "B": "Do babies haveC) Has babies got",
             "C": "Has babies got",
             "D": "Have baby"
           },
           "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q16",
-          "number": 16,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "I´m tired of being home, _______ get some fresh air",
-          "options": {
-            "A": "I have",
-            "B": "Have I",
-            "C": "I have to",
-            "D": ""
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+          "explanation": "'Do babies haveC) Has babies got' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_HAVE_Q17",
@@ -8356,12 +8281,12 @@ window.TEST_DATA = {
           "question": "__________ leave early, I can sleep all day tomorrow.",
           "options": {
             "A": "I have",
-            "B": "Have I",
+            "B": "Have IC) I have to",
             "C": "I have to",
             "D": "I do"
           },
           "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+          "explanation": "La respuesta 'I have to' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q18",
@@ -8371,27 +8296,12 @@ window.TEST_DATA = {
           "question": "He __________ call his parents, they call me every day.",
           "options": {
             "A": "has to",
-            "B": "has got",
+            "B": "has gotC) have to",
             "C": "have to",
             "D": ""
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
-        },
-        {
-          "id": "B1_HAVE_Q19",
-          "number": 19,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "We__________ a holiday in Mexico every year",
-          "options": {
-            "A": "‘ve got",
-            "B": "have to",
-            "C": "has",
-            "D": "has to"
-          },
-          "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+          "explanation": "'has to' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_HAVE_Q20",
@@ -8401,12 +8311,12 @@ window.TEST_DATA = {
           "question": "_____ we    _____ our payment?",
           "options": {
             "A": "Are/ -",
-            "B": "Have / got",
+            "B": "Have / gotC) Does/ have",
             "C": "Does/ have",
             "D": "Have / to"
           },
           "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+          "explanation": "'Have / gotC) Does/ have' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_HAVE_Q21",
@@ -8416,12 +8326,12 @@ window.TEST_DATA = {
           "question": "Why__________ go shopping?",
           "options": {
             "A": "have you",
-            "B": "do you have to",
+            "B": "do you have toC) do you have",
             "C": "do you have",
             "D": "have you got"
           },
           "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
+          "explanation": "La respuesta 'do you have toC) do you have' completa correctamente el enunciado según la gramática y el vocabulario evaluados en repaso b1 test4 have."
         },
         {
           "id": "B1_HAVE_Q22",
@@ -8431,12 +8341,12 @@ window.TEST_DATA = {
           "question": "Normally, I ______a shower, but sometimes I  ______ a bath.",
           "options": {
             "A": "have/have",
-            "B": "do/do",
+            "B": "do/doC) -/-",
             "C": "-/-",
             "D": "has/has"
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A. Nota: En inglés hay algunas expresiones dónde “have” se utiliza con otro significado distinto a “tener”. Algunas de las más comunes son: Have a breakfast…… Tomar el desayuno Have a shower………. Tomar una ducha Have a bath………….. Tomar un baño Have a pizza/lunch/coffee…. Tomar una pizza/almuerzo/un sandwich (comida y bebida) Más adelante las veremos con más detenimiento."
+          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A. Nota: En inglés hay algunas expresiones dónde “have” se utiliza con otro significadodistinto a “tener”. Algunas de las más comunes son:Have a breakfast…… Tomar el desayunoHave a shower………. Tomar una duchaHave a bath………….. Tomar un bañoHave a pizza/lunch/coffee…. Tomar una pizza/almuerzo/un sandwich (comida ybebida)Más adelante las veremos con más detenimiento."
         },
         {
           "id": "B1_HAVE_Q23",
@@ -8446,12 +8356,12 @@ window.TEST_DATA = {
           "question": "They ______a beautiful daughter.",
           "options": {
             "A": "have",
-            "B": "has",
+            "B": "hasC) do",
             "C": "do",
             "D": "hasn’t"
           },
           "answer": "A",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: A."
+          "explanation": "'have' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         },
         {
           "id": "B1_HAVE_Q24",
@@ -8461,27 +8371,12 @@ window.TEST_DATA = {
           "question": "We ______a large garden.",
           "options": {
             "A": "has",
-            "B": "have got",
+            "B": "have gotC) do",
             "C": "do",
             "D": ""
           },
           "answer": "B",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: B."
-        },
-        {
-          "id": "B1_HAVE_Q25",
-          "number": 25,
-          "type": "choice",
-          "section": "Verbo To Have / Have Got / Have To",
-          "question": "Nicky usually ______much luggage",
-          "options": {
-            "A": "haven´t",
-            "B": "has to",
-            "C": "doesn´t have",
-            "D": "haven´t got"
-          },
-          "answer": "C",
-          "explanation": "Verbo To Have / Have Got / Have to. Opción correcta: C."
+          "explanation": "'have gotC) do' concuerda con un sujeto plural en Present Simple (el verbo permanece en forma base sin '-s')."
         }
       ],
       "blockId": "repaso_b1",
@@ -8506,7 +8401,7 @@ window.TEST_DATA = {
             "D": "get"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'will get' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q2",
@@ -8521,7 +8416,7 @@ window.TEST_DATA = {
             "D": "going to rain"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'is going to rain' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q3",
@@ -8536,7 +8431,7 @@ window.TEST_DATA = {
             "D": "will carry"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'will carry' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q4",
@@ -8551,7 +8446,7 @@ window.TEST_DATA = {
             "D": "leaving"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'leaves' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q5",
@@ -8566,7 +8461,7 @@ window.TEST_DATA = {
             "D": "will having"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'are having' usa Present Continuous con valor de futuro para citas o planes personales ya concertados (arrangements) con fecha/hora."
         },
         {
           "id": "T6_Q6",
@@ -8581,7 +8476,7 @@ window.TEST_DATA = {
             "D": "am be travelling"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'will be travelling' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q7",
@@ -8596,7 +8491,7 @@ window.TEST_DATA = {
             "D": "receive"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'receive' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q8",
@@ -8611,7 +8506,7 @@ window.TEST_DATA = {
             "D": "are you do"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'are you going to do' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q9",
@@ -8626,7 +8521,7 @@ window.TEST_DATA = {
             "D": "I will to have some water"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'I will have some water' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q10",
@@ -8641,7 +8536,7 @@ window.TEST_DATA = {
             "D": "is arrive"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'arrives' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q11",
@@ -8656,7 +8551,7 @@ window.TEST_DATA = {
             "D": "are be studying"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'will be studying' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q12",
@@ -8671,7 +8566,7 @@ window.TEST_DATA = {
             "D": "is not going to change"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'is not going to change' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q13",
@@ -8686,7 +8581,7 @@ window.TEST_DATA = {
             "D": "opening"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'opens' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q14",
@@ -8701,7 +8596,7 @@ window.TEST_DATA = {
             "D": "answering"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'will answer' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q15",
@@ -8716,7 +8611,7 @@ window.TEST_DATA = {
             "D": "are leave"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'leave' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q16",
@@ -8731,7 +8626,7 @@ window.TEST_DATA = {
             "D": "will travelling"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'are travelling' usa Present Continuous con valor de futuro para citas o planes personales ya concertados (arrangements) con fecha/hora."
         },
         {
           "id": "T6_Q17",
@@ -8746,7 +8641,7 @@ window.TEST_DATA = {
             "D": "will be"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'will be' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q18",
@@ -8761,7 +8656,7 @@ window.TEST_DATA = {
             "D": "going to fall"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'is going to fall' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q19",
@@ -8776,7 +8671,7 @@ window.TEST_DATA = {
             "D": "is be discussing"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'will be discussing' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q20",
@@ -8791,7 +8686,7 @@ window.TEST_DATA = {
             "D": "being"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'is' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q21",
@@ -8806,7 +8701,7 @@ window.TEST_DATA = {
             "D": "Are you going to stay"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'Are you going to stay' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q22",
@@ -8821,7 +8716,7 @@ window.TEST_DATA = {
             "D": "will walking"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'are going to walk' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q23",
@@ -8836,7 +8731,7 @@ window.TEST_DATA = {
             "D": "is arrive"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'arrives' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q24",
@@ -8851,7 +8746,7 @@ window.TEST_DATA = {
             "D": "starting"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'starts' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q25",
@@ -8866,7 +8761,7 @@ window.TEST_DATA = {
             "D": "will get"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'will get' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q26",
@@ -8881,7 +8776,7 @@ window.TEST_DATA = {
             "D": "will moving"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'are moving' usa Present Continuous con valor de futuro para citas o planes personales ya concertados (arrangements) con fecha/hora."
         },
         {
           "id": "T6_Q27",
@@ -8896,7 +8791,7 @@ window.TEST_DATA = {
             "D": "be"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'will be' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q28",
@@ -8911,7 +8806,7 @@ window.TEST_DATA = {
             "D": "will preparing"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'is going to prepare' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q29",
@@ -8926,7 +8821,7 @@ window.TEST_DATA = {
             "D": "clean"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'clean' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q30",
@@ -8941,7 +8836,7 @@ window.TEST_DATA = {
             "D": "will cleaning"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'are going to clean' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q31",
@@ -8956,7 +8851,7 @@ window.TEST_DATA = {
             "D": "will working"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'will work' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q32",
@@ -8971,7 +8866,7 @@ window.TEST_DATA = {
             "D": "will meeting"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'are meeting' usa Present Continuous con valor de futuro para citas o planes personales ya concertados (arrangements) con fecha/hora."
         },
         {
           "id": "T6_Q33",
@@ -8986,7 +8881,7 @@ window.TEST_DATA = {
             "D": "is going to open"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'is going to open' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q34",
@@ -9001,7 +8896,7 @@ window.TEST_DATA = {
             "D": "explaining"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'explains' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q35",
@@ -9016,7 +8911,7 @@ window.TEST_DATA = {
             "D": "will to be"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'will be' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q36",
@@ -9031,7 +8926,7 @@ window.TEST_DATA = {
             "D": "is be watching"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'will be watching' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q37",
@@ -9046,7 +8941,7 @@ window.TEST_DATA = {
             "D": "are visiting"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'are visiting' usa Present Continuous con valor de futuro para citas o planes personales ya concertados (arrangements) con fecha/hora."
         },
         {
           "id": "T6_Q38",
@@ -9061,7 +8956,7 @@ window.TEST_DATA = {
             "D": "will washing"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'am going to wash' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q39",
@@ -9076,7 +8971,7 @@ window.TEST_DATA = {
             "D": "is come"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'comes' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q40",
@@ -9091,7 +8986,7 @@ window.TEST_DATA = {
             "D": "not will be living"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'will not be living' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q41",
@@ -9106,7 +9001,7 @@ window.TEST_DATA = {
             "D": "will look"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'will look' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q42",
@@ -9121,7 +9016,7 @@ window.TEST_DATA = {
             "D": "starting"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'starts' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q43",
@@ -9136,7 +9031,7 @@ window.TEST_DATA = {
             "D": "is close"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'closes' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q44",
@@ -9151,7 +9046,7 @@ window.TEST_DATA = {
             "D": "Will you meeting"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'Are you meeting' usa Present Continuous con valor de futuro para citas o planes personales ya concertados (arrangements) con fecha/hora."
         },
         {
           "id": "T6_Q45",
@@ -9166,7 +9061,7 @@ window.TEST_DATA = {
             "D": "won't"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'won't' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q46",
@@ -9181,7 +9076,7 @@ window.TEST_DATA = {
             "D": "does your family be doing"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'will your family be doing' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q47",
@@ -9196,7 +9091,7 @@ window.TEST_DATA = {
             "D": "giving"
           },
           "answer": "B",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: B."
+          "explanation": "'gives' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         },
         {
           "id": "T6_Q48",
@@ -9211,7 +9106,7 @@ window.TEST_DATA = {
             "D": "are going wait"
           },
           "answer": "C",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: C."
+          "explanation": "'are going to wait' expresa un plan/intención previa o una predicción basada en una evidencia presente clara."
         },
         {
           "id": "T6_Q49",
@@ -9226,7 +9121,7 @@ window.TEST_DATA = {
             "D": "will like"
           },
           "answer": "D",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: D."
+          "explanation": "'will like' es correcto para decisiones espontáneas, promesas, ofrecimientos o predicciones de futuro sin evidencia inmediata (y tras 'will' va forma base)."
         },
         {
           "id": "T6_Q50",
@@ -9241,7 +9136,7 @@ window.TEST_DATA = {
             "D": "be"
           },
           "answer": "A",
-          "explanation": "Tema 6: Future Tenses (Will, Be going to, Present Continuous, oraciones temporales). Opción correcta: A."
+          "explanation": "'is' expresa la referencia futura adecuada según el grado de planificación, horario fijo o decisión espontánea del contexto."
         }
       ],
       "blockId": "bloque_2",
@@ -9268,7 +9163,7 @@ window.TEST_DATA = {
             "D": "It is"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q2",
@@ -9283,7 +9178,7 @@ window.TEST_DATA = {
             "D": "there are"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'there are' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q3",
@@ -9298,7 +9193,7 @@ window.TEST_DATA = {
             "D": "There are"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'Is there' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q4",
@@ -9313,7 +9208,7 @@ window.TEST_DATA = {
             "D": "There wasn't"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'There aren't' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q5",
@@ -9328,7 +9223,7 @@ window.TEST_DATA = {
             "D": "It is"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'There are' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q6",
@@ -9343,7 +9238,7 @@ window.TEST_DATA = {
             "D": "there will be"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'there was' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q7",
@@ -9358,7 +9253,7 @@ window.TEST_DATA = {
             "D": "There is"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q8",
@@ -9373,7 +9268,7 @@ window.TEST_DATA = {
             "D": "There are"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'Are there' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q9",
@@ -9388,7 +9283,7 @@ window.TEST_DATA = {
             "D": "There wasn't"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'There isn't' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q10",
@@ -9403,7 +9298,7 @@ window.TEST_DATA = {
             "D": "It is"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q11",
@@ -9418,7 +9313,7 @@ window.TEST_DATA = {
             "D": "there will be"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'there were' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q12",
@@ -9433,7 +9328,7 @@ window.TEST_DATA = {
             "D": "Is there"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'Is there' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q13",
@@ -9448,7 +9343,7 @@ window.TEST_DATA = {
             "D": "Is there"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q14",
@@ -9463,7 +9358,7 @@ window.TEST_DATA = {
             "D": "Are there"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'There are' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q15",
@@ -9478,7 +9373,7 @@ window.TEST_DATA = {
             "D": "weren't there"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'there weren't' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q16",
@@ -9493,7 +9388,7 @@ window.TEST_DATA = {
             "D": "There is"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q17",
@@ -9508,7 +9403,7 @@ window.TEST_DATA = {
             "D": "Is there"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'There are' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q18",
@@ -9523,7 +9418,7 @@ window.TEST_DATA = {
             "D": "there is"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'are there' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q19",
@@ -9538,7 +9433,7 @@ window.TEST_DATA = {
             "D": "Was there"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'Was there' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q20",
@@ -9553,7 +9448,7 @@ window.TEST_DATA = {
             "D": "Are there"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'There are' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q21",
@@ -9568,7 +9463,7 @@ window.TEST_DATA = {
             "D": "Are there"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q22",
@@ -9583,7 +9478,7 @@ window.TEST_DATA = {
             "D": "There weren't"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'There aren't' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q23",
@@ -9598,7 +9493,7 @@ window.TEST_DATA = {
             "D": "There were"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'Were there' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q24",
@@ -9613,7 +9508,7 @@ window.TEST_DATA = {
             "D": "There is"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q25",
@@ -9628,7 +9523,7 @@ window.TEST_DATA = {
             "D": "is there"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'there is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q26",
@@ -9643,7 +9538,7 @@ window.TEST_DATA = {
             "D": "there will be"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'there will be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q27",
@@ -9658,7 +9553,7 @@ window.TEST_DATA = {
             "D": "there were"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'there is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q28",
@@ -9673,7 +9568,7 @@ window.TEST_DATA = {
             "D": "there will be"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'there was' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q29",
@@ -9688,7 +9583,7 @@ window.TEST_DATA = {
             "D": "There are"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'There are' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q30",
@@ -9703,7 +9598,7 @@ window.TEST_DATA = {
             "D": "won't there be"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'there won't be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q31",
@@ -9718,7 +9613,7 @@ window.TEST_DATA = {
             "D": "There are"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'Is there' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q32",
@@ -9733,7 +9628,7 @@ window.TEST_DATA = {
             "D": "there will be"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'there were' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q33",
@@ -9748,7 +9643,7 @@ window.TEST_DATA = {
             "D": "There were"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'There is' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q34",
@@ -9763,7 +9658,7 @@ window.TEST_DATA = {
             "D": "Are there"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'There are' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q35",
@@ -9778,7 +9673,7 @@ window.TEST_DATA = {
             "D": "there wasn't"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'there wasn't' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q36",
@@ -9793,7 +9688,7 @@ window.TEST_DATA = {
             "D": "Is there"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'Will there be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q37",
@@ -9808,7 +9703,7 @@ window.TEST_DATA = {
             "D": "there are"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'there have been' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q38",
@@ -9823,7 +9718,7 @@ window.TEST_DATA = {
             "D": "there was"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'there was' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q39",
@@ -9838,7 +9733,7 @@ window.TEST_DATA = {
             "D": "will there be"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'there will be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q40",
@@ -9853,7 +9748,7 @@ window.TEST_DATA = {
             "D": "will there be"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'there will be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q41",
@@ -9868,7 +9763,7 @@ window.TEST_DATA = {
             "D": "there were"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'there were' concuerda en plural con el sustantivo real que aparece detrás de 'There + be'."
         },
         {
           "id": "T7_Q42",
@@ -9883,7 +9778,7 @@ window.TEST_DATA = {
             "D": "will there be"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'there will be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q43",
@@ -9898,7 +9793,7 @@ window.TEST_DATA = {
             "D": "There are"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'There has been' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q44",
@@ -9913,7 +9808,7 @@ window.TEST_DATA = {
             "D": "There was"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'Was there' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q45",
@@ -9928,7 +9823,7 @@ window.TEST_DATA = {
             "D": "will there be"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'there will be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q46",
@@ -9943,7 +9838,7 @@ window.TEST_DATA = {
             "D": "Will there be"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'Will there be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q47",
@@ -9958,7 +9853,7 @@ window.TEST_DATA = {
             "D": "Are there"
           },
           "answer": "B",
-          "explanation": "Tema 7: There  + BE. Opción correcta: B."
+          "explanation": "'Have there been' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q48",
@@ -9973,7 +9868,7 @@ window.TEST_DATA = {
             "D": "there won't be"
           },
           "answer": "A",
-          "explanation": "Tema 7: There  + BE. Opción correcta: A."
+          "explanation": "'there wasn't' concuerda en singular (o con sustantivo incontable) en la estructura impersonal 'There + be' (en inglés no se usa 'have' para 'haber')."
         },
         {
           "id": "T7_Q49",
@@ -9988,7 +9883,7 @@ window.TEST_DATA = {
             "D": "there will be"
           },
           "answer": "D",
-          "explanation": "Tema 7: There  + BE. Opción correcta: D."
+          "explanation": "'there will be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         },
         {
           "id": "T7_Q50",
@@ -10003,7 +9898,7 @@ window.TEST_DATA = {
             "D": "won't there be"
           },
           "answer": "C",
-          "explanation": "Tema 7: There  + BE. Opción correcta: C."
+          "explanation": "'there won't be' completa correctamente la construcción existencial 'There + be' respetando número y tiempo verbal."
         }
       ]
     },
@@ -10029,7 +9924,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 1). Opción correcta: C."
+          "explanation": "'but' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q2",
@@ -10045,7 +9940,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 2). Opción correcta: A."
+          "explanation": "'Although' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q3",
@@ -10061,7 +9956,7 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 3). Opción correcta: D."
+          "explanation": "'Despite' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q4",
@@ -10077,7 +9972,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 4). Opción correcta: B."
+          "explanation": "'However' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q5",
@@ -10093,7 +9988,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 1, hueco 5). Opción correcta: C."
+          "explanation": "'While' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q6",
@@ -10109,7 +10004,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 6). Opción correcta: D."
+          "explanation": "'Unlike' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q7",
@@ -10125,7 +10020,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 7). Opción correcta: A."
+          "explanation": "'Even though' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q8",
@@ -10141,7 +10036,7 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 8). Opción correcta: B."
+          "explanation": "'In spite of' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q9",
@@ -10157,7 +10052,7 @@ window.TEST_DATA = {
             "D": "Nevertheless"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 9). Opción correcta: D."
+          "explanation": "'Nevertheless' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q10",
@@ -10173,7 +10068,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 2, hueco 10). Opción correcta: C."
+          "explanation": "'Whereas' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q11",
@@ -10189,7 +10084,7 @@ window.TEST_DATA = {
             "D": "But"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 11). Opción correcta: B."
+          "explanation": "'Despite' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q12",
@@ -10205,7 +10100,7 @@ window.TEST_DATA = {
             "D": "but"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 12). Opción correcta: A."
+          "explanation": "'though' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q13",
@@ -10221,7 +10116,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 13). Opción correcta: C."
+          "explanation": "'but' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q14",
@@ -10237,7 +10132,7 @@ window.TEST_DATA = {
             "D": "In spite of"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 14). Opción correcta: D."
+          "explanation": "'In spite of' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q15",
@@ -10253,7 +10148,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 3, hueco 15). Opción correcta: B."
+          "explanation": "'However' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q16",
@@ -10269,7 +10164,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 16). Opción correcta: A."
+          "explanation": "'Although' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q17",
@@ -10285,7 +10180,7 @@ window.TEST_DATA = {
             "D": "In spite of"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 17). Opción correcta: D."
+          "explanation": "'In spite of' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q18",
@@ -10301,7 +10196,7 @@ window.TEST_DATA = {
             "D": "However"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 18). Opción correcta: C."
+          "explanation": "'Unlike' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q19",
@@ -10317,7 +10212,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 19). Opción correcta: A."
+          "explanation": "'While' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q20",
@@ -10333,7 +10228,7 @@ window.TEST_DATA = {
             "D": "But"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 4, hueco 20). Opción correcta: B."
+          "explanation": "'Nevertheless' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q21",
@@ -10349,7 +10244,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 21). Opción correcta: C."
+          "explanation": "'but' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q22",
@@ -10365,7 +10260,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 22). Opción correcta: A."
+          "explanation": "'Even though' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q23",
@@ -10381,7 +10276,7 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 23). Opción correcta: D."
+          "explanation": "'Despite' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q24",
@@ -10397,7 +10292,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 24). Opción correcta: B."
+          "explanation": "'Whereas' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q25",
@@ -10413,7 +10308,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 5, hueco 25). Opción correcta: A."
+          "explanation": "'However' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q26",
@@ -10429,7 +10324,7 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 26). Opción correcta: C."
+          "explanation": "'In spite of' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q27",
@@ -10445,7 +10340,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 27). Opción correcta: B."
+          "explanation": "'Although' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q28",
@@ -10461,7 +10356,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 28). Opción correcta: D."
+          "explanation": "'Unlike' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q29",
@@ -10477,7 +10372,7 @@ window.TEST_DATA = {
             "D": "But"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 29). Opción correcta: C."
+          "explanation": "'Nevertheless' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q30",
@@ -10493,7 +10388,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 6, hueco 30). Opción correcta: A."
+          "explanation": "'While' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q31",
@@ -10509,7 +10404,7 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 31). Opción correcta: D."
+          "explanation": "'Despite' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q32",
@@ -10525,7 +10420,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 32). Opción correcta: B."
+          "explanation": "'but' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q33",
@@ -10541,7 +10436,7 @@ window.TEST_DATA = {
             "D": "but"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 33). Opción correcta: A."
+          "explanation": "'though' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q34",
@@ -10557,7 +10452,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 34). Opción correcta: C."
+          "explanation": "'Despite' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q35",
@@ -10573,7 +10468,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 7, hueco 35). Opción correcta: B."
+          "explanation": "'However' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q36",
@@ -10589,7 +10484,7 @@ window.TEST_DATA = {
             "D": "Whereas"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 36). Opción correcta: D."
+          "explanation": "'Whereas' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q37",
@@ -10605,7 +10500,7 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 37). Opción correcta: C."
+          "explanation": "'In spite of' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q38",
@@ -10621,7 +10516,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 38). Opción correcta: A."
+          "explanation": "'Although' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q39",
@@ -10637,7 +10532,7 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 39). Opción correcta: B."
+          "explanation": "'Unlike' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q40",
@@ -10653,7 +10548,7 @@ window.TEST_DATA = {
             "D": "Even though"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 8, hueco 40). Opción correcta: D."
+          "explanation": "'Even though' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q41",
@@ -10669,7 +10564,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 41). Opción correcta: A."
+          "explanation": "'but' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q42",
@@ -10685,7 +10580,7 @@ window.TEST_DATA = {
             "D": "But"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 42). Opción correcta: B."
+          "explanation": "'Nevertheless' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q43",
@@ -10701,7 +10596,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 43). Opción correcta: C."
+          "explanation": "'While' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q44",
@@ -10717,7 +10612,7 @@ window.TEST_DATA = {
             "D": "In spite of"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 44). Opción correcta: D."
+          "explanation": "'In spite of' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q45",
@@ -10733,7 +10628,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 9, hueco 45). Opción correcta: B."
+          "explanation": "'However' es un conector adverbial de contraste entre oraciones independientes (habitualmente entre puntos/punto y coma y seguido de coma)."
         },
         {
           "id": "T8_Q46",
@@ -10749,7 +10644,7 @@ window.TEST_DATA = {
             "D": "While"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 46). Opción correcta: C."
+          "explanation": "'In spite of' es correcto porque delante hay que enlazar con un sustantivo, pronombre o gerundio (-ing), nunca directamente con sujeto + verbo sin 'the fact that'."
         },
         {
           "id": "T8_Q47",
@@ -10765,7 +10660,7 @@ window.TEST_DATA = {
             "D": "Although"
           },
           "answer": "D",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 47). Opción correcta: D."
+          "explanation": "'Although' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         },
         {
           "id": "T8_Q48",
@@ -10781,7 +10676,7 @@ window.TEST_DATA = {
             "D": "Despite"
           },
           "answer": "A",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 48). Opción correcta: A."
+          "explanation": "'Unlike' respeta la relación lógica de contraste y la estructura sintáctica exigida tras el hueco."
         },
         {
           "id": "T8_Q49",
@@ -10797,7 +10692,7 @@ window.TEST_DATA = {
             "D": "Unlike"
           },
           "answer": "C",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 49). Opción correcta: C."
+          "explanation": "'Whereas' contrasta directamente dos hechos o sujetos paralelos dentro de la misma oración."
         },
         {
           "id": "T8_Q50",
@@ -10813,7 +10708,7 @@ window.TEST_DATA = {
             "D": "but"
           },
           "answer": "B",
-          "explanation": "Tema 8: Connectors of Contrast (Texto 10, hueco 50). Opción correcta: B."
+          "explanation": "'though' introduce una oración completa (sujeto + verbo) expresando contraste; nunca va seguido solo de sustantivo o gerundio como 'despite'."
         }
       ]
     },
@@ -10838,7 +10733,7 @@ window.TEST_DATA = {
             "D": "Whose"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'Who' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q2",
@@ -10853,7 +10748,7 @@ window.TEST_DATA = {
             "D": "What"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'What' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q3",
@@ -10868,7 +10763,7 @@ window.TEST_DATA = {
             "D": "Which"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'Who' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q4",
@@ -10883,7 +10778,7 @@ window.TEST_DATA = {
             "D": "Which"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'Who' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q5",
@@ -10898,7 +10793,7 @@ window.TEST_DATA = {
             "D": "Which"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'What' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q6",
@@ -10913,7 +10808,7 @@ window.TEST_DATA = {
             "D": "Who"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'Who' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q7",
@@ -10928,7 +10823,7 @@ window.TEST_DATA = {
             "D": "What bought you"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'What did you buy' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q8",
@@ -10943,7 +10838,7 @@ window.TEST_DATA = {
             "D": "Who living"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'Who lives' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q9",
@@ -10958,7 +10853,7 @@ window.TEST_DATA = {
             "D": "phoning"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'phone' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q10",
@@ -10973,7 +10868,7 @@ window.TEST_DATA = {
             "D": "What happened"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'What happened' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q11",
@@ -10988,7 +10883,7 @@ window.TEST_DATA = {
             "D": "Who does know"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'Who knows' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q12",
@@ -11003,7 +10898,7 @@ window.TEST_DATA = {
             "D": "Who was"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'Who did' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q13",
@@ -11018,7 +10913,7 @@ window.TEST_DATA = {
             "D": "What Jill do"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'What did Jill do' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q14",
@@ -11033,7 +10928,7 @@ window.TEST_DATA = {
             "D": "What woke"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'What woke' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q15",
@@ -11048,7 +10943,7 @@ window.TEST_DATA = {
             "D": "Who seeing"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'Who saw' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q16",
@@ -11063,7 +10958,7 @@ window.TEST_DATA = {
             "D": "Who did you saw"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'Who did you see' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q17",
@@ -11078,7 +10973,7 @@ window.TEST_DATA = {
             "D": "Who have got"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'Who has got' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q18",
@@ -11093,7 +10988,7 @@ window.TEST_DATA = {
             "D": "What does this word mean"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'What does this word mean' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q19",
@@ -11108,7 +11003,7 @@ window.TEST_DATA = {
             "D": "What reading are you"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'What are you reading' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q20",
@@ -11123,7 +11018,7 @@ window.TEST_DATA = {
             "D": "Who did you saw at the party"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'Who did you see at the party' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q21",
@@ -11138,7 +11033,7 @@ window.TEST_DATA = {
             "D": "What do you did on Sunday"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'What did you do on Sunday' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q22",
@@ -11153,7 +11048,7 @@ window.TEST_DATA = {
             "D": "What did the teacher say"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'What did the teacher say' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q23",
@@ -11168,7 +11063,7 @@ window.TEST_DATA = {
             "D": "Who did you visited yesterday"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'Who did you visit yesterday' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q24",
@@ -11183,7 +11078,7 @@ window.TEST_DATA = {
             "D": "What was happen on Friday"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'What happened on Friday' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q25",
@@ -11198,7 +11093,7 @@ window.TEST_DATA = {
             "D": "Who does wants to talk to me"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'Who wants to talk to me' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q26",
@@ -11213,7 +11108,7 @@ window.TEST_DATA = {
             "D": "from"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'from' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q27",
@@ -11228,7 +11123,7 @@ window.TEST_DATA = {
             "D": "about"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'for' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q28",
@@ -11243,7 +11138,7 @@ window.TEST_DATA = {
             "D": "Who did you went to the cinema with"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'Who did you go to the cinema with' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q29",
@@ -11258,7 +11153,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'about' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q30",
@@ -11273,7 +11168,7 @@ window.TEST_DATA = {
             "D": "Who did you give the money to"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'Who did you give the money to' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q31",
@@ -11288,7 +11183,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'by' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q32",
@@ -11303,7 +11198,7 @@ window.TEST_DATA = {
             "D": "on"
           },
           "answer": "B",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: B."
+          "explanation": "'in' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q33",
@@ -11318,7 +11213,7 @@ window.TEST_DATA = {
             "D": "Which hotel did you stay at"
           },
           "answer": "D",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: D."
+          "explanation": "'Which hotel did you stay at' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9_Q34",
@@ -11333,7 +11228,7 @@ window.TEST_DATA = {
             "D": "about"
           },
           "answer": "A",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: A."
+          "explanation": "'for' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9_Q35",
@@ -11348,7 +11243,7 @@ window.TEST_DATA = {
             "D": "Which did school you go to"
           },
           "answer": "C",
-          "explanation": "Tema 9: Subjets and Objets Questions. Opción correcta: C."
+          "explanation": "'Which school did you go to' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         }
       ]
     },
@@ -11373,7 +11268,7 @@ window.TEST_DATA = {
             "D": "Whose"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'What' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q2",
@@ -11388,7 +11283,7 @@ window.TEST_DATA = {
             "D": "is"
           },
           "answer": "D",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: D."
+          "explanation": "'is' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q3",
@@ -11403,7 +11298,7 @@ window.TEST_DATA = {
             "D": "finds"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'find' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q4",
@@ -11418,7 +11313,7 @@ window.TEST_DATA = {
             "D": "it did"
           },
           "answer": "C",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: C."
+          "explanation": "'was it' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q5",
@@ -11433,7 +11328,7 @@ window.TEST_DATA = {
             "D": "Who the final reservation made"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'Who made the final reservation' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q6",
@@ -11448,7 +11343,7 @@ window.TEST_DATA = {
             "D": "as"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'like' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q7",
@@ -11463,7 +11358,7 @@ window.TEST_DATA = {
             "D": "it stopped"
           },
           "answer": "D",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: D."
+          "explanation": "'it stopped' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q8",
@@ -11478,7 +11373,7 @@ window.TEST_DATA = {
             "D": "was"
           },
           "answer": "C",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: C."
+          "explanation": "'opened' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q9",
@@ -11493,7 +11388,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'from' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q10",
@@ -11508,7 +11403,7 @@ window.TEST_DATA = {
             "D": "What saw the technician before the alarm started"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'What did the technician see before the alarm started' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q11",
@@ -11523,7 +11418,7 @@ window.TEST_DATA = {
             "D": "when the next inspection begins"
           },
           "answer": "D",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: D."
+          "explanation": "'when the next inspection begins' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q12",
@@ -11538,7 +11433,7 @@ window.TEST_DATA = {
             "D": "How"
           },
           "answer": "C",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: C."
+          "explanation": "'Which' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q13",
@@ -11553,7 +11448,7 @@ window.TEST_DATA = {
             "D": "it is"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'does it' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q14",
@@ -11568,7 +11463,7 @@ window.TEST_DATA = {
             "D": "whose"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'whether' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q15",
@@ -11583,7 +11478,7 @@ window.TEST_DATA = {
             "D": "Marta buy"
           },
           "answer": "D",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: D."
+          "explanation": "'Marta buy' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q16",
@@ -11598,7 +11493,7 @@ window.TEST_DATA = {
             "D": "What did the final delay caused"
           },
           "answer": "C",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: C."
+          "explanation": "'What caused the final delay' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q17",
@@ -11613,7 +11508,7 @@ window.TEST_DATA = {
             "D": "choose they"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'they choose' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q18",
@@ -11628,7 +11523,7 @@ window.TEST_DATA = {
             "D": "be"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'is' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q19",
@@ -11643,7 +11538,7 @@ window.TEST_DATA = {
             "D": "How long does it take to replace the filter"
           },
           "answer": "D",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: D."
+          "explanation": "'How long does it take to replace the filter' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q20",
@@ -11658,7 +11553,7 @@ window.TEST_DATA = {
             "D": "did"
           },
           "answer": "C",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: C."
+          "explanation": "'will' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q21",
@@ -11673,7 +11568,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'for' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q22",
@@ -11688,7 +11583,7 @@ window.TEST_DATA = {
             "D": "keep they"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'they keep' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q23",
@@ -11703,7 +11598,7 @@ window.TEST_DATA = {
             "D": "Who did they invite to the meeting"
           },
           "answer": "D",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: D."
+          "explanation": "'Who did they invite to the meeting' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q24",
@@ -11718,7 +11613,7 @@ window.TEST_DATA = {
             "D": "did"
           },
           "answer": "C",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: C."
+          "explanation": "'is' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q25",
@@ -11733,7 +11628,7 @@ window.TEST_DATA = {
             "D": "with"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'to' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q26",
@@ -11748,7 +11643,7 @@ window.TEST_DATA = {
             "D": "does the clinic open on Saturdays"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'whether the clinic is open on Saturdays' sigue el orden correcto de Object Question (Partícula + Auxiliar + Sujeto + Verbo) cuando la incógnita es el complemento."
         },
         {
           "id": "T9E_Q27",
@@ -11763,7 +11658,7 @@ window.TEST_DATA = {
             "D": "speak to"
           },
           "answer": "D",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: D."
+          "explanation": "'speak to' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q28",
@@ -11778,7 +11673,7 @@ window.TEST_DATA = {
             "D": "Who the access card took"
           },
           "answer": "C",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: C."
+          "explanation": "'Who took the access card' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q29",
@@ -11793,7 +11688,7 @@ window.TEST_DATA = {
             "D": "Who"
           },
           "answer": "B",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: B."
+          "explanation": "'How' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         },
         {
           "id": "T9E_Q30",
@@ -11808,7 +11703,7 @@ window.TEST_DATA = {
             "D": "sending"
           },
           "answer": "A",
-          "explanation": "Tema 9 (Extra): SUBJECT & OBJECT QUESTIONS. Opción correcta: A."
+          "explanation": "'sent' aplica el orden sintáctico correcto de las preguntas de sujeto/objeto en inglés."
         }
       ]
     },
@@ -11832,7 +11727,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q2",
@@ -11846,7 +11741,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q3",
@@ -11860,7 +11755,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q4",
@@ -11874,7 +11769,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q5",
@@ -11888,7 +11783,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q6",
@@ -11902,7 +11797,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q7",
@@ -11916,7 +11811,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q8",
@@ -11930,7 +11825,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q9",
@@ -11944,7 +11839,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q10",
@@ -11958,7 +11853,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q11",
@@ -11972,7 +11867,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q12",
@@ -11986,7 +11881,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q13",
@@ -12000,7 +11895,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q14",
@@ -12014,7 +11909,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q15",
@@ -12028,7 +11923,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q16",
@@ -12042,7 +11937,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q17",
@@ -12056,7 +11951,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q18",
@@ -12070,7 +11965,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q19",
@@ -12084,7 +11979,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q20",
@@ -12098,7 +11993,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q21",
@@ -12112,7 +12007,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q22",
@@ -12126,7 +12021,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q23",
@@ -12140,7 +12035,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q24",
@@ -12154,7 +12049,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q25",
@@ -12168,7 +12063,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q26",
@@ -12182,7 +12077,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q27",
@@ -12196,7 +12091,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q28",
@@ -12210,7 +12105,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q29",
@@ -12224,7 +12119,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q30",
@@ -12238,7 +12133,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q31",
@@ -12252,7 +12147,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q32",
@@ -12266,7 +12161,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q33",
@@ -12280,7 +12175,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q34",
@@ -12294,7 +12189,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q35",
@@ -12308,7 +12203,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q36",
@@ -12322,7 +12217,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q37",
@@ -12336,7 +12231,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q38",
@@ -12350,7 +12245,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q39",
@@ -12364,7 +12259,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q40",
@@ -12378,7 +12273,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q41",
@@ -12392,7 +12287,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q42",
@@ -12406,7 +12301,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q43",
@@ -12420,7 +12315,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q44",
@@ -12434,7 +12329,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q45",
@@ -12448,7 +12343,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q46",
@@ -12462,7 +12357,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q47",
@@ -12476,7 +12371,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q48",
@@ -12490,7 +12385,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q49",
@@ -12504,7 +12399,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q50",
@@ -12518,7 +12413,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q51",
@@ -12532,7 +12427,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q52",
@@ -12546,7 +12441,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q53",
@@ -12560,7 +12455,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q54",
@@ -12574,7 +12469,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "A",
-          "explanation": "Tema 10: in on at. Opción correcta: A."
+          "explanation": "'in' se emplea para meses, años, estaciones, partes del día (in the morning) y espacios cerrados o áreas geográficas."
         },
         {
           "id": "T10_Q55",
@@ -12588,7 +12483,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q56",
@@ -12602,7 +12497,7 @@ window.TEST_DATA = {
             "C": "in"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         },
         {
           "id": "T10_Q57",
@@ -12616,7 +12511,7 @@ window.TEST_DATA = {
             "C": "on"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q58",
@@ -12630,7 +12525,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "B",
-          "explanation": "Tema 10: in on at. Opción correcta: B."
+          "explanation": "'on' es obligatorio para días de la semana, fechas completas (on Monday, on 5th May) y superficies o medios con plataforma."
         },
         {
           "id": "T10_Q59",
@@ -12644,7 +12539,7 @@ window.TEST_DATA = {
             "C": "at"
           },
           "answer": "C",
-          "explanation": "Tema 10: in on at. Opción correcta: C."
+          "explanation": "'at' es correcto para horas exactas, momentos puntuales (at night, at noon, at the weekend) o puntos concretos de ubicación."
         }
       ]
     },
@@ -12669,7 +12564,7 @@ window.TEST_DATA = {
             "D": "did look"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'were looking' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q2",
@@ -12684,7 +12579,7 @@ window.TEST_DATA = {
             "D": "completed"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'completed' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q3",
@@ -12699,7 +12594,7 @@ window.TEST_DATA = {
             "D": "did went out"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'went out' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q4",
@@ -12714,7 +12609,7 @@ window.TEST_DATA = {
             "D": "did concluded"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'concluded' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q5",
@@ -12729,7 +12624,7 @@ window.TEST_DATA = {
             "D": "were using to"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q6",
@@ -12744,7 +12639,7 @@ window.TEST_DATA = {
             "D": "were doing you"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'were you doing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q7",
@@ -12759,7 +12654,7 @@ window.TEST_DATA = {
             "D": "is used to"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'is used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q8",
@@ -12774,7 +12669,7 @@ window.TEST_DATA = {
             "D": "not attended"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'didn’t attend' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q9",
@@ -12789,7 +12684,7 @@ window.TEST_DATA = {
             "D": "did read"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'was reading' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q10",
@@ -12804,7 +12699,7 @@ window.TEST_DATA = {
             "D": "did opened"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'opened' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q11",
@@ -12819,7 +12714,7 @@ window.TEST_DATA = {
             "D": "use to live"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'use to live' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11_Q12",
@@ -12834,7 +12729,7 @@ window.TEST_DATA = {
             "D": "realise"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'realised' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q13",
@@ -12849,7 +12744,7 @@ window.TEST_DATA = {
             "D": "are organizing"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'were organizing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q14",
@@ -12864,7 +12759,7 @@ window.TEST_DATA = {
             "D": "were they leave"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'did they leave' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11_Q15",
@@ -12879,7 +12774,7 @@ window.TEST_DATA = {
             "D": "did arrived"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'arrived' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q16",
@@ -12894,7 +12789,7 @@ window.TEST_DATA = {
             "D": "got used to"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'got used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q17",
@@ -12909,7 +12804,7 @@ window.TEST_DATA = {
             "D": "am walking"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'was walking' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q18",
@@ -12924,7 +12819,7 @@ window.TEST_DATA = {
             "D": "did reached"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'reached' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q19",
@@ -12939,7 +12834,7 @@ window.TEST_DATA = {
             "D": "did have"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'were having' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q20",
@@ -12954,7 +12849,7 @@ window.TEST_DATA = {
             "D": "didn't use to"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'didn't use to' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11_Q21",
@@ -12969,7 +12864,7 @@ window.TEST_DATA = {
             "D": "Was"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'Did' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q22",
@@ -12984,7 +12879,7 @@ window.TEST_DATA = {
             "D": "studied"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'studied' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q23",
@@ -12999,7 +12894,7 @@ window.TEST_DATA = {
             "D": "was playing"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'were playing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q24",
@@ -13014,7 +12909,7 @@ window.TEST_DATA = {
             "D": "did attracted"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'attracted' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q25",
@@ -13029,7 +12924,7 @@ window.TEST_DATA = {
             "D": "was used to"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'was used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q26",
@@ -13044,7 +12939,7 @@ window.TEST_DATA = {
             "D": "didn't watching"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'weren't watching' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q27",
@@ -13059,7 +12954,7 @@ window.TEST_DATA = {
             "D": "did carried"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'carried' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q28",
@@ -13074,7 +12969,7 @@ window.TEST_DATA = {
             "D": "were opening"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'was opening' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q29",
@@ -13089,7 +12984,7 @@ window.TEST_DATA = {
             "D": "used be"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'used to be' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q30",
@@ -13104,7 +12999,7 @@ window.TEST_DATA = {
             "D": "did the flight arrive"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'did the flight arrive' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11_Q31",
@@ -13119,7 +13014,7 @@ window.TEST_DATA = {
             "D": "did planned"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'planned' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q32",
@@ -13134,7 +13029,7 @@ window.TEST_DATA = {
             "D": "did raining"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'was raining' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q33",
@@ -13149,7 +13044,7 @@ window.TEST_DATA = {
             "D": "used to"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q34",
@@ -13164,7 +13059,7 @@ window.TEST_DATA = {
             "D": "were checking"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'was checking' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q35",
@@ -13179,7 +13074,7 @@ window.TEST_DATA = {
             "D": "not attend"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'didn't attend' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11_Q36",
@@ -13194,7 +13089,7 @@ window.TEST_DATA = {
             "D": "use to bought"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'used to buy' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q37",
@@ -13209,7 +13104,7 @@ window.TEST_DATA = {
             "D": "did prepared"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'were preparing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q38",
@@ -13224,7 +13119,7 @@ window.TEST_DATA = {
             "D": "conclude"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'concluded' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q39",
@@ -13239,7 +13134,7 @@ window.TEST_DATA = {
             "D": "were walking"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'were walking' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q40",
@@ -13254,7 +13149,7 @@ window.TEST_DATA = {
             "D": "use to stopped"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'used to stop' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q41",
@@ -13269,7 +13164,7 @@ window.TEST_DATA = {
             "D": "got used"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'got used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q42",
@@ -13284,7 +13179,7 @@ window.TEST_DATA = {
             "D": "did stopped"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'stopped' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q43",
@@ -13299,7 +13194,7 @@ window.TEST_DATA = {
             "D": "did ask"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'were asking' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q44",
@@ -13314,7 +13209,7 @@ window.TEST_DATA = {
             "D": "didn't follow"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'didn't follow' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11_Q45",
@@ -13329,7 +13224,7 @@ window.TEST_DATA = {
             "D": "did they do"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'were they doing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q46",
@@ -13344,7 +13239,7 @@ window.TEST_DATA = {
             "D": "are use to"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'are used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q47",
@@ -13359,7 +13254,7 @@ window.TEST_DATA = {
             "D": "get used to"
           },
           "answer": "D",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: D."
+          "explanation": "'get used to' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q48",
@@ -13374,7 +13269,7 @@ window.TEST_DATA = {
             "D": "did completed"
           },
           "answer": "A",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: A."
+          "explanation": "'completed' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11_Q49",
@@ -13389,7 +13284,7 @@ window.TEST_DATA = {
             "D": "did wait"
           },
           "answer": "B",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: B."
+          "explanation": "'were waiting' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11_Q50",
@@ -13404,7 +13299,7 @@ window.TEST_DATA = {
             "D": "was using to"
           },
           "answer": "C",
-          "explanation": "Tema 11: PAST SIMPLE & CONTINUOUS. Opción correcta: C."
+          "explanation": "'used to use' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         }
       ]
     },
@@ -13423,7 +13318,7 @@ window.TEST_DATA = {
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
           "question": "Was Jane busy when you went to see her? Yes, she ____________________ (study).",
           "answer": "was studying",
-          "explanation": "Respuesta correcta: 'was studying'."
+          "explanation": "'was studying' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q10",
@@ -13432,7 +13327,7 @@ window.TEST_DATA = {
           "section": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS",
           "question": "What ____________________ (you / do) at 2 o’clock this morning? I was asleep.",
           "answer": "were you doing",
-          "explanation": "Respuesta correcta: 'were you doing'."
+          "explanation": "'were you doing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q11",
@@ -13447,7 +13342,7 @@ window.TEST_DATA = {
             "D": "take off"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'took off' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q12",
@@ -13462,7 +13357,7 @@ window.TEST_DATA = {
             "D": "bought not"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'didn’t buy' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q13",
@@ -13477,7 +13372,7 @@ window.TEST_DATA = {
             "D": "What was time the concert?"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'What time was the concert?' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q14",
@@ -13492,7 +13387,7 @@ window.TEST_DATA = {
             "D": "is come"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'came' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q15",
@@ -13507,7 +13402,7 @@ window.TEST_DATA = {
             "D": "did opened"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'opened' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q16",
@@ -13522,7 +13417,7 @@ window.TEST_DATA = {
             "D": "am knowing"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'knew' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q17",
@@ -13537,7 +13432,7 @@ window.TEST_DATA = {
             "D": "did arrived"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'arrived' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q18",
@@ -13552,7 +13447,7 @@ window.TEST_DATA = {
             "D": "I spoke didn’t English last night."
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'I didn’t speak English last night.' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q19",
@@ -13567,7 +13462,7 @@ window.TEST_DATA = {
             "D": "where"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'were' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q20",
@@ -13582,7 +13477,7 @@ window.TEST_DATA = {
             "D": "bought you"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'did you buy' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q21",
@@ -13597,7 +13492,7 @@ window.TEST_DATA = {
             "D": "play"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'played' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q22",
@@ -13612,7 +13507,7 @@ window.TEST_DATA = {
             "D": "She wasn’t liked the idea."
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'She wasn’t liked the idea.' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q23",
@@ -13627,7 +13522,7 @@ window.TEST_DATA = {
             "D": "did leave"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'did left' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q24",
@@ -13642,7 +13537,7 @@ window.TEST_DATA = {
             "D": "working"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'doesn’t work' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q25",
@@ -13657,7 +13552,7 @@ window.TEST_DATA = {
             "D": "made"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'made' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q26",
@@ -13672,7 +13567,7 @@ window.TEST_DATA = {
             "D": "Yes, I did."
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'Yes, I did.' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q27",
@@ -13687,7 +13582,7 @@ window.TEST_DATA = {
             "D": "go / were"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'went / was' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q28",
@@ -13702,7 +13597,7 @@ window.TEST_DATA = {
             "D": "Did clean you"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'Did you clean' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q29",
@@ -13717,7 +13612,7 @@ window.TEST_DATA = {
             "D": "did saw"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'saw' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q30",
@@ -13732,7 +13627,7 @@ window.TEST_DATA = {
             "D": "didn’t buy / didn’t"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'didn’t buy / didn’t' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q31",
@@ -13747,7 +13642,7 @@ window.TEST_DATA = {
             "D": "I had"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'I was' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q32",
@@ -13762,7 +13657,7 @@ window.TEST_DATA = {
             "D": "forgot"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'forgot' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q33",
@@ -13777,7 +13672,7 @@ window.TEST_DATA = {
             "D": "What time the meeting started?"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'What time did the meeting start?' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q34",
@@ -13792,7 +13687,7 @@ window.TEST_DATA = {
             "D": "not went"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'didn’t go' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q35",
@@ -13807,7 +13702,7 @@ window.TEST_DATA = {
             "D": "arrived"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'arrived' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q36",
@@ -13822,7 +13717,7 @@ window.TEST_DATA = {
             "D": "What like was the weather last week?"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'What was the weather like last week?' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q37",
@@ -13837,7 +13732,7 @@ window.TEST_DATA = {
             "D": "No, I weren’t."
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'Yes, I was.' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q38",
@@ -13852,7 +13747,7 @@ window.TEST_DATA = {
             "D": "wanted"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'wanted' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q39",
@@ -13867,7 +13762,7 @@ window.TEST_DATA = {
             "D": "is Ann phones"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'did Ann phone' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q40",
@@ -13882,7 +13777,7 @@ window.TEST_DATA = {
             "D": "Did we were losting our purse on the bus?"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'Did we lose our purse on the bus?' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q41",
@@ -13897,7 +13792,7 @@ window.TEST_DATA = {
             "D": "was / were / were"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'was / were / was' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q42",
@@ -13912,7 +13807,7 @@ window.TEST_DATA = {
             "D": "was go"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'went' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q43",
@@ -13927,7 +13822,7 @@ window.TEST_DATA = {
             "D": "did enjoyed"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'enjoyed' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q44",
@@ -13942,7 +13837,7 @@ window.TEST_DATA = {
             "D": "Did go they to Madrid last week?"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'Did they go to Madrid last week?' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q45",
@@ -13957,7 +13852,7 @@ window.TEST_DATA = {
             "D": "waited / was arrived"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'was waiting / arrived' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q46",
@@ -13972,7 +13867,7 @@ window.TEST_DATA = {
             "D": "washing"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'was washing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q47",
@@ -13987,7 +13882,7 @@ window.TEST_DATA = {
             "D": "were you doing"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'were you doing' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q48",
@@ -14002,7 +13897,7 @@ window.TEST_DATA = {
             "D": "stops"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'stopped' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q49",
@@ -14017,7 +13912,7 @@ window.TEST_DATA = {
             "D": "driven"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'drove' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q50",
@@ -14032,7 +13927,7 @@ window.TEST_DATA = {
             "D": "worked"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'were working' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q51",
@@ -14047,7 +13942,7 @@ window.TEST_DATA = {
             "D": "drunk"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'drank' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q52",
@@ -14062,7 +13957,7 @@ window.TEST_DATA = {
             "D": "not went out"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'didn’t go out' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q53",
@@ -14077,7 +13972,7 @@ window.TEST_DATA = {
             "D": "were raining / went out"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'was raining / went out' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q54",
@@ -14092,7 +13987,7 @@ window.TEST_DATA = {
             "D": "break"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'broke' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q55",
@@ -14107,7 +14002,7 @@ window.TEST_DATA = {
             "D": "were waiting"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'was waiting' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q56",
@@ -14122,7 +14017,7 @@ window.TEST_DATA = {
             "D": "did invented"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'invented' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q57",
@@ -14137,7 +14032,7 @@ window.TEST_DATA = {
             "D": "Have you watch"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'Were you watching' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q58",
@@ -14152,7 +14047,7 @@ window.TEST_DATA = {
             "D": "took"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'took' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q59",
@@ -14167,7 +14062,7 @@ window.TEST_DATA = {
             "D": "have"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'did' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q60",
@@ -14182,7 +14077,7 @@ window.TEST_DATA = {
             "D": "saw / was flew"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'saw / were flying' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q61",
@@ -14197,7 +14092,7 @@ window.TEST_DATA = {
             "D": "was have a showering"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'was having a shower' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q62",
@@ -14212,7 +14107,7 @@ window.TEST_DATA = {
             "D": "Are"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'Were' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q63",
@@ -14227,7 +14122,7 @@ window.TEST_DATA = {
             "D": "burn"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'burnt' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q64",
@@ -14242,7 +14137,7 @@ window.TEST_DATA = {
             "D": "were explain the lesson"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'was explaining the lesson' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q65",
@@ -14257,7 +14152,7 @@ window.TEST_DATA = {
             "D": "was afraid of mice"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'was afraid of mice' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q66",
@@ -14272,7 +14167,7 @@ window.TEST_DATA = {
             "D": "didn’t see"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'didn’t see' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q67",
@@ -14287,7 +14182,7 @@ window.TEST_DATA = {
             "D": "I was playing chess."
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'I was playing chess.' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q68",
@@ -14302,7 +14197,7 @@ window.TEST_DATA = {
             "D": "were boiling"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'boiled' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q69",
@@ -14317,7 +14212,7 @@ window.TEST_DATA = {
             "D": "did you stay"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'did you stay' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q70",
@@ -14332,7 +14227,7 @@ window.TEST_DATA = {
             "D": "you not pay attention / talked"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'didn’t you pay attention / was talking' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q71",
@@ -14347,7 +14242,7 @@ window.TEST_DATA = {
             "D": "have come"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'came' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q72",
@@ -14362,7 +14257,7 @@ window.TEST_DATA = {
             "D": "open"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'opened' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q73",
@@ -14377,7 +14272,7 @@ window.TEST_DATA = {
             "D": "Did liked you the film?"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'Did you like the film?' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q74",
@@ -14392,7 +14287,7 @@ window.TEST_DATA = {
             "D": "don’t"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B."
+          "explanation": "'wasn’t' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q75",
@@ -14407,7 +14302,7 @@ window.TEST_DATA = {
             "D": "did"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'did' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q76",
@@ -14422,7 +14317,7 @@ window.TEST_DATA = {
             "D": "was have a showering"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'was having a shower' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q77",
@@ -14437,7 +14332,7 @@ window.TEST_DATA = {
             "D": "We did played tennis."
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'We played tennis.' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q78",
@@ -14452,7 +14347,7 @@ window.TEST_DATA = {
             "D": "don’t sleep"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'didn’t sleep' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q79",
@@ -14467,7 +14362,7 @@ window.TEST_DATA = {
             "D": "had"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C."
+          "explanation": "'did' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q80",
@@ -14482,7 +14377,7 @@ window.TEST_DATA = {
             "D": "enjoys"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'enjoyed' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q81",
@@ -14497,7 +14392,7 @@ window.TEST_DATA = {
             "D": "did buy you"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'did you buy' sigue la regla del Past Simple en negativa/interrogativa: con 'did/didn't' el verbo principal regresa a forma base (sin '-ed')."
         },
         {
           "id": "T11E_Q82",
@@ -14512,7 +14407,7 @@ window.TEST_DATA = {
             "D": "of"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A."
+          "explanation": "'while' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna)."
         },
         {
           "id": "T11E_Q83",
@@ -14527,7 +14422,7 @@ window.TEST_DATA = {
             "D": "She came into the room while I was watching TV."
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D."
+          "explanation": "'She came into the room while I was watching TV.' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple."
         },
         {
           "id": "T11E_Q84",
@@ -14542,7 +14437,7 @@ window.TEST_DATA = {
             "D": "studying"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C.",
+          "explanation": "'was studying' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple.",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14558,7 +14453,7 @@ window.TEST_DATA = {
             "D": "met"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D.",
+          "explanation": "'met' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14574,7 +14469,7 @@ window.TEST_DATA = {
             "D": "is working"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A.",
+          "explanation": "'was working' (Past Continuous) describe una acción en curso en el pasado, habitualmente interrumpida por una acción puntual en Past Simple.",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14590,7 +14485,7 @@ window.TEST_DATA = {
             "D": "is meeting"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A.",
+          "explanation": "'met' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14606,7 +14501,7 @@ window.TEST_DATA = {
             "D": "wanted"
           },
           "answer": "B",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: B.",
+          "explanation": "'didn’t want' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14622,7 +14517,7 @@ window.TEST_DATA = {
             "D": "was being"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A.",
+          "explanation": "'was' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14638,7 +14533,7 @@ window.TEST_DATA = {
             "D": "lived"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D.",
+          "explanation": "'lived' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14654,7 +14549,7 @@ window.TEST_DATA = {
             "D": "are living"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D.",
+          "explanation": "'are living' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14670,7 +14565,7 @@ window.TEST_DATA = {
             "D": "finished"
           },
           "answer": "D",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: D.",
+          "explanation": "'finished' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14686,7 +14581,7 @@ window.TEST_DATA = {
             "D": "did got"
           },
           "answer": "A",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: A.",
+          "explanation": "'got' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         },
         {
@@ -14702,7 +14597,7 @@ window.TEST_DATA = {
             "D": "worked"
           },
           "answer": "C",
-          "explanation": "Tema 11 (Extra): EJERCICIOS COMPLEMENTARIOS. Opción correcta: C.",
+          "explanation": "'works' expresa una acción acabada en un tiempo pasado definido (Past Simple; verbo regular en '-ed' o forma irregular de 2.ª columna).",
           "readingText": "When I (84) __________ in London, I (85) __________ my boyfriend Peter. He (86) __________ in an Italian restaurant. I first (87) __________ him in a street market. I (88) __________ to have a boyfriend at that moment, but he (89) __________ such a nice man. We (90) __________ together in London for two years, but we (91) __________ in Montreal now. I (92) __________ my university degree in London, and I (93) __________ a good job here. My boyfriend (94) __________ in an office."
         }
       ]
@@ -14728,7 +14623,7 @@ window.TEST_DATA = {
             "D": "the nurse"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'a nurse' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q2",
@@ -14743,7 +14638,7 @@ window.TEST_DATA = {
             "D": "the waiter"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'a waiter' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q3",
@@ -14758,7 +14653,7 @@ window.TEST_DATA = {
             "D": "the travel agent"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'a travel agent' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q4",
@@ -14773,7 +14668,7 @@ window.TEST_DATA = {
             "D": "a pilot"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'a pilot' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q5",
@@ -14788,7 +14683,7 @@ window.TEST_DATA = {
             "D": "the driving instructor"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'a driving instructor' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q6",
@@ -14803,7 +14698,7 @@ window.TEST_DATA = {
             "D": "an plumber"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'a plumber' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q7",
@@ -14818,7 +14713,7 @@ window.TEST_DATA = {
             "D": "the journalist"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'a journalist' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q8",
@@ -14833,7 +14728,7 @@ window.TEST_DATA = {
             "D": "an interpreter"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'an interpreter' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q9",
@@ -14848,7 +14743,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q10",
@@ -14863,7 +14758,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q11",
@@ -14878,7 +14773,7 @@ window.TEST_DATA = {
             "D": "a / a"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'an / an' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q12",
@@ -14893,7 +14788,7 @@ window.TEST_DATA = {
             "D": "a"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q13",
@@ -14908,7 +14803,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'an' es el artículo indefinido correcto delante de sustantivo contable singular con sonido vocálico inicial."
         },
         {
           "id": "T12F1_Q14",
@@ -14923,7 +14818,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q15",
@@ -14938,7 +14833,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'some' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q16",
@@ -14953,7 +14848,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q17",
@@ -14968,7 +14863,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q18",
@@ -14983,7 +14878,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q19",
@@ -14998,7 +14893,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'an' es el artículo indefinido correcto delante de sustantivo contable singular con sonido vocálico inicial."
         },
         {
           "id": "T12F1_Q20",
@@ -15013,7 +14908,7 @@ window.TEST_DATA = {
             "D": "the"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q21",
@@ -15028,7 +14923,7 @@ window.TEST_DATA = {
             "D": "a"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q22",
@@ -15043,7 +14938,7 @@ window.TEST_DATA = {
             "D": "The"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'Some' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q23",
@@ -15058,7 +14953,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q24",
@@ -15073,7 +14968,7 @@ window.TEST_DATA = {
             "D": "a"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q25",
@@ -15088,7 +14983,7 @@ window.TEST_DATA = {
             "D": "a / an"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'a / a' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q26",
@@ -15103,7 +14998,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q27",
@@ -15118,7 +15013,7 @@ window.TEST_DATA = {
             "D": "the"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'some' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q28",
@@ -15133,7 +15028,7 @@ window.TEST_DATA = {
             "D": "a / some"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'a / some' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q29",
@@ -15148,7 +15043,7 @@ window.TEST_DATA = {
             "D": "a / some"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'a / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q30",
@@ -15163,7 +15058,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q31",
@@ -15178,7 +15073,7 @@ window.TEST_DATA = {
             "D": "any"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'some' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q32",
@@ -15193,7 +15088,7 @@ window.TEST_DATA = {
             "D": "a"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F1_Q33",
@@ -15208,7 +15103,7 @@ window.TEST_DATA = {
             "D": "Ø / the"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'Ø / a' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q34",
@@ -15223,7 +15118,7 @@ window.TEST_DATA = {
             "D": "the / the"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'a / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q35",
@@ -15238,7 +15133,7 @@ window.TEST_DATA = {
             "D": "Ø / the"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'the / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q36",
@@ -15253,7 +15148,7 @@ window.TEST_DATA = {
             "D": "the / a"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'the / a' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q37",
@@ -15268,7 +15163,7 @@ window.TEST_DATA = {
             "D": "the / Ø"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'Ø / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q38",
@@ -15283,7 +15178,7 @@ window.TEST_DATA = {
             "D": "a / the"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'the / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q39",
@@ -15298,7 +15193,7 @@ window.TEST_DATA = {
             "D": "a / the"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'a / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q40",
@@ -15313,7 +15208,7 @@ window.TEST_DATA = {
             "D": "a / Ø"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'Ø / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q41",
@@ -15328,7 +15223,7 @@ window.TEST_DATA = {
             "D": "the / a"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'Ø / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q42",
@@ -15343,7 +15238,7 @@ window.TEST_DATA = {
             "D": "the / a"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'the / a' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q43",
@@ -15358,7 +15253,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F1_Q44",
@@ -15373,7 +15268,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q45",
@@ -15388,7 +15283,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q46",
@@ -15403,7 +15298,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'an' es el artículo indefinido correcto delante de sustantivo contable singular con sonido vocálico inicial."
         },
         {
           "id": "T12F1_Q47",
@@ -15418,7 +15313,7 @@ window.TEST_DATA = {
             "D": "An"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F1_Q48",
@@ -15433,7 +15328,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q49",
@@ -15448,7 +15343,7 @@ window.TEST_DATA = {
             "D": "the"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F1_Q50",
@@ -15463,7 +15358,7 @@ window.TEST_DATA = {
             "D": "An"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q51",
@@ -15478,7 +15373,7 @@ window.TEST_DATA = {
             "D": "Ø / the"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'Ø / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q52",
@@ -15493,7 +15388,7 @@ window.TEST_DATA = {
             "D": "the / the"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'an / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q53",
@@ -15508,7 +15403,7 @@ window.TEST_DATA = {
             "D": "An"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: C."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q54",
@@ -15523,7 +15418,7 @@ window.TEST_DATA = {
             "D": "Ø / the"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: D."
+          "explanation": "'Ø / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F1_Q55",
@@ -15538,7 +15433,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: A."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F1_Q56",
@@ -15553,7 +15448,7 @@ window.TEST_DATA = {
             "D": "the / Ø"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 1): Articles. Opción correcta: B."
+          "explanation": "'the / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         }
       ]
     },
@@ -15578,7 +15473,7 @@ window.TEST_DATA = {
             "D": "an dogs"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'dogs' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q2",
@@ -15593,7 +15488,7 @@ window.TEST_DATA = {
             "D": "the salt"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'the salt' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q3",
@@ -15608,7 +15503,7 @@ window.TEST_DATA = {
             "D": "An apples"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'Apples' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q4",
@@ -15623,7 +15518,7 @@ window.TEST_DATA = {
             "D": "a apples"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'the apples' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q5",
@@ -15638,7 +15533,7 @@ window.TEST_DATA = {
             "D": "The women / men"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'Women / men' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q6",
@@ -15653,7 +15548,7 @@ window.TEST_DATA = {
             "D": "teas"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'tea' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q7",
@@ -15668,7 +15563,7 @@ window.TEST_DATA = {
             "D": "An vegetables"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'The vegetables' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q8",
@@ -15683,7 +15578,7 @@ window.TEST_DATA = {
             "D": "An life"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'Life' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q9",
@@ -15698,7 +15593,7 @@ window.TEST_DATA = {
             "D": "skis"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'skiing' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q10",
@@ -15713,7 +15608,7 @@ window.TEST_DATA = {
             "D": "an people"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the people' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q11",
@@ -15728,7 +15623,7 @@ window.TEST_DATA = {
             "D": "the people / aggression"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'people / aggression' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q12",
@@ -15743,7 +15638,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F2_Q13",
@@ -15758,7 +15653,7 @@ window.TEST_DATA = {
             "D": "an beds"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the beds' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q14",
@@ -15773,7 +15668,7 @@ window.TEST_DATA = {
             "D": "wars"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'war' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q15",
@@ -15788,7 +15683,7 @@ window.TEST_DATA = {
             "D": "First the World War"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'The First World War' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q16",
@@ -15803,7 +15698,7 @@ window.TEST_DATA = {
             "D": "a unemployment"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'unemployment' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q17",
@@ -15818,7 +15713,7 @@ window.TEST_DATA = {
             "D": "marriages"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the marriage' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q18",
@@ -15833,7 +15728,7 @@ window.TEST_DATA = {
             "D": "The most people / marriage / the family life / society"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'Most people / marriage / family life / society' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q19",
@@ -15848,7 +15743,7 @@ window.TEST_DATA = {
             "D": "the telephone"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'the telephone' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q20",
@@ -15863,7 +15758,7 @@ window.TEST_DATA = {
             "D": "an musical instruments"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+          "explanation": "'musical instruments' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q21",
@@ -15878,7 +15773,7 @@ window.TEST_DATA = {
             "D": "an violin"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the violin' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q22",
@@ -15893,7 +15788,7 @@ window.TEST_DATA = {
             "D": "a piano"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'a piano' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q23",
@@ -15908,7 +15803,7 @@ window.TEST_DATA = {
             "D": "pianos"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'the piano' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q24",
@@ -15923,7 +15818,7 @@ window.TEST_DATA = {
             "D": "families"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the family' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q25",
@@ -15938,7 +15833,7 @@ window.TEST_DATA = {
             "D": "large families"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'a large family' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q26",
@@ -15953,7 +15848,7 @@ window.TEST_DATA = {
             "D": "papers"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'paper' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q27",
@@ -15968,7 +15863,7 @@ window.TEST_DATA = {
             "D": "Computers the"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'The computer' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q28",
@@ -15977,7 +15872,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "My favourite sport is ________________________________.",
           "answer": "basketball",
-          "explanation": "Respuesta correcta: 'basketball'.",
+          "explanation": "'basketball' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -15987,7 +15882,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "________________________________ we were given wasn’t correct.",
           "answer": "the information",
-          "explanation": "Respuesta correcta: 'the information'.",
+          "explanation": "'the information' respeta las reglas de artículos en inglés: sin artículo (Ø) para generalizaciones en plural o incontables, y con 'the' si está especificado.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -15997,7 +15892,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "Many people are afraid of ________________________________.",
           "answer": "spiders",
-          "explanation": "Respuesta correcta: 'spiders'.",
+          "explanation": "'spiders' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16007,7 +15902,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "A vegetarian is somebody who doesn’t eat ________________________________.",
           "answer": "meat",
-          "explanation": "Respuesta correcta: 'meat'.",
+          "explanation": "'meat' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16017,7 +15912,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "The test wasn’t very difficult. I answered all ________________________________ without difficulty.",
           "answer": "the questions",
-          "explanation": "Respuesta correcta: 'the questions'.",
+          "explanation": "'the questions' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16027,7 +15922,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "Do you know ________________________________ who lives next door?",
           "answer": "the people",
-          "explanation": "Respuesta correcta: 'the people'.",
+          "explanation": "'the people' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16037,7 +15932,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "________________________________ is the study of the past.",
           "answer": "history",
-          "explanation": "Respuesta correcta: 'history'.",
+          "explanation": "'history' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16047,7 +15942,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "George always tells the truth. He never tells ________________________________.",
           "answer": "lies",
-          "explanation": "Respuesta correcta: 'lies'.",
+          "explanation": "'lies' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16057,7 +15952,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "We couldn’t find anywhere to stay in the town. All ________________________________ were full.",
           "answer": "the hotels",
-          "explanation": "Respuesta correcta: 'the hotels'.",
+          "explanation": "'the hotels' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16067,7 +15962,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "________________________________ in the pool didn’t look very clean, so we didn’t go for a swim.",
           "answer": "the water",
-          "explanation": "Respuesta correcta: 'the water'.",
+          "explanation": "'the water' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16077,7 +15972,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "Don’t sit on ________________________________. It’s wet after the rain.",
           "answer": "the grass",
-          "explanation": "Respuesta correcta: 'the grass'.",
+          "explanation": "'the grass' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16087,7 +15982,7 @@ window.TEST_DATA = {
           "section": "Tema 12 (Ficha 2): Articles",
           "question": "You need ________________________________ to teach young children.",
           "answer": "patience",
-          "explanation": "Respuesta correcta: 'patience'.",
+          "explanation": "'patience' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general.",
           "readingText": "B. Complete each sentence using one of the words below. Use “the” where\nnecessary.\nbasketball · questions · history · hotels · information · patience · people · water · meat ·\ngrass · lies · spiders"
         },
         {
@@ -16103,7 +15998,7 @@ window.TEST_DATA = {
             "D": "the / an"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+          "explanation": "'a / at' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q41",
@@ -16118,7 +16013,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q42",
@@ -16133,7 +16028,7 @@ window.TEST_DATA = {
             "D": "Ø / the"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'the / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q43",
@@ -16148,7 +16043,7 @@ window.TEST_DATA = {
             "D": "a / the / a / the"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'a / a / the / the' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q44",
@@ -16163,7 +16058,7 @@ window.TEST_DATA = {
             "D": "Ø / Ø"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'Ø / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q45",
@@ -16178,7 +16073,7 @@ window.TEST_DATA = {
             "D": "a / the"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+          "explanation": "'the / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q46",
@@ -16193,7 +16088,7 @@ window.TEST_DATA = {
             "D": "The / the"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'A / a' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q47",
@@ -16208,7 +16103,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'a' es el artículo indefinido correcto delante de sustantivo contable singular con sonido consonántico inicial (como 'university' /juː/ o 'euro')."
         },
         {
           "id": "T12F2_Q48",
@@ -16223,7 +16118,7 @@ window.TEST_DATA = {
             "D": "the"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F2_Q49",
@@ -16238,7 +16133,7 @@ window.TEST_DATA = {
             "D": "Ø / Ø"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'the / Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q50",
@@ -16253,7 +16148,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F2_Q51",
@@ -16268,7 +16163,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q52",
@@ -16283,7 +16178,7 @@ window.TEST_DATA = {
             "D": "An"
           },
           "answer": "A",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: A."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q53",
@@ -16298,7 +16193,7 @@ window.TEST_DATA = {
             "D": "an"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q54",
@@ -16313,7 +16208,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q55",
@@ -16328,7 +16223,7 @@ window.TEST_DATA = {
             "D": "An"
           },
           "answer": "B",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: B."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         },
         {
           "id": "T12F2_Q56",
@@ -16343,7 +16238,7 @@ window.TEST_DATA = {
             "D": "mine"
           },
           "answer": "C",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: C."
+          "explanation": "'the' es necesario porque se refiere a un elemento específico, único o ya conocido por el contexto."
         },
         {
           "id": "T12F2_Q57",
@@ -16358,7 +16253,7 @@ window.TEST_DATA = {
             "D": "Ø"
           },
           "answer": "D",
-          "explanation": "Tema 12 (Ficha 2): Articles. Opción correcta: D."
+          "explanation": "'Ø' cumple la concordancia de artículo definido/indefinido/cero (a/an/the/Ø) según si el sustantivo es contable, específico o general."
         }
       ]
     },
@@ -16383,7 +16278,7 @@ window.TEST_DATA = {
             "D": "farthest → the farther"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'farther → the farthest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q2",
@@ -16398,7 +16293,7 @@ window.TEST_DATA = {
             "D": "more earlier → the most earliest"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'earlier → the earliest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q3",
@@ -16413,7 +16308,7 @@ window.TEST_DATA = {
             "D": "nearier → the neariest"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'nearer → the nearest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q4",
@@ -16428,7 +16323,7 @@ window.TEST_DATA = {
             "D": "more expensiver → the most expensivest"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'more expensive → the most expensive' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q5",
@@ -16443,7 +16338,7 @@ window.TEST_DATA = {
             "D": "dirtiest → dirtier"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'dirtier → the dirtiest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q6",
@@ -16458,7 +16353,7 @@ window.TEST_DATA = {
             "D": "widest → wider"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'wider → the widest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q7",
@@ -16473,7 +16368,7 @@ window.TEST_DATA = {
             "D": "narrower → the narrowiest"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'narrower → the narrowest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q8",
@@ -16488,7 +16383,7 @@ window.TEST_DATA = {
             "D": "older → the oldest"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'older → the oldest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q9",
@@ -16503,7 +16398,7 @@ window.TEST_DATA = {
             "D": "worst → worse"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'worse → the worst' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q10",
@@ -16518,7 +16413,7 @@ window.TEST_DATA = {
             "D": "kindder → the kinddest"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'kinder → the kindest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q11",
@@ -16533,7 +16428,7 @@ window.TEST_DATA = {
             "D": "saddest → sadder"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'sadder → the saddest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q12",
@@ -16548,7 +16443,7 @@ window.TEST_DATA = {
             "D": "more tall"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'tallest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q13",
@@ -16563,7 +16458,7 @@ window.TEST_DATA = {
             "D": "cheaper"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'cheaper' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q14",
@@ -16578,7 +16473,7 @@ window.TEST_DATA = {
             "D": "the more intelligent"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'more intelligent' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q15",
@@ -16593,7 +16488,7 @@ window.TEST_DATA = {
             "D": "worst"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'worst' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F1_Q16",
@@ -16608,7 +16503,7 @@ window.TEST_DATA = {
             "D": "most small"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'smallest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q17",
@@ -16623,7 +16518,7 @@ window.TEST_DATA = {
             "D": "so older as"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'as old as' forma la estructura de igualdad 'as + adjetivo/adverbio en grado positivo + as' (sin terminación comparativa)."
         },
         {
           "id": "T13F1_Q18",
@@ -16638,7 +16533,7 @@ window.TEST_DATA = {
             "D": "the more comfortable"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'more comfortable' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q19",
@@ -16653,7 +16548,7 @@ window.TEST_DATA = {
             "D": "colder"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'colder' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q20",
@@ -16668,7 +16563,7 @@ window.TEST_DATA = {
             "D": "the harder"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'harder' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q21",
@@ -16683,7 +16578,7 @@ window.TEST_DATA = {
             "D": "the longest"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'longer' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q22",
@@ -16698,7 +16593,7 @@ window.TEST_DATA = {
             "D": "more / as"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'as / as' forma la estructura de igualdad 'as + adjetivo/adverbio en grado positivo + as' (sin terminación comparativa)."
         },
         {
           "id": "T13F1_Q23",
@@ -16713,7 +16608,7 @@ window.TEST_DATA = {
             "D": "so taller as"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'as tall as' forma la estructura de igualdad 'as + adjetivo/adverbio en grado positivo + as' (sin terminación comparativa)."
         },
         {
           "id": "T13F1_Q24",
@@ -16728,7 +16623,7 @@ window.TEST_DATA = {
             "D": "most young"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'youngest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q25",
@@ -16743,7 +16638,7 @@ window.TEST_DATA = {
             "D": "the most farthest"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'the farthest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q26",
@@ -16758,7 +16653,7 @@ window.TEST_DATA = {
             "D": "least than"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'the least' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q27",
@@ -16773,7 +16668,7 @@ window.TEST_DATA = {
             "D": "the best"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'better than' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F1_Q28",
@@ -16788,7 +16683,7 @@ window.TEST_DATA = {
             "D": "most small"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'smaller' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q29",
@@ -16803,7 +16698,7 @@ window.TEST_DATA = {
             "D": "badly"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'worse than' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F1_Q30",
@@ -16818,7 +16713,7 @@ window.TEST_DATA = {
             "D": "more intelligent"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'more intelligent' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F1_Q31",
@@ -16833,7 +16728,7 @@ window.TEST_DATA = {
             "D": "as better as"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'as good as' forma la estructura de igualdad 'as + adjetivo/adverbio en grado positivo + as' (sin terminación comparativa)."
         },
         {
           "id": "T13F1_Q32",
@@ -16848,7 +16743,7 @@ window.TEST_DATA = {
             "D": "the more beautiful portrait"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'the most beautiful portraits' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q33",
@@ -16863,7 +16758,7 @@ window.TEST_DATA = {
             "D": "the best"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'the best' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         },
         {
           "id": "T13F1_Q34",
@@ -16878,7 +16773,7 @@ window.TEST_DATA = {
             "D": "thinnest"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 1): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'thinnest' es la forma superlativa correcta (precedida de 'the' y usando '-est' en adjetivos cortos o 'most' en largos; recuerda irregulares como best/worst)."
         }
       ]
     },
@@ -16903,7 +16798,7 @@ window.TEST_DATA = {
             "D": "much white"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'whiter' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F2_Q2",
@@ -16918,7 +16813,7 @@ window.TEST_DATA = {
             "D": "more longer"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'longer' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F2_Q3",
@@ -16933,7 +16828,7 @@ window.TEST_DATA = {
             "D": "the coldest than"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'colder than' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q4",
@@ -16948,7 +16843,7 @@ window.TEST_DATA = {
             "D": "baddest"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'worst' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q5",
@@ -16963,7 +16858,7 @@ window.TEST_DATA = {
             "D": "more rich"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'richer' es la forma comparativa correcta (no se combinan 'more' + '-er'; tras el comparativo aparece 'than')."
         },
         {
           "id": "T13F2_Q6",
@@ -16978,7 +16873,7 @@ window.TEST_DATA = {
             "D": "enough sugar"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'enough sugar' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q7",
@@ -16993,7 +16888,7 @@ window.TEST_DATA = {
             "D": "too enough"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q8",
@@ -17008,7 +16903,7 @@ window.TEST_DATA = {
             "D": "enough loudly"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'loud enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q9",
@@ -17023,7 +16918,7 @@ window.TEST_DATA = {
             "D": "enough time"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'enough time' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q10",
@@ -17038,7 +16933,7 @@ window.TEST_DATA = {
             "D": "old enough"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'old enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q11",
@@ -17053,7 +16948,7 @@ window.TEST_DATA = {
             "D": "too much old"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'too old' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q12",
@@ -17068,7 +16963,7 @@ window.TEST_DATA = {
             "D": "enough of time"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'enough time' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q13",
@@ -17083,7 +16978,7 @@ window.TEST_DATA = {
             "D": "clever enough"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'clever enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q14",
@@ -17098,7 +16993,7 @@ window.TEST_DATA = {
             "D": "enough bigger"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'big enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q15",
@@ -17113,7 +17008,7 @@ window.TEST_DATA = {
             "D": "too"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'too' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q16",
@@ -17128,7 +17023,7 @@ window.TEST_DATA = {
             "D": "enough eating"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'eat enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q17",
@@ -17143,7 +17038,7 @@ window.TEST_DATA = {
             "D": "Many"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'Too' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q18",
@@ -17158,7 +17053,7 @@ window.TEST_DATA = {
             "D": "enough of fruit"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'enough fruit' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q19",
@@ -17173,7 +17068,7 @@ window.TEST_DATA = {
             "D": "many"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'too' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q20",
@@ -17188,7 +17083,7 @@ window.TEST_DATA = {
             "D": "enough tiring"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'tired enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q21",
@@ -17203,7 +17098,7 @@ window.TEST_DATA = {
             "D": "too enough"
           },
           "answer": "C",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: C."
+          "explanation": "'enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q22",
@@ -17218,7 +17113,7 @@ window.TEST_DATA = {
             "D": "enough practising"
           },
           "answer": "A",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: A."
+          "explanation": "'practise enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q23",
@@ -17233,7 +17128,7 @@ window.TEST_DATA = {
             "D": "too enough"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q24",
@@ -17248,7 +17143,7 @@ window.TEST_DATA = {
             "D": "enough"
           },
           "answer": "D",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: D."
+          "explanation": "'enough' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         },
         {
           "id": "T13F2_Q25",
@@ -17263,7 +17158,7 @@ window.TEST_DATA = {
             "D": "too much"
           },
           "answer": "B",
-          "explanation": "Tema 13 (Ficha 2): Comparatives and Superlatives. Opción correcta: B."
+          "explanation": "'too' aplica correctamente el grado comparativo o superlativo del adjetivo/adverbio en la oración."
         }
       ]
     },
@@ -17282,7 +17177,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Can I have this newspaper? Yes, I __________________________ with it.",
           "answer": "have finished",
-          "explanation": "Respuesta correcta: 'have finished'.",
+          "explanation": "'have finished' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17292,7 +17187,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "I __________________________ some new shoes. Do you want to see them?",
           "answer": "have bought",
-          "explanation": "Respuesta correcta: 'have bought'.",
+          "explanation": "'have bought' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17302,7 +17197,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "“Where is Liz?” “She __________________________ out.”",
           "answer": "has gone",
-          "explanation": "Respuesta correcta: 'has gone'.",
+          "explanation": "'has gone' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17312,7 +17207,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Look! Somebody __________________________ that window.",
           "answer": "has broken",
-          "explanation": "Respuesta correcta: 'has broken'.",
+          "explanation": "'has broken' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17322,7 +17217,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "“Does Lisa know that you’re going away?” “Yes, I __________________________ her.”",
           "answer": "have told",
-          "explanation": "Respuesta correcta: 'have told'.",
+          "explanation": "'have told' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17332,7 +17227,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "I can’t find my umbrella. Somebody __________________________ it.",
           "answer": "has taken",
-          "explanation": "Respuesta correcta: 'has taken'.",
+          "explanation": "'has taken' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17342,7 +17237,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "I know that woman, but I __________________________ her name.",
           "answer": "have forgotten",
-          "explanation": "Respuesta correcta: 'have forgotten'.",
+          "explanation": "'have forgotten' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17352,7 +17247,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Sue is having a party tonight. She __________________________ a lot of people.",
           "answer": "has invited",
-          "explanation": "Respuesta correcta: 'has invited'.",
+          "explanation": "'has invited' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "A. PRESENT PERFECT SIMPLE\nComplete the sentences with the Present Perfect Simple. Use the verbs in the\nbox.\nbreak · buy · decide · finish · forget · go · go · invite · see · not see · take · tell"
         },
         {
@@ -17362,7 +17257,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "We __________________________________________. (just / arrive)",
           "answer": "have just arrived",
-          "explanation": "Respuesta correcta: 'have just arrived'."
+          "explanation": "'have just arrived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q14",
@@ -17371,7 +17266,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "They __________________________________________ those apples. (already / eat)",
           "answer": "have already eaten",
-          "explanation": "Respuesta correcta: 'have already eaten'."
+          "explanation": "'have already eaten' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q16",
@@ -17380,7 +17275,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "We __________________________________________ him. (already / phone)",
           "answer": "have already phoned",
-          "explanation": "Respuesta correcta: 'have already phoned'."
+          "explanation": "'have already phoned' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q17",
@@ -17389,7 +17284,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "I __________________________________________ the exam. (just / finish)",
           "answer": "have just finished",
-          "explanation": "Respuesta correcta: 'have just finished'."
+          "explanation": "'have just finished' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q18",
@@ -17398,7 +17293,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Bill is on holiday at the moment. He’s __________________ to Spain.",
           "answer": "gone",
-          "explanation": "Respuesta correcta: 'gone'."
+          "explanation": "'gone' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q19",
@@ -17407,7 +17302,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Where’s Jill? She’s not here. I think she’s __________________ to the bank.",
           "answer": "gone",
-          "explanation": "Respuesta correcta: 'gone'."
+          "explanation": "'gone' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q21",
@@ -17416,7 +17311,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Have you ever __________________ to Mexico? No, never.",
           "answer": "been",
-          "explanation": "Respuesta correcta: 'been'."
+          "explanation": "'been' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q22",
@@ -17425,7 +17320,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "My parents aren’t at home this evening. They’ve __________________ out.",
           "answer": "gone",
-          "explanation": "Respuesta correcta: 'gone'."
+          "explanation": "'gone' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q23",
@@ -17434,7 +17329,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "There’s a new restaurant in town. Have you __________________ to it?",
           "answer": "been",
-          "explanation": "Respuesta correcta: 'been'."
+          "explanation": "'been' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q24",
@@ -17443,7 +17338,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Ann knows Paris very well. She’s __________________ there many times.",
           "answer": "been",
-          "explanation": "Respuesta correcta: 'been'."
+          "explanation": "'been' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q25",
@@ -17452,7 +17347,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Helen was here earlier, but I think she’s __________________ now.",
           "answer": "gone",
-          "explanation": "Respuesta correcta: 'gone'."
+          "explanation": "'gone' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q26",
@@ -17461,7 +17356,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Jill is in hospital. She __________________________ in hospital since Monday. (be)",
           "answer": "has been",
-          "explanation": "Respuesta correcta: 'has been'."
+          "explanation": "'has been' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q27",
@@ -17470,7 +17365,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "I know Sarah. I __________________________ her for a long time. (know)",
           "answer": "have known",
-          "explanation": "Respuesta correcta: 'have known'."
+          "explanation": "'have known' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q28",
@@ -17479,7 +17374,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Linda and Frank are married. They __________________________ married since 2019. (be)",
           "answer": "have been",
-          "explanation": "Respuesta correcta: 'have been'."
+          "explanation": "'have been' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q29",
@@ -17488,7 +17383,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Brian is ill. He __________________________ ill for the last few days. (be)",
           "answer": "has been",
-          "explanation": "Respuesta correcta: 'has been'."
+          "explanation": "'has been' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q30",
@@ -17497,7 +17392,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "We live in Scott Road. We __________________________ there for ten years. (live)",
           "answer": "have lived",
-          "explanation": "Respuesta correcta: 'have lived'."
+          "explanation": "'have lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q31",
@@ -17506,7 +17401,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Catherine works in a bank. She __________________________ there for five years. (work — use the Present Perfect Continuous)",
           "answer": "has been working",
-          "explanation": "Respuesta correcta: 'has been working'."
+          "explanation": "'has been working' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente."
         },
         {
           "id": "T14F1_Q32",
@@ -17515,7 +17410,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Alan has a headache. He __________________________ a headache since he got up this morning. (have)",
           "answer": "has had",
-          "explanation": "Respuesta correcta: 'has had'."
+          "explanation": "'has had' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q33",
@@ -17524,7 +17419,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "I’m learning English. I __________________________ English for six months. (learn — use the Present Perfect Continuous)",
           "answer": "have been learning",
-          "explanation": "Respuesta correcta: 'have been learning'."
+          "explanation": "'have been learning' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente."
         },
         {
           "id": "T14F1_Q34",
@@ -17533,7 +17428,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Jill has been in Ireland __________________ Monday.",
           "answer": "since",
-          "explanation": "Respuesta correcta: 'since'."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F1_Q35",
@@ -17542,7 +17437,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Jill has been in Ireland __________________ three days.",
           "answer": "for",
-          "explanation": "Respuesta correcta: 'for'."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F1_Q36",
@@ -17551,7 +17446,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "My aunt has lived in Australia __________________ fifteen years.",
           "answer": "for",
-          "explanation": "Respuesta correcta: 'for'."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F1_Q37",
@@ -17560,7 +17455,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Margaret is in her office. She has been there __________________ seven o’clock.",
           "answer": "since",
-          "explanation": "Respuesta correcta: 'since'."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F1_Q38",
@@ -17569,7 +17464,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "India has been an independent country __________________ 1947.",
           "answer": "since",
-          "explanation": "Respuesta correcta: 'since'."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F1_Q39",
@@ -17578,7 +17473,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "The bus is late. We’ve been waiting __________________ twenty minutes.",
           "answer": "for",
-          "explanation": "Respuesta correcta: 'for'."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F1_Q40",
@@ -17587,7 +17482,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous",
           "question": "Nobody lives in those houses. They have been empty __________________ many years.",
           "answer": "for",
-          "explanation": "Respuesta correcta: 'for'."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F1_Q49",
@@ -17602,7 +17497,7 @@ window.TEST_DATA = {
             "D": "I has just invited Peter."
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'I have just invited Peter.' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q50",
@@ -17617,7 +17512,7 @@ window.TEST_DATA = {
             "D": "have gone"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'has gone' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q51",
@@ -17632,7 +17527,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'yet' es la partícula temporal correcta del Present Perfect y se sitúa al final en negativas e interrogativas."
         },
         {
           "id": "T14F1_Q52",
@@ -17647,7 +17542,7 @@ window.TEST_DATA = {
             "D": "did you lived"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'have you lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q53",
@@ -17662,7 +17557,7 @@ window.TEST_DATA = {
             "D": "Have been you ever to Italy?"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'Have you ever been to Italy?' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q54",
@@ -17677,7 +17572,7 @@ window.TEST_DATA = {
             "D": "Do you have started your new job yet?"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'Have you started your new job yet?' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q55",
@@ -17692,7 +17587,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F1_Q56",
@@ -17707,7 +17602,7 @@ window.TEST_DATA = {
             "D": "been"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'been' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q57",
@@ -17722,7 +17617,7 @@ window.TEST_DATA = {
             "D": "I had this sweater since"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'I’ve had this sweater since 2022.' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q58",
@@ -17737,7 +17632,7 @@ window.TEST_DATA = {
             "D": "gone"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'gone' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q59",
@@ -17752,7 +17647,7 @@ window.TEST_DATA = {
             "D": "have just eat"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'have just eaten' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q60",
@@ -17767,7 +17662,7 @@ window.TEST_DATA = {
             "D": "found yet"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'have already found' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q61",
@@ -17782,7 +17677,7 @@ window.TEST_DATA = {
             "D": "has yet woke up"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'has just woken up' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q62",
@@ -17797,7 +17692,7 @@ window.TEST_DATA = {
             "D": "never have ate"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'have never eaten' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F1_Q63",
@@ -17812,7 +17707,7 @@ window.TEST_DATA = {
             "D": "gone"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'gone' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F1_Q64",
@@ -17827,7 +17722,7 @@ window.TEST_DATA = {
             "D": "are marry"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 1): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'have been married' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         }
       ]
     },
@@ -17846,7 +17741,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "Mark is / has been in Canada since April.",
           "answer": "has been",
-          "explanation": "Respuesta correcta: 'has been'."
+          "explanation": "'has been' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q2",
@@ -17855,7 +17750,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "Jane is a good friend of mine. I know / have known her very well.",
           "answer": "know",
-          "explanation": "Respuesta correcta: 'know'."
+          "explanation": "'know' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q3",
@@ -17864,7 +17759,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "Jane is a good friend of mine. I know / have known her for a long time.",
           "answer": "have known",
-          "explanation": "Respuesta correcta: 'have known'."
+          "explanation": "'have known' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q4",
@@ -17873,7 +17768,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "Sorry I’m late. How long are you waiting / have you been waiting?",
           "answer": "have you been waiting",
-          "explanation": "Respuesta correcta: 'have you been waiting'."
+          "explanation": "'have you been waiting' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente."
         },
         {
           "id": "T14F2_Q5",
@@ -17882,7 +17777,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "Martin works / has worked in a hotel. He likes his job very much.",
           "answer": "works",
-          "explanation": "Respuesta correcta: 'works'."
+          "explanation": "'works' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q6",
@@ -17891,7 +17786,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "Linda started reading the newspaper two hours ago and she is still reading it. She is reading / has been reading it for two hours.",
           "answer": "has been reading",
-          "explanation": "Respuesta correcta: 'has been reading'."
+          "explanation": "'has been reading' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente."
         },
         {
           "id": "T14F2_Q7",
@@ -17900,7 +17795,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "How long do you live / have you lived in this house?",
           "answer": "have you lived",
-          "explanation": "Respuesta correcta: 'have you lived'."
+          "explanation": "'have you lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q8",
@@ -17909,7 +17804,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "“Is that a new coat?” “No, I have / have had this coat for a long time.”",
           "answer": "have had",
-          "explanation": "Respuesta correcta: 'have had'."
+          "explanation": "'have had' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q10",
@@ -17918,7 +17813,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "My friend is a writer. He __________________________ many books. (write)",
           "answer": "has written",
-          "explanation": "Respuesta correcta: 'has written'."
+          "explanation": "'has written' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q12",
@@ -17927,7 +17822,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "I __________________________ tennis yesterday afternoon. (play)",
           "answer": "played",
-          "explanation": "Respuesta correcta: 'played'."
+          "explanation": "'played' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q13",
@@ -17936,7 +17831,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "What time __________________________ to bed last night? (you / go)",
           "answer": "did you go",
-          "explanation": "Respuesta correcta: 'did you go'."
+          "explanation": "'did you go' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q14",
@@ -17945,7 +17840,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "__________________________ a famous person? (you / ever / meet)",
           "answer": "Have you ever met",
-          "explanation": "Respuesta correcta: 'Have you ever met'."
+          "explanation": "'Have you ever met' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q16",
@@ -17954,7 +17849,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "My hair is wet. I __________________________ it. (just / wash)",
           "answer": "have just washed",
-          "explanation": "Respuesta correcta: 'have just washed'."
+          "explanation": "'have just washed' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q17",
@@ -17963,7 +17858,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "I __________________________ my hair before breakfast this morning. (wash — the morning is finished)",
           "answer": "washed",
-          "explanation": "Respuesta correcta: 'washed'."
+          "explanation": "'washed' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q18",
@@ -17972,7 +17867,7 @@ window.TEST_DATA = {
           "section": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous",
           "question": "Kathy travels a lot. She __________________________ many countries. (visit)",
           "answer": "has visited",
-          "explanation": "Respuesta correcta: 'has visited'."
+          "explanation": "'has visited' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q20",
@@ -17987,7 +17882,7 @@ window.TEST_DATA = {
             "D": "has the class start"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'did the class start' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q21",
@@ -18002,7 +17897,7 @@ window.TEST_DATA = {
             "D": "During two years."
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'Two years ago.' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q22",
@@ -18017,7 +17912,7 @@ window.TEST_DATA = {
             "D": "Yes, she went home since one hour ago."
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'Yes, she went home one hour ago.' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q23",
@@ -18032,7 +17927,7 @@ window.TEST_DATA = {
             "D": "study"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'studied' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q24",
@@ -18047,7 +17942,7 @@ window.TEST_DATA = {
             "D": "saw her"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'saw her' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q25",
@@ -18062,7 +17957,7 @@ window.TEST_DATA = {
             "D": "visit / have visited"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'visited / visited' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q26",
@@ -18077,7 +17972,7 @@ window.TEST_DATA = {
             "D": "have you visit"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'did you visit' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q27",
@@ -18092,7 +17987,7 @@ window.TEST_DATA = {
             "D": "were you living"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'have you lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q28",
@@ -18107,7 +18002,7 @@ window.TEST_DATA = {
             "D": "have passed"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'has passed' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q29",
@@ -18122,7 +18017,7 @@ window.TEST_DATA = {
             "D": "has been"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'went' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q30",
@@ -18137,7 +18032,7 @@ window.TEST_DATA = {
             "D": "was cooked"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'have been cooking' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente."
         },
         {
           "id": "T14F2_Q31",
@@ -18152,7 +18047,7 @@ window.TEST_DATA = {
             "D": "are you paint"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'have you been painting' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente."
         },
         {
           "id": "T14F2_Q32",
@@ -18167,7 +18062,7 @@ window.TEST_DATA = {
             "D": "I’ve been having it since 2021"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'I’ve had it since 2021' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q33",
@@ -18182,7 +18077,7 @@ window.TEST_DATA = {
             "D": "I stopped working here eleven years ago."
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'I started working here eleven years ago and I still work here.' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q34",
@@ -18197,7 +18092,7 @@ window.TEST_DATA = {
             "D": "have you been lived"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "explanation": "'have you lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18213,7 +18108,7 @@ window.TEST_DATA = {
             "D": "have lived"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D.",
+          "explanation": "'have lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18229,7 +18124,7 @@ window.TEST_DATA = {
             "D": "at"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo.",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18245,7 +18140,7 @@ window.TEST_DATA = {
             "D": "lived"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D.",
+          "explanation": "'lived' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020).",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18261,7 +18156,7 @@ window.TEST_DATA = {
             "D": "am deciding"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "explanation": "'decided' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020).",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18277,7 +18172,7 @@ window.TEST_DATA = {
             "D": "have never gone in"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A.",
+          "explanation": "'have never been to' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18293,7 +18188,7 @@ window.TEST_DATA = {
             "D": "likes"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B.",
+          "explanation": "'love' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020).",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18309,7 +18204,7 @@ window.TEST_DATA = {
             "D": "worked"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A.",
+          "explanation": "'have been working' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente.",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18325,7 +18220,7 @@ window.TEST_DATA = {
             "D": "at"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A.",
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración.",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         },
         {
@@ -18341,7 +18236,7 @@ window.TEST_DATA = {
             "D": "did enjoy"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C.",
+          "explanation": "'have enjoyed' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado.",
           "readingText": "How long 34 in Italy? I 35 in Italy 36 three years. I 37 in France from 2010 to 2017 and then I 38 to come here. I 39 Italy before, but I 40 this country very much. I 41 in this firm 42 May, and I 43 it up to now."
         }
       ]
@@ -18367,7 +18262,7 @@ window.TEST_DATA = {
             "D": "lately"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'just' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio para acción recién terminada."
         },
         {
           "id": "T14F3_Q2",
@@ -18382,7 +18277,7 @@ window.TEST_DATA = {
             "D": "ago"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F3_Q3",
@@ -18397,7 +18292,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'yet' es la partícula temporal correcta del Present Perfect y se sitúa al final en negativas e interrogativas."
         },
         {
           "id": "T14F3_Q4",
@@ -18412,7 +18307,7 @@ window.TEST_DATA = {
             "D": "already"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'already' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio en afirmativas."
         },
         {
           "id": "T14F3_Q5",
@@ -18427,7 +18322,7 @@ window.TEST_DATA = {
             "D": "still"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'ever' es la partícula temporal correcta del Present Perfect y se sitúa en preguntas o superlativos ('Have you ever...?')."
         },
         {
           "id": "T14F3_Q6",
@@ -18442,7 +18337,7 @@ window.TEST_DATA = {
             "D": "from"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F3_Q7",
@@ -18457,7 +18352,7 @@ window.TEST_DATA = {
             "D": "yet"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'lately' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q8",
@@ -18472,7 +18367,7 @@ window.TEST_DATA = {
             "D": "never"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'never' es la partícula temporal correcta del Present Perfect y se sitúa con verbo en afirmativo para evitar doble negación."
         },
         {
           "id": "T14F3_Q9",
@@ -18487,7 +18382,7 @@ window.TEST_DATA = {
             "D": "just"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'still' es la partícula temporal correcta del Present Perfect y se sitúa delante del auxiliar negativo ('still hasn't')."
         },
         {
           "id": "T14F3_Q10",
@@ -18502,7 +18397,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'recently' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q11",
@@ -18517,7 +18412,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'so far' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q12",
@@ -18532,7 +18427,7 @@ window.TEST_DATA = {
             "D": "Up to now"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'Up to now' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q13",
@@ -18547,7 +18442,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'just' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio para acción recién terminada."
         },
         {
           "id": "T14F3_Q14",
@@ -18562,7 +18457,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'already' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio en afirmativas."
         },
         {
           "id": "T14F3_Q15",
@@ -18577,7 +18472,7 @@ window.TEST_DATA = {
             "D": "just"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'yet' es la partícula temporal correcta del Present Perfect y se sitúa al final en negativas e interrogativas."
         },
         {
           "id": "T14F3_Q16",
@@ -18592,7 +18487,7 @@ window.TEST_DATA = {
             "D": "lately"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'ever' es la partícula temporal correcta del Present Perfect y se sitúa en preguntas o superlativos ('Have you ever...?')."
         },
         {
           "id": "T14F3_Q17",
@@ -18607,7 +18502,7 @@ window.TEST_DATA = {
             "D": "yet"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'never' es la partícula temporal correcta del Present Perfect y se sitúa con verbo en afirmativo para evitar doble negación."
         },
         {
           "id": "T14F3_Q18",
@@ -18622,7 +18517,7 @@ window.TEST_DATA = {
             "D": "during"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F3_Q19",
@@ -18637,7 +18532,7 @@ window.TEST_DATA = {
             "D": "ago"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F3_Q20",
@@ -18652,7 +18547,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'still' es la partícula temporal correcta del Present Perfect y se sitúa delante del auxiliar negativo ('still hasn't')."
         },
         {
           "id": "T14F3_Q21",
@@ -18667,7 +18562,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'recently' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q22",
@@ -18682,7 +18577,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'lately' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q23",
@@ -18697,7 +18592,7 @@ window.TEST_DATA = {
             "D": "Already"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'So far' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q24",
@@ -18712,7 +18607,7 @@ window.TEST_DATA = {
             "D": "up to now"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'up to now' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q25",
@@ -18727,7 +18622,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'already' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio en afirmativas."
         },
         {
           "id": "T14F3_Q26",
@@ -18742,7 +18637,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'just' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio para acción recién terminada."
         },
         {
           "id": "T14F3_Q27",
@@ -18757,7 +18652,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'yet' es la partícula temporal correcta del Present Perfect y se sitúa al final en negativas e interrogativas."
         },
         {
           "id": "T14F3_Q28",
@@ -18772,7 +18667,7 @@ window.TEST_DATA = {
             "D": "lately"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'ever' es la partícula temporal correcta del Present Perfect y se sitúa en preguntas o superlativos ('Have you ever...?')."
         },
         {
           "id": "T14F3_Q29",
@@ -18787,7 +18682,7 @@ window.TEST_DATA = {
             "D": "just"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'ever' es la partícula temporal correcta del Present Perfect y se sitúa en preguntas o superlativos ('Have you ever...?')."
         },
         {
           "id": "T14F3_Q30",
@@ -18802,7 +18697,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F3_Q31",
@@ -18817,7 +18712,7 @@ window.TEST_DATA = {
             "D": "from"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F3_Q32",
@@ -18832,7 +18727,7 @@ window.TEST_DATA = {
             "D": "just"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'still' es la partícula temporal correcta del Present Perfect y se sitúa delante del auxiliar negativo ('still hasn't')."
         },
         {
           "id": "T14F3_Q33",
@@ -18847,7 +18742,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'recently' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q34",
@@ -18862,7 +18757,7 @@ window.TEST_DATA = {
             "D": "yet"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'lately' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q35",
@@ -18877,7 +18772,7 @@ window.TEST_DATA = {
             "D": "ago"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'so far' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q36",
@@ -18892,7 +18787,7 @@ window.TEST_DATA = {
             "D": "Ever"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'Up to now' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q37",
@@ -18907,7 +18802,7 @@ window.TEST_DATA = {
             "D": "never"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'already' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio en afirmativas."
         },
         {
           "id": "T14F3_Q38",
@@ -18922,7 +18817,7 @@ window.TEST_DATA = {
             "D": "still"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'just' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio para acción recién terminada."
         },
         {
           "id": "T14F3_Q39",
@@ -18937,7 +18832,7 @@ window.TEST_DATA = {
             "D": "just"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'yet' es la partícula temporal correcta del Present Perfect y se sitúa al final en negativas e interrogativas."
         },
         {
           "id": "T14F3_Q40",
@@ -18952,7 +18847,7 @@ window.TEST_DATA = {
             "D": "already"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'ever since' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q41",
@@ -18967,7 +18862,7 @@ window.TEST_DATA = {
             "D": "never"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'never' es la partícula temporal correcta del Present Perfect y se sitúa con verbo en afirmativo para evitar doble negación."
         },
         {
           "id": "T14F3_Q42",
@@ -18982,7 +18877,7 @@ window.TEST_DATA = {
             "D": "ago"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F3_Q43",
@@ -18997,7 +18892,7 @@ window.TEST_DATA = {
             "D": "from"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F3_Q44",
@@ -19012,7 +18907,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'still' es la partícula temporal correcta del Present Perfect y se sitúa delante del auxiliar negativo ('still hasn't')."
         },
         {
           "id": "T14F3_Q45",
@@ -19027,7 +18922,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'recently' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q46",
@@ -19042,7 +18937,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'lately' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q47",
@@ -19057,7 +18952,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'so far' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q48",
@@ -19072,7 +18967,7 @@ window.TEST_DATA = {
             "D": "Up to now"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'Up to now' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q49",
@@ -19087,7 +18982,7 @@ window.TEST_DATA = {
             "D": "lately"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'already' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio en afirmativas."
         },
         {
           "id": "T14F3_Q50",
@@ -19102,7 +18997,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'just' es la partícula temporal correcta del Present Perfect y se sitúa entre 'have/has' y el participio para acción recién terminada."
         },
         {
           "id": "T14F3_Q51",
@@ -19117,7 +19012,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'yet' es la partícula temporal correcta del Present Perfect y se sitúa al final en negativas e interrogativas."
         },
         {
           "id": "T14F3_Q52",
@@ -19132,7 +19027,7 @@ window.TEST_DATA = {
             "D": "already"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'ever' es la partícula temporal correcta del Present Perfect y se sitúa en preguntas o superlativos ('Have you ever...?')."
         },
         {
           "id": "T14F3_Q53",
@@ -19147,7 +19042,7 @@ window.TEST_DATA = {
             "D": "yet"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'ever' es la partícula temporal correcta del Present Perfect y se sitúa en preguntas o superlativos ('Have you ever...?')."
         },
         {
           "id": "T14F3_Q54",
@@ -19162,7 +19057,7 @@ window.TEST_DATA = {
             "D": "since"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F3_Q55",
@@ -19177,7 +19072,7 @@ window.TEST_DATA = {
             "D": "ago"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F3_Q56",
@@ -19192,7 +19087,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'still' es la partícula temporal correcta del Present Perfect y se sitúa delante del auxiliar negativo ('still hasn't')."
         },
         {
           "id": "T14F3_Q57",
@@ -19207,7 +19102,7 @@ window.TEST_DATA = {
             "D": "yet"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'recently' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q58",
@@ -19222,7 +19117,7 @@ window.TEST_DATA = {
             "D": "yet"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'lately' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q59",
@@ -19237,7 +19132,7 @@ window.TEST_DATA = {
             "D": "Ever"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'So far' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q60",
@@ -19252,7 +19147,7 @@ window.TEST_DATA = {
             "D": "up to now"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'up to now' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q61",
@@ -19267,7 +19162,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'still' es la partícula temporal correcta del Present Perfect y se sitúa delante del auxiliar negativo ('still hasn't')."
         },
         {
           "id": "T14F3_Q62",
@@ -19282,7 +19177,7 @@ window.TEST_DATA = {
             "D": "yet"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'recently' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q63",
@@ -19297,7 +19192,7 @@ window.TEST_DATA = {
             "D": "ever"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'lately' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q64",
@@ -19312,7 +19207,7 @@ window.TEST_DATA = {
             "D": "ago"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'so far' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q65",
@@ -19327,7 +19222,7 @@ window.TEST_DATA = {
             "D": "Already"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'Up to now' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q66",
@@ -19342,7 +19237,7 @@ window.TEST_DATA = {
             "D": "I still haven’t finished the report."
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'I have already finished the report.' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F3_Q67",
@@ -19357,7 +19252,7 @@ window.TEST_DATA = {
             "D": "I still haven’t finished the report."
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'I have just finished the report.' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F3_Q68",
@@ -19372,7 +19267,7 @@ window.TEST_DATA = {
             "D": "Have you just finished yet?"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'Have you finished yet?' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F3_Q69",
@@ -19387,7 +19282,7 @@ window.TEST_DATA = {
             "D": "They have just arrived."
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'They still haven’t arrived.' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F3_Q70",
@@ -19402,7 +19297,7 @@ window.TEST_DATA = {
             "D": "I have not never been to London."
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 3): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'I have never been to London.' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         }
       ]
     },
@@ -19427,7 +19322,7 @@ window.TEST_DATA = {
             "D": "any / any"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'some / any' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q2",
@@ -19442,7 +19337,7 @@ window.TEST_DATA = {
             "D": "many"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'every' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q3",
@@ -19457,7 +19352,7 @@ window.TEST_DATA = {
             "D": "few"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'much' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q4",
@@ -19472,7 +19367,7 @@ window.TEST_DATA = {
             "D": "few"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'little' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q5",
@@ -19487,7 +19382,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'some' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q6",
@@ -19502,7 +19397,7 @@ window.TEST_DATA = {
             "D": "a little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'many' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F1_Q7",
@@ -19517,7 +19412,7 @@ window.TEST_DATA = {
             "D": "much"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'all' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q8",
@@ -19532,7 +19427,7 @@ window.TEST_DATA = {
             "D": "a little"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'a lot of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q9",
@@ -19547,7 +19442,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'any' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q10",
@@ -19562,7 +19457,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'much' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q11",
@@ -19577,7 +19472,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "D",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: D."
+          "explanation": "'a few' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F1_Q12",
@@ -19592,7 +19487,7 @@ window.TEST_DATA = {
             "D": "much"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'all' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q13",
@@ -19607,7 +19502,7 @@ window.TEST_DATA = {
             "D": "a little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'many' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F1_Q14",
@@ -19622,7 +19517,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'a lot of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q15",
@@ -19637,7 +19532,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'some' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q16",
@@ -19652,7 +19547,7 @@ window.TEST_DATA = {
             "D": "few"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'little' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q17",
@@ -19667,7 +19562,7 @@ window.TEST_DATA = {
             "D": "most of"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'every' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q18",
@@ -19682,7 +19577,7 @@ window.TEST_DATA = {
             "D": "a little"
           },
           "answer": "D",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: D."
+          "explanation": "'a little' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q19",
@@ -19697,7 +19592,7 @@ window.TEST_DATA = {
             "D": "a little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'many' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F1_Q20",
@@ -19712,7 +19607,7 @@ window.TEST_DATA = {
             "D": "much"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'all' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q21",
@@ -19727,7 +19622,7 @@ window.TEST_DATA = {
             "D": "few"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'some' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q22",
@@ -19742,7 +19637,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'few' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F1_Q23",
@@ -19757,7 +19652,7 @@ window.TEST_DATA = {
             "D": "a little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'a lot of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q24",
@@ -19772,7 +19667,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'any' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q25",
@@ -19787,7 +19682,7 @@ window.TEST_DATA = {
             "D": "few"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'a little' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q26",
@@ -19802,7 +19697,7 @@ window.TEST_DATA = {
             "D": "many"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'every' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q27",
@@ -19817,7 +19712,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'much' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q28",
@@ -19832,7 +19727,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'a lot of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q29",
@@ -19847,7 +19742,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'some' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q30",
@@ -19862,7 +19757,7 @@ window.TEST_DATA = {
             "D": "many"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'little' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q31",
@@ -19877,7 +19772,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'any' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q32",
@@ -19892,7 +19787,7 @@ window.TEST_DATA = {
             "D": "a little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'many' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F1_Q33",
@@ -19907,7 +19802,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'much' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F1_Q34",
@@ -19922,7 +19817,7 @@ window.TEST_DATA = {
             "D": "any / some"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'any / any' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q35",
@@ -19937,7 +19832,7 @@ window.TEST_DATA = {
             "D": "any / much"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'some / any' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q36",
@@ -19952,7 +19847,7 @@ window.TEST_DATA = {
             "D": "Many"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'Every' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q37",
@@ -19967,7 +19862,7 @@ window.TEST_DATA = {
             "D": "many"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'every' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q38",
@@ -19982,7 +19877,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'a lot of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q39",
@@ -19997,7 +19892,7 @@ window.TEST_DATA = {
             "D": "many sugar"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'enough sugar' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q40",
@@ -20012,7 +19907,7 @@ window.TEST_DATA = {
             "D": "many time"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'enough time' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q41",
@@ -20027,7 +19922,7 @@ window.TEST_DATA = {
             "D": "many fruit"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'enough fruit' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q42",
@@ -20042,7 +19937,7 @@ window.TEST_DATA = {
             "D": "many"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'too much' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q43",
@@ -20057,7 +19952,7 @@ window.TEST_DATA = {
             "D": "a few"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'enough' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q44",
@@ -20072,7 +19967,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'too many' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q45",
@@ -20087,7 +19982,7 @@ window.TEST_DATA = {
             "D": "much enough"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'enough' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q46",
@@ -20102,7 +19997,7 @@ window.TEST_DATA = {
             "D": "few"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'too much' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q47",
@@ -20117,7 +20012,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'enough' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F1_Q48",
@@ -20132,7 +20027,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'too many' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F1_Q49",
@@ -20147,7 +20042,7 @@ window.TEST_DATA = {
             "D": "few"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 1): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'too much' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         }
       ]
     },
@@ -20172,7 +20067,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'something' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q2",
@@ -20187,7 +20082,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'something' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q3",
@@ -20202,7 +20097,7 @@ window.TEST_DATA = {
             "D": "no"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'anything' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q4",
@@ -20217,7 +20112,7 @@ window.TEST_DATA = {
             "D": "somebody"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'anything' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q5",
@@ -20232,7 +20127,7 @@ window.TEST_DATA = {
             "D": "None"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'Somebody' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q6",
@@ -20247,7 +20142,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'anything' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q7",
@@ -20262,7 +20157,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'anyone' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q8",
@@ -20277,7 +20172,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'something' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q9",
@@ -20292,7 +20187,7 @@ window.TEST_DATA = {
             "D": "somebody"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'anything' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q10",
@@ -20307,7 +20202,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'anyone' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q11",
@@ -20322,7 +20217,7 @@ window.TEST_DATA = {
             "D": "anything"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'no' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q12",
@@ -20337,7 +20232,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'any' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q13",
@@ -20352,7 +20247,7 @@ window.TEST_DATA = {
             "D": "anything"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'no' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q14",
@@ -20367,7 +20262,7 @@ window.TEST_DATA = {
             "D": "some"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'no' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q15",
@@ -20382,7 +20277,7 @@ window.TEST_DATA = {
             "D": "None"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'Any' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q16",
@@ -20397,7 +20292,7 @@ window.TEST_DATA = {
             "D": "No them"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'None of them' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q17",
@@ -20412,7 +20307,7 @@ window.TEST_DATA = {
             "D": "no"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'none' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q18",
@@ -20427,7 +20322,7 @@ window.TEST_DATA = {
             "D": "no"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'any' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q19",
@@ -20442,7 +20337,7 @@ window.TEST_DATA = {
             "D": "none person"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'nobody' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q20",
@@ -20457,7 +20352,7 @@ window.TEST_DATA = {
             "D": "none"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'anything' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q21",
@@ -20472,7 +20367,7 @@ window.TEST_DATA = {
             "D": "any them"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'either of them' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q22",
@@ -20487,7 +20382,7 @@ window.TEST_DATA = {
             "D": "Each of"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'Both' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F2_Q23",
@@ -20502,7 +20397,7 @@ window.TEST_DATA = {
             "D": "All"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'Neither' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q24",
@@ -20517,7 +20412,7 @@ window.TEST_DATA = {
             "D": "All"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'Neither' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q25",
@@ -20532,7 +20427,7 @@ window.TEST_DATA = {
             "D": "every"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'both' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F2_Q26",
@@ -20547,7 +20442,7 @@ window.TEST_DATA = {
             "D": "all of them"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'neither of them' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q27",
@@ -20562,7 +20457,7 @@ window.TEST_DATA = {
             "D": "every one"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'either of them' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q28",
@@ -20577,7 +20472,7 @@ window.TEST_DATA = {
             "D": "none us"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'neither of us' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q29",
@@ -20592,7 +20487,7 @@ window.TEST_DATA = {
             "D": "Every"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'Both' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F2_Q30",
@@ -20607,7 +20502,7 @@ window.TEST_DATA = {
             "D": "every"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'either of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q31",
@@ -20622,7 +20517,7 @@ window.TEST_DATA = {
             "D": "all of them"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'neither of them' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q32",
@@ -20637,7 +20532,7 @@ window.TEST_DATA = {
             "D": "She neither wrote or phoned."
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'She neither wrote nor phoned.' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q33",
@@ -20652,7 +20547,7 @@ window.TEST_DATA = {
             "D": "Each of"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'All' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q34",
@@ -20667,7 +20562,7 @@ window.TEST_DATA = {
             "D": "Neither people"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'Some of the people' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q35",
@@ -20682,7 +20577,7 @@ window.TEST_DATA = {
             "D": "the whole money"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'all the money' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q36",
@@ -20697,7 +20592,7 @@ window.TEST_DATA = {
             "D": "each packet of"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'the whole packet' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q37",
@@ -20712,7 +20607,7 @@ window.TEST_DATA = {
             "D": "Most the"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'Most' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q38",
@@ -20727,7 +20622,7 @@ window.TEST_DATA = {
             "D": "Most the"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'Most of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q39",
@@ -20742,7 +20637,7 @@ window.TEST_DATA = {
             "D": "Each of"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'Half of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q40",
@@ -20757,7 +20652,7 @@ window.TEST_DATA = {
             "D": "Much"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'Half of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q41",
@@ -20772,7 +20667,7 @@ window.TEST_DATA = {
             "D": "Several"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'Each' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q42",
@@ -20787,7 +20682,7 @@ window.TEST_DATA = {
             "D": "Most of"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'Every' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q43",
@@ -20802,7 +20697,7 @@ window.TEST_DATA = {
             "D": "Several"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'Each' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q44",
@@ -20817,7 +20712,7 @@ window.TEST_DATA = {
             "D": "Little"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'Several' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F2_Q45",
@@ -20832,7 +20727,7 @@ window.TEST_DATA = {
             "D": "have"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'is' (singular) es obligatorio en concordancia sujeto-verbo con indefinidos (everyone, nobody, each, every, neither) o incontables (news, information)."
         },
         {
           "id": "T15F2_Q46",
@@ -20847,7 +20742,7 @@ window.TEST_DATA = {
             "D": "were"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'is' (singular) es obligatorio en concordancia sujeto-verbo con indefinidos (everyone, nobody, each, every, neither) o incontables (news, information)."
         },
         {
           "id": "T15F2_Q47",
@@ -20862,7 +20757,7 @@ window.TEST_DATA = {
             "D": "has lived"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'live' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q48",
@@ -20877,7 +20772,7 @@ window.TEST_DATA = {
             "D": "was"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'are' (plural) concuerda con un sujeto compuesto o cuantificador plural (both, several, many, police, people)."
         },
         {
           "id": "T15F2_Q49",
@@ -20892,7 +20787,7 @@ window.TEST_DATA = {
             "D": "were"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'is' (singular) es obligatorio en concordancia sujeto-verbo con indefinidos (everyone, nobody, each, every, neither) o incontables (news, information)."
         },
         {
           "id": "T15F2_Q50",
@@ -20907,7 +20802,7 @@ window.TEST_DATA = {
             "D": "have received"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'receives' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q51",
@@ -20922,7 +20817,7 @@ window.TEST_DATA = {
             "D": "have known"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'knows' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q52",
@@ -20937,7 +20832,7 @@ window.TEST_DATA = {
             "D": "were"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'is' (singular) es obligatorio en concordancia sujeto-verbo con indefinidos (everyone, nobody, each, every, neither) o incontables (news, information)."
         },
         {
           "id": "T15F2_Q53",
@@ -20952,7 +20847,7 @@ window.TEST_DATA = {
             "D": "every"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'a lot of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q54",
@@ -20967,7 +20862,7 @@ window.TEST_DATA = {
             "D": "every"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'enough' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q55",
@@ -20982,7 +20877,7 @@ window.TEST_DATA = {
             "D": "much"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'some' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q56",
@@ -20997,7 +20892,7 @@ window.TEST_DATA = {
             "D": "much"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'any' cumple la regla de cuantificadores (sin doble negación con no/neither, 'enough' delante de sustantivo y detrás de adjetivo, y 'most' vs 'most of the')."
         },
         {
           "id": "T15F2_Q57",
@@ -21012,7 +20907,7 @@ window.TEST_DATA = {
             "D": "every"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'much' se emplea obligatoriamente con sustantivos incontables (time, money, information, luggage, advice)."
         },
         {
           "id": "T15F2_Q58",
@@ -21027,7 +20922,7 @@ window.TEST_DATA = {
             "D": "each"
           },
           "answer": "B",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: B."
+          "explanation": "'many' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F2_Q59",
@@ -21042,7 +20937,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'a few' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F2_Q60",
@@ -21057,7 +20952,7 @@ window.TEST_DATA = {
             "D": "Half"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'Most of' respeta las reglas de contabilidad del sustantivo y concordancia sujeto-verbo del Tema 15."
         },
         {
           "id": "T15F2_Q61",
@@ -21072,7 +20967,7 @@ window.TEST_DATA = {
             "D": "little"
           },
           "answer": "A",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: A."
+          "explanation": "'several' se utiliza exclusivamente con sustantivos contables en plural."
         },
         {
           "id": "T15F2_Q62",
@@ -21087,7 +20982,7 @@ window.TEST_DATA = {
             "D": "each of"
           },
           "answer": "C",
-          "explanation": "Tema 15 (Ficha 2): Quantifiers and Subject-Verb Agreement. Opción correcta: C."
+          "explanation": "'both' se utiliza exclusivamente con sustantivos contables en plural."
         }
       ]
     },
@@ -21112,7 +21007,7 @@ window.TEST_DATA = {
             "D": "in order"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q2",
@@ -21127,7 +21022,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F1_Q3",
@@ -21142,7 +21037,7 @@ window.TEST_DATA = {
             "D": "so that"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F1_Q4",
@@ -21157,7 +21052,7 @@ window.TEST_DATA = {
             "D": "that"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q5",
@@ -21172,7 +21067,7 @@ window.TEST_DATA = {
             "D": "order to"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'in order to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q6",
@@ -21187,7 +21082,7 @@ window.TEST_DATA = {
             "D": "in order not to"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'in order not to' es la estructura correcta de finalidad negativa, colocando 'not' siempre delante de 'to'."
         },
         {
           "id": "T16F1_Q7",
@@ -21202,7 +21097,7 @@ window.TEST_DATA = {
             "D": "in order not waking"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'so as not to' es la estructura correcta de finalidad negativa, colocando 'not' siempre delante de 'to'."
         },
         {
           "id": "T16F1_Q8",
@@ -21217,7 +21112,7 @@ window.TEST_DATA = {
             "D": "so as to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F1_Q9",
@@ -21232,7 +21127,7 @@ window.TEST_DATA = {
             "D": "can"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'would' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F1_Q10",
@@ -21247,7 +21142,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'could' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F1_Q11",
@@ -21262,7 +21157,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q12",
@@ -21277,7 +21172,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F1_Q13",
@@ -21292,7 +21187,7 @@ window.TEST_DATA = {
             "D": "in order"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'in order to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q14",
@@ -21307,7 +21202,7 @@ window.TEST_DATA = {
             "D": "not to"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'in order to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q15",
@@ -21322,7 +21217,7 @@ window.TEST_DATA = {
             "D": "so as not to"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'so as not to' es la estructura correcta de finalidad negativa, colocando 'not' siempre delante de 'to'."
         },
         {
           "id": "T16F1_Q16",
@@ -21337,7 +21232,7 @@ window.TEST_DATA = {
             "D": "So that"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'To' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q17",
@@ -21352,7 +21247,7 @@ window.TEST_DATA = {
             "D": "So as to"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F1_Q18",
@@ -21367,7 +21262,7 @@ window.TEST_DATA = {
             "D": "so that"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F1_Q19",
@@ -21382,7 +21277,7 @@ window.TEST_DATA = {
             "D": "so as to"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F1_Q20",
@@ -21397,7 +21292,7 @@ window.TEST_DATA = {
             "D": "not for"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'so as not to' es la estructura correcta de finalidad negativa, colocando 'not' siempre delante de 'to'."
         },
         {
           "id": "T16F1_Q21",
@@ -21412,7 +21307,7 @@ window.TEST_DATA = {
             "D": "so that"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F1_Q22",
@@ -21427,7 +21322,7 @@ window.TEST_DATA = {
             "D": "to inform"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'to inform' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F1_Q23",
@@ -21442,7 +21337,7 @@ window.TEST_DATA = {
             "D": "so search"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'to find' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F1_Q24",
@@ -21457,7 +21352,7 @@ window.TEST_DATA = {
             "D": "so as"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'in order to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q25",
@@ -21472,7 +21367,7 @@ window.TEST_DATA = {
             "D": "which plays"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'to play' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F1_Q26",
@@ -21487,7 +21382,7 @@ window.TEST_DATA = {
             "D": "so that"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F1_Q27",
@@ -21502,7 +21397,7 @@ window.TEST_DATA = {
             "D": "in order not"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'so as not to' es la estructura correcta de finalidad negativa, colocando 'not' siempre delante de 'to'."
         },
         {
           "id": "T16F1_Q28",
@@ -21517,7 +21412,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F1_Q29",
@@ -21532,7 +21427,7 @@ window.TEST_DATA = {
             "D": "in order to"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F1_Q30",
@@ -21547,7 +21442,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q31",
@@ -21562,7 +21457,7 @@ window.TEST_DATA = {
             "D": "To"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'According to' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F1_Q32",
@@ -21577,7 +21472,7 @@ window.TEST_DATA = {
             "D": "at"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q33",
@@ -21592,7 +21487,7 @@ window.TEST_DATA = {
             "D": "of"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F1_Q34",
@@ -21607,7 +21502,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q35",
@@ -21622,7 +21517,7 @@ window.TEST_DATA = {
             "D": "at"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q36",
@@ -21637,7 +21532,7 @@ window.TEST_DATA = {
             "D": "of"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F1_Q37",
@@ -21652,7 +21547,7 @@ window.TEST_DATA = {
             "D": "with"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F1_Q38",
@@ -21667,7 +21562,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F1_Q39",
@@ -21682,7 +21577,7 @@ window.TEST_DATA = {
             "D": "for / for"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'for / to' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F1_Q40",
@@ -21697,7 +21592,7 @@ window.TEST_DATA = {
             "D": "to / to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 1): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'to / for' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         }
       ]
     },
@@ -21722,7 +21617,7 @@ window.TEST_DATA = {
             "D": "so that"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q2",
@@ -21737,7 +21632,7 @@ window.TEST_DATA = {
             "D": "in order"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F2_Q3",
@@ -21752,7 +21647,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F2_Q4",
@@ -21767,7 +21662,7 @@ window.TEST_DATA = {
             "D": "with"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q5",
@@ -21782,7 +21677,7 @@ window.TEST_DATA = {
             "D": "so as to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F2_Q6",
@@ -21797,7 +21692,7 @@ window.TEST_DATA = {
             "D": "in order not"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'so as not to' es la estructura correcta de finalidad negativa, colocando 'not' siempre delante de 'to'."
         },
         {
           "id": "T16F2_Q7",
@@ -21812,7 +21707,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F2_Q8",
@@ -21827,7 +21722,7 @@ window.TEST_DATA = {
             "D": "in order"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q9",
@@ -21842,7 +21737,7 @@ window.TEST_DATA = {
             "D": "so that to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'in order to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q10",
@@ -21857,7 +21752,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'can' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F2_Q11",
@@ -21872,7 +21767,7 @@ window.TEST_DATA = {
             "D": "in order not to"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'in order not to' es la estructura correcta de finalidad negativa, colocando 'not' siempre delante de 'to'."
         },
         {
           "id": "T16F2_Q12",
@@ -21887,7 +21782,7 @@ window.TEST_DATA = {
             "D": "so as to"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
         },
         {
           "id": "T16F2_Q13",
@@ -21902,7 +21797,7 @@ window.TEST_DATA = {
             "D": "in order to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F2_Q14",
@@ -21917,7 +21812,7 @@ window.TEST_DATA = {
             "D": "in order"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'so as to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q15",
@@ -21932,7 +21827,7 @@ window.TEST_DATA = {
             "D": "for me"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'for me' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F2_Q16",
@@ -21947,7 +21842,7 @@ window.TEST_DATA = {
             "D": "by me"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'to me' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F2_Q17",
@@ -21962,7 +21857,7 @@ window.TEST_DATA = {
             "D": "of"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q18",
@@ -21977,7 +21872,7 @@ window.TEST_DATA = {
             "D": "at"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F2_Q19",
@@ -21992,7 +21887,7 @@ window.TEST_DATA = {
             "D": "for"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F2_Q20",
@@ -22007,7 +21902,7 @@ window.TEST_DATA = {
             "D": "with"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q21",
@@ -22022,7 +21917,7 @@ window.TEST_DATA = {
             "D": "on"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q22",
@@ -22037,7 +21932,7 @@ window.TEST_DATA = {
             "D": "so that cut"
           },
           "answer": "B",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: B."
+          "explanation": "'for cutting' aplica correctamente el contraste TO vs FOR (destinatario/opinión con TO frente a beneficiario/utilidad con FOR) y sus chunks fijos."
         },
         {
           "id": "T16F2_Q23",
@@ -22052,7 +21947,7 @@ window.TEST_DATA = {
             "D": "to"
           },
           "answer": "D",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: D."
+          "explanation": "'to' + forma base expresa la finalidad de una acción (nunca se usa 'for + forma base' para propósito)."
         },
         {
           "id": "T16F2_Q24",
@@ -22067,7 +21962,7 @@ window.TEST_DATA = {
             "D": "up to"
           },
           "answer": "A",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: A."
+          "explanation": "'for' es correcto para expresar utilidad de una cosa (+ sustantivo / -ing), duración, beneficiario o chunk fijo (wait/ask/look/responsible for)."
         },
         {
           "id": "T16F2_Q25",
@@ -22082,7 +21977,767 @@ window.TEST_DATA = {
             "D": "so as to"
           },
           "answer": "C",
-          "explanation": "Tema 16 (Ficha 2): TO vs FOR y finalidad. Opción correcta: C."
+          "explanation": "'so that' es obligatorio cuando la finalidad introduce una oración completa con sujeto + verbo (can/could/will/would)."
+        }
+      ]
+    },
+    {
+      "id": "temario_unit1_pronombres",
+      "title": "Temario FCS Unidad 1: Los Pronombres (50 Preguntas)",
+      "badge": "Temario U1",
+      "blockId": "temario_oficial",
+      "blockName": "Temario Oficial (FCS)",
+      "description": "Batería oficial con solución verificada de la Unidad 1 del Temario FCS (Pronombres personales, posesivos, reflexivos y relativos).",
+      "questions": [
+        {
+          "id": "TEMARIO_U1_Q1",
+          "number": 1,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Estas gafas son mías. / These glasses are .",
+          "options": {
+            "A": "I",
+            "B": "Me",
+            "C": "Mine",
+            "D": "My"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q2",
+          "number": 2,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Hazlo tú mismo. / Do it .",
+          "options": {
+            "A": "Yourself",
+            "B": "Itself",
+            "C": "Myself",
+            "D": "Ourself"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q3",
+          "number": 3,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Quiero a Lucy y ella me quiere. / I love Lucy and she loves .",
+          "options": {
+            "A": "Her",
+            "B": "It",
+            "C": "Us",
+            "D": "Me"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q4",
+          "number": 4,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Quiero hablar con él. / I want to talk to .",
+          "options": {
+            "A": "Him",
+            "B": "Her",
+            "C": "His",
+            "D": "He"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q5",
+          "number": 5,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Mañana hablarás con tu professor. / Tomorrow will talk to your teacher.",
+          "options": {
+            "A": "He",
+            "B": "She",
+            "C": "You",
+            "D": "They"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q6",
+          "number": 6,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Vosotros estáis estudiando el examen de mañana. / are studying tomorrow’s exam.",
+          "options": {
+            "A": "They",
+            "B": "Yours",
+            "C": "You",
+            "D": "Them"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q7",
+          "number": 7,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Estas son mis camisetas. / are my T-shirts.",
+          "options": {
+            "A": "That",
+            "B": "Those",
+            "C": "The",
+            "D": "These"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q8",
+          "number": 8,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "¿Alguien tiene un bolígrafo? / Does have a pen?",
+          "options": {
+            "A": "Anyone",
+            "B": "Somebody",
+            "C": "Everybody",
+            "D": "Anything"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q9",
+          "number": 9,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Mis gafas están rotas. Quiero comprar aquellas. / My glasses are broken. I want to buy .",
+          "options": {
+            "A": "Those",
+            "B": "Those ones",
+            "C": "Them",
+            "D": "These ones"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q10",
+          "number": 10,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ellos no sabían lo que yo estaba buscando. / They didn't know I was looking for.",
+          "options": {
+            "A": "What",
+            "B": "Who",
+            "C": "Which",
+            "D": "Whose"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q11",
+          "number": 11,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Nadie habla español. / speaks Spanish.",
+          "options": {
+            "A": "Nobody",
+            "B": "Everybody",
+            "C": "Anyone",
+            "D": "What"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q12",
+          "number": 12,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Mi hermana se peina ella misma. / My sister combs .",
+          "options": {
+            "A": "Ourselves",
+            "B": "Herself",
+            "C": "Itself",
+            "D": "Himself"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q13",
+          "number": 13,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Alguien está robando en la tienda. / is robbing at the store.",
+          "options": {
+            "A": "Anyone",
+            "B": "Everybody",
+            "C": "Somebody",
+            "D": "Nobody"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q14",
+          "number": 14,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Está lloviendo. / is raining.",
+          "options": {
+            "A": "He",
+            "B": "Its",
+            "C": "His",
+            "D": "It"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q15",
+          "number": 15,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "La madre de Sheila nos ofreció una taza de café. / Sheila’s mum offered a cup of coffee.",
+          "options": {
+            "A": "Us",
+            "B": "We",
+            "C": "Ours",
+            "D": "Our"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q16",
+          "number": 16,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ella misma lo puso ahí. / She put it there .",
+          "options": {
+            "A": "Themselves",
+            "B": "Itself",
+            "C": "Herself",
+            "D": "Myself"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q17",
+          "number": 17,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "La mujer que te ayudó anoche es mi madre. / The woman helped you last night is my mother.",
+          "options": {
+            "A": "That",
+            "B": "Which",
+            "C": "Whose",
+            "D": "Whom"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q18",
+          "number": 18,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ella estuvo enferma. / was ill.",
+          "options": {
+            "A": "They",
+            "B": "Me",
+            "C": "Our",
+            "D": "She"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q19",
+          "number": 19,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Tengo un amigo cuya novia es doctora. / I have a friend girlfriend is a doctor.",
+          "options": {
+            "A": "Whose",
+            "B": "Whom",
+            "C": "Who",
+            "D": "That"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q20",
+          "number": 20,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ese equipaje es nuestro. / That is luggage is .",
+          "options": {
+            "A": "Ours",
+            "B": "Yours",
+            "C": "Your",
+            "D": "We"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q21",
+          "number": 21,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "¿Qué es? / What's ?",
+          "options": {
+            "A": "He",
+            "B": "She",
+            "C": "It",
+            "D": "They"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q22",
+          "number": 22,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "My hija hizo este dibujo ella sola. / My daughter made this drawing all .",
+          "options": {
+            "A": "By himself",
+            "B": "Herselve",
+            "C": "By herself",
+            "D": "Hers"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q23",
+          "number": 23,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Preparamos la fiesta nosotros mismos. / We prepared the party .",
+          "options": {
+            "A": "Ourselves",
+            "B": "Yourselves",
+            "C": "Themselves",
+            "D": "Myself"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q24",
+          "number": 24,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Compraste un regalo para mí. / You bought a present for .",
+          "options": {
+            "A": "My",
+            "B": "Me",
+            "C": "Mine",
+            "D": "I"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q25",
+          "number": 25,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Me lo dijo un amigo suyo (de él). / A friend of told me.",
+          "options": {
+            "A": "Hers",
+            "B": "Him",
+            "C": "His",
+            "D": "He"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q26",
+          "number": 26,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "El coche no es suyo (de ella). / The car is not .",
+          "options": {
+            "A": "His",
+            "B": "Her",
+            "C": "Hers",
+            "D": "Yours"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q27",
+          "number": 27,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "La mía es la roja. / is the red one.",
+          "options": {
+            "A": "The mine",
+            "B": "The me",
+            "C": "Mine",
+            "D": "I"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q28",
+          "number": 28,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Esta tarde nosotros tenemos que limpiar la cocina. / This afternoon have to clean the kitchen.",
+          "options": {
+            "A": "I",
+            "B": "It",
+            "C": "We",
+            "D": "She"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q29",
+          "number": 29,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ese dinero es tuyo. / That money is .",
+          "options": {
+            "A": "You",
+            "B": "Yours",
+            "C": "Hers",
+            "D": "Your"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q30",
+          "number": 30,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "¿Por qué no tiene teléfono móvil? / Why doesn’t have a phone?",
+          "options": {
+            "A": "I",
+            "B": "She",
+            "C": "He",
+            "D": "B y C son correctas"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q31",
+          "number": 31,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Mi marido y yo nos amamos. / My husband and I love .",
+          "options": {
+            "A": "Each other",
+            "B": "One other",
+            "C": "Everybody",
+            "D": "Anyone"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q32",
+          "number": 32,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Todo el mundo se lo pasó muy bien en la fiesta. / had a great time at the party.",
+          "options": {
+            "A": "Nobody",
+            "B": "Anyone",
+            "C": "Everybody",
+            "D": "Someone"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q33",
+          "number": 33,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Les pegó. / She hit .",
+          "options": {
+            "A": "Our",
+            "B": "Them",
+            "C": "They",
+            "D": "Her"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q34",
+          "number": 34,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "¿Le viste? / Did you see ?",
+          "options": {
+            "A": "He",
+            "B": "It",
+            "C": "She",
+            "D": "Him"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q35",
+          "number": 35,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Dame la botella. / Give the bottle.",
+          "options": {
+            "A": "Her",
+            "B": "It",
+            "C": "Us",
+            "D": "Me"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q36",
+          "number": 36,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Nos odian. / They hate .",
+          "options": {
+            "A": "We",
+            "B": "Us",
+            "C": "Ours",
+            "D": "Them"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q37",
+          "number": 37,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "No los vio. / He didn't see .",
+          "options": {
+            "A": "They",
+            "B": "Theirs",
+            "C": "That",
+            "D": "Them"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q38",
+          "number": 38,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "No comprendemos esta lección. / don't understand this lesson.",
+          "options": {
+            "A": "You",
+            "B": "He",
+            "C": "We",
+            "D": "Us"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q39",
+          "number": 39,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "¿Cómo estáis? / How are ?",
+          "options": {
+            "A": "I",
+            "B": "We",
+            "C": "You",
+            "D": "It"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q40",
+          "number": 40,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ellos no trabajan. / don't work.",
+          "options": {
+            "A": "I",
+            "B": "You",
+            "C": "We",
+            "D": "They"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q41",
+          "number": 41,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Este es el hueso que enterró el perro ayer. / is the bone that the dog buried yesterday.",
+          "options": {
+            "A": "That",
+            "B": "This",
+            "C": "Those",
+            "D": "These"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q42",
+          "number": 42,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Compré mantequilla. / bought some butter.",
+          "options": {
+            "A": "Me",
+            "B": "He",
+            "C": "I",
+            "D": "You"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q43",
+          "number": 43,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Es su problema, no el nuestro. / It's his problem, not .",
+          "options": {
+            "A": "Hers",
+            "B": "Ours",
+            "C": "Yours",
+            "D": "Their"
+          },
+          "answer": "B",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta B."
+        },
+        {
+          "id": "TEMARIO_U1_Q44",
+          "number": 44,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "No te comas ese sándwich, es suyo (de ella). / Don’t eat that sándwich. It’s .",
+          "options": {
+            "A": "She",
+            "B": "Him",
+            "C": "Her",
+            "D": "Hers"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q45",
+          "number": 45,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ella fue a París a vernos. / went to Paris to see .",
+          "options": {
+            "A": "She/ we",
+            "B": "Her/ us",
+            "C": "She/ us",
+            "D": "Her/ we"
+          },
+          "answer": "C",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta C."
+        },
+        {
+          "id": "TEMARIO_U1_Q46",
+          "number": 46,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Esta mañana no he desayunado. / This morning haven't had breakfast.",
+          "options": {
+            "A": "Me",
+            "B": "Mine",
+            "C": "We",
+            "D": "I"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q47",
+          "number": 47,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Ella se culpó (a sí misma) por el accidente. / She blamed for the accident.",
+          "options": {
+            "A": "Herself",
+            "B": "Himself",
+            "C": "Ourselves",
+            "D": "Hers"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q48",
+          "number": 48,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "¿Alguien ha comprado la tarta? / Has bought the cake?",
+          "options": {
+            "A": "Somebody",
+            "B": "Something",
+            "C": "Anything",
+            "D": "Anybody"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
+        },
+        {
+          "id": "TEMARIO_U1_Q49",
+          "number": 49,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "¿A quién escribiste? / To did you write?",
+          "options": {
+            "A": "Whom",
+            "B": "Whose",
+            "C": "Which",
+            "D": "Where"
+          },
+          "answer": "A",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta A."
+        },
+        {
+          "id": "TEMARIO_U1_Q50",
+          "number": 50,
+          "type": "choice",
+          "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+          "question": "Se están gritando mutuamente. / They are yelling to .",
+          "options": {
+            "A": "Each other",
+            "B": "One another",
+            "C": "Each one",
+            "D": "A y B son correctas. www.elrincondelpolicia.com página 15 de 22"
+          },
+          "answer": "D",
+          "explanation": "Unidad 1 (Pronombres): Opción correcta D."
         }
       ]
     }

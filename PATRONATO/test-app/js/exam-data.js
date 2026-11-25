@@ -1,15 +1,15 @@
 /**
  * Dataset de Unidades de Examen para el Generador Procedural Oficial.
- * Lecturas disponibles: 45 (54 preguntas)
- * Textos Cloze disponibles: 9 (90 preguntas)
+ * Lecturas disponibles: 50 (60 preguntas)
+ * Textos Cloze disponibles: 13 (130 preguntas)
  */
 window.EXAM_DATA = {
   "metadata": {
     "version": "1.0.0",
-    "totalReadingUnits": 45,
-    "totalReadingQuestions": 54,
-    "totalClozeUnits": 9,
-    "totalClozeQuestions": 90
+    "totalReadingUnits": 50,
+    "totalReadingQuestions": 60,
+    "totalClozeUnits": 13,
+    "totalClozeQuestions": 130
   },
   "readingUnits": [
     {
@@ -673,7 +673,7 @@ window.EXAM_DATA = {
             "D": "have you been lived"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'have you lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q35",
@@ -685,7 +685,7 @@ window.EXAM_DATA = {
             "D": "have lived"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'have lived' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q36",
@@ -697,7 +697,7 @@ window.EXAM_DATA = {
             "D": "at"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'for' expresa la duración total de tiempo (for two hours, for years), mientras que 'since' indica el punto de comienzo."
         },
         {
           "id": "T14F2_Q37",
@@ -709,7 +709,7 @@ window.EXAM_DATA = {
             "D": "lived"
           },
           "answer": "D",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: D."
+          "explanation": "'lived' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q38",
@@ -721,7 +721,7 @@ window.EXAM_DATA = {
             "D": "am deciding"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'decided' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q39",
@@ -733,7 +733,7 @@ window.EXAM_DATA = {
             "D": "have never gone in"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'have never been to' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         },
         {
           "id": "T14F2_Q40",
@@ -745,7 +745,7 @@ window.EXAM_DATA = {
             "D": "likes"
           },
           "answer": "B",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: B."
+          "explanation": "'love' respeta el contraste entre Present Perfect (sin tiempo acabado) y Past Simple (tiempo pasado cerrado como yesterday/ago/in 2020)."
         },
         {
           "id": "T14F2_Q41",
@@ -757,7 +757,7 @@ window.EXAM_DATA = {
             "D": "worked"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'have been working' (Present Perfect Continuous) enfatiza la duración o continuidad de la acción hasta el presente."
         },
         {
           "id": "T14F2_Q42",
@@ -769,7 +769,7 @@ window.EXAM_DATA = {
             "D": "at"
           },
           "answer": "A",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: A."
+          "explanation": "'since' introduce el punto de inicio concreto en el pasado (since 2018, since Monday), a diferencia de 'for' que mide duración."
         },
         {
           "id": "T14F2_Q43",
@@ -781,7 +781,7 @@ window.EXAM_DATA = {
             "D": "did enjoy"
           },
           "answer": "C",
-          "explanation": "Tema 14 (Ficha 2): Present Perfect Simple and Continuous. Opción correcta: C."
+          "explanation": "'have enjoyed' usa Present Perfect (have/has + participio) para conectar el pasado con el presente o acciones sin tiempo pasado cerrado."
         }
       ]
     },
@@ -972,6 +972,113 @@ window.EXAM_DATA = {
           },
           "answer": "B",
           "explanation": "El texto indica: 'reduced vehicle breakdown rates during deployment by over forty percent'."
+        }
+      ]
+    },
+    {
+      "id": "reading_curated_11",
+      "title": "Academy Timetable and Attendance Rules",
+      "text": "According to the Academy regulations, morning theoretical lessons begin promptly at 08:15 and run until 13:45, with a twenty-minute break at 11:00. Students who arrive more than ten minutes late must report directly to the duty officer before entering the classroom. Attendance below eighty-five percent may lead to repeating the module.",
+      "questions": [
+        {
+          "id": "RC_CUR_11_Q1",
+          "question": "According to the regulations, what must a student do if they arrive 15 minutes late?",
+          "options": {
+            "A": "Wait outside until the 11:00 break",
+            "B": "Enter quietly without interrupting the instructor",
+            "C": "Report to the duty officer prior to entering class",
+            "D": "Repeat the entire module immediately"
+          },
+          "answer": "C",
+          "explanation": "El texto señala expresamente: 'Students who arrive more than ten minutes late must report directly to the duty officer before entering the classroom'."
+        },
+        {
+          "id": "RC_CUR_11_Q2",
+          "question": "What can happen if a student's attendance falls under 85%?",
+          "options": {
+            "A": "They lose their twenty-minute break",
+            "B": "They may have to take the module again",
+            "C": "They are assigned extra guard duty",
+            "D": "Their lessons start at 08:00"
+          },
+          "answer": "B",
+          "explanation": "'Attendance below eighty-five percent may lead to repeating the module' significa que puede conllevar repetir el módulo."
+        }
+      ]
+    },
+    {
+      "id": "reading_curated_12",
+      "title": "Night Vision Equipment Briefing",
+      "text": "Night vision goggles (NVGs) are essential for nocturnal reconnaissance patrols. However, they require careful handling because direct exposure to bright artificial lights can permanently damage the image intensifier tube. For this reason, soldiers are instructed to switch off the device before entering illuminated buildings and store it in its padded case.",
+      "questions": [
+        {
+          "id": "RC_CUR_12_Q1",
+          "question": "Why should soldiers turn off night vision goggles before entering bright rooms?",
+          "options": {
+            "A": "To save battery power for the next morning",
+            "B": "Because strong light can irreversibly harm the internal tube",
+            "C": "Because the goggles are too heavy to wear indoors",
+            "D": "So that other soldiers cannot see the green screen"
+          },
+          "answer": "B",
+          "explanation": "El texto explica: 'direct exposure to bright artificial lights can permanently damage the image intensifier tube'."
+        }
+      ]
+    },
+    {
+      "id": "reading_curated_13",
+      "title": "Emergency Evacuation Drill",
+      "text": "Every quarter, the barracks organizes an unannounced fire and evacuation drill to evaluate reaction times. Personnel must leave their offices via the nearest marked exit, avoid using lifts, and gather at Assembly Point Bravo within four minutes. Section leaders are responsible for checking the nominal roll once everyone is outside.",
+      "questions": [
+        {
+          "id": "RC_CUR_13_Q1",
+          "question": "Who is in charge of verifying attendance at Assembly Point Bravo?",
+          "options": {
+            "A": "The fire brigade chief",
+            "B": "The building security receptionist",
+            "C": "The section leaders",
+            "D": "The medical team"
+          },
+          "answer": "C",
+          "explanation": "El texto indica: 'Section leaders are responsible for checking the nominal roll once everyone is outside'."
+        }
+      ]
+    },
+    {
+      "id": "reading_curated_14",
+      "title": "Hydration During Summer Manoeuvres",
+      "text": "High temperatures during July field exercises pose a serious risk of heat exhaustion. Medical officers recommend drinking small amounts of water regularly rather than waiting until you feel thirsty. Each soldier is issued a three-litre hydration pack and electrolyte tablets, which can last up to eight hours of continuous marching.",
+      "questions": [
+        {
+          "id": "RC_CUR_14_Q1",
+          "question": "What is the maximum duration a hydration pack can cover during continuous marching?",
+          "options": {
+            "A": "At least ten hours",
+            "B": "No more than eight hours",
+            "C": "Exactly three hours",
+            "D": "Twenty-four hours"
+          },
+          "answer": "B",
+          "explanation": "El texto usa 'up to eight hours', que significa 'hasta ocho horas' (como máximo 8 horas)."
+        }
+      ]
+    },
+    {
+      "id": "reading_curated_15",
+      "title": "Cybersecurity Policy on Military Networks",
+      "text": "To protect sensitive operational data, personal USB flash drives are strictly prohibited on military workstations. Files may only be transferred using encrypted, command-approved storage devices scanned at the IT security desk. Violations of this policy must be reported immediately to the communications officer.",
+      "questions": [
+        {
+          "id": "RC_CUR_15_Q1",
+          "question": "What is the rule regarding personal USB drives on military computers?",
+          "options": {
+            "A": "They are allowed only after 18:00",
+            "B": "They are completely forbidden on military workstations",
+            "C": "They can be used if scanned by the user",
+            "D": "They are issued to all new cadets"
+          },
+          "answer": "B",
+          "explanation": "El texto establece: 'personal USB flash drives are strictly prohibited on military workstations'."
         }
       ]
     }
@@ -2117,6 +2224,514 @@ window.EXAM_DATA = {
           },
           "answer": "A",
           "explanation": "Futuro simple con marcador temporal 'Next month': 'will participate'."
+        }
+      ]
+    },
+    {
+      "id": "cloze_curated_07",
+      "title": "Joint Mountain Survival Exercise (Present Perfect)",
+      "text": "Our unit (31) _____ trained in the Pyrenees for the past two weeks. We have been stationed at Camp Somport (32) _____ 10th November. Although the weather has been freezing, nobody (33) _____ complained about the living conditions. Have you (34) _____ slept in a snow shelter before? Sergeant Vidal has (35) _____ completed three winter survival courses, so he leads every climb. Unfortunately, the supply helicopter hasn't arrived (36) _____ because of strong winds. Yesterday, the team (37) _____ a temporary bridge across the frozen stream. We (38) _____ waiting for clear skies since early this morning. Everyone is looking forward (39) _____ returning to the main base tomorrow, (40) _____ the training has been extremely valuable.",
+      "questions": [
+        {
+          "id": "CC07_Q31",
+          "question": "Completa el hueco (31):",
+          "options": {
+            "A": "have",
+            "B": "has",
+            "C": "is",
+            "D": "was"
+          },
+          "answer": "B",
+          "explanation": "Sujeto colectivo singular 'Our unit' en Present Perfect con 'for the past two weeks': 'has trained'."
+        },
+        {
+          "id": "CC07_Q32",
+          "question": "Completa el hueco (32):",
+          "options": {
+            "A": "for",
+            "B": "from",
+            "C": "since",
+            "D": "ago"
+          },
+          "answer": "C",
+          "explanation": "'since' introduce un punto de inicio concreto ('10th November'), frente a 'for' que expresa duración."
+        },
+        {
+          "id": "CC07_Q33",
+          "question": "Completa el hueco (33):",
+          "options": {
+            "A": "has",
+            "B": "have",
+            "C": "are",
+            "D": "were"
+          },
+          "answer": "A",
+          "explanation": "Los pronombres indefinidos como 'nobody' rigen siempre verbo en 3.ª persona del singular ('nobody has complained')."
+        },
+        {
+          "id": "CC07_Q34",
+          "question": "Completa el hueco (34):",
+          "options": {
+            "A": "never",
+            "B": "yet",
+            "C": "ever",
+            "D": "already"
+          },
+          "answer": "C",
+          "explanation": "'ever' se utiliza en preguntas de experiencia vital en Present Perfect ('Have you ever slept...?')."
+        },
+        {
+          "id": "CC07_Q35",
+          "question": "Completa el hueco (35):",
+          "options": {
+            "A": "already",
+            "B": "yet",
+            "C": "still",
+            "D": "since"
+          },
+          "answer": "A",
+          "explanation": "'already' se sitúa entre 'has' y el participio en oraciones afirmativas ('has already completed')."
+        },
+        {
+          "id": "CC07_Q36",
+          "question": "Completa el hueco (36):",
+          "options": {
+            "A": "already",
+            "B": "just",
+            "C": "still",
+            "D": "yet"
+          },
+          "answer": "D",
+          "explanation": "'yet' va al final de oraciones negativas e interrogativas en Present Perfect ('hasn't arrived yet')."
+        },
+        {
+          "id": "CC07_Q37",
+          "question": "Completa el hueco (37):",
+          "options": {
+            "A": "has built",
+            "B": "built",
+            "C": "builds",
+            "D": "was build"
+          },
+          "answer": "B",
+          "explanation": "'Yesterday' indica un tiempo pasado acabado, por lo que exige Past Simple ('built'), nunca Present Perfect."
+        },
+        {
+          "id": "CC07_Q38",
+          "question": "Completa el hueco (38):",
+          "options": {
+            "A": "are",
+            "B": "were",
+            "C": "have been",
+            "D": "has been"
+          },
+          "answer": "C",
+          "explanation": "Present Perfect Continuous con 'we' y 'since early this morning' para acción que continúa: 'have been waiting'."
+        },
+        {
+          "id": "CC07_Q39",
+          "question": "Completa el hueco (39):",
+          "options": {
+            "A": "for",
+            "B": "at",
+            "C": "in",
+            "D": "to"
+          },
+          "answer": "D",
+          "explanation": "Chunk fijo 'look forward to + gerundio (-ing)': 'looking forward to returning'."
+        },
+        {
+          "id": "CC07_Q40",
+          "question": "Completa el hueco (40):",
+          "options": {
+            "A": "despite",
+            "B": "although",
+            "C": "however",
+            "D": "in spite of"
+          },
+          "answer": "B",
+          "explanation": "'although' enlaza con una oración completa (sujeto + verbo: 'the training has been...')."
+        }
+      ]
+    },
+    {
+      "id": "cloze_curated_08",
+      "title": "Quartermaster Supply Inspection (Quantifiers & Agreement)",
+      "text": "Before the annual inspection, the quartermaster checked the warehouse. We don't have (31) _____ information about the arrival of the new helmets yet. Fortunately, there are (32) _____ spare boots in the storage room, so every recruit (33) _____ a pair in the right size. (34) _____ of the two trucks is available today because both engines (35) _____ undergoing repair. The colonel said that (36) _____ students passed the logistics test, which is great news. However, we only have (37) _____ time before the convoy departs, and we don't have (38) _____ fuel for a long detour. All the equipment (39) _____ stored in dry containers, and (40) _____ soldier must sign for their rifle.",
+      "questions": [
+        {
+          "id": "CC08_Q31",
+          "question": "Completa el hueco (31):",
+          "options": {
+            "A": "many",
+            "B": "much",
+            "C": "few",
+            "D": "a few"
+          },
+          "answer": "B",
+          "explanation": "'information' es estrictamente incontable en inglés y la frase es negativa, por lo que exige 'much' (nunca 'many/few')."
+        },
+        {
+          "id": "CC08_Q32",
+          "question": "Completa el hueco (32):",
+          "options": {
+            "A": "a little",
+            "B": "little",
+            "C": "a few",
+            "D": "much"
+          },
+          "answer": "C",
+          "explanation": "'boots' es contable plural y el tono es positivo ('Fortunately'), así que corresponde 'a few'."
+        },
+        {
+          "id": "CC08_Q33",
+          "question": "Completa el hueco (33):",
+          "options": {
+            "A": "have",
+            "B": "are",
+            "C": "has",
+            "D": "were"
+          },
+          "answer": "C",
+          "explanation": "'every' exige siempre sustantivo y verbo en singular ('every recruit has')."
+        },
+        {
+          "id": "CC08_Q34",
+          "question": "Completa el hueco (34):",
+          "options": {
+            "A": "Both",
+            "B": "All",
+            "C": "Neither",
+            "D": "Many"
+          },
+          "answer": "C",
+          "explanation": "El verbo está en singular ('is') y hay dos camiones ('two trucks'): 'Neither of the two trucks is...'."
+        },
+        {
+          "id": "CC08_Q35",
+          "question": "Completa el hueco (35):",
+          "options": {
+            "A": "is",
+            "B": "was",
+            "C": "has",
+            "D": "are"
+          },
+          "answer": "D",
+          "explanation": "'both' rige siempre verbo en plural ('both engines are undergoing')."
+        },
+        {
+          "id": "CC08_Q36",
+          "question": "Completa el hueco (36):",
+          "options": {
+            "A": "most of",
+            "B": "most",
+            "C": "every",
+            "D": "much"
+          },
+          "answer": "B",
+          "explanation": "Delante de un sustantivo general sin determinante se usa 'most students' (nunca '*most of students')."
+        },
+        {
+          "id": "CC08_Q37",
+          "question": "Completa el hueco (37):",
+          "options": {
+            "A": "few",
+            "B": "little",
+            "C": "many",
+            "D": "several"
+          },
+          "answer": "B",
+          "explanation": "'time' es incontable y 'only' refuerza escasez ('only little time')."
+        },
+        {
+          "id": "CC08_Q38",
+          "question": "Completa el hueco (38):",
+          "options": {
+            "A": "enough",
+            "B": "too",
+            "C": "many",
+            "D": "few"
+          },
+          "answer": "A",
+          "explanation": "'enough' se coloca delante de los sustantivos ('enough fuel')."
+        },
+        {
+          "id": "CC08_Q39",
+          "question": "Completa el hueco (39):",
+          "options": {
+            "A": "are",
+            "B": "were",
+            "C": "is",
+            "D": "have"
+          },
+          "answer": "C",
+          "explanation": "'equipment' es un sustantivo incontable en inglés, por lo que concuerda siempre en singular ('is stored')."
+        },
+        {
+          "id": "CC08_Q40",
+          "question": "Completa el hueco (40):",
+          "options": {
+            "A": "all",
+            "B": "both",
+            "C": "many",
+            "D": "each"
+          },
+          "answer": "D",
+          "explanation": "'soldier' está en singular, por lo que requiere 'each' (cada soldado) y no cuantificadores plurales."
+        }
+      ]
+    },
+    {
+      "id": "cloze_curated_09",
+      "title": "Communications Workshop (TO vs FOR & Purpose)",
+      "text": "Yesterday our technicians travelled to Madrid (31) _____ attend an advanced radio seminar. The instructor explained the new encryption procedure (32) _____ the whole group. This portable tester is used (33) _____ checking antenna signals in the field. We wrote down every step in our notebooks (34) _____ forget the calibration sequence. The engineer also gave us a clear diagram (35) _____ we could configure the frequencies quickly. According (36) _____ the manual, poor cable insulation can lead (37) _____ signal loss. After the practice, the team was ready (38) _____ the final assessment. Personally, I prefer practical exercises (39) _____ long theoretical lectures, and everyone thanked the instructor (40) _____ his patience.",
+      "questions": [
+        {
+          "id": "CC09_Q31",
+          "question": "Completa el hueco (31):",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "so that",
+            "D": "because"
+          },
+          "answer": "B",
+          "explanation": "Para expresar la finalidad de una acción delante de forma base ('attend') se usa 'to' (nunca '*for attend')."
+        },
+        {
+          "id": "CC09_Q32",
+          "question": "Completa el hueco (32):",
+          "options": {
+            "A": "for",
+            "B": "at",
+            "C": "to",
+            "D": "with"
+          },
+          "answer": "C",
+          "explanation": "El verbo 'explain' exige la estructura 'explain something TO someone'."
+        },
+        {
+          "id": "CC09_Q33",
+          "question": "Completa el hueco (33):",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "so as",
+            "D": "in order"
+          },
+          "answer": "B",
+          "explanation": "Para expresar la función o utilidad de un objeto seguido de gerundio (-ing: 'checking') se usa 'be used for'."
+        },
+        {
+          "id": "CC09_Q34",
+          "question": "Completa el hueco (34):",
+          "options": {
+            "A": "in order to not",
+            "B": "for not to",
+            "C": "so as not to",
+            "D": "so that not"
+          },
+          "answer": "C",
+          "explanation": "La finalidad negativa coloca 'not' delante de 'to': 'so as not to forget' / 'in order not to forget'."
+        },
+        {
+          "id": "CC09_Q35",
+          "question": "Completa el hueco (35):",
+          "options": {
+            "A": "so that",
+            "B": "in order to",
+            "C": "for",
+            "D": "to"
+          },
+          "answer": "A",
+          "explanation": "Seguido de oración completa con sujeto + modal ('we could configure') es obligatorio 'so that'."
+        },
+        {
+          "id": "CC09_Q36",
+          "question": "Completa el hueco (36):",
+          "options": {
+            "A": "for",
+            "B": "with",
+            "C": "by",
+            "D": "to"
+          },
+          "answer": "D",
+          "explanation": "Expresión fija invariable: 'According to' (según / de acuerdo con)."
+        },
+        {
+          "id": "CC09_Q37",
+          "question": "Completa el hueco (37):",
+          "options": {
+            "A": "for",
+            "B": "to",
+            "C": "at",
+            "D": "into"
+          },
+          "answer": "B",
+          "explanation": "Chunk preposicional fijo: 'lead to' (provocar / dar lugar a)."
+        },
+        {
+          "id": "CC09_Q38",
+          "question": "Completa el hueco (38):",
+          "options": {
+            "A": "to",
+            "B": "at",
+            "C": "for",
+            "D": "with"
+          },
+          "answer": "C",
+          "explanation": "Delante de sustantivo ('the final assessment') se usa 'ready for', mientras que 'ready to' exige verbo."
+        },
+        {
+          "id": "CC09_Q39",
+          "question": "Completa el hueco (39):",
+          "options": {
+            "A": "than",
+            "B": "for",
+            "C": "from",
+            "D": "to"
+          },
+          "answer": "D",
+          "explanation": "La estructura correcta es 'prefer A to B' (nunca '*prefer A than B' con sustantivos)."
+        },
+        {
+          "id": "CC09_Q40",
+          "question": "Completa el hueco (40):",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "by",
+            "D": "of"
+          },
+          "answer": "B",
+          "explanation": "Patrón fijo: 'thank someone FOR something' ('thanked the instructor for his patience')."
+        }
+      ]
+    },
+    {
+      "id": "cloze_curated_10",
+      "title": "Academy Promotion Exam Preparation (Comprehensive)",
+      "text": "Candidates preparing for the Sergeant promotion exam study hard (31) _____ several months. The written English paper takes place (32) _____ July and lasts ninety minutes. (33) _____ candidate is required to score at least seventy percent to pass. Last year's exam was (34) _____ difficult than the practice tests, yet most candidates succeeded. While one group (35) _____ grammar exercises in the library, the others revised vocabulary lists. The academy director, (36) _____ office is on the second floor, congratulated the top scorers. Everyone knows that regular practice is good (37) _____ building confidence. Remember to read (38) _____ instructions carefully before answering, and do not leave (39) _____ question blank because wrong answers are not penalized. Good luck (40) _____ all future non-commissioned officers!",
+      "questions": [
+        {
+          "id": "CC10_Q31",
+          "question": "Completa el hueco (31):",
+          "options": {
+            "A": "since",
+            "B": "for",
+            "C": "during",
+            "D": "ago"
+          },
+          "answer": "B",
+          "explanation": "'for' expresa duración seguida de un periodo de tiempo ('for several months')."
+        },
+        {
+          "id": "CC10_Q32",
+          "question": "Completa el hueco (32):",
+          "options": {
+            "A": "on",
+            "B": "at",
+            "C": "in",
+            "D": "by"
+          },
+          "answer": "C",
+          "explanation": "Con meses del año aislados ('July') se utiliza siempre la preposición 'in'."
+        },
+        {
+          "id": "CC10_Q33",
+          "question": "Completa el hueco (33):",
+          "options": {
+            "A": "All",
+            "B": "Both",
+            "C": "Every",
+            "D": "Many"
+          },
+          "answer": "C",
+          "explanation": "'candidate' y el verbo 'is' están en singular, por lo que corresponde 'Every'."
+        },
+        {
+          "id": "CC10_Q34",
+          "question": "Completa el hueco (34):",
+          "options": {
+            "A": "most",
+            "B": "more",
+            "C": "much",
+            "D": "as"
+          },
+          "answer": "B",
+          "explanation": "Comparativo de superioridad con adjetivo largo ('difficult') seguido de 'than': 'more difficult than'."
+        },
+        {
+          "id": "CC10_Q35",
+          "question": "Completa el hueco (35):",
+          "options": {
+            "A": "was doing",
+            "B": "were doing",
+            "C": "did",
+            "D": "has done"
+          },
+          "answer": "A",
+          "explanation": "Past Continuous tras 'While' para acción simultánea en pasado con sujeto singular 'one group': 'was doing'."
+        },
+        {
+          "id": "CC10_Q36",
+          "question": "Completa el hueco (36):",
+          "options": {
+            "A": "who",
+            "B": "which",
+            "C": "whose",
+            "D": "whom"
+          },
+          "answer": "C",
+          "explanation": "Relativo posesivo ('cuya oficina'): 'whose office is on the second floor'."
+        },
+        {
+          "id": "CC10_Q37",
+          "question": "Completa el hueco (37):",
+          "options": {
+            "A": "to",
+            "B": "for",
+            "C": "with",
+            "D": "at"
+          },
+          "answer": "B",
+          "explanation": "'good for + -ing/noun' indica que algo es beneficioso o útil para algo."
+        },
+        {
+          "id": "CC10_Q38",
+          "question": "Completa el hueco (38):",
+          "options": {
+            "A": "a",
+            "B": "an",
+            "C": "the",
+            "D": "this"
+          },
+          "answer": "C",
+          "explanation": "Artículo definido 'the' para referirse a unas instrucciones específicas del examen ('the instructions')."
+        },
+        {
+          "id": "CC10_Q39",
+          "question": "Completa el hueco (39):",
+          "options": {
+            "A": "no",
+            "B": "any",
+            "C": "some",
+            "D": "none"
+          },
+          "answer": "B",
+          "explanation": "En oración negativa ('do not leave') se usa 'any' para evitar la doble negación (*do not leave no)."
+        },
+        {
+          "id": "CC10_Q40",
+          "question": "Completa el hueco (40):",
+          "options": {
+            "A": "for",
+            "B": "at",
+            "C": "to",
+            "D": "with"
+          },
+          "answer": "C",
+          "explanation": "Expresión idiomática para desear suerte a un destinatario: 'Good luck to + persona'."
         }
       ]
     }
