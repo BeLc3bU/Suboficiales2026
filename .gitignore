@@ -22,6 +22,10 @@ Thumbs.db
 .DS_Store
 .directory
 
+# Archivos temporales de Microsoft Office / bloqueos
+~$*
+*.tmp
+
 # IDEs
 .vscode/
 .idea/

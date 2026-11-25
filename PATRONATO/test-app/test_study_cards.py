@@ -8,6 +8,7 @@ import os
 import sys
 import json
 import re
+import tempfile
 import unittest
 
 # Asegurar que el directorio local de test-app esté en sys.path
@@ -20,8 +21,14 @@ class TestStudyCardsGeneration(unittest.TestCase):
     def setUpClass(cls):
         cls.base_dir = os.path.dirname(os.path.abspath(__file__))
         cls.patronato_dir = os.path.abspath(os.path.join(cls.base_dir, ".."))
-        cls.js_dir = os.path.join(cls.base_dir, "js")
+        cls.prod_output_file = os.path.join(cls.base_dir, "js", "study-cards-data.js")
+        cls._tmp_dir = tempfile.TemporaryDirectory()
+        cls.js_dir = cls._tmp_dir.name
         cls.output_file = os.path.join(cls.js_dir, "study-cards-data.js")
+
+    @classmethod
+    def tearDownClass(cls):
+        cls._tmp_dir.cleanup()
 
     def test_01_builder_module_exists(self):
         """Verifica que el módulo study_cards_builder existe y se puede importar."""
@@ -57,7 +64,7 @@ class TestStudyCardsGeneration(unittest.TestCase):
         data = json.loads(match.group(1))
         sheets = data["sheets"]
 
-        expected_topics = [f"tema_{i}" for i in range(1, 16)]
+        expected_topics = [f"tema_{i}" for i in range(1, 17)]
         for tid in expected_topics:
             self.assertIn(tid, sheets, f"Falta ficha para {tid}")
             sheet = sheets[tid]
@@ -123,6 +130,23 @@ class TestStudyCardsGeneration(unittest.TestCase):
         self.assertTrue("comparative" in t13.lower() or "superlative" in t13.lower() or "than" in t13.lower())
         self.assertIn("tema_13_f1", sheets)
         self.assertIn("tema_13_f2", sheets)
+
+        # Tema 16: TO vs FOR + Purpose Clauses
+        t16 = json.dumps(sheets["tema_16"], ensure_ascii=False)
+        self.assertTrue("in order not to" in t16.lower() or "so that" in t16.lower())
+        self.assertTrue("look forward to" in t16.lower())
+        self.assertIn("tema_16_f1", sheets)
+        self.assertIn("tema_16_f2", sheets)
+
+    def test_05_production_study_cards_covers_all_aliases(self):
+        """Verifica en modo solo lectura que el archivo de producción study-cards-data.js incluye todos los alias."""
+        self.assertTrue(os.path.exists(self.prod_output_file), "Falta study-cards-data.js en js/")
+        with open(self.prod_output_file, "r", encoding="utf-8") as f:
+            content = f.read()
+        data = json.loads(re.search(r'window\.STUDY_DATA\s*=\s*(\{.*?\});?\s*$', content, re.DOTALL).group(1))
+        sheets = data["sheets"]
+        for expected in ("tema_16", "tema_16_f1", "tema_16_f2", "temario_unit1_pronombres"):
+            self.assertIn(expected, sheets)
 
 if __name__ == "__main__":
     unittest.main()

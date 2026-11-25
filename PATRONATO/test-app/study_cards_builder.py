@@ -1199,6 +1199,114 @@ CURATED_STUDY_SHEETS = {
                 "back": "DELANTE del sustantivo: 'enough money', 'enough time'.\nDETRÁS del adjetivo: 'fast enough', 'strong enough'."
             }
         ]
+    },
+
+    "tema_16": {
+        "topicId": "tema_16",
+        "badge": "Tema 16",
+        "title": "TO vs FOR + Purpose Clauses",
+        "summary": "Diferenciación precisa entre TO y FOR en usos básicos (destinatario vs beneficiario, duración, utilidad) y oraciones finales (to / in order to / so as to / so that), además de chunks preposicionales clave.",
+        "goldenRules": [
+            {
+                "title": "Finalidad de una acción vs Función de una cosa",
+                "content": "Para explicar por qué una persona realiza una acción usa TO + forma base (o in order to / so as to): 'We went to London TO improve our English'. Para expresar la función o utilidad de un objeto usa FOR + sustantivo o gerundio (-ing): 'This tool is used FOR cutting metal'."
+            },
+            {
+                "title": "Finalidad negativa: posición obligatoria de NOT",
+                "content": "Nunca uses 'not to' aislado tras in order / so as al final, ni pongas 'not' después de 'to'. La forma correcta coloca NOT delante de TO: IN ORDER NOT TO + forma base / SO AS NOT TO + forma base ('He spoke quietly so as not to wake the children')."
+            },
+            {
+                "title": "SO THAT + Sujeto + Verbo (oración completa)",
+                "content": "Cuando la finalidad introduce un sujeto distinto o necesita verbo conjugado, usa SO THAT + sujeto + can/will (presente/futuro) o could/would (pasado): 'The teacher repeated the instructions so that the students could understand them'."
+            },
+            {
+                "title": "Receptor (TO) vs Beneficiario (FOR)",
+                "content": "TO indica dirección o destinatario ('¿a quién va?'): give/send/show/explain something TO someone. FOR indica beneficiario ('¿para quién se hace?') o sustitución ('en lugar de'): buy/make/do something FOR someone."
+            },
+            {
+                "title": "Chunks donde TO es preposición (+ Sustantivo / -ing)",
+                "content": "En expresiones fijas como LOOK FORWARD TO, LEAD TO y CONTRIBUTE TO, la palabra 'to' es preposición y NO marca infinitivo: después va sustantivo o gerundio (-ing), nunca forma base ('We look forward to hearing from you')."
+            }
+        ],
+        "examTraps": [
+            {
+                "trap": "Usar 'FOR + forma base' para expresar finalidad de una acción",
+                "exampleBad": "We went to London for improve our English. ❌",
+                "exampleGood": "We went to London to improve our English. ✔️",
+                "explanation": "FOR nunca va seguido de verbo en forma base. Para el propósito de una acción usa TO + forma base (o in order to / so as to); FOR exige sustantivo o -ing."
+            },
+            {
+                "trap": "Poner forma base tras 'look forward to', 'lead to' o 'contribute to'",
+                "exampleBad": "I am looking forward to see you again. ❌",
+                "exampleGood": "I am looking forward to seeing you again. ✔️",
+                "explanation": "En estos chunks 'to' es preposición fija, no marcador de infinitivo. Obliga a usar gerundio (-ing) o sustantivo."
+            },
+            {
+                "trap": "Calco del español en 'explain someone something' o 'married with'",
+                "exampleBad": "Can you explain me this problem? / She is married with a doctor. ❌",
+                "exampleGood": "Can you explain this problem to me? / She is married to a doctor. ✔️",
+                "explanation": "'Explain' exige 'something TO someone' (nunca 'explain me'). 'Be married' rige siempre 'TO' (y el verbo activo 'marry' no lleva preposición)."
+            },
+            {
+                "trap": "Confundir 'prefer A to B' con 'prefer A than B' o 'close to' con 'close from'",
+                "exampleBad": "I prefer tea than coffee. / It is close from the base. ❌",
+                "exampleGood": "I prefer tea to coffee. / It is close to the base. ✔️",
+                "explanation": "'Prefer' compara con TO (no 'than' con sustantivos/gerundios) y 'close' rige TO (nunca 'from')."
+            },
+            {
+                "trap": "Confundir 'to me' (opinión) con 'for me' (beneficio/capacidad)",
+                "exampleBad": "This exercise is too difficult to me. / For me, the second option seems safer. ❌",
+                "exampleGood": "This exercise is too difficult for me. / To me, the second option seems safer. ✔️",
+                "explanation": "TO ME indica opinión, parecer o importancia personal ('It looks difficult to me'). FOR ME indica beneficio, utilidad o capacidad ('too difficult for me', 'good for me')."
+            }
+        ],
+        "examTips": [
+            {
+                "rule": "Estrategia 70% Apto: Mira qué viene justo después del hueco",
+                "tip": "Si tras el hueco hay un VERBO EN FORMA BASE, descarta FOR al instante (usa TO / in order to / so as to). Si tras el hueco hay un VERBO EN -ING para explicar la utilidad de un objeto, marca FOR."
+            },
+            {
+                "rule": "Detección rápida de SO THAT",
+                "tip": "Si después del hueco aparece un SUJETO + VERBO MODAL (you can, they could, we will), descarta 'to', 'in order to' y 'for'; la estructura correcta de oración completa es 'so that'."
+            },
+            {
+                "rule": "Descarte en expresiones fijas (Chunks TO vs FOR)",
+                "tip": "Memoriza los pares trampa del tribunal: ask someone (preguntar) vs ask FOR something (pedir); good TO someone (tratar bien) vs good FOR someone (saludable/beneficioso); ready TO + verbo vs ready FOR + sustantivo."
+            }
+        ],
+        "vocabularyKeys": [
+            { "term": "Look forward to / Lead to / Contribute to", "meaning": "Tener ganas de / Provocar / Contribuir a", "distractorRole": "TO es preposición: exigen sustantivo o gerundio (-ing), nunca forma base." },
+            { "term": "According to / Up to", "meaning": "Según / Hasta (como máximo)", "distractorRole": "Muy frecuentes en Reading. 'Up to 200' significa como máximo 200, nunca 'al menos'." },
+            { "term": "Explain sth to sb / Be married to", "meaning": "Explicar algo a alguien / Estar casado con", "distractorRole": "Trampas clásicas por traducción literal del español (*explain me, *married with)." },
+            { "term": "Responsible for / Apologize for / Be used for", "meaning": "Responsable de / Disculparse por / Usarse para", "distractorRole": "Rigen FOR + sustantivo o -ing. Nota: 'be used to + base form' también expresa utilidad de una cosa." },
+            { "term": "Ready to vs Ready for", "meaning": "Listo para (acción) vs Preparado para (cosa/evento)", "distractorRole": "Ready TO start (verbo) frente a Ready FOR the exam (sustantivo)." }
+        ],
+        "flashcards": [
+            {
+                "front": "¿Cómo se distingue el uso de TO y FOR para expresar finalidad o utilidad?",
+                "back": "TO + forma base explica por qué alguien hace una acción ('I bought a map to find the hotel').\nFOR + sustantivo/-ing explica la función o utilidad de una cosa ('This tool is used for cutting metal')."
+            },
+            {
+                "front": "¿Cuál es la posición correcta de 'NOT' en una oración de finalidad negativa?",
+                "back": "Delante de TO:\n✔️ 'in order NOT to miss the bus'\n✔️ 'so as NOT to wake the children'\n(Nunca 'to not' ni 'for not')."
+            },
+            {
+                "front": "¿Qué estructura sigue obligatoriamente a 'SO THAT'?",
+                "back": "Una oración completa (SUJETO + VERBO, habitualmente can/could/will/would):\n✔️ 'I sent the map so that you could find the base'."
+            },
+            {
+                "front": "¿Qué forma verbal sigue a 'look forward to', 'lead to' y 'contribute to'?",
+                "back": "Sustantivo o GERUNDIO (-ing), porque aquí 'to' es preposición:\n✔️ 'I look forward to hearing from you' (no *to hear)."
+            },
+            {
+                "front": "¿Cuál es la diferencia entre 'good TO someone' y 'good FOR someone'?",
+                "back": "good TO someone = tratar bien a alguien ('She was good to me').\ngood FOR someone = beneficioso/saludable ('Exercise is good for you')."
+            },
+            {
+                "front": "¿Cómo se dice correctamente 'explicar algo a alguien' y 'estar casado con alguien'?",
+                "back": "✔️ 'explain something TO someone' (no *explain me something).\n✔️ 'be married TO someone' (no *married with someone)."
+            }
+        ]
     }
 }
 
@@ -1216,6 +1324,9 @@ TOPIC_ALIASES = {
     "tema_14_f3": "tema_14",
     "tema_15_f1": "tema_15",
     "tema_15_f2": "tema_15",
+    "tema_16_f1": "tema_16",
+    "tema_16_f2": "tema_16",
+    "temario_unit1_pronombres": "tema_3",
 }
 
 def analyze_theory_and_vocab_files(patronato_dir):

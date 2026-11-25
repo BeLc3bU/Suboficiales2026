@@ -803,6 +803,41 @@
     });
   };
 
+  window.startSmartReview = function (count) {
+    if (!checkPendingBeforeStarting()) return;
+    const all = getAllQuestions();
+    if (all.length === 0) {
+      alert('No hay preguntas disponibles.');
+      return;
+    }
+
+    const target = Math.min(count || 25, all.length);
+    const errorSet = new Set(state.errors || []);
+    const seenSet = new Set();
+    (state.history || []).forEach(h => {
+      (h.questionsReview || []).forEach(qr => {
+        if (qr && qr.id && !qr.isBlank) seenSet.add(qr.id);
+      });
+    });
+
+    const shuffleArr = arr => [...arr].sort(() => Math.random() - 0.5);
+    const priorityErrors = shuffleArr(all.filter(q => errorSet.has(q.id)));
+    const priorityUnseen = shuffleArr(all.filter(q => !errorSet.has(q.id) && !seenSet.has(q.id)));
+    const restSeen = shuffleArr(all.filter(q => !errorSet.has(q.id) && seenSet.has(q.id)));
+
+    const selected = [...priorityErrors, ...priorityUnseen, ...restSeen].slice(0, target);
+    const errCount = selected.filter(q => errorSet.has(q.id)).length;
+    const unseenCount = selected.filter(q => !errorSet.has(q.id) && !seenSet.has(q.id)).length;
+
+    startQuizSession({
+      topicId: 'smart_review',
+      title: `Repaso Inteligente (${errCount} fallos, ${unseenCount} nuevas)`,
+      badge: 'Repaso IA',
+      mode: 'practice',
+      questions: selected
+    });
+  };
+
   window.startErrorsQuiz = function () {
     if (!checkPendingBeforeStarting()) return;
     if (state.errors.length === 0) {

@@ -52,9 +52,9 @@ class TestExamGenerator(unittest.TestCase):
         self.assertIn("readingUnits", data)
         self.assertIn("clozeUnits", data)
 
-        # Verificar que clozeUnits tiene al menos 8 textos de 10 preguntas cada uno
+        # Verificar que clozeUnits tiene al menos 12 textos de 10 preguntas cada uno
         clozes = data["clozeUnits"]
-        self.assertGreaterEqual(len(clozes), 8, "Debe haber al menos 8 textos cloze para garantizar variabilidad")
+        self.assertGreaterEqual(len(clozes), 12, "Debe haber al menos 12 textos cloze para garantizar variabilidad")
         for i, c in enumerate(clozes):
             self.assertIn("id", c)
             self.assertIn("title", c)
@@ -66,10 +66,10 @@ class TestExamGenerator(unittest.TestCase):
                 self.assertEqual(len(q["options"]), 4, "Cada pregunta debe tener 4 opciones (A, B, C, D)")
                 self.assertIn(q["answer"], ["A", "B", "C", "D"], f"Respuesta inválida en {q}")
 
-        # Verificar que readingUnits suma al menos 35 preguntas
+        # Verificar que readingUnits suma al menos 50 preguntas
         readings = data["readingUnits"]
         total_reading_qs = sum(len(r["questions"]) for r in readings)
-        self.assertGreaterEqual(total_reading_qs, 35, "Debe haber al menos 35 preguntas de reading en el pool")
+        self.assertGreaterEqual(total_reading_qs, 50, "Debe haber al menos 50 preguntas de reading en el pool")
         for r in readings:
             self.assertIn("text", r)
             self.assertGreater(len(r["questions"]), 0)

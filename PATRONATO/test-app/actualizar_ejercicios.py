@@ -1441,6 +1441,95 @@ def parse_generic_pdf(pdf_path, theory_titles=None, existing_ids=None):
         "questions": questions
     }
 
+def parse_temario_unit1(pdf_path):
+    """Extrae las 50 preguntas con solución verificada (marcada en negrita) de TEMARIO/exámenes UNIT 1.pdf."""
+    try:
+        reader = pypdf.PdfReader(pdf_path)
+    except Exception as e:
+        print(f"[AVISO] No se pudo abrir {pdf_path}: {e}")
+        return None
+
+    marked = []
+    def visitor(text, cm, tm, fontDict, fontSize):
+        if not text:
+            return
+        fname = str(fontDict.get('/BaseFont', '')) if fontDict else ''
+        is_bold = 'Bold' in fname
+        t_strip = text.strip()
+        if is_bold and re.match(r'^[a-d]\.$', t_strip):
+            marked.append(' <<BOLD_OPT>>' + t_strip + ' ')
+        else:
+            marked.append(text)
+
+    for pg in reader.pages:
+        pg.extract_text(visitor_text=visitor)
+
+    full = ''.join(marked)
+    # Quedarnos solo con el bloque "Soluciones - Lección 1" (antes de "Examen avanzado")
+    adv_idx = full.find("Examen avanzado")
+    if adv_idx != -1:
+        full = full[:adv_idx]
+    full = re.sub(r'Lección 1\. Los pronombres\s+\d+', '\n', full)
+    full = re.sub(r'Soluciones - Lección 1', '', full)
+
+    questions = []
+    chunks = re.split(r'(?=(?:^|\n|\s)\d{1,2}\s*[-–]\s+)', full)
+    q_opt_re = re.compile(
+        r'^\s*(\d{1,2})\s*[-–]\s+(.*?)\s+'
+        r'(<<BOLD_OPT>>)?a\.\s*(.*?)\s+'
+        r'(<<BOLD_OPT>>)?b\.\s*(.*?)\s+'
+        r'(<<BOLD_OPT>>)?c\.\s*(.*?)\s+'
+        r'(<<BOLD_OPT>>)?d\.\s*(.*?)\s*$',
+        re.DOTALL
+    )
+
+    for ch in chunks:
+        m = q_opt_re.match(ch)
+        if not m:
+            continue
+        q_num = int(m.group(1))
+        prompt = re.sub(r'\s+', ' ', m.group(2)).strip()
+        opt_a = re.sub(r'\s+', ' ', m.group(4)).strip().rstrip('.')
+        opt_b = re.sub(r'\s+', ' ', m.group(6)).strip().rstrip('.')
+        opt_c = re.sub(r'\s+', ' ', m.group(8)).strip().rstrip('.')
+        opt_d = re.sub(r'\s+', ' ', m.group(10)).strip().rstrip('.')
+
+        ans = None
+        if m.group(3): ans = "A"
+        elif m.group(5): ans = "B"
+        elif m.group(7): ans = "C"
+        elif m.group(9): ans = "D"
+
+        if not ans:
+            continue
+
+        # Restaurar hueco visual legible donde el PDF tenía espacio en blanco múltiple
+        prompt_clean = re.sub(r'/\s*(.+?)\s{2,}(.+)', lambda pm: '/ ' + pm.group(1) + ' ____ ' + pm.group(2), prompt)
+
+        questions.append({
+            "id": f"TEMARIO_U1_Q{q_num}",
+            "number": q_num,
+            "type": "choice",
+            "section": "Temario Oficial FCS — Unidad 1: Los Pronombres",
+            "question": prompt_clean,
+            "options": {"A": opt_a, "B": opt_b, "C": opt_c, "D": opt_d},
+            "answer": ans,
+            "explanation": f"Unidad 1 (Pronombres): Opción correcta {ans}."
+        })
+
+    if not questions:
+        return None
+
+    return {
+        "id": "temario_unit1_pronombres",
+        "title": "Temario FCS Unidad 1: Los Pronombres (50 Preguntas)",
+        "badge": "Temario U1",
+        "blockId": "temario_oficial",
+        "blockName": "Temario Oficial (FCS)",
+        "description": "Batería oficial con solución verificada de la Unidad 1 del Temario FCS (Pronombres personales, posesivos, reflexivos y relativos).",
+        "questions": questions
+    }
+
 def main():
     print("=== INICIANDO EXTRACCIÓN DE EJERCICIOS ===")
     topics = []
@@ -1607,6 +1696,15 @@ def main():
             else:
                 print(f"   [AVISO] No se pudieron extraer preguntas estructuradas de {f}")
 
+    # 4. TEMARIO OFICIAL (Exámenes con solución verificable en TEMARIO/)
+    temario_dir = os.path.abspath(os.path.join(PATRONATO_DIR, "..", "TEMARIO"))
+    unit1_pdf = os.path.join(temario_dir, "exámenes UNIT 1.pdf")
+    if os.path.exists(unit1_pdf):
+        unit1_topic = parse_temario_unit1(unit1_pdf)
+        if unit1_topic and unit1_topic.get("questions"):
+            topics.append(unit1_topic)
+            print(f"-> [TEMARIO] Extraídas {len(unit1_topic['questions'])} preguntas verificadas de exámenes UNIT 1.pdf")
+
     # Ordenar temas por Bloque y Número de tema
     def get_sort_key(t):
         block_id = t.get("blockId", "")
@@ -1635,6 +1733,15 @@ def main():
         return (b_num, 0, t_num, is_extra, tid)
 
     topics.sort(key=get_sort_key)
+
+    # Enriquecer explicaciones pedagógicas en todas las preguntas antes de exportar
+    try:
+        from explanation_enricher import enrich_topics
+        enriched_count = enrich_topics(topics)
+        print(f"[EXPLICACIONES] {enriched_count} explicaciones enriquecidas con reglas gramaticales.")
+    except Exception as e_exp:
+        print(f"[AVISO] No se pudieron enriquecer explicaciones: {e_exp}")
+
     total_questions = sum(len(t["questions"]) for t in topics)
     print(f"\n==========================================")
     print(f"Total de temas procesados: {len(topics)}")
