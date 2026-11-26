@@ -39,8 +39,8 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   const url = new URL(e.request.url);
-  // Don't cache Supabase or API sync calls
-  if (url.pathname.startsWith('/api') || url.hostname.includes('supabase') || e.request.method !== 'GET') {
+  // Don't cache non-http(s) requests (e.g. chrome-extension://), Supabase or API sync calls
+  if (!url.protocol.startsWith('http') || url.pathname.startsWith('/api') || url.hostname.includes('supabase') || e.request.method !== 'GET') {
     return;
   }
 

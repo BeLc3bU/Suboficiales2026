@@ -4,6 +4,23 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/PATRONATO/test-app",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/PATRONATO/test-app/(.*)",
+      "destination": "/",
+      "permanent": false
+    },
+    {
+      "source": "/favicon.ico",
+      "destination": "/icons/icon-192.png",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/api/(.*)",
