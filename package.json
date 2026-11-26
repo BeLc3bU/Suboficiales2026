@@ -1,0 +1,39 @@
+{
+  "name": "suboficiales-2026",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Plataforma PWA de entrenamiento y tests de inglés para la oposición a la Escala de Suboficiales 2026 (Patronato Militar).",
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/run-tool.mjs vite",
+    "build": "node scripts/run-tool.mjs tsc --noEmit && node scripts/run-tool.mjs vite build",
+    "preview": "node scripts/run-tool.mjs vite preview",
+    "extract": "py PATRONATO/test-app/actualizar_ejercicios.py",
+    "test:ui": "node scripts/run-tool.mjs vitest run",
+    "test:py": "py -m unittest discover -s PATRONATO/test-app -p \"test_*.py\" -v",
+    "test": "npm run test:ui && npm run test:py",
+    "lint": "py -m ruff check PATRONATO/test-app && node --check api/progress.js",
+    "verify": "agent verify && agent guard"
+  },
+  "dependencies": {
+    "lucide-react": "^1.81.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@testing-library/react": "^16.3.3",
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "jsdom": "^31.0.1",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.4.0",
+    "vite-plugin-pwa": "^2.0.0",
+    "vitest": "^5.1.2"
+  }
+}

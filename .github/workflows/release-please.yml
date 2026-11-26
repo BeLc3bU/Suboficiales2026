@@ -1,0 +1,28 @@
+name: 🚀 Release Automática (Release Please)
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          release-type: node
+          package-name: elite-speckit
+          changelog-types: >
+            [
+              {"type":"feat","section":"✨ Nuevas Funcionalidades","hidden":false},
+              {"type":"fix","section":"🐛 Corrección de Errores","hidden":false},
+              {"type":"perf","section":"⚡ Mejoras de Rendimiento","hidden":false},
+              {"type":"refactor","section":"♻️ Refactorización","hidden":false},
+              {"type":"docs","section":"📚 Documentación","hidden":false},
+              {"type":"chore","section":"🔧 Tareas de Mantenimiento","hidden":true}
+            ]

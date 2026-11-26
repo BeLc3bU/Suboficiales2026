@@ -7,6 +7,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Node.js, builds y datos locales de sesión
+node_modules/
+dist/
+dev-dist/
+PATRONATO/test-app/user_progress.json
 
 # Vercel
 .vercel

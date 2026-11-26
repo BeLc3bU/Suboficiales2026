@@ -1,0 +1,41 @@
+name: 🧪 Validación Continua (CI)
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js 24
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Configurar Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Instalar dependencias Python y Node
+        run: |
+          python -m pip install --upgrade pip && pip install -r requirements.txt
+          npm ci
+
+      - name: Lint Python y sintaxis JavaScript
+        run: |
+          python -m ruff check PATRONATO/test-app
+          node --check api/progress.js
+
+      - name: Compilar TypeScript, Vite Build y Tests
+        run: |
+          npm run build
+          npm test

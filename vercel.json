@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "cleanUrls": true,
   "rewrites": [
     {
@@ -7,12 +10,8 @@
       "destination": "/api/$1"
     },
     {
-      "source": "/",
-      "destination": "/PATRONATO/test-app/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/PATRONATO/test-app/$1"
+      "source": "/((?!api/|assets/|data/|icons/|sw\\.js|workbox-.*\\.js|manifest\\.webmanifest|registerSW\\.js).*)",
+      "destination": "/index.html"
     }
   ],
   "headers": [

@@ -1,0 +1,26 @@
+[project]
+name = "suboficiales-2026-extractor"
+version = "2.0.0"
+description = "Pipeline de extracción de PDFs, enriquecimiento gramatical y generación de tests para Patronato 2026."
+requires-python = ">=3.13"
+dependencies = [
+  "pypdf>=7.1.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=9.2.0",
+  "ruff>=0.17.6",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["PATRONATO/test-app"]
+python_files = ["test_*.py"]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = ["E501", "E701", "E741", "F541", "W291", "W293"]

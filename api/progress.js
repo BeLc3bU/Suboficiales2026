@@ -11,7 +11,13 @@ export default async function handler(req, res) {
     return res.status(200).end();
   }
 
-  const STORAGE_KEY = 'suboficiales_master_progress';
+  const rawProfile = typeof req.query?.profile === 'string'
+    ? req.query.profile.trim().toLowerCase().replace(/[^a-z0-9_-]/g, '')
+    : '';
+  const profileId = rawProfile || 'master';
+  const STORAGE_KEY = profileId === 'master'
+    ? 'suboficiales_master_progress'
+    : `suboficiales_profile_${profileId}`;
 
   // 1. Soporte para Vercel KV / Upstash Redis (Integración Marketplace / 1-clic de Vercel)
   const kvUrl = process.env.KV_REST_API_URL || 
@@ -43,7 +49,7 @@ export default async function handler(req, res) {
       }
 
       if (supabaseUrl && supabaseKey) {
-        const endpoint = `${supabaseUrl.replace(/\/$/, '')}/rest/v1/user_sync?sync_code=eq.master&select=*`;
+        const endpoint = `${supabaseUrl.replace(/\/$/, '')}/rest/v1/user_sync?sync_code=eq.${encodeURIComponent(profileId)}&select=*`;
         const response = await fetch(endpoint, {
           headers: {
             apikey: supabaseKey,
@@ -102,7 +108,7 @@ export default async function handler(req, res) {
             Prefer: 'resolution=merge-duplicates'
           },
           body: JSON.stringify({
-            sync_code: 'master',
+            sync_code: profileId,
             data: cleanPayload,
             updated_at: cleanPayload.updatedAt
           })

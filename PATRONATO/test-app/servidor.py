@@ -8,10 +8,12 @@ de actualización automática de ejercicios desde el botón del navegador.
 import http.server
 import socketserver
 import os
+import re
 import sys
 import json
-import webbrowser
 import socket
+import urllib.parse
+import webbrowser
 
 # Safe encoding
 if hasattr(sys.stdout, 'reconfigure'):
@@ -59,8 +61,16 @@ class AppRequestHandler(http.server.SimpleHTTPRequestHandler):
         else:
             super().do_GET()
 
+    def _get_progress_file(self):
+        parsed_url = urllib.parse.urlparse(self.path)
+        params = urllib.parse.parse_qs(parsed_url.query)
+        raw_profile = (params.get("profile", ["master"])[0] or "master").strip().lower()
+        profile = re.sub(r"[^a-z0-9_-]", "", raw_profile) or "master"
+        fname = "user_progress.json" if profile == "master" else f"user_progress_{profile}.json"
+        return os.path.join(BASE_DIR, fname)
+
     def obtener_progreso(self):
-        prog_file = os.path.join(BASE_DIR, "user_progress.json")
+        prog_file = self._get_progress_file()
         data = None
         if os.path.exists(prog_file):
             try:
@@ -80,7 +90,7 @@ class AppRequestHandler(http.server.SimpleHTTPRequestHandler):
         body = self.rfile.read(content_len)
         try:
             parsed = json.loads(body.decode('utf-8'))
-            prog_file = os.path.join(BASE_DIR, "user_progress.json")
+            prog_file = self._get_progress_file()
             with open(prog_file, "w", encoding="utf-8") as f:
                 json.dump(parsed, f, ensure_ascii=False, indent=2)
             self.send_response(200)

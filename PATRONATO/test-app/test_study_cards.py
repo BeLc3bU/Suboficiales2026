@@ -38,7 +38,7 @@ class TestStudyCardsGeneration(unittest.TestCase):
     def test_02_generation_creates_valid_js(self):
         """Verifica que la función genera el archivo study-cards-data.js con sintaxis válida."""
         import study_cards_builder
-        result = study_cards_builder.build_study_cards(self.patronato_dir, self.js_dir)
+        study_cards_builder.build_study_cards(self.patronato_dir, self.js_dir)
         self.assertTrue(os.path.exists(self.output_file), f"No existe {self.output_file}")
         
         with open(self.output_file, "r", encoding="utf-8") as f:

@@ -1782,6 +1782,13 @@ def main():
     except Exception as e_exam:
         print(f"[ERROR] No se pudo generar el dataset de simulacro oficial: {e_exam}")
 
+    # Exportar datasets JSON para la app Vite/React en public/data/
+    try:
+        from export_json_data import export_all_json
+        export_all_json()
+    except Exception as e_json:
+        print(f"[ERROR] No se pudieron exportar los JSON para public/data/: {e_json}")
+
     # Actualizar versión de caché en sw.js para forzar actualización en clientes/PWA
     sw_file = os.path.join(BASE_DIR, "sw.js")
     if os.path.exists(sw_file):
