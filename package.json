@@ -1,6 +1,6 @@
 {
   "name": "suboficiales-2026",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Plataforma PWA de entrenamiento y tests de inglés para la oposición a la Escala de Suboficiales 2026 (Patronato Militar).",
   "type": "module",
